@@ -1,3 +1,18 @@
+SCR_DestructibleBuildingEntity : "{06E446366B4183AD}Prefabs/Structures/Apartments/ApartmentBuilding_2I02_Brick.et" {
+ coords 7307.309 0 1389.936
+ angles 0 -90.105 0
+}
+SCR_DestructibleBuildingEntity : "{080058919D353B6B}Prefabs/Structures/Construcoes_Ruinas/abandonedShop.et" {
+ coords 6689.82 0 1213.549
+ angles 0 -89.801 0
+}
+SCR_DestructibleBuildingEntity : "{13F92A2D3FAD2626}Prefabs/Structures/Construcoes_Ruinas/Predio_Destruido6.et" {
+ coords 7265.162 0 1368.956
+ angles 0 -89.764 0
+}
+SCR_DestructibleBuildingEntity : "{29984BE889A1DB1E}Prefabs/Structures/Construcoes_Ruinas/ConstructArea1.et" {
+ coords 7248.489 0 1427.259
+}
 $grp SCR_DestructibleBuildingEntity : "{3299E6F34CE40185}Prefabs/Structures/Agriculture/Greenhouse/Greenhouse_01.et" {
  {
   coords 6690.961 0 1269.003
@@ -64,6 +79,9 @@ $grp SCR_DestructibleBuildingEntity : "{3299E6F34CE40185}Prefabs/Structures/Agri
   angles 0 89.88 0
  }
 }
+SCR_ChimeraCharacter : "{37578B1666981FCE}Prefabs/Characters/Core/Character_Base.et" {
+ coords 7289.814 30 1388.844
+}
 $grp SCR_DestructibleBuildingEntity : "{7AF750C232C9FB90}Prefabs/Infrastructure/Bridges/Highway Bridge with Pillars.et" {
  {
   coords 6133.903 29.511 1359.853
@@ -85,4 +103,36 @@ $grp SCR_DestructibleBuildingEntity : "{7AF750C232C9FB90}Prefabs/Infrastructure/
   coords 6233.076 29.511 1360.186
   angles 0 89.808 0
  }
+}
+$grp SCR_DestructibleBuildingEntity : "{A1C2F935C463393D}Prefabs/Structures/Industrial/OldOilTank2.et" {
+ {
+  coords 7327.992 0.035 1434.123
+  angles 0 1.19 0
+ }
+ {
+  coords 7339.051 0.035 1434.536
+  angles 0 -179.911 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{CBB9B7AF0182CDC9}Prefabs/Structures/Industrial/BigOldWarehouse1.et" {
+ coords 7282.584 0.146 1443.358
+ angles 0 179.316 0
+}
+SCR_DestructibleBuildingEntity : "{CC40AC3668097FE8}Prefabs/Structures/Construcoes_Ruinas/garagerust.et" {
+ coords 7290.326 0 1365.768
+ angles 0 -0.315 0
+}
+$grp SCR_DestructibleBuildingEntity : "{ED9E5911DED0FAE9}Prefabs/Structures/Veiculos/Bus.et" {
+ {
+  coords 7262.901 0 1397.786
+  angles 0 -76.241 0
+ }
+ {
+  coords 7258.615 0 1417.439
+  angles 0 113.782 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{F966FE992FC6F3D4}Prefabs/Structures/Construcoes_Ruinas/Predio_Destruido2.et" {
+ coords 7241.038 -0.493 1354.784
+ angles 0 -0.402 0
 }
