@@ -1,3 +1,7 @@
+StaticModelEntity : "{07F043DD6AACCD0B}Prefabs/Structures/Infrastructure/Barriers/BarGate_01/BarGate_01.et" {
+ coords 4571.537 0 2649.346
+ angles 0 -90 0
+}
 $grp SCR_DestructibleBuildingEntity : "{1AB3F8B3F8CA860D}Prefabs/Structures/Houses/Garage/Garage_B.et" {
  {
   coords 4507.466 0 2612.643
@@ -8,17 +12,13 @@ $grp SCR_DestructibleBuildingEntity : "{1AB3F8B3F8CA860D}Prefabs/Structures/Hous
 }
 $grp SCR_DestructibleBuildingEntity : "{3F91DEEC9C78E473}Prefabs/Structures/Military/Houses/GuardHouse_01/GuardHouse_01.et" {
  {
-  coords 4564.314 0 2638.69
+  coords 4565.507 0 2638.69
   angles 0 -90 0
  }
  {
   coords 4487.488 0 2708.063
   angles 0 -90 0
  }
-}
-GenericEntity : "{7D4ECB9C478F88AB}Prefabs/Wrecks/V3s/V3s_wreck_blue_v1.et" {
- coords 4550.752 20 2649.39
- angles 0 120 0
 }
 $grp SCR_DestructibleBuildingEntity : "{92AC652FED0FC35A}Prefabs/Structures/Houses/Village/House_Village_E_1I02/House_Village_E_1I02_white.et" {
  {
@@ -53,9 +53,6 @@ $grp SCR_DestructibleBuildingEntity : "{9EB89ABD6874D576}Prefabs/Structures/Mili
   coords 4535.305 0 2675.23
   angles 0 -90 0
  }
-}
-SCR_DestructibleBuildingEntity : "{B1F1B1BEB21102A7}Prefabs/Structures/Industrial/Houses/FactoryHall_E_01/FactoryHall_E_01.et" {
- coords 4524.998 20 2634.82
 }
 SCR_DestructibleBuildingEntity : "{B5C7B98E8A7C2B1D}Prefabs/Structures/Infrastructure/Power/Powerlines/Powerline_HV_USSR_01/Powerline_HV_USSR_01_end_v3_base.et" {
  coords 4552.36 0 2613.177
@@ -97,4 +94,8 @@ SCR_DestructibleBuildingEntity : "{EE6B95EB59D4CFFF}Prefabs/Structures/Industria
 }
 SCR_DestructibleBuildingEntity : "{F08D8E78433D713A}Prefabs/Structures/Houses/Shed/Shed_01/Shed_01.et" {
  coords 4552.026 -0.001 2617.67
+}
+SCR_DestructibleBuildingEntity : "{F536F4CB2FB2191C}Prefabs/Structures/Services/Hospital.et" {
+ coords 4524.594 0 2642.519
+ angles 0 -180 0
 }
