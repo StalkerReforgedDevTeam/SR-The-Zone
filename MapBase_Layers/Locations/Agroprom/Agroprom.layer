@@ -1,101 +1,126 @@
+GenericEntity {
+ components {
+  MeshObject "{6A2802470A6326C4}" {
+   Object "{9272681732A2A875}Assets/Infrastructure/Tunnels/Train Tunnel.xob"
+  }
+ }
+ coords 4513.392 22.98 3048.125
+ angles 0 90 0
+}
 StaticModelEntity : "{07F043DD6AACCD0B}Prefabs/Structures/Infrastructure/Barriers/BarGate_01/BarGate_01.et" {
- coords 4571.537 0 2649.346
+ coords 4304 0 2644.536
  angles 0 -90 0
 }
 $grp SCR_DestructibleBuildingEntity : "{1AB3F8B3F8CA860D}Prefabs/Structures/Houses/Garage/Garage_B.et" {
  {
-  coords 4507.466 0 2612.643
+  coords 4239.929 0 2607.833
  }
  {
-  coords 4516.003 0 2612.643
+  coords 4248.466 0 2607.833
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{3F91DEEC9C78E473}Prefabs/Structures/Military/Houses/GuardHouse_01/GuardHouse_01.et" {
  {
-  coords 4565.507 0 2638.69
+  coords 4297.97 0 2633.88
   angles 0 -90 0
  }
  {
-  coords 4487.488 0 2708.063
+  coords 4219.951 0 2703.253
   angles 0 -90 0
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{92AC652FED0FC35A}Prefabs/Structures/Houses/Village/House_Village_E_1I02/House_Village_E_1I02_white.et" {
  {
-  coords 4505.646 0 2685.882
+  coords 4238.109 0 2681.072
   angles 0 -90 0
  }
  {
-  coords 4510.349 0 2666.92
+  coords 4242.813 0 2662.11
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{9CA37F1FF41CC695}Prefabs/Structures/Military/WatchTower2.et" {
  {
-  coords 4472.897 0 2606.383
+  coords 4205.36 0 2601.573
  }
  {
-  coords 4563.646 0 2628.05
+  coords 4296.109 0 2623.24
  }
  {
-  coords 4565.05 0 2694.441
+  coords 4297.513 0 2689.631
  }
 }
 GenericEntity : "{9D7637C87054D142}PrefabLibrary/PreSets/Wrecks/BTR70_01.et" {
- coords 4527.618 20 2620.36
+ coords 4260.082 23 2615.55
  angles 0 60 0
 }
 $grp SCR_DestructibleBuildingEntity : "{9EB89ABD6874D576}Prefabs/Structures/Military/HangarShed1.et" {
  {
-  coords 4550.805 0 2675.23
+  coords 4283.269 0 2670.42
   angles 0 90 0
  }
  {
-  coords 4535.305 0 2675.23
+  coords 4267.769 0 2670.42
   angles 0 -90 0
  }
 }
 SCR_DestructibleBuildingEntity : "{B5C7B98E8A7C2B1D}Prefabs/Structures/Infrastructure/Power/Powerlines/Powerline_HV_USSR_01/Powerline_HV_USSR_01_end_v3_base.et" {
- coords 4552.36 0 2613.177
+ coords 4284.823 0 2608.367
  angles 0 90 0
 }
 $grp SCR_PowerPole : "{BA6809BF385C961A}Prefabs/Structures/Infrastructure/Power/Powerlines/PowerLine_HV_02/PowerLine_HV_02_pole.et" {
  {
-  coords 4581.003 0 2613.036
+  coords 4313.466 0 2608.226
   angles 0 90 0
  }
  {
-  coords 4620.211 0 2613.036
+  coords 4352.674 0 2608.226
   angles 0 90 0
  }
  {
-  coords 4694.3 0 2613.036
+  coords 4426.763 0 2608.226
   angles 0 90 0
  }
  {
-  coords 4658.604 0 2613.036
+  coords 4391.067 0 2608.226
   angles 0 90 0
  }
 }
 SCR_DestructibleBuildingEntity : "{CC40AC3668097FE8}Prefabs/Structures/Construcoes_Ruinas/garagerust.et" {
- coords 4535.143 0 2612.016
+ coords 4267.606 0 2607.206
  scale 1.11
 }
 $grp SCR_DestructibleBuildingEntity : "{CDEFEE1847C0933A}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_03/FuelTank_03_base.et" {
  {
-  coords 4492.586 0 2620.321
+  coords 4225.049 0 2615.511
  }
  {
-  coords 4475.375 0 2620.321
+  coords 4207.838 0 2615.511
+ }
+ {
+  coords 4296.786 0.001 3021.342
+  angles 0 -0.056 0
+ }
+ {
+  coords 4316.623 -0 3021.342
+  angles 0 -0.069 0
+ }
+ {
+  coords 4316.623 0 3043.065
+  angles 0 0.056 0
+ }
+ {
+  coords 4296.013 0 3043.065
+  angles 0 0.056 0
  }
 }
 SCR_DestructibleBuildingEntity : "{EE6B95EB59D4CFFF}Prefabs/Structures/Industrial/Garage_02_Industrial.et" {
- coords 4485.946 0 2658.692
+ coords 4218.409 0 2653.882
  angles 0 -90 0
 }
 SCR_DestructibleBuildingEntity : "{F08D8E78433D713A}Prefabs/Structures/Houses/Shed/Shed_01/Shed_01.et" {
- coords 4552.026 -0.001 2617.67
+ coords 4284.489 0 2612.86
 }
 SCR_DestructibleBuildingEntity : "{F536F4CB2FB2191C}Prefabs/Structures/Services/Hospital.et" {
- coords 4524.594 0 2642.519
- angles 0 -180 0
+ coords 4257.058 0 2637.709
+ angles 0 180 0
 }
