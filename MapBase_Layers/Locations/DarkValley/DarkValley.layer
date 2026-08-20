@@ -754,6 +754,10 @@ SCR_DestructibleBuildingEntity : "{13F92A2D3FAD2626}Prefabs/Structures/Construco
  coords 7265.162 0 1368.956
  angles 0 -89.764 0
 }
+SCR_DestructibleBuildingEntity : "{18B2439FBF6CADFD}Prefabs/Structures/Houses/Farm/FarmHouse_E_1L01/FarmHouse_E_1L01_Wood.et" {
+ coords 6411.312 0 1449.105
+ angles 0 -89.127 0
+}
 $grp SCR_DestructibleBuildingEntity : "{1AB3F8B3F8CA860D}Prefabs/Structures/Houses/Garage/Garage_B.et" {
  {
   coords 6976.867 0 2111.178
@@ -1833,6 +1837,10 @@ SCR_DestructibleBuildingEntity : "{427D2BB4E4D96606}Prefabs/Structures/Industria
   }
  }
 }
+SCR_DestructibleBuildingEntity : "{4459413B98E2C9AD}Prefabs/Structures/Houses/Wooden/House_Wooden_E_1I02/House_Wooden_E_1I02.et" {
+ coords 6854.879 0 1433.746
+ angles 0 -88.138 0
+}
 SCR_DestructibleBuildingEntity : "{4DC0293EF161C898}Prefabs/Structures/Industrial/Houses/Workshop_02/Workshop_02.et" {
  coords 6975.879 0 2165.421
  {
@@ -2182,6 +2190,10 @@ $grp SCR_DestructibleBuildingEntity : "{A1C2F935C463393D}Prefabs/Structures/Indu
   angles 0 -179.911 0
  }
 }
+SCR_DestructibleBuildingEntity : "{AD57E850A575A54F}Prefabs/Structures/Houses/Village/House_Village_E_1I06/House_Village_E_1I06.et" {
+ coords 6389.013 0.104 1425.72
+ angles 0 -91.044 0
+}
 $grp SCR_DestructibleBuildingEntity : "{CBB9B7AF0182CDC9}Prefabs/Structures/Industrial/BigOldWarehouse1.et" {
  {
   coords 7282.584 0.146 1443.358
@@ -2326,6 +2338,10 @@ SCR_DestructibleBuildingEntity : "{D7E10C4817AACA2D}Prefabs/Structures/Fabrica/F
    coords 0 0 0
   }
  }
+}
+SCR_DestructibleBuildingEntity : "{DE43119351D125AC}Prefabs/Structures/Houses/Village/House_Village_E_1L02/House_Village_E_1L02t.et" {
+ coords 6820.227 0 1411.655
+ angles 0 90.503 0
 }
 $grp SCR_DestructibleBuildingEntity : "{ED9E5911DED0FAE9}Prefabs/Structures/Veiculos/Bus.et" {
  {
@@ -2478,4 +2494,21 @@ SCR_DestructibleBuildingEntity : "{F6CCBBDD7EDF3BEC}Prefabs/Structures/Industria
 SCR_DestructibleBuildingEntity : "{F966FE992FC6F3D4}Prefabs/Structures/Construcoes_Ruinas/Predio_Destruido2.et" {
  coords 7241.038 -0.493 1354.784
  angles 0 -0.402 0
+}
+$grp Tree : "{FE0BD218E0E417A3}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_carpinus_betulus_3d.et" {
+ {
+  coords 6842.309 0.001 1419.676
+  angles 0.616 255.341 1.563
+  scale 1.083
+ }
+ {
+  coords 6689.394 0 1288.719
+  angles 0.616 255.341 1.563
+  scale 1.083
+ }
+ {
+  coords 6669.776 0 1317.788
+  angles 0.616 255.341 1.563
+  scale 1.083
+ }
 }
