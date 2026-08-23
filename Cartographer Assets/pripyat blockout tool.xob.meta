@@ -1,0 +1,42 @@
+MetaFileClass {
+ Name "{5EB60868B5508D5C}Cartographer Assets/pripyat blockout tool.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6A2F2134CD4B9A84}" {
+     SourceMaterial "DefaultGeneratedMaterial"
+     AssignedMaterial "{F9AA6C140D981D8E}Assets/Structures/Infrastructure/Bridges/ConcreteBridge_01/Data/Concrete_slopes_MLOD.emat"
+    }
+   }
+   MeshParams {
+    MeshParam "pripyat 1" {
+    }
+   }
+   Common TXOCommonClass "{6A2F2134CD5A3492}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+   ApplicationVendor "Blender Foundation"
+   ApplicationName "Blender (stable FBX IO)"
+   ApplicationVersion "4.4.3"
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6A2F2134CD5A3411}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6A2F2134CD5A35DD}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6A2F2134CD5A35A2}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6A2F2134CD5A3585}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6A2F2134CD5A3566}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

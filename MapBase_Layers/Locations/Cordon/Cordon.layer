@@ -84,6 +84,15 @@ $grp GenericEntity {
   }
   coords 5248.25 20.038 2206.148
  }
+ {
+  components {
+   MeshObject "{6A2F212F365123BB}" {
+    Object "{C81EB036FBE9CE0A}Assets/Structures/Debris/ConcreteDebris_01/ConcreteDebris_01_V2/Dst/ConcreteDebris_01_V2_dst_04.xob"
+   }
+  }
+  coords 5236.841 21.187 2204.73
+  angles 45.251 21.881 44.423
+ }
 }
 $grp PolylineShapeEntity {
  {
@@ -21356,6 +21365,11 @@ SCR_DestructibleBuildingEntity : "{18B2439FBF6CADFD}Prefabs/Structures/Houses/Fa
  coords 5731.128 0 1201.379
  angles 0 -1.83 0
 }
+GenericEntity : "{18F813A340960F21}PrefabLibrary/CainLibrary/Props/Garbage/ConcreteDebris_01_V4.et" {
+ coords 5252.208 20.463 2201.725
+ angles 1.324 132.286 1.204
+ scale 0.68
+}
 SCR_DestructibleBuildingEntity : "{1A18A755842DCA36}Prefabs/Structures/Industrial/Houses/Sawmill_E_01/Sawmill_E_01.et" {
  coords 5135.302 0 2036.028
  angles 0 -179.941 0
@@ -22435,10 +22449,6 @@ GenericEntity : "{9325E5C905CC0768}Prefabs/Compositions/Misc/SubCompositions/Fur
  coords 3735.803 20 451.42
  angles 0 0 0
 }
-GenericEntity : "{A10A168FDA3FA657}PrefabLibrary/DefaultLibrary/Props/Industrial/ConcretePanel_01_stack.et" {
- coords 5252.065 19.896 2206.042
- angles -3.528 -38.4 -2.88
-}
 SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Building_Base.et" {
  components {
   MeshObject "{506EDA9D46FC6C06}" {
@@ -22766,6 +22776,11 @@ SCR_DestructibleBuildingEntity : "{A5C1B56C110F8526}Prefabs/Structures/Houses/Mi
  coords 5887.111 0 1576.425
  angles 0 -89.935 0
 }
+GenericEntity : "{A6EF6AF651015F3B}Prefabs/Structures/Debris/ConcreteDebris_01/ConcreteDebris_01_V5.et" {
+ coords 5253.142 21.202 2205.272
+ angles -4.88 1.529 -17.419
+ scale 0.63
+}
 GenericEntity : "{A9CF5E8C5D91C476}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Group_Crate_01.et" {
  coords 5253.642 20.437 2213.17
 }
@@ -22885,7 +22900,8 @@ $grp SCR_DestructibleBuildingEntity : "{D231DBDC442ADF08}Prefabs/Structures/Unde
  }
 }
 SCR_DestructibleBuildingEntity : "{D653C28050494894}Prefabs/Structures/Military/MilitaryConcreteCarrier1.et" {
- coords 5247.805 0 2203.704
+ coords 5248.327 -0.001 2202.746
+ angles 3.42 40.872 -5.3
 }
 SCR_DestructibleBuildingEntity : "{D77FC3183AD09196}Prefabs/Structures/Veiculos/van.et" {
  coords 3736.722 0.005 455.67
@@ -22920,9 +22936,41 @@ $grp SCR_DestructibleBuildingEntity : "{F0F74BFF48D849BB}Prefabs/Structures/Mili
   angles 0 88.253 0
  }
 }
+$grp GenericEntity : "{F78F7B2E98A95922}Prefabs/Structures/Debris/ConcreteDebris_01/ConcreteDebris_01_base.et" {
+ {
+  coords 5259.759 28.119 2207.811
+  angles 0 -180 0
+  scale 1.201
+ }
+ {
+  coords 5259.759 28.119 2214.474
+  angles 0 -180 0
+  scale 1.201
+ }
+ {
+  coords 5234.319 28.119 2207.872
+  scale 1.201
+ }
+ {
+  coords 5234.319 28.119 2214.536
+  scale 1.201
+ }
+}
 GenericEntity : "{F7C5E866921AF328}PrefabLibrary/DefaultLibrary/Props/Construction/ConcretePipe_01_Long_Pile.et" {
- coords 5237.41 20.369 2202.171
+ coords 5237.467 20.363 2202.156
  angles 5.399 -75.71 7.731
+}
+$grp SCR_DestructibleBuildingEntity : "{FF4D386515F942C0}Prefabs/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Pillar.et" {
+ {
+  coords 5229.313 18.904 2212.498
+  angles 0 -90 0
+  scale 1.31
+ }
+ {
+  coords 5264.721 18.89 2212.498
+  angles 0 -90 0
+  scale 1.31
+ }
 }
 SCR_DestructibleBuildingEntity : "{FF6F5211131F41C8}Prefabs/Structures/Infrastructure/Naval/Houses/CottagePier_01_green.et" {
  coords 5674.688 0 1175.858
