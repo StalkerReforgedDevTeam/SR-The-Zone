@@ -55,6 +55,35 @@ $grp GenericEntity {
   coords 4796.112 9.802 1701.459
   angles -0.273 -0.104 3.44
  }
+ RecoveryVehicleWreck {
+  components {
+   MeshObject "{6A2F21255453FF0F}" {
+    Object "{CB616193C10DD426}Assets/Props/Wrecks/T62/T62_wreck_hull.xob"
+   }
+  }
+  coords 5239.334 20.038 2207.091
+  angles -1.495 158.252 -1.331
+  {
+   GenericEntity {
+    components {
+     MeshObject "{6A2F21255A684C76}" {
+      Object "{C81BE7E3DC6EA4FB}Assets/Props/Industrial/CrawlerCraneWreck_01/dst/CrawlerCraneWreck_01_cabin_dst_ruin.xob"
+     }
+    }
+    coords 0.037 0.067 0.6
+    angles 0 -2.072 0
+    scale 0.72
+   }
+  }
+ }
+ {
+  components {
+   MeshObject "{6A2F2125F41A59E5}" {
+    Object "{12F1B8ADE72A8A8C}Models/MilitaryPack/MilitaryBarrel_Tarped/MilitaryBarrel_Tarped3_2.xob"
+   }
+  }
+  coords 5248.25 20.038 2206.148
+ }
 }
 $grp PolylineShapeEntity {
  {
@@ -21697,6 +21726,10 @@ SCR_DestructibleEntity : "{2CA940B210EDA36E}Prefabs/Structures/Walls/BarbedWire/
  coords 4068.889 0 960.75
  angles 0 -180 0
 }
+GenericEntity : "{3533DB963FA9C81F}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_20ft_Base.et" {
+ coords 5252.429 20.924 2223.627
+ angles 13.234 103.537 1.365
+}
 GenericEntity : "{39FFC65E0B390094}Prefabs/Systems/DeployableRadios/DeployableItemTentReplacementUSSR.et" {
  coords 3718.738 20.017 455.522
 }
@@ -22326,6 +22359,9 @@ SCR_DestructibleBuildingEntity : "{719A09647C77492E}Prefabs/Structures/Diversos/
  coords 5632.015 0 1257.049
  angles 0 90.595 0
 }
+GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et" {
+ coords 5246.096 20.131 2211.482
+}
 GenericEntity : "{7D4ECB9C478F88AB}Prefabs/Wrecks/V3s/V3s_wreck_blue_v1.et" {
  coords 5170.588 20 2032.954
  angles 0 -59.271 0
@@ -22364,6 +22400,10 @@ GenericEntity : "{7D4ECB9C478F88AB}Prefabs/Wrecks/V3s/V3s_wreck_blue_v1.et" {
   }
  }
 }
+GenericEntity : "{7E90E63803680AD9}PrefabsEditable/Auto/Structures/Military/CamoNets/FIA/E_CamoNet_Small_FIA_01_V1.et" {
+ coords 5253.418 20.248 2211.152
+ angles 0 -96.394 0
+}
 SCR_DestructibleBuildingEntity : "{7F62EAEE021C9234}Prefabs/Structures/Infrastructure/Naval/Piers/Pier_03.et" {
  coords 5083.062 16.7 2478.957
  angles -0.048 68.26 -0.02
@@ -22394,6 +22434,10 @@ SCR_DestructibleBuildingEntity : "{9029E899BD7D8360}Prefabs/Structures/Construco
 GenericEntity : "{9325E5C905CC0768}Prefabs/Compositions/Misc/SubCompositions/Furniture/Bed_Blankets_US_01.et" {
  coords 3735.803 20 451.42
  angles 0 0 0
+}
+GenericEntity : "{A10A168FDA3FA657}PrefabLibrary/DefaultLibrary/Props/Industrial/ConcretePanel_01_stack.et" {
+ coords 5252.065 19.896 2206.042
+ angles -3.528 -38.4 -2.88
 }
 SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Building_Base.et" {
  components {
@@ -22722,6 +22766,9 @@ SCR_DestructibleBuildingEntity : "{A5C1B56C110F8526}Prefabs/Structures/Houses/Mi
  coords 5887.111 0 1576.425
  angles 0 -89.935 0
 }
+GenericEntity : "{A9CF5E8C5D91C476}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Group_Crate_01.et" {
+ coords 5253.642 20.437 2213.17
+}
 $grp GenericEntity : "{B0BD5E6DAA08B808}Prefabs/Infrastructure/Railways/Railway 40M.et" {
  {
   coords 5266.924 30.452 2211.126
@@ -22837,9 +22884,16 @@ $grp SCR_DestructibleBuildingEntity : "{D231DBDC442ADF08}Prefabs/Structures/Unde
   angles 0 -1.775 0
  }
 }
+SCR_DestructibleBuildingEntity : "{D653C28050494894}Prefabs/Structures/Military/MilitaryConcreteCarrier1.et" {
+ coords 5247.805 0 2203.704
+}
 SCR_DestructibleBuildingEntity : "{D77FC3183AD09196}Prefabs/Structures/Veiculos/van.et" {
  coords 3736.722 0.005 455.67
  angles 0 -129.778 0
+}
+GenericEntity : "{E757FCE9F55F6C57}PrefabLibrary/DefaultLibrary/Props/Industrial/CargoContainer_01_10ft/CargoContainer_01_10ft_green.et" {
+ coords 5250.081 20.487 2220.002
+ angles -7.142 -24.406 -11.253
 }
 SCR_DestructibleBuildingEntity : "{E88314DD42BF550D}Prefabs/Structures/Veiculos/OpelTruck.et" {
  coords 5425.04 0 1827.922
@@ -22865,6 +22919,10 @@ $grp SCR_DestructibleBuildingEntity : "{F0F74BFF48D849BB}Prefabs/Structures/Mili
   coords 5898.505 0 1618.903
   angles 0 88.253 0
  }
+}
+GenericEntity : "{F7C5E866921AF328}PrefabLibrary/DefaultLibrary/Props/Construction/ConcretePipe_01_Long_Pile.et" {
+ coords 5237.41 20.369 2202.171
+ angles 5.399 -75.71 7.731
 }
 SCR_DestructibleBuildingEntity : "{FF6F5211131F41C8}Prefabs/Structures/Infrastructure/Naval/Houses/CottagePier_01_green.et" {
  coords 5674.688 0 1175.858
