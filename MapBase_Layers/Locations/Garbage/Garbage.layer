@@ -1,3 +1,13 @@
+GenericEntity {
+ components {
+  MeshObject "{6A35715C0619A798}" {
+   Object "{BB526512FF6F5F5D}Assets/Structures/Military/Radar/ApproachRadar_01/Dst/ApproachRadar_RPL5_01_antenna_dst_01_debris_02.xob"
+  }
+ }
+ coords 5200.458 -9.257 2775.776
+ angles 16.121 143.314 -11.687
+ scale 9.611
+}
 SCR_DestructibleBuildingEntity : "{081C50A8AAD76B3A}Prefabs/Structures/Construcoes_Ruinas/ConstructArea4.et" {
  coords 5394.39 0.001 3117.237
  angles 0 -89.114 0
@@ -10,9 +20,189 @@ SCR_DestructibleBuildingEntity : "{29984BE889A1DB1E}Prefabs/Structures/Construco
  coords 5402.957 0 3067.41
  angles 0 178.1 0
 }
+$grp StaticModelEntity : "{4C606A89029A7E69}Prefabs/Structures/Debris/DebrisPile_HouseVillage/DebrisPile_HouseVillage_01_Small.et" {
+ Debris {
+  coords 5407.169 8.171 2867.239
+  angles 10.597 -0.502 -2.73
+  scale 5.09
+  {
+   $grp GenericEntity {
+    {
+     components {
+      MeshObject "{6A35715CD6D20BC5}" {
+       Object "{D0465A56069AF2FC}Assets/Structures/Debris/DebrisPiles_HouseVillage/DebrisPile_HouseVillage_01_Large.xob"
+      }
+     }
+     coords 0.288 -2.224 3.822
+     angles -23.54 -0.656 2.878
+     scale 0.487
+    }
+    {
+     components {
+      MeshObject "{6A35715CD6D20BC5}" {
+       Object "{D0465A56069AF2FC}Assets/Structures/Debris/DebrisPiles_HouseVillage/DebrisPile_HouseVillage_01_Large.xob"
+      }
+     }
+     coords 4.258 -2.262 2.206
+     angles -17.765 0.028 6.203
+     scale 0.911
+    }
+   }
+   StaticModelEntity : "{11B789B5F476A4B5}Prefabs/Structures/Debris/DebrisPile_HouseVillage/DebrisPile_HouseVillage_01_Large.et" {
+    coords -0.945 -0.768 -4.11
+    angles -3.533 -57.954 -4.165
+    scale 0.764
+   }
+   StaticModelEntity : "{2D0FEDF121395411}Prefabs/Structures/Debris/DebrisPile_HouseVillage/DebrisPile_HouseVillage_01_Huge.et" {
+    coords 0.856 -2.174 -0.785
+    angles -10.797 23.622 -1.764
+    scale 1.037
+   }
+   StaticModelEntity : "{9F9516E7AFB67010}Prefabs/Structures/Debris/DebrisPile/DebrisPile_Concrete_01_Medium.et" {
+    coords 3.667 -1.122 -4.483
+    angles 0.773 1.25 7.027
+    scale 1.285
+   }
+  }
+ }
+ Debris2 {
+  coords 5143.492 4.194 2978.299
+  angles 10.597 -0.502 -2.73
+  scale 7.533
+  {
+   $grp GenericEntity {
+    {
+     components {
+      MeshObject "{6A35715CD6D20BC5}" {
+       Object "{D0465A56069AF2FC}Assets/Structures/Debris/DebrisPiles_HouseVillage/DebrisPile_HouseVillage_01_Large.xob"
+      }
+     }
+     coords 4.258 -2.262 2.206
+     angles -17.765 0.028 6.203
+     scale 0.911
+    }
+    {
+     components {
+      MeshObject "{6A35715CD6D20BC5}" {
+       Object "{D0465A56069AF2FC}Assets/Structures/Debris/DebrisPiles_HouseVillage/DebrisPile_HouseVillage_01_Large.xob"
+      }
+     }
+     coords 0.288 -2.224 3.822
+     angles -23.54 -0.656 2.878
+     scale 0.487
+    }
+   }
+   StaticModelEntity : "{11B789B5F476A4B5}Prefabs/Structures/Debris/DebrisPile_HouseVillage/DebrisPile_HouseVillage_01_Large.et" {
+    coords -0.945 -0.768 -4.11
+    angles -3.533 -57.954 -4.165
+    scale 0.764
+   }
+   StaticModelEntity : "{2D0FEDF121395411}Prefabs/Structures/Debris/DebrisPile_HouseVillage/DebrisPile_HouseVillage_01_Huge.et" {
+    coords 0.856 -2.174 -0.785
+    angles -10.797 23.622 -1.764
+    scale 1.037
+   }
+   StaticModelEntity : "{9F9516E7AFB67010}Prefabs/Structures/Debris/DebrisPile/DebrisPile_Concrete_01_Medium.et" {
+    coords 3.667 -1.122 -4.483
+    angles 0.773 1.25 7.027
+    scale 1.285
+   }
+  }
+ }
+ Debris3 {
+  coords 5166.58 12.482 2690.979
+  angles 10.597 -0.502 -2.73
+  scale 7.533
+  {
+   $grp GenericEntity {
+    {
+     components {
+      MeshObject "{6A35715CD6D20BC5}" {
+       Object "{D0465A56069AF2FC}Assets/Structures/Debris/DebrisPiles_HouseVillage/DebrisPile_HouseVillage_01_Large.xob"
+      }
+     }
+     coords 4.258 -2.262 2.206
+     angles -17.765 0.028 6.203
+     scale 0.911
+    }
+    {
+     components {
+      MeshObject "{6A35715CD6D20BC5}" {
+       Object "{D0465A56069AF2FC}Assets/Structures/Debris/DebrisPiles_HouseVillage/DebrisPile_HouseVillage_01_Large.xob"
+      }
+     }
+     coords 0.288 -2.224 3.822
+     angles -23.54 -0.656 2.878
+     scale 0.487
+    }
+   }
+   StaticModelEntity : "{11B789B5F476A4B5}Prefabs/Structures/Debris/DebrisPile_HouseVillage/DebrisPile_HouseVillage_01_Large.et" {
+    coords -0.945 -0.768 -4.11
+    angles -3.533 -57.954 -4.165
+    scale 0.764
+   }
+   StaticModelEntity : "{2D0FEDF121395411}Prefabs/Structures/Debris/DebrisPile_HouseVillage/DebrisPile_HouseVillage_01_Huge.et" {
+    coords 0.856 -2.174 -0.785
+    angles -10.797 23.622 -1.764
+    scale 1.037
+   }
+   StaticModelEntity : "{9F9516E7AFB67010}Prefabs/Structures/Debris/DebrisPile/DebrisPile_Concrete_01_Medium.et" {
+    coords 3.667 -1.122 -4.483
+    angles 0.773 1.25 7.027
+    scale 1.285
+   }
+  }
+ }
+}
+$grp GenericEntity : "{62A2AC8BAF5AE7D6}Prefabs/Infrastructure/Railways/Concrete stop.et" {
+ {
+  coords 5171.97 0.455 2815.917
+  angles 0 -90 0
+ }
+ {
+  coords 5146.996 0.455 2819.417
+  angles 0 -90 0
+ }
+}
+$grp GenericEntity : "{B0BD5E6DAA08B808}Prefabs/Infrastructure/Railways/Railway 40M.et" {
+ {
+  coords 5150.533 20 2815.995
+  angles 0 -90 0
+ }
+ {
+  coords 5150.533 20 2819.344
+  angles 0 -90 0
+ }
+ {
+  coords 5110.623 20 2819.344
+  angles 0 -90 0
+ }
+ {
+  coords 5070.649 20 2819.344
+  angles 0 -90 0
+ }
+ {
+  coords 5110.623 20 2815.995
+  angles 0 -90 0
+ }
+ {
+  coords 5070.649 20 2815.995
+  angles 0 -90 0
+ }
+}
 SCR_DestructibleBuildingEntity : "{B854C26218A44348}Prefabs/Structures/Locomotive Depot/GateHouse/GateHouse_01.et" {
- coords 5163.034 0 2816.354
+ coords 5163.052 0 2817.169
  angles 0 -88.772 0
+ scale 2.17
+}
+SCR_DestructibleBuildingEntity : "{D231DBDC442ADF08}Prefabs/Structures/Undeground/Tonnel/Tonnel_Trough.et" {
+ coords 5039.57 -4.962 2817.667
+ angles 0 90 0
+ scale 1.037
+}
+GenericEntity : "{E4BE27AA5AD0C035}Prefabs/Infrastructure/Railways/Railway 25M.et" {
+ coords 5150.553 20 2816.056
+ angles 0 90 0
 }
 SCR_DestructibleBuildingEntity : "{ED801C51A632FC51}Prefabs/Structures/Construcoes_Ruinas/ConstructArea5.et" {
  coords 5419.014 0 3093.815
