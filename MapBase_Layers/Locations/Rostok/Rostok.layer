@@ -590,270 +590,1778 @@ $grp PolylineShapeEntity {
 }
 SCR_DestructibleBuildingEntity {
  components {
-  MeshObject "{607C95BBC8244215}" {
-   Object "{6D376CEF0F4CD6A9}Assets/Structures/Industrial/Industrial Complex 01/Industrial Complex 01.xob"
-   Materials {
-    MaterialAssignClass "{60889E002014B358}" {
-     SourceMaterial "Base_Mat01"
-     AssignedMaterial "{EF0D935B39A96B5D}Assets/Structures/Industrial/Industrial Complex 01/Data/Base_Mat01.emat"
-    }
-    MaterialAssignClass "{60889E002014B340}" {
-     SourceMaterial "Exterior01"
-     AssignedMaterial "{2F4DB945F3DB41C6}Assets/Structures/Industrial/Industrial Complex 01/Data/Exterior01.emat"
-    }
-   }
-   LODFactors {
-    12
-    11
-    8
-    1
-    1
-    1
-   }
+  MeshObject "{5F25459D588E208B}" {
+   Object "{B70AA01FA7BA82F8}Assets/Structures/KitFactory/KitChantier/BPS_Chantier01.xob"
    ClutterOccluder 1
-   ClutterOccluderClipPlane 5.363
   }
-  RigidBody "{607C95BBE956CFE2}" {
+  RigidBody "{5F25459D588E207E}" {
+   LayerPreset "BuildingFireView"
+   Active Active
    ModelGeometry 1
    Static 1
   }
-  SCR_DestructibleBuildingComponent "{631E1E819031BD37}" {
-   "Additional hit zones" {
-    SCR_HitZone Default {
-     HZDefault 1
-     MaxHealth 50000
-     DamageReduction 100
-     DamageThreshold 100
-     "Kinetic multiplier" 0.1
-     "Explosive multiplier" 10
-    }
-   }
-   m_aEffects {
-    SCR_TimedParticle Particle_Dust_01_Start {
-     m_bSnapToTerrain 1
-     m_Particle SCR_ParticleSpawnable "{631E1E819031B2D5}" {
-      m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
-      m_bAtCenter 0
-      m_bDirectional 0
-     }
-     m_fParticlesMultiplier 0.3
-    }
-    SCR_TimedSound Sound_Bricks_01_Start {
-     m_fSpawnTime 0.001
-     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{631E1E819031B23B}" {
-      m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
-      m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
-      m_eFlags 9
-     }
-    }
-    SCR_TimedSound Sound_Bricks_01_End {
-     m_fSpawnTime 0.5
-     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{631E1E819031B233}" {
-      m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
-      m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
-      m_eFlags 9
-     }
-    }
-    SCR_TimedParticle Particle_Bricks_01_Start {
-     m_bSnapToTerrain 1
-     m_Particle SCR_ParticleSpawnable "{631E1E819031B22C}" {
-      m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
-      m_bAtCenter 0
-      m_bDirectional 0
-     }
-     m_fParticlesMultiplier 1.5
-    }
-    SCR_TimedPrefab Prefab_Ruins_01 {
-     m_sRuinsPrefab "{87B2750D117FD1E0}Prefabs/Structures/Industrial/Dst/Industrial Complex 01 Dst.et"
-    }
-    SCR_TimedSound Sounds_Bricks_01_PreStart {
-     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{631E1E819031B211}" {
-      m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
-      m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
-      m_eFlags 9
-     }
-    }
-    SCR_TimedParticle Particle_Bricks_01_Collapse {
-     m_fSpawnTime 0.001
-     m_bSnapToTerrain 1
-     m_Particle SCR_ParticleSpawnable "{631E1E819031B209}" {
-      m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
-      m_bAtCenter 0
-      m_bDirectional 0
-     }
-     m_fParticlesMultiplier 1.7
-    }
-    SCR_TimedParticle Particle_Dust_01_Collapse {
-     m_fSpawnTime 0.001
-     m_bSnapToTerrain 1
-     m_Particle SCR_ParticleSpawnable "{631E1E819031B201}" {
-      m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
-      m_bDirectional 0
-     }
-     m_fParticlesMultiplier 0.45
-    }
-   }
-   m_aInteriorQueryBoundingBoxes {
-    SCR_InteriorBoundingBox "{62B29C0182028E67}" {
-     m_vCenter PointInfo "{631E1E819031B25E}" {
-      Offset 0 3.6 -5
-     }
-     m_vScale 30 26 43
-    }
-   }
-   m_fDelay 3
-   m_fSinkingSpeed 0.15
-   m_fSinkingSpeedGradualMultiplier 600
-   m_fRotationSpeed 5
-   m_fRotationTime 50
-   m_fRotationTimeRandom 100
-   m_iMaxRotations 2
-   m_vSinkVector 0 0 0
-   m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{631E1E819031B258}" {
-    m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
-    m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
-    m_eFlags 9
-   }
-   m_CameraShakeCurve {
-    0 1
-    0.08 0.2
-    0.2 0.03
-    1 0.01
-   }
-   m_eAllowedRotations 5
+  RplComponent "{5F25459D588E207D}" {
   }
-  WorldSubsceneComponent "{63036D0F3243DECB}" {
-  }
-  RplComponent "{64FF676DE8C76E33}" {
-  }
-  Hierarchy "{60DAD48E34E7A2FF}" {
+  Hierarchy "{5F25459D588E2078}" {
   }
  }
- Flags 0x80403 0
- coords 4695.495 181.112 4056.377
- angles 0 -179.702 0
- SlotBoneMappings {
-  SlotBoneMappingObject "{60DAD48EDA176DB4}" {
-   BonePrefix "socket_Doormain"
-   Prefab "{335A0EE16637C117}Prefabs/Props/Structures/Doors/FactoryFrameDoor.et"
-  }
-  SlotBoneMappingObject "{60DAD48ED964E687}" {
-   BonePrefix "socket_doorside"
-   Prefab "{DA2FF0446867B249}Prefabs/Props/Structures/Doors/Doorframe_Factory.et"
-  }
-  SlotBoneMappingObject "{60DAD48ED909A76F}" {
-   BonePrefix "socket_topwindow"
-   Prefab "{EA61622167E8A6DE}Prefabs/Structures/BuildingParts/Windows/WindowFrameTopFactory.et"
-  }
-  SlotBoneMappingObject "{60DAD48ED8D50553}" {
-   BonePrefix "socket_windowlong"
-   Prefab "{126C74C12BEF77DE}Prefabs/Structures/BuildingParts/Windows/FactoryWindowLongFrame.et"
-  }
-  SlotBoneMappingObject "{60DAD48EEE6E1618}" {
-   BonePrefix "socket_windowside"
-   Prefab "{B438BD6F8AFDBB58}Prefabs/Structures/BuildingParts/Windows/WindowFrameFactoryside.et"
-  }
- }
+ coords 4814.549 29.834 4148.493
  {
-  GenericEntity : "{09640FDD060CBB63}Prefabs/Structures/Industrial/Industrial Complex 01 Furniture.et" {
-   coords 0 0 0
-  }
-  Building : "{126C74C12BEF77DE}Prefabs/Structures/BuildingParts/Windows/FactoryWindowLongFrame.et" {
-   components {
-    Hierarchy "{60B163FDFF570737}" {
-     Enabled 1
-     PivotID "socket_windowlong"
-     AutoTransform 1
-    }
-   }
-   coords 0 0 0
-  }
-  GenericEntity : "{335A0EE16637C117}Prefabs/Props/Structures/Doors/FactoryFrameDoor.et" {
-   components {
-    Hierarchy "{60B8E41E4AA22B33}" {
-     Enabled 1
-     PivotID "socket_Doormain"
-     AutoTransform 1
-    }
-   }
-   coords 0 0 0
-  }
-  GameEnvironmentProbeEntity : "{6F46BA45228BFA0B}Prefabs/Structures/Infrastructure/Power/DieselPowerPlant_01/HouseAddons/Probe_DieselPowerPlant_01.et" {
-   coords -6.007 4.516 -17.685
-  }
-  $grp Building : "{B438BD6F8AFDBB58}Prefabs/Structures/BuildingParts/Windows/WindowFrameFactoryside.et" {
+  $grp GenericEntity {
    {
-    components {
-     Hierarchy "{60B163FDFF570737}" {
-      Enabled 1
-      PivotID "socket_windowside.002"
-      AutoTransform 1
+    coords 0 0 0
+    {
+     $grp GenericEntity : "{12E06EE0D35051A3}Prefabs/ZBK/KitFactory/KitBeam/Beam800.et" {
+      {
+       coords -6 4 -14
+       angles 0 90 0
+      }
+      {
+       coords -14 4 -14
+       angles 0 90 0
+      }
+     }
+     GenericEntity : "{18406F8EF940A4A5}Prefabs/ZBK/KitFactory/KitFrameWork/MetalBeam_V180cm.et" {
+      coords -5.922 0.3 -11.888
+     }
+     $grp GenericEntity : "{2515CCCC4854DE3E}Prefabs/ZBK/KitFactory/KitPost/Post1Umin_Gr1.et" {
+      {
+       coords 2 0.3 14
+      }
+      {
+       coords -6 0.3 -14
+      }
+     }
+     $grp GenericEntity : "{2BB02A05848C5F0C}Prefabs/ZBK/KitFactory/KitBeam/Beam400.et" {
+      {
+       coords 15.85 4 -14
+       angles 0 90 0
+      }
+      {
+       coords 15.85 4 14
+       angles 0 90 0
+      }
+     }
+     $grp GenericEntity : "{477E4FE6A47CCB11}Prefabs/ZBK/KitFactory/KitWall/Wall2Umin760_Gr1Ext.et" {
+      {
+       coords -6 0.3 14
+       angles 0 90 0
+      }
+      {
+       coords -2 0.3 2
+      }
+      {
+       coords -2 0.3 -6
+       angles 0 180 0
+      }
+     }
+     $grp GenericEntity : "{786E6CCD8B0B2194}Prefabs/ZBK/KitFactory/KitWall/Wall2Umin360_Gr1Ext.et" {
+      {
+       coords 18 0.3 -12
+      }
+      {
+       coords -18 0.3 -12
+      }
+     }
+     GenericEntity : "{7FC2513BD8273FDB}Prefabs/ZBK/KitFactory/KitFloor/Sol_16x16_GranStrip.et" {
+      coords -10 8 6
+     }
+     $grp SCR_DestructibleBuildingEntity : "{933C129E42E45895}Prefabs/ZBK/KitFactory/KitStair/StairBetonR2m.et" {
+      {
+       coords -3 4.3 -12
+       angles 0 -90 0
+      }
+      {
+       coords -3 0.3 -12
+       angles 0 270 0
+      }
+      {
+       coords -5 2.3 -10
+       angles 0 90 0
+      }
+     }
+     $grp GenericEntity : "{B845C318D63E98AE}Prefabs/ZBK/KitFactory/KitBeam/Beam160.et" {
+      {
+       coords -10 4 -2
+       angles 0 90 0
+      }
+      {
+       coords -10 4 14
+       angles 0 90 0
+      }
+      {
+       coords -10 4 6
+       angles 0 90 0
+      }
+      {
+       coords -10 4 -10
+       angles 0 90 0
+      }
+     }
+     GenericEntity : "{B9A46ADD25E7BC51}Prefabs/ZBK/KitFactory/KitFloor/Sol04x08_GranStrip.et" {
+      coords -14 8 -12
+      angles 0 90 0
+     }
+     $grp GenericEntity : "{C4DA133C938379B5}Prefabs/ZBK/KitFactory/KitFrameWork/MetalBeam_V380cm.et" {
+      {
+       coords -5.936 2.288 -12.075
+      }
+      {
+       coords -5.936 2.288 -13.736
+      }
+     }
+     $grp GenericEntity : "{D24A2FEB611A9880}Prefabs/ZBK/KitFactory/KitBeam/Beam800min.et" {
+      {
+       coords -18 4 2
+       angles 0 0 0
+      }
+      {
+       coords -2 4 10
+       angles 0 0 0
+      }
+      {
+       coords -18 4 10
+       angles 0 0 0
+      }
+      {
+       coords -18 4 -6
+       angles 0 0 0
+      }
+      {
+       coords -2 4 -6
+       angles 0 0 0
+      }
+      {
+       coords 18 4 10
+       angles 0 0 0
+      }
+      {
+       coords -2 4 2
+       angles 0 0 0
+      }
+      {
+       coords 18 4 2
+       angles 0 0 0
+      }
+      {
+       coords 18 4 -6
+       angles 0 0 0
+      }
+      {
+       coords -6 0 -14
+       angles 0 90 0
+      }
+     }
+     $grp GenericEntity : "{DACF9198C8A04E78}Prefabs/ZBK/KitFactory/KitPost/Post2Umin_Gr1Ext.et" {
+      {
+       coords 14 0.3 14
+       angles 0 90 0
+      }
+      {
+       coords -2 0.3 -14
+      }
+      {
+       coords 18 0.3 6
+       angles 0 90 0
+      }
+      {
+       coords -18 0.3 -10
+       angles 0 90 0
+      }
+      {
+       coords 18 0.3 14
+      }
+      {
+       coords 18 0.3 -14
+      }
+      {
+       coords 18 0.3 -10
+       angles 0 270 0
+      }
+      {
+       coords 18 0.3 -2
+       angles 0 180 0
+      }
+      {
+       coords -10 0.3 -10
+      }
+      {
+       coords -2 0.3 -2
+       angles 0 90 0
+      }
+      {
+       coords -2 0.3 -10
+       angles 0 180 0
+      }
+      {
+       coords -10 0.3 6
+      }
+      {
+       coords -2 0.3 6
+      }
+      {
+       coords -10 0.3 -2
+      }
+      {
+       coords -2 0.3 14
+       angles 0 90 0
+      }
+      {
+       coords -18 0.3 6
+       angles 0 270 0
+      }
+      {
+       coords -10 0.3 -14
+       angles 0 270 0
+      }
+      {
+       coords 14 0.3 -14
+       angles 0 90 0
+      }
+      {
+       coords -18 0.3 14
+      }
+      {
+       coords -18 0.3 -2
+       angles 0 180 0
+      }
+      {
+       coords -18 0.3 -14
+      }
+      {
+       coords -10 0.3 14
+       angles 0 90 0
+      }
+     }
+     $grp GenericEntity : "{DF4F962EC671E625}Prefabs/ZBK/KitFactory/KitBeam/Beam160min.et" {
+      {
+       coords 6 0 14
+       angles 0 90 0
+      }
+      {
+       coords 6 4 -14
+       angles 0 90 0
+      }
+      {
+       coords 6 4 14
+       angles 0 90 0
+      }
+     }
+     $grp GenericEntity : "{EA333ECB96C6A7E8}Prefabs/ZBK/KitFactory/KitBeam/Beam400min.et" {
+      {
+       coords -2 4 -12
+      }
+      {
+       coords 16 0 -14
+       angles 0 90 0
+      }
+      {
+       coords -18 4 -12
+      }
+      {
+       coords -10 4 -12
+      }
+      {
+       coords 16 0 14
+       angles 0 90 0
+      }
+      {
+       coords -2 0 -12
+      }
+      {
+       coords 18 4 -12
+      }
+     }
+     $grp GenericEntity : "{EAFF2691A9D82381}Prefabs/ZBK/KitFactory/KitWall/Wall1Umin360_Gr1Ext.et" {
+      {
+       coords -2 0.3 -12
+      }
+      {
+       coords -4 0.3 -14
+       angles 0 90 0
+      }
+     }
+     GenericEntity : "{EC89D427A2A0C508}Prefabs/ZBK/KitFactory/KitFloor/Sol08x16_GranStrip.et" {
+      coords -10 8 -6
+      angles 0 90 0
      }
     }
-    coords 0 0 0
    }
    {
-    components {
-     Hierarchy "{60B163FDFF570737}" {
-      Enabled 1
-      PivotID "socket_windowside.001"
-      AutoTransform 1
+    coords 0 0 0
+    {
+     $grp SCR_DestructibleBuildingEntity : "{2262C38EB8EED150}Prefabs/ZBK/KitFactory/KitFrameWork/FrameWorkV08m.et" {
+      {
+       coords 14 14.12 14
+      }
+      {
+       coords 14 14.12 6
+      }
+      {
+       coords 14 14.12 -2
+      }
+     }
+     GenericEntity : "{242B2B9B5BF703DB}Prefabs/ZBK/KitFactory/KitPost/Post1UH_Gr1.et" {
+      coords -2 4.3 -8
+      angles 0 -180 0
+     }
+     $grp GenericEntity : "{2515CCCC4854DE3E}Prefabs/ZBK/KitFactory/KitPost/Post1Umin_Gr1.et" {
+      {
+       coords 2 0.3 6
+      }
+      {
+       coords 2 0.3 -2
+      }
+      {
+       coords -6 0.3 6
+      }
+      {
+       coords -6 0.3 -2
+      }
+     }
+     $grp GenericEntity : "{41827A91BF74DA7C}Prefabs/ZBK/KitFactory/KitWall/Wall2U360_Gr1Ext.et" {
+      {
+       coords -2 8.3 -8
+       angles 0 -180 0
+      }
+      {
+       coords -10 8.3 -4
+      }
+      {
+       coords -18 8.3 -4
+      }
+      {
+       coords -2 8.3 -4
+      }
+     }
+     GenericEntity : "{6731CEB69A0B6EDA}Prefabs/ZBK/KitFactory/KitBay/Vanil/Vanil_2Umin760FACwingrExt.et" {
+      coords -10 0.3 2
+     }
+     $grp SCR_DestructibleBuildingEntity : "{7CA51B623ACB1325}Prefabs/ZBK/KitFactory/KitFrameWork/FrameWorkWallSupp.et" {
+      {
+       coords -18.125 5.705 3
+       angles 0 -90 0
+      }
+      {
+       coords -18.125 5.705 6
+       angles 0 -90 0
+      }
+      {
+       coords -18.125 5.705 9
+       angles 0 -90 0
+      }
+      {
+       coords -18.125 5.705 12
+       angles 0 -90 0
+      }
+      {
+       coords -18.125 5.705 0
+       angles 0 -90 0
+      }
+     }
+     GenericEntity : "{7E9259BA900330F9}Prefabs/ZBK/KitFactory/KitWall/Wall2U760_Gr1Ext.et" {
+      coords -14 0.3 6
+      angles 0 90 0
+     }
+     $grp GenericEntity : "{7FA525E8553494AC}Prefabs/ZBK/KitFactory/KitBay/Vanil/Vanil_2Umin760GARgr.et" {
+      {
+       coords -10 0.3 10
+      }
+      {
+       coords 5.65 0.3 10
+      }
+     }
+     $grp GenericEntity : "{947E8822E0CE3820}Prefabs/ZBK/KitFactory/KitPost/Post1U_Gr1Ext.et" {
+      {
+       coords -6 4.3 0
+      }
+      {
+       coords -6 4.3 -8
+      }
+     }
+     $grp GenericEntity : "{BE5827C53F804A3B}Prefabs/ZBK/KitFactory/KitWall/Wall1U360_Gr1Ext.et" {
+      {
+       coords -4 0.3 8
+      }
+      {
+       coords 0 0.3 8
+       angles 0 90 0
+      }
+     }
+     SCR_DestructibleBuildingEntity : "{C3F9E63D9CA67A36}Prefabs/ZBK/KitFactory/KitFrameWork/FrameWorkV04m.et" {
+      coords 16 7.7 -6
+     }
+     $grp GenericEntity : "{C4DA133C938379B5}Prefabs/ZBK/KitFactory/KitFrameWork/MetalBeam_V380cm.et" {
+      {
+       coords 10 8.3 2
+      }
+      {
+       coords 10 8.3 6
+      }
+      {
+       coords 10 8.3 10
+      }
+     }
+     $grp GenericEntity : "{CB3404688F426A73}Prefabs/ZBK/KitFactory/KitBay/Vanil/Vanil_1Umin760SAWgr.et" {
+      {
+       coords -14 8.3 14
+       angles 0 90 0
+      }
+      {
+       coords -6 4.3 4
+      }
+      {
+       coords -6 8.3 14
+       angles 0 90 0
+      }
+      {
+       coords -6 4.3 -4
+      }
+     }
+     GenericEntity : "{D24A2FEB611A9880}Prefabs/ZBK/KitFactory/KitBeam/Beam800min.et" {
+      coords -6 0 -2
+      angles 0 90 0
+     }
+     GenericEntity : "{D356358A16C2EC1A}Prefabs/ZBK/KitFactory/KitFloor/Sol02x16_GranStrip.et" {
+      coords -19 8 6
+     }
+     $grp GenericEntity : "{D460347BE3728BBC}Prefabs/ZBK/KitFactory/KitBay/Vanil/Vanil_1Umin360LHgrExt.et" {
+      {
+       coords 0 0.3 6
+       angles 0 90 0
+      }
+      {
+       coords -16 8.3 -2
+      }
+      {
+       coords -8 0.3 -2
+       angles 0 90 0
+      }
+      {
+       coords -4 4.3 -8
+       angles 0 90 0
+      }
+      {
+       coords -4 0.3 6
+       angles 0 90 0
+      }
+      {
+       coords -8 8.3 -6
+       angles 0 90 0
+      }
+     }
+     $grp GenericEntity : "{D5EF05BA86AFC904}Prefabs/ZBK/KitFactory/KitWall/Wall1Umin760_Gr1Ext.et" {
+      {
+       coords 2 0.3 2
+      }
+      {
+       coords -6 0.3 2
+      }
+     }
+     $grp SCR_DestructibleBuildingEntity : "{D9E570B4783ECCA2}Prefabs/ZBK/KitFactory/KitFrameWork/FrameWorkV16m.et" {
+      {
+       coords 6 7.7 -6
+       angles 0 0 0
+      }
+      {
+       coords -2 15.7 6
+       angles 0 90 0
+      }
+      {
+       coords 10 14.1 6
+      }
+      {
+       coords -18 15.7 6
+       angles 0 90 0
+      }
+      {
+       coords -9.943 15.7 6
+       angles 0 90 0
+      }
+     }
+     $grp GenericEntity : "{DACF9198C8A04E78}Prefabs/ZBK/KitFactory/KitPost/Post2Umin_Gr1Ext.et" {
+      {
+       coords -9.943 8.3 -2
+      }
+      {
+       coords -18 8.3 -2
+      }
+      {
+       coords -2 8.3 -2
+      }
+      {
+       coords 10 8.3 -2
+      }
+      {
+       coords -2 8.3 -10
+      }
+      {
+       coords -18 8.3 14
+      }
+      {
+       coords 10 8.3 14
+      }
+      {
+       coords -2 8.3 14
+      }
+      {
+       coords -6 8.3 -6
+      }
+      {
+       coords -2 8.3 -6
+      }
+      {
+       coords -14 8.3 -2
+      }
+      {
+       coords -10 8.3 14
+      }
+     }
+     $grp GenericEntity : "{E97C0B71DBA5EE5B}Prefabs/ZBK/KitFactory/KitBay/Vanil/Vanil_1U360SHEgrExt.et" {
+      {
+       coords -12 8.3 -2
+       angles 0 90 0
+      }
+      {
+       coords -4 8.3 -6
+       angles 0 90 0
+      }
+     }
+     $grp GenericEntity : "{EAFF2691A9D82381}Prefabs/ZBK/KitFactory/KitWall/Wall1Umin360_Gr1Ext.et" {
+      {
+       coords 0 0.3 -2
+       angles 0 90 0
+      }
+      {
+       coords -4 0.3 -2
+       angles 0 90 0
+      }
      }
     }
-    coords 0 0 0
    }
    {
-    components {
-     Hierarchy "{60B163FDFF570737}" {
-      Enabled 1
-      PivotID "socket_windowside"
-      AutoTransform 1
+    coords 0 0 0
+    {
+     $grp GenericEntity : "{0712799E7E8A0D56}Prefabs/Props/Industrial/GasTank_02_rusty.et" {
+      {
+       coords -3.138 8.3 -6.592
+      }
+      {
+       coords -10.773 8.3 -12.941
+      }
+      {
+       coords 5.238 0.3 -0.027
+       angles 0 29.378 0
+      }
+      {
+       coords -11.5 8.3 -12.941
+       angles 0 43.749 0
+      }
+     }
+     $grp GenericEntity : "{080E381B512E1B01}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x15x3.et" {
+      {
+       coords 4.816 4.3 -0.728
+      }
+      {
+       coords 1.001 0.3 1.531
+      }
+      {
+       coords -5.236 0.3 -8.627
+      }
+      {
+       coords -5.236 0.3 -9.799
+      }
+     }
+     StaticModelEntity : "{086E85DB687EA38F}Prefabs/Props/Construction/GravelPile_01/GravelPile_01_medium.et" {
+      coords -13.818 0.3 2.483
+      scale 0.75
+     }
+     GenericEntity : "{0F866B72D473D8C4}Prefabs/Props/Industrial/ToolBox_01/ToolBox_01_grey.et" {
+      coords 10.87 8.3 -1.382
+      angles 0 -7.1 0
+     }
+     $grp GenericEntity : "{12BD8CF507310A44}Prefabs/ZBK/Props/Barrel/BarrelChemi01.et" {
+      {
+       coords -3.589 0.3 -0.628
+       angles 0 -64.83 0
+      }
+      {
+       coords -2.74 0.3 -0.773
+       angles 0 0 0
+      }
+     }
+     StaticModelEntity : "{19A3C48FC2665A3F}Prefabs/Props/Construction/GravelPile_01/GravelPile_01_large.et" {
+      coords 10.209 0.3 7.067
+      scale 0.5
+     }
+     SCR_PowerPole : "{2390B5CBEF778139}Prefabs/Structures/BuildingParts/Eletrical/ElectricityPole_02.et" {
+      coords 18.075 3.658 -13.347
+      angles 0 90 0
+     }
+     GenericEntity : "{2C2256DE59DD9840}Prefabs/Structures/BuildingParts/Eletrical/BreakerBox_03/BreakerBox_03.et" {
+      coords 18.117 1.017 -11.252
+      angles 0 90 0
+     }
+     StaticModelEntity : "{3BED3B935D01C9DB}Prefabs/Structures/Infrastructure/Culverts/Culvert_01/Culvert_01_small.et" {
+      coords -19.442 -1.773 4.406
+      angles 0 -90 0
+     }
+     $grp GenericEntity : "{3C44DBCDA1FD917A}Prefabs/Props/Construction/BoxMortar_01/BoxMortar_01.et" {
+      {
+       coords 14.415 8.294 -0.579
+       angles 0 -32.953 0
+      }
+      {
+       coords 4.627 0.303 -5.972
+       angles 0 24.442 0
+      }
+     }
+     GenericEntity : "{46A95C6081A28586}Prefabs/Props/Industrial/Pallets/MarsBox_01_white.et" {
+      coords -11.327 0.3 -11.595
+      angles 0 83.169 0
+     }
+     $grp GenericEntity : "{47B21949A39E49F8}Prefabs/ZBK/KitFactory/KitPipe/Pipe90_1mDown.et" {
+      {
+       coords -3.11 9.296 -8.255
+       angles 0 180 0
+      }
+      {
+       coords -3.11 9.296 -7.551
+       angles 0 -180 0
+      }
+      {
+       coords -19.114 5.308 2.984
+       angles 0 -180 0
+      }
+      {
+       coords -19.114 5.326 5.404
+       angles 0 180 0
+      }
+     }
+     GenericEntity : "{4A34979DC19CA9ED}Prefabs/Props/Construction/ConcreteMixer_01.et" {
+      coords 5.198 0.3 -4.275
+      angles 0 -113.522 0
+     }
+     SCR_DestructibleBuildingEntity : "{4B23F6B9A1BFE8A6}Prefabs/Structures/Infrastructure/Naval/Davits/Davit_01.et" {
+      coords -2.319 8.3 -1.42
+      angles 0 90 0
+     }
+     GenericEntity : "{4BC3BE99653BECCE}Prefabs/Props/Industrial/ToolBox_02/ToolBox_02_lightblue.et" {
+      coords 17.011 11.3 -1.962
+      angles 0 10.614 0
+     }
+     GenericEntity : "{50A752B7D5E679A2}Prefabs/Props/Industrial/Repair/GasWelder_01.et" {
+      coords -4.123 8.3 -6.985
+      angles 0 9.878 0
+     }
+     $grp GenericEntity : "{5152F05C17652ADB}Prefabs/Props/Civilian/PaintCan_01.et" {
+      {
+       coords 18.058 7.7 -5.65
+      }
+      {
+       coords 18 7.7 -6.064
+      }
+      {
+       coords -16.926 8.3 0.547
+      }
+      {
+       coords 16.023 8.3 -1.213
+      }
+     }
+     $grp GenericEntity : "{5E249786B7A6896D}Prefabs/Props/Construction/ConcretePipe/ConcretePipe_01_Large.et" {
+      {
+       coords 13.378 -2.048 17.95
+       angles 0 90 0
+      }
+      {
+       coords 10.279 -1.921 -15.51
+       angles 0 90 0
+      }
+      {
+       coords 13.378 -2.048 15.482
+       angles 0 90 0
+      }
+      {
+       coords 13.06 -1.921 -15.51
+       angles 0 90 0
+      }
+     }
+     GenericEntity : "{62B2ADC4243454F9}Prefabs/Props/Civilian/Jerrycan_01.et" {
+      coords -3.562 8.3 9.352
+      angles 0 13.341 0
+     }
+     SCR_DestructibleEntity : "{641131C69F64B84D}Prefabs/Structures/Infrastructure/Piping/DieselPipe_01_stack.et" {
+      coords -19.189 8.34 9.753
+     }
+     GenericEntity : "{64C9C1D1C2C1B38D}Prefabs/Props/Infrastructure/Roadblocks/RoadBlock_01.et" {
+      coords 17.448 0.3 -5.463
+      angles 0 -70.125 0
+     }
+     $grp GenericEntity : "{6720CD0D5B7B7768}Prefabs/Props/Construction/ConcretePipe/ConcretePipe_01_Long.et" {
+      {
+       coords -7.033 -1.905 -24.848
+       angles 0 -90 0
+      }
+      {
+       coords 5.238 -2.944 -14.329
+       angles 0 -90 0
+      }
+      {
+       coords -7.033 -1.905 -16.924
+       angles 0 -90 0
+      }
+      {
+       coords -7.033 -1.905 -20.874
+       angles 0 -90 0
+      }
+     }
+     $grp GenericEntity : "{67B5336A6D63CCA4}Prefabs/Props/Construction/PlankPile/PlankPile_01_Medium.et" {
+      {
+       coords -15.885 0.3 -9.76
+      }
+      {
+       coords 8.728 0.3 -11.904
+       angles 0 90 0
+      }
+     }
+     GenericEntity : "{6DD0648BB7A52420}Prefabs/Props/Civilian/Wheelbarrow_01.et" {
+      coords 4.845 0.278 -8.095
+      angles 0 -1.182 0
+     }
+     $grp GenericEntity : "{754BF6213A318556}Prefabs/Props/Industrial/ConcretePanel_01_D.et" {
+      {
+       coords 12.174 8.575 11.79
+      }
+      {
+       coords 12.404 8.375 11.863
+      }
+     }
+     $grp GenericEntity : "{795552B887CD50E7}Prefabs/Props/Industrial/ConcretePanel_01_stack.et" {
+      {
+       coords 9.172 8.3 -10.236
+       angles 0 -88.228 0
+      }
+      {
+       coords 12.406 8.3 7.807
+      }
+      {
+       coords -14.293 0.3 7.469
+      }
+     }
+     GenericEntity : "{7E5A4578657283E6}Prefabs/Props/Industrial/GasTank_02_red.et" {
+      coords 4.832 0.3 -0.749
+     }
+     GenericEntity : "{7EE9B815BBF5856A}Prefabs/ZBK/Props/Barrel/BarrelChemi02.et" {
+      coords -4.616 0.3 -0.641
+      angles 0 120.937 0
+     }
+     GenericEntity : "{80F42E38723BB2FF}Prefabs/ZBK/KitFactory/KitFloor/sol08x08_GranStrip.et" {
+      coords 2 8 -6
+      angles 0 0 0
+     }
+     GenericEntity : "{814C842990C8569A}Prefabs/Props/Civilian/StepladderWooden_01_Open.et" {
+      coords 12.662 10.169 7.815
+     }
+     $grp GenericEntity : "{881558ACD5FC31C0}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x1x2.et" {
+      {
+       coords -0.701 4.3 1.799
+      }
+      {
+       coords -0.555 2.292 9.089
+       angles 0 7.117 0
+      }
+      {
+       coords -0.538 0.3 9.087
+       angles 0 4.12 0
+      }
+      {
+       coords -1.146 0.3 0.057
+      }
+      {
+       coords -2.842 0.3 3.482
+      }
+      {
+       coords -0.455 0.3 10.432
+      }
+      {
+       coords -4.423 2.292 8.887
+       angles 0 2.997 0
+      }
+      {
+       coords -4.406 0.3 8.886
+      }
+      {
+       coords -5.864 0.3 11.883
+      }
+     }
+     $grp GenericEntity : "{90C62D3DBDEB0759}Prefabs/Props/Military/Camps/ConstructionMaterialPacked_MetalSheets_01_US.et" {
+      {
+       coords -12.534 8.3 12.995
+      }
+      {
+       coords -12.442 9.07 12.994
+      }
+      {
+       coords -15.967 8.3 12.866
+      }
+     }
+     $grp GenericEntity : "{A419F4547954DA05}Prefabs/Props/Construction/CableReel/CableReelWooden_01.et" {
+      {
+       coords -11.312 9.155 -3.891
+      }
+      {
+       coords -16.89 0.278 12.088
+       angles 0 -41.052 0
+      }
+      {
+       coords -3.102 4.3 4.417
+      }
+      {
+       coords 16.911 8.3 -0.818
+      }
+      {
+       coords -15.186 0.278 11.135
+       angles 0 -41.052 0
+      }
+      {
+       coords -11.417 8.278 -3.875
+      }
+     }
+     $grp GenericEntity : "{A480627B91B06198}Prefabs/ZBK/Props/SewerGrid/Grid02.et" {
+      {
+       coords -9.189 -1.374 -14.939
+       angles 90 0 0
+      }
+      {
+       coords -10.006 -1.374 -14.939
+       angles 90 180 -180
+      }
+     }
+     GenericEntity : "{AA1842DFB262D1F8}Prefabs/ZBK/Props/Trash/TrashRoundClose.et" {
+      coords -1.096 0.3 3.99
+     }
+     GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plain.et" {
+      coords -9.432 -1.86 -24.468
+      angles 0 2.619 0
+     }
+     $grp GenericEntity : "{B47EB5AC921214EE}Prefabs/Props/Construction/CableReel/CableReelMetal_01.et" {
+      {
+       coords -0.002 1.332 -10.732
+      }
+      {
+       coords -0.347 4.3 -0.357
+      }
+      {
+       coords -0.002 0.278 -10.732
+      }
+     }
+     GenericEntity : "{B66AED3FA78F3481}Prefabs/Structures/BuildingParts/Eletrical/UtilityBoxExt_02/UtilityBoxExt_02_double.et" {
+      coords 18.145 2.631 -12.741
+      angles 0 90 0
+     }
+     GenericEntity : "{B808D460E33CDFAF}Prefabs/Props/Construction/BrickPile/BrickPile_01_Medium.et" {
+      coords -15.379 0.3 -2.024
+     }
+     GenericEntity : "{BB9DFC7232860128}Prefabs/Props/Construction/BrickPile/BrickPileOld_01_Large.et" {
+      coords -4.159 0.3 -4.412
+     }
+     $grp GenericEntity : "{BCE07A58672955B9}Prefabs/Props/Civilian/Bucket_01.et" {
+      {
+       coords -16.516 8.3 1.06
+      }
+      {
+       coords -12.212 8.746 7.902
+       angles -41.82 89.579 25.866
+      }
+     }
+     GenericEntity : "{BF24FDD7931A41D8}Prefabs/Structures/BuildingParts/Infrastructure/ContainerSpreader_01/ContainerSpreader_01_10ft.et" {
+      coords 9.16 10.054 -9.769
+     }
+     GenericEntity : "{C8684DCC4658226F}Prefabs/Props/Construction/ContainerMetal_01/ContainerMetal_01_grey.et" {
+      coords 13.036 0.3 -1.061
+      angles 0 -179.709 0
+     }
+     $grp GenericEntity : "{CB033C658E372CED}Prefabs/Props/Construction/PlankPile/PlankPile_01_Large.et" {
+      {
+       coords 15.754 0.3 -0.735
+      }
+      {
+       coords -15.203 8.3 -11.296
+      }
+     }
+     $grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+      {
+       coords 15.474 0.387 2.827
+       angles 0 92 0
+      }
+      {
+       coords 15.474 0.47 2.792
+       angles 0 90 0
+      }
+      {
+       coords 15.474 0.3 2.827
+       angles 0 90 0
+      }
+     }
+     GenericEntity : "{D0B44EB8DBEDDA97}Prefabs/Props/Civilian/Bucket_02.et" {
+      coords 12.846 8.3 -1.053
+     }
+     $grp GenericEntity : "{D5247F493225CA91}Prefabs/Props/Civilian/WateringCan_01.et" {
+      {
+       coords 15.441 8.3 0.109
+      }
+      {
+       coords 10.749 0.278 -8.739
+       angles 0 -33.507 0
+      }
+     }
+     $grp GenericEntity : "{D7F69BF7D2DCA0A8}Prefabs/Props/Industrial/Pallets/Pallet_01.et" {
+      {
+       coords -15.013 2.301 7.669
+       angles 0 0 0
+      }
+      {
+       coords -13.354 2.169 7.724
+       angles 0 -3.904 0
+      }
+      {
+       coords -13.35 2.302 7.721
+       angles 0 0 0
+      }
+      {
+       coords -7.91 -1.86 -21.628
+       angles 0 -1.306 0
+      }
+      {
+       coords -15.009 2.169 7.647
+       angles 0 -0.061 0
+      }
+     }
+     $grp GenericEntity : "{DEB57429CD49782D}Prefabs/Props/Construction/GravelPile_01/SandPile_01.et" {
+      {
+       coords -11.117 8.3 8.047
+       scale 0.5
+      }
+      {
+       coords 2.54 0.3 -4.902
+       angles 0 150.329 0
+       scale 0.5
+      }
+     }
+     $grp GenericEntity : "{DF3EF41CE4D441DE}Prefabs/Props/Industrial/BarrelMetal_01_rust.et" {
+      {
+       coords -2.963 8.3 10.305
+       angles 0 30.757 0
+      }
+      {
+       coords -2.713 8.3 9.476
+       angles 0 30.757 0
+      }
+     }
+     $grp GenericEntity : "{E4416C4C6938BEEE}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x1x1.et" {
+      {
+       coords 0.988 2.288 10.278
+      }
+      {
+       coords 0.869 0.3 10.19
+      }
+      {
+       coords 0.904 1.286 10.26
+      }
+      {
+       coords -7.177 0.3 11.863
+      }
+      {
+       coords -7.142 1.286 11.933
+      }
+     }
+     $grp GenericEntity : "{E64A1F4EC46ADBF4}Prefabs/Props/Construction/BrickPile/BrickPileOld_01_Small.et" {
+      {
+       coords -14.998 8.278 0.897
+      }
+      {
+       coords 12.067 0.278 -7.927
+      }
+     }
+     GenericEntity : "{EB66EE2298D16D18}Prefabs/Props/Civilian/SackTruck_01.et" {
+      coords -7.772 0.3 11.854
+      angles 0 102.401 0
+     }
+     $grp GenericEntity : "{F401D58CD490C872}Prefabs/Props/Civilian/BeerBottle_01_slava.et" {
+      {
+       coords 17.959 7.7 -9.664
+       angles 0 171.554 0
+      }
+      {
+       coords 18.052 7.7 -9.067
+       angles 0 -52.99 0
+      }
+      {
+       coords 18.001 7.7 -8.874
+       angles 0 -122.594 0
+      }
+     }
+     GenericEntity : "{F76340CCD79DCC5A}Prefabs/Props/Civilian/RadioSmall_01_red.et" {
+      coords 18.024 7.701 -9.394
+      angles 0 -20.809 0
+     }
+     $grp GenericEntity : "{FD90FEA9485FF61C}Prefabs/ZBK/KitFactory/KitPipe/Pipe4m.et" {
+      {
+       coords -19.114 2.326 5.404
+       angles 90 0 -180
+      }
+      {
+       coords -19.114 2.308 2.984
+       angles 90 180 0
+      }
      }
     }
-    coords 0 0 0
    }
-  }
-  $grp GenericEntity : "{DA2FF0446867B249}Prefabs/Props/Structures/Doors/Doorframe_Factory.et" {
    {
-    components {
-     Hierarchy "{60DAD4910B4CB99F}" {
-      Enabled 1
-      PivotID "socket_doorside.001"
-      AutoTransform 1
+    coords 0 0 0
+    {
+     $grp GenericEntity : "{1443D5E9C79C923F}Prefabs/ZBK/KitFactory/KitPipe/Pipe1m.et" {
+      {
+       coords 6.244 -2.43 -13.435
+       angles 90 0 0
+      }
+      {
+       coords 7.434 -2.43 -13.435
+       angles 90 180 -180
+      }
+     }
+     $grp SCR_DestructibleBuildingEntity : "{2A8A1444AB502C94}Prefabs/ZBK/KitFactory/KitFrameWork/FrameWorkVs12m.et" {
+      {
+       coords 11.8 7.3 -2
+      }
+      {
+       coords 11.8 7.3 -10
+      }
+      {
+       coords 11.8 7.3 6
+      }
+     }
+     $grp GenericEntity : "{2BB02A05848C5F0C}Prefabs/ZBK/KitFactory/KitBeam/Beam400.et" {
+      {
+       coords 15.85 4 6
+       angles 0 90 0
+      }
+      {
+       coords 15.85 4 -2
+       angles 0 90 0
+      }
+      {
+       coords 15.85 4 -10
+       angles 0 90 0
+      }
+     }
+     $grp GenericEntity : "{473A4A8ED496E93E}Prefabs/ZBK/KitFactory/KitPipe/Pipe50cm.et" {
+      {
+       coords 6.244 -1.681 -13.435
+       angles 90 180 -180
+      }
+      {
+       coords 5.613 2.46 -1.023
+       angles 90 0 0
+      }
+      {
+       coords 6.244 -0.931 -12.685
+      }
+     }
+     $grp GenericEntity : "{47B21949A39E49F8}Prefabs/ZBK/KitFactory/KitPipe/Pipe90_1mDown.et" {
+      {
+       coords 7.434 -0.931 -13.435
+       angles 0 90 0
+      }
+      {
+       coords 3.5 -1.915 -13.435
+       angles 0 90 0
+      }
+      {
+       coords 4 -1.915 -13.435
+       angles 0 90 0
+      }
+      {
+       coords 3 -1.915 -13.435
+       angles 0 90 0
+      }
+      {
+       coords -0.892 5.3 -8.06
+      }
+      {
+       coords -0.892 5.3 -7.518
+      }
+     }
+     $grp GenericEntity : "{696EBCB9625EE78F}Prefabs/ZBK/KitFactory/KitPipe/Pipe90.et" {
+      {
+       coords 6.244 -0.931 -13.435
+       angles 270 90 0
+      }
+      {
+       coords 5.613 3.21 3.974
+       angles 90 270 0
+      }
+      {
+       coords 5.613 3.21 -1.023
+       angles 270 90 0
+      }
+     }
+     $grp GenericEntity : "{80F42E38723BB2FF}Prefabs/ZBK/KitFactory/KitFloor/sol08x08_GranStrip.et" {
+      {
+       coords 14 8 10
+       angles 0 0 0
+      }
+      {
+       coords 14 8 2
+       angles 0 0 0
+      }
+      {
+       coords 2 4 2
+       angles 0 0 0
+      }
+     }
+     GenericEntity : "{8D5D6C70DA7BA3AF}Prefabs/ZBK/KitFactory/KitPipe/Pipe2m.et" {
+      coords 5.613 1.21 -1.023
+      angles 90 180 0
+     }
+     $grp GenericEntity : "{B9A46ADD25E7BC51}Prefabs/ZBK/KitFactory/KitFloor/Sol04x08_GranStrip.et" {
+      {
+       coords -4 4 -4
+       angles 0 0 0
+      }
+      {
+       coords -4 4 4
+       angles 0 0 0
+      }
+     }
+     GenericEntity : "{BDEAC7CDC206B69C}Prefabs/ZBK/KitFactory/KitPost/Post2U_Gr1.et" {
+      coords -6 0.3 8
+     }
+     $grp GenericEntity : "{CB3404688F426A73}Prefabs/ZBK/KitFactory/KitBay/Vanil/Vanil_1Umin760SAWgr.et" {
+      {
+       coords 18 8.3 2
+      }
+      {
+       coords 14 8.3 -2
+       angles 0 90 0
+      }
+      {
+       coords -18 8.3 -10
+      }
+      {
+       coords 18 8.3 10
+      }
+      {
+       coords -10 8.3 -10
+      }
+      {
+       coords 14 8.3 14
+       angles 0 90 0
+      }
+     }
+     $grp GenericEntity : "{D24A2FEB611A9880}Prefabs/ZBK/KitFactory/KitBeam/Beam800min.et" {
+      {
+       coords -10 0 -6
+       angles 0 0 0
+      }
+      {
+       coords 2 4 10
+      }
+     }
+     GenericEntity : "{D5EF05BA86AFC904}Prefabs/ZBK/KitFactory/KitWall/Wall1Umin760_Gr1Ext.et" {
+      coords -10 0.3 -6
+     }
+     $grp GenericEntity : "{DACF9198C8A04E78}Prefabs/ZBK/KitFactory/KitPost/Post2Umin_Gr1Ext.et" {
+      {
+       coords 5.6 0.3 6
+      }
+      {
+       coords 5.6 0.3 -10
+       angles 0 -180 0
+      }
+      {
+       coords -10 8.3 -6
+      }
+      {
+       coords -18 8.3 -6
+      }
+      {
+       coords 18 8.3 14
+      }
+      {
+       coords -18 8.3 -14
+      }
+      {
+       coords 18 8.3 -2
+      }
+      {
+       coords 18 8.3 6
+      }
+      {
+       coords -10 8.3 -14
+      }
+      {
+       coords -2 0.3 8
+      }
+      {
+       coords 2 0.3 8
+      }
+      {
+       coords 5.6 0.3 -2
+       angles 0 90 0
+      }
+     }
+     $grp GenericEntity : "{DF4F962EC671E625}Prefabs/ZBK/KitFactory/KitBeam/Beam160min.et" {
+      {
+       coords 6 4 6
+       angles 0 90 0
+      }
+      {
+       coords 6 4 -2
+       angles 0 90 0
+      }
+      {
+       coords 6 4 -10
+       angles 0 90 0
+      }
+     }
+     $grp GenericEntity : "{E27F4E8DF342B97D}Prefabs/ZBK/KitFactory/KitPipe/PipeSuppTop.et" {
+      {
+       coords 5.613 3.21 1.474
+      }
+      {
+       coords 5.618 2.156 -1.475
+       angles 90 0 0
+      }
+     }
+     GenericEntity : "{E636B26B4A82EDD8}Prefabs/ZBK/KitFactory/KitStair/StairEmpty2m.et" {
+      coords -4.994 6.296 -9.995
+      angles 0 90 0
+     }
+     GenericEntity : "{EA333ECB96C6A7E8}Prefabs/ZBK/KitFactory/KitBeam/Beam400min.et" {
+      coords -10 0 -12
+     }
+     GenericEntity : "{EAFF2691A9D82381}Prefabs/ZBK/KitFactory/KitWall/Wall1Umin360_Gr1Ext.et" {
+      coords -10 0.3 -12
+     }
+     GenericEntity : "{F7D40A330004AA65}Prefabs/ZBK/KitFactory/KitFloor/Sol02x04_GranStrip.et" {
+      coords 0 4 7
+      angles 0 90 0
+     }
+     $grp GenericEntity : "{FD90FEA9485FF61C}Prefabs/ZBK/KitFactory/KitPipe/Pipe4m.et" {
+      {
+       coords -0.892 2.3 -8.06
+       angles 90 180 -180
+      }
+      {
+       coords -0.892 2.3 -7.518
+       angles 90 180 0
+      }
+      {
+       coords 5.613 3.21 1.474
+      }
+      {
+       coords 5.618 1.704 -1.475
+       angles 90 0 0
+      }
      }
     }
-    coords 0 0 0
    }
    {
-    components {
-     Hierarchy "{60DAD4910B4CB99F}" {
-      Enabled 1
-      PivotID "socket_doorside"
-      AutoTransform 1
+    coords 0 0 0
+    {
+     GenericEntity : "{080E381B512E1B01}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x15x3.et" {
+      coords 1.705 4.3 -0.728
+     }
+     $grp GenericEntity : "{0EEF0BB975F8CE0A}Prefabs/ZBK/KitFactory/KitBay/Vanil/Vanil_1Umin360INDgr.et" {
+      {
+       coords -18 8.3 4
+      }
+      {
+       coords -18 8.3 0
+      }
+      {
+       coords -18 16.3 12
+      }
+      {
+       coords -18 8.3 8
+      }
+      {
+       coords -18 8.3 12
+      }
+      {
+       coords -18 16.3 4
+      }
+      {
+       coords -18 16.3 8
+      }
+      {
+       coords -18 16.3 0
+      }
+     }
+     $grp GenericEntity : "{12E06EE0D35051A3}Prefabs/ZBK/KitFactory/KitBeam/Beam800.et" {
+      {
+       coords 14 12 -2
+       angles 0 90 0
+      }
+      {
+       coords 18 12 10
+       angles 0 0 0
+      }
+      {
+       coords 14 12 14
+       angles 0 90 0
+      }
+      {
+       coords 18 12 2
+       angles 0 0 0
+      }
+     }
+     $grp SCR_DestructibleBuildingEntity : "{2262C38EB8EED150}Prefabs/ZBK/KitFactory/KitFrameWork/FrameWorkV08m.et" {
+      {
+       coords 18 15.7 -6
+       angles 0 90 0
+      }
+      {
+       coords 6 15.7 10
+       angles 0 90 0
+      }
+      {
+       coords 2 15.7 6
+      }
+     }
+     $grp GenericEntity : "{41827A91BF74DA7C}Prefabs/ZBK/KitFactory/KitWall/Wall2U360_Gr1Ext.et" {
+      {
+       coords 16 8.3 -14
+       angles 0 90 0
+      }
+      {
+       coords -2 8.3 -12
+      }
+      {
+       coords -10 16 -4
+      }
+      {
+       coords -18 16.3 -4
+      }
+     }
+     GenericEntity : "{4A0458B47F1FB67B}Prefabs/ZBK/KitFactory/KitFloor/Sol04x04_GranStrip.et" {
+      coords 16 8 -12
+      angles 0 90 0
+     }
+     GenericEntity : "{67B5336A6D63CCA4}Prefabs/Props/Construction/PlankPile/PlankPile_01_Medium.et" {
+      coords -6.051 16.3 9.543
+     }
+     GenericEntity : "{795552B887CD50E7}Prefabs/Props/Industrial/ConcretePanel_01_stack.et" {
+      coords 12.095 8.3 -6.677
+      angles 0 -88.228 0
+     }
+     GenericEntity : "{7FC2513BD8273FDB}Prefabs/ZBK/KitFactory/KitFloor/Sol_16x16_GranStrip.et" {
+      coords -10 16 6
+     }
+     $grp GenericEntity : "{80F42E38723BB2FF}Prefabs/ZBK/KitFactory/KitFloor/sol08x08_GranStrip.et" {
+      {
+       coords 2 16 10
+       angles 0 0 0
+      }
+      {
+       coords 10 8 -6
+       angles 0 0 0
+      }
+      {
+       coords 2 8 10
+       angles 0 0 0
+      }
+     }
+     $grp GenericEntity : "{881558ACD5FC31C0}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x1x2.et" {
+      {
+       coords -3.613 0.3 11.818
+      }
+      {
+       coords -0.455 0.3 11.576
+      }
+     }
+     GenericEntity : "{8937AFC38700A6BA}Prefabs/Props/Construction/BrickPile/BrickPileOld_01_Medium.et" {
+      coords 0.783 8.3 -12.392
+     }
+     $grp SCR_DestructibleBuildingEntity : "{933C129E42E45895}Prefabs/ZBK/KitFactory/KitStair/StairBetonR2m.et" {
+      {
+       coords -3 8.3 -12
+       angles 0 -90 0
+      }
+      {
+       coords -5 10.3 -10
+       angles 0 90 0
+      }
+      {
+       coords -3 12.3 -12
+       angles 0 -90 0
+      }
+     }
+     $grp GenericEntity : "{947E8822E0CE3820}Prefabs/ZBK/KitFactory/KitPost/Post1U_Gr1Ext.et" {
+      {
+       coords -6 8.3 8
+      }
+      {
+       coords -2 8.3 8
+      }
+      {
+       coords -18 8.3 2
+      }
+      {
+       coords -6 8.3 0
+      }
+      {
+       coords -10 8.3 6
+      }
+      {
+       coords -2 8.3 6
+      }
+      {
+       coords -18 16.3 10
+      }
+      {
+       coords -6 12.3 0
+      }
+      {
+       coords -18 8.3 6
+      }
+      {
+       coords -18 8.3 10
+      }
+      {
+       coords -6 12.3 8
+      }
+      {
+       coords -18 16.3 2
+      }
+      {
+       coords -18 16.3 6
+      }
+     }
+     GenericEntity : "{96607882FB974312}Prefabs/ZBK/KitFactory/KitBeam/Beam200.et" {
+      coords -3 4.6 -10.15
+      angles 0 90 0
+     }
+     $grp GenericEntity : "{A419F4547954DA05}Prefabs/Props/Construction/CableReel/CableReelWooden_01.et" {
+      {
+       coords -2.814 16.3 -9.2
+      }
+      {
+       coords -16.933 16.285 12.854
+      }
+      {
+       coords -18.808 16.3 12.782
+      }
+     }
+     GenericEntity : "{B47EB5AC921214EE}Prefabs/Props/Construction/CableReel/CableReelMetal_01.et" {
+      coords 4.77 16.3 11.573
+     }
+     GenericEntity : "{B808D460E33CDFAF}Prefabs/Props/Construction/BrickPile/BrickPile_01_Medium.et" {
+      coords 16.989 8.3 -12.051
+     }
+     GenericEntity : "{B845C318D63E98AE}Prefabs/ZBK/KitFactory/KitBeam/Beam160.et" {
+      coords 10 12 6
+     }
+     $grp GenericEntity : "{B9A46ADD25E7BC51}Prefabs/ZBK/KitFactory/KitFloor/Sol04x08_GranStrip.et" {
+      {
+       coords -4 12 4
+       angles 0 0 0
+      }
+      {
+       coords -4 12 -4
+       angles 0 0 0
+      }
+      {
+       coords 2 8 -12
+       angles 0 90 0
+      }
+      {
+       coords 10 8 -12
+       angles 0 90 0
+      }
+      {
+       coords -14 16 -12
+       angles 0 90 0
+      }
+     }
+     $grp GenericEntity : "{BDEAC7CDC206B69C}Prefabs/ZBK/KitFactory/KitPost/Post2U_Gr1.et" {
+      {
+       coords -18 8.3 -14
+      }
+      {
+       coords -18 8.3 -6
+      }
+      {
+       coords -10 8.3 14
+      }
+      {
+       coords -18 8.3 -2
+      }
+      {
+       coords -18 8.3 14
+      }
+      {
+       coords -9.943 8.3 -2
+      }
+      {
+       coords 14 8.3 -14
+      }
+      {
+       coords 6 8.3 14
+      }
+      {
+       coords -2 8.3 14
+      }
+      {
+       coords 6 8.3 6
+      }
+      {
+       coords -2 8.3 -10
+      }
+      {
+       coords 18 8.3 -14
+      }
+      {
+       coords -2 8.3 -14
+      }
+      {
+       coords -2 8.3 -6
+      }
+      {
+       coords -2 8.3 -2
+      }
+      {
+       coords -2 16.3 14
+      }
+      {
+       coords 6 16.3 6
+      }
+      {
+       coords 6 16.3 14
+      }
+      {
+       coords -9.943 16.3 -2
+      }
+      {
+       coords -18 16.3 14
+      }
+      {
+       coords -10 16.3 14
+      }
+      {
+       coords -18 16.3 -6
+      }
+      {
+       coords -18 16.3 -14
+      }
+      {
+       coords -18 16.3 -2
+      }
+      {
+       coords -2 16.3 -2
+      }
+      {
+       coords -2 16.3 -6
+      }
+     }
+     $grp GenericEntity : "{BE5827C53F804A3B}Prefabs/ZBK/KitFactory/KitWall/Wall1U360_Gr1Ext.et" {
+      {
+       coords -4 12.3 8
+       angles 0 90 0
+      }
+      {
+       coords -4 8.3 8
+       angles 0 90 0
+      }
+     }
+     SCR_DestructibleBuildingEntity : "{C3F9E63D9CA67A36}Prefabs/ZBK/KitFactory/KitFrameWork/FrameWorkV04m.et" {
+      coords 18 15.7 -12
+      angles 0 90 0
+     }
+     $grp GenericEntity : "{C4DA133C938379B5}Prefabs/ZBK/KitFactory/KitFrameWork/MetalBeam_V380cm.et" {
+      {
+       coords -5.936 6.3 -13.736
+      }
+      {
+       coords -5.936 10.3 -12.075
+      }
+      {
+       coords -5.936 10.3 -13.736
+      }
+      {
+       coords -5.936 6.3 -12.075
+      }
+     }
+     $grp GenericEntity : "{CB033C658E372CED}Prefabs/Props/Construction/PlankPile/PlankPile_01_Large.et" {
+      {
+       coords -1.863 16.3 10.422
+      }
+      {
+       coords -10.205 16.3 11.046
+      }
+     }
+     $grp GenericEntity : "{CB3404688F426A73}Prefabs/ZBK/KitFactory/KitBay/Vanil/Vanil_1Umin760SAWgr.et" {
+      {
+       coords -6 8.3 4
+      }
+      {
+       coords -14 16.3 14
+       angles 0 90 0
+      }
+      {
+       coords -6 16.3 14
+       angles 0 90 0
+      }
+      {
+       coords -10 16.3 -10
+      }
+      {
+       coords -14 16.3 -14
+       angles 0 90 0
+      }
+      {
+       coords -6 12.3 4
+      }
+      {
+       coords -18 16.3 -10
+      }
+     }
+     GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+      coords 9.042 8.3 -1.164
+      angles 0 48.278 0
+     }
+     $grp GenericEntity : "{D24A2FEB611A9880}Prefabs/ZBK/KitFactory/KitBeam/Beam800min.et" {
+      {
+       coords -18 12 -10
+       angles 0 0 0
+      }
+      {
+       coords -14 12 -2
+       angles 0 90 0
+      }
+      {
+       coords 2 12 14
+       angles 0 90 0
+      }
+      {
+       coords -14 20 -2
+       angles 0 90 0
+      }
+      {
+       coords -18 20 -10
+       angles 0 0 0
+      }
+     }
+     GenericEntity : "{D356358A16C2EC1A}Prefabs/ZBK/KitFactory/KitFloor/Sol02x16_GranStrip.et" {
+      coords -19 16 6
+     }
+     $grp GenericEntity : "{D460347BE3728BBC}Prefabs/ZBK/KitFactory/KitBay/Vanil/Vanil_1Umin360LHgrExt.et" {
+      {
+       coords -16 16.3 -2
+       angles 0 90 0
+      }
+      {
+       coords -8 16.3 -6
+       angles 0 90 0
+      }
+     }
+     $grp GenericEntity : "{DACF9198C8A04E78}Prefabs/ZBK/KitFactory/KitPost/Post2Umin_Gr1Ext.et" {
+      {
+       coords -10 8.3 -14
+      }
+      {
+       coords 6 8.3 -14
+      }
+      {
+       coords -14 16.3 -2
+      }
+      {
+       coords -10 16.3 -14
+      }
+      {
+       coords -10 16.3 -6
+      }
+      {
+       coords -6 16.3 -6
+      }
+     }
+     $grp GenericEntity : "{DEB57429CD49782D}Prefabs/Props/Construction/GravelPile_01/SandPile_01.et" {
+      {
+       coords 3.962 8.3 -7.235
+       scale 0.5
+      }
+      {
+       coords -12.671 16.3 4.67
+      }
+     }
+     GenericEntity : "{DF3EF41CE4D441DE}Prefabs/Props/Industrial/BarrelMetal_01_rust.et" {
+      coords -2.5 16.3 -6.945
+     }
+     $grp GenericEntity : "{DF4F962EC671E625}Prefabs/ZBK/KitFactory/KitBeam/Beam160min.et" {
+      {
+       coords -10 12 -14
+       angles 0 90 0
+      }
+      {
+       coords -10 12 -6
+       angles 0 90 0
+      }
+      {
+       coords 6 12 -14
+       angles 0 90 0
+      }
+      {
+       coords -10 20 -6
+       angles 0 90 0
+      }
+     }
+     GenericEntity : "{E636B26B4A82EDD8}Prefabs/ZBK/KitFactory/KitStair/StairEmpty2m.et" {
+      coords -5 14.3 -10
+      angles 0 90 0
+     }
+     $grp GenericEntity : "{E97C0B71DBA5EE5B}Prefabs/ZBK/KitFactory/KitBay/Vanil/Vanil_1U360SHEgrExt.et" {
+      {
+       coords -12 16.3 -2
+       angles 0 90 0
+      }
+      {
+       coords -4 16.3 -6
+       angles 0 90 0
+      }
+     }
+     GenericEntity : "{EA333ECB96C6A7E8}Prefabs/ZBK/KitFactory/KitBeam/Beam400min.et" {
+      coords -2 20 -4
+     }
+     $grp GenericEntity : "{EC89D427A2A0C508}Prefabs/ZBK/KitFactory/KitFloor/Sol08x16_GranStrip.et" {
+      {
+       coords 14 16 6
+      }
+      {
+       coords -10 16 -6
+       angles 0 90 0
+      }
+     }
+     $grp GenericEntity : "{FA4E903115BB15E0}Prefabs/ZBK/KitFactory/KitBay/Vanil/Vanil_2U760FAC3wingr.et" {
+      {
+       coords 2 8.3 -14
+       angles 0 90 0
+      }
+      {
+       coords 10 8.3 -14
+       angles 0 90 0
+      }
+      {
+       coords 2 8.3 14
+       angles 0 90 0
+      }
+      {
+       coords 2 16.3 14
+       angles 0 90 0
+      }
      }
     }
-    coords 0 0 0
    }
-   {
-    components {
-     Hierarchy "{60DAD4910B4CB99F}" {
-      Enabled 1
-      PivotID "socket_doorside.002"
-      AutoTransform 1
-     }
-    }
-    coords 0 0 0
-   }
-  }
-  Building : "{EA61622167E8A6DE}Prefabs/Structures/BuildingParts/Windows/WindowFrameTopFactory.et" {
-   components {
-    Hierarchy "{60B163FDFF570737}" {
-     Enabled 1
-     PivotID "socket_topwindow"
-     AutoTransform 1
-    }
-   }
-   coords 0 0 0
   }
  }
 }
@@ -1325,6 +2833,9 @@ StaticModelEntity {
   SCR_DestructionMultiPhaseComponent "{5E76C88E4C8F71CC}" : "{76DA308CC9E2AB84}Prefabs/Props/Core/DestructionMultiPhase_Base.ct" {
    m_eMaterialSoundType BREAK_ROCK
   }
+  SCR_SlotCompositionComponent "{5706EA58A0FC7984}" {
+   m_bOrientChildrenToTerrain 0
+  }
   SCR_SlotCompositionComponent "{5A588831AE2AD60F}" {
    m_bOrientChildrenToTerrain 0
    m_bEditableChildren 0
@@ -1332,9 +2843,6 @@ StaticModelEntity {
   RplComponent "{5E76C88E4A47033A}" : "{3B686EF5E3C610B9}Prefabs/Props/Core/DestructionMultiPhase_Rpl_Base.ct" {
   }
   Hierarchy "{5A588831BFE58C44}" {
-  }
-  SCR_SlotCompositionComponent "{5706EA58A0FC7984}" {
-   m_bOrientChildrenToTerrain 0
   }
  }
  coords 4780.59 30 4117.418
@@ -1722,13 +3230,61 @@ $grp SCR_DestructibleEntity : "{1273A773F408DB76}Prefabs/Structures/walls/Brick/
   coords 4742.955 -0.524 4057.965
   angles 0 -90.027 0
  }
+ {
+  coords 4796.898 0 4170.464
+  angles 0 91.436 0
+ }
+ {
+  coords 4797.098 0 4178.442
+  angles 0 91.436 0
+ }
+ {
+  coords 4797.298 0 4186.419
+  angles 0 91.436 0
+ }
+ {
+  coords 4797.046 0 4186.423
+  angles 0 -179.106 0
+ }
+ {
+  coords 4789.083 0 4186.547
+  angles 0 -179.106 0
+ }
+ {
+  coords 4781.091 0 4186.671
+  angles 0 -179.106 0
+ }
+ {
+  coords 4764.735 0 4186.949
+  angles 0 90.088 0
+ }
+ {
+  coords 4773.126 0 4186.795
+  angles 0 -179.106 0
+ }
+ {
+  coords 4764.724 0 4178.987
+  angles 0 90.088 0
+ }
+ {
+  coords 4764.711 0 4170.99
+  angles 0 90.088 0
+ }
+ {
+  coords 4764.7 0 4163.038
+  angles 0 90.088 0
+ }
+ {
+  coords 4764.688 0 4155.044
+  angles 0 90.088 0
+ }
 }
 SCR_DestructibleBuildingEntity : "{13F92A2D3FAD2626}Prefabs/Structures/Construcoes_Ruinas/Predio_Destruido6.et" {
  coords 4649.869 0 3954.947
  angles 0 -0.233 0
 }
 SCR_DestructibleBuildingEntity : "{1528ECABF3A34145}Prefabs/Structures/Veiculos/oldcar_orange.et" {
- coords 4749.054 -0 4015.177
+ coords 4749.054 0 4015.177
  angles 0 30.757 0
 }
 $grp GenericEntity : "{16B3A59B10F83339}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_20ft_red_rusty.et" {
@@ -1841,29 +3397,57 @@ SCR_DestructibleBuildingEntity : "{333126B2340C6504}Prefabs/Structures/Veiculos/
 }
 $grp SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et" {
  {
-  coords 4809.772 30 4170.332
-  angles 0 -0.8 0
+  coords 4772.73 30 4184.176
+  angles 0 -179.817 0
  }
  {
-  coords 4808.757 30 4170.316
-  angles 0 -0.8 0
+  coords 4773.746 30 4184.174
+  angles 0 -179.817 0
  }
  {
-  coords 4805.651 30 4172.966
-  angles 0 -0.8 0
+  coords 4781.834 30 4180.77
+  angles 0 -179.817 0
  }
  {
-  coords 4806.667 30 4172.981
-  angles 0 -0.8 0
+  coords 4780.819 30 4180.772
+  angles 0 -179.817 0
  }
  {
-  coords 4807.366 30 4177.44
-  angles 0 -0.8 0
+  coords 4785.221 30 4171.136
+  angles 0 -179.817 0
  }
  {
-  coords 4808.381 30 4177.456
-  angles 0 -0.8 0
+  coords 4784.206 30 4171.137
+  angles 0 -179.817 0
  }
+ {
+  coords 4773.211 30 4162.172
+  angles 0 -179.817 0
+ }
+ {
+  coords 4774.226 30 4162.171
+  angles 0 -179.817 0
+ }
+ {
+  coords 4780.847 30 4158.396
+  angles 0 -179.817 0
+ }
+ {
+  coords 4781.862 30 4158.395
+  angles 0 -179.817 0
+ }
+ {
+  coords 4790.268 30 4156.778
+  angles 0 -179.817 0
+ }
+ {
+  coords 4791.283 30 4156.777
+  angles 0 -179.817 0
+ }
+}
+GenericEntity : "{38B4F74E9E541CB4}Prefabs/ZBK/KitFactory/KitBay/1Umin360LH_GrR.et" {
+ coords 4806.571 30.134 4134.544
+ angles 0 -90.487 0
 }
 SCR_DestructibleEntity : "{3B3469D028007258}Prefabs/Structures/walls/Brick/Brickwall01 Dst Civilian.et" {
  coords 4729.004 -0.549 3961.355
@@ -1914,6 +3498,68 @@ SCR_DestructibleBuildingEntity : "{3F91DEEC9C78E473}Prefabs/Structures/Military/
 SCR_DestructibleBuildingEntity : "{4688C8CE7C396C8E}Prefabs/Structures/Veiculos/RustyTaxi.et" {
  coords 4733.687 0.017 4020.876
  angles 0 43.647 0
+}
+$grp GenericEntity : "{477E4FE6A47CCB11}Prefabs/ZBK/KitFactory/KitWall/Wall2Umin760_Gr1Ext.et" {
+ {
+  coords 4800.479 30.102 4134.466
+  angles 0 90 0
+ }
+ {
+  coords 4808.505 33.493 4134.525
+  angles 0 89.717 0
+ }
+ {
+  coords 4808.505 40.47 4134.525
+  angles 0 89.717 0
+ }
+ {
+  coords 4800.639 37.811 4134.486
+  angles 0 89.717 0
+ }
+ {
+  coords 4816.505 30.086 4134.653
+  angles 0 89.717 0
+ }
+ {
+  coords 4824.574 30.086 4134.687
+  angles 0 90.344 0
+ }
+ {
+  coords 4832.485 30.086 4142.494
+  angles 0 -0.14 0
+ }
+ {
+  coords 4832.465 30.086 4150.494
+  angles 0 -0.14 0
+ }
+ {
+  coords 4832.445 30.086 4158.483
+  angles 0 -0.14 0
+ }
+ {
+  coords 4824.555 30.086 4162.582
+  angles 0 90.344 0
+ }
+ {
+  coords 4816.504 30.086 4162.63
+  angles 0 90.344 0
+ }
+ {
+  coords 4800.555 30.134 4162.493
+  angles 0 90 0
+ }
+ {
+  coords 4796.601 30.134 4158.481
+  angles 0 -0.584 0
+ }
+ {
+  coords 4796.685 30.134 4150.281
+  angles 0 -0.584 0
+ }
+ {
+  coords 4796.625 30.134 4142.459
+  angles 0 -0.584 0
+ }
 }
 SCR_DestructibleBuildingEntity : "{4BB3C0291333467A}Prefabs/Structures/Industrial/IndustrialComplex 02.et" {
  coords 4701.433 0 4083.519
@@ -1975,6 +3621,59 @@ $grp SCR_DestructibleBuildingEntity : "{4C84E893E268AB1F}Prefabs/Structures/Indu
   angles 0 -0.666 0
  }
 }
+$grp GenericEntity : "{53D74CD446A87F13}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagLongHighBurlap_S_USSR_01.et" {
+ {
+  coords 4766.644 30 4148.197
+ }
+ {
+  coords 4769.813 30 4148.197
+  {
+   GenericEntity {
+    ID "5D6CFDF279517B23"
+    coords 0 0 -0.236
+   }
+  }
+ }
+ {
+  coords 4772.88 30 4148.197
+ }
+ {
+  coords 4776.001 30 4148.197
+  {
+   GenericEntity {
+    ID "5D6CFDF279517B23"
+    coords 0 0 0.23
+   }
+  }
+ }
+ {
+  coords 4779.2 30 4148.197
+ }
+ {
+  coords 4782.388 30 4148.197
+  {
+   GenericEntity {
+    ID "5D6CFDF279517B23"
+    coords 0 0 -0.328
+   }
+  }
+ }
+ {
+  coords 4785.67 30 4148.197
+ }
+ {
+  coords 4788.706 30 4148.197
+  {
+   GenericEntity {
+    ID "5D6CFDF279517B23"
+    coords 0 0 0.291
+   }
+  }
+ }
+ {
+  coords 4791.983 30 4148.197
+ }
+}
 SCR_DestructibleBuildingEntity : "{55CB1994CF02E52E}Prefabs/Structures/Industrial/Sheds/ShedMetal_02/ShedMetal_02_short_walls.et" {
  coords 4739.075 0 4076.321
  angles 0 1.118 0
@@ -2024,8 +3723,16 @@ $grp SCR_DestructibleBuildingEntity : "{632635790D9CE50B}Prefabs/Structures/Indu
   }
  }
 }
-SCR_DestructibleEntity : "{6D052A241AA3ADFB}Prefabs/Structures/walls/Brick/Brickwall 01 Pole.et" {
- coords 4720.652 0 3961.435
+$grp SCR_DestructibleEntity : "{6D052A241AA3ADFB}Prefabs/Structures/walls/Brick/Brickwall 01 Pole.et" {
+ {
+  coords 4720.652 0 3961.435
+ }
+ {
+  coords 4797.458 0.021 4186.86
+ }
+ {
+  coords 4764.684 0 4187.119
+ }
 }
 $grp GenericEntity : "{7030822F7A54F479}Prefabs/Props/Crates/CrateWooden_01_base.et" {
  {
@@ -2085,6 +3792,10 @@ $grp GenericEntity : "{7030822F7A54F479}Prefabs/Props/Crates/CrateWooden_01_base
   angles 0 62.326 0
  }
 }
+GenericEntity : "{786E6CCD8B0B2194}Prefabs/ZBK/KitFactory/KitWall/Wall2Umin360_Gr1Ext.et" {
+ coords 4830.529 30.134 4162.459
+ angles 0 90.176 0
+}
 $grp GenericEntity : "{792A2C359A0728C8}Prefabs/Compositions/Misc/SubCompositions/CrateWooden_Stacked_01.et" {
  {
   coords 5242.438 0 3931.009
@@ -2121,13 +3832,29 @@ SCR_DestructibleBuildingEntity : "{799FE10C39B1159C}Prefabs/Structures/Veiculos/
  coords 4750.883 0.025 4017.659
  angles 0 30.757 0
 }
-GenericEntity : "{7AF4B627D5C90235}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_burlap.et" {
- coords 4787.871 30 3978.348
- angles 0 75.068 0
+$grp GenericEntity : "{7AF4B627D5C90235}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_burlap.et" {
+ {
+  coords 4787.871 30 3978.348
+  angles 0 75.068 0
+ }
+ {
+  coords 4808.357 30 4128.405
+  angles 0 -154.322 0
+ }
 }
 SCR_DestructibleBuildingEntity : "{7D44655BF0CEE373}Prefabs/Structures/Veiculos/lada.et" {
  coords 4750.336 0 4032.415
  angles 0 -112.976 0
+}
+$grp GenericEntity : "{80F42E38723BB2FF}Prefabs/ZBK/KitFactory/KitFloor/sol08x08_GranStrip.et" {
+ {
+  coords 4828.533 37.834 4142.493
+  angles 0 0 0
+ }
+ {
+  coords 4820.504 37.834 4150.536
+  angles 0 0 0
+ }
 }
 GenericEntity : "{835CFAD8AF023440}Prefabs/Compositions/Misc/SubCompositions/CrateWooden_Cluttered_USSR_02.et" {
  coords 5190.697 0 3840.074
@@ -2136,6 +3863,16 @@ GenericEntity : "{835CFAD8AF023440}Prefabs/Compositions/Misc/SubCompositions/Cra
 GenericEntity : "{87528E4CF6F686C3}Prefabs/Props/Dst/BoxPile_01.et" {
  coords 4747.751 29.969 4028.614
  angles 0 30.757 0
+}
+$grp GenericEntity : "{8E34FC19BB05F772}Prefabs/ZBK/KitFactory/KitBay/2Umin760FAC2win_b1.et" {
+ {
+  coords 4802.898 30 4125.991
+  angles 0 1.782 0
+ }
+ {
+  coords 4810.171 30 4125.884
+  angles 0.049 1.549 -0.001
+ }
 }
 $grp GenericEntity : "{8F08705D73A7C711}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_20ft_red.et" {
  {
@@ -2277,9 +4014,15 @@ SCR_DestructibleBuildingEntity : "{B1F1B1BEB21102A7}Prefabs/Structures/Industria
  coords 4826.149 30 4016.45
  angles 0 89.68 0
 }
-GenericEntity : "{B31A14BC1A0E7776}Prefabs/Props/Military/Sandbags/Sandbag_01_round_burlap.et" {
- coords 4785.488 30 3991.337
- angles 0 48.457 0
+$grp GenericEntity : "{B31A14BC1A0E7776}Prefabs/Props/Military/Sandbags/Sandbag_01_round_burlap.et" {
+ {
+  coords 4785.488 30 3991.337
+  angles 0 48.457 0
+ }
+ {
+  coords 4804.317 30 4127.203
+  angles 0 152.381 0
+ }
 }
 $grp GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plain.et" {
  {
@@ -2340,9 +4083,41 @@ $grp GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plai
 SCR_DestructibleBuildingEntity : "{B854C26218A44348}Prefabs/Structures/Locomotive Depot/GateHouse/GateHouse_01.et" {
  coords 4771.484 0.031 4020.822
 }
+$grp GenericEntity : "{B9A46ADD25E7BC51}Prefabs/ZBK/KitFactory/KitFloor/Sol04x08_GranStrip.et" {
+ {
+  coords 4814.521 37.834 4150.484
+  angles 0 0.008 0
+ }
+ {
+  coords 4822.589 37.834 4158.586
+  angles 0 -0.301 0
+ }
+}
 SCR_DestructibleBuildingEntity : "{BBCEDBF2C4E3E896}Prefabs/Structures/Industrial/Houses/Warehouse_01/Warehouse_01_Office.et" {
  coords 4673.766 0 4043.427
  angles 0 1.108 0
+}
+$grp GenericEntity : "{BE5827C53F804A3B}Prefabs/ZBK/KitFactory/KitWall/Wall1U360_Gr1Ext.et" {
+ {
+  coords 4810.287 29.823 4131.97
+  angles 0 1.079 0
+  scale 1.3
+ }
+ {
+  coords 4810.287 32.559 4131.97
+  angles 0 1.079 0
+  scale 1.3
+ }
+ {
+  coords 4803.137 29.823 4132.057
+  angles 0 2.16 0
+  scale 1.3
+ }
+ {
+  coords 4803.137 32.559 4132.057
+  angles 0 2.16 0
+  scale 1.3
+ }
 }
 StaticModelEntity : "{C319B03248D5EB4D}Prefabs/Structures/Industrial/Cranes/CoalLoader_01/Dst/CoalLoader_01_bridge_metal_short_Ruin_Base.et" {
  coords 4614.203 29.959 4111.641
@@ -2447,6 +4222,24 @@ $grp SCR_DestructibleBuildingEntity : "{D653C28050494894}Prefabs/Structures/Mili
 SCR_DestructibleBuildingEntity : "{D7E10C4817AACA2D}Prefabs/Structures/Fabrica/Fabrica_Full.et" {
  coords 4749.518 0.031 3923.927
 }
+$grp GenericEntity : "{DACF9198C8A04E78}Prefabs/ZBK/KitFactory/KitPost/Post2Umin_Gr1Ext.et" {
+ {
+  coords 4820.53 30.134 4134.493
+  angles 0 90 0
+ }
+ {
+  coords 4820.52 30.134 4162.493
+  angles 0 90 0
+ }
+}
+GenericEntity : "{DE9B159CB327AE97}Prefabs/ZBK/KitFactory/KitBay/2Umin760GAR_BR.et" {
+ coords 4806.39 30.024 4122.134
+ angles 0 92.398 0
+}
+GenericEntity : "{DF79D7016C5891C4}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Barricade_FIA_06.et" {
+ coords 4817.501 30 3984.552
+ angles 0 80.382 0
+}
 GenericEntity : "{E34C5ED883200982}Prefabs/Props/Dst/BarrelClosed.et" {
  coords 4752.333 29.969 4028.782
  angles 0 30.757 0
@@ -2454,6 +4247,34 @@ GenericEntity : "{E34C5ED883200982}Prefabs/Props/Dst/BarrelClosed.et" {
 SCR_DestructibleBuildingEntity : "{E88314DD42BF550D}Prefabs/Structures/Veiculos/OpelTruck.et" {
  coords 4738.459 0.031 4016.671
  angles 0 30.757 0
+}
+GenericEntity : "{EA333ECB96C6A7E8}Prefabs/ZBK/KitFactory/KitBeam/Beam400min.et" {
+ coords 4830.549 33.224 4134.493
+ angles 0 90 0
+}
+$grp GenericEntity : "{EAFF2691A9D82381}Prefabs/ZBK/KitFactory/KitWall/Wall1Umin360_Gr1Ext.et" {
+ {
+  coords 4830.554 30.134 4134.493
+  angles 0 90 0
+ }
+ {
+  coords 4830.554 33.547 4134.493
+  angles 0 90 0
+ }
+ {
+  coords 4830.554 33.547 4134.493
+  angles 0 90 0
+ }
+ {
+  coords 4806.643 37.199 4133.909
+  angles -0.268 91.438 89.927
+  scale 1.9
+ }
+ {
+  coords 4806.544 37.207 4128.238
+  angles -0.268 91.796 89.925
+  scale 1.9
+ }
 }
 SCR_DestructibleBuildingEntity : "{EB050FB6C17A561D}Prefabs/Structures/Veiculos/OldTruck2.et" {
  coords 4735.341 0.031 4018.203
