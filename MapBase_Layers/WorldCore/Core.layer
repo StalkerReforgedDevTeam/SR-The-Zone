@@ -41,10 +41,10 @@ GenericWorldEntity world {
   SCR_FactionManager FactionManager_Base1 : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionManager_Base.et" {
    coords 2271.737 0 1367.265
   }
-  TimeAndWeatherManagerEntity : "{A3BAF78F6F03315B}Prefabs/World/Game/TimeAndWeatherManager.et" {
+  TimeAndWeatherManagerEntity TimeAndWeatherManager_6A3B024363DDB366 : "{A3BAF78F6F03315B}Prefabs/World/Game/TimeAndWeatherManager.et" {
    coords 2486.757 0 936.291
    Enabled 1
-   WeatherStateMachine "{145430BBF1620448}Terrains/Common/WeatherPresets/StateMachine/WeatherStates.conf"
+   WeatherStateMachine "{145430BBF1620448}TerrainsNEW/Common/WeatherPresets/StateMachine/Actual_weather/WeatherStates.conf"
    "UTC TimeZone" -2.5
    "Initial Day Time" 9.367
    "Internal variant transition" 0
