@@ -1,29 +1,155 @@
-SCR_DestructibleBuildingEntity : "{030BB70F40AF9D70}Prefabs/Structures/Industrial/Houses/BoilerHouse_E_02/BoilerHouse_E_02_base.et" {
- coords 4754.342 0 4155.463
+$grp GenericEntity {
+ {
+  components {
+   MeshObject "{6A3D2EFCF97E4E44}" {
+    Object "{84E5BCD7F347C46A}Assets/Structures/Underground/Basement/Basement_2/Basement_2.xob"
+   }
+  }
+  coords 4791.089 30 4124.388
+  angles 0 -180 0
+ }
+ {
+  components {
+   MeshObject "{6A3D2EF9D92CFE09}" {
+    Object "{B6FA1881F2CA95B7}Assets/Props/Services/Post/CounterPostOffice_01/Dst/CounterPostOffice_01_doors_dst_00.xob"
+   }
+  }
+  coords 4784.717 26.263 4127.607
+  angles 0 90 0
+ }
+}
+SCR_DestructibleEntity : "{027CEF1B935A4D42}Prefabs/Structures/Walls/Concrete/ConcreteWall_01/ConcreteWall_01_Base.et" {
+ coords 4879.234 1.385 4084.807
+ angles 0 -180 90
+ scale 1.227
+}
+$grp SCR_DestructibleBuildingEntity : "{030BB70F40AF9D70}Prefabs/Structures/Industrial/Houses/BoilerHouse_E_02/BoilerHouse_E_02_base.et" {
+ {
+  coords 4752.886 0 4155.463
+ }
+ {
+  coords 4854.886 0 4163.909
+  angles 0 90 0
+ }
+}
+$grp GenericEntity : "{04104BBB4BAA8833}Prefabs/Infrastructure/Platforms/Platform_10x10M.et" {
+ {
+  coords 4776.776 25.843 4192.413
+  angles 0 0 0
+ }
+ {
+  coords 4786.776 25.843 4192.413
+  angles 0 0 0
+ }
+ {
+  coords 4794.776 25.843 4192.413
+  angles 0 0 0
+ }
+}
+$grp StaticModelEntity : "{07F043DD6AACCD0B}Prefabs/Structures/Infrastructure/Barriers/BarGate_01/BarGate_01.et" {
+ {
+  coords 4886.502 0 4085.868
+ }
+ {
+  coords 4883.582 0 4133.143
+  angles 0 -90 0
+ }
+ {
+  coords 4929.313 0 4103.594
+  angles 0 2.709 0
+ }
 }
 SCR_DestructibleBuildingEntity : "{0B05D5E03FB16B30}Prefabs/Industrial/sklades_soviet/Hangar_soviets.et" {
  coords 4880.263 30 4209.586
  angles 0 90 0
 }
-SCR_DestructibleBuildingEntity : "{1350F724723AAC87}Prefabs/Structures/Industrial/Houses/Warehouse_01/Warehouse_01_V3.et" {
- coords 4850.866 0 4133.744
+$grp SCR_DestructibleBuildingEntity : "{11298B17EF8881E1}Prefabs/Structures/Houses/Village/Sheds/ShedGarage.et" {
  {
-  Building {
-   ID "56E0EA16FAACCCC5"
-   {
-    GenericEntity {
-     ID "5AECA4187961B469"
-     coords 0 0 0
+  coords 4855.398 -0.803 4110.209
+  angles 0 180 0
+ }
+ {
+  coords 4934.2 -0.803 4134.764
+  angles 0 90 0
+ }
+ {
+  coords 4926.2 -0.803 4134.764
+  angles 0 -90 0
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{1350F724723AAC87}Prefabs/Structures/Industrial/Houses/Warehouse_01/Warehouse_01_V3.et" {
+ {
+  coords 4850.866 0 4133.744
+  {
+   Building {
+    ID "56E0EA16FAACCCC5"
+    {
+     GenericEntity {
+      ID "5AECA4187961B469"
+      coords 0 0 0
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 4818.866 0 4205.244
+  angles 0 -180 0
+  {
+   Building {
+    ID "56E0EA16FAACCCC5"
+    {
+     GenericEntity {
+      ID "5AECA4187961B469"
+      coords 0 0 0
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 4750.366 0 4221.515
+  angles 0 180 0
+  {
+   Building {
+    ID "56E0EA16FAACCCC5"
+    {
+     GenericEntity {
+      ID "5AECA4187961B469"
+      coords 0 0 0
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 4734.366 0 4243.126
+  angles 0 180 0
+  {
+   Building {
+    ID "56E0EA16FAACCCC5"
+    {
+     GenericEntity {
+      ID "5AECA4187961B469"
+      coords 0 0 0
+     }
     }
    }
   }
  }
 }
+SCR_DestructibleBuildingEntity : "{1AB3F8B3F8CA860D}Prefabs/Structures/Houses/Garage/Garage_B.et" {
+ coords 4930.708 0 4086.885
+ angles 0 -90 0
+}
 SCR_DestructibleBuildingEntity : "{1FE01D58A8717F80}Prefabs/Industrial/Transformer_01.et" {
  coords 4714.341 0 4307.088
 }
+SCR_DestructibleBuildingEntity : "{1FE3B590D2A1654D}Prefabs/Structures/Infrastructure/Power/TransformerSubstation_01/TransformerSubstation_01_white.et" {
+ coords 4892.916 0 4116.708
+}
 SCR_DestructibleBuildingEntity : "{25C8430C9EFB0CA9}Prefabs/Structures/Infrastructure/Rail/Other/RailwayTunnelPortal/RailwayTunnelPortal.et" {
- coords 5039.892 -0 4045.274
+ coords 5039.892 0 4045.274
  angles 0 90 0
  scale 1.393
 }
@@ -31,19 +157,71 @@ SCR_DestructibleBuildingEntity : "{28270BA91AD81197}Prefabs/Structures/Fabrica/F
  coords 4849.019 -0.172 4138.02
  scale 0.407
 }
+$grp SCR_DestructibleBuildingEntity : "{2D92D7E09B3424BC}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_02/FuelTank_02_green.et" {
+ {
+  coords 4884.551 0.208 4144.979
+  angles 0 90 0
+ }
+ {
+  coords 4833.551 0.208 4113.152
+  scale 1.4
+ }
+ {
+  coords 4819.718 0.208 4113.152
+  scale 1.4
+ }
+}
+SCR_DestructibleBuildingEntity : "{304613A949A1DB0F}Prefabs/Houses/house_37.et" {
+ coords 4811.495 30 4178.21
+}
+$grp SCR_DestructibleBuildingEntity : "{3140009AA235E892}Prefabs/Industrial/crane_trash.et" {
+ {
+  coords 4888.092 41.965 4161.34
+ }
+ {
+  coords 4845.277 36.056 4212.115
+ }
+}
 GenericEntity : "{3386EAA823BE462E}Prefabs/Props/Wrecks/UAZ469_wreck/UAZ469_wreck_static.et" {
  coords 4910.821 26.232 4031.329
  angles 18.99 5.617 17.436
 }
+SCR_DestructibleBuildingEntity : "{36DF3E586EBE4E7A}Prefabs/Structures/Houses/Shed/Shed_06/Shed_06_grey.et" {
+ coords 4789.753 0 4151.721
+ angles 0 90 0
+}
 SCR_DestructibleBuildingEntity : "{3E4B10C1910CA05A}Prefabs/Structures/Industrial/Garage Office.et" {
  coords 4870.983 0 4143.202
+}
+$grp SCR_DestructibleEntity : "{3E6CA4F2F90FA2F6}Prefabs/Structures/Industrial/Pipelines/ProductPipeline_01/ProductPipeline_USSR_01_high_8m.et" {
+ {
+  coords 4915.401 28.254 4106.706
+  angles 0 -90 0
+  placement none
+ }
+ {
+  coords 4839.401 27.754 4119.706
+  angles 0 -90 0
+  placement none
+ }
+ {
+  coords 4839.401 27.754 4113.206
+  angles 0 -90 0
+  placement none
+ }
 }
 SCR_DestructibleBuildingEntity : "{4E32735D38FB7328}Prefabs/Industrial/concrete_tower_01.et" {
  coords 4732.925 30 4296.393
 }
-SCR_DestructibleBuildingEntity : "{5478F1635999CE3B}Prefabs/Structures/Agriculture/CowShed/CowShed_E_01/CowShed_E_01_long_Base.et" {
- coords 4921.104 0.035 4076.046
- angles -0.047 -90 0.06
+$grp SCR_DestructibleBuildingEntity : "{5478F1635999CE3B}Prefabs/Structures/Agriculture/CowShed/CowShed_E_01/CowShed_E_01_long_Base.et" {
+ {
+  coords 4930.822 0.047 4063.618
+  angles -0.047 -90 0.06
+ }
+ {
+  coords 4845.619 -0.056 4095.989
+  angles 0.047 90 -0.06
+ }
 }
 SCR_DestructibleBuildingEntity : "{55772D08CE657A82}Prefabs/Industrial/house.et" {
  coords 4704.827 30 4280.646
@@ -65,40 +243,4029 @@ $grp GenericEntity : "{570DAA310A1B799D}Prefabs/Stairs_straight.et" {
   coords 4841.095 31.435 4135.335
  }
 }
+StaticModelEntity : "{5B66620F4D614BE1}Prefabs/Structures/Walls/Concrete/SilageWall_01/SilageWall_01_base.et" {
+ coords 4870.752 -1.279 4086.535
+}
+$grp SCR_DestructibleBuildingEntity : "{5C48A6282F87703C}Prefabs/Structures/Houses/Village/Garages/Garage Single_Base.et" {
+ {
+  coords 4876.635 0 4101.015
+  angles 0 -90 0
+ }
+ {
+  coords 4917.755 0 4115.515
+  angles 0 -90 0
+ }
+ {
+  coords 4844.296 0 4196.015
+ }
+}
 SCR_DestructibleBuildingEntity : "{5E56D1602958C610}Prefabs/Industrial/builds/saray_03.et" {
  coords 4695.177 30 4296.578
 }
+SCR_DestructibleEntity : "{60D0FF15D5DD2CCE}Prefabs/Structures/Industrial/Pipelines/ProductPipeline_01/ProductPipeline_USSR_01_end.et" {
+ coords 4915.401 31.758 4115.337
+ angles 0 90 0
+ placement none
+}
+SCR_DestructibleBuildingEntity : "{6391A9AAB77069C9}Prefabs/Structures/Industrial/Towers/LightTower_02/LightTower_02.et" {
+ coords 4893.229 30 4104.905
+ angles 0 45 0
+}
 SCR_DestructibleBuildingEntity : "{66CDB62E10E6E0F5}Prefabs/Buildings/Civilian/Apartments/Apartment_4-Storey/Apartment_4-Storey_base.et" {
- coords 4880.107 0 4160.899
+ coords 4882.015 0 4160.899
  angles 0 -90 0
+}
+$grp GenericEntity : "{6720CD0D5B7B7768}Prefabs/Props/Construction/ConcretePipe/ConcretePipe_01_Long.et" {
+ {
+  coords 4855.589 30 4144.77
+  angles 0 0 -90
+  scale 4.906
+ }
+ {
+  coords 4860.089 30 4144.77
+  angles 0 0 -90
+  scale 4.906
+ }
+ {
+  coords 4864.589 30 4144.77
+  angles 0 0 -90
+  scale 4.906
+ }
+}
+$grp GenericEntity : "{68610D36FF1E1612}Prefabs/Structures/Infrastructure/Rail/New/rails_25_new.et" {
+ {
+  coords 4731.65 25.844 4221.838
+  angles 0 -90 0
+ }
+ {
+  coords 4706.65 25.844 4221.838
+  angles 0 -90 0
+ }
+ {
+  coords 4681.65 25.844 4221.838
+  angles 0 -90 0
+ }
+ {
+  coords 4618.375 25.844 4196.71
+  angles 0 -146.618 0
+ }
+ {
+  coords 4604.62 25.844 4175.834
+  angles 0 -146.618 0
+ }
+ {
+  coords 4590.865 25.844 4154.958
+  angles 0 -146.618 0
+ }
+}
+$grp SCR_DestructibleEntity : "{6BD5C8E1D79AF064}Prefabs/Structures/Walls/Concrete/ConcreteWall_01/ConcreteWall_01_3m_white.et" {
+ {
+  coords 4891.701 0 4111.866
+  angles 0 -90 0
+ }
+ {
+  coords 4891.701 0 4108.866
+  angles 0 -90 0
+ }
+ {
+  coords 4891.701 0 4105.866
+  angles 0 -90 0
+ }
+ {
+  coords 4891.701 0 4102.866
+  angles 0 -90 0
+ }
+ {
+  coords 4894.701 0 4102.792
+  angles 0 -177.494 0
+ }
+ {
+  coords 4897.698 0 4102.661
+  angles 0 -177.494 0
+ }
+ {
+  coords 4900.695 0 4102.53
+  angles 0 -177.494 0
+ }
+ {
+  coords 4903.692 0 4102.398
+  angles 0 -177.494 0
+ }
+ {
+  coords 4906.689 0 4102.267
+  angles 0 -177.494 0
+ }
+ {
+  coords 4909.686 0 4102.136
+  angles 0 -177.494 0
+ }
+ {
+  coords 4912.683 0 4102.005
+  angles 0 -177.494 0
+ }
+ {
+  coords 4915.68 0 4101.874
+  angles 0 -177.494 0
+ }
+ {
+  coords 4918.677 0 4101.743
+  angles 0 -177.494 0
+ }
+ {
+  coords 4921.674 0 4101.612
+  angles 0 -177.494 0
+ }
+ {
+  coords 4921.701 0 4104.612
+  angles 0 92.506 0
+ }
+ {
+  coords 4924.694 0 4104.39
+  angles 0 -177.494 0
+ }
+ {
+  coords 4933.162 0 4104.02
+  angles 0 2.506 0
+ }
+ {
+  coords 4936.159 0 4103.889
+  angles 0 2.506 0
+ }
+ {
+  coords 4919.363 0 4136.246
+  angles 0 -177.494 0
+ }
+ {
+  coords 4922.36 0 4136.115
+  angles 0 -177.494 0
+ }
+ {
+  coords 4894.201 0 4143.961
+  angles 0 -90 0
+ }
+ {
+  coords 4894.201 0 4140.961
+  angles 0 -90 0
+ }
+ {
+  coords 4894.201 0 4137.961
+  angles 0 -90 0
+ }
+ {
+  coords 4894.201 0 4146.961
+  angles 0 -90 0
+ }
+ {
+  coords 4894.309 0 4149.961
+  angles 0 180 0
+ }
+ {
+  coords 4808.458 0 4120.366
+  angles 0 -90 0
+ }
+ {
+  coords 4808.458 0 4117.366
+  angles 0 -90 0
+ }
+ {
+  coords 4808.458 0 4117.366
+  angles 0 180 0
+ }
+ {
+  coords 4805.458 0 4117.366
+  angles 0 180 0
+ }
+ {
+  coords 4802.458 0 4117.366
+  angles 0 180 0
+ }
+ {
+  coords 4799.458 0 4117.366
+  angles 0 180 0
+ }
+ {
+  coords 4802.458 0 4135.241
+  angles 0 180 0
+ }
+ {
+  coords 4799.458 0 4135.241
+  angles 0 180 0
+ }
+ {
+  coords 4796.458 -0.009 4135.241
+  angles 0 90 0
+ }
+ {
+  coords 4796.458 -0.062 4132.241
+  angles 0 90 0
+ }
+ {
+  coords 4796.458 0 4137.741
+  angles 0 90 0
+ }
+}
+SCR_DestructibleEntity : "{6E622A634A5677DB}Prefabs/Structures/Industrial/Pipelines/ProductPipeline_01/ProductPipeline_USSR_01_underpass_narrow.et" {
+ coords 4915.401 31.754 4104.706
+ angles 0 90 0
+ placement none
 }
 SCR_DestructibleBuildingEntity : "{71F0C3F12DCFF4C3}Prefabs/Industrial/builds/house_01.et" {
  coords 4716.812 30 4270.549
 }
+StaticModelEntity : "{731BDEAEE0303E54}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_04_SideWays.et" {
+ coords 4793.061 30.283 4154.142
+}
 SCR_DestructibleBuildingEntity : "{73B429B814B5F0AE}Prefabs/Industrial/Transformer_02.et" {
- coords 4677.248 0 4288.728
+ coords 4905.339 0 4134.346
+ angles 0 180 0
+ {
+  GenericEntity {
+   ID "649A7A4BA67B326A"
+   coords -14.811 -0.297 2.688
+   angles 0 180 0
+  }
+ }
 }
-SCR_DestructibleBuildingEntity : "{80A5B37A1472B084}Prefabs/Structures/Industrial/Garages/Garage_E_02/Garage_E_02.et" {
- coords 4771.626 0 4116.072
+GenericEntity : "{8419C4421790DD39}Prefabs/Structures/BuildingsParts/Entry/StairsSide_School.et" {
+ coords 4772.086 27.649 4189.298
+ angles 0 -90 0
 }
-SCR_DestructibleBuildingEntity : "{8C2E9411E2F50460}Prefabs/Structures/Infrastructure/Power/DieselPowerPlant_01/DieselPowerPlant_01.et" {
- coords 4839.594 0 4232.968
+$grp SCR_DestructibleEntity : "{879865F07EA907B0}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_4m.et" {
+ {
+  coords 4877.952 2.5 4086.67
+  angles 90 180 -180
+  scale 1.155
+ }
+ {
+  coords 4791.752 1.208 4153.912
+  angles 0 0 0
+  scale 1.155
+ }
+ {
+  coords 4787.252 1.208 4153.912
+  angles 0 0 0
+  scale 1.155
+ }
+ {
+  coords 4782.752 1.208 4153.912
+  angles 0 0 0
+  scale 1.155
+ }
+ {
+  coords 4778.252 1.208 4153.912
+  angles 0 0 0
+  scale 1.155
+ }
+ {
+  coords 4773.752 0.801 4153.912
+  angles 0 0 0
+  scale 1.155
+ }
+ {
+  coords 4791.752 0.071 4151.412
+  angles -90 180 -180
+  scale 1.155
+ }
+ {
+  coords 4787.252 0.071 4151.412
+  angles -90 180 -180
+  scale 1.155
+ }
+ {
+  coords 4782.752 0.071 4151.412
+  angles -90 180 -180
+  scale 1.155
+ }
+ {
+  coords 4778.252 0.071 4151.412
+  angles -90 180 -180
+  scale 1.155
+ }
+ {
+  coords 4773.752 0.071 4151.412
+  angles -90 -180 -180
+  scale 1.155
+ }
+ {
+  coords 4796.252 -0.211 4151.412
+  angles -90 180 -180
+  scale 1.155
+ }
+ {
+  coords 4796.252 -0.211 4155.412
+  angles -90 180 -180
+  scale 1.155
+ }
+ {
+  coords 4796.252 -0.211 4159.412
+  angles -90 180 -180
+  scale 1.155
+ }
+ {
+  coords 4796.252 0.654 4163.412
+  angles -90 180 -180
+  scale 1.155
+ }
+ {
+  coords 4796.252 0.596 4167.412
+  angles -90 180 -180
+  scale 1.155
+ }
+ {
+  coords 4796.252 0.437 4171.412
+  angles -90 180 -180
+  scale 1.155
+ }
+ {
+  coords 4796.252 0.295 4175.412
+  angles -90 180 -180
+  scale 1.155
+ }
+ {
+  coords 4794.252 1.704 4156.412
+  angles 0 90 0
+  scale 1.155
+ }
+ {
+  coords 4794.252 1.704 4160.912
+  angles 0 90 0
+  scale 1.155
+ }
+ {
+  coords 4794.252 1.834 4165.412
+  angles 0 90 0
+  scale 1.155
+ }
+ {
+  coords 4794.252 1.811 4169.912
+  angles 0 90 0
+  scale 1.155
+ }
+ {
+  coords 4794.252 1.783 4174.412
+  angles 0 90 0
+  scale 1.155
+ }
+ {
+  coords 4794.252 1.763 4178.912
+  angles 0 90 0
+  scale 1.155
+ }
+ {
+  coords 4796.252 0.402 4178.912
+  angles -90 180 -180
+  scale 1.155
+ }
+ {
+  coords 4796.252 -0.807 4180.912
+  angles 0 -180 0
+  scale 1.155
+ }
+}
+SCR_DestructibleBuildingEntity : "{896636DEF097E6F6}Prefabs/Structures/Industrial/Sawmill Shed.et" {
+ coords 4783.205 28.586 4192.396
+ angles 0 -90 0
+ scale 0.9
+}
+SCR_DestructibleBuildingEntity : "{9111571CACF88AFD}Prefabs/Industrial/sklades_soviet/Brick_fence_long_soviets.et" {
+ coords 4891.688 30 4130.778
  angles 0 -90 0
 }
 GenericEntity : "{9281271C6EF4C921}Prefabs/Stairs_end.et" {
  coords 4839.755 31.435 4135.584
 }
+SCR_DestructibleEntity : "{92FBF89BA2599CEA}Prefabs/Structures/Industrial/Pipelines/ProductPipeline_01/ProductPipeline_01_vents.et" {
+ coords 4917.157 30 4123.26
+}
 SCR_DestructibleBuildingEntity : "{936163F41D08B3B4}Prefabs/Industrial/builds/object.et" {
  coords 4708.816 30 4283.801
+}
+GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
+ coords 4886.016 30 4083.05
+ angles 0 135 0
+}
+$grp SCR_DestructibleBuildingEntity : "{9CC522BC56E6682F}Prefabs/Industrial/sklades_soviet/Brick_fence_soviets.et" {
+ {
+  coords 4891.518 30 4127.08
+  angles 0 -90 0
+ }
+ {
+  coords 4891.518 30 4124.58
+  angles 0 -90 0
+ }
+ {
+  coords 4891.518 30 4122.08
+  angles 0 -90 0
+ }
+ {
+  coords 4891.518 30 4119.58
+  angles 0 -90 0
+ }
+ {
+  coords 4882.518 30 4138.119
+  angles 0 90 0
+ }
+ {
+  coords 4882.518 30 4140.619
+  angles 0 90 0
+ }
+ {
+  coords 4882.518 30 4143.119
+  angles 0 90 0
+ }
+ {
+  coords 4882.518 30 4145.619
+  angles 0 90 0
+ }
+ {
+  coords 4882.518 30 4148.119
+  angles 0 90 0
+ }
 }
 SCR_DestructibleBuildingEntity : "{9FC8D0AD2455A313}Prefabs/Infrastructure/Bridges/Wooden Bridge.et" {
  coords 4892.465 2.493 4019.912
  angles 0 77.16 0
 }
+SCR_DestructibleBuildingEntity : "{A1C2F935C463393D}Prefabs/Structures/Industrial/OldOilTank2.et" {
+ coords 4790.574 0 4170.427
+ scale 0.6
+}
+SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Building_Base.et" {
+ components {
+  SignalsManagerComponent "{5DA0A1F03112FF08}" {
+  }
+  SCR_BuildingSoundComponent "{5DA0A1F1EC02681C}" {
+   Filenames {
+    "{89B05F441A247752}Sounds/Structures/Structures_Industrial.acp"
+   }
+   IncludeInactive 1
+   SoundPoints {
+    SoundPointInfo Pipe_1 {
+     Offset 14 3 -2.2
+    }
+    SoundPointInfo Pipe_2 {
+     Offset 14 3 -8.5
+    }
+    SoundPointInfo Vent_1 {
+     Offset -3 7.5 1
+    }
+    SoundPointInfo Vent_2 {
+     Offset -3 7.5 -4
+    }
+    SoundPointInfo Vent_Clank_1 {
+     Offset 13 6 2
+    }
+    SoundPointInfo Boiler {
+     Offset 10 2 7
+    }
+   }
+   m_iTimeIntervalMin 4
+   m_iTimeIntervalMax 7
+   m_vMins -8 6 -11
+   m_vMaxs -1 8 8
+  }
+  MeshObject "{506EDA9D46FC6C06}" {
+   Object "{6DDC11148F1B9D9C}Assets/Structures/Infrastructure/Power/DieselPowerPlant_01/DieselPowerPlant_01.xob"
+  }
+  RigidBody "{506EDA9CBE1B57FF}" {
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructibleBuildingComponent "{5DA867E85728D94C}" : "{FD9A40DFF48A01EB}Prefabs/Structures/Core/Destruction/DestructibleBuildingComponent_Metal_Huge.ct" {
+   m_aEffects {
+    SCR_TimedPrefab Prefab_Ruins_01 {
+     m_bPersistent 1
+     m_sRuinsPrefab "{ED30E2D3651EB842}Prefabs/Structures/Infrastructure/Power/DieselPowerPlant_01/Dst/DieselPowerPlant_01_ruin.et"
+    }
+   }
+   m_aInteriorQueryBoundingBoxes {
+    SCR_InteriorBoundingBox "{62A0984F237067E1}" {
+     m_vCenter PointInfo "{62A0984F3EEBD2B9}" {
+      Offset -1.1931 1.633 -1.9488
+     }
+     m_vScale 14 17 19.5
+    }
+    SCR_InteriorBoundingBox "{62A0984F23A6165D}" {
+     m_vCenter PointInfo "{62A0984A672CE453}" {
+      Offset 10.3436 6.0154 11.7496
+     }
+     m_vScale 9.5 22 9
+    }
+    SCR_InteriorBoundingBox "{62A0984F3C922C4F}" {
+     m_vCenter PointInfo "{62A098566094F705}" {
+      Offset 10.0547 4.4574 -1.9584
+     }
+     m_vScale 10 20 19
+    }
+   }
+  }
+  SCR_MapDescriptorComponent "{5554C227EB3FD5C0}" {
+   MainType Transformer
+  }
+ }
+ coords 4878.098 0 4195.933
+ angles 0 180 0
+ SlotBoneMappings {
+  SlotBoneMappingObject "{59746DFCCC3C7CB8}" {
+   BonePrefix "Socket_ElectricityJunction_01"
+   Prefab "{1CB7D843AF3CE2BD}Prefabs/Structures/BuildingParts/Eletrical/ElectricityJunction_01.et"
+  }
+  SlotBoneMappingObject "{59746DFCD6A77CC4}" {
+   BonePrefix "Socket_KillSwitch_01"
+   Prefab "{AAA9315EB1CC7531}Prefabs/Structures/BuildingParts/Eletrical/KillSwitch_01.et"
+  }
+  SlotBoneMappingObject "{59746DFCD741DEDA}" {
+   BonePrefix "Socket_LightSwitch_04"
+   Prefab "{FCD5B0DE50F886B7}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_04.et"
+  }
+  SlotBoneMappingObject "{59746DFCD492193F}" {
+   BonePrefix "Socket_LoudspeakerMicrophone_01"
+   Prefab "{90BCDBBA44D6886B}Prefabs/Structures/BuildingParts/Eletrical/LoudspeakerMicrophone_01.et"
+  }
+  SlotBoneMappingObject "{59746DFCD424F642}" {
+   BonePrefix "Socket_SocketElectrical_02"
+   Prefab "{9465BE9D286359D7}Prefabs/Structures/BuildingParts/Eletrical/SocketElectrical_02.et"
+  }
+  SlotBoneMappingObject "{59746DFCD574917A}" {
+   BonePrefix "Socket_SocketElectricalLarge_01"
+   Prefab "{031522A609CFE64F}Prefabs/Structures/BuildingParts/Eletrical/SocketElectricalLarge_01.et"
+  }
+  SlotBoneMappingObject "{59746DFCAA846BC3}" {
+   BonePrefix "Socket_SocketElectricalLarge_02"
+   Prefab "{6F411646B50B6961}Prefabs/Structures/BuildingParts/Eletrical/SocketElectricalLarge_02.et"
+  }
+  SlotBoneMappingObject "{59746DFCABD3B372}" {
+   BonePrefix "Socket_Diesel_Generator_01"
+   Prefab "{B8EA3DCD71F736B5}Prefabs/Structures/BuildingParts/Eletrical/DieselGenerator_01/DieselGenerator_01.et"
+  }
+  SlotBoneMappingObject "{59746DFC30978E19}" {
+   BonePrefix "Socket_Faucet_01"
+   Prefab "{D0BD7A55306FC46B}Prefabs/Props/Furniture/Faucet_01/Faucet_01.et"
+  }
+  SlotBoneMappingObject "{59746DFC30270E36}" {
+   BonePrefix "Socket_Sink_01"
+   Prefab "{49012FE1DEF653EE}Prefabs/Props/Furniture/Sink_01.et"
+  }
+  SlotBoneMappingObject "{59746DFC31771100}" {
+   BonePrefix "Socket_Toilet_02"
+   Prefab "{63728F331E1BED60}Prefabs/Props/Furniture/Toilet_02.et"
+  }
+  SlotBoneMappingObject "{59746DFC0B4281A2}" {
+   BonePrefix "Socket_LightIndustrial_01"
+   Prefab "{E34303CB179E13D6}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_01.et"
+  }
+  SlotBoneMappingObject "{59746DFC085B52EC}" {
+   BonePrefix "Socket_LightIndustrial_02"
+   Prefab "{8F17372BAB5A9CF8}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_02.et"
+  }
+  SlotBoneMappingObject "{59746DFC0953D008}" {
+   BonePrefix "Socket_LampFluorescent_02"
+   Prefab "{DF9B306707F2BD15}Prefabs/Props/Furniture/LampFluorescent/LampFluorescent_02.et"
+  }
+  SlotBoneMappingObject "{59746DFC0EA192FB}" {
+   BonePrefix "Socket_LampFluorescent_01"
+   Prefab "{B3CF0487BB36323B}Prefabs/Props/Furniture/LampFluorescent/LampFluorescent_01.et"
+  }
+  SlotBoneMappingObject "{59746DFC0FB1C950}" {
+   BonePrefix "Socket_ElectricityBox_01"
+   Prefab "{94DCE76C1FFBA9BA}Prefabs/Structures/BuildingParts/Eletrical/ElectricityBox_01.et"
+  }
+  SlotBoneMappingObject "{59746DFC022EAA35}" {
+   BonePrefix "Socket_ElectricityBox_02"
+   Prefab "{F888D38CA33F2694}Prefabs/Structures/BuildingParts/Eletrical/ElectricityBox_02.et"
+  }
+  SlotBoneMappingObject "{59746DFC00F4F237}" {
+   BonePrefix "Socket_ElectricityBox_Medium_01"
+   Prefab "{9B4F35315B8A7209}Prefabs/Structures/BuildingParts/Eletrical/ElectricityBoxes/ElectricityBox_medium_01.et"
+  }
+  SlotBoneMappingObject "{59746DFC0197B879}" {
+   BonePrefix "Socket_ElectricityBox_Medium_02"
+   Prefab "{F71B01D1E74EFD27}Prefabs/Structures/BuildingParts/Eletrical/ElectricityBoxes/ElectricityBox_medium_02.et"
+  }
+  SlotBoneMappingObject "{59746DFC069150B8}" {
+   BonePrefix "Socket_ElectricityBox_Small_01"
+   Prefab "{CDE4035B661F9555}Prefabs/Structures/BuildingParts/Eletrical/ElectricityBoxes/ElectricityBox_small_01.et"
+  }
+  SlotBoneMappingObject "{59746DFC0781A53C}" {
+   BonePrefix "Socket_ElectricityBox_Small_02"
+   Prefab "{A1B037BBDADB1A7B}Prefabs/Structures/BuildingParts/Eletrical/ElectricityBoxes/ElectricityBox_small_02.et"
+  }
+  SlotBoneMappingObject "{59746DFC04863B2D}" {
+   BonePrefix "Socket_LampIndustrial_03"
+   Prefab "{BB6989EB97F4F67E}Prefabs/Structures/BuildingParts/Lights/LampIndustrial_03.et"
+  }
+  SlotBoneMappingObject "{5974BED3AE9E6FE9}" {
+   BonePrefix "Socket_Door_Single_Ext"
+   Prefab "{1E01D526381C4B5F}Prefabs/Structures/BuildingParts/Doors/DoorSet_MetalDoor_01_L_EXT.et"
+  }
+  SlotBoneMappingObject "{5974BED3ACBE9F3F}" {
+   BonePrefix "Socket_Door_Double_Ext"
+   Prefab "{2F51CBF130077DAA}Prefabs/Structures/BuildingParts/Doors/DoorSet_Services_E_A_Double_UNI_B_EXT.et"
+  }
+  SlotBoneMappingObject "{5974BED3AC79553D}" {
+   BonePrefix "Socket_Door_Garage"
+   Prefab "{0BB684BD42CCD7E1}Prefabs/Structures/BuildingParts/Doors/DoorSet_Garage_E_03_EXT.et"
+  }
+  SlotBoneMappingObject "{5974BED3ADE98139}" {
+   BonePrefix "Socket_Door_Int_Double_Industrial"
+   Prefab "{E286F281A306707A}Prefabs/Structures/BuildingParts/Doors/DoorSet_Industrial_01_INT.et"
+  }
+  SlotBoneMappingObject "{5974BED3AD0DBA70}" {
+   BonePrefix "Socket_Door_Int_Double_Office"
+   Prefab "{4C0ECE04CC4A628A}Prefabs/Structures/BuildingParts/Doors/DoorSet_Services_E_A_Double_UNI_B_INT.et"
+  }
+  SlotBoneMappingObject "{5974BED3A2C70881}" {
+   BonePrefix "Socket_Door_Int_Left"
+   Prefab "{66A908B66DC3277A}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_L_INT_COV_B.et"
+  }
+  SlotBoneMappingObject "{5974BED7281B79A3}" {
+   BonePrefix "Socket_Door_Int_Office"
+   Prefab "{13EA797E9145BFE3}Prefabs/Structures/BuildingParts/Doors/DoorSet_Services_E_A_Left_UNI_B_INT.et"
+  }
+  SlotBoneMappingObject "{5974BED729D5FA31}" {
+   BonePrefix "Socket_Win_Services_Int_135x300"
+   Prefab "{8D848BCFE2530FF1}Prefabs/Structures/BuildingParts/Windows/Win_Services_E_A/Win_Services_E_A_UNI_135x300_111_B_INT.et"
+  }
+  SlotBoneMappingObject "{5974BED729919A42}" {
+   BonePrefix "Socket_Win_Services_Int_68x300"
+   Prefab "{68585B0075224146}Prefabs/Structures/BuildingParts/Windows/Win_Services_E_A/Win_Services_E_A_UNI_68x300_111_B_INT.et"
+  }
+  SlotBoneMappingObject "{59766713A39E2705}" {
+   BonePrefix "Socket_ElectricityJunction_02"
+   Prefab "{6401BFEA3B30EBF7}Prefabs/Structures/BuildingParts/Eletrical/ElectricityJunction_02/ElectricityJunction_02.et"
+  }
+  SlotBoneMappingObject "{59766713A052CD65}" {
+   BonePrefix "Socket_Win_GlassBlock_200x235"
+   Prefab "{83AAA23E7EF08258}Prefabs/Structures/BuildingParts/Windows/Win_GlassBlock_01/Win_GlassBlock_01_200x325.et"
+  }
+  SlotBoneMappingObject "{5A1880445627CCDD}" {
+   BonePrefix "Socket_Win_GlassBlock_200x275"
+   Prefab "{D50721D5BCE9B17D}Prefabs/Structures/BuildingParts/Windows/Win_GlassBlock_01/Win_GlassBlock_01_200x275.et"
+  }
+  SlotBoneMappingObject "{5A188044246537FF}" {
+   BonePrefix "Socket_Win_GlassBlock_100x275"
+   Prefab "{95F700F00AF5333A}Prefabs/Structures/BuildingParts/Windows/Win_GlassBlock_01/Win_GlassBlock_01_100x275.et"
+  }
+  SlotBoneMappingObject "{5A1E7603C87DFAA6}" {
+   BonePrefix "socket_Glass_01_88x154_clear"
+   Prefab "{FEC9E591743B4F8B}Prefabs/Structures/BuildingParts/Windows/Glass_88x154/Glass_88x154.et"
+  }
+  SlotBoneMappingObject "{5A1E7603C82F2CA2}" {
+   BonePrefix "socket_Glass_01_200x100_M1"
+   Prefab "{678AB1A771B8A06F}Prefabs/Structures/BuildingParts/Windows/Glass_200x100_M1/Glass_200x100_M1_wired.et"
+  }
+  SlotBoneMappingObject "{5A1E7603C99FCFCF}" {
+   BonePrefix "Socket_Win_Office_E_195x72"
+   Prefab "{76414EACD6D0EAAA}Prefabs/Structures/BuildingParts/Windows/Win_Office_E_A/Win_Office_E_195x72_2_B.et"
+  }
+  SlotBoneMappingObject "{5A1E7603C9443B6D}" {
+   BonePrefix "Socket_Win_Office_E_195x182"
+   Prefab "{FD97350D58923F1E}Prefabs/Structures/BuildingParts/Windows/Win_Office_E_A/Win_Office_E_195x182_2_B.et"
+  }
+  SlotBoneMappingObject "{5A2ED20EA070E24C}" {
+   BonePrefix "Socket_SmokestackMetal_E_01"
+   Prefab "{6FC492B696FF2DFC}Prefabs/Structures/Industrial/Smokestacks/SmokestackMetal_E_01/SmokestackMetal_E_01.et"
+  }
+  SlotBoneMappingObject "{5A2EF303AABDD8E6}" {
+   BonePrefix "socket_Glass_01_88x154_mesh"
+   Prefab "{EBB31DB229895D75}Prefabs/Structures/BuildingParts/Windows/Glass_88x154/Glass_88x154_wired.et"
+  }
+  SlotBoneMappingObject "{5A30B0E7321A0652}" {
+   BonePrefix "Socket_CabinetElectricalLargeSet_01_V1"
+   Prefab "{EDBDB550EDC0D174}Prefabs/Structures/BuildingParts/Eletrical/CabinetElectricalLargeSet_01/CabinetElectricalLargeSet_01_V1.et"
+  }
+  SlotBoneMappingObject "{5A30B0E7350F2A4A}" {
+   BonePrefix "Socket_CabinetElectricalLargeSet_01_V2"
+   Prefab "{81E981B051045E5A}Prefabs/Structures/BuildingParts/Eletrical/CabinetElectricalLargeSet_01/CabinetElectricalLargeSet_01_V2.et"
+  }
+  SlotBoneMappingObject "{5A30B0E734586BCA}" {
+   BonePrefix "Socket_CabinetElectricalLargeSet_01_V3"
+   Prefab "{6475CD495DE1C931}Prefabs/Structures/BuildingParts/Eletrical/CabinetElectricalLargeSet_01/CabinetElectricalLargeSet_01_V3.et"
+  }
+  SlotBoneMappingObject "{5A30B0E737679D4C}" {
+   BonePrefix "Socket_CabinetElectricalLarge_01_EndPanel"
+   Prefab "{3A91334C5569E834}Prefabs/Structures/BuildingParts/Eletrical/CabinetElectricalLargeSet_01/CabinetElectricalLargeSet_01_EndPanel.et"
+  }
+  SlotBoneMappingObject "{5A32D71265FF73B0}" {
+   BonePrefix "Socket_Ladder_DieselPowerPlant_01_322"
+   Prefab "{B8508AD8AA5464E8}Prefabs/Structures/BuildingParts/Ladders/Ladder_DieselPowerPlant_01/Ladder_DieselPowerPlant_01_322_B.et"
+  }
+  SlotBoneMappingObject "{5A32D712659A8F1B}" {
+   BonePrefix "Socket_Ladder_DieselPowerPlant_01_386"
+   Prefab "{BE3D3EA72E000EFB}Prefabs/Structures/BuildingParts/Ladders/Ladder_DieselPowerPlant_01/Ladder_DieselPowerPlant_01_386_B.et"
+  }
+  SlotBoneMappingObject "{5A32D712653C138F}" {
+   BonePrefix "Socket_Ladder_DieselPowerPlant_01_866"
+   Prefab "{5E6E2D5FBB966C01}Prefabs/Structures/BuildingParts/Ladders/Ladder_DieselPowerPlant_01/Ladder_DieselPowerPlant_01_866_B.et"
+  }
+  SlotBoneMappingObject "{5A34CC5CB814F63F}" {
+   BonePrefix "Socket_Entry_Direct_01_narrow"
+   Prefab "{FA188839C5E6DAD3}Prefabs/Structures/BuildingParts/Entry/Entry_Direct_01_narrow.et"
+  }
+  SlotBoneMappingObject "{5A34CC5CBB48FB57}" {
+   BonePrefix "Socket_Entry_Direct_01_wide"
+   Prefab "{69A8FFE5527CB776}Prefabs/Structures/BuildingParts/Entry/Entry_Direct_01.et"
+  }
+  SlotBoneMappingObject "{5A34CC5C812CA4B5}" {
+   BonePrefix "Socket_Entry_Slope"
+   Prefab "{18E3F1942F2C8509}Prefabs/Structures/BuildingParts/Entry/Entry_Slope_Platform_01.et"
+  }
+ }
+ {
+  SCR_JunctionPowerPole {
+   components {
+    Hierarchy "{5E4C9E5242C1D68E}" {
+    }
+   }
+   coords 0 0 0
+   m_aCableSlotGroups {
+    SCR_PoleCableSlotGroup "{610960DA521105CD}" {
+     m_eCableType POWER_EHV
+     m_aSlots {
+      SCR_PoleCableSlot "{610960DA7A552C80}" {
+       m_vPosition 9.773 7.113 -13.261
+      }
+      SCR_PoleCableSlot "{610960DA7B9DE415}" {
+       m_vPosition 10.973 7.113 -13.261
+      }
+      SCR_PoleCableSlot "{610960DA7BD0D803}" {
+       m_vPosition 12.172 7.113 -13.261
+      }
+      SCR_PoleCableSlot "{610960DA7BC9AAD7}" {
+       m_vPosition 13.372 7.113 -13.261
+      }
+     }
+    }
+   }
+  }
+  $grp GenericEntity : "{031522A609CFE64F}Prefabs/Structures/BuildingParts/Eletrical/SocketElectricalLarge_01.et" {
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_SocketElectricalLarge_01_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_SocketElectricalLarge_01_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_SocketElectricalLarge_01_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_SocketElectricalLarge_01_05"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_SocketElectricalLarge_01_04"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp GenericEntity : "{0BB684BD42CCD7E1}Prefabs/Structures/BuildingParts/Doors/DoorSet_Garage_E_03_EXT.et" {
+   {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "Socket_Door_Garage_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "Socket_Door_Garage_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp GenericEntity : "{13EA797E9145BFE3}Prefabs/Structures/BuildingParts/Doors/DoorSet_Services_E_A_Left_UNI_B_INT.et" {
+   {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "Socket_Door_Int_Office_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "Socket_Door_Int_Office_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp StaticModelEntity : "{18E3F1942F2C8509}Prefabs/Structures/BuildingParts/Entry/Entry_Slope_Platform_01.et" {
+   {
+    components {
+     Hierarchy "{5488F0388A297CDE}" {
+      Enabled 1
+      PivotID "Socket_Entry_Slope_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5488F0388A297CDE}" {
+      Enabled 1
+      PivotID "Socket_Entry_Slope_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp GenericEntity : "{1CB7D843AF3CE2BD}Prefabs/Structures/BuildingParts/Eletrical/ElectricityJunction_01.et" {
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_01_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_01_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_01_06"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_01_04"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_01_05"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_01_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_01_25"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_01_26"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_01_24"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_01_28"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_01_29"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_01_27"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_01_20"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_01_18"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_01_19"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_01_22"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_01_23"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_01_21"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_01_14"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_01_12"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_01_13"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_01_17"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_01_15"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_01_16"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_01_08"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_01_09"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_01_07"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_01_11"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_01_10"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp GenericEntity : "{1E01D526381C4B5F}Prefabs/Structures/BuildingParts/Doors/DoorSet_MetalDoor_01_L_EXT.et" {
+   {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "Socket_Door_Single_Ext_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "Socket_Door_Single_Ext_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "Socket_Door_Single_Ext_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  GenericEntity : "{2F51CBF130077DAA}Prefabs/Structures/BuildingParts/Doors/DoorSet_Services_E_A_Double_UNI_B_EXT.et" {
+   components {
+    Hierarchy "{612AE78C85563E26}" {
+     Enabled 1
+     PivotID "Socket_Door_Double_Ext_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  $grp GenericEntity : "{3A91334C5569E834}Prefabs/Structures/BuildingParts/Eletrical/CabinetElectricalLargeSet_01/CabinetElectricalLargeSet_01_EndPanel.et" {
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_CabinetElectricalLarge_01_EndPanel_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_CabinetElectricalLarge_01_EndPanel_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp GenericEntity : "{4C0ECE04CC4A628A}Prefabs/Structures/BuildingParts/Doors/DoorSet_Services_E_A_Double_UNI_B_INT.et" {
+   {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "Socket_Door_Int_Double_Office_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "Socket_Door_Int_Double_Office_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "Socket_Door_Int_Double_Office_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  GameEntity : "{5E6E2D5FBB966C01}Prefabs/Structures/BuildingParts/Ladders/Ladder_DieselPowerPlant_01/Ladder_DieselPowerPlant_01_866_B.et" {
+   components {
+    Hierarchy "{557E8CF8B87AB6F6}" {
+     Enabled 1
+     PivotID "Socket_Ladder_DieselPowerPlant_01_866_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  $grp GenericEntity : "{6401BFEA3B30EBF7}Prefabs/Structures/BuildingParts/Eletrical/ElectricityJunction_02/ElectricityJunction_02.et" {
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_02_08"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_02_09"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_02_10"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_02_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_02_04"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_02_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_02_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_02_07"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_02_05"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityJunction_02_06"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  GenericEntity : "{6475CD495DE1C931}Prefabs/Structures/BuildingParts/Eletrical/CabinetElectricalLargeSet_01/CabinetElectricalLargeSet_01_V3.et" {
+   components {
+    Hierarchy "{612AE78C95E98EEB}" {
+     Enabled 1
+     PivotID "Socket_CabinetElectricalLargeSet_01_V3"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  $grp GenericEntity : "{66A908B66DC3277A}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_L_INT_COV_B.et" {
+   {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "Socket_Door_Int_Left_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "Socket_Door_Int_Left_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "Socket_Door_Int_Left_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp GenericEntity : "{678AB1A771B8A06F}Prefabs/Structures/BuildingParts/Windows/Glass_200x100_M1/Glass_200x100_M1_wired.et" {
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_200x100_M1_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_200x100_M1_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_200x100_M1_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_200x100_M1_04"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp Building : "{68585B0075224146}Prefabs/Structures/BuildingParts/Windows/Win_Services_E_A/Win_Services_E_A_UNI_68x300_111_B_INT.et" {
+   {
+    components {
+     Hierarchy "{5C72CC57D9E50F48}" {
+      Enabled 1
+      PivotID "Socket_Win_Services_Int_68x300_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5C72CC57D9E57671}" {
+      Enabled 1
+      PivotID "Socket_Win_Services_Int_68x300_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5C72CC57D9E56720}" {
+      Enabled 1
+      PivotID "Socket_Win_Services_Int_68x300_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  StaticModelEntity : "{69A8FFE5527CB776}Prefabs/Structures/BuildingParts/Entry/Entry_Direct_01.et" {
+   components {
+    Hierarchy "{5488F0388A297CDE}" {
+     Enabled 1
+     PivotID "Socket_Entry_Direct_01_wide_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  $grp GenericEntity : "{6F411646B50B6961}Prefabs/Structures/BuildingParts/Eletrical/SocketElectricalLarge_02.et" {
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_SocketElectricalLarge_02_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_SocketElectricalLarge_02_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_SocketElectricalLarge_02_04"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_SocketElectricalLarge_02_05"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_SocketElectricalLarge_02_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  GameEnvironmentProbeEntity : "{6F46BA45228BFA0B}Prefabs/Structures/Infrastructure/Power/DieselPowerPlant_01/HouseAddons/Probe_DieselPowerPlant_01.et" {
+   coords 1.364 5.563 -2.646
+  }
+  $grp Building : "{76414EACD6D0EAAA}Prefabs/Structures/BuildingParts/Windows/Win_Office_E_A/Win_Office_E_195x72_2_B.et" {
+   {
+    components {
+     Hierarchy "{5C72CC57D9F38BCD}" {
+      Enabled 1
+      PivotID "Socket_Win_Office_E_195x72_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5C72CC57D9F39192}" {
+      Enabled 1
+      PivotID "Socket_Win_Office_E_195x72_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5C72CC57D9F3F4EF}" {
+      Enabled 1
+      PivotID "Socket_Win_Office_E_195x72_10"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5C72CC57D9F3F1E0}" {
+      Enabled 1
+      PivotID "Socket_Win_Office_E_195x72_11"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5C72CC57D9F39A01}" {
+      Enabled 1
+      PivotID "Socket_Win_Office_E_195x72_05"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5C72CC57D9F3E6CA}" {
+      Enabled 1
+      PivotID "Socket_Win_Office_E_195x72_06"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5C72CC57D9F39D85}" {
+      Enabled 1
+      PivotID "Socket_Win_Office_E_195x72_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5C72CC57D9F39E47}" {
+      Enabled 1
+      PivotID "Socket_Win_Office_E_195x72_04"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5C72CC57D9F3EB96}" {
+      Enabled 1
+      PivotID "Socket_Win_Office_E_195x72_09"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5C72CC57D9F3E2BA}" {
+      Enabled 1
+      PivotID "Socket_Win_Office_E_195x72_07"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5C72CC57D9F3EEA4}" {
+      Enabled 1
+      PivotID "Socket_Win_Office_E_195x72_08"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  GenericEntity : "{81E981B051045E5A}Prefabs/Structures/BuildingParts/Eletrical/CabinetElectricalLargeSet_01/CabinetElectricalLargeSet_01_V2.et" {
+   components {
+    Hierarchy "{612AE78C95E98EEB}" {
+     Enabled 1
+     PivotID "Socket_CabinetElectricalLargeSet_01_V2"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  $grp GenericEntity : "{83AAA23E7EF08258}Prefabs/Structures/BuildingParts/Windows/Win_GlassBlock_01/Win_GlassBlock_01_200x325.et" {
+   {
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      Enabled 1
+      PivotID "Socket_Win_GlassBlock_200x235_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      Enabled 1
+      PivotID "Socket_Win_GlassBlock_200x235_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp Building : "{8D848BCFE2530FF1}Prefabs/Structures/BuildingParts/Windows/Win_Services_E_A/Win_Services_E_A_UNI_135x300_111_B_INT.et" {
+   {
+    components {
+     Hierarchy "{5C72CC57D9E162DB}" {
+      Enabled 1
+      PivotID "Socket_Win_Services_Int_135x300_09"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5C72CC57D9E1133B}" {
+      Enabled 1
+      PivotID "Socket_Win_Services_Int_135x300_08"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5C72CC57D9E14D54}" {
+      Enabled 1
+      PivotID "Socket_Win_Services_Int_135x300_11"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5C72CC57D9E17DB8}" {
+      Enabled 1
+      PivotID "Socket_Win_Services_Int_135x300_10"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5C72CC57D9E1260F}" {
+      Enabled 1
+      PivotID "Socket_Win_Services_Int_135x300_05"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5C72CC57D9EED75D}" {
+      Enabled 1
+      PivotID "Socket_Win_Services_Int_135x300_04"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5C72CC57D9E10035}" {
+      Enabled 1
+      PivotID "Socket_Win_Services_Int_135x300_07"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5C72CC57D9E13134}" {
+      Enabled 1
+      PivotID "Socket_Win_Services_Int_135x300_06"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5C72CC57D9EE9E97}" {
+      Enabled 1
+      PivotID "Socket_Win_Services_Int_135x300_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5C72CC57D9EEC7F8}" {
+      Enabled 1
+      PivotID "Socket_Win_Services_Int_135x300_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5C72CC57D9EEF40E}" {
+      Enabled 1
+      PivotID "Socket_Win_Services_Int_135x300_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5C72CC57D9E15C19}" {
+      Enabled 1
+      PivotID "Socket_Win_Services_Int_135x300_12"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp GenericEntity : "{8F17372BAB5A9CF8}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_02.et" {
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightIndustrial_02_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightIndustrial_02_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightIndustrial_02_05"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightIndustrial_02_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightIndustrial_02_04"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  GenericEntity : "{90BCDBBA44D6886B}Prefabs/Structures/BuildingParts/Eletrical/LoudspeakerMicrophone_01.et" {
+   components {
+    Hierarchy "{612AE78C95E98EEB}" {
+     Enabled 1
+     PivotID "Socket_LoudspeakerMicrophone_01_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  $grp GenericEntity : "{9465BE9D286359D7}Prefabs/Structures/BuildingParts/Eletrical/SocketElectrical_02.et" {
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_SocketElectrical_02_07"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_SocketElectrical_02_05"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_SocketElectrical_02_06"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_SocketElectrical_02_09"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_SocketElectrical_02_10"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_SocketElectrical_02_08"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_SocketElectrical_02_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_SocketElectrical_02_04"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_SocketElectrical_02_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_SocketElectrical_02_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  GenericEntity : "{94DCE76C1FFBA9BA}Prefabs/Structures/BuildingParts/Eletrical/ElectricityBox_01.et" {
+   components {
+    Hierarchy "{612AE78C95E98EEB}" {
+     Enabled 1
+     PivotID "Socket_ElectricityBox_01_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{95F700F00AF5333A}Prefabs/Structures/BuildingParts/Windows/Win_GlassBlock_01/Win_GlassBlock_01_100x275.et" {
+   components {
+    Hierarchy "{7642683663DE57B3}" {
+     Enabled 1
+     PivotID "Socket_Win_GlassBlock_100x275_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{9B4F35315B8A7209}Prefabs/Structures/BuildingParts/Eletrical/ElectricityBoxes/ElectricityBox_medium_01.et" {
+   components {
+    Hierarchy "{612AE78C95E98EEB}" {
+     Enabled 1
+     PivotID "Socket_ElectricityBox_Medium_01_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{A1B037BBDADB1A7B}Prefabs/Structures/BuildingParts/Eletrical/ElectricityBoxes/ElectricityBox_small_02.et" {
+   components {
+    Hierarchy "{612AE78C95E98EEB}" {
+     Enabled 1
+     PivotID "Socket_ElectricityBox_Small_02_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  $grp GenericEntity : "{AAA9315EB1CC7531}Prefabs/Structures/BuildingParts/Eletrical/KillSwitch_01.et" {
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_KillSwitch_01_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_KillSwitch_01_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_KillSwitch_01_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp GenericEntity : "{B3CF0487BB36323B}Prefabs/Props/Furniture/LampFluorescent/LampFluorescent_01.et" {
+   {
+    components {
+     Hierarchy "{5C72CC57D831AA61}" {
+      Enabled 1
+      PivotID "Socket_LampFluorescent_01_07"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5C72CC57D831A464}" {
+      Enabled 1
+      PivotID "Socket_LampFluorescent_01_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5C72CC57D831A0BE}" {
+      Enabled 1
+      PivotID "Socket_LampFluorescent_01_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5C72CC57D831AE32}" {
+      Enabled 1
+      PivotID "Socket_LampFluorescent_01_05"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5C72CC57D831A81B}" {
+      Enabled 1
+      PivotID "Socket_LampFluorescent_01_06"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5C72CC57D831A2E9}" {
+      Enabled 1
+      PivotID "Socket_LampFluorescent_01_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5C72CC57D831ACF1}" {
+      Enabled 1
+      PivotID "Socket_LampFluorescent_01_04"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp GameEntity : "{B8508AD8AA5464E8}Prefabs/Structures/BuildingParts/Ladders/Ladder_DieselPowerPlant_01/Ladder_DieselPowerPlant_01_322_B.et" {
+   {
+    components {
+     Hierarchy "{557E8CF8B87AB6F6}" {
+      Enabled 1
+      PivotID "Socket_Ladder_DieselPowerPlant_01_322_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{557E8CF8B87AB6F6}" {
+      Enabled 1
+      PivotID "Socket_Ladder_DieselPowerPlant_01_322_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp GenericEntity : "{B8EA3DCD71F736B5}Prefabs/Structures/BuildingParts/Eletrical/DieselGenerator_01/DieselGenerator_01.et" {
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_Diesel_Generator_01_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_Diesel_Generator_01_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp GenericEntity : "{BB6989EB97F4F67E}Prefabs/Structures/BuildingParts/Lights/LampIndustrial_03.et" {
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LampIndustrial_03_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LampIndustrial_03_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LampIndustrial_03_04"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LampIndustrial_03_05"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LampIndustrial_03_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LampIndustrial_03_08"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LampIndustrial_03_06"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LampIndustrial_03_07"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  GameEntity : "{BE3D3EA72E000EFB}Prefabs/Structures/BuildingParts/Ladders/Ladder_DieselPowerPlant_01/Ladder_DieselPowerPlant_01_386_B.et" {
+   components {
+    Hierarchy "{557E8CF8B87AB6F6}" {
+     Enabled 1
+     PivotID "Socket_Ladder_DieselPowerPlant_01_386_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  $grp GenericEntity : "{CDE4035B661F9555}Prefabs/Structures/BuildingParts/Eletrical/ElectricityBoxes/ElectricityBox_small_01.et" {
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityBox_Small_01_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_ElectricityBox_Small_01_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  GenericEntity : "{D50721D5BCE9B17D}Prefabs/Structures/BuildingParts/Windows/Win_GlassBlock_01/Win_GlassBlock_01_200x275.et" {
+   components {
+    Hierarchy "{7642683663DE57B3}" {
+     Enabled 1
+     PivotID "Socket_Win_GlassBlock_200x275_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  $grp GenericEntity : "{DF9B306707F2BD15}Prefabs/Props/Furniture/LampFluorescent/LampFluorescent_02.et" {
+   {
+    components {
+     Hierarchy "{5C72CC57D83E0C5B}" {
+      Enabled 1
+      PivotID "Socket_LampFluorescent_02_09"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5C72CC57D83E3832}" {
+      Enabled 1
+      PivotID "Socket_LampFluorescent_02_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5C72CC57D83E3A09}" {
+      Enabled 1
+      PivotID "Socket_LampFluorescent_02_04"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5C72CC57D83E3DB7}" {
+      Enabled 1
+      PivotID "Socket_LampFluorescent_02_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5C72CC57D83E3EC1}" {
+      Enabled 1
+      PivotID "Socket_LampFluorescent_02_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5C72CC57D83E0079}" {
+      Enabled 1
+      PivotID "Socket_LampFluorescent_02_07"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5C72CC57D83E0246}" {
+      Enabled 1
+      PivotID "Socket_LampFluorescent_02_08"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5C72CC57D83E0418}" {
+      Enabled 1
+      PivotID "Socket_LampFluorescent_02_05"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5C72CC57D83E066D}" {
+      Enabled 1
+      PivotID "Socket_LampFluorescent_02_06"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp GenericEntity : "{E286F281A306707A}Prefabs/Structures/BuildingParts/Doors/DoorSet_Industrial_01_INT.et" {
+   {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "Socket_Door_Int_Double_Industrial_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "Socket_Door_Int_Double_Industrial_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp GenericEntity : "{E34303CB179E13D6}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_01.et" {
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightIndustrial_01_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightIndustrial_01_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightIndustrial_01_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp GenericEntity : "{EBB31DB229895D75}Prefabs/Structures/BuildingParts/Windows/Glass_88x154/Glass_88x154_wired.et" {
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_mesh_108"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_mesh_109"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_mesh_106"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_mesh_107"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_mesh_112"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_mesh_110"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_mesh_111"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_mesh_102"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_mesh_101"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_mesh_104"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_mesh_105"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_mesh_103"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_mesh_100"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_mesh_94"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_mesh_95"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_mesh_93"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_mesh_98"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_mesh_99"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_mesh_96"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_mesh_97"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_mesh_87"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_mesh_88"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_mesh_85"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_mesh_86"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_mesh_91"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_mesh_92"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_mesh_89"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_mesh_90"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_mesh_115"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_mesh_116"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_mesh_113"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_mesh_114"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_mesh_83"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_mesh_84"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_mesh_117"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_mesh_118"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  GenericEntity : "{ECEDC6FE67DACFB2}Prefabs/Structures/Infrastructure/Power/DieselPowerPlant_01/Furniture/DieselPowerPlant_01_furniture_01.et" {
+   coords 0 0 0
+  }
+  GenericEntity : "{EDBDB550EDC0D174}Prefabs/Structures/BuildingParts/Eletrical/CabinetElectricalLargeSet_01/CabinetElectricalLargeSet_01_V1.et" {
+   components {
+    Hierarchy "{612AE78C95E98EEB}" {
+     Enabled 1
+     PivotID "Socket_CabinetElectricalLargeSet_01_V1"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{F71B01D1E74EFD27}Prefabs/Structures/BuildingParts/Eletrical/ElectricityBoxes/ElectricityBox_medium_02.et" {
+   components {
+    Hierarchy "{612AE78C95E98EEB}" {
+     Enabled 1
+     PivotID "Socket_ElectricityBox_Medium_02_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{F888D38CA33F2694}Prefabs/Structures/BuildingParts/Eletrical/ElectricityBox_02.et" {
+   components {
+    Hierarchy "{612AE78C95E98EEB}" {
+     Enabled 1
+     PivotID "Socket_ElectricityBox_02_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  StaticModelEntity : "{FA188839C5E6DAD3}Prefabs/Structures/BuildingParts/Entry/Entry_Direct_01_narrow.et" {
+   components {
+    Hierarchy "{5488F0388A297CDE}" {
+     Enabled 1
+     PivotID "Socket_Entry_Direct_01_narrow_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  $grp GenericEntity : "{FCD5B0DE50F886B7}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_04.et" {
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightSwitch_04_29"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightSwitch_04_27"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightSwitch_04_28"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightSwitch_04_31"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightSwitch_04_32"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightSwitch_04_30"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightSwitch_04_23"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightSwitch_04_22"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightSwitch_04_26"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightSwitch_04_24"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightSwitch_04_25"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightSwitch_04_17"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightSwitch_04_16"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightSwitch_04_20"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightSwitch_04_21"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightSwitch_04_18"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightSwitch_04_19"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightSwitch_04_11"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightSwitch_04_12"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightSwitch_04_10"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightSwitch_04_14"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightSwitch_04_15"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightSwitch_04_13"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightSwitch_04_05"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightSwitch_04_06"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightSwitch_04_04"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightSwitch_04_08"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightSwitch_04_09"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightSwitch_04_07"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightSwitch_04_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightSwitch_04_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "Socket_LightSwitch_04_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp Building : "{FD97350D58923F1E}Prefabs/Structures/BuildingParts/Windows/Win_Office_E_A/Win_Office_E_195x182_2_B.et" {
+   {
+    components {
+     Hierarchy "{5C72CC57D9F53F5B}" {
+      Enabled 1
+      PivotID "Socket_Win_Office_E_195x182_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{5C72CC57D9F53A7A}" {
+      Enabled 1
+      PivotID "Socket_Win_Office_E_195x182_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp GenericEntity : "{FEC9E591743B4F8B}Prefabs/Structures/BuildingParts/Windows/Glass_88x154/Glass_88x154.et" {
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_04"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_82"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_77"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_75"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_76"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_80"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_81"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_78"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_79"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_69"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_70"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_68"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_73"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_74"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_71"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_72"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_63"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_61"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_62"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_66"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_67"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_64"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_65"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_28"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_26"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_27"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_31"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_29"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_30"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_22"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_20"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_21"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_24"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_25"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_23"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_15"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_13"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_14"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_18"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_19"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_16"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_17"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_07"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_08"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_05"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_06"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_11"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_12"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_09"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_10"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_56"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_57"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_54"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_55"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_59"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_60"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_58"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_49"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_47"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_48"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_52"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_53"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_50"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_51"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_41"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_42"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_39"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_40"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_45"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_46"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_43"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_44"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_34"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_35"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_32"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_33"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_37"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_38"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_Glass_01_88x154_clear_36"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+ }
+}
 GenericEntity : "{A499537F335889D8}PrefabLibrary/Debris/Debris_02.et" {
  coords 5043.903 30.44 4045.893
  angles 0 0 -26.356
  scale 9.643
+}
+SCR_DestructibleBuildingEntity : "{A548C1C5370D0734}Prefabs/Structures/Houses/Garage/Garage_E_01/Garage_E_01.et" {
+ coords 4822.227 0.001 4150.678
+ angles 0 -90 0
 }
 SCR_DestructibleBuildingEntity : "{A76A76EBBD55CAAC}Prefabs/Structures/Military/Houses/GuardHouse_06/Guardhouse_USSR_06.et" {
  coords 4878.953 0 4124.21
@@ -106,16 +4273,109 @@ SCR_DestructibleBuildingEntity : "{A76A76EBBD55CAAC}Prefabs/Structures/Military/
 SCR_DestructibleBuildingEntity : "{A76BAA1713A0991F}Prefabs/Industrial/sklades_soviet/Staff_soviets.et" {
  coords 4716.207 30 4295.935
 }
+GenericEntity : "{AAAC572D4ED0F19C}Prefabs/Vehicles/gaz66/armst_gaz66_wreck.et" {
+ coords 4781.091 25.844 4161.318
+ angles 0 120 0
+}
 SCR_DestructibleBuildingEntity : "{AF8B6B52567616E5}Prefabs/Industrial/sklades_soviet/Watchtower_4_soviets_3.et" {
  coords 4685.348 30 4308.152
  angles 0 0 0
 }
 SCR_DestructibleBuildingEntity : "{AFB21520AF9D5E0A}Prefabs/Industrial/builds/house_38.et" {
- coords 4835.175 30 4180.603
+ coords 4835.175 30 4183.837
 }
-SCR_DestructibleBuildingEntity : "{C8ED58851896F6D9}Prefabs/Industrial/sklades_soviet/Gatehouse_soviets_ext.et" {
- coords 4727.582 30 4270.589
- angles 0 0 0
+$grp SCR_DestructibleEntity : "{B602A2E5447E58C2}Prefabs/Structures/Walls/Net/NetFence_01/NetFence_01_2m_brown.et" {
+ {
+  coords 4879.956 0 4103.64
+  angles 0 -90 0
+ }
+ {
+  coords 4879.956 0 4106.14
+  angles 0 -90 0
+ }
+ {
+  coords 4879.956 0 4108.64
+  angles 0 -90 0
+ }
+ {
+  coords 4879.956 0 4111.14
+  angles 0 -90 0
+ }
+ {
+  coords 4879.956 0 4113.64
+  angles 0 -90 0
+ }
+ {
+  coords 4879.956 0 4116.14
+  angles 0 -90 0
+ }
+ {
+  coords 4879.956 0 4118.64
+  angles 0 -90 0
+ }
+ {
+  coords 4873.125 0 4103.438
+  angles 0 180 0
+ }
+ {
+  coords 4874.956 0 4126.689
+  angles 0 180 0
+ }
+ {
+  coords 4872.456 0 4126.689
+  angles 0 180 0
+ }
+ {
+  coords 4869.956 0 4126.689
+  angles 0 180 0
+ }
+ {
+  coords 4915.956 0 4118.14
+  angles 0 -90 0
+ }
+ {
+  coords 4915.956 0 4120.64
+  angles 0 -90 0
+ }
+ {
+  coords 4915.956 0 4123.14
+  angles 0 -90 0
+ }
+ {
+  coords 4915.956 0 4125.64
+  angles 0 -90 0
+ }
+ {
+  coords 4915.956 0 4128.14
+  angles 0 -90 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{C604699791656656}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_01/FuelTank_01_Base.et" {
+ coords 4890.73 0 4145.79
+}
+$grp GenericEntity : "{C610A4752B5873ED}Prefabs/Structures/Infrastructure/Rail/New/rails_curve_L25_10_new.et" {
+ {
+  coords 4656.858 25.844 4221.604
+  angles 0 -101.689 0
+ }
+ {
+  coords 4633.806 25.844 4215.445
+  angles 0 -139.645 0
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{C8ED58851896F6D9}Prefabs/Industrial/sklades_soviet/Gatehouse_soviets_ext.et" {
+ {
+  coords 4727.582 30 4270.589
+  angles 0 0 0
+ }
+ {
+  coords 4825.255 30 4137.418
+  angles 0 0 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{D1A2077E004C7F64}Prefabs/Structures/Agriculture/Wooden Barn Short.et" {
+ coords 4789.014 0 4143.746
+ angles 0 -90 0
 }
 SCR_DestructibleBuildingEntity : "{DA18BC3C9738C614}Prefabs/Industrial/builds/bitovka_wheels.et" {
  coords 4727.557 30 4282.622
@@ -151,6 +4411,20 @@ $grp GenericEntity : "{E0CD7C6EAC7E2C31}Prefabs/Stairs_Support.et" {
   angles 0 -90 0
  }
 }
+SCR_DestructibleBuildingEntity : "{E2A20DFFC3F8DDA0}Prefabs/agroprom/ferma_big.et" {
+ coords 4765.054 25.845 4211.248
+ angles 0 180 0
+}
+SCR_DestructibleBuildingEntity : "{E33A3A2CB9C9BCB1}Prefabs/Structures/Infrastructure/Power/TransformerStation110kV_E_01/TransformerStation110kV_E_01_base.et" {
+ coords 4811.158 0 4162.603
+ scale 0.629
+}
+SCR_DestructibleBuildingEntity : "{EA9EC45BE2B0B8C2}Prefabs/agroprom/WeightStation_01_base.et" {
+ coords 4785.632 0.001 4203.784
+}
+SCR_DestructibleBuildingEntity : "{EE6B95EB59D4CFFF}Prefabs/Structures/Industrial/Garage_02_Industrial.et" {
+ coords 4816.612 -0.245 4128.837
+}
 $grp SCR_DestructibleBuildingEntity : "{EF29803956AE7F90}Prefabs/Industrial/builds/house_41.et" {
  {
   coords 4890.154 30 4205.318
@@ -159,10 +4433,53 @@ $grp SCR_DestructibleBuildingEntity : "{EF29803956AE7F90}Prefabs/Industrial/buil
   coords 4871.228 30 4208.318
   angles 0 90 0
  }
+ {
+  coords 4890.641 30 4092.377
+  angles 0 -90 0
+ }
+ {
+  coords 4940.337 30 4100.842
+  angles 0 180 0
+ }
 }
-SCR_DestructibleBuildingEntity : "{F8A2216373DB554C}Prefabs/Industrial/sklades_soviet/Barn_soviets.et" {
- coords 4757.102 30 4283.65
- angles 0 0 0
+SCR_DestructibleBuildingEntity : "{EF96889E35217E1E}Prefabs/Structures/Houses/Shed/Shed_03/Shed_03_wide.et" {
+ coords 4929.392 0 4122.817
+}
+$grp SCR_DestructibleEntity : "{F755F729EC8D5203}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_2m.et" {
+ {
+  coords 4876.754 0.5 4088.025
+  angles 0 0 0
+ }
+ {
+  coords 4876.759 0.5 4088.525
+  angles 0 0 0
+ }
+ {
+  coords 4879.91 0.5 4087.918
+  angles 0 90.545 0
+ }
+ {
+  coords 4879.891 0.5 4085.918
+  angles 0 90.545 0
+ }
+ {
+  coords 4875.891 0.5 4085.956
+  angles 0 90.545 0
+ }
+ {
+  coords 4875.905 0.5 4087.456
+  angles 0 90.545 0
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{F8A2216373DB554C}Prefabs/Industrial/sklades_soviet/Barn_soviets.et" {
+ {
+  coords 4757.102 30 4283.65
+  angles 0 0 0
+ }
+ {
+  coords 4794.104 29.951 4122.728
+  angles 0 90 0
+ }
 }
 GenericEntity Water : "{FBD32285925CFBE7}Prefabs/Editor/Plane_01/GridPlane_100x100.et" {
  components {
