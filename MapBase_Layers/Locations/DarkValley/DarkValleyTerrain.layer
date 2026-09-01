@@ -22262,13 +22262,28 @@ $grp PolylineShapeEntity {
     Position -9.99 0.164 -1.587
    }
    ShapePoint "{6A3F79B341560481}" {
-    Position 17.744 -0.264 0.307
+    Position 6.672 0.361 1.637
+   }
+   ShapePoint "{6A4330FEEDB23F4B}" {
+    Position 16.852 1.358 -0.103
    }
    ShapePoint "{6A3F79B2E01DD46F}" {
-    Position 25.638 0 3.927
+    Position 19.222 0.403 1.497
+   }
+   ShapePoint "{6A4330FEB277D9B4}" {
+    Position 23.29 0.705 3.077
+   }
+   ShapePoint "{6A4330FEB0B5E540}" {
+    Position 25.946 -2.211 8.934
+   }
+   ShapePoint "{6A4330FEB16E9E35}" {
+    Position 28.162 1.035 6.75
+   }
+   ShapePoint "{6A4330FEB601F6EC}" {
+    Position 29.267 1.253 8.251
    }
    ShapePoint "{6A3F79B327CE8770}" {
-    Position 29.719 0.078 15.63
+    Position 30.351 0.758 15.147
    }
    ShapePoint "{6A3F79B2FB0EDFF6}" {
     Position 31.88 0.639 21.008
@@ -22277,7 +22292,7 @@ $grp PolylineShapeEntity {
   {
    WallGeneratorEntity WG_RootRidge_01_Huge3 : "{20C867FF2CC43B0D}Prefabs/WEGenerators/Pavements/Asphalt/WG_Asphalt_Pavement_01_Narrow.et" {
     Flags 0x100003 0
-    m_iSeed 9416
+    m_iSeed 3274
     m_vShapeOffset 0 0 1
     PrePadding 0.62
     PostPadding -0.18
@@ -22290,68 +22305,74 @@ $grp PolylineShapeEntity {
        }
       }
      }
+     WallLengthGroup "{6A4330F97C63003A}" {
+     }
     }
     {
      $grp GenericEntity : "{794D95ED8AA1742D}Prefabs/Vegetation/Tree/Roots/Roots_01_huge.et" {
       {
-       coords -8.374 -0.415 -1.472
-       angles 0 -4.278 0
+       coords -8.398 -0.169 -1.286
+       angles 0 -10.348 0
       }
       {
-       coords -4.604 0.265 -1.19
-       angles 0 -4.278 0
+       coords -4.679 0.283 -0.607
+       angles 0 -10.348 0
       }
       {
-       coords -0.834 0.037 -0.908
-       angles 0 -4.278 0
+       coords -0.96 -0.248 0.072
+       angles 0 -10.348 0
       }
       {
-       coords 2.935 -0.19 -0.626
-       angles 0 -4.278 0
+       coords 2.759 -0.192 0.752
+       angles 0 -10.348 0
       }
       {
-       coords 6.705 -0.385 -0.344
-       angles 0 -4.278 0
+       coords 6.479 -0.632 1.257
+       angles 0 5.825 0
       }
       {
-       coords 10.475 -0.488 -0.062
-       angles 0 -4.278 0
+       coords 10.209 -1.014 0.876
+       angles 0 5.825 0
       }
       {
-       coords 14.245 -0.524 0.22
-       angles 0 -4.278 0
+       coords 13.939 -0.653 0.496
+       angles 0 5.825 0
       }
       {
-       coords 17.958 -0.524 0.72
-       angles 0 -25.288 0
+       coords 17.583 -1.859 0.485
+       angles 0 -30.256 0
       }
       {
-       coords 21.375 -0.524 2.335
-       angles 0 -25.288 0
+       coords 20.83 -1.109 2.305
+       angles 0 -24.331 0
       }
       {
-       coords 24.793 -0.611 3.949
-       angles 0 -25.288 0
+       coords 24.007 -1.196 4.146
+       angles 0 -60.907 0
       }
       {
-       coords 27.781 -2.318 5.905
-       angles 0 -77.877 0
+       coords 25.842 -0.834 7.444
+       angles 0 -60.907 0
       }
       {
-       coords 28.574 -1.544 9.6
-       angles 0 -77.877 0
+       coords 27.616 -1.462 9.763
+       angles 0 61.163 0
       }
       {
-       coords 29.368 -0.655 13.296
-       angles 0 -77.877 0
+       coords 28.96 -3.666 8.122
+       angles 0 -78.725 0
       }
       {
-       coords 30.262 -0.563 16.96
-       angles 0 -68.193 0
+       coords 29.673 -2.486 11.697
+       angles 0 -78.725 0
       }
       {
-       coords 31.666 -0.547 20.468
-       angles 0 -68.193 0
+       coords 30.42 -1.587 15.278
+       angles 0 -75.657 0
+      }
+      {
+       coords 31.343 -1.191 18.889
+       angles 0 -75.657 0
       }
      }
     }
@@ -85437,31 +85458,6 @@ $grp GenericEntity : "{2FB8B9906B742173}Prefabs/wood_bridges/wood_bridges_ladder
   angles 0 -48.944 0
  }
 }
-$grp SCR_IndestructibleEnvironmentalEntity : "{3F68EE5DCB004B10}Prefabs/Rocks/Granite/GraniteCliff_01.et" {
- {
-  coords 6170.52 19.296 2283.71
- }
- {
-  coords 6160.715 19.694 2285.661
-  angles 0 19.759 0
- }
- {
-  coords 6156.126 18.928 2293.654
-  angles 0 87.077 0
- }
- {
-  coords 6148.565 18.184 2303.77
-  angles 0 33.806 0
- }
- {
-  coords 6138.231 18.313 2310.689
-  angles 0 55.297 0
- }
- {
-  coords 6136.998 18.62 2318.501
-  angles 0 81.611 0
- }
-}
 Tree : "{425761285F36BF16}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_1s.et" {
  coords 6429.466 -12.062 2259.765
  angles 1.744 -65.101 -1.668
@@ -85800,10 +85796,6 @@ Tree : "{B2865E0C5A335E76}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula
  coords 6529.687 -11.032 2318.678
  angles -7.692 -61.714 10.023
  scale 0.502
-}
-SCR_IndestructibleEnvironmentalEntity : "{B6A096447B215355}Prefabs/Rocks/Granite/GraniteCliff_03.et" {
- coords 6133.46 38.662 2333.403
- angles 8.015 77.864 178.283
 }
 GenericEntity : "{C11CE4B95EA336C3}Prefabs/Vegetation/Cuttings/Sambucus_Nigra_medium_01.et" {
  coords 6408.161 30.016 1969.008
