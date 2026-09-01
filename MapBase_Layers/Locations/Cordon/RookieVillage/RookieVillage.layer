@@ -821,8 +821,9 @@ $grp GenericEntity : "{B0F207E11789E0FE}PrefabsEditable/Auto/Props/Industrial/E_
 SCR_DestructibleBuildingEntity : "{B3A60406E09495D2}Prefabs/Structures/Houses/Apartment building/Barak/House_Individual_Brus_Modul_1.et" {
  coords 4746.99 0.015 1698.701
  angles 0 97.632 0
+ AdjustHeightMap 1
 }
-SCR_DestructibleBuildingEntity : "{B660BEC050A9F174}Prefabs/Structures/Houses/House_Individual/House_Individual_Brus/House_Individual_Brus_Modul_4.et" {
+SCR_DestructibleBuildingEntity : "{B660BEC050A9F174}Prefabs/Houses/House_Individual_Brus/House_Individual_Brus_Modul_4.et" {
  coords 4717.103 0 1676.054
  angles 0 -171.656 0
 }
@@ -833,4 +834,5 @@ SCR_DestructibleEntity : "{D71F89D4DD0BCFB3}PrefabLibrary/CainLibrary/Props/Indu
 SCR_DestructibleBuildingEntity : "{FF35BF8C946B7C41}Prefabs/Structures/Houses/House_Individual/House_Individual_Brick/House_Individual_Brick_1.et" {
  coords 4742.762 0 1672.671
  angles 0 98.29 0
+ IsBuilding 0
 }

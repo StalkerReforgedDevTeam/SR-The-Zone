@@ -3,7 +3,7 @@ GenericWorldEntity world {
  boundMins -100 0 -100
  boundMaxs 5081.525 87.596 2094.419
  blockSize 100 1500 100
- SkyPreset "{621C7F2EC2763297}Terrains/Common/Sky/Atmosphere/Atmosphere.emat"
+ SkyPreset "{A78240A4F94C8F9F}Terrains/Common/Sky/Atmosphere/AtmosphereSR.emat"
  PlanetPreset {
   "{7037BF6589EEFD5D}Terrains/Common/Sky/Planets/Sun_01.emat"
   "{63C716F4064F5D43}Terrains/Common/Sky/Planets/Moon_01.emat"
@@ -29,8 +29,12 @@ GenericWorldEntity world {
    ProbeDiffuseColor 0.5149 0.5776 0.5149 0
   }
   GenericWorldFogEntity : "{78D9BBF0F423FEB4}Prefabs/World/DefaultWorld/FogHaze_Default.et" {
-   Color 0.1559 0.1878 0.162 0
-   ColorBack 0.1022 0.1221 0.107 0
+   HeightDensity 0.842
+   DistanceDensity 0.694
+   HazeDensity 0.681
+   HeightOffset 0.498
+   Color 0.4513 0.3797 0.2619 1
+   ColorBack 0.4851 0.3766 0.1419 0
   }
   SCR_CameraManager SCR_CameraManager1 {
    FovMaximum 80
