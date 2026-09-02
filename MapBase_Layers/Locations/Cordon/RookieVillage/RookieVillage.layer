@@ -133,7 +133,7 @@ $grp SplineShapeEntity {
   coords 4711.356 4.969 1689.005
   Points {
    ShapePoint "{6A297B3233C11B30}" {
-    Position 0 0 0
+    Position -27.644 0 24.289
    }
    ShapePoint "{6A297B3233C1E76F}" {
     Position 5 0 0
@@ -165,7 +165,7 @@ $grp SplineShapeEntity {
       ID "55F85D16D1C7EB8E"
       SplinePoints {
        ShapePoint "{556C65561A62B78A}" {
-        Position 0 0 0
+        Position -27.644 0 24.289
        }
        ShapePoint "{556C65561A62EBA9}" {
         Position 5 0 0
@@ -183,7 +183,7 @@ $grp SplineShapeEntity {
         Position 272.216 0 6.406
        }
        ShapePoint "{6A297B32864E8671}" {
-        Position 345.188 0 -20.603
+        Position 345.187 0 -20.603
        }
       }
       IsClosedSpline 0
@@ -210,7 +210,8 @@ $grp SCR_PowerPole : "{15A01C044E105010}Prefabs/Infrastructure/Powerpoles/Powerp
 }
 $grp SCR_DestructibleBuildingEntity : "{169C0208034564A5}Prefabs/Structures/Construcoes/Oldhouse.et" {
  {
-  coords 4769.132 0 1695.56
+  Flags 0 0x80000
+  coords 4769.132 4.875 1695.56
   angles 0 -170.746 0
   {
    SCR_DestructibleBuildingEntity {
@@ -281,7 +282,8 @@ $grp GenericEntity : "{805AE0C6C4485211}PrefabsEditable/Auto/Structures/Signs/Mi
 }
 $grp SCR_DestructibleBuildingEntity : "{8ECB6918A4754525}PrefabLibrary/PreSets/Ruins/House_Village_02.et" {
  {
-  coords 4724.257 0 1703.781
+  Flags 0 0x80000
+  coords 4724.257 5.004 1703.781
   angles 0 99.145 0
   {
    GameEnvironmentProbeEntity {
@@ -522,7 +524,8 @@ $grp SCR_DestructibleBuildingEntity : "{8ECB6918A4754525}PrefabLibrary/PreSets/R
   }
  }
  {
-  coords 4766.284 0 1670.081
+  Flags 0 0x80000
+  coords 4766.284 4.93 1670.081
   angles 0 -82.764 0
   {
    GameEnvironmentProbeEntity {
@@ -777,7 +780,8 @@ GenericEntity : "{935639B6B684831C}Assets/Garbage/Prefabs/Garbage_Trash_Can.et" 
  coords 4734.471 5.182 1702.697
 }
 SCR_DestructibleBuildingEntity : "{988B4E8D6E0EA625}Prefabs/Structures/Undeground/Basement/Basemant_2.et" {
- coords 4734.949 -0.298 1706.705
+ Flags 0 0x80000
+ coords 4734.949 4.89 1706.705
  angles 0 -83.104 0
 }
 $grp GenericEntity : "{A13BCC98B8C380C7}Prefabs/Compositions/Misc/SubCompositions/Decorations/Crate_Firewood_01.et" {
@@ -819,12 +823,17 @@ $grp GenericEntity : "{B0F207E11789E0FE}PrefabsEditable/Auto/Props/Industrial/E_
  }
 }
 SCR_DestructibleBuildingEntity : "{B3A60406E09495D2}Prefabs/Structures/Houses/Apartment building/Barak/House_Individual_Brus_Modul_1.et" {
- coords 4746.99 0.015 1698.701
+ Flags 0 0x80000
+ coords 4746.99 5.202 1698.701
  angles 0 97.632 0
  AdjustHeightMap 1
 }
 SCR_DestructibleBuildingEntity : "{B660BEC050A9F174}Prefabs/Houses/House_Individual_Brus/House_Individual_Brus_Modul_4.et" {
- coords 4717.103 0 1676.054
+ Flags 0 0x80000
+ editor EntityEditorProps "{6A450BBBE1288F37}" {
+  Color 1 0 0 1
+ }
+ coords 4717.103 4.968 1676.054
  angles 0 -171.656 0
 }
 SCR_DestructibleEntity : "{D71F89D4DD0BCFB3}PrefabLibrary/CainLibrary/Props/Industrial/CompressorTrailerWreck_01_Gray.et" {
@@ -832,7 +841,8 @@ SCR_DestructibleEntity : "{D71F89D4DD0BCFB3}PrefabLibrary/CainLibrary/Props/Indu
  angles 14.736 -138.932 -2.228
 }
 SCR_DestructibleBuildingEntity : "{FF35BF8C946B7C41}Prefabs/Structures/Houses/House_Individual/House_Individual_Brick/House_Individual_Brick_1.et" {
- coords 4742.762 0 1672.671
+ Flags 0 0x80000
+ coords 4742.762 4.969 1672.671
  angles 0 98.29 0
  IsBuilding 0
 }
