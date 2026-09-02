@@ -1,5 +1,6 @@
 $grp SplineShapeEntity {
  {
+  Flags 0 0x80000
   coords 4674.023 12.837 1763.49
   Points {
    ShapePoint "{6A297B35687EAA9F}" {
@@ -39,90 +40,90 @@ $grp SplineShapeEntity {
   LineColor 0 0 0 0
   {
    WallGeneratorEntity : "{893BD1EB126A1C01}Prefabs/WEGenerators/Walls/Wooden/WG_WoodenFenceOld_01.et" {
-    Flags 0x100003 0
+    Flags 0 0x80000
     coords 0 0 0
-    m_iSeed 22158
+    m_iSeed 17877
     {
      SCR_DestructibleEntity : "{3D24CF45345054DD}Prefabs/Structures/Walls/Wooden/WoodenFenceOld_01/WoodenFenceOld_01_start.et" {
-      coords 0 0 0
+      coords 0 -0.001 0
       angles 0 22.464 0
      }
      $grp SCR_DestructibleEntity : "{422C2BC6C73E34D2}Prefabs/Structures/Walls/Wooden/WoodenFenceOld_01/WoodenFenceOld_01_8m.et" {
       {
-       coords 2.735 -0.87 -1.138
-       angles -79.249 -157.499 -180
+       coords 2.735 -0.853 -1.138
+       angles 0 22.5 0
       }
       {
-       coords 18.823 -0.164 -13.198
-       angles 0 339.552 0
+       coords 18.823 -0.165 -13.198
+       angles 0 339.551 0
+      }
+      {
+       coords 37.149 -0.833 7.125
+       angles 0 263.268 0
       }
      }
      SCR_DestructibleEntity : "{88B58497B133323D}Prefabs/Structures/Walls/Wooden/WoodenFenceOld_01/WoodenFenceOld_01_end.et" {
-      coords 36.245 -0.081 14.886
-      angles 0 256.905 0
+      coords 36.22 0.733 14.995
+      angles 0 256.903 0
+     }
+     SCR_DestructibleEntity : "{9AAC51B89BE91E6D}Prefabs/Structures/Walls/Wooden/WoodenFenceOld_01/WoodenFenceOld_01_4m_D.et" {
+      coords 35.58 -1.346 -0.533
+      angles 0 285.429 0
      }
      $grp SCR_DestructibleEntity : "{A3B70E75E3769FB4}Prefabs/Structures/Walls/Wooden/WoodenFenceOld_01/WoodenFenceOld_01_4m.et" {
       {
-       coords 11.179 -1.624 -5.766
-       angles 0 74.305 0
+       coords 11.179 -1.625 -5.766
+       angles 0 74.309 0
       }
       {
-       coords 13.435 -0.583 -11.103
-       angles 0 28.941 0
+       coords 13.434 -0.583 -11.103
+       angles 0 28.938 0
       }
       {
        coords 26.252 -0.313 -10.427
-       angles 70.664 -36.851 0
+       angles 0 323.151 0
       }
       {
-       coords 30.754 -0.797 -6.657
-       angles 0 312.396 0
-      }
-      {
-       coords 37.149 -0.842 7.125
-       angles 0 267.253 0
+       coords 30.754 -0.797 -6.656
+       angles 0 312.397 0
       }
      }
      $grp SCR_DestructibleEntity : "{D37A9CAC7152CA07}Prefabs/Structures/Walls/Wooden/WoodenFenceOld_01/WoodenFenceOld_01_2m.et" {
       {
-       coords 0.939 -0.308 -0.388
-       angles 0 22.651 0
+       coords 0.939 -0.307 -0.388
+       angles 0 22.656 0
       }
       {
        coords 10.059 -1.824 -4.174
-       angles 0 54.849 0
+       angles 0 54.846 0
       }
       {
        coords 12.247 -0.868 -9.562
-       angles 0 52.424 0
+       angles 0 52.43 0
       }
       {
-       coords 16.886 -0.23 -13.01
-       angles 0 5.604 0
+       coords 16.886 -0.231 -13.01
+       angles 0 5.6 0
       }
       {
        coords 29.407 -0.591 -8.062
-       angles 0 313.79 0
+       angles 0 313.795 0
       }
       {
        coords 33.413 -1.135 -3.744
-       angles 0 309.655 0
+       angles 0 309.657 0
       }
       {
        coords 34.654 -1.241 -2.245
-       angles 0 298.411 0
+       angles 0 298.412 0
       }
       {
-       coords 36.629 -1.283 3.269
+       coords 36.629 -1.284 3.269
        angles 0 279.383 0
       }
       {
-       coords 36.96 -0.405 11.064
-       angles 0 260.522 0
-      }
-      {
-       coords 36.639 -0.219 12.984
-       angles 0 258.302 0
+       coords 36.946 -1.073 5.189
+       angles 0 276.042 0
       }
      }
     }
@@ -130,6 +131,7 @@ $grp SplineShapeEntity {
   }
  }
  {
+  Flags 0 0x80000
   coords 4711.356 4.969 1689.005
   Points {
    ShapePoint "{6A297B3233C11B30}" {
@@ -156,6 +158,7 @@ $grp SplineShapeEntity {
   }
   {
    RoadGeneratorEntity : "{0032466D94C588E6}Prefabs/WEGenerators/Roads/Dirt/RG_Road_Forest_01.et" {
+    Flags 0 0x80000
     coords 0 0 0
     AdjustHeightMap 0
     RoadClearance 5.9
@@ -163,6 +166,7 @@ $grp SplineShapeEntity {
     {
      RoadEntity {
       ID "55F85D16D1C7EB8E"
+      Flags 0 0x80000
       SplinePoints {
        ShapePoint "{556C65561A62B78A}" {
         Position -27.644 0 24.289
@@ -196,15 +200,18 @@ $grp SplineShapeEntity {
 }
 $grp SCR_PowerPole : "{15A01C044E105010}Prefabs/Infrastructure/Powerpoles/Powerpole With lamp.et" {
  {
-  coords 4711.84 0 1685.67
+  Flags 0 0x80000
+  coords 4711.84 4.969 1685.67
   angles 0 10.526 0
  }
  {
-  coords 4756.952 0 1679.712
+  Flags 0 0x80000
+  coords 4756.952 5.027 1679.712
   angles 0 10.526 0
  }
  {
-  coords 4778.411 0.035 1674.976
+  Flags 0 0x80000
+  coords 4778.411 4.969 1674.976
   angles 0 10.526 0
  }
 }
@@ -216,67 +223,82 @@ $grp SCR_DestructibleBuildingEntity : "{169C0208034564A5}Prefabs/Structures/Cons
   {
    SCR_DestructibleBuildingEntity {
     ID "6516CD8BDBC61ACB"
+    Flags 0 0x80000
     coords 0 0 0
    }
   }
  }
  {
-  coords 4700.587 -0.012 1682.285
+  Flags 0 0x80000
+  coords 4700.587 4.935 1682.285
   angles 0 19.867 0
   {
    SCR_DestructibleBuildingEntity {
     ID "6516CD8BDBC61ACB"
+    Flags 0 0x80000
     coords 0 0 0
    }
   }
  }
 }
 SCR_DestructibleEntity : "{1914585909D1984B}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenWall_01_8m.et" {
- coords 4744.942 -0.093 1712.295
+ Flags 0 0x80000
+ coords 4744.942 5.059 1712.295
  angles 0 -171.37 0
 }
 GenericEntity : "{22E2462FA3AE0849}Prefabs/Props/Construction/ConcretePipe/ConcretePipe_01_Long_Pile.et" {
+ Flags 0 0x80000
  coords 4689.733 11.604 1754.483
  angles -16.156 22.577 -1.972
 }
 GameEntity : "{2521D0D11FB543C7}PrefabsEditable/Auto/Props/Civilian/E_Fireplace_01.et" {
+ Flags 0 0x80000
  coords 4735.581 5.169 1697.083
 }
 GenericEntity : "{25A50558A5B65EDC}Prefabs/Props/Industrial/CrawlerCraneWreck_01/CrawlerCraneWreck_01_cabin_base.et" {
+ Flags 0 0x80000
  coords 4684.031 5.875 1774.586
  angles -5.655 99.814 12.03
 }
 GenericEntity : "{2F577500C460DEB2}PrefabsEditable/Auto/Props/Civilian/E_LadderWooden_01.et" {
+ Flags 0 0x80000
  coords 4738.519 4.864 1701.002
  angles -18.781 96.527 0
  scale 1.47
 }
 GenericEntity : "{5E249786B7A6896D}Prefabs/Props/Construction/ConcretePipe/ConcretePipe_01_Large.et" {
+ Flags 0 0x80000
  coords 4693.049 10.078 1758.814
  angles 4.022 -93.927 18.721
 }
 GenericEntity : "{6720CD0D5B7B7768}Prefabs/Props/Construction/ConcretePipe/ConcretePipe_01_Long.et" {
+ Flags 0 0x80000
  coords 4701.07 10.965 1757.473
  angles 0.163 56.672 -24.26
  scale 2.34
 }
 GenericEntity : "{6929659CE9375CB0}Prefabs/Props/Garbage/Tires/TireTractor_01_single.et" {
+ Flags 0 0x80000
  coords 4761.311 4.969 1679.975
 }
 $grp GenericEntity : "{805AE0C6C4485211}PrefabsEditable/Auto/Structures/Signs/Military/E_Sign_Warning_USSR_01.et" {
  {
+  Flags 0 0x80000
   coords 4697.717 14.353 1744.312
   angles 0 169.311 0
  }
  {
+  Flags 0 0x80000
   coords 4677.258 13.809 1745.231
   angles 0 144.641 0
  }
  {
+  Flags 0 0x80000
   coords 4713.545 13.13 1758.366
   angles 0 123.982 0
  }
  {
+  Flags 0 0x80000
   coords 4718.066 13.858 1771.734
  }
 }
@@ -288,236 +310,285 @@ $grp SCR_DestructibleBuildingEntity : "{8ECB6918A4754525}PrefabLibrary/PreSets/R
   {
    GameEnvironmentProbeEntity {
     ID "55D8AEAB1BD41619"
+    Flags 0 0x80000
     coords 1.106 0 -2.963
    }
    Tree {
     ID "5F0F46A9D6A26309"
+    Flags 0 0x80000
     coords 2.363 0 6.17
    }
    Tree {
     ID "5F0F46A9D6A2630A"
+    Flags 0 0x80000
     coords -1.89 0 -2.357
     angles 0 -90 0
    }
    Tree {
     ID "5F0F46A9D6A2F26A"
+    Flags 0 0x80000
     coords -4.309 0 1.599
     angles 0 -90 0
    }
    Tree {
     ID "5F0F46A9D6A2F26B"
+    Flags 0 0x80000
     coords 1.486 0 -2.814
     angles 0 90 0
    }
    Tree {
     ID "5F0F46A9D6ADD1AC"
+    Flags 0 0x80000
     coords 2.175 0 1.411
     angles 0 85.237 -3.205
    }
    Tree {
     ID "5F0F46A9D6ADD1AA"
+    Flags 0 0x80000
     coords -4.401 0 5.975
     angles 0 -63.348 0
    }
    Tree {
     ID "5F0F46A9D6ADD1AB"
+    Flags 0 0x80000
     coords 2.108 0 4.369
     angles 0 4.503 0
    }
    Tree {
     ID "5F0F46A9D6AD5BAC"
+    Flags 0 0x80000
     coords 2.451 0 -5.45
    }
    Tree {
     ID "5F0F46A9D6ADD1A8"
+    Flags 0 0x80000
     coords -4.286 0 -4.652
     angles 0 -90 0
    }
    Tree {
     ID "5F0F46A9D6AC99CE"
+    Flags 0 0x80000
     coords 0.628 0 -5.949
     angles 0 180 0
    }
    Tree {
     ID "5F0F46A9D6ACC9F1"
+    Flags 0 0x80000
     coords 2.349 0 -0.23
     angles 0 180 0
    }
    Tree {
     ID "5F0F46A9D6AD05EE"
+    Flags 0 0x80000
     coords -3.079 0 -0.071
    }
    Tree {
     ID "5F0F46A9D6AD5BAD"
+    Flags 0 0x80000
     coords -4.271 0 1.003
     angles 0 -90 0
    }
    Tree {
     ID "5F0F46A9D6AC0892"
+    Flags 0 0x80000
     coords 3.53 0 -5.375
     angles 0 180 0
    }
    Tree {
     ID "5F0F46A9D6AC90F2"
+    Flags 0 0x80000
     coords 3.525 0 -0.312
     angles 0 90 0
    }
    Tree {
     ID "5F0F46A9D6AC99B0"
+    Flags 0 0x80000
     coords -1.567 0 -0.23
    }
    Tree {
     ID "5F0F46A9D6AC99B1"
+    Flags 0 0x80000
     coords -3.775 0 -5.366
     angles 0 -90 0
    }
    Tree {
     ID "5F0F46A9D6AF5169"
+    Flags 0 0x80000
     coords -1.343 0 3.107
    }
    Tree {
     ID "5F0F46A9D6AFEB94"
+    Flags 0 0x80000
     coords -4.241 0 -5.84
     angles 0 -90 0
    }
    Tree {
     ID "5F0F46A9D6AFEB97"
+    Flags 0 0x80000
     coords 3.519 0 0.087
     angles 0 180 0
    }
    Tree {
     ID "5F0F46A9D6AEA307"
+    Flags 0 0x80000
     coords -4.278 0 -0.922
     angles 83.431 0 -90
    }
    Tree {
     ID "5F0F46A9D6AF3A8C"
+    Flags 0 0x80000
     coords 0.326 0 1.668
     angles -4.464 -24.854 -7.27
    }
    Tree {
     ID "5F0F46A9D6AF5168"
+    Flags 0 0x80000
     coords -3.375 0 -4.877
     angles 0 0 0
    }
    Tree {
     ID "5F0F46A9D6AF516F"
+    Flags 0 0x80000
     coords -3.418 0 -4.911
     angles 0 -9.514 0
    }
    Tree {
     ID "5F0F46A9D6AE51F6"
+    Flags 0 0x80000
     coords -1.862 0 6.256
     angles 1.139 1.693 0
    }
    Tree {
     ID "5F0F46A9D6AE51F7"
+    Flags 0 0x80000
     coords -3.031 0 -5.401
    }
    Tree {
     ID "5F0F46A9D6AE75CC"
+    Flags 0 0x80000
     coords -3.833 0 2.621
     angles 0 90 0
    }
    Tree {
     ID "5F0F46A9D6A83AAA"
+    Flags 0 0x80000
     coords 4.656 0 2.719
     angles 0 48.562 0
    }
    Tree {
     ID "5F0F46A9D6A86149"
+    Flags 0 0x80000
     coords -3.698 0 5.167
    }
    Tree {
     ID "5F0F46A9D6A8C148"
+    Flags 0 0x80000
     coords 4.022 0 -0.602
     angles -87.174 -180 -90
    }
    Tree {
     ID "5F0F46A9D6A8C149"
+    Flags 0 0x80000
     coords -0.93 0 -5.868
     angles 80.81 -90 -90
    }
    Tree {
     ID "5F0F46A9D6A8FC9A"
+    Flags 0 0x80000
     coords 2.797 0 -3.683
     angles 0 0 43.495
    }
    Tree {
     ID "5F0F46A9D6A9578B"
+    Flags 0 0x80000
     coords 1.591 0 -1.653
     angles 0 169.241 0
    }
    Tree {
     ID "5F0F46A9D6A9ABA7"
+    Flags 0 0x80000
     coords 1.305 0 -1.748
     angles 0 53.261 0
    }
    Tree {
     ID "5F0F46A9D6A9F801"
+    Flags 0 0x80000
     coords -2.11 0 -3.375
    }
    Tree {
     ID "5F0F46A9D6A83AA4"
+    Flags 0 0x80000
     coords -4.174 0 6.136
    }
    Tree {
     ID "5F0F46A9D6ABBA27"
+    Flags 0 0x80000
     coords 4.732 0 -4.413
     angles 0 90 2.182
    }
    Tree {
     ID "5F0F46A9D6ABB73D"
+    Flags 0 0x80000
     coords -3.91 0 -2.525
     angles 0 90 0
    }
    Tree {
     ID "5F0F46A9D6AA3F98"
+    Flags 0 0x80000
     coords -2.808 0 -1.008
     angles 0 83.696 0
    }
    Tree {
     ID "5F0F46A9D6AA6B25"
+    Flags 0 0x80000
     coords -2.899 0 4.981
     angles 0 90.798 0
    }
    Tree {
     ID "5F0F46A9D6AAE726"
+    Flags 0 0x80000
     coords 3.612 0 2.085
     angles 89.972 45 -45
    }
    Tree {
     ID "5F0F46A9D6AAE727"
+    Flags 0 0x80000
     coords -0.463 0 -5.938
     angles 1.625 -90 -90
    }
    Tree {
     ID "5F0F46A9D6AAEC0E"
+    Flags 0 0x80000
     coords -0.172 0 -0.023
     angles -19.288 90 -90
    }
    Tree {
     ID "5F0F46A9D6AB3310"
+    Flags 0 0x80000
     coords 2.443 0 -5.466
     angles 76.137 90 -90
    }
    Tree {
     ID "5F0F46A9D6ABB73E"
+    Flags 0 0x80000
     coords 2.526 0 -4.615
     angles 0 -90.471 0
    }
    Tree {
     ID "5F0F46A9D6B59763"
+    Flags 0 0x80000
     coords -4.203 0 -4.793
     angles 0 0 -43.754
    }
    Tree {
     ID "5F0F46A9D6B5B6C3"
+    Flags 0 0x80000
     coords -4.278 0 0.173
     angles -5.5 0 -90
    }
    Tree {
     ID "5F0F46A9D6B5B6C4"
+    Flags 0 0x80000
     coords -2.231 0 -5.468
     angles -58.113 90 -90
    }
@@ -530,246 +601,297 @@ $grp SCR_DestructibleBuildingEntity : "{8ECB6918A4754525}PrefabLibrary/PreSets/R
   {
    GameEnvironmentProbeEntity {
     ID "55D8AEAB1BD41619"
+    Flags 0 0x80000
     coords 1.106 0 -2.963
    }
    Tree {
     ID "5F0F46A9D6A26309"
+    Flags 0 0x80000
     coords 2.363 0 6.17
    }
    Tree {
     ID "5F0F46A9D6A2630A"
+    Flags 0 0x80000
     coords -1.89 0 -2.357
     angles 0 -90 0
    }
    Tree {
     ID "5F0F46A9D6A2F26A"
+    Flags 0 0x80000
     coords -4.309 0 1.598
     angles 0 -90 0
    }
    Tree {
     ID "5F0F46A9D6A2F26B"
+    Flags 0 0x80000
     coords 1.486 0 -2.815
     angles 0 90 0
    }
    Tree {
     ID "5F0F46A9D6ADD1AC"
+    Flags 0 0x80000
     coords 2.175 0 1.409
     angles 0 85.237 -3.205
    }
    Tree {
     ID "5F0F46A9D6ADD1AA"
+    Flags 0 0x80000
     coords -4.401 0 5.974
     angles 0 -63.348 0
    }
    Tree {
     ID "5F0F46A9D6ADD1AB"
+    Flags 0 0x80000
     coords 2.108 0 4.367
     angles 0 4.503 0
    }
    Tree {
     ID "5F0F46A9D6AD5BAC"
+    Flags 0 0x80000
     coords 2.451 0 -5.45
    }
    Tree {
     ID "5F0F46A9D6ADD1A8"
+    Flags 0 0x80000
     coords -4.286 0 -4.652
     angles 0 -90 0
    }
    Tree {
     ID "5F0F46A9D6AC99CE"
+    Flags 0 0x80000
     coords 0.628 0 -5.951
     angles 0 180 0
    }
    Tree {
     ID "5F0F46A9D6ACC9F1"
+    Flags 0 0x80000
     coords 2.349 0 -0.232
     angles 0 180 0
    }
    Tree {
     ID "5F0F46A9D6AD05EE"
+    Flags 0 0x80000
     coords -3.079 0 -0.071
    }
    Tree {
     ID "5F0F46A9D6AD5BAD"
+    Flags 0 0x80000
     coords -4.271 0 1.003
     angles 0 -90 0
    }
    Tree {
     ID "5F0F46A9D6AC0892"
+    Flags 0 0x80000
     coords 3.53 0 -5.376
     angles 0 180 0
    }
    Tree {
     ID "5F0F46A9D6AC90F2"
+    Flags 0 0x80000
     coords 3.525 0 -0.314
     angles 0 90 0
    }
    Tree {
     ID "5F0F46A9D6AC99B0"
+    Flags 0 0x80000
     coords -1.567 0 -0.232
    }
    Tree {
     ID "5F0F46A9D6AC99B1"
+    Flags 0 0x80000
     coords -3.775 0 -5.366
     angles 0 -90 0
    }
    Tree {
     ID "5F0F46A9D6AF5169"
+    Flags 0 0x80000
     coords -1.343 0 3.107
    }
    Tree {
     ID "5F0F46A9D6AFEB94"
+    Flags 0 0x80000
     coords -4.241 0 -5.84
     angles 0 -90 0
    }
    Tree {
     ID "5F0F46A9D6AFEB97"
+    Flags 0 0x80000
     coords 3.519 0 0.087
     angles 0 180 0
    }
    Tree {
     ID "5F0F46A9D6AEA307"
+    Flags 0 0x80000
     coords -4.278 0 -0.922
     angles 83.431 0 -90
    }
    Tree {
     ID "5F0F46A9D6AF3A8C"
+    Flags 0 0x80000
     coords 0.326 0 1.668
     angles -4.464 -24.854 -7.27
    }
    Tree {
     ID "5F0F46A9D6AF5168"
+    Flags 0 0x80000
     coords -3.375 0 -4.877
     angles 0 0 0
    }
    Tree {
     ID "5F0F46A9D6AF516F"
+    Flags 0 0x80000
     coords -3.418 0 -4.913
     angles 0 -9.514 0
    }
    Tree {
     ID "5F0F46A9D6AE51F6"
+    Flags 0 0x80000
     coords -1.862 0 6.256
     angles 1.139 1.693 0
    }
    Tree {
     ID "5F0F46A9D6AE51F7"
+    Flags 0 0x80000
     coords -3.031 0 -5.401
    }
    Tree {
     ID "5F0F46A9D6AE75CC"
+    Flags 0 0x80000
     coords -3.833 0 2.619
     angles 0 90 0
    }
    Tree {
     ID "5F0F46A9D6A9DACB"
+    Flags 0 0x80000
     coords -4.089 0 1.611
     angles 0 91.658 0
    }
    Tree {
     ID "5F0F46A9D6A9F802"
+    Flags 0 0x80000
     coords -4.136 0 -2.489
     angles 0 89.421 0
    }
    Tree {
     ID "5F0F46A9D6A83AAA"
+    Flags 0 0x80000
     coords 4.656 0 2.717
     angles 0 48.562 0
    }
    Tree {
     ID "5F0F46A9D6A86149"
+    Flags 0 0x80000
     coords -3.698 0 5.165
    }
    Tree {
     ID "5F0F46A9D6A8C148"
+    Flags 0 0x80000
     coords 4.022 0 -0.604
     angles -87.174 -180 -90
    }
    Tree {
     ID "5F0F46A9D6A8C149"
+    Flags 0 0x80000
     coords -0.93 0 -5.868
     angles 80.81 -90 -90
    }
    Tree {
     ID "5F0F46A9D6A8FC9A"
+    Flags 0 0x80000
     coords 2.797 0 -3.683
     angles 0 0 43.495
    }
    Tree {
     ID "5F0F46A9D6A9578B"
+    Flags 0 0x80000
     coords 1.591 0 -1.653
     angles 0 169.241 0
    }
    Tree {
     ID "5F0F46A9D6A9ABA7"
+    Flags 0 0x80000
     coords 1.305 0 -1.748
     angles 0 53.261 0
    }
    Tree {
     ID "5F0F46A9D6A9F801"
+    Flags 0 0x80000
     coords -2.11 0 -3.377
    }
    Tree {
     ID "5F0F46A9D6A83AA4"
+    Flags 0 0x80000
     coords -4.174 0 6.136
    }
    Tree {
     ID "5F0F46A9D6ABBA27"
+    Flags 0 0x80000
     coords 4.732 0 -4.415
     angles 0 90 2.182
    }
    Tree {
     ID "5F0F46A9D6ABB73D"
+    Flags 0 0x80000
     coords -3.91 0 -2.527
     angles 0 90 0
    }
    Tree {
     ID "5F0F46A9D6AA3F98"
+    Flags 0 0x80000
     coords -2.808 0 -1.01
     angles 0 83.696 0
    }
    Tree {
     ID "5F0F46A9D6AA6B25"
+    Flags 0 0x80000
     coords -2.899 0 4.98
     angles 0 90.798 0
    }
    Tree {
     ID "5F0F46A9D6AAE726"
+    Flags 0 0x80000
     coords 3.612 0 2.085
     angles 89.972 45 -45
    }
    Tree {
     ID "5F0F46A9D6AAE727"
+    Flags 0 0x80000
     coords -0.463 0 -5.938
     angles 1.625 -90 -90
    }
    Tree {
     ID "5F0F46A9D6AAEC0E"
+    Flags 0 0x80000
     coords -0.172 0 -0.024
     angles -19.288 90 -90
    }
    Tree {
     ID "5F0F46A9D6AB3310"
+    Flags 0 0x80000
     coords 2.443 0 -5.468
     angles 76.137 90 -90
    }
    Tree {
     ID "5F0F46A9D6ABB73E"
+    Flags 0 0x80000
     coords 2.526 0 -4.615
     angles 0 -90.471 0
    }
    Tree {
     ID "5F0F46A9D6B59763"
+    Flags 0 0x80000
     coords -4.203 0 -4.793
     angles 0 0 -43.754
    }
    Tree {
     ID "5F0F46A9D6B5B6C3"
+    Flags 0 0x80000
     coords -4.278 0 0.173
     angles -5.5 0 -90
    }
    Tree {
     ID "5F0F46A9D6B5B6C4"
+    Flags 0 0x80000
     coords -2.231 0 -5.468
     angles -58.113 90 -90
    }
@@ -777,6 +899,7 @@ $grp SCR_DestructibleBuildingEntity : "{8ECB6918A4754525}PrefabLibrary/PreSets/R
  }
 }
 GenericEntity : "{935639B6B684831C}Assets/Garbage/Prefabs/Garbage_Trash_Can.et" {
+ Flags 0 0x80000
  coords 4734.471 5.182 1702.697
 }
 SCR_DestructibleBuildingEntity : "{988B4E8D6E0EA625}Prefabs/Structures/Undeground/Basement/Basemant_2.et" {
@@ -786,38 +909,47 @@ SCR_DestructibleBuildingEntity : "{988B4E8D6E0EA625}Prefabs/Structures/Undegroun
 }
 $grp GenericEntity : "{A13BCC98B8C380C7}Prefabs/Compositions/Misc/SubCompositions/Decorations/Crate_Firewood_01.et" {
  {
+  Flags 0 0x80000
   coords 4739.36 4.74 1700.077
  }
  {
+  Flags 0 0x80000
   coords 4739.374 5.188 1698.286
   angles 0 -83.31 0
  }
  {
+  Flags 0 0x80000
   coords 4733.415 5.005 1713.777
  }
  {
+  Flags 0 0x80000
   coords 4734.061 5.005 1713.337
   angles 0 -33.554 0
  }
  {
+  Flags 0 0x80000
   coords 4733.758 5.425 1713.532
   angles 0 22.607 0
  }
 }
 $grp GenericEntity : "{B0F207E11789E0FE}PrefabsEditable/Auto/Props/Industrial/E_BarrelMetal_01_rust.et" {
  {
+  Flags 0 0x80000
   coords 4697.572 7.748 1774.626
   angles 1.774 0.166 5.358
  }
  {
+  Flags 0 0x80000
   coords 4697.249 7.502 1768.733
   angles -7.589 1.789 -13.309
  }
  {
+  Flags 0 0x80000
   coords 4695.856 7.152 1769.559
   angles -6.874 -2.807 22.278
  }
  {
+  Flags 0 0x80000
   coords 4735.617 4.362 1697.101
   scale 1.18
  }
@@ -837,6 +969,7 @@ SCR_DestructibleBuildingEntity : "{B660BEC050A9F174}Prefabs/Houses/House_Individ
  angles 0 -171.656 0
 }
 SCR_DestructibleEntity : "{D71F89D4DD0BCFB3}PrefabLibrary/CainLibrary/Props/Industrial/CompressorTrailerWreck_01_Gray.et" {
+ Flags 0 0x80000
  coords 4679.939 12.324 1756.191
  angles 14.736 -138.932 -2.228
 }
