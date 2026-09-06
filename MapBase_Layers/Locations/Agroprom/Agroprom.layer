@@ -35,10 +35,18 @@ $grp SCR_DestructibleBuildingEntity : "{3F91DEEC9C78E473}Prefabs/Structures/Mili
   angles 0 -90 0
  }
 }
+SCR_DestructibleBuildingEntity : "{4109B6F3E0E2255E}Prefabs/Structures/Military/HangarArch.et" {
+ coords 4344.534 0.063 3010.823
+ angles 0 -179.717 0
+}
 StaticModelEntity : "{512075732D0BA32F}Prefabs/Structures/BuildingParts/Cultural/Mosaic/MosaicCoal_01/MosaicCoal_01_base.et" {
  Flags 0 0x80000
  coords 4277.019 32.195 2636.288
  angles 0 89.928 0
+}
+SCR_DestructibleBuildingEntity : "{762040AF57697000}Prefabs/Structures/Military/Houses/Barracks_E_03/Barracks_USSR_03_brick.et" {
+ coords 4359.764 0 2910.708
+ angles 0 -1.878 0
 }
 GenericEntity : "{879EE603120E94C7}Prefabs/Structures/BuildingParts/Cultural/Mosaic/MosaicPowerPlant_01/MosaicPowerPlant_01_base.et" {
  Flags 0 0x80000
@@ -130,22 +138,22 @@ $grp SCR_DestructibleBuildingEntity : "{CDEFEE1847C0933A}Prefabs/Structures/Indu
  }
  {
   Flags 0 0x80000
-  coords 4296.786 20 3021.342
+  coords 4244 20 3021.394
   angles 0 -0.056 0
  }
  {
   Flags 0 0x80000
-  coords 4316.623 20 3021.342
+  coords 4263.836 20 3021.394
   angles 0 -0.069 0
  }
  {
   Flags 0 0x80000
-  coords 4316.623 20 3043.065
+  coords 4263.836 20 3043.116
   angles 0 0.056 0
  }
  {
   Flags 0 0x80000
-  coords 4296.013 20 3043.065
+  coords 4243.227 20 3043.116
   angles 0 0.056 0
  }
 }
