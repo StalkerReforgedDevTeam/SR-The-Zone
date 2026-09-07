@@ -6694,9 +6694,13 @@ $grp StaticModelEntity : "{07F043DD6AACCD0B}Prefabs/Structures/Infrastructure/Ba
   angles 0 179.242 0
  }
  {
-  coords 3268.606 0 2696.726
-  angles 0 -2.284 0
+  coords 3268.741 0 2700.121
+  angles 0 2.664 0
  }
+}
+GenericEntity : "{1732BF9B212910E8}Prefabs/Structures/Commerical/Busstop Roofing.et" {
+ coords 3269.941 -1.638 2713.512
+ angles 0 -86.987 0
 }
 $grp SCR_DestructibleBuildingEntity : "{1E1FF3AE13CDC15D}Prefabs/Structures/Walls/Concrete/ConcreteRetainingWall_01/ConcreteRetainingWall_01_Corner.et" {
  {
@@ -6735,15 +6739,9 @@ $grp SCR_DestructibleBuildingEntity : "{1E1FF3AE13CDC15D}Prefabs/Structures/Wall
   scale 2.4
  }
 }
-$grp StaticModelEntity : "{35E14C4C60C4A4F3}Prefabs/Structures/Agriculture/WeightStation/WeightStation_01/BuildingAddons/WeightStation_01_platform.et" {
- {
-  coords 3271.544 20 2711.354
-  angles 0 0.426 0
- }
- {
-  coords 3266.361 20 2711.393
-  angles 0 0.426 0
- }
+StaticModelEntity : "{35E14C4C60C4A4F3}Prefabs/Structures/Agriculture/WeightStation/WeightStation_01/BuildingAddons/WeightStation_01_platform.et" {
+ coords 3269.25 20 2711.4
+ angles 0 2.61 0
 }
 $grp SCR_DestructibleBuildingEntity : "{3DC7F223D21B932C}Prefabs/Structures/Infrastructure/Power/TransformerStation110kV_E_01/TransformerStand110kV_E_01.et" {
  {
