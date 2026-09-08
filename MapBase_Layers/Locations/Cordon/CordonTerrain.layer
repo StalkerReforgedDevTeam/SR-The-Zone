@@ -170,26 +170,26 @@ $grp PolylineShapeEntity {
     Position 0 0 0
    }
    ShapePoint "{6A20D69DA00CD455}" {
-    Position 384.133 7.62 -8.236
+    Position 426.183 8.454 -9.138
    }
   }
   LineColor 0 0 0 0
   {
    WallGeneratorEntity : "{DC02082051FDEC54}Prefabs/WEGenerators/Walls/Net/WG_NetFence_USSR_01_poles.et" {
     Flags 0x100003 0
-    m_iSeed 13374
+    m_iSeed 4848
     {
      $grp SCR_DestructibleEntity : "{2CA940B210EDA36E}Prefabs/Structures/Walls/BarbedWire/NetFence_USSR_01/NetFence_USSR_01_6m_V2.et" {
       {
-       coords 1.021 0.024 -0.022
+       coords 1.021 -0.515 -0.022
        angles 0 1.228 0
       }
       {
-       coords 6.936 0.119 -0.149
+       coords 6.936 0.118 -0.149
        angles 0 1.228 0
       }
       {
-       coords 12.851 0.196 -0.276
+       coords 12.851 0.195 -0.276
        angles 0 1.228 0
       }
       {
@@ -257,7 +257,7 @@ $grp PolylineShapeEntity {
        angles 0 1.228 0
       }
       {
-       coords 113.406 0.204 -2.431
+       coords 113.406 0.204 -2.432
        angles 0 1.228 0
       }
       {
@@ -369,7 +369,7 @@ $grp PolylineShapeEntity {
        angles 0 1.228 0
       }
       {
-       coords 279.024 0.204 -5.982
+       coords 279.024 0.204 -5.983
        angles 0 1.228 0
       }
       {
@@ -409,40 +409,68 @@ $grp PolylineShapeEntity {
        angles 0 1.228 0
       }
       {
-       coords 338.174 0.204 -7.251
+       coords 338.174 0.171 -7.251
        angles 0 1.228 0
       }
       {
-       coords 344.089 0.204 -7.378
+       coords 344.089 0.096 -7.378
        angles 0 1.228 0
       }
       {
-       coords 350.003 0.204 -7.504
+       coords 350.004 -0.04 -7.504
        angles 0 1.228 0
       }
       {
-       coords 355.918 0.204 -7.631
+       coords 355.918 -0.17 -7.631
        angles 0 1.228 0
       }
       {
-       coords 361.833 0.204 -7.758
+       coords 361.833 -0.299 -7.758
        angles 0 1.228 0
       }
       {
-       coords 367.748 0.173 -7.885
+       coords 367.748 -0.398 -7.885
        angles 0 1.228 0
       }
       {
-       coords 373.663 0.071 -8.012
+       coords 373.663 -0.514 -8.012
+       angles 0 1.228 0
+      }
+      {
+       coords 379.578 -0.577 -8.138
+       angles 0 1.228 0
+      }
+      {
+       coords 385.493 -0.626 -8.265
+       angles 0 1.228 0
+      }
+      {
+       coords 391.408 -0.659 -8.392
+       angles 0 1.228 0
+      }
+      {
+       coords 397.323 -0.701 -8.519
+       angles 0 1.228 0
+      }
+      {
+       coords 403.238 -0.796 -8.646
+       angles 0 1.228 0
+      }
+      {
+       coords 409.153 -0.796 -8.773
+       angles 0 1.228 0
+      }
+      {
+       coords 415.068 -0.796 -8.899
        angles 0 1.228 0
       }
      }
      SCR_DestructibleEntity : "{A786DACFAA0BE670}Prefabs/Structures/Walls/BarbedWire/NetFence_USSR_01/NetFence_USSR_01_D_start.et" {
-      coords 0 0 0
+      coords 0 -0.515 0
       angles 0 1.228 0
      }
      SCR_DestructibleEntity : "{D7BDCA21659E98D8}Prefabs/Structures/Walls/BarbedWire/NetFence_USSR_01/NetFence_USSR_01_D_end.et" {
-      coords 379.673 -0.152 -8.14
+      coords 421.078 -0.796 -9.028
       angles 0 1.228 0
      }
     }
