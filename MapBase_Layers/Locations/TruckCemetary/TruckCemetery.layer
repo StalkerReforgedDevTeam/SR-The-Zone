@@ -1,23 +1,12 @@
-$grp GenericEntity {
- {
-  components {
-   MeshObject "{6A4B54261956F4E6}" {
-    Object "{77BEF0F81786C997}Assets/Structures/Underground/Tonnel/Tonnel/Tunnel_Through/Tunnel_Through.xob"
-   }
+GenericEntity {
+ components {
+  MeshObject "{6A4B54261956F4E6}" {
+   Object "{77BEF0F81786C997}Assets/Structures/Underground/Tonnel/Tonnel/Tunnel_Through/Tunnel_Through.xob"
   }
-  coords 5835.522 33.949 4627.521
-  angles 0 -104.42 0
-  scale 2.087
  }
- {
-  components {
-   MeshObject "{6A4B542636680E53}" {
-    Object "{5636DDA8E3E323FA}Assets/Structures/Underground/Tonnel/Tonnel/Tonnel_Right/Tunnel_Right.xob"
-   }
-  }
-  coords 6092.818 33.009 4260.977
-  angles 0 -23.679 0
- }
+ coords 5835.522 33.949 4627.521
+ angles 0 -104.42 0
+ scale 2.087
 }
 StaticModelEntity : "{11B789B5F476A4B5}Prefabs/Structures/Debris/DebrisPile_HouseVillage/DebrisPile_HouseVillage_01_Large.et" {
  coords 6162.178 46.441 3264.626
