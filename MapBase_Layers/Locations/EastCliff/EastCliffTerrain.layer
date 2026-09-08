@@ -1,0 +1,530 @@
+GenericEntity : "{0C1246F8C2A11EAA}Assets/Ivy/GM_Placeable/E_Ivy_07.et" {
+ coords 5815.41 45.411 2956.2
+ angles 41.085 -2.239 -9.544
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{450AAF1BC197F8C9}Prefabs/Rocks/Granite/Granite_Cluster_01.et" {
+ {
+  coords 5785.303 -0 2944.4
+  scale 8.5
+ }
+ {
+  coords 5810.213 0 2931.972
+  scale 8.5
+ }
+ {
+  coords 5762.486 0 2830.933
+  scale 8.5
+ }
+ {
+  coords 5839.865 0 2915.374
+  scale 8.5
+ }
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{533CDABD77C4C43E}Prefabs/Rocks/Granite/GraniteCliff_02.et" {
+ {
+  coords 5764.241 26.54 2932.264
+  angles 15.223 -107.879 0
+  scale 1.4
+ }
+ {
+  coords 5763.501 25.67 2950.53
+  angles 12.344 -71.414 3.602
+  scale 1.4
+ }
+ {
+  coords 5766.72 22.652 2960.215
+  angles 11.272 -32.659 -4.129
+  scale 1.4
+ }
+ {
+  coords 5777.554 23.365 2966.027
+  angles 10.693 14.904 5.468
+  scale 1.4
+ }
+ {
+  coords 5798.615 25.621 2960.23
+  angles 10.85 23.387 -0.286
+  scale 1.4
+ }
+ {
+  coords 5818.186 25.726 2951.745
+  angles 10.85 23.387 -0.286
+  scale 1.4
+ }
+ {
+  coords 5721.221 24.528 3002.457
+  angles 30.992 -152.217 0.009
+  scale 1.4
+ }
+ {
+  coords 5754.14 24.484 2999.333
+  angles 25.247 -172.3 4.668
+  scale 1.4
+ }
+ {
+  coords 5792.575 21.202 2994.904
+  angles 24.948 -168.813 -2.47
+  scale 1.4
+ }
+ {
+  coords 5817.386 26.153 2997.527
+  angles 20.837 -168.624 -2.396
+  scale 1.4
+ }
+ {
+  coords 5732.844 18.97 2787.719
+  angles 34.506 63.981 -5.057
+  scale 1.4
+ }
+ {
+  coords 5730.224 15.417 2804.398
+  angles 34.506 63.981 -5.057
+  scale 1.4
+ }
+ {
+  coords 5715.66 30.101 2792.855
+  angles 4.795 89.183 65.734
+  scale 1.4
+ }
+ {
+  coords 5735.442 24.295 2761.211
+  angles 37.03 83.375 -11.24
+  scale 1.4
+ }
+}
+GenericEntity : "{767A0C8828780CC4}Assets/Ivy/GM_Placeable/E_Ivy_09.et" {
+ coords 5806.671 50.479 2960.081
+ angles -18.042 -161.376 -1.32
+}
+SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Building_Base.et" {
+ components {
+  SignalsManagerComponent "{65B06648A5B927CE}" {
+  }
+  SCR_BuildingSoundComponent "{65B0664AC6F3CBBB}" {
+   Filenames {
+    "{B945C9890357B02C}Sounds/Structures/Ruins/House_Ruin/Structures_HouseRuin_01.acp"
+   }
+   m_eSpawnType POINTS
+   m_aSpawnPoints {
+    PointInfo "{65B06648A0E5F8A0}" {
+     Offset 2.7956 1.4458 0.0017
+    }
+    PointInfo "{65B0664FC6709F65}" {
+     Offset -3.8661 0.3293 -0.2484
+    }
+    PointInfo "{65B0664FC55998B5}" {
+     Offset 3.5051 0.3311 -0.46
+    }
+    PointInfo "{65B0664FC43CB5AB}" {
+     Offset 0.2867 3.7406 -5.3671
+    }
+    PointInfo "{65B0664FC2EBA427}" {
+     Offset -3.9193 3.5778 -2.2332
+    }
+   }
+  }
+  MeshObject "{506EDA9D46FC6C06}" {
+   Object "{00D0955815F3A7B3}Assets/Structures/Houses/Village/House_Village_E_1I01/House_Village_E_1I01_ruined.xob"
+   Materials {
+    MaterialAssignClass "{5F0ED321D0DA5372}" {
+     SourceMaterial "House_E_1I01_exterior_ruin"
+     AssignedMaterial "{8B56A58B829607A4}ASSETS/Structures/Houses/Village/House_Village_E_1I01/Data/House_E_1I01_exterior_ruin.emat"
+    }
+    MaterialAssignClass "{5F0ED321D0DA5365}" {
+     SourceMaterial "House_E_1I01_interior_2_ruin"
+     AssignedMaterial "{37AAE86557989322}ASSETS/Structures/Houses/Village/House_Village_E_1I01/Data/House_E_1I01_interior_2_ruin.emat"
+    }
+    MaterialAssignClass "{5F0ED321D0DA536F}" {
+     SourceMaterial "House_E_1I01_interior_ruin"
+     AssignedMaterial "{94098FE35426F559}ASSETS/Structures/Houses/Village/House_Village_E_1I01/Data/House_E_1I01_interior_ruin.emat"
+    }
+    MaterialAssignClass "{5F0ED321D0DA5316}" {
+     SourceMaterial "House_E_1I01_ruin_Decal_Wood"
+     AssignedMaterial "{DA372989FD613CB4}ASSETS/Structures/Houses/Village/House_Village_E_1I01/Data/House_E_1I01_ruin_Decal_Wood.emat"
+    }
+    MaterialAssignClass "{5F0ED321D0DA531B}" {
+     SourceMaterial "House_E_1I01_ruin_base"
+     AssignedMaterial "{E4702C6F7CD4F364}ASSETS/Structures/Houses/Village/House_Village_E_1I01/Data/House_E_1I01_ruin_base.emat"
+    }
+    MaterialAssignClass "{5F0ED321D0DA5304}" {
+     SourceMaterial "House_Village_E1I01_ruin_MLOD"
+     AssignedMaterial "{D009736190A57B0D}ASSETS/Structures/Houses/Village/House_Village_E_1I01/Data/House_Village_E1I01_ruin_MLOD.emat"
+    }
+   }
+  }
+  RigidBody "{506EDA9CBE1B57FF}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ Flags 0 0x80000
+ coords 4766.284 4.93 1670.081
+ angles 0 -82.764 0
+ SlotBoneMappings {
+  SlotBoneMappingObject "{55D8AEAB1BD411FB}" {
+   BonePrefix "socket_door_int"
+   Prefab "{3001595FE0D14B45}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_R_INT_COV_B.et"
+  }
+  SlotBoneMappingObject "{55D8AEAB1BD411CF}" {
+   BonePrefix "socket_win_195x142"
+   Prefab "{0B1A0417822E5D17}Prefabs/Structures/BuildingParts/Windows/win_village_E_A_195x142_3_B_brown.et"
+  }
+  SlotBoneMappingObject "{55D8AEAB1BD411C9}" {
+   BonePrefix "socket_win_130x142"
+   Prefab "{B84D23179189632D}Prefabs/Structures/BuildingParts/Windows/win_village_E_A_130x142_2_B_brown.et"
+  }
+  SlotBoneMappingObject "{55D8AEAB1BD411C8}" {
+   BonePrefix "socket_win_70x72"
+   Prefab "{E3FB73537278FFD6}Prefabs/Structures/BuildingParts/Windows/Win_village_e_a_70x72_1_B_brown.et"
+  }
+  SlotBoneMappingObject "{55D8AEAB1BD411CA}" {
+   BonePrefix "socket_win_70x47"
+   Prefab "{FDB2D57F500A97B2}Prefabs/Structures/BuildingParts/Windows/Win_village_e_a_70x47_1_B_brown.et"
+  }
+  SlotBoneMappingObject "{55D8AEAB1BD411D4}" {
+   BonePrefix "socket_win_45x72"
+   Prefab "{93CC1DE04485F4CB}Prefabs/Structures/BuildingParts/Windows/Win_village_e_a_45x72_1_B_brown.et"
+  }
+  SlotBoneMappingObject "{55D8AEAB1BD411D6}" {
+   BonePrefix "socket_door_ext_01"
+   Prefab "{3F9C5D8889FB5EC2}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_R_EXT_COV_M1_brown.et"
+  }
+  SlotBoneMappingObject "{55D8AEAB1BD411D1}" {
+   BonePrefix "socket_door_ext_02"
+   Prefab "{CC6B92AEE60F0AAC}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_R_EXT_COV_B_brown.et"
+  }
+  SlotBoneMappingObject "{55D8AEAB1BD411D3}" {
+   BonePrefix "socket_entry"
+   Prefab "{F5589597452FE918}PrefabLibrary/DefaultLibrary/Infrastructure/Stairs/ConcreteStairs_02_Narrow.et"
+  }
+ }
+ {
+  $grp Tree : "{0F0C6E99B78B26C3}PrefabLibrary/Ivy/Ivy_TOP_2.et" {
+   {
+    Flags 0 0x80000
+    coords 2.363 0 6.17
+   }
+   {
+    Flags 0 0x80000
+    coords -1.89 0 -2.357
+    angles 0 -90 0
+   }
+   {
+    Flags 0 0x80000
+    coords -4.309 0 1.598
+    angles 0 -90 0
+   }
+   {
+    Flags 0 0x80000
+    coords 1.486 0 -2.815
+    angles 0 90 0
+   }
+   {
+    Flags 0 0x80000
+    coords 2.175 0 1.409
+    angles 0 85.237 -3.205
+   }
+  }
+  Tree : "{10C89E55750B05B8}PrefabLibrary/Ivy/Ivy_LAMP_1.et" {
+   Flags 0 0x80000
+   coords -4.401 0 5.974
+   angles 0 -63.348 0
+   scale 1.53
+  }
+  Tree : "{1A0CD2FA122BC9EF}PrefabLibrary/Ivy/Ivy_FLOOR_3.et" {
+   Flags 0 0x80000
+   coords 2.108 0 4.367
+   angles 0 4.503 0
+  }
+  $grp Tree : "{4796C9582E5EED5B}PrefabLibrary/Ivy/Ivy_BOTTOM_3.et" {
+   {
+    Flags 0 0x80000
+    coords 2.451 0 -5.45
+   }
+   {
+    Flags 0 0x80000
+    coords -4.286 0 -4.652
+    angles 0 -90 0
+   }
+  }
+  GameEnvironmentProbeEntity : "{565470F7BA530E0D}Prefabs/Structures/Core/ProbeHouse_Base.et" {
+   Flags 0 0x80000
+   coords 1.106 0 -2.963
+  }
+  $grp Tree : "{63585A790B4FA9ED}PrefabLibrary/Ivy/Ivy_TOP_1.et" {
+   {
+    Flags 0 0x80000
+    coords 0.628 0 -5.951
+    angles 0 180 0
+   }
+   {
+    Flags 0 0x80000
+    coords 2.349 0 -0.232
+    angles 0 180 0
+   }
+   {
+    Flags 0 0x80000
+    coords -3.079 0 -0.071
+   }
+   {
+    Flags 0 0x80000
+    coords -4.271 0 1.003
+    angles 0 -90 0
+   }
+  }
+  $grp Tree : "{8393CFEF006BAFB1}PrefabLibrary/Ivy/Ivy_BOTTOM_4c.et" {
+   {
+    Flags 0 0x80000
+    coords 3.53 0 -5.376
+    angles 0 180 0
+   }
+   {
+    Flags 0 0x80000
+    coords 3.525 0 -0.314
+    angles 0 90 0
+   }
+   {
+    Flags 0 0x80000
+    coords -1.567 0 -0.232
+   }
+   {
+    Flags 0 0x80000
+    coords -3.775 0 -5.366
+    angles 0 -90 0
+   }
+   {
+    Flags 0 0x80000
+    coords -1.343 0 3.107
+   }
+   {
+    Flags 0 0x80000
+    coords -4.241 0 -5.84
+    angles 0 -90 0
+   }
+   {
+    Flags 0 0x80000
+    coords 3.519 0 0.087
+    angles 0 180 0
+   }
+  }
+  $grp Tree : "{93C4AAE3A20AD1AA}PrefabLibrary/Ivy/Ivy_FLOOR_1.et" {
+   {
+    Flags 0 0x80000
+    coords -4.278 0 -0.922
+    angles 83.431 0 -90
+   }
+   {
+    Flags 0 0x80000
+    coords 0.326 0 1.668
+    angles -4.464 -24.854 -7.27
+   }
+   {
+    Flags 0 0x80000
+    coords -3.375 0 -4.877
+    angles 0 0 0
+   }
+   {
+    Flags 0 0x80000
+    coords -3.418 0 -4.913
+    angles 0 -9.514 0
+   }
+  }
+  $grp Tree : "{A20A85A122BB7A30}PrefabLibrary/Ivy/Ivy_BOTTOM_2.et" {
+   {
+    Flags 0 0x80000
+    coords -1.862 0 6.256
+    angles 1.139 1.693 0
+   }
+   {
+    Flags 0 0x80000
+    coords -3.031 0 -5.401
+   }
+   {
+    Flags 0 0x80000
+    coords -3.833 0 2.619
+    angles 0 90 0
+   }
+  }
+  $grp Tree : "{AEF08FDBD766589D}PrefabLibrary/Ivy/Ivy_FLOOR_6.et" {
+   {
+    Flags 0 0x80000
+    coords -4.089 0 1.611
+    angles 0 91.658 0
+   }
+   {
+    Flags 0 0x80000
+    coords -4.136 0 -2.489
+    angles 0 89.421 0
+   }
+  }
+  $grp Tree : "{C2A4BB3B6BA2D7B3}PrefabLibrary/Ivy/Ivy_FLOOR_5.et" {
+   {
+    Flags 0 0x80000
+    coords 4.656 0 2.717
+    angles 0 48.562 0
+    scale 1.41
+   }
+   {
+    Flags 0 0x80000
+    coords -3.698 0 5.165
+    scale 1.25
+   }
+   {
+    Flags 0 0x80000
+    coords 4.022 0 -0.604
+    angles -87.174 -180 -90
+   }
+   {
+    Flags 0 0x80000
+    coords -0.93 0 -5.868
+    angles 80.81 -90 -90
+    scale 1.35
+   }
+   {
+    Flags 0 0x80000
+    coords 2.797 0 -3.683
+    angles 0 0 43.495
+    scale 1.31
+   }
+   {
+    Flags 0 0x80000
+    coords 1.591 0 -1.653
+    angles 0 169.241 0
+   }
+   {
+    Flags 0 0x80000
+    coords 1.305 0 -1.748
+    angles 0 53.261 0
+   }
+   {
+    Flags 0 0x80000
+    coords -2.11 0 -3.377
+   }
+  }
+  Tree : "{C84979703EAEFEB0}PrefabLibrary/Ivy/Ivy_TOP_6c.et" {
+   Flags 0 0x80000
+   coords -4.174 0 6.136
+  }
+  Tree : "{D7A40758CE02389F}PrefabLibrary/Ivy/Ivy_TOP_4.et" {
+   Flags 0 0x80000
+   coords 4.732 0 -4.415
+   angles 0 90 2.182
+  }
+  Tree : "{EA902260BB6EB1A8}PrefabLibrary/Ivy/Ivy_TOP_3.et" {
+   Flags 0 0x80000
+   coords -3.91 0 -2.527
+   angles 0 90 0
+  }
+  $grp Tree : "{FF909E031ECE5E84}PrefabLibrary/Ivy/Ivy_FLOOR_2.et" {
+   {
+    Flags 0 0x80000
+    coords -2.808 0 -1.01
+    angles 0 83.696 0
+   }
+   {
+    Flags 0 0x80000
+    coords -2.899 0 4.98
+    angles 0 90.798 0
+   }
+   {
+    Flags 0 0x80000
+    coords 3.612 0 2.085
+    angles 89.972 45 -45
+   }
+   {
+    Flags 0 0x80000
+    coords -0.463 0 -5.938
+    angles 1.625 -90 -90
+    scale 1.11
+   }
+   {
+    Flags 0 0x80000
+    coords -0.172 0 -0.024
+    angles -19.288 90 -90
+   }
+   {
+    Flags 0 0x80000
+    coords 2.443 0 -5.468
+    angles 76.137 90 -90
+   }
+   {
+    Flags 0 0x80000
+    coords 2.526 0 -4.615
+    angles 0 -90.471 0
+   }
+   {
+    Flags 0 0x80000
+    coords -4.203 0 -4.793
+    angles 0 0 -43.754
+   }
+   {
+    Flags 0 0x80000
+    coords -4.278 0 0.173
+    angles -5.5 0 -90
+   }
+   {
+    Flags 0 0x80000
+    coords -2.231 0 -5.468
+    angles -58.113 90 -90
+   }
+  }
+ }
+}
+$grp GenericEntity : "{AC8DA9EB47B9954E}Assets/Ivy/Prefabs/Ivy_12.et" {
+ {
+  coords 5828.055 41.009 2979.63
+  angles -14.636 92.409 0
+  scale 2.2
+ }
+ {
+  coords 5828.72 41.009 2967.632
+  angles -14.636 92.409 0
+  scale 2.2
+ }
+ {
+  coords 5827.92 40.899 2958.902
+  angles -20.01 114.638 -0.558
+  scale 2.2
+ }
+}
+SCR_IndestructibleEnvironmentalEntity : "{BA73CB6DADFB194E}Prefabs/Rocks/Granite/Granite_Cluster_Large_01_V2.et" {
+ coords 5848.222 -0 2882.395
+ scale 5.3
+}
+$grp GenericEntity : "{C0D99D0BFB7D1A60}Assets/Ivy/Prefabs/Ivy_11.et" {
+ {
+  coords 5826.962 38.006 2980.806
+  angles 0 86.827 0
+  scale 3.1
+ }
+ {
+  coords 5827.627 38.006 2968.808
+  angles 0 86.827 0
+  scale 3.1
+ }
+ {
+  coords 5827.084 38.006 2960.493
+  angles -5.4 108.889 0
+  scale 3.1
+ }
+}
+$grp Tree : "{FE0BD218E0E417A3}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_carpinus_betulus_3d.et" {
+ {
+  Flags 0 0x80000
+  coords 5789.594 55 2941.688
+  angles 0.616 -104.659 -8.465
+  scale 1.083
+ }
+ {
+  Flags 0 0x80000
+  coords 5759.018 27.897 2823.208
+  angles 0.616 -104.659 -8.465
+  scale 1.083
+ }
+ {
+  Flags 0 0x80000
+  coords 5787.691 24.974 2638.344
+  angles 0.616 -104.659 -8.465
+  scale 1.083
+ }
+}
