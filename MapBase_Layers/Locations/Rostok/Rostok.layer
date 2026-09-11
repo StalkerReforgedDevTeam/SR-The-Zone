@@ -29819,113 +29819,21 @@ $grp SCR_DestructibleBuildingEntity : "{F8A2216373DB554C}Prefabs/Industrial/skla
   angles 0 90 0
  }
 }
-$grp GenericEntity : "{FBD32285925CFBE7}Prefabs/Editor/Plane_01/GridPlane_100x100.et" {
- Water {
-  components {
-   MeshObject "{1A2A26F3EBB7515C}" {
-    Materials {
-     MaterialAssignClass "{6A3C21DE477F8C5E}" {
-      SourceMaterial "MAT01"
-      AssignedMaterial "{08CCFCCDE7D8A717}Terrains/Common/Water/Pond/boloto.emat"
-     }
-     MaterialAssignClass "{6A3C21DE477F8C29}" {
-      SourceMaterial "MAT02"
-      AssignedMaterial "{08CCFCCDE7D8A717}Terrains/Common/Water/Pond/boloto.emat"
-     }
+GenericEntity Water : "{FBD32285925CFBE7}Prefabs/Editor/Plane_01/GridPlane_100x100.et" {
+ components {
+  MeshObject "{1A2A26F3EBB7515C}" {
+   Materials {
+    MaterialAssignClass "{6A3C21DE477F8C5E}" {
+     SourceMaterial "MAT01"
+     AssignedMaterial "{08CCFCCDE7D8A717}Terrains/Common/Water/Pond/boloto.emat"
+    }
+    MaterialAssignClass "{6A3C21DE477F8C29}" {
+     SourceMaterial "MAT02"
+     AssignedMaterial "{08CCFCCDE7D8A717}Terrains/Common/Water/Pond/boloto.emat"
     }
    }
   }
-  coords 4962.911 26.797 4023.309
-  angles 0 -53.023 0
  }
- Water7 {
-  components {
-   MeshObject "{1A2A26F3EBB7515C}" {
-    Materials {
-     MaterialAssignClass "{6A3C21DE477F8C5E}" {
-      SourceMaterial "MAT01"
-      AssignedMaterial "{08CCFCCDE7D8A717}Terrains/Common/Water/Pond/boloto.emat"
-     }
-     MaterialAssignClass "{6A3C21DE477F8C29}" {
-      SourceMaterial "MAT02"
-      AssignedMaterial "{08CCFCCDE7D8A717}Terrains/Common/Water/Pond/boloto.emat"
-     }
-    }
-   }
-  }
-  coords 5098.012 26.643 4298.464
-  angles 0 -53.023 0
- }
- Water8 {
-  components {
-   MeshObject "{1A2A26F3EBB7515C}" {
-    Materials {
-     MaterialAssignClass "{6A3C21DE477F8C5E}" {
-      SourceMaterial "MAT01"
-      AssignedMaterial "{08CCFCCDE7D8A717}Terrains/Common/Water/Pond/boloto.emat"
-     }
-     MaterialAssignClass "{6A3C21DE477F8C29}" {
-      SourceMaterial "MAT02"
-      AssignedMaterial "{08CCFCCDE7D8A717}Terrains/Common/Water/Pond/boloto.emat"
-     }
-    }
-   }
-  }
-  coords 5291.742 24.862 4226.237
-  angles 0 -53.023 0
- }
- Water9 {
-  components {
-   MeshObject "{1A2A26F3EBB7515C}" {
-    Materials {
-     MaterialAssignClass "{6A3C21DE477F8C5E}" {
-      SourceMaterial "MAT01"
-      AssignedMaterial "{08CCFCCDE7D8A717}Terrains/Common/Water/Pond/boloto.emat"
-     }
-     MaterialAssignClass "{6A3C21DE477F8C29}" {
-      SourceMaterial "MAT02"
-      AssignedMaterial "{08CCFCCDE7D8A717}Terrains/Common/Water/Pond/boloto.emat"
-     }
-    }
-   }
-  }
-  coords 5447.744 24.862 4223.406
-  angles 0 -53.023 0
- }
- Water10 {
-  components {
-   MeshObject "{1A2A26F3EBB7515C}" {
-    Materials {
-     MaterialAssignClass "{6A3C21DE477F8C5E}" {
-      SourceMaterial "MAT01"
-      AssignedMaterial "{08CCFCCDE7D8A717}Terrains/Common/Water/Pond/boloto.emat"
-     }
-     MaterialAssignClass "{6A3C21DE477F8C29}" {
-      SourceMaterial "MAT02"
-      AssignedMaterial "{08CCFCCDE7D8A717}Terrains/Common/Water/Pond/boloto.emat"
-     }
-    }
-   }
-  }
-  coords 5623.4 24.862 4228.97
-  angles 0 -53.023 0
- }
- Water11 {
-  components {
-   MeshObject "{1A2A26F3EBB7515C}" {
-    Materials {
-     MaterialAssignClass "{6A3C21DE477F8C5E}" {
-      SourceMaterial "MAT01"
-      AssignedMaterial "{08CCFCCDE7D8A717}Terrains/Common/Water/Pond/boloto.emat"
-     }
-     MaterialAssignClass "{6A3C21DE477F8C29}" {
-      SourceMaterial "MAT02"
-      AssignedMaterial "{08CCFCCDE7D8A717}Terrains/Common/Water/Pond/boloto.emat"
-     }
-    }
-   }
-  }
-  coords 5718.928 24.862 4238.148
-  angles 0 -53.023 0
- }
+ coords 4962.911 26.797 4023.309
+ angles 0 -53.023 0
 }
