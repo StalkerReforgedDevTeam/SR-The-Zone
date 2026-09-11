@@ -3,7 +3,7 @@ $grp PolylineShapeEntity {
   coords 5400.145 22.14 1819.287
   Points {
    ShapePoint "{6A20936FA2B11A1E}" {
-    Position 13.65 0.038 1.554
+    Position 14.238 -2.14 12.412
    }
    ShapePoint "{6A20936FA2B10A49}" {
     Position 13.53 0.074 -11.98
@@ -18,145 +18,137 @@ $grp PolylineShapeEntity {
     Position 14.314 0 40.324
    }
    ShapePoint "{6A20936FBAEAEA80}" {
-    Position 14.266 0 21.598
+    Position 14.268 -2.14 22.311
    }
   }
   LineColor 0 0 0 0
   {
    WallGeneratorEntity : "{5CBDB5C1AC623D4A}Prefabs/WEGenerators/Walls/Brick/WG_BrickWall_USSR_04_decorative.et" {
     Flags 0x100003 0
-    m_iSeed 1863
+    m_iSeed 24539
     {
-     $grp SCR_DestructibleEntity : "{05BA175526168E90}PrefabLibrary/CainLibrary/Walls/Brick/BrickWall_USSR_04_4m_decorative_D.et" {
-      {
-       coords 69.325 -2.14 25.285
-       angles 0 -84.288 0
-      }
-      {
-       coords 14.763 -2.14 32.862
-       angles 0 -267.474 0
-      }
+     SCR_DestructibleEntity : "{05BA175526168E90}PrefabLibrary/CainLibrary/Walls/Brick/BrickWall_USSR_04_4m_decorative_D.et" {
+      coords 28.797 -2.14 -11.464
+      angles 0 2.408 0
      }
      $grp SCR_DestructibleEntity : "{4640320347D12C75}PrefabLibrary/CainLibrary/Walls/Brick/BrickWall_USSR_04_8m_decorative.et" {
       {
-       coords 13.652 -2.14 1.804
-       angles 0 -269.491 0
+       coords 14.245 -2.14 12.662
+       angles 0 -268.337 0
       }
       {
-       coords 21.028 -2.14 -11.875
-       angles 0 1.47 0
+       coords 14.02 -2.14 4.917
+       angles 0 -268.337 0
       }
       {
-       coords 28.774 -2.14 -12.074
-       angles 0 1.47 0
+       coords 13.795 -2.14 -2.829
+       angles 0 -268.337 0
       }
       {
-       coords 36.52 -2.14 -12.272
-       angles 0 1.47 0
+       coords 13.314 -2.132 -10.813
+       angles 0 2.408 0
       }
       {
-       coords 44.266 -2.14 -12.471
-       angles 0 1.47 0
+       coords 21.055 -2.14 -11.139
+       angles 0 2.408 0
       }
       {
-       coords 52.012 -2.14 -12.67
-       angles 0 1.47 0
+       coords 32.536 -2.14 -11.622
+       angles 0 2.408 0
       }
       {
-       coords 65.469 -2.14 -13.265
-       angles 0 -84.288 0
+       coords 40.278 -2.14 -11.947
+       angles 0 2.408 0
       }
       {
-       coords 66.241 -2.14 -5.555
-       angles 0 -84.288 0
+       coords 48.019 -2.14 -12.273
+       angles 0 2.408 0
       }
       {
-       coords 67.012 -2.14 2.155
-       angles 0 -84.288 0
+       coords 55.761 -2.14 -12.598
+       angles 0 2.408 0
       }
       {
-       coords 68.554 -2.14 17.575
-       angles 0 -84.288 0
+       coords 65.472 -2.14 -13.257
+       angles 0 -84.29 0
       }
       {
-       coords 69.698 -2.14 29.009
-       angles 0 -84.288 0
+       coords 66.243 -2.14 -5.547
+       angles 0 -84.29 0
       }
       {
-       coords 71.29 -2.14 42.439
-       angles 0 -182.125 0
+       coords 67.014 -2.14 2.163
+       angles 0 -84.29 0
       }
       {
-       coords 63.547 -2.14 42.151
-       angles 0 -182.125 0
+       coords 67.785 -2.14 9.873
+       angles 0 -84.29 0
       }
       {
-       coords 55.804 -2.14 41.864
-       angles 0 -182.125 0
+       coords 68.556 -2.14 17.583
+       angles 0 -84.29 0
       }
       {
-       coords 48.061 -2.14 41.576
-       angles 0 -182.125 0
+       coords 69.327 -2.14 25.293
+       angles 0 -84.29 0
       }
       {
-       coords 40.318 -2.14 41.289
-       angles 0 -182.125 0
+       coords 70.098 -2.14 33.003
+       angles 0 -84.29 0
       }
       {
-       coords 32.575 -2.14 41.002
-       angles 0 -182.125 0
+       coords 71.317 -2.14 42.71
+       angles 0 -182.397 0
       }
       {
-       coords 24.832 -2.14 40.714
-       angles 0 -182.125 0
+       coords 63.576 -2.14 42.386
+       angles 0 -182.397 0
       }
       {
-       coords 15.104 -2.14 40.603
-       angles 0 -267.474 0
+       coords 55.834 -2.14 42.062
+       angles 0 -182.397 0
+      }
+      {
+       coords 48.092 -2.14 41.738
+       angles 0 -182.397 0
+      }
+      {
+       coords 40.351 -2.14 41.414
+       angles 0 -182.397 0
+      }
+      {
+       coords 32.609 -2.14 41.09
+       angles 0 -182.397 0
+      }
+      {
+       coords 24.868 -2.14 40.766
+       angles 0 -182.397 0
+      }
+      {
+       coords 15.143 -2.14 40.608
+       angles 0 -267.262 0
+      }
+      {
+       coords 14.773 -2.14 32.868
+       angles 0 -267.262 0
       }
      }
      $grp SCR_DestructibleEntity : "{898B1F27F0B0F3E9}PrefabLibrary/CainLibrary/Walls/Brick/BrickWall_USSR_04_2m.et" {
       {
-       coords 13.55 -2.14 -9.686
-       angles 0 -269.491 0
+       coords 63.502 -2.14 -12.924
+       angles 0 2.408 0
       }
       {
-       coords 63.498 -2.14 -12.965
-       angles 0 1.47 0
+       coords 70.869 -2.14 40.713
+       angles 0 -84.29 0
       }
       {
-       coords 70.841 -2.14 40.442
-       angles 0 -84.288 0
+       coords 17.126 -2.14 40.442
+       angles 0 -182.397 0
       }
       {
-       coords 17.089 -2.14 40.427
-       angles 0 -182.125 0
-      }
-      {
-       coords 14.433 -2.14 25.384
-       angles 0 -267.474 0
-      }
-      {
-       coords 14.356 -2.14 23.639
-       angles 0 -267.474 0
-      }
-     }
-     $grp SCR_DestructibleEntity : "{D211FAFDA0136543}PrefabLibrary/CainLibrary/Walls/Brick/BrickWall_USSR_04_4m_decorative.et" {
-      {
-       coords 13.583 -2.14 -5.944
-       angles 0 -269.491 0
-      }
-      {
-       coords 59.757 -2.14 -12.869
-       angles 0 1.47 0
-      }
-      {
-       coords 70.469 -2.14 36.719
-       angles 0 -84.288 0
-      }
-      {
-       coords 14.598 -2.14 29.123
-       angles 0 -267.474 0
+       coords 14.403 -2.14 25.129
+       angles 0 -267.262 0
       }
      }
     }
@@ -565317,7 +565309,6 @@ $grp SplineShapeEntity {
       {
        coords 949.821 5.272 116.591
        angles -0.84 -12.558 4.732
-       scale 1
       }
       {
        coords 928.039 4.257 136.504
@@ -565687,7 +565678,6 @@ $grp SplineShapeEntity {
       {
        coords 997.96 3.591 62.259
        angles -2.044 -34.674 1.679
-       scale 1
       }
       {
        coords 957.439 4.897 134.635
@@ -566306,7 +566296,6 @@ $grp SplineShapeEntity {
       {
        coords 576.969 1.717 83.79
        angles 2.306 -39.601 -4.222
-       scale 1
       }
       {
        coords 568.643 1.574 91.444
@@ -575137,7 +575126,6 @@ $grp SplineShapeEntity {
       {
        coords 280.04 -0.174 16.708
        angles 1.302 -5.911 2.905
-       scale 1
       }
       {
        coords 256.369 2.475 40.391
@@ -575242,7 +575230,6 @@ $grp SplineShapeEntity {
       {
        coords 350.784 0.924 29.496
        angles -2.59 -33.795 0.822
-       scale 1
       }
       {
        coords 375.788 0.708 26.404
@@ -577829,7 +577816,6 @@ $grp SplineShapeEntity {
       {
        coords 618.014 1.951 180.634
        angles 1.273 -173.644 0.698
-       scale 1
       }
       {
        coords 633.482 0.988 156.137
@@ -580345,7 +580331,7 @@ $grp SplineShapeEntity {
       }
       {
        coords 38.899 1.625 22.857
-       angles 0.64 -81.895 -0
+       angles 0.64 -81.895 0
        scale 1.34
       }
       {
@@ -580360,7 +580346,7 @@ $grp SplineShapeEntity {
       }
       {
        coords 138.153 1.111 55.874
-       angles 0.497 59.405 -0
+       angles 0.497 59.405 0
        scale 1.32
       }
       {
@@ -580370,7 +580356,7 @@ $grp SplineShapeEntity {
       }
       {
        coords 201.512 1.913 66.666
-       angles -1.387 166.953 -0
+       angles -1.387 166.953 0
        scale 1.37
       }
       {
@@ -580385,7 +580371,7 @@ $grp SplineShapeEntity {
       }
       {
        coords 375.304 1.104 117.556
-       angles -1.077 50.846 -0
+       angles -1.077 50.846 0
        scale 1.52
       }
       {
@@ -580395,27 +580381,27 @@ $grp SplineShapeEntity {
       }
       {
        coords 433.317 -0.171 149.349
-       angles -0.558 120.183 -0
+       angles -0.558 120.183 0
        scale 1.258
       }
       {
        coords 419.643 -0.191 140.695
-       angles 0.055 170.843 -0
+       angles 0.055 170.843 0
        scale 1.669
       }
       {
        coords 563.77 1.57 188.17
-       angles 1.654 -179.028 -0
+       angles 1.654 -179.028 0
        scale 1.132
       }
       {
        coords 510.369 1.372 180.287
-       angles -1.77 123.281 -0
+       angles -1.77 123.281 0
        scale 1.774
       }
       {
        coords 575.981 0.967 194.612
-       angles 0.612 53.098 -0
+       angles 0.612 53.098 0
        scale 1.15
       }
       {
@@ -580425,7 +580411,7 @@ $grp SplineShapeEntity {
       }
       {
        coords 620.371 0.934 202.233
-       angles -0.217 -0.088 -0
+       angles -0.217 -0.088 0
        scale 1.608
       }
       {
@@ -580460,7 +580446,7 @@ $grp SplineShapeEntity {
       }
       {
        coords 771.456 -2.132 229.544
-       angles -0.657 6.207 -0
+       angles -0.657 6.207 0
        scale 1.273
       }
       {
@@ -580485,12 +580471,12 @@ $grp SplineShapeEntity {
       }
       {
        coords 914.252 -2.052 351.758
-       angles 1.478 31.971 -0
+       angles 1.478 31.971 0
        scale 1.17
       }
       {
        coords 913.701 -2.552 324.623
-       angles -1.946 1.318 -0
+       angles -1.946 1.318 0
        scale 1.146
       }
       {
@@ -580510,17 +580496,17 @@ $grp SplineShapeEntity {
       }
       {
        coords 976.296 4.868 218.258
-       angles -0.834 35.08 -0
+       angles -0.834 35.08 0
        scale 1.9
       }
       {
        coords 1009.386 1.241 35.207
-       angles -0.306 129.104 -0
+       angles -0.306 129.104 0
        scale 1.856
       }
       {
        coords 1006.244 4.12 171.694
-       angles -0.285 91.859 -0
+       angles -0.285 91.859 0
        scale 1.783
       }
       {
@@ -580540,12 +580526,12 @@ $grp SplineShapeEntity {
       }
       {
        coords 928.102 1.586 8.176
-       angles 1.705 165.569 -0
+       angles 1.705 165.569 0
        scale 1.111
       }
       {
        coords 992.399 -0.122 3.044
-       angles -1.195 -143.53 -0
+       angles -1.195 -143.53 0
        scale 1.822
       }
       {
@@ -580555,7 +580541,7 @@ $grp SplineShapeEntity {
       }
       {
        coords 584.069 -0.239 13.608
-       angles -0.721 -142.936 -0
+       angles -0.721 -142.936 0
        scale 1.366
       }
       {
@@ -580575,7 +580561,7 @@ $grp SplineShapeEntity {
       }
       {
        coords 594.723 -0.25 11.764
-       angles 0.726 179.687 -0
+       angles 0.726 179.687 0
        scale 1.518
       }
       {
@@ -580585,17 +580571,17 @@ $grp SplineShapeEntity {
       }
       {
        coords 839.724 0.764 14.107
-       angles -1.328 67.546 -0
+       angles -1.328 67.546 0
        scale 1.488
       }
       {
        coords 838.528 0.249 8.727
-       angles -1.916 130.027 -0
+       angles -1.916 130.027 0
        scale 1.325
       }
       {
        coords 644.459 0.544 12.374
-       angles -0.2 -79.203 -0
+       angles -0.2 -79.203 0
        scale 1.574
       }
       {
@@ -580625,12 +580611,12 @@ $grp SplineShapeEntity {
       }
       {
        coords 190.947 1.269 14.59
-       angles -0.339 149.21 -0
+       angles -0.339 149.21 0
        scale 1.746
       }
       {
        coords 190.251 0.914 11.013
-       angles -1.981 -77.28 -0
+       angles -1.981 -77.28 0
        scale 1.739
       }
       {
@@ -580950,7 +580936,6 @@ $grp SplineShapeEntity {
       {
        coords 960.282 5.138 184.354
        angles -6.203 -96.395 0.694
-       scale 1
       }
       {
        coords 929.344 4.783 124.077
@@ -583198,7 +583183,6 @@ $grp SplineShapeEntity {
       {
        coords 808.458 4.448 43.446
        angles -3.329 62.266 -6.303
-       scale 1
       }
       {
        coords 820.836 3.573 129.132
@@ -668544,7 +668528,7 @@ $grp SCR_DestructibleEntity : "{2CA940B210EDA36E}Prefabs/Structures/Walls/Barbed
  }
 }
 SCR_DestructibleEntity : "{628276D30FB74A95}PrefabLibrary/CainLibrary/Walls/Brick/BrickWall_USSR_04_start.et" {
- coords 5413.84 0 1807.766
+ coords 5413.68 0.001 1808.587
  angles 0 3.139 0
 }
 $grp GenericEntity : "{B0BD5E6DAA08B808}Prefabs/Infrastructure/Railways/Railway 40M.et" {
@@ -668730,7 +668714,7 @@ SCR_DestructibleBuildingEntity : "{D231DBDC442ADF08}Prefabs/Structures/Undegroun
  angles 0 90.108 0
 }
 SCR_DestructibleEntity : "{D2897AA166D6CC65}PrefabLibrary/CainLibrary/Walls/Brick/BrickWall_USSR_04_end.et" {
- coords 5421.195 0 1807.365
+ coords 5421.035 0 1808.186
 }
 $grp Tree : "{FE0BD218E0E417A3}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_carpinus_betulus_3d.et" {
  {
