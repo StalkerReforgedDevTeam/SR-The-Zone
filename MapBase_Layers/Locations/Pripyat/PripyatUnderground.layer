@@ -1,0 +1,192 @@
+PolylineShapeEntity {
+ coords 6581.889 30.361 5133.668
+ Points {
+  ShapePoint "{6A5A4B81E19FFA26}" {
+   Position 0.196 0.035 7.281
+  }
+  ShapePoint "{6A5A4B81E19FA75D}" {
+   Position -3.472 0.057 -5.734
+  }
+  ShapePoint "{6A5A4B81FD4659B9}" {
+   Position 9.576 1.243 -7.854
+  }
+  ShapePoint "{6A5A4B81F69F5CDA}" {
+   Position 34.825 0.334 -4.061
+  }
+  ShapePoint "{6A5A4B81F7BC36A2}" {
+   Position 62.092 0.998 20.481
+  }
+  ShapePoint "{6A5A4B81F195DC4A}" {
+   Position 50.998 -0.207 30.457
+  }
+  ShapePoint "{6A5A4B81F28DBC83}" {
+   Position 30.212 1.832 12.658
+  }
+  ShapePoint "{6A5A4B81F3E4A3E8}" {
+   Position 19.501 0.803 6.883
+  }
+  ShapePoint "{6A5A4B81F32D6E5E}" {
+   Position 7.853 1.25 7.521
+  }
+ }
+ IsClosed 1
+ {
+  LakeGeneratorEntity : "{0263A3344F9DCAAD}Prefabs/WEGenerators/Water/Lake/LG_DirtyDrainage_01.et" {
+   coords 0 0 0
+  }
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{0657BACE18F255EE}Prefabs/Structures/Undeground/Tonnel/Tonnel_Straight_Small.et" {
+ {
+  coords 6611.554 0.048 4970.442
+  angles 0 15.543 0
+ }
+ {
+  coords 6633.031 -1.804 5250.472
+  angles 0 -29.789 0
+ }
+ {
+  coords 6436.09 -2.743 5371.425
+  angles 0 -77.928 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{6B01CCF8FDC89B3D}Prefabs/Structures/Undeground/Tonnel/Tonnel_Fork.et" {
+ coords 6519.81 0 5453.9
+ angles 0 -109.689 0
+}
+$grp SCR_DestructibleBuildingEntity : "{B6FEADF8EA594307}Prefabs/Structures/Undeground/Tonnel/Tonnel_Vhod.et" {
+ {
+  coords 6573.387 0 5131.832
+  angles 0 -166.981 0
+ }
+ {
+  coords 6453.021 0 5371.616
+  angles 0 11.835 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{D231DBDC442ADF08}Prefabs/Structures/Undeground/Tonnel/Tonnel_Trough.et" {
+ coords 6603.91 0 4945.491
+ angles 0 -162.365 0
+}
+$grp SCR_DestructibleBuildingEntity : "{E1CF4CEC231793E1}Prefabs/Structures/Undeground/Tonnel/Tonnel_Right.et" {
+ {
+  coords 6613.322 0 5018.877
+  angles 0 -48.372 0
+ }
+ {
+  coords 6618.309 -3.219 5137.158
+  angles 0 38.972 0
+ }
+ {
+  coords 6578.464 0 5190.91
+  angles 0 -46.039 0
+ }
+ {
+  coords 6656.777 -2.725 5204.952
+  angles 0 -27.096 0
+ }
+ {
+  coords 6449.142 0 5312.861
+  angles 0 133.168 0
+ }
+ {
+  coords 6465.674 0 5426.788
+  angles 0 -167.426 0
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{ECDD44436758E8DD}Prefabs/Structures/Undeground/Tonnel/Tonnel_Left.et" {
+ {
+  coords 6561.096 0 5077.34
+  angles 0 12.133 0
+ }
+ {
+  coords 6618.646 -1.624 5296.479
+  angles 0 32.969 0
+ }
+ {
+  coords 6581.814 0 5476.925
+  angles 0 -110.904 0
+ }
+}
+$grp GenericEntity : "{EF788E179012D9FD}Prefabs/ZBK/KitFactory/KitWall/Wall2Umin780_Br1Ext.et" {
+ {
+  coords 6550.315 30.014 5208.399
+  angles 0 42.912 0
+  scale 1.5
+ }
+ {
+  coords 6560.324 30.014 5219.166
+  angles 0 42.912 0
+  scale 1.5
+ }
+ {
+  coords 6552.39 30.014 5227.546
+  angles 0 42.912 0
+  scale 1.5
+ }
+ {
+  coords 6541.599 30.014 5215.938
+  angles 0 42.912 0
+  scale 1.5
+ }
+ {
+  coords 6549.857 30.014 5216.358
+  angles 0 131.396 0
+  scale 1.5
+ }
+ {
+  coords 6552.435 30.014 5219.246
+  angles 0 136.11 0
+  scale 1.5
+ }
+ {
+  coords 6554.251 36.379 5221.04
+  angles 0.056 133.057 91.044
+  scale 1.5
+ }
+ {
+  coords 6467.668 30.014 5284.858
+  angles 0 -137.881 0
+  scale 1.5
+ }
+ {
+  coords 6477.53 30.014 5295.765
+  angles 0 -137.881 0
+  scale 1.5
+ }
+ {
+  coords 6478.097 30.014 5287.813
+  angles 0 -49.397 0
+  scale 1.5
+ }
+ {
+  coords 6475.558 30.014 5284.888
+  angles 0 -44.683 0
+  scale 1.5
+ }
+ {
+  coords 6475.719 30.014 5276.591
+  angles 0 -137.881 0
+  scale 1.5
+ }
+ {
+  coords 6486.348 30.014 5288.346
+  angles 0 -137.881 0
+  scale 1.5
+ }
+}
+GenericEntity : "{F9713BF038335D2C}Prefabs/Industrial/undeground/tonnel.et" {
+ coords 6499.862 30 5261.325
+ angles 0 -47.194 0
+ {
+  GameEnvironmentProbeEntity {
+   ID "690C54A96DCA4F44"
+   coords 1.541 3.002 -2.651
+   LVReflectionBrightness 11.58
+   ReflectionDesaturation 0.31
+   LVDiffuseBrightness 12.94
+   VisiblePercentWhite 100
+   VisiblePercentBlack 99
+  }
+ }
+}
