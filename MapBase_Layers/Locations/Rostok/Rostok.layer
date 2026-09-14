@@ -427,10 +427,118 @@ $grp SCR_DestructibleBuildingEntity : "{1350F724723AAC87}Prefabs/Structures/Indu
   {
    Building {
     ID "56E0EA16FAACCCC5"
+    coords 0 -0.725 0
     {
      GenericEntity {
       ID "5AECA4187961B469"
       coords 0 0 0
+     }
+    }
+   }
+   Building {
+    ID "56E0EA16FAACCCC6"
+    coords 0 -0.725 0
+   }
+   Building {
+    ID "56E0EA16FAACD1BB"
+    coords 0 -0.725 0
+   }
+   Building {
+    ID "56E0EA16FAACD1BE"
+    coords 0 -0.725 0
+   }
+   GenericEntity {
+    ID "56E0EA1651EC8797"
+    coords 0 0.05 0
+    {
+     GenericEntity {
+      ID "56E0EA16560A9F97"
+      coords 15.914 0 -6.417
+     }
+     GenericEntity {
+      ID "56E0EA16560A9FA1"
+      coords -15.277 0.191 -3.026
+      angles 0 0 0
+     }
+     GenericEntity {
+      ID "56E0EA16560A9FB0"
+      coords -16.168 0.217 -2.881
+      angles 0 -180 0
+     }
+     GenericEntity {
+      ID "56E0EA16560A9FC6"
+      coords -15.667 0.185 -1.872
+      angles 0 94 0
+     }
+     GenericEntity {
+      ID "56E0EA16560A9C09"
+      coords 14.381 0 -6.447
+      angles 0 2 0
+     }
+     GenericEntity {
+      ID "56E0EA16560A9C1B"
+      coords -13.584 0.149 -3.711
+     }
+     GenericEntity {
+      ID "56E0EA16560A9C3C"
+      coords 13.685 0 -6.409
+      angles 0 -3 0
+     }
+     GenericEntity {
+      ID "56E0EA16560A9D0F"
+      coords -18.002 0.293 -6.085
+     }
+     GenericEntity {
+      ID "56E0EA16560A9D11"
+      coords -11.716 0.126 -5.977
+     }
+     GenericEntity {
+      ID "56E0EA16560A9D27"
+      coords -10.495 0.089 -5.999
+      angles 0 4 0
+     }
+     GenericEntity {
+      ID "56E0EA16560A9D37"
+      coords -11.722 0.108 -4.652
+      angles 0 -1 0
+     }
+     GenericEntity {
+      ID "56E0EA16560A9D3A"
+      coords -18.645 0.294 -4.455
+     }
+     GenericEntity {
+      ID "56E0EA16560A9DBF"
+      coords 9.526 0 -5.677
+      angles 0 90.967 0
+     }
+     GenericEntity {
+      ID "56E0EA16560A9204"
+      coords 15.145 0 -6.447
+      angles 0 -2 0
+     }
+     GenericEntity {
+      ID "56E0EA16560A9214"
+      coords 12.716 0 -6.512
+      angles 9.941 0 0
+     }
+     GenericEntity {
+      ID "56E0EA16560A9239"
+      coords 2.95 0 -1.026
+      angles 0 90 0
+     }
+     GenericEntity {
+      ID "56E0EA16560A92CF"
+      coords -16.171 0.24 -5.128
+     }
+     GenericEntity {
+      ID "56E0EA16560A900C"
+      coords 11.685 0 -6.643
+      angles 0 90 0
+     }
+     GenericEntity {
+      ID "56E0EA16560A9010"
+      coords 11.359 0 -4.145
+      angles 0 -177 0
      }
     }
    }
@@ -442,7 +550,21 @@ SCR_DestructibleBuildingEntity : "{1AB3F8B3F8CA860D}Prefabs/Structures/Houses/Ga
  angles 0 -90 0
 }
 SCR_DestructibleBuildingEntity : "{1FE01D58A8717F80}Prefabs/Industrial/Transformer_01.et" {
- coords 4714.341 0 4307.088
+ coords 4714.341 -0.001 4307.088
+ {
+  GameEnvironmentProbeEntity {
+   ID "6479390A76859948"
+   coords -0.129 0 0.262
+  }
+  SCR_JunctionPowerPole {
+   ID "6479390A76859943"
+   coords 0 0 0
+  }
+  StaticModelEntity {
+   ID "649A7A46A8FF4E9E"
+   coords 0.014 0.001 1.754
+  }
+ }
 }
 SCR_DestructibleBuildingEntity : "{1FE3B590D2A1654D}Prefabs/Structures/Infrastructure/Power/TransformerSubstation_01/TransformerSubstation_01_white.et" {
  coords 4892.916 0 4116.708
@@ -510,7 +632,7 @@ $grp SCR_DestructibleEntity : "{3E6CA4F2F90FA2F6}Prefabs/Structures/Industrial/P
  }
 }
 SCR_DestructibleBuildingEntity : "{4E32735D38FB7328}Prefabs/Industrial/concrete_tower_01.et" {
- coords 4732.925 30 4296.393
+ coords 4732.925 25.889 4296.393
 }
 $grp SCR_DestructibleBuildingEntity : "{5478F1635999CE3B}Prefabs/Structures/Agriculture/CowShed/CowShed_E_01/CowShed_E_01_long_Base.et" {
  {
@@ -523,7 +645,7 @@ $grp SCR_DestructibleBuildingEntity : "{5478F1635999CE3B}Prefabs/Structures/Agri
  }
 }
 SCR_DestructibleBuildingEntity : "{55772D08CE657A82}Prefabs/Industrial/house.et" {
- coords 4704.827 30 4280.646
+ coords 4704.827 25.843 4280.646
 }
 $grp GenericEntity : "{570DAA310A1B799D}Prefabs/Stairs_straight.et" {
  {
@@ -559,7 +681,7 @@ $grp SCR_DestructibleBuildingEntity : "{5C48A6282F87703C}Prefabs/Structures/Hous
  }
 }
 SCR_DestructibleBuildingEntity : "{5E56D1602958C610}Prefabs/Industrial/builds/saray_03.et" {
- coords 4695.177 30 4296.578
+ coords 4695.177 25.843 4296.578
 }
 SCR_DestructibleEntity : "{60D0FF15D5DD2CCE}Prefabs/Structures/Industrial/Pipelines/ProductPipeline_01/ProductPipeline_USSR_01_end.et" {
  coords 4915.401 31.758 4115.337
@@ -769,7 +891,7 @@ SCR_DestructibleEntity : "{6E622A634A5677DB}Prefabs/Structures/Industrial/Pipeli
  placement none
 }
 SCR_DestructibleBuildingEntity : "{71F0C3F12DCFF4C3}Prefabs/Industrial/builds/house_01.et" {
- coords 4716.812 30 4270.549
+ coords 4716.812 25.843 4270.549
 }
 StaticModelEntity : "{731BDEAEE0303E54}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_04_SideWays.et" {
  coords 4793.061 30.283 4154.142
@@ -937,7 +1059,7 @@ SCR_DestructibleEntity : "{92FBF89BA2599CEA}Prefabs/Structures/Industrial/Pipeli
  coords 4917.157 30 4123.26
 }
 SCR_DestructibleBuildingEntity : "{936163F41D08B3B4}Prefabs/Industrial/builds/object.et" {
- coords 4708.816 30 4283.801
+ coords 4708.816 25.843 4283.801
 }
 GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
  coords 4886.016 30 4083.05
@@ -4570,15 +4692,169 @@ SCR_DestructibleBuildingEntity : "{A76A76EBBD55CAAC}Prefabs/Structures/Military/
  coords 4878.953 0 4124.21
 }
 SCR_DestructibleBuildingEntity : "{A76BAA1713A0991F}Prefabs/Industrial/sklades_soviet/Staff_soviets.et" {
- coords 4716.207 30 4295.935
+ coords 4716.207 25.843 4295.935
+ {
+  Building {
+   ID "692C719124815BCD"
+   coords -5.141 0.001 -0.653
+   angles 0 90.494 0
+   {
+    GenericEntity {
+     ID "56F2D9316A76D423"
+     coords 0 0.015 0
+    }
+    GenericEntity {
+     ID "56F2D9316A76D443"
+     coords 0 0.015 0
+    }
+   }
+  }
+  Building {
+   ID "692C719124815BD2"
+   coords -0.291 0 2.059
+   angles 0 -179.803 0
+  }
+  Building {
+   ID "692C719124815BDC"
+   coords -3.521 0 2.07
+   angles 0 -179.803 0
+  }
+  Building {
+   ID "692C719124815BEB"
+   coords 5.075 0 -0.792
+   angles 0 -90.266 0
+  }
+  GenericEntity {
+   ID "695EA183E202C09E"
+   coords 3.436 0.001 -1.754
+  }
+  GenericEntity {
+   ID "695EA183E202C0E3"
+   coords -0.35 0.001 -2.034
+  }
+  GenericEntity {
+   ID "692C719124815B23"
+   coords 2.961 0 2.044
+   angles 0 0.408 0
+   {
+    GenericEntity {
+     ID "56C4E4016207F20D"
+     coords 0 0 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "692C719124815BA6"
+   coords 1.005 0 0.476
+   angles 0 89.942 0
+   {
+    GenericEntity {
+     ID "56C4E4016207F20D"
+     coords 0 0 0
+    }
+   }
+  }
+ }
 }
 GenericEntity : "{AAAC572D4ED0F19C}Prefabs/Vehicles/gaz66/armst_gaz66_wreck.et" {
  coords 4781.091 25.844 4161.318
  angles 0 120 0
 }
 SCR_DestructibleBuildingEntity : "{AF8B6B52567616E5}Prefabs/Industrial/sklades_soviet/Watchtower_4_soviets_3.et" {
- coords 4685.348 30 4308.152
+ coords 4685.348 25.843 4308.152
  angles 0 0 0
+ {
+  GenericEntity {
+   ID "66831164CA220B23"
+   coords -2.778 0 -2.836
+   angles 0 102.593 0
+  }
+  GenericEntity {
+   ID "66831164CA220B32"
+   coords -2.852 0 0.828
+   angles 0 167.048 0
+  }
+  GenericEntity {
+   ID "66831164CA220BC9"
+   coords 0.252 0 1.065
+   angles 0 -84.859 0
+  }
+  GenericEntity {
+   ID "66831164CA220BF1"
+   coords -1.816 0 -2.735
+   angles 0 137.859 0
+  }
+  GenericEntity {
+   ID "668311657C41D1D7"
+   coords 3.869 0 0.934
+  }
+  GenericEntity {
+   ID "668311657C41D1D9"
+   coords -2.837 0 1.137
+   angles 0 7.739 0
+   {
+    GenericEntity {
+     ID "552CE69ED15CB038"
+     coords 0.72 0 -0.005
+     angles 0 87.368 0
+    }
+    GenericEntity {
+     ID "552CE69ED15CB03A"
+     coords -0.57 0 -0.142
+     angles 0 167.048 0
+    }
+    GenericEntity {
+     ID "552CE69ED15CB03B"
+     coords 0.148 0 -0.028
+     angles 0 -79.855 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "66831164CA220AA8"
+   coords 1.666 0 0.979
+  }
+  GenericEntity {
+   ID "66831164CA220853"
+   coords -3.255 0 -0.697
+   angles 0 -177.669 0
+  }
+  GenericEntity {
+   ID "66831164CA220B09"
+   coords -0.966 0 1.01
+   angles 0 -79.855 0
+  }
+  GenericEntity {
+   ID "66831164CA220B4C"
+   coords 0.638 0 -1.038
+   angles 0 174.244 0
+  }
+  GenericEntity {
+   ID "66831164CA220B64"
+   coords -0.211 0 1.06
+   angles 0 -98.014 0
+  }
+  GenericEntity {
+   ID "66831164CA220B70"
+   coords -2.568 0 -2.047
+   angles 0 -79.855 0
+  }
+  GenericEntity {
+   ID "66831164CA220B99"
+   coords -2.303 0 -3.105
+   angles 0 -95.513 0
+  }
+  GenericEntity {
+   ID "66831164CA220BB9"
+   coords -2.908 0 -3.047
+   angles 0 -79.855 0
+  }
+  GenericEntity {
+   ID "66831164CA220B5F"
+   coords -1.477 0 -1.098
+   angles 0 22.608 0
+  }
+ }
 }
 SCR_DestructibleBuildingEntity : "{AFB21520AF9D5E0A}Prefabs/Industrial/builds/house_38.et" {
  coords 4835.175 30 4183.837
@@ -4664,8 +4940,76 @@ $grp GenericEntity : "{C610A4752B5873ED}Prefabs/Structures/Infrastructure/Rail/N
 }
 $grp SCR_DestructibleBuildingEntity : "{C8ED58851896F6D9}Prefabs/Industrial/sklades_soviet/Gatehouse_soviets_ext.et" {
  {
-  coords 4727.582 30 4270.589
+  coords 4727.582 25.843 4270.589
   angles 0 0 0
+  {
+   Building {
+    ID "692C719F79196F98"
+    coords -1.316 0 1.344
+    angles 0 179.34 0
+   }
+   GenericEntity {
+    ID "62D6A1B2CCA56BFC"
+    coords 2.921 0 0.478
+    angles 0 179.558 0
+   }
+   GenericEntity {
+    ID "62D6A1B2CCA56D08"
+    coords -0.578 0.001 -1.168
+    angles 0 -0.127 0
+   }
+   GenericEntity {
+    ID "62D6A1B2CCA56D69"
+    coords -1.539 0 -1.477
+   }
+   GenericEntity {
+    ID "62D6A1B2CCA56D7D"
+    coords 2.597 0.001 0.288
+   }
+   GenericEntity {
+    ID "62D6A1B2CCA572EE"
+    coords -0.143 0 -1.174
+    angles 0 -172.052 0
+   }
+   GenericEntity {
+    ID "62D6A1B2CCA56C92"
+    coords 0.297 0 -0.616
+   }
+   GenericEntity {
+    ID "62D6F0060179A213"
+    coords -1.245 0.001 1.219
+    angles 0 -179.68 0
+   }
+   GenericEntity {
+    ID "62D6F0060179A231"
+    coords -1.111 0 1.331
+   }
+   GenericEntity {
+    ID "692C719F277C9451"
+    coords 1.629 0 1.339
+    angles 0 0.408 0
+    {
+     GenericEntity {
+      ID "56C4E4016207F20D"
+      coords 0 0 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "62D6A1B2CCA56CBF"
+    coords -2.411 0 -1.181
+    angles 0 -137.595 0
+   }
+   GenericEntity {
+    ID "62D6A1B2CCA54765"
+    coords -1.448 0 1.114
+    angles 0 -0.863 0
+   }
+   GenericEntity {
+    ID "62D6A1B2CCA56D4B"
+    coords 2.034 0 -1.178
+   }
+  }
  }
  {
   coords 4825.255 30 4137.418
@@ -4677,8 +5021,58 @@ SCR_DestructibleBuildingEntity : "{D1A2077E004C7F64}Prefabs/Structures/Agricultu
  angles 0 -90 0
 }
 SCR_DestructibleBuildingEntity : "{DA18BC3C9738C614}Prefabs/Industrial/builds/bitovka_wheels.et" {
- coords 4727.557 30 4282.622
+ coords 4727.557 25.843 4282.622
  angles 0 0 0
+ {
+  GenericEntity {
+   ID "6676605687638D55"
+   coords -1.429 0.001 -3.967
+   angles 0 90 0
+  }
+  GenericEntity {
+   ID "66766056876392E2"
+   coords -1.525 0 -2.768
+   angles 0 90 0
+  }
+  GenericEntity {
+   ID "66766056876392D8"
+   coords -0.265 0 2.466
+   angles 0 15.265 0
+  }
+  GenericEntity {
+   ID "66766056876392D0"
+   coords 0.956 0 3.127
+   angles 0 3.818 0
+  }
+  GenericEntity {
+   ID "6676605687639248"
+   coords -0.983 0 4.102
+   angles 0 -2.091 0
+  }
+  GenericEntity {
+   ID "6676605687639256"
+   coords 1.397 0.001 -1.921
+   angles -17.587 88.467 92.628
+  }
+  GenericEntity {
+   ID "6676605687639230"
+   coords -0.99 0 -2.803
+   angles 0 90 0
+  }
+  GenericEntity {
+   ID "66766056876393B9"
+   coords 1.275 0 -1.242
+   angles 0 125.04 0
+  }
+  GenericEntity {
+   ID "6676605687639398"
+   coords 0.621 0 2.874
+  }
+  GenericEntity {
+   ID "6676605687639397"
+   coords -0.388 0 4.379
+  }
+ }
 }
 GenericEntity : "{DA501E61971FAF20}Prefabs/Stairs_gap_left.et" {
  coords 4853.02 30 4135.405
@@ -4772,7 +5166,7 @@ $grp SCR_DestructibleEntity : "{F755F729EC8D5203}Prefabs/Structures/Walls/Concre
 }
 $grp SCR_DestructibleBuildingEntity : "{F8A2216373DB554C}Prefabs/Industrial/sklades_soviet/Barn_soviets.et" {
  {
-  coords 4757.102 30 4283.65
+  coords 4757.102 26.657 4283.65
   angles 0 0 0
  }
  {
