@@ -238,6 +238,14 @@ $grp ParticleEffectEntity {
   coords 5869.269 20 1539.083
   EffectPath "{C9B4E6E04652F48F}Prefabs/Anomals/Zero_gravy/data/line_wrapper_uaz_469.ptc"
  }
+ {
+  coords 5870.332 20.556 1573.12
+  EffectPath "{6EE3295AC363E562}Particles/Enviroment/Smoke_Smokestack_Big.ptc"
+ }
+ {
+  coords 5889.624 20.224 1610.792
+  EffectPath "{D04A8E15686D6FDB}Particles/Props/Smoke_RPL5_Damaged.ptc"
+ }
 }
 $grp PolylineShapeEntity {
  {
@@ -59234,6 +59242,14 @@ $grp SCR_DestructibleBuildingEntity : "{0657BACE18F255EE}Prefabs/Structures/Unde
   coords 4709.486 0.134 2234.672
  }
 }
+$grp SCR_DestructibleEntity : "{06ABA7878E8CC278}Prefabs/Props/Decorations/Flowerpots/FlowerpotStreet_01/FlowerpotStreet_01_rect_long_begonia_red.et" {
+ {
+  coords 6174.668 40 1367.966
+ }
+ {
+  coords 6173.19 40 1367.977
+ }
+}
 GenericEntity Backpack_ALICE_Medium_6A60E5A6D5D6A742 : "{06B68C58B72EAAC6}Prefabs/Items/Equipment/Backpacks/Backpack_ALICE_Medium.et" {
  editor EntityEditorProps "{6A650A8D915AA765}" {
   Color 1 0 0 1
@@ -59509,6 +59525,9 @@ $grp GenericEntity : "{0BE3BDE3910436F2}Prefabs/Props/Decorations/Flowerpots/Flo
   coords 5728.708 21.337 1202.473
   angles 0 -91.743 0
  }
+}
+Tree : "{0CA0547EB03759E1}Prefabs/Vegetation/Bush/b_rubus_idaeus_1s.et" {
+ coords 6157.247 0 1342.768
 }
 SCR_DestructibleBuildingEntity : "{0CA99611F38D2C03}Prefabs/Structures/Agriculture/Gates/GateCollectiveFarm_01/GateCollectiveFarm_01_base.et" {
  editor EntityEditorProps "{6A650A8D915AA765}" {
@@ -60050,7 +60069,7 @@ GenericEntity : "{113FB990D2029BD3}Prefabs/deads/cows/cow_4.et" {
  angles 0 -57.096 0
 }
 GenericEntity : "{118F3279376A233C}Prefabs/deads/skeleton/dead_skeleton_4.et" {
- coords 6177.801 40.955 1347.374
+ coords 6177.841 40.955 1339.897
  angles 0 0 0
 }
 SCR_DestructibleBuildingEntity : "{11F6A51BF6F04ABB}Prefabs/Structures/Military/Houses/Barracks_E_02/Barracks_E_02.et" {
@@ -60139,7 +60158,7 @@ GenericEntity : "{14DDB40171F949A9}Prefabs/Props/Military/Camps/ConstructionMate
  coords 5148.047 20 2024.223
 }
 GenericEntity : "{150305A569EA7054}Prefabs/Structures/BuildingParts/Eletrical/LoudspeakerInt_01.et" {
- coords 6175.628 43.355 1349.12
+ coords 6175.668 43.355 1341.643
 }
 GenericEntity : "{15681F48BFD225B7}Prefabs/shelves/polki_1.et" {
  editor EntityEditorProps "{6A650A8D915AA765}" {
@@ -60447,6 +60466,9 @@ GenericEntity : "{16A5C47ACF0DAE30}Prefabs/Vehicles/vaz2109/armst_vaz2109_blue_w
  }
  coords 4756.272 5.128 1687.631
  angles 0 97.82 0
+}
+GenericEntity : "{17A78A0D3701386A}Prefabs/Compositions/Misc/SubCompositions/Garbage/Tire_Stack_Garbage_01.et" {
+ coords 6153.133 40 1413.642
 }
 GenericEntity : "{180BCCBE6EF9C8CC}Prefabs/posters/stalker_poster.et" {
  editor EntityEditorProps "{6A650A8D915AA765}" {
@@ -61590,6 +61612,978 @@ $grp StaticModelEntity : "{18822FB3F0D2ED00}Prefabs/Structures/Walls/BarbedWire/
   coords 6047.652 1.541 1369.193
   angles 0 -179.6 0
  }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.681 -0.147 1376.29
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6186.244 1.34 1380.628
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6186.452 1.339 1376.208
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.551 0.037 1380.812
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.584 -0.022 1379.122
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6186.406 1.346 1378.853
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.546 -0.213 1373.113
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.58 -0.271 1371.423
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.676 -0.396 1368.591
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6186.239 1.09 1372.928
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6186.401 1.099 1371.154
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6186.448 1.09 1368.509
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.64 -0.023 1391.573
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6186.203 1.464 1395.911
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6186.411 1.463 1391.491
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.51 0.161 1396.095
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.543 0.102 1394.405
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6186.365 1.47 1394.136
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.505 -0.089 1388.396
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.539 -0.147 1386.706
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.635 -0.272 1383.874
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6186.198 1.214 1388.211
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6186.36 1.223 1386.437
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6186.407 1.214 1383.792
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.493 0.154 1406.726
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6186.056 1.641 1411.064
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6186.264 1.64 1406.644
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.363 0.338 1411.248
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.396 0.279 1409.558
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6186.218 1.647 1409.289
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.358 0.088 1403.549
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.392 0.03 1401.859
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.488 -0.095 1399.027
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6186.051 1.391 1403.364
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6186.214 1.4 1401.59
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6186.26 1.391 1398.945
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.825 -0.04 1361.096
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6186.388 1.051 1365.327
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6186.596 1.05 1360.906
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.693 -0.252 1365.51
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.728 0.085 1363.927
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6186.548 1.057 1363.551
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.688 -0.106 1357.919
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.724 -0.164 1356.228
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.817 -0.289 1353.396
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6186.381 0.801 1357.625
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6186.542 1.206 1355.961
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6186.591 0.801 1353.207
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6188.002 -0.303 1345.34
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6186.565 1.184 1349.678
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6186.773 1.183 1345.257
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.871 -0.119 1349.861
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.904 -0.178 1348.171
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6186.726 1.19 1347.902
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.866 -0.369 1342.162
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.901 -0.427 1340.472
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.996 -0.552 1337.64
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6186.559 0.934 1341.977
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6186.721 0.943 1340.204
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6186.769 0.934 1337.558
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6188.178 -0.147 1329.966
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6186.741 1.34 1334.304
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6186.949 1.339 1329.884
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6188.047 0.037 1334.488
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6188.081 -0.022 1332.798
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6186.902 1.346 1332.529
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6188.042 -0.213 1326.789
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6188.077 -0.271 1325.099
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6188.172 -0.396 1322.267
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6186.735 1.09 1326.604
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6186.897 1.099 1324.83
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6186.945 1.09 1322.185
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6188.333 -0.147 1314.75
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6186.896 1.34 1319.089
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.104 1.339 1314.668
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6188.203 0.037 1319.272
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6188.236 -0.022 1317.582
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.058 1.346 1317.313
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6188.198 -0.213 1311.573
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6188.232 -0.271 1309.883
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6188.328 -0.396 1307.051
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6186.891 1.09 1311.388
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.053 1.099 1309.615
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.101 1.09 1306.969
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6189.032 -0.165 1298.866
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.595 1.34 1303.204
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.803 1.32 1298.784
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6188.902 0.037 1303.388
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6188.935 -0.027 1301.698
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.757 1.346 1301.429
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6188.897 -0.286 1295.689
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6188.931 -0.379 1293.999
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6189.027 -0.623 1291.167
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.59 1.026 1295.504
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.752 1 1293.73
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.799 0.894 1291.085
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6189.32 -1.224 1283.539
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.883 0.827 1287.877
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6188.091 0.314 1283.457
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6189.19 -0.502 1288.061
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6189.223 -0.738 1286.371
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6188.045 0.661 1286.102
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6189.185 -1.811 1280.362
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6189.219 -2.206 1278.672
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6189.315 -2.981 1275.84
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.878 -0.439 1280.177
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6188.04 -0.82 1278.403
+  angles 0 0.15 0
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDFC35CD}" {
+    Enabled 1
+   }
+  }
+  coords 6188.087 -1.42 1275.758
+  angles 0 0.15 0
+ }
 }
 GenericEntity : "{18982CB5D0D29247}Prefabs/Props/Civilian/BeerBottle_01_empty_brown.et" {
  editor EntityEditorProps "{6A650A8D915AA765}" {
@@ -62292,6 +63286,9 @@ $grp GenericEntity : "{1BC300CA46DEDA79}Prefabs/Structures/Signs/Warnings/SignNo
   coords 5128.195 20 1233.744
   angles 0 25.646 0
  }
+}
+GenericEntity : "{1BC3916A53D0F668}Prefabs/Compositions/Misc/SubCompositions/Garbage/Tire_Stack_US_03.et" {
+ coords 6155.303 40 1414.472
 }
 $grp GenericEntity : "{1C2BB7CE623514E7}Prefabs/Vegetation/Plant/coppice_grass_dense_01_aut.et" {
  {
@@ -63255,6 +64252,49 @@ GenericEntity : "{1C5C824E26DB1D62}Prefabs/Props/Signs/Industrial/SignIndustrial
  }
  coords 5411.506 20.015 1832.915
  angles 0 -83.729 0
+}
+$grp Tree : "{1C6F9AD2669C17F9}Prefabs/Vegetation/Tree/t_malus_domestica/t_malus_domestica_2s.et" {
+ {
+  coords 6167.922 0.539 1335.592
+  angles 0 77.227 0
+ }
+ {
+  coords 6168.022 0.573 1332.821
+ }
+ {
+  coords 6162.773 0.576 1335.156
+ }
+ {
+  coords 6162.808 0.548 1332.221
+  angles 0 -59.247 0
+ }
+ {
+  coords 6167.991 0.546 1338.371
+  angles 0 148.22 0
+ }
+ {
+  coords 6162.806 0.539 1337.754
+  angles 0 59.837 0
+ }
+ {
+  coords 6167.725 0.639 1341.234
+ }
+ {
+  coords 6162.653 0.556 1340.561
+  angles 0 -89.169 0
+ }
+ {
+  coords 6162.542 0.536 1343.238
+  angles 0 -148.903 0
+ }
+ {
+  coords 6167.638 0.587 1343.824
+  angles 0 -4.92 0
+ }
+ {
+  coords 6167.807 0.508 1327.362
+  angles 0 44.175 0
+ }
 }
 $grp SCR_DestructibleBuildingEntity : "{1C84EFFD80594BBF}Prefabs/Structures/Lixo/TrashBin.et" {
  {
@@ -64609,71 +65649,63 @@ GenericEntity : "{1D2F578D059DEF0A}Prefabs/Props/Industrial/CargoContainers/Carg
 }
 $grp GenericEntity : "{1D5355A64F27521C}Prefabs/Items/Moneys/armst_itm_money_1000rub.et" {
  armst_itm_money_1000rub_6A654284B55AA165 {
-  coords 6175.358 40.175 1349.462
+  coords 6175.398 40.175 1341.985
   angles 0 69.663 0
  }
  armst_itm_money_1000rub_6A654284B55AA2 {
-  coords 6175.382 40.175 1349.239
+  coords 6175.422 40.175 1341.762
   angles 0 -6.729 0
  }
  armst_itm_money_1000rub_6A654284B55AA3 {
-  coords 6175.724 40.183 1349.575
+  coords 6175.764 40.183 1342.099
   angles 0 -3.597 0
  }
  armst_itm_money_1000rub_6A654284B55AA4 {
-  coords 6175.754 40.175 1349.126
+  coords 6175.794 40.175 1341.649
   angles 0 19.605 0
  }
  armst_itm_money_1000rub_6A654284B55AA5 {
-  coords 6175.482 40.175 1349.102
+  coords 6175.522 40.175 1341.625
   angles 0 15.271 0
  }
  armst_itm_money_1000rub_6A654284B55AA6 {
-  coords 6175.309 40.175 1349.074
+  coords 6175.349 40.175 1341.597
   angles 0 -72.499 0
  }
  armst_itm_money_1000rub_6A654284B55AA7 {
-  coords 6175.57 40.175 1349.234
+  coords 6175.61 40.175 1341.757
   angles 0 81.614 0
  }
  armst_itm_money_1000rub_6A654284B55AA8 {
-  coords 6175.929 40.175 1349.629
+  coords 6175.969 40.175 1342.152
   angles 0 53.742 0
  }
  armst_itm_money_1000rub_6A654284B55AA9 {
-  coords 6175.532 40.175 1349.47
+  coords 6175.572 40.175 1341.993
   angles 0 88.71 0
  }
  armst_itm_money_1000rub_6A654284B55AA10 {
-  coords 6175.293 40.175 1349.364
+  coords 6175.333 40.175 1341.887
   angles 0 53.742 0
  }
  armst_itm_money_1000rub_6A654284B55AA11 {
-  coords 6175.917 40.175 1349.291
+  coords 6175.957 40.175 1341.814
   angles 0 28.006 0
  }
- armst_itm_money_1000rub_6A654284B55AA12 {
-  coords 6175.971 40.175 1349.11
-  angles 0 107.372 0
- }
  armst_itm_money_1000rub_6A654284F1EFDBF9 {
-  coords 6176.324 40.515 1347.948
+  coords 6176.364 40.515 1340.471
   angles 0 20.08 0
  }
  armst_itm_money_1000rub_6A654284FF0530EA {
-  coords 6176.481 40.515 1348.063
+  coords 6176.521 40.515 1340.586
   angles 0 90.128 0
  }
  armst_itm_money_1000rub_6A654284FD21B695 {
-  coords 6176.536 40.515 1347.777
+  coords 6176.576 40.515 1340.3
   angles 0 -52.808 0
  }
- armst_itm_money_1000rub_6A654284FAA8FD48 {
-  coords 6176.222 40.514 1347.784
-  angles 0 106.9 0
- }
  armst_itm_money_1000rub_6A654284E6A3ECE2 {
-  coords 6176.375 40.515 1347.687
+  coords 6176.415 40.515 1340.21
   angles 0 -88.817 0
  }
 }
@@ -64917,6 +65949,13 @@ GenericEntity : "{22EFF6A8FEF00ECE}Prefabs/Infrastructure/Railways/Railway Bridg
  }
  coords 5245.913 10.413 2211.12
  angles 0.139 -89.911 0.001
+}
+SCR_DestructibleEntity : "{234AEC851DFF1B8C}Prefabs/Props/Decorations/Flowerpots/FlowerpotFlowers_01/FlowerpotFlowers_01_begonia_pink.et" {
+ coords 6175.664 41.311 1366.913
+}
+Tree : "{23C0BE9D80929DBD}Prefabs/Vegetation/Bush/b_salix_cinerea_1w.et" {
+ coords 6166.402 0 1324.829
+ angles 0 -44.621 0
 }
 GenericEntity : "{23FA44FB20407234}Prefabs/Wrecks/V3s/V3s_wreck_red_v1.et" {
  editor EntityEditorProps "{6A650A8D915AA765}" {
@@ -65373,7 +66412,7 @@ GenericEntity : "{2BF58454BEAB913E}Prefabs/Props/Industrial/Pallets/WoodenPallet
  angles 0 3.185 0
 }
 GenericEntity armst_itm_money_100rub_6A6542844940F1ED : "{2BFAE99AC771DF8E}Prefabs/Items/Moneys/armst_itm_money_100rub.et" {
- coords 6175.424 40.175 1349.606
+ coords 6175.464 40.175 1342.13
 }
 SCR_DestructibleEntity : "{2CA940B210EDA36E}Prefabs/Structures/Walls/BarbedWire/NetFence_USSR_01/NetFence_USSR_01_6m_V2.et" {
  editor EntityEditorProps "{6A650A8D915AA765}" {
@@ -66113,12 +67152,16 @@ $grp Tree : "{3055CC9BD73E184D}PrefabLibrary/CainLibrary/Vegetation/Trees/t_betu
   scale 1.242
  }
 }
+GenericEntity : "{305C405E88BD5870}Prefabs/Vehicles/vaz2105/armst_vaz2105_2.et" {
+ coords 5027.433 20.031 1462.978
+ angles 0 -172.539 0
+}
 $grp GenericEntity : "{3091168E31EA4734}Prefabs/Structures/Civilian/ClotheslinePole_01.et" {
  {
-  coords 6175.631 41.919 1349.332
+  coords 6175.671 41.919 1341.855
  }
  {
-  coords 6175.632 40.357 1349.333
+  coords 6175.672 40.357 1341.856
   angles 0 0 179.94
  }
 }
@@ -66408,6 +67451,13 @@ GenericEntity : "{3533DB963FA9C81F}Prefabs/Props/Industrial/CargoContainers/Carg
  }
  coords 5252.429 20.924 2223.627
  angles 13.234 103.537 1.365
+}
+GenericEntity : "{35445EB969A0DD6E}Prefabs/Structures/Signs/Heritage/SignHeritage_01_ProtectedTree.et" {
+ coords 6167.197 40 1349.584
+}
+GenericEntity : "{35874DC3D0281871}Prefabs/Vehicles/gaz53/armst_gaz53_gazoil.et" {
+ coords 5032.055 20 1456.908
+ angles 0 177.912 0
 }
 $grp GenericEntity : "{35874DC3D0281872}Prefabs/Vehicles/gaz53/armst_gaz53_open.et" {
  {
@@ -66793,7 +67843,7 @@ $grp GenericEntity : "{386B401E642C5829}Prefabs/Items/Others/photos/girls/armst_
   angles 8.007 0 0
  }
  armst_photo_girls_5_6A6542848B6DA5FD {
-  coords 6174.942 40.523 1347.897
+  coords 6174.982 40.523 1340.42
   angles 0 42.572 0
  }
 }
@@ -66898,6 +67948,19 @@ $grp SCR_DestructibleEntity : "{3A32BA576963ED62}Prefabs/Structures/Walls/Brick/
   angles 0 -74.977 0
  }
 }
+$grp SCR_DestructibleEntity : "{3A52FC23A1DCAE53}Prefabs/Structures/Walls/Wooden/WoodenFence_01/WoodenFence_01_2m.et" {
+ {
+  coords 6168.088 0 1376.926
+  angles 0 -87.876 0
+ }
+ {
+  coords 6172.165 0 1365.385
+ }
+ {
+  coords 6174.162 0 1365.425
+  angles 0 -41.792 0
+ }
+}
 $grp StaticModelEntity : "{3A6FE81BD276FA67}Prefabs/Vegetation/Tree/Debris/FallenLeavesPile_01_V1.et" {
  {
   editor EntityEditorProps "{6A650A8D915AA765}" {
@@ -66950,7 +68013,7 @@ GenericEntity : "{3AB2B7156B3A0F3D}Prefabs/Props/Agriculture/MilkCan_01.et" {
 }
 $grp StaticModelEntity : "{3AB68F44A671469E}Prefabs/Structures/Walls/Concrete/SilageWall_02/SilageWall_02_12m_A.et" {
  {
-  coords 6036.814 -0.073 1337.475
+  coords 6041.632 -0.637 1335.562
   angles 0 -68.344 0
  }
  {
@@ -68286,6 +69349,15 @@ $grp StaticModelEntity : "{3C59CD881FC6E4E1}Prefabs/Structures/Infrastructure/Pa
 GenericEntity : "{3EFC4D60641C6DD8}Prefabs/Structures/BuildingParts/Cultural/AltarChurch_01_small.et" {
  coords 6119.969 40.576 1341.785
 }
+$grp GenericEntity : "{3F0D0593590519DA}Prefabs/Props/Garbage/Tires/TirePile_01_medium.et" {
+ {
+  coords 6157.458 40.014 1419.425
+ }
+ {
+  coords 6153.761 40 1418.402
+  angles 0 117.733 0
+ }
+}
 StaticModelEntity : "{3F2B57610C94E335}Prefabs/Structures/Houses/Shed/Shed_03/Dst/Shed_03_Wide_Ruin.et" {
  editor EntityEditorProps "{6A650A8D915AA765}" {
   Color 1 0 0 1
@@ -68747,6 +69819,402 @@ $grp GenericEntity : "{3F8BE66EB83CD81F}Prefabs/Props/Military/H Barrier/Hesco b
    }
   }
  }
+ {
+  coords 6186.475 0 1378.154
+  angles 0 179.75 0
+  {
+   GenericEntity {
+    ID "60D1347194B10BC4"
+    coords 0 0 1.5
+   }
+   GenericEntity {
+    ID "60D1347194B10BC6"
+    coords 0 0 -1.51
+   }
+   GenericEntity {
+    ID "60D1347194B16FF8"
+    coords 0 0 -2.982
+   }
+   GenericEntity {
+    ID "60D1347194B1A475"
+    coords 0 0 2.97
+   }
+  }
+ }
+ {
+  coords 6186.47 -0.249 1370.454
+  angles 0 179.75 0
+  {
+   GenericEntity {
+    ID "60D1347194B10BC4"
+    coords 0 0 1.499
+   }
+   GenericEntity {
+    ID "60D1347194B10BC6"
+    coords 0 0 -1.51
+   }
+   GenericEntity {
+    ID "60D1347194B16FF8"
+    coords 0 0 -2.982
+   }
+   GenericEntity {
+    ID "60D1347194B1A475"
+    coords 0 0 2.97
+   }
+  }
+ }
+ {
+  coords 6186.434 0.124 1393.437
+  angles 0 179.75 0
+  {
+   GenericEntity {
+    ID "60D1347194B10BC4"
+    coords 0 0 1.5
+   }
+   GenericEntity {
+    ID "60D1347194B10BC6"
+    coords 0 0 -1.51
+   }
+   GenericEntity {
+    ID "60D1347194B16FF8"
+    coords 0 0 -2.982
+   }
+   GenericEntity {
+    ID "60D1347194B1A475"
+    coords 0 0 2.97
+   }
+  }
+ }
+ {
+  coords 6186.429 -0.125 1385.737
+  angles 0 179.75 0
+  {
+   GenericEntity {
+    ID "60D1347194B10BC4"
+    coords 0 0 1.499
+   }
+   GenericEntity {
+    ID "60D1347194B10BC6"
+    coords 0 0 -1.51
+   }
+   GenericEntity {
+    ID "60D1347194B16FF8"
+    coords 0 0 -2.982
+   }
+   GenericEntity {
+    ID "60D1347194B1A475"
+    coords 0 0 2.97
+   }
+  }
+ }
+ {
+  coords 6186.287 0.301 1408.59
+  angles 0 179.75 0
+  {
+   GenericEntity {
+    ID "60D1347194B10BC4"
+    coords 0 0 1.5
+   }
+   GenericEntity {
+    ID "60D1347194B10BC6"
+    coords 0 0 -1.51
+   }
+   GenericEntity {
+    ID "60D1347194B16FF8"
+    coords 0 0 -2.982
+   }
+   GenericEntity {
+    ID "60D1347194B1A475"
+    coords 0 0 2.97
+   }
+  }
+ }
+ {
+  coords 6186.282 0.052 1400.89
+  angles 0 179.75 0
+  {
+   GenericEntity {
+    ID "60D1347194B10BC4"
+    coords 0 0 1.499
+   }
+   GenericEntity {
+    ID "60D1347194B10BC6"
+    coords 0 0 -1.51
+   }
+   GenericEntity {
+    ID "60D1347194B16FF8"
+    coords 0 0 -2.982
+   }
+   GenericEntity {
+    ID "60D1347194B1A475"
+    coords 0 0 2.97
+   }
+  }
+ }
+ {
+  coords 6186.619 0.107 1362.961
+  angles 0 179.75 0
+  {
+   GenericEntity {
+    ID "60D1347194B10BC4"
+    coords 0 0 1.5
+   }
+   GenericEntity {
+    ID "60D1347194B10BC6"
+    coords 0 0 -1.51
+   }
+   GenericEntity {
+    ID "60D1347194B16FF8"
+    coords 0 0 -2.982
+   }
+   GenericEntity {
+    ID "60D1347194B1A475"
+    coords 0 0 2.97
+   }
+  }
+ }
+ {
+  coords 6186.612 -0.142 1355.259
+  angles 0 179.75 0
+  {
+   GenericEntity {
+    ID "60D1347194B10BC4"
+    coords 0 0 1.499
+   }
+   GenericEntity {
+    ID "60D1347194B10BC6"
+    coords -0.001 0 -1.51
+   }
+   GenericEntity {
+    ID "60D1347194B16FF8"
+    coords 0 0 -2.982
+   }
+   GenericEntity {
+    ID "60D1347194B1A475"
+    coords -0.001 0 2.97
+   }
+  }
+ }
+ {
+  coords 6186.796 -0.156 1347.204
+  angles 0 179.75 0
+  {
+   GenericEntity {
+    ID "60D1347194B10BC4"
+    coords 0 0 1.5
+   }
+   GenericEntity {
+    ID "60D1347194B10BC6"
+    coords 0 0 -1.51
+   }
+   GenericEntity {
+    ID "60D1347194B16FF8"
+    coords 0 0 -2.982
+   }
+   GenericEntity {
+    ID "60D1347194B1A475"
+    coords 0 0 2.97
+   }
+  }
+ }
+ {
+  coords 6186.791 -0.405 1339.503
+  angles 0 179.75 0
+  {
+   GenericEntity {
+    ID "60D1347194B10BC4"
+    coords 0 0 1.499
+   }
+   GenericEntity {
+    ID "60D1347194B10BC6"
+    coords 0 0 -1.51
+   }
+   GenericEntity {
+    ID "60D1347194B16FF8"
+    coords 0 0 -2.982
+   }
+   GenericEntity {
+    ID "60D1347194B1A475"
+    coords 0 0 2.97
+   }
+  }
+ }
+ {
+  coords 6186.972 0 1331.83
+  angles 0 179.75 0
+  {
+   GenericEntity {
+    ID "60D1347194B10BC4"
+    coords 0 0 1.5
+   }
+   GenericEntity {
+    ID "60D1347194B10BC6"
+    coords 0 0 -1.51
+   }
+   GenericEntity {
+    ID "60D1347194B16FF8"
+    coords 0 0 -2.982
+   }
+   GenericEntity {
+    ID "60D1347194B1A475"
+    coords 0 0 2.97
+   }
+  }
+ }
+ {
+  coords 6186.967 -0.249 1324.13
+  angles 0 179.75 0
+  {
+   GenericEntity {
+    ID "60D1347194B10BC4"
+    coords 0 0 1.499
+   }
+   GenericEntity {
+    ID "60D1347194B10BC6"
+    coords 0 0 -1.51
+   }
+   GenericEntity {
+    ID "60D1347194B16FF8"
+    coords 0 0 -2.982
+   }
+   GenericEntity {
+    ID "60D1347194B1A475"
+    coords 0 0 2.97
+   }
+  }
+ }
+ {
+  coords 6187.127 0 1316.615
+  angles 0 179.75 0
+  {
+   GenericEntity {
+    ID "60D1347194B10BC4"
+    coords 0 0 1.5
+   }
+   GenericEntity {
+    ID "60D1347194B10BC6"
+    coords 0 0 -1.51
+   }
+   GenericEntity {
+    ID "60D1347194B16FF8"
+    coords 0 0 -2.982
+   }
+   GenericEntity {
+    ID "60D1347194B1A475"
+    coords 0 0 2.97
+   }
+  }
+ }
+ {
+  coords 6187.123 -0.249 1308.914
+  angles 0 179.75 0
+  {
+   GenericEntity {
+    ID "60D1347194B10BC4"
+    coords 0 0 1.499
+   }
+   GenericEntity {
+    ID "60D1347194B10BC6"
+    coords 0 0 -1.51
+   }
+   GenericEntity {
+    ID "60D1347194B16FF8"
+    coords 0 0 -2.982
+   }
+   GenericEntity {
+    ID "60D1347194B1A475"
+    coords 0 0 2.97
+   }
+  }
+ }
+ {
+  coords 6187.826 0 1300.73
+  angles 0 179.75 0
+  {
+   GenericEntity {
+    ID "60D1347194B10BC4"
+    coords 0 0 1.5
+   }
+   GenericEntity {
+    ID "60D1347194B10BC6"
+    coords 0 0 -1.51
+   }
+   GenericEntity {
+    ID "60D1347194B16FF8"
+    coords 0 0 -2.982
+   }
+   GenericEntity {
+    ID "60D1347194B1A475"
+    coords 0 0 2.97
+   }
+  }
+ }
+ {
+  coords 6187.821 -0.371 1293.03
+  angles 0 179.75 0
+  {
+   GenericEntity {
+    ID "60D1347194B10BC4"
+    coords 0 0 1.499
+   }
+   GenericEntity {
+    ID "60D1347194B10BC6"
+    coords 0 0 -1.51
+   }
+   GenericEntity {
+    ID "60D1347194B16FF8"
+    coords 0 0 -2.982
+   }
+   GenericEntity {
+    ID "60D1347194B1A475"
+    coords 0 0 2.97
+   }
+  }
+ }
+ {
+  coords 6188.114 -0.773 1285.403
+  angles 0 179.75 0
+  {
+   GenericEntity {
+    ID "60D1347194B10BC4"
+    coords 0 0 1.5
+   }
+   GenericEntity {
+    ID "60D1347194B10BC6"
+    coords 0 0 -1.51
+   }
+   GenericEntity {
+    ID "60D1347194B16FF8"
+    coords 0 0 -2.982
+   }
+   GenericEntity {
+    ID "60D1347194B1A475"
+    coords 0 0 2.97
+   }
+  }
+ }
+ {
+  coords 6188.109 -2.328 1277.703
+  angles 0 179.75 0
+  {
+   GenericEntity {
+    ID "60D1347194B10BC4"
+    coords 0 0 1.499
+   }
+   GenericEntity {
+    ID "60D1347194B10BC6"
+    coords 0 0 -1.51
+   }
+   GenericEntity {
+    ID "60D1347194B16FF8"
+    coords 0 0 -2.982
+   }
+   GenericEntity {
+    ID "60D1347194B1A475"
+    coords 0 0 2.97
+   }
+  }
+ }
 }
 $grp SCR_DestructibleBuildingEntity : "{3F91DEEC9C78E473}Prefabs/Structures/Military/Houses/GuardHouse_01/GuardHouse_01.et" {
  {
@@ -69077,6 +70545,32 @@ $grp SCR_DestructibleBuildingEntity : "{4A862A8A65503FFC}Prefabs/Structures/Mili
   angles 0 89.76 0
  }
 }
+$grp SCR_DestructibleEntity : "{4A9F6EFA33F8FBE0}Prefabs/Structures/Walls/Wooden/WoodenFence_01/WoodenFence_01_4m.et" {
+ {
+  coords 6168.362 0 1365.34
+  angles 0 -91.752 0
+ }
+ {
+  coords 6168.23 0 1369.247
+  angles 0 -91.752 0
+ }
+ {
+  coords 6168.167 0 1373.117
+  angles 0 -91.752 0
+ }
+ {
+  coords 6168.164 0 1378.85
+  angles 0 1.04 0
+ }
+ {
+  coords 6172.103 0 1378.708
+  angles 0 -0.301 0
+ }
+ {
+  coords 6168.328 0 1365.456
+  angles 0 1.04 0
+ }
+}
 GenericEntity : "{4AA0C3752EC8B40F}Prefabs/Props/Dst/PileOfPalettes.et" {
  coords 6093.911 40 1368.369
  angles 0 0 0
@@ -69351,6 +70845,14 @@ GameEntity : "{50E6A3845C9F20FD}Prefabs/Props/Military/Camps/LanternMilitary_US_
  }
  coords 5366.644 29.211 2057.858
 }
+$grp GenericEntity : "{5139480972F28E1C}Prefabs/Props/VehicleParts/Tires/Tire_Ural4320_pile.et" {
+ {
+  coords 6158.69 40 1414.77
+ }
+ {
+  coords 6155.643 40 1416.627
+ }
+}
 $grp GenericEntity : "{51B08BDA20AF8FF7}Prefabs/Props/Industrial/Pallets/WoodenPalletBox_01.et" {
  {
   editor EntityEditorProps "{6A650A8D915AA765}" {
@@ -69395,12 +70897,18 @@ GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRad
  coords 5139.313 29.162 1212.917
  angles 0 85.767 0
 }
-GenericEntity : "{52C98B37CA6F1306}Prefabs/Compositions/Misc/SubCompositions/Tire_M15A2_pile_01.et" {
- editor EntityEditorProps "{6A650A8D915AA765}" {
-  Color 1 0 0 1
+$grp GenericEntity : "{52C98B37CA6F1306}Prefabs/Compositions/Misc/SubCompositions/Tire_M15A2_pile_01.et" {
+ {
+  editor EntityEditorProps "{6A650A8D915AA765}" {
+   Color 1 0 0 1
+  }
+  coords 5436.202 20 1828.362
+  angles 0 -52.256 0
  }
- coords 5436.202 20 1828.362
- angles 0 -52.256 0
+ {
+  coords 6152.138 40 1413.116
+  angles 0 53.083 0
+ }
 }
 $grp GenericEntity : "{52D00BCAC3D201B9}Prefabs/Compositions/Misc/SubCompositions/Furniture/Chair_Garbage_US_01.et" {
  {
@@ -69762,7 +71270,7 @@ GenericEntity : "{53F234352E02228D}Prefabs/LOOT_BOX/base/backpacks/Loot_random_b
  coords 4057.736 30.906 847.227
 }
 GenericEntity armst_photo_girls_6_6A6542849E1FE4F4 : "{543F74FED8E8D707}Prefabs/Items/Others/photos/girls/armst_photo_girls_6.et" {
- coords 6174.163 40.781 1349.499
+ coords 6174.203 40.781 1342.022
  angles 0 66.292 0
 }
 StaticModelEntity : "{54B7A458FFFD01AF}Prefabs/Structures/Industrial/Houses/BoilerHouse_E_02/Dst/BoilerHouse_E_02_SmokeStack_Ruin.et" {
@@ -69776,6 +71284,9 @@ GenericEntity armst_quest_map_UDARNIK_6A60E5A6FDF040E1 : "{554C51B8EE79D927}Pref
   Color 1 0 0 1
  }
  coords 5367.149 29.211 2057.211
+}
+Tree : "{55BD07481C975FB8}Prefabs/Vegetation/Tree/t_prunus_domestica/t_prunus_domestica_2s_aut.et" {
+ coords 6182.084 0 1345.39
 }
 $grp SCR_DestructibleEntity : "{55D50B2F067B3FD2}Prefabs/Props/Decorations/Flowerpots/FlowerpotStreet_01/FlowerpotStreet_01_octa_begonia_base.et" {
  {
@@ -70069,7 +71580,7 @@ $grp Tree : "{5813D69492B979A3}Prefabs/Vegetation/Bush/b_corylus_avellana_2_aut.
   coords 6140.444 0 1350.055
  }
  {
-  coords 6082.627 -0 1366.831
+  coords 6082.627 0 1366.831
  }
  {
   coords 6079.303 0 1371.457
@@ -70078,10 +71589,10 @@ $grp Tree : "{5813D69492B979A3}Prefabs/Vegetation/Bush/b_corylus_avellana_2_aut.
   coords 6084.624 0 1373.426
  }
  {
-  coords 6102.772 -0 1401.358
+  coords 6102.772 0 1401.358
  }
  {
-  coords 6084.666 -0 1398.603
+  coords 6084.666 0 1398.603
  }
 }
 $grp GenericEntity : "{58F0C4BE4655101A}Prefabs/Compositions/Misc/SubCompositions/VehicleGarbage_TireStack_02.et" {
@@ -70172,6 +71683,17 @@ $grp SCR_DestructibleEntity : "{595F29E55480E432}PrefabLibrary/DefaultLibrary/Wa
  {
   coords 6079.318 0 1279.912
   angles 0 -90.11 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{5987E1DF837BA755}Prefabs/Vehicles/btr70/armst_btr70.et" {
+ coords 5028.979 20 1532.814
+ angles 0 150.241 0
+ {
+  GenericEntity {
+   ID "65DE9B8E953C4386"
+   coords -0.03 0.025 1.003
+   angles 0 54.554 0
+  }
  }
 }
 $grp Tree : "{598D3D0E711E8082}Prefabs/Vegetation/Tree/t_pinus_sylvestris/T_Pinus_sylvestris_02_0c.et" {
@@ -70345,7 +71867,7 @@ $grp Tree : "{59EDDDB5D3B5241F}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_p
   editor EntityEditorProps "{6A650A8D915AA765}" {
    Color 1 0 0 1
   }
-  coords 6068.681 -0 1284.901
+  coords 6068.681 0 1284.901
   angles -0.374 62.558 -1.237
   scale 0.917
  }
@@ -70353,7 +71875,7 @@ $grp Tree : "{59EDDDB5D3B5241F}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_p
   editor EntityEditorProps "{6A650A8D915AA765}" {
    Color 1 0 0 1
   }
-  coords 6070.235 -0 1278.825
+  coords 6070.235 0 1278.825
   angles -0.374 62.558 -1.237
   scale 0.917
  }
@@ -70361,12 +71883,12 @@ $grp Tree : "{59EDDDB5D3B5241F}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_p
   editor EntityEditorProps "{6A650A8D915AA765}" {
    Color 1 0 0 1
   }
-  coords 6073.668 -0 1298.277
+  coords 6073.668 0 1298.277
   angles -0.374 62.558 -1.237
   scale 0.917
  }
  {
-  coords 6051.045 -0 1409.184
+  coords 6051.045 0 1409.184
   angles -1.867 7.987 0.978
   scale 0.973
  }
@@ -70381,7 +71903,7 @@ $grp Tree : "{59EDDDB5D3B5241F}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_p
   scale 0.973
  }
  {
-  coords 6063.667 -0 1426.795
+  coords 6063.667 0 1426.795
   angles -1.867 7.987 0.978
   scale 0.973
  }
@@ -70437,6 +71959,13 @@ $grp GenericEntity : "{5BAA975FE04E94EF}Prefabs/Props/Civilian/BenchStreet/Stree
   }
   coords 5061.112 20 637.869
  }
+ {
+  coords 6165.077 40 1328.005
+ }
+ {
+  coords 6163.553 40 1329.399
+  angles 0 89.684 0
+ }
 }
 $grp GenericEntity : "{5CA44F8D9F7491ED}Prefabs/Props/VehicleParts/Tires/Tire_M151A2_pile.et" {
  {
@@ -70450,6 +71979,9 @@ $grp GenericEntity : "{5CA44F8D9F7491ED}Prefabs/Props/VehicleParts/Tires/Tire_M1
    Color 1 0 0 1
   }
   coords 5431.343 20 1828.274
+ }
+ {
+  coords 6152.433 40 1414.28
  }
 }
 SCR_DestructibleBuildingEntity : "{5CC8525A69118B0C}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_01/FuelTank_01_orange.et" {
@@ -70629,6 +72161,9 @@ $grp GenericEntity : "{5EA2C74A7E5292F4}Prefabs/Props/Construction/PlankPile/Pla
   angles 0 -88.275 0
  }
 }
+SCR_TreeDebrisSmallEntity : "{5F39D5D9001D0740}Prefabs/Vegetation/Bush/Dst/b_juniperus_communis/b_juniperus_communis_1s_top01.et" {
+ coords 6082.148 40 1370.107
+}
 SCR_DestructibleBuildingEntity : "{5F86D1E7E1FA3017}Prefabs/Structures/Military/Houses/ClubMilitary_01/ClubMilitary_USSR_01_gray.et" {
  editor EntityEditorProps "{6A650A8D915AA765}" {
   Color 1 0 0 1
@@ -70636,98 +72171,11 @@ SCR_DestructibleBuildingEntity : "{5F86D1E7E1FA3017}Prefabs/Structures/Military/
  coords 5854.156 0 1542.212
  angles 0 92.818 0
 }
-$grp DecalEntity : "{5FAD1251EE2EE11C}Prefabs/Decals/Blood/BloodStain_Large_01.et" {
- {
-  coords 6176.993 0.133 1348.96
-  angles -90 -180 -180
-  scale 0.1
-  Mat "{3F2A55582832AE59}Assets/Decals/Blood/Data/BloodStain_Large_01White.emat"
- }
- {
-  coords 6176.247 0.552 1348.145
-  angles -90 0 -61.167
-  scale 0.1
-  Mat "{3F2A55582832AE59}Assets/Decals/Blood/Data/BloodStain_Large_01White.emat"
- }
- {
-  coords 6175.84 0.516 1347.891
-  angles -90 -180 -180
-  scale 0.1
-  Mat "{3F2A55582832AE59}Assets/Decals/Blood/Data/BloodStain_Large_01White.emat"
- }
- {
-  coords 6175.139 0.133 1348.347
-  angles -90 -180 -180
-  scale 0.1
-  Mat "{3F2A55582832AE59}Assets/Decals/Blood/Data/BloodStain_Large_01White.emat"
- }
- {
-  coords 6174.87 0.52 1348.108
-  angles -90 -180 -180
-  scale 0.1
-  Mat "{3F2A55582832AE59}Assets/Decals/Blood/Data/BloodStain_Large_01White.emat"
- }
- {
-  coords 6175.686 0.517 1348.11
-  angles -90 -180 -180
-  scale 0.1
-  Mat "{3F2A55582832AE59}Assets/Decals/Blood/Data/BloodStain_Large_01White.emat"
-  {
-   DecalEntity {
-    ID "68DC4814A813F1D8"
-    coords 0 0 0
-    angles -0.994 0 0
-   }
-  }
- }
- {
-  coords 6174.499 0.605 1349.087
-  angles -90 -180 -180
-  scale 0.1
-  Mat "{3F2A55582832AE59}Assets/Decals/Blood/Data/BloodStain_Large_01White.emat"
- }
- {
-  coords 6174.548 0.606 1349.012
-  angles -90 -180 -180
-  scale 0.1
-  Mat "{3F2A55582832AE59}Assets/Decals/Blood/Data/BloodStain_Large_01White.emat"
- }
- {
-  coords 6174.457 0.606 1349.182
-  angles -90 -180 -180
-  scale 0.1
-  Mat "{3F2A55582832AE59}Assets/Decals/Blood/Data/BloodStain_Large_01White.emat"
- }
- {
-  coords 6174.529 0.605 1349.147
-  angles -90 0 -68.718
-  scale 0.1
-  Mat "{3F2A55582832AE59}Assets/Decals/Blood/Data/BloodStain_Large_01White.emat"
- }
- {
-  coords 6174.558 0.602 1349.059
-  angles -90 -180 -180
-  scale 0.1
-  Mat "{3F2A55582832AE59}Assets/Decals/Blood/Data/BloodStain_Large_01White.emat"
- }
- {
-  coords 6174.426 0.598 1349.121
-  angles -90 0 -82.112
-  scale 0.1
-  Mat "{3F2A55582832AE59}Assets/Decals/Blood/Data/BloodStain_Large_01White.emat"
- }
- {
-  coords 6174.482 0.596 1349.014
-  angles -90 0 -72.841
-  scale 0.1
-  Mat "{3F2A55582832AE59}Assets/Decals/Blood/Data/BloodStain_Large_01White.emat"
- }
- {
-  coords 6174.449 0.606 1349.243
-  angles -90 0 -53.765
-  scale 0.1
-  Mat "{3F2A55582832AE59}Assets/Decals/Blood/Data/BloodStain_Large_01White.emat"
- }
+DecalEntity : "{5FAD1251EE2EE11C}Prefabs/Decals/Blood/BloodStain_Large_01.et" {
+ coords 6175.88 0.516 1340.414
+ angles -90 -180 -180
+ scale 0.1
+ Mat "{3F2A55582832AE59}Assets/Decals/Blood/Data/BloodStain_Large_01White.emat"
 }
 $grp GenericEntity : "{60DE3D0B58E8C7A0}Prefabs/Compositions/Misc/SubCompositions/BarbedCoil_Cluttered_USSR_02.et" {
  {
@@ -70756,8 +72204,12 @@ GenericEntity : "{61B6A6533C10BF81}Prefabs/posters/Poster_20.et" {
  coords 5171.34 21.367 2345.059
  angles 0 -90.744 0
 }
+GenericEntity : "{620B107C6C933E4E}Prefabs/Vehicles/gaz53/armst_gaz53_box_open.et" {
+ coords 5027.376 20.22 1471.969
+ angles 0 -166.434 0
+}
 GenericEntity : "{62482F79CF1B97FD}Prefabs/Structures/BuildingParts/Lights/LampIndustrial_01.et" {
- coords 6175.599 43.733 1347.919
+ coords 6175.494 43.746 1340.444
  angles -22.042 0 0
 }
 $grp Tree : "{62F83A9D7FC42B7A}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_pinus_sylvestris_0f.et" {
@@ -70886,6 +72338,10 @@ $grp SCR_DestructibleBuildingEntity : "{66135282F7D9B491}Prefabs/Vehicles/azlk41
   }
   coords 4706.562 4.969 1685.84
   angles 0 22.621 0
+ }
+ {
+  coords 5023.399 20 1529.689
+  angles 0 -149.927 0
  }
 }
 SCR_DestructibleBuildingEntity : "{66178E314C6F98D4}Prefabs/Structures/Ruins/House_Ruin_1I01/House_Ruin_1I01_V3_Brick.et" {
@@ -71031,15 +72487,21 @@ $grp GenericEntity : "{6929659CE9375CAF}Prefabs/Props/Garbage/Tires/TireTractor_
  }
 }
 GenericEntity armst_itm_money_50rub_6A654285C98B0810 : "{69F7DB51E2DFCEE4}Prefabs/Items/Moneys/armst_itm_money_50rub.et" {
- coords 6174.834 40.518 1347.682
+ coords 6174.874 40.518 1340.205
  angles 0 -83.82 0
 }
-GenericEntity : "{6A464C02FC40FBF3}Prefabs/Compositions/Misc/SubCompositions/Tire_UAZ469_Cluttered_USSR_01.et" {
- editor EntityEditorProps "{6A650A8D915AA765}" {
-  Color 1 0 0 1
+$grp GenericEntity : "{6A464C02FC40FBF3}Prefabs/Compositions/Misc/SubCompositions/Tire_UAZ469_Cluttered_USSR_01.et" {
+ {
+  editor EntityEditorProps "{6A650A8D915AA765}" {
+   Color 1 0 0 1
+  }
+  coords 5435.298 20 1830.215
+  angles 0 144.16 0
  }
- coords 5435.298 20 1830.215
- angles 0 144.16 0
+ {
+  coords 6163.272 40 1415.391
+  angles 0 115.134 0
+ }
 }
 Building : "{6A76646345FF655F}Prefabs/Structures/Bunkers/Concrete_Bunker.et" {
  editor EntityEditorProps "{6A650A8D915AA765}" {
@@ -71424,6 +72886,18 @@ $grp GenericEntity : "{72E42BEAFED9B5A7}Prefabs/Props/Garbage/Bins/GarbageContai
   coords 5395.839 20 1374.79
   angles 0 66.255 0
  }
+ {
+  coords 6088.626 40 1345.522
+  angles 0 2.081 0
+ }
+ {
+  coords 6086.753 40 1345.586
+  angles 0 -7.457 0
+ }
+ {
+  coords 6084.342 40 1345.631
+  angles 0 43.827 0
+ }
 }
 $grp GenericEntity : "{73314E7C8FFC5B1C}Prefabs/Vehicles/gaz24/armst_gaz24_1_wreck.et" {
  {
@@ -71540,6 +73014,9 @@ $grp GenericEntity : "{757FCCE8E756175C}Prefabs/Props/Furniture/MeetingTable_01.
   coords 4057.947 30 847.617
   angles 0 -90.253 0
  }
+}
+SCR_DestructibleEntity : "{75A23C4107EC4C7E}Prefabs/Props/Decorations/Flowerpots/FlowerpotFlowers_01/FlowerpotFlowers_01_begonia_base.et" {
+ coords 6175.676 41.309 1367.641
 }
 GenericEntity : "{75FEF1CA582431F3}Prefabs/Props/Wrecks/BTR70_Wreck/BTR70_wreck.et" {
  editor EntityEditorProps "{6A650A8D915AA765}" {
@@ -72673,7 +74150,7 @@ $grp GenericEntity : "{7DDB06998BAEAC12}Prefabs/deads/skeleton/dead_skeleton_7.e
   angles 0 -30.787 0
  }
  {
-  coords 6174.016 40.646 1348.987
+  coords 6174.056 40.646 1341.51
   angles 10.01 -139.177 14.097
  }
 }
@@ -73105,6 +74582,9 @@ SCR_DestructibleBuildingEntity : "{838F1E7BFB3C23FA}Prefabs/Vehicles/azlk412/arm
  coords 5128.705 20 1193.963
  angles 0 11.028 0
 }
+SCR_DestructibleEntity : "{8393B4106B8D45A0}Prefabs/Props/Decorations/Flowerpots/FlowerpotFlowers_01/FlowerpotFlowers_01_begonia_red.et" {
+ coords 6175.651 41.313 1367.272
+}
 $grp Tree : "{839E9535771BA366}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_sambucus_nigra_0.et" {
  {
   editor EntityEditorProps "{6A650A8D915AA765}" {
@@ -73245,6 +74725,10 @@ SCR_DestructibleBuildingEntity : "{8590602F727399F4}Prefabs/Structures/Houses/Sh
 }
 StaticModelEntity : "{85C71F17C37D274C}Prefabs/Structures/BuildingParts/Entry/Entry_Block_Platform_01_3x6.et" {
  coords 6120.069 40.576 1340.701
+}
+GenericEntity : "{85C8E30402BF24D5}Prefabs/Compositions/Misc/SubCompositions/Tire_Ural4320_pile_01.et" {
+ coords 6157.274 40 1414.609
+ angles 0 -66.673 0
 }
 $grp Tree : "{86362DC3431FE663}PrefabLibrary/CainLibrary/Vegetation/Trees/t_betula_pendula_1f_aut.et" {
  {
@@ -73610,6 +75094,35 @@ GenericEntity : "{8FE6D62204173657}Prefabs/Props/Civilian/BeerBottle_01_group.et
   Color 1 0 0 1
  }
  coords 5049.508 20.597 1708.061
+}
+$grp Tree : "{905290F53779597F}Prefabs/Vegetation/Bush/Betula_Nana/b_betula_nana_1.et" {
+ {
+  coords 6082.224 0 1387.713
+ }
+ {
+  coords 6080.615 0 1387.457
+ }
+ {
+  coords 6078.603 -0 1387.45
+ }
+ {
+  coords 6082.38 0 1389.847
+ }
+ {
+  coords 6078.758 0 1389.585
+ }
+ {
+  coords 6080.771 0 1389.591
+ }
+ {
+  coords 6082.692 0 1392.337
+ }
+ {
+  coords 6079.071 0 1392.074
+ }
+ {
+  coords 6081.083 0 1392.081
+ }
 }
 $grp SCR_DestructibleEntity : "{912685DBC23044A4}Prefabs/Structures/Walls/Brick/BrickWallOld_01/BrickWallOld_01_old_8m_B.et" {
  {
@@ -74139,6 +75652,51 @@ $grp StaticModelEntity : "{98AF8550D18D2507}Prefabs/Structures/Military/Antennas
   coords 5901.351 0 1610.244
  }
 }
+$grp Tree : "{98C05A60EE82FC61}Prefabs/Vegetation/Tree/t_sorbus_aucuparia/t_sorbus_aucuparia_1sw_aut.et" {
+ {
+  coords 6159.415 -0 1348.88
+ }
+ {
+  coords 6159.291 0 1346.364
+  angles 0 -56.72 0
+ }
+ {
+  coords 6160.425 -0 1344.588
+  angles 0 -19.884 0
+ }
+ {
+  coords 6167.959 0 1348.233
+  angles 0 -56.72 0
+ }
+ {
+  coords 6169.848 -0 1348.71
+  angles 0 -56.72 0
+ }
+ {
+  coords 6172.066 0 1348.958
+  angles 0 -56.72 0
+ }
+ {
+  coords 6174.79 0 1349.207
+  angles 0 -56.72 0
+ }
+ {
+  coords 6176.995 -0 1348.982
+  angles 0 -56.72 0
+ }
+ {
+  coords 6179.035 0 1348.999
+  angles 0 -56.72 0
+ }
+ {
+  coords 6181.47 -0 1348.856
+  angles 0 -56.72 0
+ }
+ {
+  coords 6183.677 0 1349.091
+  angles 0 -56.72 0
+ }
+}
 GenericEntity : "{9966B0CF5BF6ED35}Prefabs/Vehicles/zaz968/base/BASE_zaz968_wreck.et" {
  editor EntityEditorProps "{6A650A8D915AA765}" {
   Color 1 0 0 1
@@ -74450,7 +76008,7 @@ $grp GenericEntity : "{9C3194D015F3ED74}Prefabs/Vehicles/kamaz/base/BASE_kamaz_w
  }
 }
 SCR_DestructibleBuildingEntity : "{9C392B711A527276}Prefabs/Structures/Military/Houses/GuardHouse_05/Guardhouse_USSR_05_cafe.et" {
- coords 6176.022 0 1337.633
+ coords 6176.062 0 1330.156
  angles 0 -90.872 0
  {
   GenericEntity {
@@ -74462,7 +76020,7 @@ SCR_DestructibleBuildingEntity : "{9C392B711A527276}Prefabs/Structures/Military/
     }
     GenericEntity {
      ID "65F06C083A1883BC"
-     coords 10.144 0.133 0.139
+     coords 10.145 0.133 0.139
     }
     GenericEntity {
      ID "65F06C083A177F00"
@@ -74946,6 +76504,222 @@ $grp GenericEntity : "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_
   coords 6048.581 40.197 1369.298
   angles 0 88.006 0
  }
+ {
+  coords 6185.224 39.84 1373.406
+  angles 0 -90.292 0
+ }
+ {
+  coords 6185.309 40.001 1375.451
+  angles 0 -92.244 0
+ }
+ {
+  coords 6185.213 40.03 1378.162
+  angles 0 -92.244 0
+ }
+ {
+  coords 6185.23 40.089 1380.878
+  angles 0 -90.292 0
+ }
+ {
+  coords 6185.302 39.752 1367.979
+  angles 0 -92.244 0
+ }
+ {
+  coords 6185.207 39.781 1370.69
+  angles 0 -92.244 0
+ }
+ {
+  coords 6185.183 39.964 1388.689
+  angles 0 -90.292 0
+ }
+ {
+  coords 6185.268 40.125 1390.734
+  angles 0 -92.244 0
+ }
+ {
+  coords 6185.172 40.154 1393.445
+  angles 0 -92.244 0
+ }
+ {
+  coords 6185.189 40.213 1396.161
+  angles 0 -90.292 0
+ }
+ {
+  coords 6185.261 39.876 1383.262
+  angles 0 -92.244 0
+ }
+ {
+  coords 6185.166 39.905 1385.973
+  angles 0 -92.244 0
+ }
+ {
+  coords 6185.036 40.141 1403.842
+  angles 0 -90.292 0
+ }
+ {
+  coords 6185.121 40.302 1405.887
+  angles 0 -92.244 0
+ }
+ {
+  coords 6185.026 40.331 1408.598
+  angles 0 -92.244 0
+ }
+ {
+  coords 6185.042 40.39 1411.314
+  angles 0 -90.292 0
+ }
+ {
+  coords 6185.114 40.053 1398.415
+  angles 0 -92.244 0
+ }
+ {
+  coords 6185.02 40.082 1401.126
+  angles 0 -92.244 0
+ }
+ {
+  coords 6185.368 39.947 1358.212
+  angles 0 -90.292 0
+ }
+ {
+  coords 6185.453 40.108 1360.256
+  angles 0 -92.244 0
+ }
+ {
+  coords 6185.354 40.137 1362.967
+  angles 0 -92.244 0
+ }
+ {
+  coords 6185.374 40.196 1365.685
+  angles 0 -90.292 0
+ }
+ {
+  coords 6185.443 39.859 1352.785
+  angles 0 -92.244 0
+ }
+ {
+  coords 6185.351 39.888 1355.495
+  angles 0 -92.244 0
+ }
+ {
+  coords 6185.545 39.684 1342.455
+  angles 0 -90.292 0
+ }
+ {
+  coords 6185.63 39.845 1344.501
+  angles 0 -92.244 0
+ }
+ {
+  coords 6185.533 39.874 1347.211
+  angles 0 -92.244 0
+ }
+ {
+  coords 6185.55 39.933 1349.928
+  angles 0 -90.292 0
+ }
+ {
+  coords 6185.622 39.596 1337.028
+  angles 0 -92.244 0
+ }
+ {
+  coords 6185.527 39.625 1339.739
+  angles 0 -92.244 0
+ }
+ {
+  coords 6185.721 39.84 1327.082
+  angles 0 -90.292 0
+ }
+ {
+  coords 6185.806 40.001 1329.127
+  angles 0 -92.244 0
+ }
+ {
+  coords 6185.709 40.03 1331.838
+  angles 0 -92.244 0
+ }
+ {
+  coords 6185.727 40.089 1334.554
+  angles 0 -90.292 0
+ }
+ {
+  coords 6185.798 39.752 1321.655
+  angles 0 -92.244 0
+ }
+ {
+  coords 6185.704 39.781 1324.366
+  angles 0 -92.244 0
+ }
+ {
+  coords 6185.876 39.84 1311.866
+  angles 0 -90.292 0
+ }
+ {
+  coords 6185.961 40.001 1313.911
+  angles 0 -92.244 0
+ }
+ {
+  coords 6185.865 40.03 1316.622
+  angles 0 -92.244 0
+ }
+ {
+  coords 6185.882 40.089 1319.339
+  angles 0 -90.292 0
+ }
+ {
+  coords 6185.954 39.752 1306.439
+  angles 0 -92.244 0
+ }
+ {
+  coords 6185.859 39.781 1309.15
+  angles 0 -92.244 0
+ }
+ {
+  coords 6186.575 39.84 1295.982
+  angles 0 -90.292 0
+ }
+ {
+  coords 6186.66 40.001 1298.027
+  angles 0 -92.244 0
+ }
+ {
+  coords 6186.564 40.03 1300.738
+  angles 0 -92.244 0
+ }
+ {
+  coords 6186.581 40.089 1303.454
+  angles 0 -90.292 0
+ }
+ {
+  coords 6186.653 39.752 1290.555
+  angles 0 -92.244 0
+ }
+ {
+  coords 6186.558 39.781 1293.266
+  angles 0 -92.244 0
+ }
+ {
+  coords 6186.863 39.71 1280.655
+  angles 0 -90.292 0
+ }
+ {
+  coords 6186.948 39.871 1282.7
+  angles 0 -92.244 0
+ }
+ {
+  coords 6186.852 39.9 1285.411
+  angles 0 -92.244 0
+ }
+ {
+  coords 6186.869 39.959 1288.127
+  angles 0 -90.292 0
+ }
+ {
+  coords 6186.941 39.622 1275.228
+  angles 0 -92.244 0
+ }
+ {
+  coords 6186.846 39.651 1277.939
+  angles 0 -92.244 0
+ }
 }
 SCR_DestructibleBuildingEntity : "{9CB78575EDE724C9}Prefabs/Structures/Recreation/Gym_02/Gym_E_02.et" {
  editor EntityEditorProps "{6A650A8D915AA765}" {
@@ -74983,7 +76757,7 @@ $grp Tree : "{9D6B4E946D1074EA}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_p
   editor EntityEditorProps "{6A650A8D915AA765}" {
    Color 1 0 0 1
   }
-  coords 6053.951 -0 1286.531
+  coords 6053.951 0 1286.531
   angles 0.842 -140.124 -1.978
   scale 1.068
  }
@@ -75031,7 +76805,7 @@ $grp Tree : "{9D6B4E946D1074EA}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_p
   editor EntityEditorProps "{6A650A8D915AA765}" {
    Color 1 0 0 1
   }
-  coords 6077.61 -0 1283.291
+  coords 6077.61 0 1283.291
   angles 0.842 -140.124 -1.978
   scale 1.068
  }
@@ -75047,7 +76821,7 @@ $grp Tree : "{9D6B4E946D1074EA}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_p
   editor EntityEditorProps "{6A650A8D915AA765}" {
    Color 1 0 0 1
   }
-  coords 6059.537 -0 1282.039
+  coords 6059.537 0 1282.039
   angles 0.842 -140.124 -1.978
   scale 1.068
  }
@@ -75055,7 +76829,7 @@ $grp Tree : "{9D6B4E946D1074EA}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_p
   editor EntityEditorProps "{6A650A8D915AA765}" {
    Color 1 0 0 1
   }
-  coords 6053.697 -0 1292.283
+  coords 6053.697 0 1292.283
   angles 0.842 -140.124 -1.978
   scale 1.068
  }
@@ -75071,7 +76845,7 @@ $grp Tree : "{9D6B4E946D1074EA}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_p
   editor EntityEditorProps "{6A650A8D915AA765}" {
    Color 1 0 0 1
   }
-  coords 6103.861 -0 1345.18
+  coords 6103.861 0 1345.18
   angles 0.842 -140.124 -1.978
   scale 1.068
  }
@@ -75087,7 +76861,7 @@ $grp Tree : "{9D6B4E946D1074EA}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_p
   editor EntityEditorProps "{6A650A8D915AA765}" {
    Color 1 0 0 1
   }
-  coords 6061.737 -0 1403.241
+  coords 6061.737 0 1403.241
   angles 0.842 -140.124 -1.978
   scale 1.068
  }
@@ -75095,7 +76869,7 @@ $grp Tree : "{9D6B4E946D1074EA}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_p
   editor EntityEditorProps "{6A650A8D915AA765}" {
    Color 1 0 0 1
   }
-  coords 6052.459 -0 1403.972
+  coords 6052.459 0 1403.972
   angles 0.842 -140.124 -1.978
   scale 1.068
  }
@@ -75103,7 +76877,7 @@ $grp Tree : "{9D6B4E946D1074EA}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_p
   editor EntityEditorProps "{6A650A8D915AA765}" {
    Color 1 0 0 1
   }
-  coords 6053.708 -0 1396.305
+  coords 6053.708 0 1396.305
   angles 0.842 -140.124 -1.978
   scale 1.068
  }
@@ -75135,7 +76909,7 @@ $grp Tree : "{9D6B4E946D1074EA}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_p
   editor EntityEditorProps "{6A650A8D915AA765}" {
    Color 1 0 0 1
   }
-  coords 6068.881 -0 1430.934
+  coords 6068.881 0 1430.934
   angles 0.842 -140.124 -1.978
   scale 1.068
  }
@@ -75191,7 +76965,7 @@ $grp Tree : "{9D6B4E946D1074EA}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_p
   editor EntityEditorProps "{6A650A8D915AA765}" {
    Color 1 0 0 1
   }
-  coords 6072.452 -0 1404.309
+  coords 6072.452 0 1404.309
   angles 0.842 -140.124 -1.978
   scale 1.068
  }
@@ -75202,6 +76976,18 @@ SCR_DestructibleBuildingEntity : "{9E1B1AE1CA7EF4E8}Prefabs/Structures/Military/
  }
  coords 5183.739 0 2330.817
  angles 0 -90.742 0
+}
+$grp Tree : "{9E4D1DEA0CD6735C}Prefabs/Vegetation/Bush/b_salix_cinerea_1_aut.et" {
+ {
+  coords 6162.015 0 1324.348
+ }
+ {
+  coords 6159.896 0 1328.987
+  angles 0 93.73 0
+ }
+}
+SCR_DestructibleEntity : "{9E939BD958DD48D1}Prefabs/Props/Decorations/Flowerpots/FlowerpotFlowers_01/FlowerpotFlowers_01_begonia_white.et" {
+ coords 6175.667 41.313 1368.127
 }
 SCR_DestructibleBuildingEntity : "{9EB89ABD6874D576}Prefabs/Structures/Military/HangarShed1.et" {
  coords 6069.98 0 1416.672
@@ -75239,11 +77025,16 @@ $grp StaticModelEntity : "{9F5263F5269DBE17}Prefabs/Vegetation/Tree/Debris/Falle
   coords 5874.444 20 1585.875
  }
 }
-GenericEntity : "{A00729CC0E1EE305}Prefabs/Props/VehicleParts/Tires/Tire_M998_pile.et" {
- editor EntityEditorProps "{6A650A8D915AA765}" {
-  Color 1 0 0 1
+$grp GenericEntity : "{A00729CC0E1EE305}Prefabs/Props/VehicleParts/Tires/Tire_M998_pile.et" {
+ {
+  editor EntityEditorProps "{6A650A8D915AA765}" {
+   Color 1 0 0 1
+  }
+  coords 5462.021 20 1843.732
  }
- coords 5462.021 20 1843.732
+ {
+  coords 6153.919 40 1414.593
+ }
 }
 Vehicle UAZ452_ambulance_USSR_VAI1 : "{A0B58E7DDF51D486}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance_USSR_VAI.et" {
  editor EntityEditorProps "{6A650A8D915AA765}" {
@@ -75892,6 +77683,20 @@ GenericEntity : "{A446CB3C732A360D}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01
  }
  coords 5131.03 20 1198.19
 }
+$grp GenericEntity : "{A46F8469F129E154}Prefabs/Props/Military/CargoContainers/CargoContainer_01_military_base.et" {
+ {
+  coords 6152.9 40 1382.684
+  angles 0 -91.268 0
+ }
+ {
+  coords 6152.95 40 1385.692
+  angles 0 -89.328 0
+ }
+ {
+  coords 6153.13 40 1390.004
+  angles 0 -89.328 0
+ }
+}
 GenericEntity : "{A528F04F41F2A2D0}Prefabs/Structures/Military/Radar/ApproachRadar_RPL5_01/ApproachRadar_RPL5_01_on.et" {
  editor EntityEditorProps "{6A650A8D915AA765}" {
   Color 1 0 0 1
@@ -76049,7 +77854,7 @@ $grp Tree : "{A9244B4DBAFA7305}Prefabs/Vegetation/Bush/b_corylus_avellana_1l_aut
   angles 0 87.615 0
  }
  {
-  coords 6098.077 -0 1396.649
+  coords 6098.077 0 1396.649
   angles 0 74.353 0
  }
  {
@@ -76641,6 +78446,330 @@ $grp Tree : "{AED5759B653DF6D0}Prefabs/Vegetation/Bush/b_rosa_canina_1s.et" {
   coords 6046.276 0.016 1366.198
   angles 0 90.102 15.23
  }
+ {
+  components {
+   Hierarchy "{54C6C205DDF36ADD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.52 -0.602 1376.144
+  angles 0 -90.148 -27.404
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDF36ADD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.532 -0.248 1378.893
+  angles 0 -90.148 15.23
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDF36ADD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.526 -0.496 1371.194
+  angles 0 -90.148 15.23
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDF36ADD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.514 -0.851 1368.445
+  angles 0 -90.148 -27.404
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDF36ADD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.479 -0.478 1391.427
+  angles 0 -90.148 -27.404
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDF36ADD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.491 -0.124 1394.176
+  angles 0 -90.148 15.23
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDF36ADD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.485 -0.372 1386.477
+  angles 0 -90.148 15.23
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDF36ADD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.473 -0.727 1383.728
+  angles 0 -90.148 -27.404
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDF36ADD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.333 -0.301 1406.58
+  angles 0 -90.148 -27.404
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDF36ADD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.344 0.053 1409.329
+  angles 0 -90.148 15.23
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDF36ADD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.339 -0.195 1401.63
+  angles 0 -90.148 15.23
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDF36ADD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.326 -0.55 1398.881
+  angles 0 -90.148 -27.404
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDF36ADD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.664 -0.495 1360.949
+  angles 0 -90.148 -27.404
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDF36ADD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.675 -0.537 1363.59
+  angles 0 -90.148 15.23
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDF36ADD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.667 -0.389 1355.999
+  angles 0 -90.148 15.23
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDF36ADD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.657 -0.744 1353.25
+  angles 0 -90.148 -27.404
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDF36ADD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.84 -0.758 1345.194
+  angles 0 -90.148 -27.404
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDF36ADD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.853 -0.404 1347.942
+  angles 0 -90.148 15.23
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDF36ADD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.846 -0.652 1340.243
+  angles 0 -90.148 15.23
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDF36ADD}" {
+    Enabled 1
+   }
+  }
+  coords 6187.835 -1.007 1337.494
+  angles 0 -90.148 -27.404
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDF36ADD}" {
+    Enabled 1
+   }
+  }
+  coords 6188.017 -0.602 1329.82
+  angles 0 -90.148 -27.404
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDF36ADD}" {
+    Enabled 1
+   }
+  }
+  coords 6188.029 -0.248 1332.569
+  angles 0 -90.148 15.23
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDF36ADD}" {
+    Enabled 1
+   }
+  }
+  coords 6188.022 -0.496 1324.87
+  angles 0 -90.148 15.23
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDF36ADD}" {
+    Enabled 1
+   }
+  }
+  coords 6188.011 -0.851 1322.121
+  angles 0 -90.148 -27.404
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDF36ADD}" {
+    Enabled 1
+   }
+  }
+  coords 6188.172 -0.602 1314.604
+  angles 0 -90.148 -27.404
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDF36ADD}" {
+    Enabled 1
+   }
+  }
+  coords 6188.185 -0.248 1317.353
+  angles 0 -90.148 15.23
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDF36ADD}" {
+    Enabled 1
+   }
+  }
+  coords 6188.178 -0.496 1309.654
+  angles 0 -90.148 15.23
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDF36ADD}" {
+    Enabled 1
+   }
+  }
+  coords 6188.167 -0.851 1306.905
+  angles 0 -90.148 -27.404
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDF36ADD}" {
+    Enabled 1
+   }
+  }
+  coords 6188.871 -0.622 1298.72
+  angles 0 -90.148 -27.404
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDF36ADD}" {
+    Enabled 1
+   }
+  }
+  coords 6188.883 -0.256 1301.469
+  angles 0 -90.148 15.23
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDF36ADD}" {
+    Enabled 1
+   }
+  }
+  coords 6188.877 -0.614 1293.77
+  angles 0 -90.148 15.23
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDF36ADD}" {
+    Enabled 1
+   }
+  }
+  coords 6188.865 -1.08 1291.021
+  angles 0 -90.148 -27.404
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDF36ADD}" {
+    Enabled 1
+   }
+  }
+  coords 6189.159 -1.694 1283.393
+  angles 0 -90.148 -27.404
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDF36ADD}" {
+    Enabled 1
+   }
+  }
+  coords 6189.171 -0.983 1286.142
+  angles 0 -90.148 15.23
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDF36ADD}" {
+    Enabled 1
+   }
+  }
+  coords 6189.165 -2.477 1278.443
+  angles 0 -90.148 15.23
+ }
+ {
+  components {
+   Hierarchy "{54C6C205DDF36ADD}" {
+    Enabled 1
+   }
+  }
+  coords 6189.153 -3.46 1275.694
+  angles 0 -90.148 -27.404
+ }
 }
 $grp Tree : "{AF4BFBE29028A9FD}Prefabs/Vegetation/Bush/b_corylus_avellana_1l.et" {
  {
@@ -76951,16 +79080,16 @@ $grp GenericEntity : "{B0BD5E6DAA08B808}Prefabs/Infrastructure/Railways/Railway 
 }
 $grp GenericEntity : "{B0E3BA85858671E2}Prefabs/Props/Ventilation/Misc/Concrete_Slab.et" {
  {
-  coords 6175.437 40.133 1349.151
+  coords 6175.884 40.133 1341.677
  }
  {
-  coords 6175.844 40.133 1349.154
+  coords 6175.479 40.133 1342.081
  }
  {
-  coords 6175.439 40.133 1349.558
+  coords 6175.886 40.133 1342.085
  }
  {
-  coords 6175.846 40.133 1349.562
+  coords 6175.475 40.133 1341.684
  }
 }
 SCR_DestructibleEntity : "{B104B81AAE94FEAC}Prefabs/Structures/Walls/Metal/MetalFenceDecorative_E_01/MetalFenceDecorative_E_01_Pole_Turquoise.et" {
@@ -77799,7 +79928,7 @@ $grp GenericEntity : "{B16A99A11BC72793}Prefabs/Props/VehicleParts/Tires/Tire_M9
  }
 }
 GenericEntity armst_photo_girls_7_6A654284810CB2C2 : "{B1A33807D40D406C}Prefabs/Items/Others/photos/girls/armst_photo_girls_7.et" {
- coords 6174.619 40.78 1348.634
+ coords 6174.659 40.78 1341.157
  angles 0 66.14 0
 }
 SCR_DestructibleBuildingEntity : "{B2172573ED15AA82}Prefabs/Structures/Houses/Village/House_Village_E_1L03/House_Village_E_1L03t.et" {
@@ -77917,6 +80046,16 @@ $grp GenericEntity : "{B4B80887017C9B6B}Prefabs/Structures/Signs/Large/SignLarge
   }
   coords 5236.76 20 2054.685
   angles 0 23.757 0
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{B502991E95F6B29C}Prefabs/Structures/Military/Houses/SmokingShed_USSR_01/SmokingShed_01_base.et" {
+ {
+  coords 6162.019 0 1347.496
+  angles 0 91.791 0
+ }
+ {
+  coords 6112.387 0 1294.278
+  angles 0 1.511 0
  }
 }
 GenericEntity : "{B50533A7926D56DD}Assets/Garbage/Prefabs/Garbage_Pizza_Box.et" {
@@ -78213,7 +80352,7 @@ $grp GenericEntity : "{B9003EF716A534D4}Prefabs/Structures/Infrastructure/Lamps/
   editor EntityEditorProps "{6A650A8D915AA765}" {
    Color 1 0 0 1
   }
-  coords 6086.682 -0 1348.075
+  coords 6086.682 0 1348.075
   angles 0 1.939 0
  }
  {
@@ -78234,7 +80373,7 @@ $grp GenericEntity : "{B9003EF716A534D4}Prefabs/Structures/Infrastructure/Lamps/
   editor EntityEditorProps "{6A650A8D915AA765}" {
    Color 1 0 0 1
   }
-  coords 6125.829 -0 1350.968
+  coords 6125.829 0 1350.968
   angles 0 1.939 0
  }
  {
@@ -78272,12 +80411,18 @@ SCR_DestructibleBuildingEntity : "{BA0B0AD4451810C1}Prefabs/Structures/Military/
  coords 4062.398 0 855.051
  angles 0 143.975 0
 }
+Tree : "{BA785041AC632123}Prefabs/Vegetation/Bush/b_salix_cinerea_1.et" {
+ coords 6156.372 -0 1344.765
+}
 GenericEntity : "{BAB1151298AA3917}Prefabs/Props/Industrial/BenchIndustrial_01/BenchIndustrial_01.et" {
  editor EntityEditorProps "{6A650A8D915AA765}" {
   Color 1 0 0 1
  }
  coords 5049.394 20.106 1707.373
  angles 0 -80.132 0
+}
+Tree : "{BBB72246A0D7B139}Prefabs/Vegetation/Bush/b_rubus_idaeus_1s_aut.et" {
+ coords 6156.577 0 1347.064
 }
 $grp GenericEntity : "{BBBC235B9B053092}Prefabs/Props/Furniture/Armchair_02.et" {
  {
@@ -78287,7 +80432,7 @@ $grp GenericEntity : "{BBBC235B9B053092}Prefabs/Props/Furniture/Armchair_02.et" 
   coords 5674.086 20.516 1178.143
  }
  {
-  coords 6174.121 40.133 1348.931
+  coords 6174.161 40.133 1341.454
   angles 0 62.341 0
  }
 }
@@ -78369,6 +80514,9 @@ $grp Tree : "{BE42E1814B854B8F}Prefabs/Vegetation/Bush/b_rubus_idaeus_0s_aut.et"
  }
  {
   coords 6128.094 0 1308.837
+ }
+ {
+  coords 6159.307 -0 1338.993
  }
 }
 GenericEntity : "{BE7B5BAFE1A16A50}Prefabs/Props/Military/Fortification/BarbedTape_Coil.et" {
@@ -78742,6 +80890,9 @@ $grp Tree : "{C44F51A81AC2B063}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_c
   scale 0.81
  }
 }
+Tree : "{C46F2709EDF643D4}Prefabs/Vegetation/Tree/t_tilia_cordata/t_tilia_cordata_3s.et" {
+ coords 6167.781 0 1304.238
+}
 $grp GenericEntity : "{C6AC285D7EF1471C}Prefabs/Items/Deployable/armst_itm_matress_deployed.et" {
  armst_itm_matress_deployed_6A5A9E0D05421A16 {
   editor EntityEditorProps "{6A650A8D915AA765}" {
@@ -78872,6 +81023,10 @@ Tree : "{C7F7B3047E951E4C}Prefabs/Vegetation/Plant/Hedera_Helix/p_hedera_helix_c
  coords 4060.804 3.574 841.494
  angles 0 0 -8.189
 }
+GenericEntity : "{C8684DCC4658226F}Prefabs/Props/Construction/ContainerMetal_01/ContainerMetal_01_grey.et" {
+ coords 6153.933 40 1410.445
+ angles 0 90.168 0
+}
 GenericEntity : "{C897856DA4B1EC5A}Prefabs/Props/Dst/WashingMachine.et" {
  editor EntityEditorProps "{6A650A8D915AA765}" {
   Color 1 0 0 1
@@ -79000,6 +81155,14 @@ SCR_DestructibleBuildingEntity : "{CAA7EB948ACA9E43}Prefabs/Structures/Construco
  }
  coords 5445.847 0 1811.332
  angles 0 -175.485 0
+}
+$grp GenericEntity : "{CAD13AC8DAFEB0E8}Prefabs/Props/Military/CargoContainers/CargoContainer_01_20ft_USSR_supplies.et" {
+ {
+  coords 6153.042 40 1398.711
+ }
+ {
+  coords 6152.761 40 1376.467
+ }
 }
 $grp GenericEntity : "{CB033C658E372CED}Prefabs/Props/Construction/PlankPile/PlankPile_01_Large.et" {
  {
@@ -79162,12 +81325,17 @@ GenericEntity : "{CDFE5E4FE34C5777}Prefabs/Compositions/Misc/SubCompositions/Gar
  }
  coords 4727.687 4.969 1677.664
 }
-GenericEntity : "{CEA239D9E1899899}Prefabs/Props/Garbage/Tires/TirePile_01_small.et" {
- editor EntityEditorProps "{6A650A8D915AA765}" {
-  Color 1 0 0 1
+$grp GenericEntity : "{CEA239D9E1899899}Prefabs/Props/Garbage/Tires/TirePile_01_small.et" {
+ {
+  editor EntityEditorProps "{6A650A8D915AA765}" {
+   Color 1 0 0 1
+  }
+  coords 5430.563 20 1830.581
+  angles 0 87.454 0
  }
- coords 5430.563 20 1830.581
- angles 0 87.454 0
+ {
+  coords 6157.045 40 1417.344
+ }
 }
 $grp Tree : "{CF0A210B7AC7B329}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_2.et" {
  {
@@ -79315,6 +81483,9 @@ $grp Tree : "{CF0A210B7AC7B329}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_
   scale 0.805
  }
 }
+SCR_TreeDebrisSmallEntity : "{CF3A9180061299BC}Prefabs/Vegetation/Bush/Dst/b_juniperus_communis/b_juniperus_communis_1s_top04.et" {
+ coords 6089.787 40 1395.47
+}
 SCR_DestructibleBuildingEntity : "{D03C2E0B62BE759F}Prefabs/Structures/Industrial/Barris_Tampado3.et" {
  coords 6096.213 0 1365.982
  angles 0 90.883 0
@@ -79337,6 +81508,41 @@ $grp SCR_DestructibleBuildingEntity : "{D0947E26A8A39ECF}Prefabs/Structures/Fore
  {
   coords 6052.893 0 1323.666
   angles 0 -90.487 0
+ }
+}
+$grp StaticModelEntity : "{D0D3CF8C1689E5A8}Prefabs/Infrastructure/Roads/Treepot.et" {
+ {
+  coords 6162.583 -0.333 1343.183
+ }
+ {
+  coords 6162.679 -0.378 1340.558
+ }
+ {
+  coords 6162.858 -0.388 1337.813
+ }
+ {
+  coords 6162.787 -0.379 1335.085
+ }
+ {
+  coords 6162.783 -0.368 1332.281
+ }
+ {
+  coords 6167.68 -0.295 1343.801
+ }
+ {
+  coords 6167.907 -0.341 1335.703
+ }
+ {
+  coords 6168.006 -0.33 1332.899
+ }
+ {
+  coords 6167.956 -0.35 1338.431
+ }
+ {
+  coords 6167.776 -0.34 1341.176
+ }
+ {
+  coords 6167.791 -0.395 1327.44
  }
 }
 GenericEntity : "{D140183BAC76540B}Prefabs/Structures/BuildingParts/Doors/Door_MetalGate_02_base.et" {
@@ -79747,28 +81953,28 @@ $grp SCR_DestructibleBuildingEntity : "{D653C28050494894}Prefabs/Structures/Mili
   coords 6081.363 0 1404.42
  }
  {
-  coords 6084.195 -0 1404.455
+  coords 6084.195 0 1404.455
  }
  {
   coords 6087.213 0 1404.384
  }
  {
-  coords 6090.097 -0 1404.409
+  coords 6090.097 0 1404.409
  }
  {
   coords 6095.885 0 1404.471
  }
  {
-  coords 6099.837 -0 1404.498
+  coords 6099.837 0 1404.498
  }
  {
-  coords 6103.327 -0 1404.412
+  coords 6103.327 0 1404.412
  }
  {
-  coords 6107.048 -0 1404.342
+  coords 6107.048 0 1404.342
  }
  {
-  coords 6110.986 -0 1404.391
+  coords 6110.986 0 1404.391
  }
  {
   coords 6114.642 0 1404.357
@@ -79787,7 +81993,7 @@ $grp SCR_DestructibleBuildingEntity : "{D653C28050494894}Prefabs/Structures/Mili
   angles 0 87.352 0
  }
  {
-  coords 6090.998 -0 1399.944
+  coords 6090.998 0 1399.944
   angles 0 87.352 0
  }
  {
@@ -79805,7 +82011,7 @@ $grp SCR_DestructibleBuildingEntity : "{D653C28050494894}Prefabs/Structures/Mili
   coords 6085.707 0 1393.426
  }
  {
-  coords 6084.114 -0 1391.716
+  coords 6084.114 0 1391.716
   angles 0 87.352 0
  }
  {
@@ -79821,14 +82027,14 @@ $grp SCR_DestructibleBuildingEntity : "{D653C28050494894}Prefabs/Structures/Mili
   angles 0 87.352 0
  }
  {
-  coords 6095.365 -0 1396.244
+  coords 6095.365 0 1396.244
   angles 0 87.352 0
  }
  {
   coords 6096.294 0 1391.056
  }
  {
-  coords 6099.935 -0 1391.156
+  coords 6099.935 0 1391.156
  }
  {
   coords 6080.124 0 1406.659
@@ -79905,6 +82111,10 @@ $grp GenericEntity : "{D6C4CB6E5D13C8C7}Prefabs/Structures/Civilian/MessageBoard
   coords 5134.977 20.137 589.575
   angles 0 -90.413 0
  }
+}
+GenericEntity : "{D70B514EAEF45E49}Prefabs/Vehicles/gaz53/armst_gaz53_box_open_yellow.et" {
+ coords 5028.445 20 1449.316
+ angles 0 -172.588 0
 }
 SCR_DestructibleBuildingEntity : "{D77FC3183AD09196}Prefabs/Structures/Veiculos/van.et" {
  editor EntityEditorProps "{6A650A8D915AA765}" {
@@ -80263,6 +82473,150 @@ $grp Tree : "{DCA9A3BBE735AD9D}Prefabs/Vegetation/Bush/b_rosa_canina_0s_aut.et" 
  }
  {
   coords 6046.179 0.319 1364.148
+ }
+ {
+  coords 6187.765 -0.371 1369.624
+  angles 0 179.75 0
+ }
+ {
+  coords 6187.62 0.02 1380.944
+  angles 0 179.75 0
+ }
+ {
+  coords 6187.771 -0.123 1377.323
+  angles 0 179.75 0
+ }
+ {
+  coords 6187.615 -0.229 1373.245
+  angles 0 179.75 0
+ }
+ {
+  coords 6187.724 -0.247 1384.907
+  angles 0 179.75 0
+ }
+ {
+  coords 6187.579 0.144 1396.227
+  angles 0 179.75 0
+ }
+ {
+  coords 6187.73 0.001 1392.606
+  angles 0 179.75 0
+ }
+ {
+  coords 6187.574 -0.105 1388.528
+  angles 0 179.75 0
+ }
+ {
+  coords 6187.577 -0.07 1400.06
+  angles 0 179.75 0
+ }
+ {
+  coords 6187.432 0.321 1411.38
+  angles 0 179.75 0
+ }
+ {
+  coords 6187.583 0.178 1407.759
+  angles 0 179.75 0
+ }
+ {
+  coords 6187.427 0.072 1403.681
+  angles 0 179.75 0
+ }
+ {
+  coords 6187.909 -0.66 1354.322
+  angles 0 179.75 0
+ }
+ {
+  coords 6187.764 -0.269 1365.641
+  angles 0 179.75 0
+ }
+ {
+  coords 6187.915 -0.412 1362.021
+  angles 0 179.75 0
+ }
+ {
+  coords 6187.758 -0.518 1357.943
+  angles 0 179.75 0
+ }
+ {
+  coords 6188.086 -0.527 1338.673
+  angles 0 179.75 0
+ }
+ {
+  coords 6187.941 -0.136 1349.993
+  angles 0 179.75 0
+ }
+ {
+  coords 6188.091 -0.279 1346.372
+  angles 0 179.75 0
+ }
+ {
+  coords 6187.936 -0.385 1342.294
+  angles 0 179.75 0
+ }
+ {
+  coords 6188.262 -0.371 1323.3
+  angles 0 179.75 0
+ }
+ {
+  coords 6188.117 0.02 1334.62
+  angles 0 179.75 0
+ }
+ {
+  coords 6188.268 -0.123 1330.999
+  angles 0 179.75 0
+ }
+ {
+  coords 6188.112 -0.229 1326.921
+  angles 0 179.75 0
+ }
+ {
+  coords 6188.417 -0.371 1308.084
+  angles 0 179.75 0
+ }
+ {
+  coords 6188.272 0.02 1319.404
+  angles 0 179.75 0
+ }
+ {
+  coords 6188.423 -0.123 1315.783
+  angles 0 179.75 0
+ }
+ {
+  coords 6188.268 -0.229 1311.705
+  angles 0 179.75 0
+ }
+ {
+  coords 6189.116 -0.556 1292.2
+  angles 0 179.75 0
+ }
+ {
+  coords 6188.971 0.02 1303.52
+  angles 0 179.75 0
+ }
+ {
+  coords 6189.122 -0.141 1299.899
+  angles 0 179.75 0
+ }
+ {
+  coords 6188.966 -0.297 1295.821
+  angles 0 179.75 0
+ }
+ {
+  coords 6189.404 -2.728 1276.873
+  angles 0 179.75 0
+ }
+ {
+  coords 6189.259 -0.512 1288.193
+  angles 0 179.75 0
+ }
+ {
+  coords 6189.41 -1.06 1284.572
+  angles 0 179.75 0
+ }
+ {
+  coords 6189.254 -1.81 1280.494
+  angles 0 179.75 0
  }
 }
 $grp GenericEntity : "{DCEF57FE4913A7E1}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_20ft_grey_rusty.et" {
@@ -80763,7 +83117,7 @@ $grp GenericEntity : "{DDF59362051B28BC}Prefabs/Props/Military/Fortification/Bar
  }
 }
 GenericEntity armst_photo_girls_4_6A654284F6EF4794 : "{DDF70CE768C9CF42}Prefabs/Items/Others/photos/girls/armst_photo_girls_4.et" {
- coords 6175.627 40.516 1347.81
+ coords 6175.667 40.516 1340.333
  angles 0 27.163 0
 }
 GenericEntity : "{DE59CB05202006E8}Prefabs/Props/Agriculture/CultivatorWreck_01.et" {
@@ -80889,6 +83243,10 @@ $grp GenericEntity : "{E2B42E634BC002F4}worlds/ScenarioFramework/CustomPrefabs/B
  {
   coords 6101.803 40 1382.583
  }
+}
+SCR_DestructibleBuildingEntity : "{E2DEA730CFE1D208}Prefabs/Structures/Diversos/Placa_RoadClosed.et" {
+ coords 6183.054 0 1359.517
+ angles 0 179.593 0
 }
 $grp GenericEntity : "{E31EDEC3CBE433D5}Assets/Garbage/Prefabs/Garbage_Carton_Milk.et" {
  {
@@ -81021,6 +83379,10 @@ $grp GenericEntity : "{E4B5C357EF215746}Prefabs/Props/Military/Training/Obstacle
   coords 6076.97 40 1315.044
   angles 0 0.047 0
  }
+}
+GenericEntity : "{E4DA6CFFCE8E5940}Prefabs/Props/Construction/ContainerMetal_01/ContainerMetal_01_green.et" {
+ coords 6153.925 40 1407.6
+ angles 0 89.889 0
 }
 SCR_DestructibleBuildingEntity : "{E50AA3C83633B05A}Prefabs/Structures/Industrial/Houses/Workshop_02/Workshop_02_ruined.et" {
  editor EntityEditorProps "{6A650A8D915AA765}" {
@@ -81634,11 +83996,17 @@ SCR_DestructibleBuildingEntity : "{F08D8E78433D713A}Prefabs/Structures/Houses/Sh
  coords 5154.609 0 2005.681
  angles 0 -179.318 0
 }
-GenericEntity : "{F0AE33DE2A24CE21}Prefabs/Vehicles/raf2203/armst_raf2203_1_wreck.et" {
- editor EntityEditorProps "{6A650A8D915AA765}" {
-  Color 1 0 0 1
+$grp GenericEntity : "{F0AE33DE2A24CE21}Prefabs/Vehicles/raf2203/armst_raf2203_1_wreck.et" {
+ {
+  editor EntityEditorProps "{6A650A8D915AA765}" {
+   Color 1 0 0 1
+  }
+  coords 5431.918 20.041 1856.2
  }
- coords 5431.918 20.041 1856.2
+ {
+  coords 5028.212 20.031 1480.196
+  angles 0 178.846 0
+ }
 }
 Vehicle UAZ452_ambulance_FIA1 : "{F0EC3EFF70B174B0}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance_FIA.et" {
  editor EntityEditorProps "{6A650A8D915AA765}" {
@@ -81820,7 +84188,7 @@ $grp SCR_DestructibleBuildingEntity : "{F1B99B8CEC164CC7}Prefabs/Structures/Dive
   angles 0 90.184 0
  }
  {
-  coords 6101.583 -0 1417.173
+  coords 6101.583 0 1417.173
  }
  {
   coords 6121.809 0 1417.261
@@ -82020,6 +84388,9 @@ $grp Tree : "{F1DB9A8115310093}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_b
   scale 1.061
  }
 }
+SCR_TreeDebrisSmallEntity : "{F20EB4B8737E108B}Prefabs/Vegetation/Bush/Dst/b_juniperus_communis/b_juniperus_communis_1s_top03.et" {
+ coords 6088.963 40 1401.977
+}
 GenericEntity : "{F35FFCC271B2E4FB}Prefabs/Compositions/Misc/SubCompositions/Tire_UAZ469_pile_01.et" {
  editor EntityEditorProps "{6A650A8D915AA765}" {
   Color 1 0 0 1
@@ -82182,6 +84553,10 @@ GenericEntity : "{F4BB6B6A0486F797}Prefabs/Props/Industrial/BarrelMetal_01_milit
  }
  coords 5170.722 19.311 2030.272
 }
+SCR_DestructibleBuildingEntity : "{F4E08FE7DD7264EB}Prefabs/Vehicles/azlk412/armst_azlk412_1.et" {
+ coords 5028.315 20 1512.202
+ angles 0 -12.538 0
+}
 $grp SCR_DestructibleBuildingEntity : "{F50905235FBAA094}Prefabs/Structures/Military/Houses/GuardBox_01/GuardBox_01_beige.et" {
  {
   editor EntityEditorProps "{6A650A8D915AA765}" {
@@ -82254,13 +84629,13 @@ $grp Tree : "{F55BF63BAD1DCB7E}Prefabs/Vegetation/Bush/b_juniperus_communis_2s.e
   coords 6112.141 0 1308.62
  }
  {
-  coords 6111.779 -0 1366.043
+  coords 6111.779 0 1366.043
  }
  {
-  coords 6103.95 -0 1366.357
+  coords 6103.95 0 1366.357
  }
  {
-  coords 6110.748 -0 1392.226
+  coords 6110.748 0 1392.226
  }
  {
   coords 6103.897 0 1392.299
@@ -82278,13 +84653,43 @@ $grp Tree : "{F55BF63BAD1DCB7E}Prefabs/Vegetation/Bush/b_juniperus_communis_2s.e
   coords 6130.587 0 1373.917
  }
  {
-  coords 6139.24 -0 1374.335
+  coords 6139.24 0 1374.335
  }
  {
-  coords 6144.995 -0 1373.818
+  coords 6144.995 0 1373.818
  }
  {
-  coords 6149.975 -0 1371.202
+  coords 6149.975 0 1371.202
+ }
+ {
+  coords 6169.374 -0 1377.45
+ }
+ {
+  coords 6169.06 -0 1367.498
+ }
+ {
+  coords 6169.354 -0 1386.339
+ }
+ {
+  coords 6061.205 0 1369.012
+ }
+ {
+  coords 6115.606 -0 1370.489
+ }
+ {
+  coords 6115.515 0 1375.837
+ }
+ {
+  coords 6115.191 0 1382.387
+ }
+ {
+  coords 6115.513 0 1387.331
+ }
+ {
+  coords 6115.539 0 1393.501
+ }
+ {
+  coords 6115.206 0 1402.158
  }
 }
 $grp GenericEntity : "{F58AEB566CB4369A}Prefabs/Compositions/Misc/SubCompositions/VehicleGarbagePile_01.et" {
@@ -82333,6 +84738,10 @@ $grp GenericEntity : "{F739B7EF1DAE4134}Prefabs/Vehicles/vaz2109/armst_vaz2109_g
    Color 1 0 0 1
   }
   coords 5683.023 20 1337.526
+ }
+ {
+  coords 5027.353 20 1455.935
+  angles 0 174.219 0
  }
 }
 $grp GenericEntity : "{F78F7B2E98A95922}Prefabs/Structures/Debris/ConcreteDebris_01/ConcreteDebris_01_base.et" {
@@ -82604,7 +85013,7 @@ GenericEntity : "{F971B612CD2CA718}Prefabs/Vehicles/mi8/armst_mi6_wreck.et" {
  angles 0 -129.432 0
 }
 GenericEntity armst_itm_money_500rub_6A654282362877C1 : "{F9BCE359095B16BB}Prefabs/Items/Moneys/armst_itm_money_500rub.et" {
- coords 6174.815 40.517 1347.876
+ coords 6174.855 40.517 1340.399
  angles 0 -86.971 0
 }
 $grp Tree : "{F9D95E78D3E54D1E}PrefabLibrary/CainLibrary/Vegetation/Trees/t_picea_abies_2dw.et" {
