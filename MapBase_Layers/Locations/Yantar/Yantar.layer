@@ -568,6 +568,9 @@ $grp SCR_DestructibleBuildingEntity : "{125BE4F6E5E2A8F5}Prefabs/Structures/Apar
   scale 1.017
  }
 }
+SCR_DestructibleBuildingEntity : "{184042D4EAE59FF5}Prefabs/Structures/Houses/Village/House_Village_E_1I02/Dst/House_Village_E_1I02_ruined.et" {
+ coords 3005.958 0 4344.142
+}
 $grp GenericEntity : "{1BA7B09C38B10746}Prefabs/Structures/BuildingParts/Doors/Door_MetalGate_06/Door_MetalGate_06_LEFT_EXT_ST_B_base.et" {
  {
   Flags 0 0x80000
@@ -581,6 +584,9 @@ $grp GenericEntity : "{1BA7B09C38B10746}Prefabs/Structures/BuildingParts/Doors/D
   angles 0 -175.143 0
   scale 1.097
  }
+}
+SCR_DestructibleBuildingEntity : "{1C4FE5160B6ED8F4}Prefabs/Houses/villages/village_big_house_base_9_filled.et" {
+ coords 2975.572 29.531 4345.65
 }
 $grp StaticModelEntity : "{1E0BC50E7000DEFD}Prefabs/Structures/Debris/Debris_HouseVillage/Debris_HouseVillage_Metal_Roof_v1.et" {
  {
@@ -609,6 +615,15 @@ GenericEntity : "{3AB3A4D05173D31A}Prefabs/Structures/Scientists/Bunker_Modul/Bu
  coords 2985.709 27.581 4083.144
  angles 0 89.659 0
 }
+$grp SCR_DestructibleBuildingEntity : "{3D1F45CCC2670835}Prefabs/Structures/Houses/House_Individual/House_Individual_WoodTile/House_Individual_WoodTile_1.et" {
+ {
+  coords 2995.099 0 4426.254
+ }
+ {
+  coords 3031.929 0 4404.979
+  angles 0 -179.711 0
+ }
+}
 GenericEntity : "{40FBD8EA6551D8A9}PrefabLibrary/DefaultLibrary/Props/Construction/CableReelWooden_01.et" {
  Flags 0 0x80000
  coords 3138.813 38.663 3979.033
@@ -620,6 +635,9 @@ SCR_DestructibleBuildingEntity : "{46DD0AFACF61C6EF}Prefabs/Structures/Industria
  coords 3198.234 33.193 4025.432
  angles 0 90 0
  scale 0.56
+}
+SCR_DestructibleBuildingEntity : "{4C3D7EBFFE1C669D}Prefabs/Houses/villages/village_stone_house_base_2.et" {
+ coords 2905.981 29.531 4341.543
 }
 $grp SCR_DestructibleBuildingEntity : "{55ECF41F2A5684E7}Prefabs/Structures/Construcoes/Panel2House.et" {
  {
@@ -646,6 +664,9 @@ GenericEntity : "{5E249786B7A6896D}Prefabs/Props/Construction/ConcretePipe/Concr
  Flags 0 0x80000
  coords 3144.147 37.231 3974.444
  angles 0 0 -90
+}
+SCR_DestructibleBuildingEntity : "{66178E314C6F98D4}Prefabs/Structures/Ruins/House_Ruin_1I01/House_Ruin_1I01_V3_Brick.et" {
+ coords 3005.037 -0 4315.845
 }
 $grp GenericEntity : "{6720CD0D5B7B7768}Prefabs/Props/Construction/ConcretePipe/ConcretePipe_01_Long.et" {
  {
@@ -750,6 +771,9 @@ $grp GenericEntity : "{6EEC06CAF1F08FE8}Prefabs/ZBK/KitFactory/KitFrameWork/Meta
   scale 1.251
  }
 }
+SCR_DestructibleBuildingEntity : "{71095B878B70EFAA}Prefabs/Houses/villages/village_stone_house_base_5.et" {
+ coords 2940.409 29.531 4317.449
+}
 StaticModelEntity : "{72CA69A5735FF68B}Prefabs/Props/Military/Covers/DirtCoverwithwoodenwall.et" {
  Flags 0 0x80000
  coords 3131.008 37.75 3967.611
@@ -780,6 +804,24 @@ SCR_DestructibleEntity : "{879865F07EA907B0}Prefabs/Structures/Walls/Concrete/Co
  coords 3134.604 37.33 3970.513
  angles 0 -90 0
 }
+$grp SCR_DestructibleBuildingEntity : "{8ED47AC94995D71A}Prefabs/Structures/Agriculture/CowShed/CowShed_E_01/CowShed_E_01_long.et" {
+ {
+  coords 2951.714 0.382 4263.317
+  angles 0 89.723 0
+ }
+ {
+  coords 3028.202 0.382 4263.687
+  angles 0 89.723 0
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{9495177E879578C1}Prefabs/Houses/villages/village_stone_house_base_4.et" {
+ {
+  coords 2940.157 29.593 4368.453
+ }
+ {
+  coords 2908.486 30.884 4376.632
+ }
+}
 GenericEntity : "{9BDB4FCE246DD60C}Prefabs/Structures/Debris/ConcreteDebris_01/ConcreteDebris_01_V2.et" {
  Flags 0 0x80000
  coords 3136.855 37.693 3968.304
@@ -792,6 +834,10 @@ GenericEntity : "{9C3486C0D8969D0A}PrefabLibrary/DefaultLibrary/Props/Industrial
  angles -75 90 0
  scale 0.74
 }
+SCR_DestructibleBuildingEntity : "{A9A13246F2F9F1F6}Prefabs/Houses/villages/village_stone_house_base_3.et" {
+ coords 2944.984 29.531 4338.967
+ angles 0 2.099 0
+}
 SCR_DestructibleBuildingEntity : "{AF44CFF705C52B9B}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_02/FuelTank_02_grey.et" {
  Flags 0 0x80000
  coords 3140.922 38.063 3990.176
@@ -799,6 +845,25 @@ SCR_DestructibleBuildingEntity : "{AF44CFF705C52B9B}Prefabs/Structures/Industria
 SCR_DestructibleBuildingEntity : "{B1F1B1BEB21102A7}Prefabs/Structures/Industrial/Houses/FactoryHall_E_01/FactoryHall_E_01.et" {
  Flags 0 0x80000
  coords 3179.526 37.605 4029.842
+}
+$grp SCR_DestructibleBuildingEntity : "{B660BEC050A9F174}Prefabs/Houses/House_Individual_Brus/House_Individual_Brus_Modul_4.et" {
+ {
+  coords 2961.555 0 4421.463
+  angles 0 91.238 0
+  {
+   Tree {
+    ID "671D0EB1281F59BB"
+    coords -1.593 2.995 -10.138
+   }
+  }
+ }
+ {
+  coords 3030.692 0 4368.037
+  angles 0 -178.052 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{BEF19A419D38409D}Prefabs/Houses/villages/village_stone_house_base_2+land.et" {
+ coords 2968.193 29.531 4382.462
 }
 $grp GenericEntity : "{C93D17434595397D}Prefabs/ZBK/Props/Pipe/Pipe8m_Bridge.et" {
  {
@@ -854,10 +919,22 @@ SCR_DestructibleBuildingEntity : "{EE6B95EB59D4CFFF}Prefabs/Structures/Industria
  coords 3177.912 37.75 4008.145
  angles 0 -180 0
 }
+$grp SCR_DestructibleBuildingEntity : "{EFE49212769E45CC}Prefabs/Houses/villages/Shed_02_Base_obolon.et" {
+ {
+  coords 2912.151 -0 4328.006
+ }
+ {
+  coords 2912.099 0 4324.457
+  angles 0 179.737 0
+ }
+}
 SCR_DestructibleBuildingEntity : "{F1049D978C35081C}Prefabs/Structures/Industrial/Cranes/GantryCrane_03/GantryCrane_03_turret_trolley.et" {
  Flags 0 0x80000
  coords 3215.388 37.538 3980.145
  angles 0 -90 0
+}
+SCR_DestructibleBuildingEntity : "{F63A37887670DEEE}Prefabs/Houses/villages/village_stone_house_base_5_filled.et" {
+ coords 3005.814 29.726 4387.303
 }
 $grp SCR_DestructibleEntity : "{F755F729EC8D5203}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_2m.et" {
  {
@@ -911,4 +988,7 @@ $grp SCR_DestructibleEntity : "{F755F729EC8D5203}Prefabs/Structures/Walls/Concre
   coords 3136.212 38.167 3967.057
   angles 0 0 90
  }
+}
+SCR_DestructibleBuildingEntity : "{FF35BF8C946B7C41}Prefabs/Structures/Houses/House_Individual/House_Individual_Brick/House_Individual_Brick_1.et" {
+ coords 2931.161 0 4406.044
 }
