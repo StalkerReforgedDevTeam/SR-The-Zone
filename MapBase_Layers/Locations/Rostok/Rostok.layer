@@ -422,7 +422,7 @@ $grp SCR_DestructibleBuildingEntity : "{1350F724723AAC87}Prefabs/Structures/Indu
   }
  }
  {
-  coords 4734.366 0 4243.126
+  coords 4728.086 0 4243.126
   angles 0 180 0
   {
    Building {
@@ -640,7 +640,7 @@ $grp SCR_DestructibleBuildingEntity : "{5478F1635999CE3B}Prefabs/Structures/Agri
   angles -0.047 -90 0.06
  }
  {
-  coords 4845.619 -0.056 4095.989
+  coords 4845.619 0.307 4095.99
   angles 0.047 90 -0.06
  }
 }
@@ -711,32 +711,6 @@ $grp GenericEntity : "{6720CD0D5B7B7768}Prefabs/Props/Construction/ConcretePipe/
   coords 4864.589 30 4144.77
   angles 0 0 -90
   scale 4.906
- }
-}
-$grp GenericEntity : "{68610D36FF1E1612}Prefabs/Structures/Infrastructure/Rail/New/rails_25_new.et" {
- {
-  coords 4731.65 25.844 4221.838
-  angles 0 -90 0
- }
- {
-  coords 4706.65 25.844 4221.838
-  angles 0 -90 0
- }
- {
-  coords 4681.65 25.844 4221.838
-  angles 0 -90 0
- }
- {
-  coords 4618.375 25.844 4196.71
-  angles 0 -146.618 0
- }
- {
-  coords 4604.62 25.844 4175.834
-  angles 0 -146.618 0
- }
- {
-  coords 4590.865 25.844 4154.958
-  angles 0 -146.618 0
  }
 }
 $grp SCR_DestructibleEntity : "{6BD5C8E1D79AF064}Prefabs/Structures/Walls/Concrete/ConcreteWall_01/ConcreteWall_01_3m_white.et" {
@@ -1068,10 +1042,6 @@ GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Ch
 $grp SCR_DestructibleBuildingEntity : "{9CC522BC56E6682F}Prefabs/Industrial/sklades_soviet/Brick_fence_soviets.et" {
  {
   coords 4891.518 30 4127.08
-  angles 0 -90 0
- }
- {
-  coords 4891.518 30 4124.58
   angles 0 -90 0
  }
  {
@@ -4927,16 +4897,6 @@ $grp SCR_DestructibleEntity : "{B602A2E5447E58C2}Prefabs/Structures/Walls/Net/Ne
 }
 SCR_DestructibleBuildingEntity : "{C604699791656656}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_01/FuelTank_01_Base.et" {
  coords 4890.73 0 4145.79
-}
-$grp GenericEntity : "{C610A4752B5873ED}Prefabs/Structures/Infrastructure/Rail/New/rails_curve_L25_10_new.et" {
- {
-  coords 4656.858 25.844 4221.604
-  angles 0 -101.689 0
- }
- {
-  coords 4633.806 25.844 4215.445
-  angles 0 -139.645 0
- }
 }
 $grp SCR_DestructibleBuildingEntity : "{C8ED58851896F6D9}Prefabs/Industrial/sklades_soviet/Gatehouse_soviets_ext.et" {
  {
