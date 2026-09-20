@@ -1,0 +1,26 @@
+Tree : "{1B72E3F82B36964B}Prefabs/Vegetation/Tree/t_salix_fragilis/t_salix_fragilis_3s.et" {
+ ID "50868BB1345DA9B4"
+ components {
+  MeshObject "{66A2B262FF2447EF}" {
+   Materials {
+    MaterialAssignClass "{6A6722603AF09FD1}" {
+     SourceMaterial "t_salix_fragilis_3s_polyplane"
+     AssignedMaterial "{62B5F22E4EED5B6B}textures/hidden.emat"
+    }
+    MaterialAssignClass "{6A6722603AF09FBC}" {
+     SourceMaterial "t_salix_fragilis_atlas_MLOD"
+     AssignedMaterial "{61373EECB2D3F964}Assets/Vegetation/Tree/Salix_Fragilis/Data/t_salix_fragilis_atlas_MLOD_aut.emat"
+    }
+   }
+  }
+ }
+ FirstDestructionPhase SCR_BaseDestructionPhase "{5EA30A303A8696D4}" {
+  m_aPhaseDestroySpawnObjects {
+   SCR_PrefabSpawnable "{6308EB177862FBD3}" {
+    m_Prefabs {
+     "{1F240C06447E587D}Prefabs/Vegetation/Tree/Dst/t_salix_fragilis/t_salix_fragilis_3s_dst_Top01_aut.et" "{ADF34EED1BDC6BE5}Prefabs/Vegetation/Tree/Dst/t_salix_fragilis/t_salix_fragilis_3s_dst_Top02_aut.et" "{C3BE70B42EBD856D}Prefabs/Vegetation/Tree/Dst/t_salix_fragilis/t_salix_fragilis_3s_dst_Top03_aut.et" "{8AAD2AD00D723A46}Prefabs/Vegetation/Tree/Dst/t_salix_fragilis/t_salix_fragilis_3s_dst_Top04_aut.et" "{E4E014893813D4CE}Prefabs/Vegetation/Tree/Dst/t_salix_fragilis/t_salix_fragilis_3s_dst_Top05_aut.et" "{5637566267B1E756}Prefabs/Vegetation/Tree/Dst/t_salix_fragilis/t_salix_fragilis_3s_dst_Top06_aut.et" "{387A683B52D009DE}Prefabs/Vegetation/Tree/Dst/t_salix_fragilis/t_salix_fragilis_3s_dst_Top07_aut.et" "{C411E2AA202E9900}Prefabs/Vegetation/Tree/Dst/t_salix_fragilis/t_salix_fragilis_3s_dst_Top08_aut.et"
+    }
+   }
+  }
+ }
+}
