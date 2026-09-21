@@ -41,6 +41,32 @@ SCR_DestructibleBuildingEntity : "{081C50A8AAD76B3A}Prefabs/Structures/Construco
 StaticModelEntity : "{0EF2606D9BDAA670}Prefabs/Structures/Military/Houses/GuardTower_USSR_01/Dst/Guardtower_S_01_Ruin_green.et" {
  coords 5099.805 21.481 2608.011
 }
+GenericEntity : "{10BC0DF4C149DECC}Prefabs/Compositions/Misc/SubCompositions/Decorations/PalletPile_Stacked_01.et" {
+ coords 5223.388 20 2534.007
+ angles 0 42.077 0
+}
+$grp GenericEntity : "{1112756E8A13445B}Prefabs/Props/Industrial/Pallets/Pallet_01_Pile.et" {
+ {
+  coords 5223.089 20 2528.97
+  angles 0 0 0
+ }
+ {
+  coords 5223.099 20.947 2529.066
+  angles 0 0 0
+ }
+ {
+  coords 5223.533 20 2530.719
+  angles 0 65.875 0
+ }
+ {
+  coords 5223.543 20 2532.236
+  angles 0 0 0
+ }
+ {
+  coords 5223.734 20.947 2530.79
+  angles 0 104.539 0
+ }
+}
 GenericEntity : "{165982103705B42C}Prefabs/Vehicles/vaz2109/armst_vaz2109_1_wreck.et" {
  coords 5134.625 20 2612.086
 }
@@ -63,6 +89,10 @@ $grp GenericEntity : "{17770AFEA059BE16}Prefabs/Vehicles/gaz24/armst_gaz24_1.et"
  {
   coords 5134.941 20 2598.415
   angles 0 9.715 0
+ }
+ {
+  coords 5109.034 20.213 2594.566
+  angles 0 -157.933 0
  }
 }
 $grp GenericEntity : "{17A78A0D3701386A}Prefabs/Compositions/Misc/SubCompositions/Garbage/Tire_Stack_Garbage_01.et" {
@@ -109,6 +139,14 @@ $grp SCR_DestructibleBuildingEntity : "{267F0561BD2A8A64}Prefabs/Vehicles/azlk41
   coords 5139.633 22.159 2574.02
   angles 0 12.546 0
  }
+ {
+  coords 5238.564 20 2542.245
+  angles 0 -160.11 0
+ }
+ {
+  coords 5116.687 20.083 2594.012
+  angles 0 12.546 0
+ }
 }
 GenericEntity : "{286212B6EFA9C01C}Prefabs/Compositions/Misc/SubCompositions/Garbage/Garbage_Vehicle_03.et" {
  coords 5166.721 20 2588.066
@@ -139,7 +177,7 @@ SCR_DestructibleBuildingEntity : "{29984BE889A1DB1E}Prefabs/Structures/Construco
 }
 $grp Tree : "{2A1012C2B5B4F1FA}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_rubus_idaeus_1s.et" {
  {
-  coords 5121.563 -0 2574.648
+  coords 5121.563 0 2574.648
   angles 0.812 -4.329 1.69
   scale 0.982
  }
@@ -154,17 +192,17 @@ $grp Tree : "{2A1012C2B5B4F1FA}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_
   scale 0.982
  }
  {
-  coords 5112.52 -0 2579.136
+  coords 5112.52 0 2579.136
   angles 0.812 -4.329 1.69
   scale 0.982
  }
  {
-  coords 5103.929 -0 2577.567
+  coords 5103.929 0 2577.567
   angles 0.812 -4.329 1.69
   scale 0.982
  }
  {
-  coords 5106.65 -0 2579.894
+  coords 5106.65 0 2579.894
   angles 0.812 -4.329 1.69
   scale 0.982
  }
@@ -184,6 +222,9 @@ $grp GenericEntity : "{2B1D0128ED660BE9}Prefabs/Props/Crates/BoxWooden_01.et" {
   angles 0 12.509 0
  }
 }
+GenericEntity : "{2BF58454BEAB913D}Prefabs/Props/Industrial/Pallets/WoodenPalletBox_01_Wood.et" {
+ coords 5228.422 20 2535.561
+}
 GenericEntity : "{2DD4D94957E1DC2B}Prefabs/Props/Furniture/Carpet_03_red.et" {
  coords 5169.661 20 2578.39
  angles 0 -72.071 0
@@ -196,9 +237,15 @@ Tree : "{3146C9F63A4FB19A}Prefabs/Vegetation/Bush/Calamagrostis_epigejos/B_Calam
  coords 5182.813 0 2590.591
  angles 0 40.254 0
 }
-GenericEntity : "{3164EA90BEC61EF2}Prefabs/Vehicles/vaz2105/armst_vaz2105_1_wreck.et" {
- coords 5145.838 19.993 2606.632
- angles 0 19.997 0
+$grp GenericEntity : "{3164EA90BEC61EF2}Prefabs/Vehicles/vaz2105/armst_vaz2105_1_wreck.et" {
+ {
+  coords 5145.838 19.993 2606.632
+  angles 0 19.997 0
+ }
+ {
+  coords 5128 20 2592.891
+  angles 0 12.323 0
+ }
 }
 GenericEntity : "{3386EAA823BE462E}Prefabs/Props/Wrecks/UAZ469_wreck/UAZ469_wreck_static.et" {
  coords 5199.164 19.533 2585.783
@@ -240,16 +287,16 @@ StaticModelEntity : "{3F2B57610C94E335}Prefabs/Structures/Houses/Shed/Shed_03/Ds
 }
 $grp Tree : "{3F439AC2C1E7E58D}Prefabs/Vegetation/Bush/Betula_Nana/b_betula_nana_0_aut.et" {
  {
-  coords 5185.506 -0 2583.035
+  coords 5185.506 0 2583.035
  }
  {
-  coords 5188.227 -0 2590.349
+  coords 5188.227 0 2590.349
  }
  {
-  coords 5183.925 -0 2589.968
+  coords 5183.925 0 2589.968
  }
  {
-  coords 5180.813 -0 2591.254
+  coords 5180.813 0 2591.254
  }
 }
 GenericEntity : "{3FB52C2FC3CD951D}Prefabs/Vehicles/mi8/armst_mi8_static.et" {
@@ -268,20 +315,24 @@ $grp GenericEntity : "{4205483AA759382B}Prefabs/Vehicles/zaz968/armst_zaz968_2_w
   coords 5122.921 20.76 2610.578
   angles 37.717 -69.539 0
  }
+ {
+  coords 5106.8 20.275 2598.304
+  angles 0 32.318 0
+ }
 }
 $grp Tree : "{425761285F36BF16}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_1s.et" {
  {
-  coords 5174.923 -0 2568.176
+  coords 5174.923 0 2568.176
   angles 2.694 65.03 1.375
   scale 0.921
  }
  {
-  coords 5183.012 -0 2607.337
+  coords 5183.012 0 2607.337
   angles 0.562 -102.198 -0.709
   scale 0.535
  }
  {
-  coords 5171.977 -0 2607.175
+  coords 5171.977 0 2607.175
   angles 0.562 -102.198 -0.709
   scale 0.535
  }
@@ -301,10 +352,13 @@ $grp Tree : "{425761285F36BF16}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_b
   scale 0.535
  }
  {
-  coords 5147.502 -0 2590.276
+  coords 5147.502 0 2590.276
   angles 0.562 -102.198 -0.709
   scale 0.535
  }
+}
+GenericEntity : "{44466D95C072C404}Prefabs/Vehicles/azlk412/base/BASE_azlk412_wreck.et" {
+ coords 5234.934 20 2545.471
 }
 GenericEntity : "{45D056CC11985141}Prefabs/Props/Wrecks/S1203_wreck/S1203_wreck.et" {
  coords 5175.8 20 2591.16
@@ -319,6 +373,10 @@ $grp SCR_DestructibleBuildingEntity : "{45E53C8D7E30FB5F}Prefabs/Vehicles/azlk41
   coords 5139.444 20 2594.62
   angles 0 52.259 0
  }
+ {
+  coords 5133.161 20.062 2592.742
+  angles 0.194 8.96 -2.844
+ }
 }
 StaticModelEntity : "{4806B3818F1CD46C}Prefabs/Structures/Houses/Shed/Shed_03/Dst/Shed_03_Ruin_base.et" {
  coords 5150.951 20 2588.743
@@ -329,6 +387,9 @@ GenericEntity : "{48D88E385C227340}Prefabs/Compositions/Misc/SubCompositions/Bar
 }
 GenericEntity : "{4A19A5F08892AB6A}Prefabs/Props/VehicleParts/Tires/Tire_M939A1.et" {
  coords 5136.669 20 2605.649
+}
+GenericEntity : "{4B0B577850E5E6CD}Prefabs/Structures/Military/Camps/Canvas_Covers/FIA/CanvasCover_Large_FIA.et" {
+ coords 5225.709 20 2532.081
 }
 GenericEntity : "{4BB4E6A204C93500}Prefabs/Vehicles/uaz452/armst_uaz452_open_wreck.et" {
  coords 5142.039 20 2572.725
@@ -468,9 +529,25 @@ $grp StaticModelEntity : "{4C606A89029A7E69}Prefabs/Structures/Debris/DebrisPile
   }
  }
 }
-SCR_DestructibleBuildingEntity : "{4E68FA4CAE8833F8}Prefabs/Structures/Infrastructure/Naval/Piers/Pier02 PlankBridge.et" {
- coords 5176.28 22.979 2581.972
- angles -2.688 109.149 0
+$grp SCR_DestructibleBuildingEntity : "{4E68FA4CAE8833F8}Prefabs/Structures/Infrastructure/Naval/Piers/Pier02 PlankBridge.et" {
+ {
+  coords 5176.28 22.979 2581.972
+  angles -2.688 109.149 0
+ }
+ {
+  coords 5226.788 18.653 2520.99
+  angles -17.546 -135.118 0
+ }
+}
+$grp GenericEntity : "{5065DCC9B9245271}Prefabs/ZBK/Props/RoadBlock/RoadBlockEnd2m.et" {
+ {
+  coords 5234.391 20 2536.762
+  angles 0 100.074 0
+ }
+ {
+  coords 5237.178 20 2536.259
+  angles 0 -73.988 0
+ }
 }
 GenericEntity : "{5139480972F28E1C}Prefabs/Props/VehicleParts/Tires/Tire_Ural4320_pile.et" {
  coords 5140.989 20 2597.814
@@ -560,13 +637,13 @@ SCR_DestructibleBuildingEntity : "{5F1686F4C9F4CADA}Prefabs/Structures/Ruins/Hou
 }
 $grp Tree : "{5F21E8929D3BE885}Prefabs/Vegetation/Bush/b_phragmites_australis_1_aut.et" {
  {
-  coords 5197.987 -0 2578.112
+  coords 5197.987 0 2578.112
  }
  {
   coords 5195.711 0 2574.781
  }
  {
-  coords 5193.387 -0 2572.538
+  coords 5193.387 0 2572.538
  }
 }
 $grp GenericEntity : "{62A2AC8BAF5AE7D6}Prefabs/Infrastructure/Railways/Concrete stop.et" {
@@ -623,12 +700,12 @@ $grp GenericEntity : "{792A2C359A0728C8}Prefabs/Compositions/Misc/SubComposition
 }
 $grp Tree : "{79BC4FC331405E37}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_carpinus_betulus_0.et" {
  {
-  coords 5185.755 -0 2570.503
+  coords 5185.755 0 2570.503
   angles 1.822 -168.865 -0.338
   scale 1.133
  }
  {
-  coords 5181.406 -0 2568.325
+  coords 5181.406 0 2568.325
   angles 1.822 -168.865 -0.338
   scale 1.133
  }
@@ -648,17 +725,17 @@ $grp Tree : "{79BC4FC331405E37}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_c
   scale 1.133
  }
  {
-  coords 5196.815 -0 2576.531
+  coords 5196.815 0 2576.531
   angles 1.822 -168.865 -0.338
   scale 1.133
  }
  {
-  coords 5190.477 -0 2570.02
+  coords 5190.477 0 2570.02
   angles 1.822 -168.865 -0.338
   scale 1.133
  }
  {
-  coords 5189.32 -0 2573.689
+  coords 5189.32 0 2573.689
   angles 1.822 -168.865 -0.338
   scale 1.133
  }
@@ -666,12 +743,30 @@ $grp Tree : "{79BC4FC331405E37}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_c
 StaticModelEntity : "{7EDF0CEE09EC7258}Prefabs/Structures/Military/Houses/GuardTower_01/GuardTower_01_Ruin.et" {
  coords 5124.148 20 2599.493
 }
+GenericEntity : "{8158EFF339FE1F11}Prefabs/Vehicles/zil131/armst_zil131_open.et" {
+ coords 5237.934 20.323 2532.294
+ angles 0 -136.156 0
+}
 GenericEntity : "{81AA8743455F68A5}Prefabs/Vehicles/uaz452/armst_uaz452_open_wheels.et" {
  coords 5139.421 20 2573.076
  angles 0 11.314 0
 }
-GenericEntity : "{84CBCE9163176B3E}Prefabs/Props/Wrecks/S105_wreck/S105_wreck.et" {
- coords 5179.577 20 2589.861
+SCR_DestructibleBuildingEntity : "{838F1E7BFB3C23FA}Prefabs/Vehicles/azlk412/armst_azlk412_wreck2.et" {
+ coords 5243.21 20 2531.254
+ angles 0 -39.513 0
+}
+$grp GenericEntity : "{84CBCE9163176B3E}Prefabs/Props/Wrecks/S105_wreck/S105_wreck.et" {
+ {
+  coords 5179.577 20 2589.861
+ }
+ {
+  coords 5189.077 19.892 2604.903
+  angles 0 148.528 0
+ }
+ {
+  coords 5112.923 20.173 2592.04
+  angles 0 18.681 0
+ }
 }
 GenericEntity : "{85C8E30402BF24D5}Prefabs/Compositions/Misc/SubCompositions/Tire_Ural4320_pile_01.et" {
  coords 5137.167 20 2600.764
@@ -680,6 +775,9 @@ GenericEntity : "{85C8E30402BF24D5}Prefabs/Compositions/Misc/SubCompositions/Tir
 GenericEntity : "{89EF4CBC37EABDBE}Prefabs/Vegetation/Cuttings/Carpinus_betulus_large_01.et" {
  coords 5165.476 20 2573.655
  angles 0 71.153 0
+}
+GenericEntity : "{8BE153775299BA55}Prefabs/Compositions/Misc/SubCompositions/PalletFuel_Cluttered_US_01.et" {
+ coords 5225.268 20 2531.919
 }
 SCR_DestructibleBuildingEntity : "{8C060E332CFDBF79}Prefabs/Vehicles/azlk412/armst_azlk412_1_wreck.et" {
  coords 5142.404 22.737 2576.047
@@ -719,7 +817,7 @@ $grp Tree : "{960EA50FD57CD7D5}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_b
   scale 1.036
  }
  {
-  coords 5105.127 -0 2581.812
+  coords 5105.127 0 2581.812
   angles -0.276 -87.663 0.825
   scale 1.036
  }
@@ -729,7 +827,7 @@ $grp Tree : "{960EA50FD57CD7D5}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_b
   scale 1.036
  }
  {
-  coords 5102.643 -0 2582.251
+  coords 5102.643 0 2582.251
   angles -0.276 -87.663 0.825
   scale 1.036
  }
@@ -764,12 +862,12 @@ $grp Tree : "{99D77B10B980D106}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_c
   scale 1.084
  }
  {
-  coords 5178.249 -0 2583.228
+  coords 5178.249 0 2583.228
   angles -0.543 -50.473 -2.445
   scale 1.084
  }
  {
-  coords 5190.786 -0 2619.308
+  coords 5190.786 0 2619.308
   angles -0.543 -50.473 -2.445
   scale 1.084
  }
@@ -779,12 +877,12 @@ $grp Tree : "{99D77B10B980D106}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_c
   scale 1.084
  }
  {
-  coords 5154.849 -0 2572.06
+  coords 5154.849 0 2572.06
   angles 1.332 -26.522 0.443
   scale 0.689
  }
  {
-  coords 5179.324 -0 2568.146
+  coords 5179.324 0 2568.146
   angles -1.283 -57.076 -1.481
   scale 0.736
  }
@@ -794,22 +892,22 @@ $grp Tree : "{99D77B10B980D106}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_c
   scale 1.084
  }
  {
-  coords 5131.667 -0 2613.51
+  coords 5131.667 0 2613.51
   angles -0.543 -50.473 -2.445
   scale 1.084
  }
  {
-  coords 5132.424 -0 2597.394
+  coords 5132.424 0 2597.394
   angles -0.543 -50.473 -2.445
   scale 1.084
  }
  {
-  coords 5140.017 -0 2597.41
+  coords 5140.017 0 2597.41
   angles -0.543 -50.473 -2.445
   scale 1.084
  }
  {
-  coords 5139.745 -0 2589.899
+  coords 5139.745 0 2589.899
   angles -0.543 -50.473 -2.445
   scale 1.084
  }
@@ -819,53 +917,64 @@ $grp Tree : "{99D77B10B980D106}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_c
   scale 1.084
  }
  {
-  coords 5107.883 -0 2581.531
+  coords 5107.883 0 2581.531
   angles -0.543 -50.473 -2.445
   scale 1.084
  }
  {
-  coords 5115.123 -0 2580.186
+  coords 5115.123 0 2580.186
   angles -0.543 -50.473 -2.445
   scale 1.084
  }
  {
-  coords 5127.906 -0 2575.866
+  coords 5127.906 0 2575.866
   angles -0.543 -50.473 -2.445
+  scale 1.084
+ }
+ {
+  coords 5236.579 0 2446.671
+  angles 0.162 117.305 1.314
   scale 1.084
  }
 }
-GenericEntity : "{9A0E3539409479C3}Prefabs/Vehicles/uaz452/base/BASE_uaz452_closed_wreck.et" {
- coords 5138.017 20 2608.688
+$grp GenericEntity : "{9A0E3539409479C3}Prefabs/Vehicles/uaz452/base/BASE_uaz452_closed_wreck.et" {
+ {
+  coords 5138.017 20 2608.688
+ }
+ {
+  coords 5114.252 20.078 2596.768
+  angles 0 13.491 0
+ }
 }
 $grp Tree : "{9C6CE0F73E3AED80}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_pinus_sylvestris_1f.et" {
  {
   coords 5111.56 0 2573.293
-  angles -1.028 161.68 -0
+  angles -1.028 161.68 0
   scale 0.874
  }
  {
-  coords 5112.013 -0 2576.702
-  angles -1.028 161.68 -0
+  coords 5112.013 0 2576.702
+  angles -1.028 161.68 0
   scale 0.874
  }
  {
   coords 5117.911 0 2573.789
-  angles -1.028 161.68 -0
+  angles -1.028 161.68 0
   scale 0.874
  }
  {
-  coords 5117.84 -0 2577.046
-  angles -1.028 161.68 -0
+  coords 5117.84 0 2577.046
+  angles -1.028 161.68 0
   scale 0.874
  }
  {
   coords 5104.343 0 2581.101
-  angles -1.028 161.68 -0
+  angles -1.028 161.68 0
   scale 0.874
  }
  {
   coords 5107.247 0 2583.239
-  angles -1.028 161.68 -0
+  angles -1.028 161.68 0
   scale 0.874
  }
  {
@@ -874,14 +983,14 @@ $grp Tree : "{9C6CE0F73E3AED80}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_p
   scale 0.75
  }
  {
-  coords 5108.062 -0 2573.759
+  coords 5108.062 0 2573.759
   angles 1.481 -163.767 0
   scale 0.75
  }
 }
 $grp Tree : "{9D5A19E49F68D237}Prefabs/Vegetation/Bush/Calamagrostis_epigejos/B_Calamagrostis_epigejos_2.et" {
  {
-  coords 5185.787 -0 2588.618
+  coords 5185.787 0 2588.618
  }
  {
   coords 5181.452 0 2589.189
@@ -891,10 +1000,10 @@ $grp Tree : "{9D5A19E49F68D237}Prefabs/Vegetation/Bush/Calamagrostis_epigejos/B_
   angles 0 32.623 0
  }
  {
-  coords 5191.583 -0 2586.908
+  coords 5191.583 0 2586.908
  }
  {
-  coords 5189.351 -0 2584.55
+  coords 5189.351 0 2584.55
   angles 0 52.748 0
  }
  {
@@ -902,37 +1011,37 @@ $grp Tree : "{9D5A19E49F68D237}Prefabs/Vegetation/Bush/Calamagrostis_epigejos/B_
   angles 0 -40.569 0
  }
  {
-  coords 5176.714 -0 2587.39
+  coords 5176.714 0 2587.39
  }
  {
-  coords 5184.702 -0 2582.27
+  coords 5184.702 0 2582.27
  }
  {
-  coords 5196.854 -0 2584.054
+  coords 5196.854 0 2584.054
  }
  {
   coords 5194.915 0 2580.908
  }
  {
-  coords 5193.013 -0 2576.999
+  coords 5193.013 0 2576.999
  }
  {
-  coords 5190.824 -0 2573.999
+  coords 5190.824 0 2573.999
  }
  {
   coords 5187.331 0 2573.588
  }
  {
-  coords 5183.192 -0 2571.336
+  coords 5183.192 0 2571.336
  }
  {
   coords 5179.915 0 2571.336
  }
  {
-  coords 5175.935 -0 2570.236
+  coords 5175.935 0 2570.236
  }
  {
-  coords 5177.678 -0 2568.655
+  coords 5177.678 0 2568.655
   angles 0 -40.569 0
  }
  {
@@ -943,19 +1052,19 @@ $grp Tree : "{9D5A19E49F68D237}Prefabs/Vegetation/Bush/Calamagrostis_epigejos/B_
   coords 5180.235 0 2600.793
  }
  {
-  coords 5181.089 -0 2606.982
+  coords 5181.089 0 2606.982
  }
  {
-  coords 5184.721 -0 2600.599
+  coords 5184.721 0 2600.599
  }
  {
   coords 5188.333 0 2601.835
  }
  {
-  coords 5188.585 -0 2606.253
+  coords 5188.585 0 2606.253
  }
  {
-  coords 5183.158 -0 2604.99
+  coords 5183.158 0 2604.99
  }
  {
   coords 5176.38 0 2600.662
@@ -964,20 +1073,20 @@ $grp Tree : "{9D5A19E49F68D237}Prefabs/Vegetation/Bush/Calamagrostis_epigejos/B_
   coords 5174.176 0 2600.916
  }
  {
-  coords 5171.35 -0 2601.322
+  coords 5171.35 0 2601.322
  }
  {
-  coords 5169.03 -0 2605.31
+  coords 5169.03 0 2605.31
  }
  {
-  coords 5164.799 -0 2601.836
+  coords 5164.799 0 2601.836
  }
  {
   coords 5165.017 0 2606.18
   angles 0 51.472 0
  }
  {
-  coords 5170.844 -0 2608.795
+  coords 5170.844 0 2608.795
  }
  {
   coords 5173.566 0 2612.25
@@ -989,7 +1098,7 @@ $grp Tree : "{9D5A19E49F68D237}Prefabs/Vegetation/Bush/Calamagrostis_epigejos/B_
   coords 5178.332 0 2614.416
  }
  {
-  coords 5182.79 -0 2609.571
+  coords 5182.79 0 2609.571
  }
  {
   coords 5183.292 0 2614.412
@@ -1004,10 +1113,10 @@ $grp Tree : "{9D5A19E49F68D237}Prefabs/Vegetation/Bush/Calamagrostis_epigejos/B_
   coords 5197.385 0 2599.32
  }
  {
-  coords 5190.37 -0 2612.874
+  coords 5190.37 0 2612.874
  }
  {
-  coords 5191.677 -0 2609.484
+  coords 5191.677 0 2609.484
  }
  {
   coords 5195.272 0 2609.594
@@ -1019,7 +1128,7 @@ $grp Tree : "{9D5A19E49F68D237}Prefabs/Vegetation/Bush/Calamagrostis_epigejos/B_
   coords 5188.02 0 2621.774
  }
  {
-  coords 5186.871 -0 2607.13
+  coords 5186.871 0 2607.13
  }
  {
   coords 5187.692 0 2604.049
@@ -1033,7 +1142,7 @@ $grp Tree : "{9D5A19E49F68D237}Prefabs/Vegetation/Bush/Calamagrostis_epigejos/B_
   angles 0 32.623 0
  }
  {
-  coords 5153.389 -0 2578.656
+  coords 5153.389 0 2578.656
   angles 0 32.623 0
  }
  {
@@ -1041,7 +1150,7 @@ $grp Tree : "{9D5A19E49F68D237}Prefabs/Vegetation/Bush/Calamagrostis_epigejos/B_
   angles 0 32.623 0
  }
  {
-  coords 5149.346 -0 2581.429
+  coords 5149.346 0 2581.429
   angles 0 32.623 0
  }
  {
@@ -1049,7 +1158,7 @@ $grp Tree : "{9D5A19E49F68D237}Prefabs/Vegetation/Bush/Calamagrostis_epigejos/B_
   angles 0 32.623 0
  }
  {
-  coords 5148.469 -0 2584.187
+  coords 5148.469 0 2584.187
   angles 0 32.623 0
  }
  {
@@ -1057,11 +1166,11 @@ $grp Tree : "{9D5A19E49F68D237}Prefabs/Vegetation/Bush/Calamagrostis_epigejos/B_
   angles 0 32.623 0
  }
  {
-  coords 5142.792 -0 2588.972
+  coords 5142.792 0 2588.972
   angles 0 32.623 0
  }
  {
-  coords 5145.876 -0 2589.022
+  coords 5145.876 0 2589.022
   angles 0 32.623 0
  }
  {
@@ -1069,7 +1178,7 @@ $grp Tree : "{9D5A19E49F68D237}Prefabs/Vegetation/Bush/Calamagrostis_epigejos/B_
   angles 0 51.472 0
  }
  {
-  coords 5165.825 -0 2615.396
+  coords 5165.825 0 2615.396
   angles 0 51.472 0
  }
  {
@@ -1077,15 +1186,15 @@ $grp Tree : "{9D5A19E49F68D237}Prefabs/Vegetation/Bush/Calamagrostis_epigejos/B_
   angles 0 51.472 0
  }
  {
-  coords 5160.29 -0 2620.573
+  coords 5160.29 0 2620.573
   angles 0 51.472 0
  }
  {
-  coords 5165.241 -0 2621.275
+  coords 5165.241 0 2621.275
   angles 0 51.472 0
  }
  {
-  coords 5168.946 -0 2622.195
+  coords 5168.946 0 2622.195
   angles 0 51.472 0
  }
  {
@@ -1101,7 +1210,7 @@ $grp Tree : "{9D5A19E49F68D237}Prefabs/Vegetation/Bush/Calamagrostis_epigejos/B_
   angles 0 51.472 0
  }
  {
-  coords 5171.721 -0 2624.612
+  coords 5171.721 0 2624.612
   angles 0 51.472 0
  }
  {
@@ -1109,7 +1218,7 @@ $grp Tree : "{9D5A19E49F68D237}Prefabs/Vegetation/Bush/Calamagrostis_epigejos/B_
   angles 0 51.472 0
  }
  {
-  coords 5157.808 -0 2613.032
+  coords 5157.808 0 2613.032
   angles 0 51.472 0
  }
  {
@@ -1236,12 +1345,12 @@ $grp Tree : "{B3453920EE605F13}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_c
   scale 0.999
  }
  {
-  coords 5142.287 -0 2632.099
+  coords 5142.287 0 2632.099
   angles 1.334 -95.936 0.413
   scale 0.999
  }
  {
-  coords 5147.095 -0 2569.756
+  coords 5147.095 0 2569.756
   angles 1.334 -95.936 0.413
   scale 0.999
  }
@@ -1318,6 +1427,10 @@ $grp GenericEntity : "{BE7B5BAFE1A16A50}Prefabs/Props/Military/Fortification/Bar
   angles 0 20.451 0
  }
 }
+GenericEntity : "{C16217D28884733B}Prefabs/Vehicles/zaz968/armst_zaz968_1_wreck.et" {
+ coords 5241.53 20 2541.096
+ angles 0 160.786 0
+}
 StaticModelEntity : "{C1D03F7CBD90D33E}Prefabs/Structures/Houses/Shed/Shed_03/Dst/Shed_03_Ruin.et" {
  coords 5189.578 20.197 2579.107
 }
@@ -1334,6 +1447,10 @@ Tree : "{C8E68C4C6AF159DA}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula
  angles -2.451 121.94 -1.946
  scale 0.963
 }
+GenericEntity : "{C97B6550A4C363E1}Prefabs/ZBK/Props/RoadBlock/RoadBlockEnd1m.et" {
+ coords 5232.171 20 2537.048
+ angles 0 84.653 0
+}
 $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" {
  {
   coords 5180.828 0 2581.703
@@ -1343,28 +1460,28 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angles 0 18.901 0
  }
  {
-  coords 5192.608 -0 2574.778
+  coords 5192.608 0 2574.778
  }
  {
   coords 5197.005 0 2587.427
  }
  {
-  coords 5184.053 -0 2568.91
+  coords 5184.053 0 2568.91
  }
  {
-  coords 5195.02 -0 2606.029
+  coords 5195.02 0 2606.029
  }
  {
   coords 5193.808 0 2600.164
  }
  {
-  coords 5187.357 -0 2618.676
+  coords 5187.357 0 2618.676
  }
  {
-  coords 5192.265 -0 2618.885
+  coords 5192.265 0 2618.885
  }
  {
-  coords 5184.946 -0 2623.524
+  coords 5184.946 0 2623.524
  }
  {
   coords 5180.87 0 2603.76
@@ -1373,14 +1490,14 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   coords 5176.283 0 2606.83
  }
  {
-  coords 5160.459 -0 2610.912
+  coords 5160.459 0 2610.912
  }
  {
   coords 5160.192 0 2605.889
   angles 0 33.398 0
  }
  {
-  coords 5151.923 -0 2569.278
+  coords 5151.923 0 2569.278
   angles 0 18.901 0
  }
  {
@@ -1388,16 +1505,16 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   angles 0 18.901 0
  }
  {
-  coords 5151.152 -0 2618.012
+  coords 5151.152 0 2618.012
  }
  {
   coords 5156.957 0 2619.429
  }
  {
-  coords 5162.645 -0 2623.539
+  coords 5162.645 0 2623.539
  }
  {
-  coords 5157.116 -0 2623.711
+  coords 5157.116 0 2623.711
  }
 }
 GenericEntity : "{CD493979D0222303}Prefabs/Props/Garbage/Bins/GarbageContainer_01.et" {
@@ -1418,7 +1535,7 @@ $grp GenericEntity : "{CEA239D9E1899899}Prefabs/Props/Garbage/Tires/TirePile_01_
 }
 $grp Tree : "{CF0A210B7AC7B329}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_2.et" {
  {
-  coords 5198.046 -0 2581.742
+  coords 5198.046 0 2581.742
   angles -0.272 34.674 1.834
   scale 1.177
  }
@@ -1438,7 +1555,7 @@ $grp Tree : "{CF0A210B7AC7B329}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_
   scale 1.177
  }
  {
-  coords 5168.584 -0 2611.836
+  coords 5168.584 0 2611.836
   angles -1.598 85.743 0.941
   scale 1.177
  }
@@ -1460,15 +1577,23 @@ $grp GenericEntity : "{D6AD6C10D512F6A1}Assets/Garbage/Prefabs/Garbage_pile_Blac
   coords 5148.036 21.037 2597.693
  }
 }
+GenericEntity : "{D6D2170EF91BDE4C}Prefabs/Compositions/Misc/SubCompositions/PalletFuel_Camo_US_01.et" {
+ coords 5225.097 20 2528.558
+ angles 0 -87.098 0
+}
 GenericEntity : "{D70B514EAEF45E49}Prefabs/Vehicles/gaz53/armst_gaz53_box_open_yellow.et" {
  coords 5180.407 19.954 2612.145
 }
 GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
  coords 5170.35 20 2580.773
 }
+GenericEntity : "{DA551CC890B8BCE7}Prefabs/ZBK/Props/RoadBlock/RoadBlockEnd.et" {
+ coords 5240.333 20 2535.389
+ angles 0 111.364 0
+}
 $grp Tree : "{DA7492F3E6B63251}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et" {
  {
-  coords 5102.625 -0 2586.981
+  coords 5102.625 0 2586.981
   angles -2.078 -7.569 0.631
   scale 1.2
  }
@@ -1486,6 +1611,10 @@ $grp Tree : "{DA7492F3E6B63251}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_
 GenericEntity : "{DA861447E6D426AE}Prefabs/Props/Industrial/Repair/VehicleGarbage_01_pile_small.et" {
  coords 5157.631 20 2592.652
  angles 0 109.236 0
+}
+GenericEntity : "{DB4F61D5F37432F7}Prefabs/Props/Military/Camps/PalletFuel_01.et" {
+ coords 5227.607 20 2528.496
+ angles 0 50.919 0
 }
 $grp GenericEntity : "{DDF59362051B28BC}Prefabs/Props/Military/Fortification/BarbedTape_KnifeRest.et" {
  {
@@ -1509,39 +1638,39 @@ $grp GenericEntity : "{DE658AC78172D02E}Prefabs/Props/Construction/GarbageStack_
 }
 $grp Tree : "{DFA6FDF75C211A07}Prefabs/Vegetation/Bush/Betula_Nana/b_betula_nana_1d_aut.et" {
  {
-  coords 5191.661 -0 2589.078
+  coords 5191.661 0 2589.078
  }
  {
   coords 5179.073 0 2592.97
   angles 0 -41.66 0
  }
  {
-  coords 5177.149 -0 2584.525
+  coords 5177.149 0 2584.525
  }
  {
   coords 5180.548 0 2578.655
   angles 0 -41.66 0
  }
  {
-  coords 5183.13 -0 2580.863
+  coords 5183.13 0 2580.863
   angles 0 -41.66 0
  }
  {
-  coords 5177.699 -0 2580.254
+  coords 5177.699 0 2580.254
   angles 0 16.437 0
  }
  {
-  coords 5190.948 -0 2576.396
+  coords 5190.948 0 2576.396
  }
  {
   coords 5185.37 0 2572.624
   angles 0 44.2 0
  }
  {
-  coords 5195.19 -0 2597.737
+  coords 5195.19 0 2597.737
  }
  {
-  coords 5191.552 -0 2598.859
+  coords 5191.552 0 2598.859
  }
  {
   coords 5186.75 0 2600.747
@@ -1564,7 +1693,7 @@ $grp Tree : "{DFA6FDF75C211A07}Prefabs/Vegetation/Bush/Betula_Nana/b_betula_nana
   coords 5170.813 0 2604.682
  }
  {
-  coords 5169.461 -0 2601.903
+  coords 5169.461 0 2601.903
  }
  {
   coords 5159.029 0 2592.309
@@ -1576,26 +1705,26 @@ $grp Tree : "{DFA6FDF75C211A07}Prefabs/Vegetation/Bush/Betula_Nana/b_betula_nana
   coords 5157.453 0 2587.016
  }
  {
-  coords 5151.293 -0 2582.726
+  coords 5151.293 0 2582.726
  }
  {
-  coords 5156.687 -0 2580.244
+  coords 5156.687 0 2580.244
  }
  {
   coords 5153.543 0 2581.143
   angles 0 55.702 0
  }
  {
-  coords 5169.462 -0 2615.362
+  coords 5169.462 0 2615.362
  }
  {
   coords 5170.113 0 2618.353
  }
  {
-  coords 5174.741 -0 2615.105
+  coords 5174.741 0 2615.105
  }
  {
-  coords 5178.159 -0 2616.452
+  coords 5178.159 0 2616.452
  }
  {
   coords 5174.237 0 2617.936
@@ -1604,7 +1733,7 @@ $grp Tree : "{DFA6FDF75C211A07}Prefabs/Vegetation/Bush/Betula_Nana/b_betula_nana
   coords 5172.205 0 2613.165
  }
  {
-  coords 5176.086 -0 2612.254
+  coords 5176.086 0 2612.254
  }
  {
   coords 5164.326 0 2592.876
@@ -1615,11 +1744,11 @@ $grp Tree : "{DFA6FDF75C211A07}Prefabs/Vegetation/Bush/Betula_Nana/b_betula_nana
   angles 0 -58.694 0
  }
  {
-  coords 5165.132 -0 2595.074
+  coords 5165.132 0 2595.074
   angles 0 126.285 0
  }
  {
-  coords 5167.682 -0 2592.845
+  coords 5167.682 0 2592.845
  }
 }
 $grp GenericEntity : "{E021E2FFF02ADF0C}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_01/LampStreet_E_01_4m.et" {
@@ -1627,7 +1756,7 @@ $grp GenericEntity : "{E021E2FFF02ADF0C}Prefabs/Structures/Infrastructure/Lamps/
   coords 5159.282 -0.01 2602.524
  }
  {
-  coords 5150.777 -0 2603.868
+  coords 5150.777 0 2603.868
  }
 }
 $grp GenericEntity : "{E1527A4842CA39A7}Prefabs/Vehicles/liaz2/armst_liaz677_2_wreck.et" {
@@ -1660,6 +1789,10 @@ GenericEntity : "{E53D99253A16B16F}Prefabs/Vehicles/raf2203/armst_raf2203_2_wrec
  coords 5130.591 20.57 2574.748
  angles -4.256 -0.316 4.247
 }
+GenericEntity : "{E7B9D08AA65270BE}Prefabs/Vehicles/gaz66/armst_gaz66_box.et" {
+ coords 5240.851 20.474 2523.074
+ angles 0 -175.178 0
+}
 SCR_DestructibleBuildingEntity : "{ED801C51A632FC51}Prefabs/Structures/Construcoes_Ruinas/ConstructArea5.et" {
  coords 5419.014 0 3093.815
  angles 0 -89.263 0
@@ -1685,9 +1818,15 @@ GenericEntity : "{F35FFCC271B2E4FB}Prefabs/Compositions/Misc/SubCompositions/Tir
  coords 5165.081 19.935 2604.186
  angles 0 0 0
 }
-SCR_DestructibleBuildingEntity : "{F4E08FE7DD7264EB}Prefabs/Vehicles/azlk412/armst_azlk412_1.et" {
- coords 5143.648 20 2598.37
- angles 0 48.724 0
+$grp SCR_DestructibleBuildingEntity : "{F4E08FE7DD7264EB}Prefabs/Vehicles/azlk412/armst_azlk412_1.et" {
+ {
+  coords 5143.648 20 2598.37
+  angles 0 48.724 0
+ }
+ {
+  coords 5110.676 20.159 2599.356
+  angles 0 25.523 0
+ }
 }
 SCR_DestructibleBuildingEntity : "{F50905235FBAA094}Prefabs/Structures/Military/Houses/GuardBox_01/GuardBox_01_beige.et" {
  coords 5197.425 0.016 2597.023
@@ -1708,6 +1847,11 @@ $grp GenericEntity : "{F971B612CD2CA718}Prefabs/Vehicles/mi8/armst_mi6_wreck.et"
 }
 StaticModelEntity : "{FA38A5A1587E47E6}Prefabs/Structures/Infrastructure/Power/Powerlines/Powerline_HV_USSR_01/Dst/Powerline_HV_USSR_01_end_v3_Ruin_base.et" {
  coords 5148.634 20 2575.26
+}
+Tree : "{FE0BD218E0E417A3}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_carpinus_betulus_3d.et" {
+ coords 5266.367 0 2443.268
+ angles 1.345 21.83 -2.599
+ scale 0.807
 }
 GenericEntity : "{FE5FDD935F356103}Prefabs/Compositions/Misc/SubCompositions/Garbage/Tire_Stack_US_02.et" {
  coords 5140.458 20 2605.617
