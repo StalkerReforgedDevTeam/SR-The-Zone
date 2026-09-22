@@ -973,7 +973,7 @@ $grp PolylineShapeEntity {
   coords 5312.411 28.945 3815.616
   Points {
    ShapePoint "{6A6C117EDD3B4F88}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{6A6C117EDD3B5835}" {
     Position 13.356 4.612 13.734
@@ -1034,7 +1034,7 @@ $grp PolylineShapeEntity {
       }
      }
      SCR_DestructibleEntity : "{A786DACFAA0BE670}Prefabs/Structures/Walls/BarbedWire/NetFence_USSR_01/NetFence_USSR_01_D_start.et" {
-      coords 0 -0 0
+      coords 0 0 0
       angles 0 -45.799 0
      }
      SCR_DestructibleEntity : "{D7BDCA21659E98D8}Prefabs/Structures/Walls/BarbedWire/NetFence_USSR_01/NetFence_USSR_01_D_end.et" {
@@ -1049,7 +1049,7 @@ $grp PolylineShapeEntity {
   coords 5299.798 28.503 3801.198
   Points {
    ShapePoint "{6A6C117E95C476E0}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{6A6C117E95C44742}" {
     Position -25.67 9.285 -26.356
@@ -1084,12 +1084,175 @@ $grp PolylineShapeEntity {
       }
      }
      SCR_DestructibleEntity : "{A786DACFAA0BE670}Prefabs/Structures/Walls/BarbedWire/NetFence_USSR_01/NetFence_USSR_01_D_start.et" {
-      coords 0 -0 0
+      coords 0 0 0
       angles 0 -225.755 0
      }
      SCR_DestructibleEntity : "{D7BDCA21659E98D8}Prefabs/Structures/Walls/BarbedWire/NetFence_USSR_01/NetFence_USSR_01_D_end.et" {
       coords -20.768 1.642 -21.322
       angles 0 -225.755 0
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 5358.774 20 3053.977
+  Points {
+   ShapePoint "{6A6CEEE093AA51C8}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6A6CEEE093AA6FAD}" {
+    Position 0.802 0.163 -34.972
+   }
+   ShapePoint "{6A6CEEE08CBF9C82}" {
+    Position -42.739 0.902 -38.904
+   }
+   ShapePoint "{6A6CEEE08A17C555}" {
+    Position -44.068 0 -13.65
+   }
+   ShapePoint "{6A6CEEE0FB949E45}" {
+    Position -26.698 0 -12.46
+   }
+   ShapePoint "{6A6CEEE0E513060D}" {
+    Position -26.969 0 12.058
+   }
+   ShapePoint "{6A6CEEE0E31076EA}" {
+    Position -25.011 0 12.62
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{C8ED51B637A27550}Prefabs/WEGenerators/Walls/Net/WG_NetFence_01_Blue.et" {
+    Flags 0x100003 0
+    m_iSeed 32182
+    {
+     $grp SCR_DestructibleEntity : "{24D3E6B2CB3B0697}PrefabLibrary/DefaultLibrary/Walls/Net/NetFence_01_2m_blue.et" {
+      {
+       coords -39.023 0.89 -38.57
+       angles 0 -185.132 0
+      }
+      {
+       coords -29.103 0 -12.665
+       angles 0 -4.869 0
+      }
+     }
+     SCR_DestructibleEntity : "{314E7752E0960F23}PrefabLibrary/DefaultLibrary/Walls/Net/NetFence_01_2m_End_blue.et" {
+      coords -26.988 0 12.547
+      angles 0 -2.115 0
+     }
+     $grp SCR_DestructibleEntity : "{A533A4F9A7020219}PrefabLibrary/DefaultLibrary/Walls/Net/NetFence_01_4m_blue.et" {
+      {
+       coords -0 0 0.01
+       angles 0 88.686 0
+      }
+      {
+       coords 0.114 0 -4.989
+       angles 0 88.686 0
+      }
+      {
+       coords 0.229 0 -9.988
+       angles 0 88.686 0
+      }
+      {
+       coords 0.344 0 -14.987
+       angles 0 88.686 0
+      }
+      {
+       coords 0.458 0 -19.986
+       angles 0 88.686 0
+      }
+      {
+       coords 0.573 0.016 -24.985
+       angles 0 88.686 0
+      }
+      {
+       coords 0.688 0.063 -29.984
+       angles 0 88.686 0
+      }
+      {
+       coords 0.813 0.163 -34.992
+       angles 0 -185.132 0
+      }
+      {
+       coords -4.167 0.255 -35.439
+       angles 0 -185.132 0
+      }
+      {
+       coords -9.146 0.345 -35.887
+       angles 0 -185.132 0
+      }
+      {
+       coords -14.126 0.45 -36.334
+       angles 0 -185.132 0
+      }
+      {
+       coords -19.105 0.555 -36.781
+       angles 0 -185.132 0
+      }
+      {
+       coords -24.085 0.661 -37.228
+       angles 0 -185.132 0
+      }
+      {
+       coords -29.064 0.794 -37.676
+       angles 0 -185.132 0
+      }
+      {
+       coords -34.043 0.855 -38.123
+       angles 0 -185.132 0
+      }
+      {
+       coords -41.522 0.908 -38.805
+       angles 0 -95.781 0
+      }
+      {
+       coords -42.025 0.567 -33.833
+       angles 0 -95.781 0
+      }
+      {
+       coords -42.528 0.291 -28.862
+       angles 0 -95.781 0
+      }
+      {
+       coords -43.032 0.122 -23.89
+       angles 0 -95.781 0
+      }
+      {
+       coords -43.535 0.031 -18.918
+       angles 0 -95.781 0
+      }
+      {
+       coords -44.049 0 -13.938
+       angles 0 -4.869 0
+      }
+      {
+       coords -39.067 0 -13.513
+       angles 0 -4.869 0
+      }
+      {
+       coords -34.085 0 -13.089
+       angles 0 -4.869 0
+      }
+      {
+       coords -26.602 0 -12.461
+       angles 0 -90.859 0
+      }
+      {
+       coords -26.677 0 -7.462
+       angles 0 -90.859 0
+      }
+      {
+       coords -26.752 0 -2.462
+       angles 0 -90.859 0
+      }
+      {
+       coords -26.826 0 2.538
+       angles 0 -90.859 0
+      }
+      {
+       coords -26.901 0 7.538
+       angles 0 -90.859 0
+      }
      }
     }
    }
@@ -29086,6 +29249,44 @@ $grp SplineShapeEntity {
       }
      }
     }
+   }
+  }
+ }
+ {
+  coords 5362.529 19.646 3097.086
+  Points {
+   ShapePoint "{6A6CEEE36A1BE0FA}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6A6CEEE36A188194}" {
+    Position 0.287 -0.202 2.656
+   }
+   ShapePoint "{6A6CEEE36815498E}" {
+    Position 1.444 -0.193 4.026
+   }
+   ShapePoint "{6A6CEEE357906635}" {
+    Position 3.178 -0.326 3.703
+   }
+   ShapePoint "{6A6CEEE3572D08B2}" {
+    Position 4.337 -0.213 2.631
+   }
+   ShapePoint "{6A6CEEE356AFA51C}" {
+    Position 4.44 -0.162 0.983
+   }
+   ShapePoint "{6A6CEEE355FFEC5B}" {
+    Position 3.054 0.044 -0.467
+   }
+   ShapePoint "{6A6CEEE355826AB1}" {
+    Position 1.748 -0.189 -0.819
+   }
+   ShapePoint "{6A6CEEE355232756}" {
+    Position 0.305 -0.061 -0.083
+   }
+  }
+  IsClosed 1
+  {
+   LakeGeneratorEntity : "{1F2254A7C9C8AA57}Prefabs/WEGenerators/Water/Lake/LG_Lake_01.et" {
+    coords 0 0 0
    }
   }
  }
