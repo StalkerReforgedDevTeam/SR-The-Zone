@@ -1,16 +1,81 @@
-GenericEntity {
- components {
-  MeshObject "{6A35715C0619A798}" {
-   Object "{BB526512FF6F5F5D}Assets/Structures/Military/Radar/ApproachRadar_01/Dst/ApproachRadar_RPL5_01_antenna_dst_01_debris_02.xob"
+$grp GenericEntity {
+ {
+  components {
+   MeshObject "{6A35715C0619A798}" {
+    Object "{BB526512FF6F5F5D}Assets/Structures/Military/Radar/ApproachRadar_01/Dst/ApproachRadar_RPL5_01_antenna_dst_01_debris_02.xob"
+   }
+  }
+  coords 5200.458 -9.257 2775.776
+  angles 16.121 143.314 -11.687
+  scale 9.611
+ }
+ {
+  components {
+   SCR_SlotCompositionComponent "{6A6C1171CA94FC5B}" {
+   }
+   ActionsManagerComponent "{6A6C1171CA94FB7B}" {
+    ActionContexts {
+     UserActionContext "{6A6C1171CA94FBAF}" {
+      ContextName "Disassembly"
+      Position PointInfo "{6A6C1171CA94FBAC}" {
+       Offset 0 0.5 0
+      }
+      Radius 10
+     }
+    }
+    additionalActions {
+     SCR_CampaignBuildingDisassemblyUserAction "{6A6C1171CA94FB79}" {
+      ParentContextList {
+       "Disassembly"
+      }
+      UIInfo UIInfo "{6A6C1171CA94FB99}" {
+       Name "#AR-UserAction_Disassemble"
+       Description "#AR-UserAction_DisassembleItem"
+      }
+      VisibilityRange 10
+      Duration 20
+     }
+    }
+   }
+   RplComponent "{6A6C1171CA94FB64}" {
+   }
+   Hierarchy "{6A6C1171CA94FB62}" {
+    Enabled 1
+   }
+  }
+  Flags 0x403 0
+  coords 5326.435 29.684 3815.036
+  angles 0 19.453 0
+  {
+   GenericEntity : "{00D81DF03240564B}Prefabs/Structures/Military/Camps/Canvas_Covers/Soviet/CanvasCover_Small_A_Soviet.et" {
+    components {
+     Hierarchy "{5DD8F4F21CB41655}" {
+      Enabled 1
+     }
+    }
+    coords 0.086 -0.003 -0.274
+    angles -1.302 -179.953 2.17
+   }
   }
  }
- coords 5200.458 -9.257 2775.776
- angles 16.121 143.314 -11.687
- scale 9.611
 }
 GenericEntity : "{002B8C09F0E7E371}Prefabs/Props/Wrecks/S1203_wreck/S1203_wreck_static.et" {
  coords 5371.698 20 2667.733
  angles 0 35.472 0
+}
+$grp SCR_DestructibleEntity : "{009EA26048832312}Prefabs/Structures/Industrial/Pipelines/ProductPipeline_01/ProductPipeline_USSR_01_low_corner.et" {
+ {
+  coords 5313.086 28.9 3812.249
+  angles 0 134.277 0
+ }
+ {
+  coords 5309.273 28.9 3815.967
+  angles 0 -46.249 0
+ }
+ {
+  coords 5312.733 28.9 3819.623
+  angles 0 132.98 0
+ }
 }
 GenericEntity : "{013297BA01640EBA}Prefabs/Trash/Ammo/GarbageAmmunition_USSR_02.et" {
  coords 5158.667 20.005 2592.784
@@ -293,9 +358,15 @@ $grp GenericEntity : "{3164EA90BEC61EF2}Prefabs/Vehicles/vaz2105/armst_vaz2105_1
   angles 0 12.323 0
  }
 }
-SCR_DestructibleBuildingEntity : "{3177788C81331648}Prefabs/Industrial/builds/bitovka_wheels2.et" {
- coords 5385.966 20 2689.976
- angles 0 0 0
+$grp SCR_DestructibleBuildingEntity : "{3177788C81331648}Prefabs/Industrial/builds/bitovka_wheels2.et" {
+ {
+  coords 5385.966 20 2689.976
+  angles 0 0 0
+ }
+ {
+  coords 5319.345 29.262 3815.221
+  angles 3.715 62.168 1.071
+ }
 }
 GenericEntity : "{3386EAA823BE462E}Prefabs/Props/Wrecks/UAZ469_wreck/UAZ469_wreck_static.et" {
  coords 5199.164 19.533 2585.783
@@ -752,6 +823,16 @@ $grp Tree : "{5F21E8929D3BE885}Prefabs/Vegetation/Bush/b_phragmites_australis_1_
   coords 5193.387 0 2572.538
  }
 }
+$grp SCR_DestructibleEntity : "{60D0FF15D5DD2CCE}Prefabs/Structures/Industrial/Pipelines/ProductPipeline_01/ProductPipeline_USSR_01_end.et" {
+ {
+  coords 5282.576 29.995 3780.916
+  angles 0 -48.812 0.784
+ }
+ {
+  coords 5309.6 29.154 3822.468
+  angles 0 41.334 0
+ }
+}
 $grp GenericEntity : "{62A2AC8BAF5AE7D6}Prefabs/Infrastructure/Railways/Concrete stop.et" {
  {
   coords 5171.97 0.455 2815.917
@@ -794,6 +875,10 @@ GenericEntity : "{6BE5C753730DBFED}Prefabs/Props/Wrecks/M923A1_wreck/M923A1_wrec
 GenericEntity : "{6C57BFFFA642C60C}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_04.et" {
  coords 5160.626 19.941 2603.799
  angles 0 112.389 0
+}
+SCR_DestructibleBuildingEntity : "{71F0C3F12DCFF4C3}Prefabs/Industrial/builds/house_01.et" {
+ coords 5287.107 28.396 3799.829
+ angles 0 -134.317 0
 }
 $grp GenericEntity : "{73314E7C8FFC5B1C}Prefabs/Vehicles/gaz24/armst_gaz24_1_wreck.et" {
  {
@@ -897,6 +982,10 @@ GenericEntity : "{8158EFF339FE1F11}Prefabs/Vehicles/zil131/armst_zil131_open.et"
 GenericEntity : "{81AA8743455F68A5}Prefabs/Vehicles/uaz452/armst_uaz452_open_wheels.et" {
  coords 5139.421 20 2573.076
  angles 0 11.314 0
+}
+SCR_DestructibleEntity : "{8296A47E98E36752}Prefabs/Structures/Industrial/Pipelines/ProductPipeline_01/ProductPipeline_USSR_01_underpass_wide.et" {
+ coords 5300.618 28.104 3799.817
+ angles 0 -44.935 0
 }
 $grp SCR_DestructibleBuildingEntity : "{838F1E7BFB3C23FA}Prefabs/Vehicles/azlk412/armst_azlk412_wreck2.et" {
  {
@@ -1434,6 +1523,23 @@ $grp GenericEntity : "{A446CB3C732A360D}Prefabs/Props/Garbage/Generic/Junk_01/Ju
   angles 0 -42.567 0
  }
 }
+$grp GenericEntity : "{A52C57FE8549A13E}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_10ft_red.et" {
+ {
+  coords 5327.085 29.648 3813.221
+  angles 3.591 0 0
+  scale 0.3
+ }
+ {
+  coords 5325.122 29.552 3813.423
+  angles 3.957 -20.467 -1.475
+  scale 0.3
+ }
+ {
+  coords 5325.122 30.338 3813.365
+  angles 2.847 -47.652 -3.119
+  scale 0.3
+ }
+}
 $grp GenericEntity : "{A5732C6073957A71}Prefabs/Vehicles/vaz2105/base/BASE_vaz2105_wreck.et" {
  {
   coords 5142.268 20 2607.941
@@ -1816,6 +1922,10 @@ GenericEntity : "{DB4F61D5F37432F7}Prefabs/Props/Military/Camps/PalletFuel_01.et
  coords 5227.607 20 2528.496
  angles 0 50.919 0
 }
+StaticModelEntity : "{DBAFF105C2969F61}Prefabs/Structures/Airport/AirfieldPipeline_01/AirfieldPipeline_01_shed.et" {
+ coords 5287.359 29.008 3808.138
+ angles 0 45.368 0
+}
 $grp GenericEntity : "{DDF59362051B28BC}Prefabs/Props/Military/Fortification/BarbedTape_KnifeRest.et" {
  {
   coords 5170.822 20 2585.4
@@ -1991,6 +2101,10 @@ StaticModelEntity : "{E4839DA6A7069645}Prefabs/Props/Wrecks/ShipWreckMetal_01/Sh
 GenericEntity : "{E4BE27AA5AD0C035}Prefabs/Infrastructure/Railways/Railway 25M.et" {
  coords 5150.553 20 2816.056
  angles 0 90 0
+}
+SCR_DestructibleEntity : "{E4EA3C511189114B}Prefabs/Structures/Industrial/Pipelines/ProductPipeline_01/ProductPipeline_USSR_01_low_24m.et" {
+ coords 5284.275 29.613 3782.81
+ angles 0 -46.197 -0.066
 }
 GenericEntity : "{E53D99253A16B16F}Prefabs/Vehicles/raf2203/armst_raf2203_2_wreck.et" {
  coords 5130.591 20.57 2574.748
