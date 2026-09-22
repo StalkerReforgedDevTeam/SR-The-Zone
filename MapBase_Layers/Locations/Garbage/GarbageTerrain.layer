@@ -3,13 +3,13 @@ $grp PolylineShapeEntity {
   coords 5199.903 20 2812.985
   Points {
    ShapePoint "{6A20D68B1AB91EDD}" {
-    Position 21.285 -0.119 -6.673
+    Position 21.227 0 -1.751
    }
    ShapePoint "{6A20D68B1AB90D46}" {
-    Position 20.695 -0.585 -39.183
+    Position 20.418 0 -50.073
    }
    ShapePoint "{6A20D68B1535EA37}" {
-    Position -101.737 2.841 -35.89
+    Position -102.872 0.62 -51.866
    }
    ShapePoint "{6A20D68B175EC640}" {
     Position -98.9 -0.031 4.031
@@ -17,306 +17,173 @@ $grp PolylineShapeEntity {
   }
   LineColor 0 0 0 0
   {
-   WallGeneratorEntity : "{CB2D3046A8023287}Prefabs/WEGenerators/Walls/Concrete/WG_ConcreteWall_USSR_03.et" {
+   WallGeneratorEntity : "{E00BA421CC399343}Prefabs/WEGenerators/Walls/Concrete/WG_ConcreteWall_01.et" {
     Flags 0x100003 0
-    m_iSeed 19503
+    coords 0 0 0
+    m_iSeed 18583
     {
-     $grp SCR_DestructibleEntity : "{0DBCD231BF0A3C56}Prefabs/Structures/Walls/Concrete/ConcreteWall_USSR_01/ConcreteWall_USSR_01_damaged_V1.et" {
+     $grp SCR_DestructibleEntity : "{2BA5C7F599779832}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_6m_D_A.et" {
       {
-       coords 21.285 0 -6.673
-       angles 0 -268.96 0
+       coords 20.534 0 -43.16
+       angles 0 -269.042 0
       }
       {
-       coords 1.824 0.062 -38.548
-       angles 0 -178.529 0
-      }
-      {
-       coords -22.442 0.062 -37.926
-       angles 0 -178.529 0
+       coords -32.792 0.062 -50.345
+       angles 0 -181.243 0
       }
      }
-     $grp SCR_DestructibleEntity : "{27EB771E3DD9C354}Prefabs/Structures/Walls/Concrete/ConcreteWall_USSR_01/ConcreteWall_USSR_01_V1.et" {
+     $grp SCR_DestructibleEntity : "{350B1D05E8446B1C}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_6m_A.et" {
       {
-       coords 21.187 0 -12.066
-       angles 0 -268.96 0
+       coords 20.732 0 -31.315
+       angles 0 -269.042 0
       }
       {
-       coords 21.138 0 -14.763
-       angles 0 -268.96 0
+       coords 20.633 0 -37.237
+       angles 0 -269.042 0
       }
       {
-       coords 20.795 0 -33.64
-       angles 0 -268.96 0
+       coords 20.541 0 -49.188
+       angles 0 -181.243 0
       }
       {
-       coords 20.747 0 -36.336
-       angles 0 -268.96 0
+       coords 14.619 0 -49.316
+       angles 0 -181.243 0
       }
       {
-       coords 18.001 0 -38.964
-       angles 0 -178.529 0
+       coords 8.698 0 -49.445
+       angles 0 -181.243 0
       }
       {
-       coords 15.305 0 -38.895
-       angles 0 -178.529 0
+       coords -3.158 0.062 -49.702
+       angles 0 -181.243 0
       }
       {
-       coords 7.216 0.062 -38.687
-       angles 0 -178.529 0
+       coords -20.942 0.062 -50.088
+       angles 0 -181.243 0
       }
       {
-       coords -6.264 0.062 -38.341
-       angles 0 -178.529 0
+       coords -38.714 0.062 -50.474
+       angles 0 -181.243 0
       }
       {
-       coords -11.657 0.062 -38.202
-       angles 0 -178.529 0
+       coords -56.503 0.062 -50.86
+       angles 0 -181.243 0
       }
       {
-       coords -14.353 0.062 -38.133
-       angles 0 -178.529 0
+       coords -74.293 0.231 -51.246
+       angles 0 -181.243 0
       }
       {
-       coords -19.746 0.062 -37.995
-       angles 0 -178.529 0
+       coords -86.148 0.602 -51.503
+       angles 0 -181.243 0
       }
       {
-       coords -27.834 0.062 -37.787
-       angles 0 -178.529 0
+       coords -100.355 0.062 -34.149
+       angles 0 -87.817 0
       }
       {
-       coords -30.531 0.062 -37.718
-       angles 0 -178.529 0
+       coords -100.13 0.062 -28.231
+       angles 0 -87.817 0
       }
       {
-       coords -35.923 0.062 -37.579
-       angles 0 -178.529 0
+       coords -99.904 0.062 -22.312
+       angles 0 -87.817 0
       }
       {
-       coords -38.619 0.062 -37.51
-       angles 0 -178.529 0
-      }
-      {
-       coords -44.012 0.062 -37.372
-       angles 0 -178.529 0
-      }
-      {
-       coords -46.708 0.062 -37.303
-       angles 0 -178.529 0
-      }
-      {
-       coords -54.797 0.062 -37.095
-       angles 0 -178.529 0
-      }
-      {
-       coords -57.493 0.062 -37.026
-       angles 0 -178.529 0
-      }
-      {
-       coords -68.278 0.062 -36.749
-       angles 0 -178.529 0
-      }
-      {
-       coords -76.367 0.062 -36.541
-       angles 0 -178.529 0
-      }
-      {
-       coords -87.152 0.062 -36.264
-       angles 0 -178.529 0
-      }
-      {
-       coords -92.544 0.062 -36.126
-       angles 0 -178.529 0
-      }
-      {
-       coords -100.633 0.062 -35.918
-       angles 0 -87.516 0
-      }
-      {
-       coords -100.165 0.062 -25.14
-       angles 0 -87.516 0
-      }
-      {
-       coords -99.815 0.062 -17.056
-       angles 0 -87.516 0
-      }
-      {
-       coords -99.347 0.062 -6.278
-       angles 0 -87.516 0
+       coords -99.226 0.062 -4.532
+       angles 0 -87.817 0
       }
      }
-     $grp SCR_DestructibleEntity : "{4BBF43FE811D4C7A}Prefabs/Structures/Walls/Concrete/ConcreteWall_USSR_01/ConcreteWall_USSR_01_V2.et" {
+     SCR_DestructibleEntity : "{47F1F31525B3171C}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_6m_D_B.et" {
+      coords -100.807 0.36 -46.003
+      angles 0 -87.817 0
+     }
+     $grp SCR_DestructibleEntity : "{595F29E55480E432}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_6m_B.et" {
       {
-       coords 21.236 0 -9.369
-       angles 0 -268.96 0
+       coords 21.228 0 -1.643
+       angles 0 -269.042 0
       }
       {
-       coords 21.089 0 -17.459
-       angles 0 -268.96 0
+       coords 21.129 0 -7.577
+       angles 0 -269.042 0
       }
       {
-       coords 21.04 0 -20.156
-       angles 0 -268.96 0
+       coords 21.03 0 -13.512
+       angles 0 -269.042 0
       }
       {
-       coords -17.049 0.062 -38.064
-       angles 0 -178.529 0
+       coords 20.931 0 -19.446
+       angles 0 -269.042 0
       }
       {
-       coords -33.227 0.062 -37.649
-       angles 0 -178.529 0
+       coords 20.831 0 -25.38
+       angles 0 -269.042 0
       }
       {
-       coords -41.316 0.062 -37.441
-       angles 0 -178.529 0
+       coords 2.776 0.044 -49.573
+       angles 0 -181.243 0
       }
       {
-       coords -73.67 0.062 -36.61
-       angles 0 -178.529 0
+       coords -9.08 0.062 -49.83
+       angles 0 -181.243 0
       }
       {
-       coords -84.455 0.062 -36.334
-       angles 0 -178.529 0
+       coords -44.636 0.057 -50.602
+       angles 0 -181.243 0
       }
       {
-       coords -95.24 0.31 -36.057
-       angles 0 -178.529 0
+       coords -50.57 0.035 -50.731
+       angles 0 -181.243 0
       }
       {
-       coords -97.937 0.319 -35.987
-       angles 0 -178.529 0
+       coords -62.425 0.062 -50.988
+       angles 0 -181.243 0
       }
       {
-       coords -100.516 0.062 -33.224
-       angles 0 -87.516 0
+       coords -68.359 0.101 -51.117
+       angles 0 -181.243 0
       }
       {
-       coords -100.282 0.062 -27.835
-       angles 0 -87.516 0
+       coords -80.215 0.489 -51.374
+       angles 0 -181.243 0
       }
       {
-       coords -99.932 0.062 -19.751
-       angles 0 -87.516 0
+       coords -92.07 0.614 -51.631
+       angles 0 -181.243 0
       }
       {
-       coords -99.581 0.062 -11.668
-       angles 0 -87.516 0
+       coords -101.033 0.638 -51.934
+       angles 0 -87.817 0
       }
       {
-       coords -99.464 0.062 -8.973
-       angles 0 -87.516 0
+       coords -100.581 0.159 -40.08
+       angles 0 -87.817 0
       }
       {
-       coords -99.23 0.062 -3.584
-       angles 0 -87.516 0
+       coords -99.678 0.062 -16.393
+       angles 0 -87.817 0
       }
       {
-       coords -99.113 0.062 -0.889
-       angles 0 -87.516 0
+       coords -99.452 0.062 -10.463
+       angles 0 -87.817 0
       }
      }
-     $grp SCR_DestructibleEntity : "{61E8E6D103CEB378}Prefabs/Structures/Walls/Concrete/ConcreteWall_USSR_01/ConcreteWall_USSR_01_damaged_V2.et" {
-      {
-       coords -0.873 0.062 -38.479
-       angles 0 -178.529 0
-      }
-      {
-       coords -3.568 0.062 -38.41
-       angles 0 -178.529 0
-      }
-      {
-       coords -70.974 0.062 -36.68
-       angles 0 -178.529 0
-      }
-      {
-       coords -99.698 0.062 -14.362
-       angles 0 -87.516 0
-      }
+     SCR_DestructibleEntity : "{95A1D31077D47BEA}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_Pole.et" {
+      coords -99 0.062 1.395
+      angles 0 -87.817 0
      }
-     SCR_DestructibleEntity : "{850FA846E37E385D}Prefabs/Structures/Walls/Concrete/ConcreteWall_USSR_01/ConcreteWall_USSR_01_pillar.et" {
-      coords -98.996 0.062 1.805
-      angles 0 -87.516 0
+     SCR_DestructibleEntity : "{CAFF4B51059A0F81}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_3m.et" {
+      coords -98.004 0.63 -51.76
+      angles 0 -181.243 0
      }
-     $grp SCR_DestructibleEntity : "{AE230F078DF8DB11}Prefabs/Structures/Walls/Concrete/ConcreteWall_USSR_01/ConcreteWall_USSR_01_V3.et" {
+     $grp SCR_DestructibleEntity : "{D242B6296793D56E}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_D.et" {
       {
-       coords 20.991 0 -22.853
-       angles 0 -268.96 0
+       coords -15.013 0.062 -49.959
+       angles 0 -181.243 0
       }
       {
-       coords 20.942 0 -25.55
-       angles 0 -268.96 0
-      }
-      {
-       coords 20.893 0 -28.246
-       angles 0 -268.96 0
-      }
-      {
-       coords 20.844 0 -30.943
-       angles 0 -268.96 0
-      }
-      {
-       coords 20.698 0 -39.033
-       angles 0 -178.529 0
-      }
-      {
-       coords 12.609 0 -38.825
-       angles 0 -178.529 0
-      }
-      {
-       coords 9.913 0.062 -38.756
-       angles 0 -178.529 0
-      }
-      {
-       coords 4.52 0.062 -38.618
-       angles 0 -178.529 0
-      }
-      {
-       coords -8.961 0.062 -38.272
-       angles 0 -178.529 0
-      }
-      {
-       coords -25.138 0.062 -37.856
-       angles 0 -178.529 0
-      }
-      {
-       coords -49.404 0.062 -37.233
-       angles 0 -178.529 0
-      }
-      {
-       coords -52.101 0.062 -37.164
-       angles 0 -178.529 0
-      }
-      {
-       coords -60.189 0.062 -36.957
-       angles 0 -178.529 0
-      }
-      {
-       coords -62.886 0.062 -36.887
-       angles 0 -178.529 0
-      }
-      {
-       coords -65.582 0.062 -36.818
-       angles 0 -178.529 0
-      }
-      {
-       coords -79.063 0.062 -36.472
-       angles 0 -178.529 0
-      }
-      {
-       coords -81.759 0.062 -36.403
-       angles 0 -178.529 0
-      }
-      {
-       coords -89.848 0.062 -36.195
-       angles 0 -178.529 0
-      }
-      {
-       coords -100.399 0.062 -30.529
-       angles 0 -87.516 0
-      }
-      {
-       coords -100.049 0.062 -22.445
-       angles 0 -87.516 0
+       coords -26.864 0.062 -50.216
+       angles 0 -181.243 0
       }
      }
     }
@@ -327,336 +194,162 @@ $grp PolylineShapeEntity {
   coords 5199.99 20 2818.799
   Points {
    ShapePoint "{6A20D68B22216847}" {
-    Position 23.112 0.453 9.307
+    Position 21.459 0 1.181
    }
    ShapePoint "{6A20D68B2220A462}" {
-    Position 22.709 -0.064 38.971
+    Position 21.729 0 29.944
    }
    ShapePoint "{6A20D68B39B64438}" {
-    Position -101.28 0.275 52.422
+    Position -100.76 0.062 39.581
    }
    ShapePoint "{6A20D68B34FE7964}" {
-    Position -99.169 -0.031 0.251
+    Position -99.271 0.062 2.763
    }
   }
   LineColor 0 0 0 0
   {
-   WallGeneratorEntity : "{CB2D3046A8023287}Prefabs/WEGenerators/Walls/Concrete/WG_ConcreteWall_USSR_03.et" {
+   WallGeneratorEntity : "{E00BA421CC399343}Prefabs/WEGenerators/Walls/Concrete/WG_ConcreteWall_01.et" {
     Flags 0x100003 0
-    m_iSeed 24489
+    m_iSeed 13936
     {
-     $grp SCR_DestructibleEntity : "{0DBCD231BF0A3C56}Prefabs/Structures/Walls/Concrete/ConcreteWall_USSR_01/ConcreteWall_USSR_01_damaged_V1.et" {
+     SCR_DestructibleEntity : "{2BA5C7F599779832}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_6m_D_A.et" {
+      coords -99.249 0.062 15.811
+      angles 0 -269.905 0
+     }
+     $grp SCR_DestructibleEntity : "{350B1D05E8446B1C}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_6m_A.et" {
       {
-       coords -1.424 0.062 41.59
-       angles 0 -173.809 0
+       coords 21.57 0 12.943
+       angles 0 -89.462 0
       }
       {
-       coords -47.008 -0.099 46.535
-       angles 0 -173.809 0
+       coords 21.625 0 18.866
+       angles 0 -89.462 0
       }
       {
-       coords -89.91 -0.001 51.189
-       angles 0 -173.809 0
+       coords 15.909 0 28.372
+       angles 0 -174.513 0
       }
       {
-       coords -97.954 0.103 52.061
-       angles 0 -173.809 0
+       coords 4.105 0.062 29.506
+       angles 0 -174.513 0
       }
       {
-       coords -100.332 0.062 41.568
-       angles 0 88.387 0
+       coords -13.6 0.062 31.207
+       angles 0 -174.513 0
+      }
+      {
+       coords -19.496 0.033 31.774
+       angles 0 -174.513 0
+      }
+      {
+       coords -25.392 0.036 32.34
+       angles 0 -174.513 0
+      }
+      {
+       coords -31.288 0.053 32.907
+       angles 0 -174.513 0
+      }
+      {
+       coords -66.717 0.062 36.31
+       angles 0 -174.513 0
+      }
+      {
+       coords -72.613 0.062 36.877
+       angles 0 -174.513 0
+      }
+      {
+       coords -78.509 0.062 37.443
+       angles 0 -174.513 0
+      }
+      {
+       coords -84.405 0.062 38.009
+       angles 0 -174.513 0
+      }
+      {
+       coords -90.301 0.062 38.576
+       angles 0 -174.513 0
+      }
+      {
+       coords -99.22 0.062 33.604
+       angles 0 -269.905 0
+      }
+      {
+       coords -99.259 0.062 9.887
+       angles 0 -269.905 0
       }
      }
-     $grp SCR_DestructibleEntity : "{27EB771E3DD9C354}Prefabs/Structures/Walls/Concrete/ConcreteWall_USSR_01/ConcreteWall_USSR_01_V1.et" {
+     $grp SCR_DestructibleEntity : "{47F1F31525B3171C}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_6m_D_B.et" {
       {
-       coords 23.075 0 12.004
-       angles 0 -90.778 0
+       coords -7.699 0.062 30.64
+       angles 0 -174.513 0
       }
       {
-       coords 22.855 0 28.185
-       angles 0 -90.778 0
-      }
-      {
-       coords 22.819 0 30.881
-       angles 0 -90.778 0
-      }
-      {
-       coords 22.782 0 33.578
-       angles 0 -90.778 0
-      }
-      {
-       coords 11.983 0.062 40.136
-       angles 0 -173.809 0
-      }
-      {
-       coords 3.939 0.062 41.008
-       angles 0 -173.809 0
-      }
-      {
-       coords -9.468 0.062 42.463
-       angles 0 -173.809 0
-      }
-      {
-       coords -12.149 0.062 42.753
-       angles 0 -173.809 0
-      }
-      {
-       coords -20.194 0.062 43.626
-       angles 0 -173.809 0
-      }
-      {
-       coords -38.963 -0.067 45.662
-       angles 0 -173.809 0
-      }
-      {
-       coords -44.326 -0.096 46.244
-       angles 0 -173.809 0
-      }
-      {
-       coords -55.052 0.01 47.407
-       angles 0 -173.809 0
-      }
-      {
-       coords -65.778 0.062 48.571
-       angles 0 -173.809 0
-      }
-      {
-       coords -73.822 0.012 49.444
-       angles 0 -173.809 0
-      }
-      {
-       coords -76.503 -0.019 49.734
-       angles 0 -173.809 0
-      }
-      {
-       coords -79.185 -0.033 50.025
-       angles 0 -173.809 0
-      }
-      {
-       coords -92.592 0.036 51.48
-       angles 0 -173.809 0
-      }
-      {
-       coords -100.029 0.062 30.784
-       angles 0 88.387 0
-      }
-      {
-       coords -99.421 0.062 9.215
-       angles 0 88.387 0
+       coords -60.816 0.062 35.743
+       angles 0 -174.513 0
       }
      }
-     $grp SCR_DestructibleEntity : "{4BBF43FE811D4C7A}Prefabs/Structures/Walls/Concrete/ConcreteWall_USSR_01/ConcreteWall_USSR_01_V2.et" {
+     $grp SCR_DestructibleEntity : "{595F29E55480E432}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_6m_B.et" {
       {
-       coords 23.112 0 9.307
-       angles 0 -90.778 0
+       coords 21.458 0 1.073
+       angles 0 -89.462 0
       }
       {
-       coords 23.039 0 14.7
-       angles 0 -90.778 0
+       coords 21.514 0 7.008
+       angles 0 -89.462 0
       }
       {
-       coords 22.892 0 25.488
-       angles 0 -90.778 0
+       coords 21.817 0 27.805
+       angles 0 -174.513 0
       }
       {
-       coords 20.028 0 39.263
-       angles 0 -173.809 0
+       coords 10.013 0.062 28.939
+       angles 0 -174.513 0
       }
       {
-       coords 9.302 0.062 40.427
-       angles 0 -173.809 0
+       coords -1.791 0.062 30.073
+       angles 0 -174.513 0
       }
       {
-       coords 1.258 0.062 41.299
-       angles 0 -173.809 0
+       coords -37.184 0.062 33.473
+       angles 0 -174.513 0
       }
       {
-       coords -4.105 0.062 41.881
-       angles 0 -173.809 0
+       coords -43.092 0.062 34.041
+       angles 0 -174.513 0
       }
       {
-       coords -22.875 0.062 43.917
-       angles 0 -173.809 0
+       coords -49 0.062 34.608
+       angles 0 -174.513 0
       }
       {
-       coords -30.919 0.023 44.79
-       angles 0 -173.809 0
+       coords -54.908 0.062 35.176
+       angles 0 -174.513 0
       }
       {
-       coords -33.601 0.004 45.08
-       angles 0 -173.809 0
+       coords -99.21 0.062 39.54
+       angles 0 -269.905 0
       }
       {
-       coords -36.282 -0.045 45.371
-       angles 0 -173.809 0
+       coords -99.229 0.062 27.681
+       angles 0 -269.905 0
       }
       {
-       coords -49.689 -0.051 46.826
-       angles 0 -173.809 0
-      }
-      {
-       coords -52.37 -0.023 47.117
-       angles 0 -173.809 0
-      }
-      {
-       coords -60.415 0.057 47.989
-       angles 0 -173.809 0
-      }
-      {
-       coords -81.866 -0.038 50.316
-       angles 0 -173.809 0
-      }
-      {
-       coords -84.547 -0.025 50.607
-       angles 0 -173.809 0
-      }
-      {
-       coords -100.56 0.098 49.656
-       angles 0 88.387 0
-      }
-      {
-       coords -100.408 0.062 44.264
-       angles 0 88.387 0
-      }
-      {
-       coords -100.105 0.062 33.48
-       angles 0 88.387 0
-      }
-      {
-       coords -99.801 0.062 22.695
-       angles 0 88.387 0
-      }
-      {
-       coords -99.725 0.062 19.999
-       angles 0 88.387 0
-      }
-      {
-       coords -99.649 0.062 17.303
-       angles 0 88.387 0
-      }
-      {
-       coords -99.345 0.062 6.519
-       angles 0 88.387 0
+       coords -99.239 0.062 21.746
+       angles 0 -269.905 0
       }
      }
-     $grp SCR_DestructibleEntity : "{61E8E6D103CEB378}Prefabs/Structures/Walls/Concrete/ConcreteWall_USSR_01/ConcreteWall_USSR_01_damaged_V2.et" {
-      {
-       coords 22.929 0 22.791
-       angles 0 -90.778 0
-      }
-      {
-       coords -99.573 0.062 14.607
-       angles 0 88.387 0
-      }
+     SCR_DestructibleEntity : "{95A1D31077D47BEA}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_Pole.et" {
+      coords -99.269 0.062 3.955
+      angles 0 -269.905 0
      }
-     SCR_DestructibleEntity : "{850FA846E37E385D}Prefabs/Structures/Walls/Concrete/ConcreteWall_USSR_01/ConcreteWall_USSR_01_pillar.et" {
-      coords -99.27 0.062 3.823
-      angles 0 88.387 0
-     }
-     $grp SCR_DestructibleEntity : "{AE230F078DF8DB11}Prefabs/Structures/Walls/Concrete/ConcreteWall_USSR_01/ConcreteWall_USSR_01_V3.et" {
+     $grp SCR_DestructibleEntity : "{CAFF4B51059A0F81}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_3m.et" {
       {
-       coords 23.002 0 17.397
-       angles 0 -90.778 0
+       coords 21.681 0 24.789
+       angles 0 -89.462 0
       }
       {
-       coords 22.965 0 20.094
-       angles 0 -90.778 0
-      }
-      {
-       coords 22.746 0 36.275
-       angles 0 -90.778 0
-      }
-      {
-       coords 22.709 0 38.972
-       angles 0 -173.809 0
-      }
-      {
-       coords 17.346 0 39.554
-       angles 0 -173.809 0
-      }
-      {
-       coords 14.665 0 39.845
-       angles 0 -173.809 0
-      }
-      {
-       coords 6.621 0.062 40.717
-       angles 0 -173.809 0
-      }
-      {
-       coords -6.787 0.062 42.172
-       angles 0 -173.809 0
-      }
-      {
-       coords -14.831 0.062 43.044
-       angles 0 -173.809 0
-      }
-      {
-       coords -17.512 0.062 43.335
-       angles 0 -173.809 0
-      }
-      {
-       coords -25.556 0.062 44.208
-       angles 0 -173.809 0
-      }
-      {
-       coords -28.238 0.059 44.499
-       angles 0 -173.809 0
-      }
-      {
-       coords -41.645 -0.09 45.953
-       angles 0 -173.809 0
-      }
-      {
-       coords -57.733 0.043 47.698
-       angles 0 -173.809 0
-      }
-      {
-       coords -63.096 0.062 48.28
-       angles 0 -173.809 0
-      }
-      {
-       coords -68.459 0.062 48.862
-       angles 0 -173.809 0
-      }
-      {
-       coords -71.14 0.045 49.153
-       angles 0 -173.809 0
-      }
-      {
-       coords -87.229 -0.024 50.898
-       angles 0 -173.809 0
-      }
-      {
-       coords -95.273 0.06 51.77
-       angles 0 -173.809 0
-      }
-      {
-       coords -100.636 0.24 52.352
-       angles 0 88.387 0
-      }
-      {
-       coords -100.484 0.062 46.96
-       angles 0 88.387 0
-      }
-      {
-       coords -100.256 0.062 38.872
-       angles 0 88.387 0
-      }
-      {
-       coords -100.18 0.062 36.176
-       angles 0 88.387 0
-      }
-      {
-       coords -99.953 0.062 28.088
-       angles 0 88.387 0
-      }
-      {
-       coords -99.877 0.062 25.391
-       angles 0 88.387 0
-      }
-      {
-       coords -99.497 0.062 11.911
-       angles 0 88.387 0
+       coords -96.198 0.062 39.142
+       angles 0 -174.513 0
       }
      }
     }
@@ -1142,7 +835,7 @@ $grp PolylineShapeEntity {
      }
      $grp SCR_DestructibleEntity : "{A533A4F9A7020219}PrefabLibrary/DefaultLibrary/Walls/Net/NetFence_01_4m_blue.et" {
       {
-       coords -0 0 0.01
+       coords 0 0 0.01
        angles 0 88.686 0
       }
       {
