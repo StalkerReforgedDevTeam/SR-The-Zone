@@ -267,7 +267,7 @@ GenericEntity : "{2F577500C460DEB2}PrefabsEditable/Auto/Props/Civilian/E_LadderW
  scale 1.47
 }
 Tree : "{5CEB08DF5A8C065E}Prefabs/Vegetation/Tree/t_salix_fragilis/tree with no leaves.et" {
- coords 4691.265 -0 1769.783
+ coords 4691.265 0 1769.783
 }
 GenericEntity : "{5E249786B7A6896D}Prefabs/Props/Construction/ConcretePipe/ConcretePipe_01_Large.et" {
  Flags 0 0x80000
@@ -933,6 +933,194 @@ $grp GenericEntity : "{A13BCC98B8C380C7}Prefabs/Compositions/Misc/SubComposition
   Flags 0 0x80000
   coords 4733.758 5.425 1713.532
   angles 0 22.607 0
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Building_Base.et" {
+ {
+  components {
+   SignalsManagerComponent "{52FC8864FE3C5398}" {
+   }
+   SCR_BuildingSoundComponent "{52FC8224B2CB5645}" {
+    Filenames {
+     "{28FCBE673F7D5869}Sounds/Structures/Houses/Shed/Structures_Shed_01.acp"
+    }
+    IncludeInactive 1
+    m_vMins -2 2.5 -1
+    m_vMaxs 2 2.8 1
+   }
+   MeshObject "{506EDA9D46FC6C06}" {
+    Object "{B67610DA59A61BDF}Assets/Structures/Houses/Shed/Shed_02/Shed_02_small.xob"
+   }
+   RigidBody "{506EDA9CBE1B57FF}" {
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_DestructibleBuildingComponent "{6144AC5FF3C5EDCE}" : "{8C6D275FB795A453}Prefabs/Structures/Core/Destruction/DestructibleBuildingComponent_Wood_Tiny.ct" {
+    m_aInteriorQueryBoundingBoxes {
+     SCR_InteriorBoundingBox "{62B2A298FC6C95BE}" {
+      m_vCenter PointInfo "{62B2A2988515494D}" {
+       Offset 0 0.0451 -0.1585
+      }
+      m_vScale 3 5 2.1
+     }
+    }
+   }
+  }
+  editor EntityEditorProps "{6A650A8D915AA765}" {
+   Color 1 0 0 1
+  }
+  coords 4054.431 0 846.321
+  angles 0 -169.777 0
+  IsBuilding 0
+  SlotBoneMappings {
+   SlotBoneMappingObject "{52B50412DE106C10}" {
+    BonePrefix "socket_win_72x55"
+    Prefab "{7DE205E0F29EB8D7}Prefabs/Structures/BuildingParts/Windows/Win_Shed_02/Win_Shed_02_72x55_painted.et"
+   }
+   SlotBoneMappingObject "{5584C639B132FAF1}" {
+    BonePrefix "socket_door_ext_right"
+    Prefab "{1D253BEE4C322018}Prefabs/Structures/BuildingParts/Doors/DoorSet_Shed_02_R_EXT_B_painted.et"
+   }
+  }
+  {
+   Tree : "{054B89DDC0DBA1C2}Prefabs/Vegetation/Plant/Hedera_Helix/p_hedera_helix_corner_04.et" {
+    coords -0.012 2.628 1.178
+    angles 0 -88.525 0
+    scale 0.89
+   }
+   GenericEntity : "{1D253BEE4C322018}Prefabs/Structures/BuildingParts/Doors/DoorSet_Shed_02_R_EXT_B_painted.et" {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_ext_right_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   Tree : "{2E09EDC2298B28CB}Prefabs/Vegetation/Plant/Hedera_Helix/p_hedera_helix_wall_02.et" {
+    coords 0.514 0.039 1.112
+    angles 0 84.178 0
+   }
+   $grp Tree : "{387FACE5B5B728F5}Prefabs/Vegetation/Plant/Hedera_Helix/p_hedera_helix_corner_03.et" {
+    {
+     coords -1.749 2.431 -0.472
+     angles 0 85.66 0
+    }
+    {
+     coords 1.723 2.538 0.474
+     angles 0.09 -93.685 -2.33
+    }
+   }
+   GameEnvironmentProbeEntity : "{4200B6A30B32037A}Prefabs/Structures/Infrastructure/Naval/Houses/CottagePier_01/BuidlingAddons/Probe_CottagePier_01.et" {
+    coords -0.443 1.439 -0.378
+   }
+   Building : "{7DE205E0F29EB8D7}Prefabs/Structures/BuildingParts/Windows/Win_Shed_02/Win_Shed_02_72x55_painted.et" {
+    components {
+     Hierarchy "{565ED16C3A244EB9}" {
+      Enabled 1
+      PivotID "socket_win_72x55_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   Tree : "{B1B7D4FC059630B0}Prefabs/Vegetation/Plant/Hedera_Helix/p_hedera_helix_corner_01.et" {
+    coords 1.579 -1.405 -1.181
+    angles 0 92.041 0
+   }
+  }
+ }
+ {
+  components {
+   SignalsManagerComponent "{52FC8864FE3C5398}" {
+   }
+   SCR_BuildingSoundComponent "{52FC8224B2CB5645}" {
+    Filenames {
+     "{28FCBE673F7D5869}Sounds/Structures/Houses/Shed/Structures_Shed_01.acp"
+    }
+    IncludeInactive 1
+    m_vMins -2 2.5 -1
+    m_vMaxs 2 2.8 1
+   }
+   MeshObject "{506EDA9D46FC6C06}" {
+    Object "{50D82802FDA3C554}Assets/Structures/Houses/Shed/Shed_02/Shed_02_square.xob"
+   }
+   RigidBody "{506EDA9CBE1B57FF}" {
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_DestructibleBuildingComponent "{6144AC5FF3C5EDCE}" : "{8C6D275FB795A453}Prefabs/Structures/Core/Destruction/DestructibleBuildingComponent_Wood_Tiny.ct" {
+    m_aInteriorQueryBoundingBoxes {
+     SCR_InteriorBoundingBox "{62B2A298FC6C95BE}" {
+      m_vCenter PointInfo "{62B2A2988515494D}" {
+       Offset 0 0.0451 -0.1585
+      }
+      m_vScale 4.1 5 3.2
+     }
+    }
+   }
+  }
+  editor EntityEditorProps "{6A650A8D915AA765}" {
+   Color 1 0 0 1
+  }
+  coords 4054.545 0 850.132
+  angles 0 -90.245 0
+  IsBuilding 0
+  SlotBoneMappings {
+   SlotBoneMappingObject "{52AE820E551DA00F}" {
+    BonePrefix "socket_win_106x90"
+    Prefab "{5F3CD956233E9C8F}Prefabs/Structures/BuildingParts/Windows/Win_Shed_02/Win_Shed_02_105x90.et"
+   }
+   SlotBoneMappingObject "{5584C63E6549A2C5}" {
+    BonePrefix "socket_door_ext_right"
+    Prefab "{543112CE57DF65BA}Prefabs/Structures/BuildingParts/Doors/DoorSet_Shed_02_R_EXT_B_weathered.et"
+   }
+  }
+  {
+   Tree : "{1B6DCFB61456C35C}Prefabs/Vegetation/Plant/Hedera_Helix/p_hedera_helix_corner_01_aut.et" {
+    coords -1.992 -1.03 1.385
+    angles 0 -88.091 0
+   }
+   Tree : "{387FACE5B5B728F5}Prefabs/Vegetation/Plant/Hedera_Helix/p_hedera_helix_corner_03.et" {
+    coords -2.145 2.362 -0.982
+    angles 0 87.313 0
+   }
+   GameEnvironmentProbeEntity : "{4200B6A30B32037A}Prefabs/Structures/Infrastructure/Naval/Houses/CottagePier_01/BuidlingAddons/Probe_CottagePier_01.et" {
+    coords -0.443 1.439 -0.378
+   }
+   Tree : "{425DD922954FA7E5}Prefabs/Vegetation/Plant/Hedera_Helix/p_hedera_helix_wall_01.et" {
+    coords 0.286 0.579 -1.674
+    angles 0 90.612 0
+   }
+   GenericEntity : "{543112CE57DF65BA}Prefabs/Structures/BuildingParts/Doors/DoorSet_Shed_02_R_EXT_B_weathered.et" {
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_ext_right_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   Building : "{5F3CD956233E9C8F}Prefabs/Structures/BuildingParts/Windows/Win_Shed_02/Win_Shed_02_105x90.et" {
+    components {
+     Hierarchy "{565ED16C984529AE}" {
+      Enabled 1
+      PivotID "socket_win_106x90_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   Tree : "{B1B7D4FC059630B0}Prefabs/Vegetation/Plant/Hedera_Helix/p_hedera_helix_corner_01.et" {
+    coords 1.953 -1.192 1.415
+   }
+   Tree : "{BAD7D94DDCF22C21}Prefabs/Vegetation/Plant/Hedera_Helix/p_hedera_helix_0s.et" {
+    coords -0.123 2.589 0.204
+    angles 3.873 0 0
+   }
+  }
  }
 }
 $grp GenericEntity : "{B0F207E11789E0FE}PrefabsEditable/Auto/Props/Industrial/E_BarrelMetal_01_rust.et" {
