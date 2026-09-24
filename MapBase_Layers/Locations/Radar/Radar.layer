@@ -1,0 +1,134 @@
+GenericEntity {
+ components {
+  MeshObject "{6A7146294A0694DD}" {
+   Object "{F1577E21C32AA9FA}Models/Factory/ConcreteFactory/ConcreteFactory.xob"
+  }
+ }
+ coords 5192.539 83.375 6490.711
+ angles 0 -90 0
+}
+SCR_DestructibleBuildingEntity : "{169C0208034564A5}Prefabs/Structures/Construcoes/Oldhouse.et" {
+ coords 5303.146 0.095 6472.11
+ angles 0 -90 0
+}
+SCR_DestructibleBuildingEntity : "{907785E055892393}Prefabs/Structures/Industrial/Cranes/CoalLoader_01/CoalLoader_01_bridge_metal_base.et" {
+ coords 3511.42 -14.172 6659.34
+ angles 0 -75 0
+}
+GenericEntity Scorcher : "{B1E7AF8CE0E6828D}Prefabs/Scientists/Bunker_Modul_Small/science_tower_destr.et" {
+ coords 5228.113 83.063 6549.688
+ angles 0 15 0
+ {
+  $grp GenericEntity : "{B1E7AF8CE0E6828D}Prefabs/Scientists/Bunker_Modul_Small/science_tower_destr.et" {
+   Scorcher2 {
+    coords -12.595 0 20.863
+    angles 0 0 0
+    {
+     StaticModelEntity : "{DBCDEC45DB834E8A}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01.et" {
+      coords -0 16.692 0
+      scale 1.27
+     }
+    }
+   }
+   Scorcher3 {
+    coords -18.344 0 44.803
+    angles 0 0 0
+    {
+     StaticModelEntity : "{DBCDEC45DB834E8A}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01.et" {
+      coords -0 16.692 0
+      scale 1.27
+     }
+    }
+   }
+   Scorcher4 {
+    coords -12.876 0 67.71
+    angles 0 0 0
+    {
+     StaticModelEntity : "{DBCDEC45DB834E8A}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01.et" {
+      coords 0 16.692 0
+      scale 1.27
+     }
+    }
+   }
+   Scorcher5 {
+    coords 0 0 85.5
+    angles 0 0 0
+    {
+     StaticModelEntity : "{DBCDEC45DB834E8A}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01.et" {
+      coords -0 16.692 0
+      scale 1.27
+     }
+    }
+   }
+  }
+  StaticModelEntity : "{DBCDEC45DB834E8A}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01.et" {
+   coords -0 16.692 0
+   scale 1.27
+  }
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{C78C68313AAC28C0}Prefabs/Structures/Industrial/Shed Large.et" {
+ {
+  coords 5282.455 83.062 6562.327
+  angles 0 0 0
+ }
+ {
+  coords 5282.455 83.062 6586.827
+  angles 0 0 0
+ }
+ {
+  coords 5282.455 83.062 6611.327
+  angles 0 0 0
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{DA18BC3C9738C614}Prefabs/Industrial/builds/bitovka_wheels.et" {
+ {
+  coords 5345.296 83.062 6449.205
+  angles 0 75 0
+ }
+ {
+  coords 5336.485 83.062 6470.308
+  angles 0 60 0
+ }
+ {
+  coords 5356.944 83.062 6464.952
+  angles 0 30 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{DEE16C6CE3D7072E}Prefabs/Structures/Military/Houses/BarracksWooden_01/BarracksWooden_01_base.et" {
+ coords 5249.156 0 6461.077
+}
+$grp GenericEntity : "{FA4A4DA883B827FC}Prefabs/Structures/Infrastructure/Rail/New/Terrain/rails_25_new_T.et" {
+ {
+  coords 5210.453 80.969 6523.335
+  angles 0 90 0
+ }
+ {
+  coords 5235.474 80.969 6523.335
+  angles 0 90 0
+ }
+ {
+  coords 5285.474 80.969 6523.335
+  angles 0 90 0
+ }
+ {
+  coords 5260.453 80.969 6523.335
+  angles 0 90 0
+ }
+ {
+  coords 5335.474 80.969 6523.335
+  angles 0 90 0
+ }
+ {
+  coords 5310.453 80.969 6523.335
+  angles 0 90 0
+ }
+ {
+  coords 5385.474 80.969 6523.335
+  angles 0 90 0
+ }
+ {
+  coords 5360.453 80.969 6523.335
+  angles 0 90 0
+ }
+}
