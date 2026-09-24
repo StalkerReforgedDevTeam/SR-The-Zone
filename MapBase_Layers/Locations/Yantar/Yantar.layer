@@ -569,7 +569,14 @@ $grp SCR_DestructibleBuildingEntity : "{125BE4F6E5E2A8F5}Prefabs/Structures/Apar
  }
 }
 SCR_DestructibleBuildingEntity : "{184042D4EAE59FF5}Prefabs/Structures/Houses/Village/House_Village_E_1I02/Dst/House_Village_E_1I02_ruined.et" {
- coords 3005.958 0 4344.142
+ Flags 0 0x80000
+ coords 3005.958 29.531 4344.142
+ {
+  GameEnvironmentProbeEntity {
+   ID "55D8AEAAB421623E"
+   Flags 0 0x80000
+  }
+ }
 }
 $grp GenericEntity : "{1BA7B09C38B10746}Prefabs/Structures/BuildingParts/Doors/Door_MetalGate_06/Door_MetalGate_06_LEFT_EXT_ST_B_base.et" {
  {
@@ -586,7 +593,97 @@ $grp GenericEntity : "{1BA7B09C38B10746}Prefabs/Structures/BuildingParts/Doors/D
  }
 }
 SCR_DestructibleBuildingEntity : "{1C4FE5160B6ED8F4}Prefabs/Houses/villages/village_big_house_base_9_filled.et" {
+ Flags 0 0x80000
  coords 2975.572 29.531 4345.65
+ {
+  GenericEntity {
+   ID "66BAF5E1FBCBEA4B"
+   Flags 0 0x80000
+  }
+  GenericEntity {
+   ID "66BAF5E0CCE4576A"
+   Flags 0 0x80000
+  }
+  GenericEntity {
+   ID "66C2DA520F0B2545"
+   Flags 0 0x80000
+  }
+  SCR_DestructibleBuildingEntity {
+   ID "66BAF5F6B763906F"
+   Flags 0 0x80000
+  }
+  SCR_DestructibleEntity {
+   ID "66BAF5E108C28DC0"
+   {
+    GenericEntity {
+     ID "564E86E6D63F57E1"
+     Flags 0 0x80000
+    }
+   }
+  }
+  SCR_DestructibleEntity {
+   ID "66BAF5FC3F329A7F"
+   Flags 0 0x80000
+  }
+  SCR_DestructibleEntity {
+   ID "66BAF5FC3F329A75"
+   Flags 0 0x80000
+  }
+  SCR_DestructibleEntity {
+   ID "66BAF5FC3F329A07"
+   Flags 0 0x80000
+  }
+  SCR_DestructibleEntity {
+   ID "66BAF5FC3F329A0C"
+   Flags 0 0x80000
+  }
+  SCR_DestructibleEntity {
+   ID "66BAF5FC3F329A1A"
+   Flags 0 0x80000
+  }
+  SCR_DestructibleEntity {
+   ID "66BAF5FC3F329A21"
+   Flags 0 0x80000
+  }
+  SCR_DestructibleEntity {
+   ID "66BAF5FC3F329A29"
+   Flags 0 0x80000
+  }
+  SCR_DestructibleEntity {
+   ID "66BAF5FC3F329A38"
+   Flags 0 0x80000
+  }
+  SCR_DestructibleEntity {
+   ID "66BAF5FC3F329A47"
+   Flags 0 0x80000
+  }
+  SCR_DestructibleEntity {
+   ID "66BAF5FC3F329A51"
+   Flags 0 0x80000
+  }
+  SCR_DestructibleEntity {
+   ID "66BAF5FC3F329A5F"
+   Flags 0 0x80000
+  }
+  SCR_DestructibleEntity {
+   ID "66BAF5FE09CAE7E3"
+   Flags 0 0x80000
+  }
+  StaticModelEntity {
+   ID "66BAF5E108C28DEA"
+   Flags 0 0x80000
+   {
+    GenericEntity {
+     ID "564E86E6D05B9718"
+     Flags 0 0x80000
+    }
+    GenericEntity {
+     ID "564E86E6D05B973F"
+     Flags 0 0x80000
+    }
+   }
+  }
+ }
 }
 $grp StaticModelEntity : "{1E0BC50E7000DEFD}Prefabs/Structures/Debris/Debris_HouseVillage/Debris_HouseVillage_Metal_Roof_v1.et" {
  {
@@ -617,10 +714,12 @@ GenericEntity : "{3AB3A4D05173D31A}Prefabs/Structures/Scientists/Bunker_Modul/Bu
 }
 $grp SCR_DestructibleBuildingEntity : "{3D1F45CCC2670835}Prefabs/Structures/Houses/House_Individual/House_Individual_WoodTile/House_Individual_WoodTile_1.et" {
  {
-  coords 2995.099 0 4426.254
+  Flags 0 0x80000
+  coords 2995.099 29.531 4426.254
  }
  {
-  coords 3031.929 0 4404.979
+  Flags 0 0x80000
+  coords 3031.929 29.531 4404.979
   angles 0 -179.711 0
  }
 }
@@ -637,6 +736,7 @@ SCR_DestructibleBuildingEntity : "{46DD0AFACF61C6EF}Prefabs/Structures/Industria
  scale 0.56
 }
 SCR_DestructibleBuildingEntity : "{4C3D7EBFFE1C669D}Prefabs/Houses/villages/village_stone_house_base_2.et" {
+ Flags 0 0x80000
  coords 2905.981 29.531 4341.543
 }
 $grp SCR_DestructibleBuildingEntity : "{55ECF41F2A5684E7}Prefabs/Structures/Construcoes/Panel2House.et" {
@@ -666,7 +766,46 @@ GenericEntity : "{5E249786B7A6896D}Prefabs/Props/Construction/ConcretePipe/Concr
  angles 0 0 -90
 }
 SCR_DestructibleBuildingEntity : "{66178E314C6F98D4}Prefabs/Structures/Ruins/House_Ruin_1I01/House_Ruin_1I01_V3_Brick.et" {
- coords 3005.037 -0 4315.845
+ Flags 0 0x80000
+ coords 3005.037 29.531 4315.845
+ {
+  StaticModelEntity {
+   ID "691208473FB6D29C"
+   Flags 0 0x80000
+  }
+  StaticModelEntity {
+   ID "691208473FB6D29E"
+   Flags 0 0x80000
+  }
+  StaticModelEntity {
+   ID "691208473FB7A7DB"
+   Flags 0 0x80000
+  }
+  StaticModelEntity {
+   ID "691208473FB7A7D8"
+   Flags 0 0x80000
+  }
+  StaticModelEntity {
+   ID "691208473FB7A7C2"
+   Flags 0 0x80000
+  }
+  StaticModelEntity {
+   ID "691208473FB7C22E"
+   Flags 0 0x80000
+  }
+  StaticModelEntity {
+   ID "691208473FB7C22F"
+   Flags 0 0x80000
+  }
+  StaticModelEntity {
+   ID "691208473FB7C902"
+   Flags 0 0x80000
+  }
+  StaticModelEntity {
+   ID "691208473FB7C901"
+   Flags 0 0x80000
+  }
+ }
 }
 $grp GenericEntity : "{6720CD0D5B7B7768}Prefabs/Props/Construction/ConcretePipe/ConcretePipe_01_Long.et" {
  {
@@ -772,6 +911,7 @@ $grp GenericEntity : "{6EEC06CAF1F08FE8}Prefabs/ZBK/KitFactory/KitFrameWork/Meta
  }
 }
 SCR_DestructibleBuildingEntity : "{71095B878B70EFAA}Prefabs/Houses/villages/village_stone_house_base_5.et" {
+ Flags 0 0x80000
  coords 2940.409 29.531 4317.449
 }
 StaticModelEntity : "{72CA69A5735FF68B}Prefabs/Props/Military/Covers/DirtCoverwithwoodenwall.et" {
@@ -806,20 +946,944 @@ SCR_DestructibleEntity : "{879865F07EA907B0}Prefabs/Structures/Walls/Concrete/Co
 }
 $grp SCR_DestructibleBuildingEntity : "{8ED47AC94995D71A}Prefabs/Structures/Agriculture/CowShed/CowShed_E_01/CowShed_E_01_long.et" {
  {
-  coords 2951.714 0.382 4263.317
+  Flags 0 0x80000
+  coords 2951.714 29.913 4263.317
   angles 0 89.723 0
+  {
+   Building {
+    ID "555AE7E988E14A9D"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14AAA"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14AB7"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14ADC"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14AF1"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14B07"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14B12"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14B2F"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14B34"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14B43"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14B6A"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14B77"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14BBE"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14BC5"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14BD1"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14BFF"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14898"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14900"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14929"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14934"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E1495C"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14964"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14970"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14989"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14994"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E149BD"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E149C5"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E149D1"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E149EE"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E149FA"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14A0E"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14A1B"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14A21"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14A4D"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14A59"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14A62"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14AE6"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E1480B"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14817"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E1482D"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14839"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E1488C"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E148A0"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E148CD"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E148D9"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E148E2"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E1740A"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E17415"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E1743C"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E17489"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E17492"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E174A2"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E174C8"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E174D6"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E174FD"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E1750A"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E17516"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E17522"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E1754B"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E17557"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E1757E"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E17584"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E17592"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E175BC"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E175C4"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E175D0"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E175E3"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E1761E"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E1762F"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E17636"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E17647"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E17679"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E1768A"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E17691"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E176A3"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E176CC"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E176DB"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E176E4"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E1774F"
+    Flags 0 0x80000
+   }
+   GameEnvironmentProbeEntity {
+    ID "5EE876DAF67E3821"
+    Flags 0 0x80000
+   }
+   GenericEntity {
+    ID "5B18AA6B503595D6"
+    Flags 0 0x80000
+    {
+     GenericEntity {
+      ID "5B18AA6AB2AE54FF"
+      Flags 0 0x80000
+     }
+    }
+   }
+   GenericEntity {
+    ID "555AE7E988E14FEF"
+    Flags 0 0x80000
+   }
+   GenericEntity {
+    ID "555AE7E988E14FF6"
+    Flags 0 0x80000
+   }
+   GenericEntity {
+    ID "555AE7E988E17458"
+    Flags 0 0x80000
+   }
+   GenericEntity {
+    ID "555AE7E988E17470"
+    Flags 0 0x80000
+   }
+   GenericEntity {
+    ID "555AE7E988E14FB6"
+    Flags 0 0x80000
+    {
+     GenericEntity {
+      ID "568C83951A8094F3"
+      Flags 0 0x80000
+     }
+    }
+   }
+   GenericEntity {
+    ID "555AE7E988E14F00"
+    Flags 0 0x80000
+   }
+   GenericEntity {
+    ID "555AE7E988E14F23"
+    Flags 0 0x80000
+   }
+   GenericEntity {
+    ID "555AE7E988E14F9C"
+    Flags 0 0x80000
+    {
+     GenericEntity {
+      ID "568C838903529A55"
+      Flags 0 0x80000
+     }
+    }
+   }
+   GenericEntity {
+    ID "555AE7E988E14FAA"
+    Flags 0 0x80000
+    {
+     GenericEntity {
+      ID "568C838903529A55"
+      Flags 0 0x80000
+     }
+    }
+   }
+   GenericEntity {
+    ID "555AE7E988E14FDE"
+    Flags 0 0x80000
+    {
+     GenericEntity {
+      ID "568C838903529A55"
+      Flags 0 0x80000
+     }
+    }
+   }
+   GenericEntity {
+    ID "555AE7E988E14B84"
+    Flags 0 0x80000
+   }
+   GenericEntity {
+    ID "555AE7E988E1746E"
+    Flags 0 0x80000
+   }
+   StaticModelEntity {
+    ID "555AE7E988E14EA3"
+    Flags 0 0x80000
+   }
+   StaticModelEntity {
+    ID "555AE7E988E14EC7"
+    Flags 0 0x80000
+   }
+   StaticModelEntity {
+    ID "555AE7E988E14EEF"
+    Flags 0 0x80000
+   }
+   StaticModelEntity {
+    ID "555AE7E988E14EFA"
+    Flags 0 0x80000
+   }
+   StaticModelEntity {
+    ID "555AE7E988E14E84"
+    Flags 0 0x80000
+   }
+   StaticModelEntity {
+    ID "555AE7E988E14F58"
+    Flags 0 0x80000
+   }
+   StaticModelEntity {
+    ID "555AE7E988E14F6D"
+    Flags 0 0x80000
+   }
+   StaticModelEntity {
+    ID "555AE7E988E14F77"
+    Flags 0 0x80000
+   }
+  }
  }
  {
-  coords 3028.202 0.382 4263.687
+  Flags 0 0x80000
+  coords 3028.202 29.913 4263.687
   angles 0 89.723 0
+  {
+   Building {
+    ID "555AE7E988E14A9D"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14AAA"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14AB7"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14ADC"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14AF1"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14B07"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14B12"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14B2F"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14B34"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14B43"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14B6A"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14B77"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14BBE"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14BC5"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14BD1"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14BFF"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14898"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14900"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14929"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14934"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E1495C"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14964"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14970"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14989"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14994"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E149BD"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E149C5"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E149D1"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E149EE"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E149FA"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14A0E"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14A1B"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14A21"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14A4D"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14A59"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14A62"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14AE6"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E1480B"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14817"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E1482D"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E14839"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E1488C"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E148A0"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E148CD"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E148D9"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E148E2"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E1740A"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E17415"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E1743C"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E17489"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E17492"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E174A2"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E174C8"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E174D6"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E174FD"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E1750A"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E17516"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E17522"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E1754B"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E17557"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E1757E"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E17584"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E17592"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E175BC"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E175C4"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E175D0"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E175E3"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E1761E"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E1762F"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E17636"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E17647"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E17679"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E1768A"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E17691"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E176A3"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E176CC"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E176DB"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E176E4"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "555AE7E988E1774F"
+    Flags 0 0x80000
+   }
+   GameEnvironmentProbeEntity {
+    ID "5EE876DAF67E3821"
+    Flags 0 0x80000
+   }
+   GenericEntity {
+    ID "5B18AA6B503595D6"
+    Flags 0 0x80000
+    {
+     GenericEntity {
+      ID "5B18AA6AB2AE54FF"
+      Flags 0 0x80000
+     }
+     GenericEntity {
+      ID "5B18AA6AB2AE538F"
+      Flags 0 0x80000
+     }
+    }
+   }
+   GenericEntity {
+    ID "555AE7E988E14FEF"
+    Flags 0 0x80000
+   }
+   GenericEntity {
+    ID "555AE7E988E14FF6"
+    Flags 0 0x80000
+   }
+   GenericEntity {
+    ID "555AE7E988E17458"
+    Flags 0 0x80000
+   }
+   GenericEntity {
+    ID "555AE7E988E17470"
+    Flags 0 0x80000
+   }
+   GenericEntity {
+    ID "555AE7E988E14FB6"
+    Flags 0 0x80000
+    {
+     GenericEntity {
+      ID "568C83951A8094F3"
+      Flags 0 0x80000
+     }
+    }
+   }
+   GenericEntity {
+    ID "555AE7E988E14F00"
+    Flags 0 0x80000
+   }
+   GenericEntity {
+    ID "555AE7E988E14F23"
+    Flags 0 0x80000
+   }
+   GenericEntity {
+    ID "555AE7E988E14F9C"
+    Flags 0 0x80000
+    {
+     GenericEntity {
+      ID "568C838903529A55"
+      Flags 0 0x80000
+     }
+    }
+   }
+   GenericEntity {
+    ID "555AE7E988E14FAA"
+    Flags 0 0x80000
+    {
+     GenericEntity {
+      ID "568C838903529A55"
+      Flags 0 0x80000
+     }
+    }
+   }
+   GenericEntity {
+    ID "555AE7E988E14FDE"
+    Flags 0 0x80000
+    {
+     GenericEntity {
+      ID "568C838903529A55"
+      Flags 0 0x80000
+     }
+    }
+   }
+   GenericEntity {
+    ID "555AE7E988E14B84"
+    Flags 0 0x80000
+   }
+   GenericEntity {
+    ID "555AE7E988E1746E"
+    Flags 0 0x80000
+   }
+   StaticModelEntity {
+    ID "555AE7E988E14EA3"
+    Flags 0 0x80000
+   }
+   StaticModelEntity {
+    ID "555AE7E988E14EC7"
+    Flags 0 0x80000
+   }
+   StaticModelEntity {
+    ID "555AE7E988E14EEF"
+    Flags 0 0x80000
+   }
+   StaticModelEntity {
+    ID "555AE7E988E14EFA"
+    Flags 0 0x80000
+   }
+   StaticModelEntity {
+    ID "555AE7E988E14E84"
+    Flags 0 0x80000
+   }
+   StaticModelEntity {
+    ID "555AE7E988E14F58"
+    Flags 0 0x80000
+   }
+   StaticModelEntity {
+    ID "555AE7E988E14F6D"
+    Flags 0 0x80000
+   }
+   StaticModelEntity {
+    ID "555AE7E988E14F77"
+    Flags 0 0x80000
+   }
+  }
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{9495177E879578C1}Prefabs/Houses/villages/village_stone_house_base_4.et" {
  {
+  Flags 0 0x80000
   coords 2940.157 29.593 4368.453
+  {
+   GenericEntity {
+    ID "69152C03E6CC3DEA"
+    Flags 0 0x80000
+   }
+   GenericEntity {
+    ID "69152C03E6CC3E16"
+    Flags 0 0x80000
+   }
+   GenericEntity {
+    ID "69152C03E6CC3DCD"
+    Flags 0 0x80000
+   }
+   GenericEntity {
+    ID "69152C03E6CC3DF1"
+    Flags 0 0x80000
+   }
+   SCR_DestructibleBuildingEntity {
+    ID "69152C03E6CC3D98"
+    Flags 0 0x80000
+   }
+  }
  }
  {
+  Flags 0 0x80000
   coords 2908.486 30.884 4376.632
+  {
+   GenericEntity {
+    ID "69152C03E6CC3DEA"
+    Flags 0 0x80000
+   }
+   GenericEntity {
+    ID "69152C03E6CC3E16"
+    Flags 0 0x80000
+   }
+   GenericEntity {
+    ID "69152C03E6CC3DCD"
+    Flags 0 0x80000
+   }
+   GenericEntity {
+    ID "69152C03E6CC3DF1"
+    Flags 0 0x80000
+   }
+   SCR_DestructibleBuildingEntity {
+    ID "69152C03E6CC3D98"
+    Flags 0 0x80000
+   }
+  }
  }
 }
 GenericEntity : "{9BDB4FCE246DD60C}Prefabs/Structures/Debris/ConcreteDebris_01/ConcreteDebris_01_V2.et" {
@@ -835,6 +1899,7 @@ GenericEntity : "{9C3486C0D8969D0A}PrefabLibrary/DefaultLibrary/Props/Industrial
  scale 0.74
 }
 SCR_DestructibleBuildingEntity : "{A9A13246F2F9F1F6}Prefabs/Houses/villages/village_stone_house_base_3.et" {
+ Flags 0 0x80000
  coords 2944.984 29.531 4338.967
  angles 0 2.099 0
 }
@@ -848,22 +1913,208 @@ SCR_DestructibleBuildingEntity : "{B1F1B1BEB21102A7}Prefabs/Structures/Industria
 }
 $grp SCR_DestructibleBuildingEntity : "{B660BEC050A9F174}Prefabs/Houses/House_Individual_Brus/House_Individual_Brus_Modul_4.et" {
  {
-  coords 2961.555 0 4421.463
+  Flags 0 0x80000
+  coords 2961.555 29.531 4421.463
   angles 0 91.238 0
   {
+   SCR_DestructibleBuildingEntity {
+    ID "667482877A54A48E"
+    Flags 0 0x80000
+   }
    Tree {
     ID "671D0EB1281F59BB"
     coords -1.593 2.995 -10.138
    }
+   Tree {
+    ID "671D0EB1281F5962"
+    Flags 0 0x80000
+   }
+   Tree {
+    ID "671D0EB1281F59A0"
+    Flags 0 0x80000
+   }
   }
  }
  {
-  coords 3030.692 0 4368.037
+  Flags 0 0x80000
+  coords 3030.692 29.531 4368.037
   angles 0 -178.052 0
+  {
+   GenericEntity {
+    ID "667482877A54A6D3"
+    Flags 0 0x80000
+   }
+   SCR_DestructibleBuildingEntity {
+    ID "667482877A54A48E"
+    Flags 0 0x80000
+   }
+   Tree {
+    ID "671D0EB1281F5962"
+    Flags 0 0x80000
+   }
+   Tree {
+    ID "671D0EB1281F5902"
+    Flags 0 0x80000
+   }
+   Tree {
+    ID "671D0EB1281F59A0"
+    Flags 0 0x80000
+   }
+   Tree {
+    ID "671D0EB1281F590E"
+    Flags 0 0x80000
+   }
+   Tree {
+    ID "671D0EB1281F595E"
+    Flags 0 0x80000
+   }
+  }
  }
 }
 SCR_DestructibleBuildingEntity : "{BEF19A419D38409D}Prefabs/Houses/villages/village_stone_house_base_2+land.et" {
+ Flags 0 0x80000
  coords 2968.193 29.531 4382.462
+ {
+  DecalEntity {
+   ID "66BAA94E4A50C546"
+   Flags 0 0x80000
+  }
+  DecalEntity {
+   ID "66BAA94E4A50C56B"
+   Flags 0 0x80000
+  }
+  DecalEntity {
+   ID "66BAA94E4A50C573"
+   Flags 0 0x80000
+  }
+  DecalEntity {
+   ID "66BAA94E4A50C57F"
+   Flags 0 0x80000
+  }
+  DecalEntity {
+   ID "66BAA94E4A50C586"
+   Flags 0 0x80000
+  }
+  DecalEntity {
+   ID "66BAA94E4A50C58F"
+   Flags 0 0x80000
+  }
+  DecalEntity {
+   ID "66BAA94E4A50C59E"
+   Flags 0 0x80000
+  }
+  GenericEntity {
+   ID "66BAA94E4A50C5BB"
+   Flags 0 0x80000
+  }
+  GenericEntity {
+   ID "66B8E5CAF8ADB3C8"
+   Flags 0 0x80000
+  }
+  GenericEntity {
+   ID "66BAA94463A6EE16"
+   Flags 0 0x80000
+  }
+  GenericEntity {
+   ID "66BAA94463A6EFE6"
+   Flags 0 0x80000
+  }
+  GenericEntity {
+   ID "66BAA94463A6EFF7"
+   Flags 0 0x80000
+  }
+  SCR_DestructibleBuildingEntity {
+   ID "66B8E5CAF8ADB2EB"
+   Flags 0 0x80000
+  }
+  SCR_DestructibleBuildingEntity {
+   ID "66B8E5CAF8ADB3DE"
+   Flags 0 0x80000
+  }
+  SCR_DestructibleEntity {
+   ID "66B8E5C176A53271"
+   {
+    GenericEntity {
+     ID "564E86E6D63F57E1"
+     Flags 0 0x80000
+    }
+   }
+  }
+  SCR_DestructibleEntity {
+   ID "66B8E5C046872A1F"
+   Flags 0 0x80000
+  }
+  SCR_DestructibleEntity {
+   ID "66B8E5CAF8ADB023"
+   Flags 0 0x80000
+  }
+  SCR_DestructibleEntity {
+   ID "66B8E5C175A918FA"
+   Flags 0 0x80000
+  }
+  SCR_DestructibleEntity {
+   ID "66B8E5CAF8ADB007"
+   Flags 0 0x80000
+  }
+  SCR_DestructibleEntity {
+   ID "66B8E5CAF8ADB031"
+   Flags 0 0x80000
+  }
+  SCR_DestructibleEntity {
+   ID "66B8E5C046872BE7"
+   Flags 0 0x80000
+  }
+  SCR_DestructibleEntity {
+   ID "66B8E5C1FA57E4EA"
+   Flags 0 0x80000
+  }
+  SCR_DestructibleEntity {
+   ID "66B8E5CAF8ADB046"
+   Flags 0 0x80000
+  }
+  SCR_DestructibleEntity {
+   ID "66B8E5CAF8ADB054"
+   Flags 0 0x80000
+  }
+  SCR_DestructibleEntity {
+   ID "66B8E5CAF8ADB06F"
+   Flags 0 0x80000
+  }
+  SCR_DestructibleEntity {
+   ID "66B8E5CAF8ADB077"
+   Flags 0 0x80000
+  }
+  SCR_DestructibleEntity {
+   ID "66B8E5CAF8ADB07C"
+   Flags 0 0x80000
+  }
+  SCR_DestructibleEntity {
+   ID "66B8E5CAF8ADB38D"
+   Flags 0 0x80000
+  }
+  SCR_DestructibleEntity {
+   ID "66B8E5CAF8ADB392"
+   Flags 0 0x80000
+  }
+  SCR_DestructibleEntity {
+   ID "66B8E5CAF8ADB398"
+   Flags 0 0x80000
+  }
+  StaticModelEntity {
+   ID "66B8E5C1FC74EE4C"
+   Flags 0 0x80000
+   {
+    GenericEntity {
+     ID "66B8E5C1C9373816"
+     Flags 0 0x80000
+    }
+    GenericEntity {
+     ID "66B8E5C1C9373893"
+     Flags 0 0x80000
+    }
+   }
+  }
+ }
 }
 $grp GenericEntity : "{C93D17434595397D}Prefabs/ZBK/Props/Pipe/Pipe8m_Bridge.et" {
  {
@@ -921,11 +2172,49 @@ SCR_DestructibleBuildingEntity : "{EE6B95EB59D4CFFF}Prefabs/Structures/Industria
 }
 $grp SCR_DestructibleBuildingEntity : "{EFE49212769E45CC}Prefabs/Houses/villages/Shed_02_Base_obolon.et" {
  {
-  coords 2912.151 -0 4328.006
+  Flags 0 0x80000
+  coords 2912.151 29.531 4328.006
+  {
+   Building {
+    ID "6926B5F79869A30E"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "6926B5F79869A3CA"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "6926B5F79869A1FA"
+    Flags 0 0x80000
+   }
+   GameEnvironmentProbeEntity {
+    ID "6926B5F6E2703B83"
+    Flags 0 0x80000
+   }
+  }
  }
  {
-  coords 2912.099 0 4324.457
+  Flags 0 0x80000
+  coords 2912.099 29.531 4324.457
   angles 0 179.737 0
+  {
+   Building {
+    ID "6926B5F79869A30E"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "6926B5F79869A3CA"
+    Flags 0 0x80000
+   }
+   Building {
+    ID "6926B5F79869A1FA"
+    Flags 0 0x80000
+   }
+   GameEnvironmentProbeEntity {
+    ID "6926B5F6E2703B83"
+    Flags 0 0x80000
+   }
+  }
  }
 }
 SCR_DestructibleBuildingEntity : "{F1049D978C35081C}Prefabs/Structures/Industrial/Cranes/GantryCrane_03/GantryCrane_03_turret_trolley.et" {
@@ -934,7 +2223,46 @@ SCR_DestructibleBuildingEntity : "{F1049D978C35081C}Prefabs/Structures/Industria
  angles 0 -90 0
 }
 SCR_DestructibleBuildingEntity : "{F63A37887670DEEE}Prefabs/Houses/villages/village_stone_house_base_5_filled.et" {
+ Flags 0 0x80000
  coords 3005.814 29.726 4387.303
+ {
+  SCR_DestructibleEntity {
+   ID "66BAF5F53CA61966"
+   Flags 0 0x80000
+  }
+  SCR_DestructibleEntity {
+   ID "66BAF5F54CD38502"
+   Flags 0 0x80000
+  }
+  SCR_DestructibleEntity {
+   ID "66BAF5F54CD39AF7"
+   Flags 0 0x80000
+  }
+  SCR_DestructibleEntity {
+   ID "66BAF5F2A4003157"
+   Flags 0 0x80000
+  }
+  SCR_DestructibleEntity {
+   ID "66BAF5F53CA61995"
+   Flags 0 0x80000
+  }
+  SCR_DestructibleEntity {
+   ID "66BAF5F54CD38512"
+   Flags 0 0x80000
+  }
+  SCR_DestructibleEntity {
+   ID "66BAF5F54CD3851A"
+   Flags 0 0x80000
+  }
+  SCR_DestructibleEntity {
+   ID "66BAF5F54CD39ACB"
+   Flags 0 0x80000
+  }
+  SCR_DestructibleEntity {
+   ID "66BAF5F54CD39AD6"
+   Flags 0 0x80000
+  }
+ }
 }
 $grp SCR_DestructibleEntity : "{F755F729EC8D5203}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_2m.et" {
  {
@@ -990,5 +2318,6 @@ $grp SCR_DestructibleEntity : "{F755F729EC8D5203}Prefabs/Structures/Walls/Concre
  }
 }
 SCR_DestructibleBuildingEntity : "{FF35BF8C946B7C41}Prefabs/Structures/Houses/House_Individual/House_Individual_Brick/House_Individual_Brick_1.et" {
- coords 2931.161 0 4406.044
+ Flags 0 0x80000
+ coords 2931.161 29.531 4406.044
 }

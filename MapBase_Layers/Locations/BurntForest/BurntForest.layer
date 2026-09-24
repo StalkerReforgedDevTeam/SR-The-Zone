@@ -1,5 +1,6 @@
 $grp PolylineShapeEntity {
  {
+  Flags 0 0x80000
   coords 3286.943 23 2598.443
   Points {
    ShapePoint "{6A2CADA2144322BD}" {
@@ -832,6 +833,7 @@ $grp PolylineShapeEntity {
   }
  }
  {
+  Flags 0 0x80000
   coords 3295.437 20 2733.609
   Points {
    ShapePoint "{6A2CADA1A30BCE2E}" {
@@ -979,6 +981,7 @@ $grp PolylineShapeEntity {
   }
  }
  {
+  Flags 0 0x80000
   coords 3283.79 20 2732.817
   Points {
    ShapePoint "{6A2CADA11FD1AD8B}" {
@@ -1049,6 +1052,7 @@ $grp PolylineShapeEntity {
   }
  }
  {
+  Flags 0 0x80000
   coords 3281.747 20 2733.185
   Points {
    ShapePoint "{6A2CADA0EFB5D02D}" {
@@ -1078,6 +1082,7 @@ $grp PolylineShapeEntity {
   }
  }
  {
+  Flags 0 0x80000
   coords 3264.198 20 2733.452
   Points {
    ShapePoint "{6A2CADA0E7A5B9B7}" {
@@ -1213,6 +1218,7 @@ $grp PolylineShapeEntity {
   }
  }
  {
+  Flags 0 0x80000
   coords 3283.932 20 2735.838
   Points {
    ShapePoint "{6A2CADBEC64606E0}" {
@@ -1701,11 +1707,11 @@ SCR_DestructibleBuildingEntity {
   Hierarchy "{6A6943971BB63C09}" {
   }
  }
- Flags 0x80403 0
+ Flags 0 0x80000
  editor EntityEditorProps "{6A6943971BB63C07}" {
   Color 1 0 0 1
  }
- coords 4307.653 -0.016 1052.274
+ coords 4307.653 20.011 1052.274
  angles 0 -21.931 0
  HouseNumber -2
  SlotBoneMappings {
@@ -1899,6 +1905,7 @@ SCR_DestructibleBuildingEntity {
  }
 }
 SplineShapeEntity {
+ Flags 0 0x80000
  coords 3242.902 20 2707.849
  Points {
   ShapePoint "{6A2CADBB3E0ED295}" {
@@ -7068,112 +7075,135 @@ SplineShapeEntity {
  }
 }
 SCR_DestructibleBuildingEntity : "{06804C659EF7C47D}Prefabs/Structures/Infrastructure/Power/TransformerStation_E_01/TransformerStation_E_01.et" {
- coords 3294.74 0 2661.038
+ Flags 0 0x80000
+ coords 3294.74 20 2661.038
  angles 0 90.133 0
 }
 $grp StaticModelEntity : "{07F043DD6AACCD0B}Prefabs/Structures/Infrastructure/Barriers/BarGate_01/BarGate_01.et" {
  {
-  coords 3288.611 0 2717.771
+  Flags 0 0x80000
+  coords 3288.611 20 2717.771
   angles 0 179.242 0
  }
  {
-  coords 3268.741 0 2700.121
+  Flags 0 0x80000
+  coords 3268.741 20 2700.121
   angles 0 2.664 0
  }
 }
 GenericEntity : "{1732BF9B212910E8}Prefabs/Structures/Commerical/Busstop Roofing.et" {
- coords 3269.941 -1.638 2713.512
+ Flags 0 0x80000
+ coords 3269.941 18.362 2713.512
  angles 0 -86.987 0
 }
 $grp SCR_DestructibleBuildingEntity : "{1E1FF3AE13CDC15D}Prefabs/Structures/Walls/Concrete/ConcreteRetainingWall_01/ConcreteRetainingWall_01_Corner.et" {
  {
+  Flags 0 0x80000
   coords 3220.486 15.287 2605.412
   angles 0 92.096 0
   scale 2.4
  }
  {
+  Flags 0 0x80000
   coords 3218.44 15.752 2496.009
   angles 0 1.061 0
   scale 2.4
  }
  {
+  Flags 0 0x80000
   coords 3229.654 15.805 2495.672
   angles 0 -178.21 0
   scale 2.4
  }
  {
+  Flags 0 0x80000
   coords 3222.967 15.757 2495.925
   angles 0 1.061 0
   scale 2.4
  }
  {
+  Flags 0 0x80000
   coords 3227.833 15.858 2450.616
   angles 0 0.094 0
   scale 2.4
  }
  {
+  Flags 0 0x80000
   coords 3361.589 15.469 2450.404
   angles 0 -89.329 0
   scale 2.4
  }
  {
+  Flags 0 0x80000
   coords 3364.523 14.631 2603.335
   angles 0 178.152 0
   scale 2.4
  }
 }
 StaticModelEntity : "{35E14C4C60C4A4F3}Prefabs/Structures/Agriculture/WeightStation/WeightStation_01/BuildingAddons/WeightStation_01_platform.et" {
+ Flags 0 0x80000
  coords 3269.25 20 2711.4
  angles 0 2.61 0
 }
 $grp SCR_DestructibleBuildingEntity : "{3DC7F223D21B932C}Prefabs/Structures/Infrastructure/Power/TransformerStation110kV_E_01/TransformerStand110kV_E_01.et" {
  {
-  coords 3319.221 0 2463.687
+  Flags 0 0x80000
+  coords 3319.221 23 2463.687
   angles 0 -1.383 0
   scale 2
  }
  {
-  coords 3346.85 0 2463.687
+  Flags 0 0x80000
+  coords 3346.85 23 2463.687
   angles 0 -1.383 0
   scale 2
  }
  {
-  coords 3293.833 0 2463.687
+  Flags 0 0x80000
+  coords 3293.833 23 2463.687
   angles 0 -1.383 0
   scale 2
  }
  {
-  coords 3264.035 0 2463.687
+  Flags 0 0x80000
+  coords 3264.035 23 2463.687
   angles 0 -1.383 0
   scale 2
  }
 }
 StaticModelEntity : "{4DE187A3508D5A46}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_small_base.et" {
+ Flags 0 0x80000
  coords 3241.273 23 2542.426
 }
 $grp StaticModelEntity : "{94021BCA593A8CFF}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Wide.et" {
  {
+  Flags 0 0x80000
   coords 3280.048 23.035 2602.391
  }
  {
+  Flags 0 0x80000
   coords 3276.347 23.035 2602.391
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{A54F6416C3A6A4D7}Prefabs/Structures/Infrastructure/Power/TransformerSubstation_01/TransformerSubstation_01.et" {
  {
-  coords 3340.664 0 2527.905
+  Flags 0 0x80000
+  coords 3340.664 23 2527.905
   angles 0 -92.062 0
  }
  {
-  coords 3340.378 0 2535.825
+  Flags 0 0x80000
+  coords 3340.378 23 2535.825
   angles 0 -92.062 0
  }
  {
-  coords 3340.118 0 2543.067
+  Flags 0 0x80000
+  coords 3340.118 23 2543.067
   angles 0 -92.062 0
  }
 }
 SCR_PowerPole : "{A6A8404C7705AA28}Prefabs/Structures/Infrastructure/Power/TransformerStation40kV_E_01/TransformerStation40kV_E_01_doubleR.et" {
+ Flags 0 0x80000
  coords 3346.219 30 2498.215
  {
   SCR_DestructibleBuildingEntity {
@@ -7188,31 +7218,38 @@ SCR_PowerPole : "{A6A8404C7705AA28}Prefabs/Structures/Infrastructure/Power/Trans
 }
 $grp SCR_DestructibleBuildingEntity : "{B461AC17AE9B29EF}Prefabs/Structures/Agriculture/WeightStation/WeightStation_01/WeightStation_01.et" {
  {
-  coords 3300.373 0.099 2710.566
+  Flags 0 0x80000
+  coords 3300.373 20.099 2710.566
   angles 0 178.815 0
  }
  {
-  coords 3256.517 0.099 2712.24
+  Flags 0 0x80000
+  coords 3256.517 20.099 2712.24
   angles 0 2.046 0
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{E2FD1CBCB7FD5A9F}Prefabs/Structures/Construcoes_Ruinas/metaltower_eletric.et" {
  {
-  coords 3319.464 1.774 2463.946
+  Flags 0 0x80000
+  coords 3319.464 24.774 2463.946
  }
  {
-  coords 3347.094 1.774 2463.946
+  Flags 0 0x80000
+  coords 3347.094 24.774 2463.946
  }
  {
-  coords 3294.077 1.774 2463.946
+  Flags 0 0x80000
+  coords 3294.077 24.774 2463.946
  }
  {
-  coords 3264.279 1.774 2463.946
+  Flags 0 0x80000
+  coords 3264.279 24.774 2463.946
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{E33A3A2CB9C9BCB1}Prefabs/Structures/Infrastructure/Power/TransformerStation110kV_E_01/TransformerStation110kV_E_01_base.et" {
  {
-  coords 3311.937 0 2482.832
+  Flags 0 0x80000
+  coords 3311.937 23 2482.832
   angles 0 -90.979 0
   {
    SCR_DestructibleBuildingEntity {
@@ -7227,7 +7264,8 @@ $grp SCR_DestructibleBuildingEntity : "{E33A3A2CB9C9BCB1}Prefabs/Structures/Infr
   }
  }
  {
-  coords 3311.637 0 2500.43
+  Flags 0 0x80000
+  coords 3311.637 23 2500.43
   angles 0 -90.979 0
   {
    SCR_DestructibleBuildingEntity {
@@ -7242,7 +7280,8 @@ $grp SCR_DestructibleBuildingEntity : "{E33A3A2CB9C9BCB1}Prefabs/Structures/Infr
   }
  }
  {
-  coords 3286.289 0 2482.394
+  Flags 0 0x80000
+  coords 3286.289 23 2482.394
   angles 0 -90.979 0
   {
    SCR_DestructibleBuildingEntity {
@@ -7257,7 +7296,8 @@ $grp SCR_DestructibleBuildingEntity : "{E33A3A2CB9C9BCB1}Prefabs/Structures/Infr
   }
  }
  {
-  coords 3285.989 0 2499.992
+  Flags 0 0x80000
+  coords 3285.989 23 2499.992
   angles 0 -90.979 0
   {
    SCR_DestructibleBuildingEntity {
@@ -7272,7 +7312,8 @@ $grp SCR_DestructibleBuildingEntity : "{E33A3A2CB9C9BCB1}Prefabs/Structures/Infr
   }
  }
  {
-  coords 3257.322 0 2481.899
+  Flags 0 0x80000
+  coords 3257.322 23 2481.899
   angles 0 -90.979 0
   {
    SCR_DestructibleBuildingEntity {
@@ -7287,7 +7328,8 @@ $grp SCR_DestructibleBuildingEntity : "{E33A3A2CB9C9BCB1}Prefabs/Structures/Infr
   }
  }
  {
-  coords 3257.022 0 2499.497
+  Flags 0 0x80000
+  coords 3257.022 23 2499.497
   angles 0 -90.979 0
   {
    SCR_DestructibleBuildingEntity {
@@ -7304,44 +7346,53 @@ $grp SCR_DestructibleBuildingEntity : "{E33A3A2CB9C9BCB1}Prefabs/Structures/Infr
 }
 $grp SCR_DestructibleEntity : "{F37DCE92787A8557}Prefabs/Structures/Infrastructure/Power/TransformerStation110kV_E_01/ControlBox110kV_E_01.et" {
  {
-  coords 3323.051 0 2467.513
+  Flags 0 0x80000
+  coords 3323.051 23 2467.513
   angles 0 -1.831 0
  }
  {
-  coords 3350.681 0 2467.513
+  Flags 0 0x80000
+  coords 3350.681 23 2467.513
   angles 0 -1.831 0
  }
  {
-  coords 3297.664 0 2467.513
+  Flags 0 0x80000
+  coords 3297.664 23 2467.513
   angles 0 -1.831 0
  }
  {
-  coords 3267.867 0 2467.513
+  Flags 0 0x80000
+  coords 3267.867 23 2467.513
   angles 0 -1.831 0
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{F885365EEA3AD315}Prefabs/Structures/Walls/Concrete/ConcreteRetainingWall_01/ConcreteRetainingWall_01_End.et" {
  {
+  Flags 0 0x80000
   coords 3283.969 13.684 2602.284
   angles 0 -90.86 11.552
   scale 2.6
  }
  {
+  Flags 0 0x80000
   coords 3272.428 10.729 2619.697
   angles -0.328 -89.702 -7.91
   scale 2.8
  }
  {
+  Flags 0 0x80000
   coords 3272.362 12.512 2608.629
   angles -0.328 -89.702 -7.91
   scale 2.8
  }
  {
+  Flags 0 0x80000
   coords 3268.209 10.705 2619.718
   angles -0.328 -89.702 -7.91
   scale 2.8
  }
  {
+  Flags 0 0x80000
   coords 3268.143 12.488 2608.651
   angles -0.328 -89.702 -7.91
   scale 2.8
@@ -7349,156 +7400,187 @@ $grp SCR_DestructibleBuildingEntity : "{F885365EEA3AD315}Prefabs/Structures/Wall
 }
 $grp SCR_DestructibleBuildingEntity : "{FD1CE2903D41D4A7}Prefabs/Structures/Walls/Concrete/ConcreteRetainingWall_01/ConcreteRetainingWall_01_8m.et" {
  {
+  Flags 0 0x80000
   coords 3220.102 15.644 2593.006
   angles 1.448 -89.124 0.126
   scale 2.2
  }
  {
+  Flags 0 0x80000
   coords 3219.835 15.683 2575.492
   angles 1.448 -89.124 0.126
   scale 2.2
  }
  {
+  Flags 0 0x80000
   coords 3219.572 15.721 2558.253
   angles 1.448 -89.124 0.126
   scale 2.2
  }
  {
+  Flags 0 0x80000
   coords 3219.669 15.749 2541.252
   angles 1.452 -90.857 0.083
   scale 2.2
  }
  {
+  Flags 0 0x80000
   coords 3219.932 15.775 2523.738
   angles 1.452 -90.857 0.083
   scale 2.2
  }
  {
+  Flags 0 0x80000
   coords 3220.19 15.799 2506.499
   angles 1.452 -90.857 0.083
   scale 2.2
  }
  {
+  Flags 0 0x80000
   coords 3228.386 16.018 2484.033
   angles 1.452 -90.857 0.083
   scale 2.2
  }
  {
+  Flags 0 0x80000
   coords 3228.646 16.043 2466.669
   angles 1.452 -90.857 0.083
   scale 2.2
  }
  {
+  Flags 0 0x80000
   coords 3228.783 16.057 2457.54
   angles 1.452 -90.857 0.083
   scale 2.2
  }
  {
+  Flags 0 0x80000
   coords 3256.034 15.835 2450.722
   angles 0.089 179.383 -0.217
   scale 2.2
  }
  {
+  Flags 0 0x80000
   coords 3238.669 15.9 2450.536
   angles 0.089 179.383 -0.217
   scale 2.2
  }
  {
+  Flags 0 0x80000
   coords 3273.337 15.769 2450.909
   angles 0.089 179.383 -0.217
   scale 2.2
  }
  {
+  Flags 0 0x80000
   coords 3290.702 15.704 2451.095
   angles 0.089 179.383 -0.217
   scale 2.2
  }
  {
+  Flags 0 0x80000
   coords 3307.98 15.638 2451.282
   angles 0.089 179.383 -0.217
   scale 2.2
  }
  {
+  Flags 0 0x80000
   coords 3325.345 15.573 2451.468
   angles 0.089 179.383 -0.217
   scale 2.2
  }
  {
+  Flags 0 0x80000
   coords 3343.08 15.505 2451.66
   angles 0.089 179.383 -0.217
   scale 2.2
  }
  {
+  Flags 0 0x80000
   coords 3350.639 15.477 2451.74
   angles 0.089 179.383 -0.217
   scale 2.2
  }
  {
+  Flags 0 0x80000
   coords 3362.798 14.968 2497.72
   angles -0.213 91.765 -0.098
   scale 2.2
  }
  {
+  Flags 0 0x80000
   coords 3362.252 14.999 2479.991
   angles -0.213 91.765 -0.098
   scale 2.2
  }
  {
+  Flags 0 0x80000
   coords 3361.716 15.028 2462.634
   angles -0.213 91.765 -0.098
   scale 2.2
  }
  {
+  Flags 0 0x80000
   coords 3363.806 14.881 2550.012
   angles -0.215 90.781 -0.094
   scale 2.2
  }
  {
+  Flags 0 0x80000
   coords 3363.564 14.911 2532.277
   angles -0.215 90.781 -0.094
   scale 2.2
  }
  {
+  Flags 0 0x80000
   coords 3363.326 14.939 2514.913
   angles -0.215 90.781 -0.094
   scale 2.2
  }
  {
+  Flags 0 0x80000
   coords 3363.3 14.816 2592.48
   angles -0.218 88.536 -0.086
   scale 2.2
  }
  {
+  Flags 0 0x80000
   coords 3363.51 14.829 2584.227
   angles -0.218 88.536 -0.086
   scale 2.2
  }
  {
+  Flags 0 0x80000
   coords 3363.953 14.854 2566.868
   angles -0.218 88.536 -0.086
   scale 2.2
  }
  {
+  Flags 0 0x80000
   coords 3351.803 14.185 2603.343
   angles -0.101 2.61 0.212
   scale 2.2
  }
  {
+  Flags 0 0x80000
   coords 3334.743 14.249 2603.767
   angles -0.094 0.675 0.215
   scale 2.2
  }
  {
+  Flags 0 0x80000
   coords 3317.24 14.314 2603.915
   angles -0.09 -0.154 0.216
   scale 2.2
  }
  {
+  Flags 0 0x80000
   coords 3299.777 14.381 2603.791
   angles -0.089 -0.583 0.217
   scale 2.2
  }
  {
+  Flags 0 0x80000
   coords 3294.777 14.4 2603.74
   angles -0.089 -0.583 0.217
   scale 2.2

@@ -613,7 +613,7 @@ $grp SplineShapeEntity {
   coords 5912.551 58.912 5290.1
   Points {
    ShapePoint "{6A634A5DC5CD189C}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{6A634A5DC5CD0690}" {
     Position 5 0.243 0
@@ -1115,7 +1115,7 @@ $grp SplineShapeEntity {
      }
      $grp SCR_DestructibleEntity : "{AE230F078DF8DB11}Prefabs/Structures/Walls/Concrete/ConcreteWall_USSR_01/ConcreteWall_USSR_01_V3.et" {
       {
-       coords 0 -0 0
+       coords 0 0 0
        angles 0 2.704 0
       }
       {
@@ -1774,11 +1774,13 @@ GenericEntity : "{04104BBB4BAA8833}Prefabs/Infrastructure/Platforms/Platform_10x
 }
 $grp StaticModelEntity : "{07F043DD6AACCD0B}Prefabs/Structures/Infrastructure/Barriers/BarGate_01/BarGate_01.et" {
  {
-  coords 4717.521 0.203 5002.408
+  Flags 0 0x80000
+  coords 4717.521 34.838 5002.408
   angles 0 48.017 0
  }
  {
-  coords 4762.453 0.064 5038.819
+  Flags 0 0x80000
+  coords 4762.453 33.345 5038.819
   angles 0 48.017 0
   {
    GenericEntity {
@@ -1790,16 +1792,19 @@ $grp StaticModelEntity : "{07F043DD6AACCD0B}Prefabs/Structures/Infrastructure/Ba
 }
 $grp GenericEntity : "{0F8375D9ABC3A69B}Prefabs/Props/Civilian/Industrial/Fueltanks/FuelTank01_Rusty.et" {
  {
-  coords 4767.581 0.151 5012.292
+  Flags 0 0x80000
+  coords 4767.581 33.495 5012.292
   angles 0 -46.181 0
  }
  {
-  coords 4765.801 0.145 5013.917
+  Flags 0 0x80000
+  coords 4765.801 33.495 5013.917
   angles 0 -46.181 0
  }
 }
 SCR_DestructibleBuildingEntity : "{173E31DE5DE36ABA}Prefabs/Structures/Military/Houses/Barracks_01/Barracks_USSR_01_headquarters_base.et" {
- coords 5803.289 0 5217.167
+ Flags 0 0x80000
+ coords 5803.289 60 5217.167
  angles 0 175.95 0
  {
   Building {
@@ -2012,7 +2017,8 @@ SCR_DestructibleBuildingEntity : "{173E31DE5DE36ABA}Prefabs/Structures/Military/
 }
 $grp GenericEntity : "{21F7E55C8EBF7877}Prefabs/Props/Military/RoadBlocks/Roadblock ConcreteBlock 2.et" {
  {
-  coords 5781.35 -0.001 5250.789
+  Flags 0 0x80000
+  coords 5781.35 44.999 5250.789
   angles 0 85.95 0
   scale 1.802
   {
@@ -2023,7 +2029,8 @@ $grp GenericEntity : "{21F7E55C8EBF7877}Prefabs/Props/Military/RoadBlocks/Roadbl
   }
  }
  {
-  coords 5780.89 -0.001 5257.273
+  Flags 0 0x80000
+  coords 5780.89 44.999 5257.273
   angles 0 85.95 0
   scale 1.802
   {
@@ -2035,20 +2042,24 @@ $grp GenericEntity : "{21F7E55C8EBF7877}Prefabs/Props/Military/RoadBlocks/Roadbl
  }
 }
 GenericEntity : "{23DD4DB3797369CC}Prefabs/Props/Military/Camps/BoardingLadder_01/BoardingLadder_US_01.et" {
+ Flags 0 0x80000
  coords 4730.645 35.755 4991.393
  angles 0 -128.162 0
 }
 $grp GenericEntity : "{24F6E5FFFC6FF4DC}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_20ft_olive_rusty.et" {
  {
+  Flags 0 0x80000
   coords 5848.44 60 5175.588
   angles 0 58.55 0
  }
  {
+  Flags 0 0x80000
   coords 5855.096 60 5177.018
   angles 0 98.568 0
  }
 }
 GenericEntity : "{2A1F2B440ECF8725}Prefabs/Compositions/Misc/SubCompositions/Storage/Misc/Storage_CanvasCover_Small_USSR_01.et" {
+ Flags 0 0x80000
  coords 5850.395 60 5172.968
  angles 0 85.95 0
  {
@@ -2093,34 +2104,41 @@ GenericEntity : "{2A1F2B440ECF8725}Prefabs/Compositions/Misc/SubCompositions/Sto
 }
 $grp GenericEntity : "{2F5567A2B5EBE4F7}PrefabsEditable/Auto/Props/Military/Training/Obstacles/E_ObstacleBridge_01_platform.et" {
  {
+  Flags 0 0x80000
   coords 5816.32 60 5167.944
   angles 0 -4.05 0
  }
  {
+  Flags 0 0x80000
   coords 5816.505 60 5165.331
   angles 0 -4.05 0
  }
  {
+  Flags 0 0x80000
   coords 5882.557 60 5220.496
   angles 0 -4.05 0
  }
  {
+  Flags 0 0x80000
   coords 5882.742 59.993 5217.885
   angles 0 -4.05 0
  }
 }
 $grp GenericEntity : "{4EA97E89E95B3BE2}Prefabs/Infrastructure/Platforms/Railway Platform Start.et" {
  {
+  Flags 0 0x80000
   coords 5781.384 45 5253.879
   angles 0 85.95 0
  }
  {
+  Flags 0 0x80000
   coords 5797.123 45 5254.994
   angles 0 -94.05 0
  }
 }
 SCR_DestructibleBuildingEntity : "{4F9FCEBFBECD27D2}Prefabs/Structures/Houses/Military/Barracks/Barracks_Large.et.et" {
- coords 5893.534 -0.001 5166.57
+ Flags 0 0x80000
+ coords 5893.534 59.999 5166.57
  angles 0 -4.05 0
  {
   Building {
@@ -2780,12 +2798,14 @@ SCR_DestructibleBuildingEntity : "{4F9FCEBFBECD27D2}Prefabs/Structures/Houses/Mi
  }
 }
 SCR_DestructibleEntity : "{50398400408371B0}Prefabs/Structures/walls/Concrete/Concrete_Wall_Military_Dst.et" {
- coords 5754.077 0 5249.382
+ Flags 0 0x80000
+ coords 5754.077 65.219 5249.382
  angles 0 24.594 0
 }
 $grp StaticModelEntity : "{5A5C3D706C56C1EB}Prefabs/Structures/Industrial/LightTower.et" {
  {
-  coords 5967.313 -0.001 5234.077
+  Flags 0 0x80000
+  coords 5967.313 59.999 5234.077
   angles 0 85.95 0
   {
    GenericEntity {
@@ -2871,7 +2891,8 @@ $grp StaticModelEntity : "{5A5C3D706C56C1EB}Prefabs/Structures/Industrial/LightT
   }
  }
  {
-  coords 5922.122 -0.001 5207.14
+  Flags 0 0x80000
+  coords 5922.122 59.999 5207.14
   angles 0 85.95 0
   {
    GenericEntity {
@@ -2960,18 +2981,22 @@ $grp StaticModelEntity : "{5A5C3D706C56C1EB}Prefabs/Structures/Industrial/LightT
  }
 }
 SCR_DestructibleEntity : "{623CC7043AA229CE}Prefabs/Structures/walls/Concrete/Concrete_Wall_Military.et" {
- coords 5873.805 -0 5280.494
+ Flags 0 0x80000
+ coords 5873.805 64.899 5280.494
  angles 0 99.71 0
 }
 GameEntity : "{6597847D2AC253F5}Prefabs/Props/Military/Generators/GeneratorMilitary_USSR_01/GeneratorMilitary_USSR_01.et" {
+ Flags 0 0x80000
  coords 4746.179 32.878 5036.28
  angles 0 40.041 0
 }
 GenericEntity : "{6BE5C753730DBFED}Prefabs/Props/Wrecks/M923A1_wreck/M923A1_wreck_static.et" {
+ Flags 0 0x80000
  coords 4761.354 33.281 5027.845
  angles 0 48.294 0
 }
 GenericEntity : "{6C57BFFFA642C60C}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_04.et" {
+ Flags 0 0x80000
  coords 5843.198 60 5166.3
  angles 0 116.472 0
  {
@@ -2993,6 +3018,7 @@ GenericEntity : "{6C57BFFFA642C60C}Prefabs/Compositions/Misc/SubCompositions/Cra
  }
 }
 GenericEntity : "{73C2A7008B434B5C}Prefabs/Compositions/Misc/SubCompositions/CanvasCover_Cluttered_USSR_03.et" {
+ Flags 0 0x80000
  coords 5854.133 60 5157.885
  angles 0 85.95 0
  {
@@ -3258,6 +3284,7 @@ GenericEntity : "{73C2A7008B434B5C}Prefabs/Compositions/Misc/SubCompositions/Can
  }
 }
 GenericEntity : "{7A32336CED936A26}Prefabs/Compositions/Misc/SubCompositions/CanvasCover_Cluttered_USSR_01.et" {
+ Flags 0 0x80000
  coords 5845.434 60 5161.186
  angles 0 22.504 0
  {
@@ -3345,6 +3372,7 @@ GenericEntity : "{7A32336CED936A26}Prefabs/Compositions/Misc/SubCompositions/Can
 }
 $grp SCR_DestructibleBuildingEntity : "{7AF750C232C9FB90}Prefabs/Infrastructure/Bridges/Highway Bridge with Pillars.et" {
  {
+  Flags 0 0x80000
   coords 5905.163 59.554 5261.81
   angles 0 175.95 0
   {
@@ -3367,6 +3395,7 @@ $grp SCR_DestructibleBuildingEntity : "{7AF750C232C9FB90}Prefabs/Infrastructure/
   }
  }
  {
+  Flags 0 0x80000
   coords 5906.928 59.554 5236.872
   angles 0 175.95 0
   {
@@ -3391,7 +3420,8 @@ $grp SCR_DestructibleBuildingEntity : "{7AF750C232C9FB90}Prefabs/Infrastructure/
 }
 $grp SCR_DestructibleBuildingEntity : "{80A5B37A1472B084}Prefabs/Structures/Industrial/Garages/Garage_E_02/Garage_E_02.et" {
  {
-  coords 5963.689 -0.001 5124.281
+  Flags 0 0x80000
+  coords 5963.689 62.633 5124.281
   angles 0 -4.05 0
   {
    Building {
@@ -3741,7 +3771,8 @@ $grp SCR_DestructibleBuildingEntity : "{80A5B37A1472B084}Prefabs/Structures/Indu
   }
  }
  {
-  coords 5992.616 -0.001 5126.33
+  Flags 0 0x80000
+  coords 5992.616 63.242 5126.33
   angles 0 -4.05 0
   {
    Building {
@@ -4030,7 +4061,8 @@ $grp SCR_DestructibleBuildingEntity : "{80A5B37A1472B084}Prefabs/Structures/Indu
  }
 }
 SCR_DestructibleBuildingEntity : "{915C5B7F7C2767E4}PrefabsEditable/Auto/Structures/Industrial/Repair/E_RampVehicle_01_metal.et" {
- coords 5851.466 -0.001 5166.287
+ Flags 0 0x80000
+ coords 5851.466 59.999 5166.287
  angles 0 85.95 0
  {
   GenericEntity {
@@ -4041,92 +4073,113 @@ SCR_DestructibleBuildingEntity : "{915C5B7F7C2767E4}PrefabsEditable/Auto/Structu
 }
 $grp GenericEntity : "{98181FFB0DBC6FF9}PrefabLibrary/DefaultLibrary/Props/Military/ObstacleVault_01.et" {
  {
+  Flags 0 0x80000
   coords 6538.332 36.375 6469.79
   angles 0 -90 0
  }
  {
+  Flags 0 0x80000
   coords 6538.332 36.375 6466.79
   angles 0 -90 0
  }
  {
+  Flags 0 0x80000
   coords 6537.611 35.85 6466.79
   angles 0 -90 0
  }
  {
+  Flags 0 0x80000
   coords 6537.611 35.85 6469.79
   angles 0 -90 0
  }
  {
+  Flags 0 0x80000
   coords 6490.586 36.375 6536.573
   angles 0 -90 0
  }
  {
+  Flags 0 0x80000
   coords 6489.865 35.85 6536.573
   angles 0 -90 0
  }
  {
+  Flags 0 0x80000
   coords 6489.865 35.85 6539.573
   angles 0 -90 0
  }
  {
+  Flags 0 0x80000
   coords 6490.586 36.375 6539.573
   angles 0 -90 0
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{9CA37F1FF41CC695}Prefabs/Structures/Military/WatchTower2.et" {
  {
-  coords 5804.202 0 5147.653
+  Flags 0 0x80000
+  coords 5804.202 60 5147.653
   angles 0 175.95 0
  }
  {
-  coords 5932.382 -0.001 5120.912
+  Flags 0 0x80000
+  coords 5932.382 62.196 5120.912
   angles 0 175.95 0
  }
  {
-  coords 5892.734 0.177 5281.573
+  Flags 0 0x80000
+  coords 5892.734 60 5281.573
   angles 0 -94.05 0
  }
  {
-  coords 5889.332 0 5230.021
+  Flags 0 0x80000
+  coords 5889.332 60 5230.021
   angles 0 175.95 0
  }
  {
-  coords 6022.093 -0.001 5225.07
+  Flags 0 0x80000
+  coords 6022.093 59.999 5225.07
   angles 0 175.95 0
  }
 }
 $grp GenericEntity : "{9E2D46C5ED3EBC84}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/Dst/EquipmentBoxStack_01_V1_dst_01_USSR.et" {
  {
+  Flags 0 0x80000
   coords 4751.272 33.341 5042.94
  }
  {
+  Flags 0 0x80000
   coords 4750.505 33.301 5041.268
  }
  {
+  Flags 0 0x80000
   coords 4752.021 33.313 5042.114
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{9EB89ABD6874D576}Prefabs/Structures/Military/HangarShed1.et" {
  {
-  coords 5979.85 0 5176.528
+  Flags 0 0x80000
+  coords 5979.85 60 5176.528
   angles 0 85.95 0
   scale 1.31
  }
  {
-  coords 6004.092 0 5178.244
+  Flags 0 0x80000
+  coords 6004.092 60 5178.244
   angles 0 85.95 0
   scale 1.31
  }
 }
 SCR_DestructibleBuildingEntity : "{A2726797F70F52D8}Prefabs/Structures/Military/Bunkers/Bunker_01/Bunker_01_1fp_Camo.et" {
- coords 4732.948 -0.036 4993.551
+ Flags 0 0x80000
+ coords 4732.948 34.586 4993.551
  angles 0 -35.413 0
 }
 GenericEntity : "{A2D50E1459CC19C1}Prefabs/Structures/Military/CamoNets/CamoNet_Base.et" {
+ Flags 0 0x80000
  coords 4748.907 33.334 5047.842
  angles 0 -77.949 0
 }
 StaticModelEntity : "{A8D91E11AE815152}PrefabsEditable/Auto/Structures/Infrastructure/Towers/E_TransmitterTower_01_small.et" {
+ Flags 0 0x80000
  coords 5891.429 60.505 5215.765
  angles 0 85.95 0
  scale 2.237
@@ -4148,6 +4201,7 @@ StaticModelEntity : "{A8D91E11AE815152}PrefabsEditable/Auto/Structures/Infrastru
  }
 }
 GenericEntity : "{A9CF5E8C5D91C476}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Group_Crate_01.et" {
+ Flags 0 0x80000
  coords 5851.635 60 5174.873
  angles 0 85.95 0
  {
@@ -4175,76 +4229,94 @@ GenericEntity : "{A9CF5E8C5D91C476}Prefabs/Compositions/Misc/SubCompositions/Dec
 }
 $grp GenericEntity : "{B0BD5E6DAA08B808}Prefabs/Infrastructure/Railways/Railway 40M.et" {
  {
+  Flags 0 0x80000
   coords 6101.154 44.941 5276.65
   angles 0 -93.461 0
  }
  {
+  Flags 0 0x80000
   coords 6101.535 44.941 5270.341
   angles 0 -93.461 0
  }
  {
+  Flags 0 0x80000
   coords 6061.609 44.941 5267.925
   angles 0 -93.461 0
  }
  {
+  Flags 0 0x80000
   coords 6061.227 44.941 5274.234
   angles 0 -93.461 0
  }
  {
+  Flags 0 0x80000
   coords 6021.681 44.941 5265.512
   angles 0 -93.461 0
  }
  {
+  Flags 0 0x80000
   coords 6021.299 44.941 5271.82
   angles 0 -93.461 0
  }
  {
+  Flags 0 0x80000
   coords 5981.543 44.941 5263.083
   angles 0 -93.461 0
  }
  {
+  Flags 0 0x80000
   coords 5981.163 44.941 5269.394
   angles 0 -93.461 0
  }
  {
+  Flags 0 0x80000
   coords 5941.618 44.941 5260.67
   angles 0 -93.461 0
  }
  {
+  Flags 0 0x80000
   coords 5941.234 44.941 5266.98
   angles 0 -93.461 0
  }
  {
+  Flags 0 0x80000
   coords 5861.614 44.941 5255.833
   angles 0 -93.461 0
  }
  {
+  Flags 0 0x80000
   coords 5861.233 44.941 5262.141
   angles 0 -93.461 0
  }
  {
+  Flags 0 0x80000
   coords 5901.54 44.941 5258.246
   angles 0 -93.461 0
  }
  {
+  Flags 0 0x80000
   coords 5901.159 44.941 5264.554
   angles 0 -93.461 0
  }
  {
+  Flags 0 0x80000
   coords 5821.799 44.945 5253.424
   angles 0 -93.461 0
  }
  {
+  Flags 0 0x80000
   coords 5821.418 44.945 5259.734
   angles 0 -93.461 0
  }
 }
 SCR_DestructibleBuildingEntity : "{B2F1FA2F059A8D2B}Prefabs/Structures/Industrial/Shed with Concrete Wall.et" {
- coords 5928.142 3.677 5182.76
+ Flags 0 0x80000
+ coords 5928.142 63.677 5182.76
  angles 0.452 175.941 -1.185
  scale 1.21
 }
 GenericEntity : "{B4FFD63EDFCBD850}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_02.et" {
+ Flags 0 0x80000
  coords 5845.791 60 5165.92
  angles 0 72.029 0
  {
@@ -4276,38 +4348,46 @@ GenericEntity : "{B4FFD63EDFCBD850}Prefabs/Compositions/Misc/SubCompositions/Cra
 }
 $grp GenericEntity : "{BD6194F9AEA3AE2C}PrefabsEditable/Auto/Props/Military/Training/Obstacles/E_ObstacleBridge_01_start.et" {
  {
+  Flags 0 0x80000
   coords 5816.03 60 5171.757
   angles 0 -4.05 0
  }
  {
+  Flags 0 0x80000
   coords 5816.758 60 5161.455
   angles 0 175.95 0
  }
  {
+  Flags 0 0x80000
   coords 5882.997 58.848 5214.01
   angles 0 175.95 0
  }
  {
+  Flags 0 0x80000
   coords 5882.268 60 5224.31
   angles 0 -4.05 0
  }
 }
 $grp GenericEntity : "{C707F02B5A64AA08}Prefabs/Props/Wrecks/BRDM2_wreck/BRDM2_wreck.et" {
  {
+  Flags 0 0x80000
   coords 4730.446 32.945 5018.043
   angles 0 -139.081 0
  }
  {
+  Flags 0 0x80000
   coords 4738.871 32.889 5023.503
   angles 0 -107.751 0
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{C78C68313AAC28C0}Prefabs/Structures/Industrial/Shed Large.et" {
  {
+  Flags 0 0x80000
   coords 5783.859 45 5253.319
   angles 0 85.95 0
  }
  {
+  Flags 0 0x80000
   coords 5834.386 45 5131.789
   angles 0 85.95 0
   scale 1.06
@@ -4315,18 +4395,22 @@ $grp SCR_DestructibleBuildingEntity : "{C78C68313AAC28C0}Prefabs/Structures/Indu
 }
 $grp GenericEntity : "{C827D42F149D6B1E}PrefabsEditable/Auto/Props/Military/Training/Obstacles/E_ObstacleRunAround_01.et" {
  {
+  Flags 0 0x80000
   coords 5801.036 60 5165.378
   angles 0 -4.05 0
  }
  {
+  Flags 0 0x80000
   coords 5867.273 59.999 5217.932
   angles 0 -4.05 0
  }
 }
 SCR_DestructibleBuildingEntity : "{CAA7EB948ACA9E43}Prefabs/Structures/Construcoes_Ruinas/BarnWood.et" {
- coords 4709.581 -0 4910.08
+ Flags 0 0x80000
+ coords 4709.581 32.268 4910.08
 }
 GenericEntity : "{CEB691AFB46D7CAB}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_Containers_FIA_03.et" {
+ Flags 0 0x80000
  coords 5843.348 60 5155.771
  angles 0 -72.448 0
  {
@@ -4342,21 +4426,25 @@ GenericEntity : "{CEB691AFB46D7CAB}Prefabs/Compositions/Misc/SubCompositions/Sto
  }
 }
 GenericEntity : "{CF2D2A381344B6FE}Prefabs/Props/Construction/ContainerMetal_01/ContainerMetal_01_blue.et" {
+ Flags 0 0x80000
  coords 5842.953 60 5173.22
  angles 0 107.799 0
 }
 SCR_DestructibleBuildingEntity : "{D231DBDC442ADF08}Prefabs/Structures/Undeground/Tonnel/Tonnel_Trough.et" {
- coords 6053.874 1.734 5270.479
+ Flags 0 0x80000
+ coords 6053.874 44.999 5270.479
  angles 0 -94.05 0
  scale 1.22
 }
 GenericEntity : "{DA21C98401C7E045}PrefabsEditable/Auto/Props/Military/Training/Obstacles/E_ObstacleCrawl_01.et" {
+ Flags 0 0x80000
  coords 5812.215 60 5154.575
  angles 0 85.95 0
 }
 $grp SCR_DestructibleBuildingEntity : "{DEE16C6CE3D7072E}Prefabs/Structures/Military/Houses/BarracksWooden_01/BarracksWooden_01_base.et" {
  {
-  coords 5944.722 -0.001 5221.927
+  Flags 0 0x80000
+  coords 5944.722 59.999 5221.927
   angles 0 85.95 0
   {
    GameEnvironmentProbeEntity {
@@ -4366,7 +4454,8 @@ $grp SCR_DestructibleBuildingEntity : "{DEE16C6CE3D7072E}Prefabs/Structures/Mili
   }
  }
  {
-  coords 5992.246 0 5225.292
+  Flags 0 0x80000
+  coords 5992.246 60 5225.292
   angles 0 85.95 0
   {
    GameEnvironmentProbeEntity {
@@ -4377,7 +4466,8 @@ $grp SCR_DestructibleBuildingEntity : "{DEE16C6CE3D7072E}Prefabs/Structures/Mili
  }
 }
 SCR_DestructibleBuildingEntity : "{E20479FA52273384}Prefabs/Structures/Ruins/House_Ruin_1I01/House_Ruin_1I01_V1_Brick.et" {
- coords 5935.469 1.925 5174.396
+ Flags 0 0x80000
+ coords 5935.469 61.925 5174.396
  angles 0 85.95 0
  scale 1.583
  {
@@ -4429,139 +4519,167 @@ SCR_DestructibleBuildingEntity : "{E20479FA52273384}Prefabs/Structures/Ruins/Hou
  }
 }
 GameEntity : "{E3F157551B0501FE}Prefabs/Props/Military/Generators/GeneratorMilitary_USSR_01/GeneratorMilitary_USSR_01_open.et" {
+ Flags 0 0x80000
  coords 4749.678 33.281 5040.105
  angles 0 44.713 0
 }
 $grp GenericEntity : "{E801AF1221F2F23E}Prefabs/Infrastructure/Platforms/Railway Platform.et" {
  {
+  Flags 0 0x80000
   coords 5781.044 45 5253.919
   angles 0 85.95 0
  }
  {
+  Flags 0 0x80000
   coords 5786.398 45 5254.297
   angles 0 85.95 0
  }
  {
+  Flags 0 0x80000
   coords 5791.789 45 5254.679
   angles 0 85.95 0
  }
 }
 GenericEntity : "{ECC4315520263256}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_dark.et" {
+ Flags 0 0x80000
  coords 6545.838 36.406 6508.456
  angles 0 -13.554 0
 }
 $grp GenericEntity : "{EE3158B6D47BED36}PrefabsEditable/Auto/Props/Forest/WoodPile/E_WoodLog_01_A.et" {
  {
+  Flags 0 0x80000
   coords 5806.72 60 5165.438
   angles -89.98 -94.05 180
   scale 1.24
  }
  {
+  Flags 0 0x80000
   coords 5810.034 60 5166.303
   angles -89.98 -94.05 180
   scale 1.24
  }
  {
+  Flags 0 0x80000
   coords 5807.441 60 5164.208
   angles -89.98 -94.05 180
   scale 1.24
  }
  {
+  Flags 0 0x80000
   coords 5808.779 60 5167.412
   angles -89.98 -94.05 180
   scale 1.24
  }
  {
+  Flags 0 0x80000
   coords 5810.013 60 5164.334
   angles -89.98 -94.05 180
   scale 1.24
  }
  {
+  Flags 0 0x80000
   coords 5808.634 60 5162.505
   angles -89.98 -94.05 180
   scale 1.24
  }
  {
+  Flags 0 0x80000
   coords 5806.24 60 5164.224
   angles -89.98 -94.05 180
   scale 1.24
  }
  {
+  Flags 0 0x80000
   coords 5808.599 60 5166.423
   angles -89.98 -94.05 180
   scale 1.24
  }
  {
+  Flags 0 0x80000
   coords 5810.953 60 5162.485
   angles -89.98 -94.05 180
   scale 1.24
  }
  {
+  Flags 0 0x80000
   coords 5807.24 60 5162.145
   angles -89.98 -94.05 180
   scale 1.24
  }
  {
+  Flags 0 0x80000
   coords 5809.699 60 5161.177
   angles -89.98 -94.05 180
   scale 1.24
  }
  {
+  Flags 0 0x80000
   coords 5876.27 60 5218.858
   angles -89.98 -94.05 180
   scale 1.24
  }
  {
+  Flags 0 0x80000
   coords 5873.677 59.981 5216.762
   angles -89.98 -94.05 180
   scale 1.24
  }
  {
+  Flags 0 0x80000
   coords 5874.836 60 5218.976
   angles -89.98 -94.05 180
   scale 1.24
  }
  {
+  Flags 0 0x80000
   coords 5874.871 59.796 5215.061
   angles -89.98 -94.05 180
   scale 1.24
  }
  {
+  Flags 0 0x80000
   coords 5877.189 59.708 5215.04
   angles -89.98 -94.05 180
   scale 1.24
  }
  {
+  Flags 0 0x80000
   coords 5875.016 60 5219.967
   angles -89.98 -94.05 180
   scale 1.24
  }
  {
+  Flags 0 0x80000
   coords 5872.956 60 5217.992
   angles -89.98 -94.05 180
   scale 1.24
  }
  {
+  Flags 0 0x80000
   coords 5875.935 59.542 5213.731
   angles -89.98 -94.05 180
   scale 1.24
  }
  {
+  Flags 0 0x80000
   coords 5876.25 59.961 5216.89
   angles -89.98 -94.05 180
   scale 1.24
  }
  {
+  Flags 0 0x80000
   coords 5872.477 59.981 5216.778
   angles -89.98 -94.05 180
   scale 1.24
  }
  {
+  Flags 0 0x80000
   coords 5873.476 59.786 5214.701
   angles -89.98 -94.05 180
   scale 1.24
  }
 }
 GenericEntity : "{EF070B8345288C8B}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_2_base.et" {
+ Flags 0 0x80000
  coords 6545.143 36.406 6509.823
 }

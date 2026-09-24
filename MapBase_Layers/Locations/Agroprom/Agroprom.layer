@@ -10,70 +10,87 @@ GenericEntity {
 }
 $grp ParticleEffectEntity {
  {
+  Flags 0 0x80000
   coords 4324.494 13.239 3262.224
   EffectPath "{F77B3D43C3036E4A}Prefabs/Anomals/Gravy/data/gravy_idle_3.ptc"
  }
  {
+  Flags 0 0x80000
   coords 4323.566 18.77 3270.891
   EffectPath "{B810DD837647F9C4}Prefabs/Anomals/Cometes/ELECTRO/data/electro_particle1.ptc"
  }
  {
+  Flags 0 0x80000
   coords 4328.388 10.647 3266.562
   EffectPath "{B810DD837647F9C4}Prefabs/Anomals/Cometes/ELECTRO/data/electro_particle1.ptc"
  }
  {
+  Flags 0 0x80000
   coords 4319.258 18.77 3264.848
   EffectPath "{B810DD837647F9C4}Prefabs/Anomals/Cometes/ELECTRO/data/electro_particle1.ptc"
  }
  {
+  Flags 0 0x80000
   coords 4320.5 12.722 3262.016
   EffectPath "{1825A8B23B285A67}Prefabs/Anomals/Gravy/data/gravy_idle2.ptc"
  }
  {
+  Flags 0 0x80000
   coords 4321.957 13.253 3261.623
   EffectPath "{1825A8B23B285A67}Prefabs/Anomals/Gravy/data/gravy_idle2.ptc"
  }
  {
+  Flags 0 0x80000
   coords 4318.904 15.668 3265.583
   EffectPath "{5F663203C020CBB7}Prefabs/Anomals/Gravy/data/gravy_rock.ptc"
  }
  {
+  Flags 0 0x80000
   coords 4317.392 10.853 3265.353
   EffectPath "{B810DD837647F9C4}Prefabs/Anomals/Cometes/ELECTRO/data/electro_particle1.ptc"
  }
  {
+  Flags 0 0x80000
   coords 4316.683 10.427 3269.732
   EffectPath "{B810DD837647F9C4}Prefabs/Anomals/Cometes/ELECTRO/data/electro_particle1.ptc"
  }
  {
+  Flags 0 0x80000
   coords 4320.173 11.587 3274.16
   EffectPath "{B810DD837647F9C4}Prefabs/Anomals/Cometes/ELECTRO/data/electro_particle1.ptc"
  }
  {
+  Flags 0 0x80000
   coords 4327.15 18.086 3264.723
   EffectPath "{B810DD837647F9C4}Prefabs/Anomals/Cometes/ELECTRO/data/electro_particle1.ptc"
  }
  {
+  Flags 0 0x80000
   coords 4325.653 14.758 3263.643
   EffectPath "{1A5D8A6111EDF705}Prefabs/Anomals/Gravy/data/gravy_idle_hidden.ptc"
  }
  {
+  Flags 0 0x80000
   coords 4319.326 10.312 3260.302
   EffectPath "{B810DD837647F9C4}Prefabs/Anomals/Cometes/ELECTRO/data/electro_particle1.ptc"
  }
  {
+  Flags 0 0x80000
   coords 4318.093 18.77 3268.979
   EffectPath "{B810DD837647F9C4}Prefabs/Anomals/Cometes/ELECTRO/data/electro_particle1.ptc"
  }
  {
+  Flags 0 0x80000
   coords 4322.304 12.745 3266.063
   EffectPath "{8F8EDC583ABF7E0D}Prefabs/Anomals/Eye/data/eye_attack.ptc"
  }
  {
+  Flags 0 0x80000
   coords 4315.907 10.334 3261.403
   EffectPath "{E512A6BED7CD9E01}Prefabs/Monsters/Characters/Elementals/Fire/data/explode_particle.ptc"
  }
  {
+  Flags 0 0x80000
   coords 4323.447 18.77 3264.423
   EffectPath "{B810DD837647F9C4}Prefabs/Anomals/Cometes/ELECTRO/data/electro_particle1.ptc"
  }
@@ -92,10 +109,12 @@ GameEntity : "{17CA8447504AC734}Prefabs/Items/artefacts/armst_art_serafim_drop.e
    Enabled 0
   }
  }
+ Flags 0 0x80000
  coords 4322.25 13.313 3265.976
  scale 71.3
 }
 GenericEntity : "{18BA338EEE3DB1CF}Prefabs/Terrains/yama.et" {
+ Flags 0 0x80000
  coords 4322.201 10.33 3265.766
 }
 $grp SCR_DestructibleBuildingEntity : "{1AB3F8B3F8CA860D}Prefabs/Structures/Houses/Garage/Garage_B.et" {
@@ -137,6 +156,7 @@ GenericEntity : "{3619812B192CCAE9}Prefabs/Props/Core/Wreck_Base.et" {
    Static 1
   }
  }
+ Flags 0 0x80000
  coords 4248.977 34.704 3183.522
  angles 0 1.498 0
  {
@@ -703,24 +723,29 @@ $grp SCR_DestructibleBuildingEntity : "{3F91DEEC9C78E473}Prefabs/Structures/Mili
  }
 }
 SCR_DestructibleBuildingEntity : "{4109B6F3E0E2255E}Prefabs/Structures/Military/HangarArch.et" {
- coords 4344.534 0.063 3010.823
+ Flags 0 0x80000
+ coords 4344.534 20.063 3010.823
  angles 0 -179.717 0
 }
 $grp SCR_DestructibleBuildingEntity : "{411A220BE21582D3}Prefabs/Industrial/garages/auto_estakada_01.et" {
  {
+  Flags 0 0x80000
   coords 4321.714 20.163 2989.429
   angles 0 179.978 0
  }
  {
+  Flags 0 0x80000
   coords 4341.412 20.163 2989.438
   angles 0 179.978 0
  }
  {
+  Flags 0 0x80000
   coords 4331.219 20.163 2989.433
   angles 0 179.978 0
  }
 }
 StaticModelEntity : "{41CBD4EACE885735}Prefabs/Structures/Infrastructure/Sewage/ManholeCover_E_02/ManholeCover_E_02.et" {
+ Flags 0 0x80000
  coords 4297.246 23 2644.789
 }
 StaticModelEntity : "{512075732D0BA32F}Prefabs/Structures/BuildingParts/Cultural/Mosaic/MosaicCoal_01/MosaicCoal_01_base.et" {
@@ -730,60 +755,76 @@ StaticModelEntity : "{512075732D0BA32F}Prefabs/Structures/BuildingParts/Cultural
 }
 $grp SCR_DestructibleBuildingEntity : "{730BB8C80D8D0BC7}Prefabs/ZBK/KitSewer/Vanillia/GroundAsphalt_16x32.et" {
  {
-  coords 4256.269 -3.765 3258.591
+  Flags 0 0x80000
+  coords 4256.269 36.161 3258.591
  }
  {
-  coords 4288.152 -3.839 3258.591
+  Flags 0 0x80000
+  coords 4288.152 36.161 3258.591
  }
  {
-  coords 4320.06 26.161 3258.591
+  Flags 0 0x80000
+  coords 4320.06 36.161 3258.591
  }
  {
-  coords 4351.943 -3.839 3258.591
+  Flags 0 0x80000
+  coords 4351.943 36.161 3258.591
  }
  {
-  coords 4320.06 21.917 3274.462
+  Flags 0 0x80000
+  coords 4320.06 36.161 3274.462
  }
  {
-  coords 4351.943 -3.839 3274.462
+  Flags 0 0x80000
+  coords 4351.943 36.161 3274.462
  }
  {
-  coords 4383.932 -3.839 3258.591
+  Flags 0 0x80000
+  coords 4383.932 36.161 3258.591
  }
  {
-  coords 4383.629 -3.839 3274.462
+  Flags 0 0x80000
+  coords 4383.629 36.161 3274.462
  }
  {
-  coords 4382.344 -3.815 3184.854
+  Flags 0 0x80000
+  coords 4382.344 36.159 3184.854
   angles 0 -89.827 0
  }
  {
-  coords 4360.734 -0.684 3179.263
+  Flags 0 0x80000
+  coords 4360.734 36.159 3179.263
   angles 0 0.554 0
  }
  {
-  coords 4328.968 6.585 3179.57
+  Flags 0 0x80000
+  coords 4328.968 36.16 3179.57
   angles 0 0.554 0
  }
  {
-  coords 4296.994 -3.779 3178.92
+  Flags 0 0x80000
+  coords 4296.994 36.16 3178.92
   angles 0 0.554 0
  }
  {
-  coords 4264.997 -3.84 3179.084
+  Flags 0 0x80000
+  coords 4264.997 36.16 3179.084
   angles 0 0.554 0
  }
  {
-  coords 4233.331 -4.746 3180.494
+  Flags 0 0x80000
+  coords 4233.331 36.159 3180.494
   angles 0 0.554 0
  }
 }
 GenericEntity : "{735E1F39B06B7AFF}Prefabs/ZBK/KitSewer/Vanillia/GroundExit_16x16.et" {
+ Flags 0 0x80000
  coords 4255.251 36.175 3208.819
  angles 0.013 -90.679 -0.001
 }
 SCR_DestructibleBuildingEntity : "{762040AF57697000}Prefabs/Structures/Military/Houses/Barracks_E_03/Barracks_USSR_03_brick.et" {
- coords 4359.764 0 2910.708
+ Flags 0 0x80000
+ coords 4359.764 20 2910.708
  angles 0 -1.878 0
 }
 GenericEntity : "{879EE603120E94C7}Prefabs/Structures/BuildingParts/Cultural/Mosaic/MosaicPowerPlant_01/MosaicPowerPlant_01_base.et" {
@@ -803,10 +844,12 @@ $grp SCR_DestructibleBuildingEntity : "{92AC652FED0FC35A}Prefabs/Structures/Hous
  }
 }
 SCR_DestructibleBuildingEntity : "{94E440CC21FCDFD0}Prefabs/ZBK/KitSewer/I8mLadOut_0.et" {
- coords 4256.442 8.929 3208.982
+ Flags 0 0x80000
+ coords 4256.442 36.941 3208.982
  angles 0 -86.859 0
 }
 GenericEntity : "{9ACB51DEF11E9691}Prefabs/Structures/BuildingParts/Misc/VentCover_02/VentCover_02_30x35_B.et" {
+ Flags 0 0x80000
  coords 4322.253 30.785 3233.207
  angles -89.916 -154.862 156.035
  scale 3.4
@@ -871,27 +914,33 @@ $grp SCR_PowerPole : "{BA6809BF385C961A}Prefabs/Structures/Infrastructure/Power/
 }
 $grp GenericEntity : "{BC3CEFB8F1FFCEA5}Prefabs/ZBK/KitFactory/KitWall/Wall2Umin760_Br1Ext.et" {
  {
+  Flags 0 0x80000
   coords 4256.955 33.828 3205.087
   angles 0 -87.861 0
  }
  {
+  Flags 0 0x80000
   coords 4258.337 30.119 3212.223
   angles 0 -86.318 0
  }
  {
+  Flags 0 0x80000
   coords 4250.926 33.904 3212.7
   angles 0 -86.318 0
  }
  {
+  Flags 0 0x80000
   coords 4262.006 40.781 3216.5
   angles -0.044 2.845 -90.096
   scale 1.4
  }
  {
+  Flags 0 0x80000
   coords 4253.523 33.904 3216.248
   angles 0 1.12 0
  }
  {
+  Flags 0 0x80000
   coords 4261.312 33.904 3216.111
   angles 0 2.189 0
  }
@@ -947,39 +996,51 @@ SCR_DestructibleBuildingEntity : "{F536F4CB2FB2191C}Prefabs/Structures/Services/
 }
 $grp SCR_DestructibleBuildingEntity : "{F771227C6D040467}Prefabs/ZBK/KitSewer/Vanillia/GroundAsphalt_16x64.et" {
  {
-  coords 4296.318 26.167 3210.879
+  Flags 0 0x80000
+  coords 4296.318 36.167 3210.879
  }
  {
-  coords 4345.551 26.167 3194.97
+  Flags 0 0x80000
+  coords 4345.551 36.167 3194.97
  }
  {
-  coords 4296.318 9.854 3242.833
+  Flags 0 0x80000
+  coords 4296.318 36.167 3242.833
  }
  {
-  coords 4296.318 26.167 3226.858
+  Flags 0 0x80000
+  coords 4296.318 36.167 3226.858
  }
  {
-  coords 4232.388 -5.315 3242.833
+  Flags 0 0x80000
+  coords 4232.388 36.167 3242.833
  }
  {
-  coords 4232.388 -4.268 3226.858
+  Flags 0 0x80000
+  coords 4232.388 36.174 3226.858
  }
  {
-  coords 4217.499 -6.201 3211.613
+  Flags 0 0x80000
+  coords 4217.499 36.166 3211.613
  }
  {
-  coords 4217.499 -6.119 3195.638
+  Flags 0 0x80000
+  coords 4217.499 36.167 3195.638
  }
  {
-  coords 4281.514 0.223 3195.016
+  Flags 0 0x80000
+  coords 4281.514 36.167 3195.016
  }
  {
-  coords 4359.839 26.167 3210.879
+  Flags 0 0x80000
+  coords 4359.839 36.167 3210.879
  }
  {
-  coords 4359.839 26.167 3226.858
+  Flags 0 0x80000
+  coords 4359.839 36.167 3226.858
  }
  {
-  coords 4359.839 26.167 3242.833
+  Flags 0 0x80000
+  coords 4359.839 36.167 3242.833
  }
 }

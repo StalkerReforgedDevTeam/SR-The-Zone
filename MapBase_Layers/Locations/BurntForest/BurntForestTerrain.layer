@@ -1,5 +1,6 @@
 $grp SplineShapeEntity {
  {
+  Flags 0 0x80000
   coords 3518.892 56.397 3340.707
   Points {
    ShapePoint "{6A2CADABB26AAF21}" {
@@ -9291,6 +9292,7 @@ $grp SplineShapeEntity {
   }
  }
  {
+  Flags 0 0x80000
   coords 3651.804 40.075 3469.232
   Points {
    ShapePoint "{6A2CADAB7CC1B7B9}" {
@@ -13790,6 +13792,7 @@ $grp SplineShapeEntity {
   }
  }
  {
+  Flags 0 0x80000
   coords 3520.964 59.883 2908.412
   Points {
    ShapePoint "{6A2CADAB70BED4EA}" {
@@ -17568,6 +17571,7 @@ $grp SplineShapeEntity {
   }
  }
  {
+  Flags 0 0x80000
   coords 3354.898 20 2611.817
   Points {
    ShapePoint "{6A2CADA05DA513ED}" {
@@ -32779,6 +32783,7 @@ $grp SplineShapeEntity {
   }
  }
  {
+  Flags 0 0x80000
   coords 3304.786 20 2438.125
   Points {
    ShapePoint "{6A2CADA03E24A347}" {
@@ -59538,6 +59543,7 @@ $grp SplineShapeEntity {
   }
  }
  {
+  Flags 0 0x80000
   coords 3165.336 20.966 3304.752
   Points {
    ShapePoint "{6A2CADB9CD4C038C}" {
@@ -67207,6 +67213,7 @@ $grp SplineShapeEntity {
   }
  }
  {
+  Flags 0 0x80000
   coords 3716.493 37.047 2658.66
   Points {
    ShapePoint "{6A6978CD88B6CA40}" {
@@ -67309,10 +67316,11 @@ $grp SplineShapeEntity {
   }
  }
  {
+  Flags 0 0x80000
   coords 3624.158 20.13 2597.285
   Points {
    ShapePoint "{6A6978CDADFE9907}" {
-    Position 0 -0 0
+    Position 0 0 0
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
@@ -67481,6 +67489,7 @@ $grp SplineShapeEntity {
   }
  }
  {
+  Flags 0 0x80000
   coords 3663.999 26.316 2630.971
   Points {
    ShapePoint "{6A6978CD646705F8}" {
@@ -67764,6 +67773,7 @@ $grp SplineShapeEntity {
   }
  }
  {
+  Flags 0 0x80000
   coords 3682.337 27.003 2622.14
   Points {
    ShapePoint "{6A6978CD75813442}" {
@@ -68135,149 +68145,181 @@ $grp SplineShapeEntity {
  }
 }
 SCR_DestructibleBuildingEntity : "{1A774A9DF37FE9CA}Prefabs/Structures/Services/Government/MunicipalOffice_E_01/MunicipalOffice_E_01_beige.et" {
- coords 3330.391 0 2664.205
+ Flags 0 0x80000
+ coords 3330.391 20 2664.205
  angles 0 -86.771 0
 }
 GenericEntity : "{22EFF6A8FEF00ECE}Prefabs/Infrastructure/Railways/Railway Bridge.et" {
- coords 3410.441 11.899 2212.654
+ Flags 0 0x80000
+ coords 3410.441 31.899 2212.654
  angles 0.139 -89.911 0.001
 }
 SCR_DestructibleBuildingEntity : "{3E4B10C1910CA05A}Prefabs/Structures/Industrial/Garage Office.et" {
- coords 3295.336 0 2627.966
+ Flags 0 0x80000
+ coords 3295.336 20 2627.966
 }
 $grp SCR_DestructibleBuildingEntity : "{51F233A0BA73532A}Prefabs/Structures/Industrial/Houses/Office_E_01/Office_E_01.et" {
  {
-  coords 3318.393 0 2629.489
+  Flags 0 0x80000
+  coords 3318.393 20 2629.489
   angles 0 -176.883 0
  }
  {
-  coords 3250.416 0 2582.798
+  Flags 0 0x80000
+  coords 3250.416 23 2582.798
  }
 }
 $grp SCR_IndestructibleEnvironmentalEntity : "{533CDABD77C4C43E}Prefabs/Rocks/Granite/GraniteCliff_02.et" {
  {
+  Flags 0 0x80000
   coords 3189.564 13.829 3306.109
   angles 28.378 -114.527 4.196
   scale 1.6
  }
  {
+  Flags 0 0x80000
   coords 3199.24 -5.424 3284.468
   angles 28.822 -137.612 1.104
   scale 1.6
  }
  {
+  Flags 0 0x80000
   coords 3220.94 17.23 3267.726
   angles 16.95 -120.434 7.418
   scale 1.6
  }
  {
+  Flags 0 0x80000
   coords 3207.477 23.057 3289.221
   angles 31.459 -122.668 -1.345
   scale 1.6
  }
  {
+  Flags 0 0x80000
   coords 3237.193 6.938 3242.973
   angles 16.95 -120.434 -0.488
   scale 2.6
  }
  {
+  Flags 0 0x80000
   coords 3250.176 6.659 3215.363
   angles 17.438 -104.848 -2.64
   scale 2.6
  }
  {
+  Flags 0 0x80000
   coords 3254.793 10.198 3180.578
   angles 17.619 -93.927 0.658
   scale 2.6
  }
  {
+  Flags 0 0x80000
   coords 3272.481 11.697 3110.185
   angles 16.848 -125.869 -2.843
   scale 2.6
  }
  {
+  Flags 0 0x80000
   coords 3255.687 7.941 3142.951
   angles 17.601 -92.649 1.045
   scale 2.6
  }
  {
+  Flags 0 0x80000
   coords 3299.662 6.646 3076.043
   angles 16.899 -129.986 0.149
   scale 2.6
  }
  {
+  Flags 0 0x80000
   coords 3325.081 7.255 3045.782
   angles 16.899 -129.986 0.149
   scale 2.6
  }
  {
+  Flags 0 0x80000
   coords 3348.843 6.477 3020.49
   angles 16.698 -139.625 -2.642
   scale 2.6
  }
  {
+  Flags 0 0x80000
   coords 3376.757 9.046 2997.931
   angles 16.698 -139.625 -2.642
   scale 2.6
  }
  {
+  Flags 0 0x80000
   coords 3397.932 8.395 2978.463
   angles 16.698 -139.625 -2.642
   scale 2.6
  }
  {
+  Flags 0 0x80000
   coords 3422.63 6.301 2961.175
   angles 16.698 -139.625 -2.642
   scale 2.6
  }
  {
+  Flags 0 0x80000
   coords 3449.468 7.232 2963.418
   angles 15.206 135.26 -9.871
   scale 2.6
  }
 }
 SCR_DestructibleBuildingEntity : "{6AD4788522334B53}Prefabs/Structures/Infrastructure/Power/TransformerStation_E_02/TransformerStation_E_02.et" {
- coords 3320.425 0 2538.68
+ Flags 0 0x80000
+ coords 3320.425 23 2538.68
 }
 SCR_DestructibleBuildingEntity : "{80622EDE99940AAA}Prefabs/Structures/Industrial/Houses/Office_06/Office_USSR_06.et" {
- coords 3236.218 0 2655.536
+ Flags 0 0x80000
+ coords 3236.218 20 2655.536
  angles 0 91.986 0
 }
 SCR_DestructibleBuildingEntity : "{8C2E9411E2F50460}Prefabs/Structures/Infrastructure/Power/DieselPowerPlant_01/DieselPowerPlant_01.et" {
- coords 3264.059 0 2552.997
+ Flags 0 0x80000
+ coords 3264.059 23 2552.997
  angles 0 -178.461 0
 }
 $grp GenericEntity : "{B0BD5E6DAA08B808}Prefabs/Infrastructure/Railways/Railway 40M.et" {
  {
+  Flags 0 0x80000
   coords 2909.998 31.927 2213.092
   angles 0 90.049 0
  }
  {
+  Flags 0 0x80000
   coords 2869.941 32.001 2213.125
   angles 0 90.049 0
  }
  {
+  Flags 0 0x80000
   coords 2830.299 31.953 2213.159
   angles 0 90.049 0
  }
  {
+  Flags 0 0x80000
   coords 2790.697 31.927 2213.194
   angles 0 90.049 0
  }
  {
+  Flags 0 0x80000
   coords 2750.64 32.001 2213.227
   angles 0 90.049 0
  }
  {
+  Flags 0 0x80000
   coords 2710.998 31.953 2213.261
   angles 0 90.049 0
  }
 }
 SCR_DestructibleBuildingEntity : "{B1F1B1BEB21102A7}Prefabs/Structures/Industrial/Houses/FactoryHall_E_01/FactoryHall_E_01.et" {
+ Flags 0 0x80000
  coords 3328.258 23 2576.084
  angles 0 -179.507 0
 }
 SCR_DestructibleBuildingEntity : "{BBCEDBF2C4E3E896}Prefabs/Structures/Industrial/Houses/Warehouse_01/Warehouse_01_Office.et" {
- coords 3244.527 0 2614.806
+ Flags 0 0x80000
+ coords 3244.527 20 2614.806
  angles 0 1.244 0
 }

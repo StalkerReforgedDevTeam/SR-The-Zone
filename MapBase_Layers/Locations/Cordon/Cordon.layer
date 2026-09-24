@@ -59544,7 +59544,7 @@ $grp Tree : "{0CA0547EB03759E1}Prefabs/Vegetation/Bush/b_rubus_idaeus_1s.et" {
   coords 6157.247 0 1342.768
  }
  {
-  coords 5253.238 -0 2430.803
+  coords 5253.238 0 2430.803
  }
 }
 SCR_DestructibleBuildingEntity : "{0CA99611F38D2C03}Prefabs/Structures/Agriculture/Gates/GateCollectiveFarm_01/GateCollectiveFarm_01_base.et" {
@@ -65183,7 +65183,7 @@ $grp Tree : "{1D2B7E931B77D88A}PrefabLibrary/CainLibrary/Vegetation/Bushes/b_sal
   editor EntityEditorProps "{6A650A8D915AA765}" {
    Color 1 0 0 1
   }
-  coords 5895.324 0 1547.033
+  coords 5895.32 -20 1547.03
   angles 0 -66.03 0
   scale 0.992
  }
@@ -73815,13 +73815,13 @@ $grp Tree : "{7BAA3CF64495B691}Prefabs/Vegetation/Bush/b_rubus_idaeus_0s.et" {
   coords 5253.604 0 2427.634
  }
  {
-  coords 5252.066 -0 2427.789
+  coords 5252.066 0 2427.789
  }
  {
   coords 5251.312 0 2427.147
  }
  {
-  coords 5252.843 -0 2429.126
+  coords 5252.843 0 2429.126
  }
 }
 $grp GenericEntity : "{7C28061CFE3C9D13}Prefabs/Props/Industrial/BarrelMetal_01_blue_open.et" {
@@ -80528,7 +80528,7 @@ $grp GenericEntity : "{BD160EAFE18E1D89}Prefabs/Structures/BuildingParts/Doors/D
 }
 $grp SCR_DestructibleBuildingEntity : "{BD4E6475CA2BAE24}Prefabs/Structures/Military/Houses/GuardTower_USSR_01/GuardTower_USSR_01_blue.et" {
  {
-  coords 5264.555 -0 2447.684
+  coords 5264.555 0 2447.684
   angles 0 172.426 0
  }
  {
@@ -82247,7 +82247,7 @@ $grp Tree : "{D95C607C0C67572B}Prefabs/Vegetation/Bush/b_rosa_canina_1s_aut.et" 
   angles 0 0 0
  }
  {
-  coords 5250.945 -0 2431.216
+  coords 5250.945 0 2431.216
   angles 0 0 0
  }
 }
@@ -82309,7 +82309,7 @@ $grp Tree : "{D9DF1D13919F19A0}Prefabs/Vegetation/Bush/b_rosa_canina_0s.et" {
   coords 5124.907 0 1170.682
  }
  {
-  coords 5249.429 -0 2427.487
+  coords 5249.429 0 2427.487
   angles 0 47.121 0
  }
 }
@@ -85511,6 +85511,7 @@ $grp GenericEntity : "{FF7C0A161F852119}Prefabs/Props/Industrial/CargoContainers
   angles -1.79 0 0
  }
  {
+  Flags 0 0x80000
   editor EntityEditorProps "{6A650A8D915AA765}" {
    Color 1 0 0 1
   }
