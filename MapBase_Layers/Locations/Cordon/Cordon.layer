@@ -72851,12 +72851,6 @@ $grp GenericEntity : "{71E8116ED089711D}Prefabs/graves/grave_2_2.et" {
   }
  }
 }
-SCR_DestructibleBuildingEntity : "{7216C531E1684145}Prefabs/Structures/Military/Houses/GuardHouse_03/GuardHouse_03_beige.et" {
- editor EntityEditorProps "{6A650A8D915AA765}" {
-  Color 1 0 0 1
- }
- coords 6205.374 -0.328 1346.452
-}
 GenericEntity : "{7268CB4E36E7707C}Assets/Bodies/Animal/Dog/GM_Placeable/E_Dead_Dog_04.et" {
  editor EntityEditorProps "{6A650A8D915AA765}" {
   Color 1 0 0 1
@@ -83178,6 +83172,11 @@ $grp GenericEntity : "{DDF59362051B28BC}Prefabs/Props/Military/Fortification/Bar
  }
 }
 GenericEntity armst_photo_girls_4_6A654284F6EF4794 : "{DDF70CE768C9CF42}Prefabs/Items/Others/photos/girls/armst_photo_girls_4.et" {
+ components {
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   Enabled 0
+  }
+ }
  coords 6175.667 40.516 1340.333
  angles 0 27.163 0
 }
