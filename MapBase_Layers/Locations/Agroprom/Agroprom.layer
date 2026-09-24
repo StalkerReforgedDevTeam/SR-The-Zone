@@ -769,11 +769,12 @@ $grp SCR_DestructibleBuildingEntity : "{9CA37F1FF41CC695}Prefabs/Structures/Mili
  }
  {
   Flags 0 0x80000
-  coords 4296.109 23 2623.24
+  coords 4297.902 23 2622.451
  }
  {
   Flags 0 0x80000
-  coords 4297.513 23 2689.631
+  coords 4299.235 23 2688.2
+  angles 0 0.396 0
  }
 }
 GenericEntity : "{9D7637C87054D142}PrefabLibrary/PreSets/Wrecks/BTR70_01.et" {
@@ -784,12 +785,12 @@ GenericEntity : "{9D7637C87054D142}PrefabLibrary/PreSets/Wrecks/BTR70_01.et" {
 $grp SCR_DestructibleBuildingEntity : "{9EB89ABD6874D576}Prefabs/Structures/Military/HangarShed1.et" {
  {
   Flags 0 0x80000
-  coords 4283.269 23 2670.42
+  coords 4280.121 23 2667.066
   angles 0 90 0
  }
  {
   Flags 0 0x80000
-  coords 4267.769 23 2670.42
+  coords 4264.621 23 2667.066
   angles 0 -90 0
  }
 }
@@ -816,7 +817,7 @@ GenericEntity : "{B350840088390760}Prefabs/Compositions/Misc/SubCompositions/Dec
 }
 SCR_DestructibleBuildingEntity : "{B5C7B98E8A7C2B1D}Prefabs/Structures/Infrastructure/Power/Powerlines/Powerline_HV_USSR_01/Powerline_HV_USSR_01_end_v3_base.et" {
  Flags 0 0x80000
- coords 4284.823 23 2608.367
+ coords 4287.726 23 2605.172
  angles 0 90 0
 }
 $grp SCR_PowerPole : "{BA6809BF385C961A}Prefabs/Structures/Infrastructure/Power/Powerlines/PowerLine_HV_02/PowerLine_HV_02_pole.et" {
@@ -941,7 +942,7 @@ GenericEntity : "{C7A49C5B54C86903}Prefabs/Props/Military/Sandbags/Sandbag_01_si
    coords 1.646 0.083 -4.822
    angles 0 -0.155 0
   }
-  StaticModelEntity : "{BE7B5BAFE1A16A50}Prefabs/Props/Military/Fortification/BarbedTape_Coil.et" {
+  GenericEntity : "{BE7B5BAFE1A16A50}Prefabs/Props/Military/Fortification/BarbedTape_Coil.et" {
    coords 8.811 0.08 5.527
    angles 0 -24.901 0
   }
@@ -982,7 +983,7 @@ SCR_DestructibleBuildingEntity : "{CF6F56A0D54DCC63}Prefabs/agroprom/oranjereya.
 }
 $grp SCR_DestructibleBuildingEntity : "{D653C28050494894}Prefabs/Structures/Military/MilitaryConcreteCarrier1.et" {
  {
-  coords 4249.978 -0 2901.417
+  coords 4249.978 0 2901.417
   angles 0 -29.789 0
  }
  {
@@ -1031,7 +1032,7 @@ GenericEntity : "{F089DCAE3A477B3E}Prefabs/Compositions/Misc/SubCompositions/Duc
 }
 SCR_DestructibleBuildingEntity : "{F08D8E78433D713A}Prefabs/Structures/Houses/Shed/Shed_01/Shed_01.et" {
  Flags 0 0x80000
- coords 4284.489 23 2612.86
+ coords 4285.956 23 2610.06
 }
 SCR_DestructibleBuildingEntity : "{F536F4CB2FB2191C}Prefabs/Structures/Services/Hospital.et" {
  Flags 0 0x80000
