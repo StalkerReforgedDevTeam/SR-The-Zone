@@ -13,6 +13,7 @@ GenericWorldEntity world {
  CloudsPreset "{D3683C927920C51D}Terrains/Common/Sky/Clouds/Clouds_Volumetric.emat"
  OceanMaterial "{5BD82BC098CB7A2C}Terrains/Common/Water/Ocean/ocean.emat"
  OceanSimulation "{824449EC2DE478DD}Terrains/Common/Water/Ocean/Simulation/oceanSimIsland.emat"
+ LensFlaresConfig "{92489E4CCCB3D82F}Configs/LensFlares/LensFlares.conf"
  {
   GenericTerrainEntity Terrain {
    Flags 0x80000 0
@@ -22,20 +23,22 @@ GenericWorldEntity world {
   }
   GenericWorldLightEntity {
    coords -6.244 23.431 -13.553
-   DirectLightLV 3.698
-   DirectLightColor 0.1413 0.1714 0.1559 0
-   IndirectLightLV 5.509
-   IndirectLightColor 0.117 0.081 0.0787 0
-   ProbeReflectionColor 0.5776 0.6105 0.5776 0
-   ProbeDiffuseColor 0.5149 0.5776 0.5149 0
+   SpecularMul 0.61
+   DirectLightLV 0.289
+   DirectLightColor 0.0437 0.0437 0.0437 0
+   IndirectLightLV -0.578
+   IndirectLightColor 0.117 0.117 0.117 0
+   ProbeDiffuseColor 0.5776 0.5776 0.5776 0
+   LensFlareScale 0.36
   }
   GenericWorldFogEntity : "{78D9BBF0F423FEB4}Prefabs/World/DefaultWorld/FogHaze_Default.et" {
-   HeightDensity 0.842
-   DistanceDensity 0.694
-   HazeDensity 0.681
-   HeightOffset 0.498
-   Color 0.4513 0.3797 0.2619 1
-   ColorBack 0.4851 0.3766 0.1419 0
+   coords 4770.999 4.984 1681.702
+   HeightDensity 1
+   DistanceDensity 0.758
+   HazeDensity 0.693
+   FogHeightStart entity
+   Color 0.1529 0.1529 0.1529 1
+   ColorBack 0.162 0.162 0.162 0
   }
   SCR_CameraManager SCR_CameraManager1 {
    FovMaximum 80
@@ -58,6 +61,12 @@ GenericWorldEntity world {
   }
   GameEnvironmentProbeEntity : "{B6B6A21399C5571B}Prefabs/World/DefaultWorld/EnvProbe_Default.et" {
    coords 2273.379 0 1304.271
+   LVReflectionBrightness -1.52
+   LVDiffuseBrightness -0.65
+   DiffuseColor 0.3662 0.3662 0.3662 1
+   TopColorEV 1.05
+   TopColor 0.1329 0.1329 0.1329 1
+   BottomColor 0.3005 0.3005 0.3005 1
   }
  }
 }

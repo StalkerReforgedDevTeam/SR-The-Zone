@@ -5,10 +5,12 @@ StaticModelEntity : "{11B789B5F476A4B5}Prefabs/Structures/Debris/DebrisPile_Hous
 }
 $grp SCR_DestructibleBuildingEntity : "{1FE01D58A8717F80}Prefabs/Industrial/Transformer_01.et" {
  {
-  coords 6437.292 -4.156 3593.19
+  Flags 0 0x80000
+  coords 6437.292 25.844 3593.19
  }
  {
-  coords 5926.536 -0.001 4100.771
+  Flags 0 0x80000
+  coords 5926.536 49.999 4100.771
   {
    GameEnvironmentProbeEntity {
     ID "6479390A76859948"
@@ -25,90 +27,46 @@ $grp SCR_DestructibleBuildingEntity : "{1FE01D58A8717F80}Prefabs/Industrial/Tran
   }
  }
 }
-$grp GenericEntity : "{326E60F7A7358EDA}Prefabs/Props/Crates/CrateWooden_01_blue.et" {
- {
-  components {
-   Hierarchy "{54C2B2BF9664B83D}" {
-    Enabled 1
-   }
-  }
-  coords 5894.21 50 4098.433
-  angles 0 102.593 0
-  scale 0.833
- }
- {
-  components {
-   Hierarchy "{54C2B2BF9664B83D}" {
-    Enabled 1
-   }
-  }
-  coords 5894.121 50 4102.83
-  angles 0 167.048 0
-  scale 0.833
- }
- {
-  components {
-   Hierarchy "{54C2B2BF9664B83D}" {
-    Enabled 1
-   }
-  }
-  coords 5897.846 50 4103.114
-  angles 0 -84.859 0
-  scale 0.833
- }
- {
-  components {
-   Hierarchy "{54C2B2BF9664B83D}" {
-    Enabled 1
-   }
-  }
-  coords 5895.364 50 4098.555
-  angles 0 137.859 0
-  scale 0.833
- }
-}
 $grp SCR_DestructibleBuildingEntity : "{4E32735D38FB7328}Prefabs/Industrial/concrete_tower_01.et" {
  {
+  Flags 0 0x80000
   coords 6455.876 30 3582.496
  }
  {
+  Flags 0 0x80000
   coords 5945.12 50 4090.078
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{55772D08CE657A82}Prefabs/Industrial/house.et" {
  {
+  Flags 0 0x80000
   coords 6427.779 30 3566.749
  }
  {
+  Flags 0 0x80000
   coords 5917.023 50 4074.331
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{5E56D1602958C610}Prefabs/Industrial/builds/saray_03.et" {
  {
+  Flags 0 0x80000
   coords 6418.128 30 3582.68
  }
  {
+  Flags 0 0x80000
   coords 5907.372 50 4090.263
  }
 }
 GenericEntity : "{679B481179A99349}Prefabs/Props/Military/MilitaryCrates/ShellContainerstack_01/ShellContainerstack_01_single.et" {
+ Flags 0 0x80000
  coords 5902.186 50 4102.957
 }
 GenericEntity : "{6C57BFFFA642C60C}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_04.et" {
+ Flags 0 0x80000
  coords 5894.139 50 4103.201
  angles 0 7.739 0
  scale 0.77
  {
-  GenericEntity {
-   ID "552CE69ED15CB038"
-   coords 0.721 0 -0.006
-   angles 0 87.368 0
-  }
-  GenericEntity {
-   ID "552CE69ED15CB03A"
-   coords -0.57 0 -0.143
-   angles 0 167.048 0
-  }
   GenericEntity {
    ID "552CE69ED15CB03B"
    coords 0.147 0 -0.028
@@ -118,29 +76,36 @@ GenericEntity : "{6C57BFFFA642C60C}Prefabs/Compositions/Misc/SubCompositions/Cra
 }
 $grp SCR_DestructibleBuildingEntity : "{71F0C3F12DCFF4C3}Prefabs/Industrial/builds/house_01.et" {
  {
+  Flags 0 0x80000
   coords 6439.764 30 3556.652
  }
  {
+  Flags 0 0x80000
   coords 5929.007 50 4064.234
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{936163F41D08B3B4}Prefabs/Industrial/builds/object.et" {
  {
+  Flags 0 0x80000
   coords 6431.768 30 3569.904
  }
  {
+  Flags 0 0x80000
   coords 5921.011 50 4077.485
  }
 }
 GenericEntity : "{985C3871D40C7F7C}Prefabs/Trash/musor_plane/Litter_01_small.et" {
+ Flags 0 0x80000
  coords 5914.869 64.551 4116.475
  scale 0.833
 }
 $grp SCR_DestructibleBuildingEntity : "{A76BAA1713A0991F}Prefabs/Industrial/sklades_soviet/Staff_soviets.et" {
  {
+  Flags 0 0x80000
   coords 6439.159 30 3582.038
  }
  {
+  Flags 0 0x80000
   coords 5928.403 50 4089.62
   {
    Building {
@@ -265,6 +230,7 @@ $grp GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plai
     Enabled 1
    }
   }
+  Flags 0 0x80000
   coords 5893.638 50 4101
   angles 0 -177.669 0
   scale 0.833
@@ -275,16 +241,7 @@ $grp GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plai
     Enabled 1
    }
   }
-  coords 5896.384 50 4103.049
-  angles 0 -79.855 0
-  scale 0.833
- }
- {
-  components {
-   Hierarchy "{54C2B2BF966B2667}" {
-    Enabled 1
-   }
-  }
+  Flags 0 0x80000
   coords 5898.309 50 4100.591
   angles 0 174.244 0
   scale 0.833
@@ -295,6 +252,7 @@ $grp GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plai
     Enabled 1
    }
   }
+  Flags 0 0x80000
   coords 5897.29 50 4103.107
   angles 0 -98.014 0
   scale 0.833
@@ -305,6 +263,7 @@ $grp GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plai
     Enabled 1
    }
   }
+  Flags 0 0x80000
   coords 5894.462 50 4099.379
   angles 0 -79.855 0
   scale 0.833
@@ -315,6 +274,7 @@ $grp GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plai
     Enabled 1
    }
   }
+  Flags 0 0x80000
   coords 5894.78 50 4098.11
   angles 0 -95.513 0
   scale 0.833
@@ -325,22 +285,26 @@ $grp GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plai
     Enabled 1
    }
   }
+  Flags 0 0x80000
   coords 5894.054 50 4098.181
   angles 0 -79.855 0
   scale 0.833
  }
 }
 GenericEntity : "{C58BDB4D22E0A5A8}Prefabs/Trash/musor_plane/Litter_01_large.et" {
+ Flags 0 0x80000
  coords 5895.771 50 4100.519
  angles 0 22.608 0
  scale 0.833
 }
 $grp SCR_DestructibleBuildingEntity : "{C8ED58851896F6D9}Prefabs/Industrial/sklades_soviet/Gatehouse_soviets_ext.et" {
  {
+  Flags 0 0x80000
   coords 6450.534 30 3556.691
   angles 0 0 0
  }
  {
+  Flags 0 0x80000
   coords 5939.778 50 4064.274
   angles 0 0 0
   {
@@ -499,14 +463,17 @@ $grp SCR_DestructibleBuildingEntity : "{C8ED58851896F6D9}Prefabs/Industrial/skla
  }
 }
 SCR_DestructibleBuildingEntity : "{CCE6A451A226AF4E}Prefabs/Structures/Military/Houses/GuardHouse_01/GuardHouse_01_beige.et" {
- coords 6371.671 -0.021 3548.414
+ Flags 0 0x80000
+ coords 6371.671 29.979 3548.414
 }
 $grp SCR_DestructibleBuildingEntity : "{DA18BC3C9738C614}Prefabs/Industrial/builds/bitovka_wheels.et" {
  {
+  Flags 0 0x80000
   coords 6450.509 30 3568.725
   angles 0 0 0
  }
  {
+  Flags 0 0x80000
   coords 5939.753 50 4076.307
   angles 0 0 0
   {

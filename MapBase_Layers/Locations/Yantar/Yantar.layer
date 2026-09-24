@@ -212,6 +212,7 @@ $grp PolylineShapeEntity {
   }
  }
  {
+  Flags 0 0x80000
   coords 2962.978 27.875 4064.565
   Points {
    ShapePoint "{6A4622C4AE04D17B}" {
@@ -285,6 +286,7 @@ $grp PolylineShapeEntity {
   }
  }
  {
+  Flags 0 0x80000
   coords 2980.252 27.187 4065.111
   Points {
    ShapePoint "{6A4622C4A0BABE39}" {
@@ -350,6 +352,7 @@ $grp PolylineShapeEntity {
   }
  }
  {
+  Flags 0 0x80000
   coords 2998.605 27.875 4085.187
   Points {
    ShapePoint "{6A4622C4BE581F37}" {
@@ -409,6 +412,7 @@ $grp PolylineShapeEntity {
   }
  }
  {
+  Flags 0 0x80000
   coords 2955.56 27.83 4091.131
   Points {
    ShapePoint "{6A4622C4B7D3DA5C}" {
@@ -470,6 +474,7 @@ $grp PolylineShapeEntity {
   }
  }
  {
+  Flags 0 0x80000
   coords 2968.163 27.875 4101.265
   Points {
    ShapePoint "{6A4622C44E5A1E7E}" {
@@ -700,7 +705,8 @@ $grp StaticModelEntity : "{1E0BC50E7000DEFD}Prefabs/Structures/Debris/Debris_Hou
  }
 }
 SCR_DestructibleBuildingEntity : "{25C8430C9EFB0CA9}Prefabs/Structures/Infrastructure/Rail/Other/RailwayTunnelPortal/RailwayTunnelPortal.et" {
- coords 3076.223 -0.863 4044.027
+ Flags 0 0x80000
+ coords 3076.223 24.52 4044.027
  angles 0 88.085 0
 }
 SCR_DestructibleBuildingEntity : "{389D6DF9941FF22D}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_01/FuelTank_01_grey.et" {
@@ -709,6 +715,7 @@ SCR_DestructibleBuildingEntity : "{389D6DF9941FF22D}Prefabs/Structures/Industria
  scale 0.9
 }
 GenericEntity : "{3AB3A4D05173D31A}Prefabs/Structures/Scientists/Bunker_Modul/Bunk_Small_base.et" {
+ Flags 0 0x80000
  coords 2985.709 27.581 4083.144
  angles 0 89.659 0
 }
@@ -2134,6 +2141,7 @@ $grp GenericEntity : "{C93D17434595397D}Prefabs/ZBK/Props/Pipe/Pipe8m_Bridge.et"
  }
 }
 GenericEntity : "{DCA76EA9DD0458DB}Prefabs/Structures/Scientists/Bunker_Modul/Bunk_Mid_base.et" {
+ Flags 0 0x80000
  coords 2964.2 25.274 4092.011
  angles 0 -29.022 0
 }

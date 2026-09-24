@@ -1,5 +1,6 @@
 $grp PolylineShapeEntity {
  {
+  Flags 0 0x80000
   coords 5199.903 20 2812.985
   Points {
    ShapePoint "{6A20D68B1AB91EDD}" {
@@ -191,6 +192,7 @@ $grp PolylineShapeEntity {
   }
  }
  {
+  Flags 0 0x80000
   coords 5199.99 20 2818.799
   Points {
    ShapePoint "{6A20D68B22216847}" {
@@ -357,6 +359,7 @@ $grp PolylineShapeEntity {
   }
  }
  {
+  Flags 0 0x80000
   coords 5341.847 19.909 2693.436
   Points {
    ShapePoint "{6A6C11765BCB6380}" {
@@ -663,6 +666,7 @@ $grp PolylineShapeEntity {
   }
  }
  {
+  Flags 0 0x80000
   coords 5312.411 28.945 3815.616
   Points {
    ShapePoint "{6A6C117EDD3B4F88}" {
@@ -739,6 +743,7 @@ $grp PolylineShapeEntity {
   }
  }
  {
+  Flags 0 0x80000
   coords 5299.798 28.503 3801.198
   Points {
    ShapePoint "{6A6C117E95C476E0}" {
@@ -789,6 +794,7 @@ $grp PolylineShapeEntity {
   }
  }
  {
+  Flags 0 0x80000
   coords 5358.774 20 3053.977
   Points {
    ShapePoint "{6A6CEEE093AA51C8}" {
@@ -954,6 +960,7 @@ $grp PolylineShapeEntity {
 }
 $grp SplineShapeEntity {
  {
+  Flags 0 0x80000
   coords 3538.346 18.338 1561.611
   Points {
    ShapePoint "{6A284CD5F2109C72}" {
@@ -10980,6 +10987,7 @@ $grp SplineShapeEntity {
   }
  }
  {
+  Flags 0 0x80000
   coords 3521.049 16.995 1611.081
   Points {
    ShapePoint "{6A284CD59CB09C1B}" {
@@ -27254,6 +27262,7 @@ $grp SplineShapeEntity {
   }
  }
  {
+  Flags 0 0x80000
   coords 5244.084 20 2559.762
   Points {
    ShapePoint "{6A35715B063E3B5E}" {
@@ -27279,6 +27288,7 @@ $grp SplineShapeEntity {
   }
  }
  {
+  Flags 0 0x80000
   coords 5200.671 20 2585.933
   Points {
    ShapePoint "{6A66E1E4C84B333A}" {
@@ -27748,6 +27758,7 @@ $grp SplineShapeEntity {
   }
  }
  {
+  Flags 0 0x80000
   coords 5155.269 19.437 2626.385
   Points {
    ShapePoint "{6A6AEACB8BE25404}" {
@@ -28946,6 +28957,7 @@ $grp SplineShapeEntity {
   }
  }
  {
+  Flags 0 0x80000
   coords 5362.529 19.646 3097.086
   Points {
    ShapePoint "{6A6CEEE36A1BE0FA}" {
@@ -28984,6 +28996,7 @@ $grp SplineShapeEntity {
   }
  }
  {
+  Flags 0 0x80000
   coords 5490.701 28.681 2746.37
   Points {
    ShapePoint "{6A6EF89991E91630}" {
@@ -29622,6 +29635,7 @@ $grp SplineShapeEntity {
   }
  }
  {
+  Flags 0 0x80000
   coords 5101.831 20.308 2769.06
   Points {
    ShapePoint "{6A6F198957195371}" {
@@ -30195,159 +30209,198 @@ $grp SplineShapeEntity {
  }
 }
 GenericEntity : "{48D88E385C227340}Prefabs/Compositions/Misc/SubCompositions/Barrel_Filled_01.et" {
+ Flags 0 0x80000
  coords 5269.335 20.971 2634.598
  angles 0 0 0
 }
 SCR_DestructibleBuildingEntity : "{52DE6E29E8B236F9}Prefabs/Industrial/builds/vodonaporka.et" {
+ Flags 0 0x80000
  coords 5268.194 29.701 3828.073
  angles 0 53.667 0
 }
 GenericEntity : "{52F4C6F1D59655CA}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_single_bathtub.et" {
+ Flags 0 0x80000
  coords 5277.768 20.002 2640.452
  angles 0 -15.529 0
 }
 SCR_DestructibleEntity : "{604EE87480F156CE}Prefabs/Structures/Walls/Concrete/ConcreteWall_USSR_01/ConcreteWall_USSR_01_pile.et" {
- coords 5271.821 -0.014 2636.561
+ Flags 0 0x80000
+ coords 5271.821 20.031 2636.561
  angles 0 71.19 0
 }
 GenericEntity : "{630C2872BB87F44F}Prefabs/Props/Construction/ConcretePipe/ConcretePipe_01_Short_Pile.et" {
+ Flags 0 0x80000
  coords 5277.76 20.145 2636.86
  angles 0 160.193 0
 }
 SCR_DestructibleBuildingEntity : "{7F2FE751D67F0B9C}Prefabs/Industrial/builds/stair_03.et" {
+ Flags 0 0x80000
  coords 5288.514 30.254 3838.672
  angles 0 -39.305 0
 }
 GenericEntity : "{82DDDA574CB4F0D9}Prefabs/Props/Industrial/BarrelFuel_01_Base.et" {
+ Flags 0 0x80000
  coords 5270.778 20.961 2635.277
 }
 $grp StaticModelEntity : "{93E06E731212BD96}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Triple.et" {
  {
-  coords 5270.169 0.076 2632.833
+  Flags 0 0x80000
+  coords 5270.169 20.204 2632.833
   angles 0 88.867 0
  }
  {
-  coords 5273.245 0 2632.958
+  Flags 0 0x80000
+  coords 5273.245 20.265 2632.958
   angles 0 71.471 0
  }
  {
-  coords 5275.945 0 2633.768
+  Flags 0 0x80000
+  coords 5275.945 20.332 2633.768
   angles 0 71.32 0
  }
  {
-  coords 5278.88 0 2634.69
+  Flags 0 0x80000
+  coords 5278.88 20.324 2634.69
   angles 0 67.594 0
  }
  {
-  coords 5281 -0 2635.639
+  Flags 0 0x80000
+  coords 5281 20.268 2635.639
   angles 0 67.691 0
  }
  {
-  coords 5267.156 0 2633.058
+  Flags 0 0x80000
+  coords 5267.156 20.029 2633.058
   angles 0 103.935 0
  }
 }
 SCR_DestructibleBuildingEntity : "{A029F03DAF9B5857}Prefabs/Industrial/builds/vagon_zabor_1.et" {
+ Flags 0 0x80000
  coords 5261.176 29.645 3825.891
  angles 0 -38.091 0
 }
 GenericEntity : "{A8D8015D0E2B600A}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_single_mattress.et" {
+ Flags 0 0x80000
  coords 5274.684 20.001 2639.956
  angles 0 -56.499 0
 }
 GenericEntity : "{B350840088390760}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Group_Stack_01.et" {
+ Flags 0 0x80000
  coords 5273.932 20.152 2635.055
  angles 0 87.201 0
 }
 GenericEntity : "{C529E6E1AE272891}Prefabs/Compositions/Misc/SubCompositions/Barrel_Cluttered_01.et" {
+ Flags 0 0x80000
  coords 5279.781 20 2644.071
  angles 0 78.648 0
 }
 $grp GenericEntity : "{C6BFE324CCCFE6C4}Prefabs/Props/Military/Furniture/CotMilitary_USSR_01.et" {
  {
+  Flags 0 0x80000
   coords 5274.606 20 2642.588
   angles 0 53.442 0
  }
  {
+  Flags 0 0x80000
   coords 5275.57 20 2643.095
   angles 0 53.442 0
  }
  {
+  Flags 0 0x80000
   coords 5276.619 20 2643.703
   angles 0 53.442 0
  }
  {
+  Flags 0 0x80000
   coords 5278.143 20 2644.582
   angles 0 53.442 0
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{D653C28050494894}Prefabs/Structures/Military/MilitaryConcreteCarrier1.et" {
  {
-  coords 5264.675 0 2645.262
+  Flags 0 0x80000
+  coords 5264.675 20 2645.262
   angles 0 -41.144 0
  }
  {
-  coords 5268.421 0 2648.16
+  Flags 0 0x80000
+  coords 5268.421 20 2648.16
   angles 0 -34.856 0
  }
  {
-  coords 5271.35 0 2650.349
+  Flags 0 0x80000
+  coords 5271.35 20 2650.349
   angles 0 -30.826 0
  }
  {
-  coords 5274.396 0 2652.206
+  Flags 0 0x80000
+  coords 5274.396 20 2652.206
   angles 0 -37.927 0
  }
 }
 GenericEntity : "{D93EF3E97E06D435}Prefabs/Compositions/Misc/SubCompositions/BarrelClutter_04.et" {
+ Flags 0 0x80000
  coords 5278.948 20.059 2639.113
  angles 0 -22.851 0
 }
 $grp GenericEntity : "{E4416C4C6938BEEE}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x1x1.et" {
  {
+  Flags 0 0x80000
   coords 5273.57 20 2646.749
   angles 0 27.363 0
  }
  {
+  Flags 0 0x80000
   coords 5268.487 20 2643.329
   angles 0 74.437 0
  }
  {
+  Flags 0 0x80000
   coords 5283.087 20 2644.456
  }
  {
+  Flags 0 0x80000
   coords 5284.353 20 2645.697
  }
  {
+  Flags 0 0x80000
   coords 5285.895 20 2647.622
  }
  {
+  Flags 0 0x80000
   coords 5287.397 20 2649.558
  }
  {
+  Flags 0 0x80000
   coords 5285.784 20.986 2647.621
   angles 0 86.578 0
  }
  {
+  Flags 0 0x80000
   coords 5284.288 20.986 2645.682
  }
  {
+  Flags 0 0x80000
   coords 5283.028 20.986 2644.65
   angles 0 -80.146 0
  }
  {
+  Flags 0 0x80000
   coords 5287.333 20.986 2649.484
   angles 0 39.578 0
  }
  {
+  Flags 0 0x80000
   coords 5284.364 20 2647.312
   angles 0 124.125 0
  }
  {
+  Flags 0 0x80000
   coords 5272.33 20.986 2646.17
   angles 0 -107.942 0
  }
  {
+  Flags 0 0x80000
   coords 5273.573 20.986 2646.646
   angles 0 30.398 0
  }

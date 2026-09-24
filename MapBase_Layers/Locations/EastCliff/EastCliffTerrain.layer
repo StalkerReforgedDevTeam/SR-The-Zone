@@ -1,4 +1,5 @@
 PolylineShapeEntity {
+ Flags 0 0x80000
  coords 5690.698 30 2212.612
  Points {
   ShapePoint "{6A50FD37AF2EF293}" {
@@ -20,10 +21,10 @@ PolylineShapeEntity {
    Position -26.902 0 340.946
   }
   ShapePoint "{6A50FD37A67563D3}" {
-   Position -25.71 -0 437.395
+   Position -25.71 0 437.395
   }
   ShapePoint "{6A50FD37A7542E93}" {
-   Position -24.18 -0 534.357
+   Position -24.18 0 534.357
   }
   ShapePoint "{6A50FD37A29C9740}" {
    Position -33.866 0 712.346
@@ -41,11 +42,11 @@ PolylineShapeEntity {
    {
     $grp SCR_DestructibleEntity : "{2CA940B210EDA36E}Prefabs/Structures/Walls/BarbedWire/NetFence_USSR_01/NetFence_USSR_01_6m_V2.et" {
      {
-      coords 0.039 -0 1.019
+      coords 0.039 0 1.019
       angles 0 -87.808 0
      }
      {
-      coords 0.265 -0 6.917
+      coords 0.265 0 6.917
       angles 0 -87.808 0
      }
      {
@@ -570,7 +571,7 @@ PolylineShapeEntity {
      }
     }
     SCR_DestructibleEntity : "{A786DACFAA0BE670}Prefabs/Structures/Walls/BarbedWire/NetFence_USSR_01/NetFence_USSR_01_D_start.et" {
-     coords 0 -0 0
+     coords 0 0 0
      angles 0 -87.808 0
     }
     SCR_DestructibleEntity : "{D7BDCA21659E98D8}Prefabs/Structures/Walls/BarbedWire/NetFence_USSR_01/NetFence_USSR_01_D_end.et" {
@@ -583,6 +584,7 @@ PolylineShapeEntity {
 }
 $grp SplineShapeEntity {
  {
+  Flags 0 0x80000
   coords 5820.503 50.813 2326.483
   Points {
    ShapePoint "{6A50FD320F0CDDB4}" {
@@ -607,7 +609,7 @@ $grp SplineShapeEntity {
     }
    }
    ShapePoint "{6A50FD320A946C77}" {
-    Position -131.065 -0 8.22
+    Position -131.065 0 8.22
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
@@ -912,7 +914,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -132.945 3.923 278.913
-       angles 0.06 -15.711 -0
+       angles 0.06 -15.711 0
        scale 0.964
       }
       {
@@ -1297,7 +1299,6 @@ $grp SplineShapeEntity {
       {
        coords -118.647 0.895 73.466
        angles 0.621 -61.657 0.853
-       scale 1
       }
       {
        coords -87.188 4.187 19.385
@@ -1404,7 +1405,6 @@ $grp SplineShapeEntity {
       {
        coords -112.513 -8.452 -30.082
        angles -1.553 -70.161 -1.221
-       scale 1
       }
       {
        coords -109.983 2.626 13.783
@@ -2554,7 +2554,6 @@ $grp SplineShapeEntity {
       {
        coords -93.617 -10.551 -70.317
        angles 1.797 -55.735 2.529
-       scale 1
       }
       {
        coords -124.019 -15.859 -16.023
@@ -2639,7 +2638,6 @@ $grp SplineShapeEntity {
       {
        coords -145.856 4.015 424.007
        angles -1.523 108.757 -0.572
-       scale 1
       }
       {
        coords -146.6 2.835 363.328
@@ -3222,7 +3220,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -23.53 -7.896 -51.499
-       angles -1.315 -161.218 -0
+       angles -1.315 -161.218 0
        scale 0.758
       }
       {
@@ -3232,7 +3230,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -84.61 -9.169 -70.479
-       angles -1.869 -94.584 -0
+       angles -1.869 -94.584 0
        scale 1.103
       }
       {
@@ -3242,12 +3240,12 @@ $grp SplineShapeEntity {
       }
       {
        coords -145.906 -12.164 127.866
-       angles -1.572 -34.597 -0
+       angles -1.572 -34.597 0
        scale 0.964
       }
       {
        coords -150.75 -12.742 162.384
-       angles -1.299 -159.636 -0
+       angles -1.299 -159.636 0
        scale 1.087
       }
       {
@@ -3257,7 +3255,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -148.107 -1.501 288.343
-       angles -0.131 -52.132 -0
+       angles -0.131 -52.132 0
        scale 1.09
       }
       {
@@ -3277,17 +3275,17 @@ $grp SplineShapeEntity {
       }
       {
        coords -145.417 3.633 382.678
-       angles 0.974 39.574 -0
+       angles 0.974 39.574 0
        scale 0.901
       }
       {
        coords -143.701 3.983 385.628
-       angles -1.035 34.619 -0
+       angles -1.035 34.619 0
        scale 0.802
       }
       {
        coords -122.427 4.086 263.954
-       angles -1.929 10.789 -0
+       angles -1.929 10.789 0
        scale 1.009
       }
       {
@@ -3297,7 +3295,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -125.58 1.079 133.271
-       angles -0.073 149.748 -0
+       angles -0.073 149.748 0
        scale 1.064
       }
       {
@@ -5337,6 +5335,7 @@ $grp SplineShapeEntity {
   }
  }
  {
+  Flags 0 0x80000
   coords 5710.326 31.675 2184.699
   Points {
    ShapePoint "{6A50FD30418754CB}" {
@@ -5361,7 +5360,7 @@ $grp SplineShapeEntity {
     }
    }
    ShapePoint "{6A50FD3043E046D2}" {
-    Position 3.883 -0 -50.736
+    Position 3.883 0 -50.736
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
@@ -5375,7 +5374,7 @@ $grp SplineShapeEntity {
     }
    }
    ShapePoint "{6A50FD305CFA454E}" {
-    Position 92.24 -0 -127.779
+    Position 92.24 0 -127.779
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
@@ -5431,7 +5430,7 @@ $grp SplineShapeEntity {
     }
    }
    ShapePoint "{6A50FD305B11DA75}" {
-    Position 333.798 -0 -50.942
+    Position 333.798 0 -50.942
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
@@ -5824,12 +5823,12 @@ $grp SplineShapeEntity {
       }
       {
        coords 3.827 8.325 -30.212
-       angles 0.055 -10.503 -0
+       angles 0.055 -10.503 0
        scale 0.548
       }
       {
        coords 72.799 14.622 -43.785
-       angles -2.721 138.202 -0
+       angles -2.721 138.202 0
        scale 0.565
       }
       {
@@ -5859,7 +5858,7 @@ $grp SplineShapeEntity {
       }
       {
        coords 193.843 13.685 -129.979
-       angles 5.244 -121.98 -0
+       angles 5.244 -121.98 0
        scale 0.626
       }
       {
@@ -5869,7 +5868,7 @@ $grp SplineShapeEntity {
       }
       {
        coords 243.353 9.818 -103.666
-       angles 1.596 -28.329 -0
+       angles 1.596 -28.329 0
        scale 1.087
       }
       {
@@ -6940,7 +6939,7 @@ $grp SplineShapeEntity {
       }
       {
        coords 140.828 19.467 -106.362
-       angles -0.073 -0 0.213
+       angles -0.073 0 0.213
        scale 1.1
       }
       {
@@ -7176,7 +7175,6 @@ $grp SplineShapeEntity {
       {
        coords 128.964 19.86 -66.558
        angles 0.367 -135.773 1.821
-       scale 1
       }
       {
        coords 133.685 18.099 -54.975
@@ -7516,7 +7514,6 @@ $grp SplineShapeEntity {
       {
        coords 170.652 10.167 -156.255
        angles -0.834 25.16 2.32
-       scale 1
       }
       {
        coords 176.986 12.404 -142.169
@@ -7886,7 +7883,6 @@ $grp SplineShapeEntity {
       {
        coords 174.92 19.932 -78.666
        angles 0.047 -44.188 0.965
-       scale 1
       }
       {
        coords 186.482 15.511 -52.733
@@ -8746,7 +8742,6 @@ $grp SplineShapeEntity {
       {
        coords 271.458 -0.796 -155.704
        angles -1.73 -51.418 0.185
-       scale 1
       }
       {
        coords 256.754 -2.671 -181.637
@@ -11201,12 +11196,12 @@ $grp SplineShapeEntity {
       }
       {
        coords 226.321 4.648 -21.862
-       angles -0.636 23.49 -0
+       angles -0.636 23.49 0
        scale 1.001
       }
       {
        coords 279.146 -0.866 -25.255
-       angles -1.937 -48.517 -0
+       angles -1.937 -48.517 0
        scale 1.191
       }
       {
@@ -11226,12 +11221,12 @@ $grp SplineShapeEntity {
       }
       {
        coords 306.802 -0.982 -96.136
-       angles 0.581 -16.909 -0
+       angles 0.581 -16.909 0
        scale 1.074
       }
       {
        coords 270.532 -3.392 -182.675
-       angles 0.528 105.966 -0
+       angles 0.528 105.966 0
        scale 0.926
       }
       {
@@ -11241,7 +11236,7 @@ $grp SplineShapeEntity {
       }
       {
        coords 284.249 -1.608 -159.243
-       angles -1.712 81.312 -0
+       angles -1.712 81.312 0
        scale 0.864
       }
       {
@@ -11251,7 +11246,7 @@ $grp SplineShapeEntity {
       }
       {
        coords 240.432 -8.325 -210.975
-       angles -0.328 -15.227 -0
+       angles -0.328 -15.227 0
        scale 0.826
       }
       {
@@ -11266,17 +11261,17 @@ $grp SplineShapeEntity {
       }
       {
        coords 75.43 13.358 -93.392
-       angles -1.389 141.343 -0
+       angles -1.389 141.343 0
        scale 0.853
       }
       {
        coords 68.054 13.447 -83.667
-       angles -0.458 0.121 -0
+       angles -0.458 0.121 0
        scale 1.06
       }
       {
        coords -15.385 4.326 -31.639
-       angles 0.971 -38.102 -0
+       angles 0.971 -38.102 0
        scale 0.972
       }
       {
@@ -13343,7 +13338,6 @@ $grp SplineShapeEntity {
       {
        coords 160.289 -9.524 -233.905
        angles 2.166 -158.724 -3.434
-       scale 1
       }
       {
        coords 196.266 -6.213 -220.232
@@ -13401,10 +13395,11 @@ $grp SplineShapeEntity {
   }
  }
  {
+  Flags 0 0x80000
   coords 5822.7 53.041 2330.747
   Points {
    ShapePoint "{6A50FD31CE08FE8F}" {
-    Position 0 -0 0
+    Position 0 0 0
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
@@ -13720,7 +13715,7 @@ $grp SplineShapeEntity {
       }
       {
        coords 54.807 -2.136 338.547
-       angles -5.307 29.537 -0
+       angles -5.307 29.537 0
        scale 0.516
       }
      }
@@ -13865,7 +13860,6 @@ $grp SplineShapeEntity {
       {
        coords 108.919 1.953 140.591
        angles 0.3 -35.696 0.329
-       scale 1
       }
       {
        coords 110.945 1.959 163.057
@@ -14392,7 +14386,6 @@ $grp SplineShapeEntity {
       {
        coords 41.844 1.641 329.267
        angles 1.104 -124.358 -1.221
-       scale 1
       }
       {
        coords 61.826 -0.946 308.172
@@ -14557,7 +14550,6 @@ $grp SplineShapeEntity {
       {
        coords 111.892 1.959 118.346
        angles 0.819 -71.963 -0.532
-       scale 1
       }
       {
        coords 111.678 1.959 146.61
@@ -14567,7 +14559,6 @@ $grp SplineShapeEntity {
       {
        coords 122.964 0.715 101.348
        angles 0.481 120.15 0.972
-       scale 1
       }
       {
        coords 126.958 -0.631 110.478
@@ -15159,12 +15150,10 @@ $grp SplineShapeEntity {
       {
        coords 92.872 -1.854 281.554
        angles -2.139 -122.051 0.395
-       scale 1
       }
       {
        coords 128.159 0.061 130.326
        angles 1.516 -49.923 1.663
-       scale 1
       }
       {
        coords 107.659 1.142 226.349
@@ -15281,7 +15270,6 @@ $grp SplineShapeEntity {
       {
        coords 119.31 1.928 146.388
        angles 0.393 100.308 -1.741
-       scale 1
       }
       {
        coords 107.2 1.774 191.419
@@ -15606,7 +15594,6 @@ $grp SplineShapeEntity {
       {
        coords 26.513 -5.669 -19.492
        angles 0.727 -60.954 0.669
-       scale 1
       }
       {
        coords 52.106 -3.025 -15.873
@@ -15632,7 +15619,7 @@ $grp SplineShapeEntity {
      $grp Tree : "{9C6CE0F73E3AED80}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_pinus_sylvestris_1f.et" {
       {
        coords 43.055 1.904 303.791
-       angles 0.693 170.557 -0
+       angles 0.693 170.557 0
        scale 0.951
       }
       {
@@ -15647,7 +15634,7 @@ $grp SplineShapeEntity {
       }
       {
        coords 60.624 -3.025 332.127
-       angles -0.813 -4.669 -0
+       angles -0.813 -4.669 0
        scale 0.838
       }
       {
@@ -15657,7 +15644,7 @@ $grp SplineShapeEntity {
       }
       {
        coords 49.302 0.169 332.396
-       angles -1.616 90.981 -0
+       angles -1.616 90.981 0
        scale 0.895
       }
       {
@@ -15672,7 +15659,7 @@ $grp SplineShapeEntity {
       }
       {
        coords 105.932 1.918 182.292
-       angles -0.671 -113.624 -0
+       angles -0.671 -113.624 0
        scale 0.841
       }
       {
@@ -15687,7 +15674,7 @@ $grp SplineShapeEntity {
       }
       {
        coords 102.322 0.314 263.345
-       angles -1.509 -24.16 -0
+       angles -1.509 -24.16 0
        scale 0.999
       }
       {
@@ -15697,7 +15684,7 @@ $grp SplineShapeEntity {
       }
       {
        coords 80.619 -3.403 299.323
-       angles -1.897 -36.113 -0
+       angles -1.897 -36.113 0
        scale 0.919
       }
       {
@@ -15707,7 +15694,7 @@ $grp SplineShapeEntity {
       }
       {
        coords 90.027 -2.844 288.187
-       angles 0.788 33.191 -0
+       angles 0.788 33.191 0
        scale 1.125
       }
       {
@@ -15717,12 +15704,12 @@ $grp SplineShapeEntity {
       }
       {
        coords 133.502 -3.088 90.596
-       angles -0.388 -147.935 -0
+       angles -0.388 -147.935 0
        scale 0.893
       }
       {
        coords 83.224 -5.259 -7.052
-       angles 1.355 -164.745 -0
+       angles 1.355 -164.745 0
        scale 0.874
       }
      }
@@ -17440,6 +17427,7 @@ $grp SplineShapeEntity {
   }
  }
  {
+  Flags 0 0x80000
   coords 5699.213 50.033 2966.871
   Points {
    ShapePoint "{6A50FD31EF05873D}" {
@@ -17478,7 +17466,7 @@ $grp SplineShapeEntity {
     }
    }
    ShapePoint "{6A50FD31E53C69F9}" {
-    Position -37.135 -0 -358.6
+    Position -37.135 0 -358.6
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
@@ -17492,21 +17480,21 @@ $grp SplineShapeEntity {
     }
    }
    ShapePoint "{6A50FD31E1A215D1}" {
-    Position -46.464 -0 -514.911
+    Position -46.464 0 -514.911
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
     }
    }
    ShapePoint "{6A50FD31E1422CCB}" {
-    Position -40.923 -0 -578.886
+    Position -40.923 0 -578.886
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
     }
    }
    ShapePoint "{6A50FD31E23397F8}" {
-    Position -21.812 -0 -625.407
+    Position -21.812 0 -625.407
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
@@ -17527,28 +17515,28 @@ $grp SplineShapeEntity {
     }
    }
    ShapePoint "{6A50FD31F6CC19E9}" {
-    Position -88.72 -0 -746.535
+    Position -88.72 0 -746.535
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
     }
    }
    ShapePoint "{6A50FD31F7CD3A1D}" {
-    Position -103.917 -0 -604.428
+    Position -103.917 0 -604.428
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
     }
    }
    ShapePoint "{6A50FD31F005AE4D}" {
-    Position -143.029 -0 -448.497
+    Position -143.029 0 -448.497
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
     }
    }
    ShapePoint "{6A50FD31F17347EE}" {
-    Position -113.296 -0 -295.106
+    Position -113.296 0 -295.106
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
@@ -17562,7 +17550,7 @@ $grp SplineShapeEntity {
     }
    }
    ShapePoint "{6A50FD318DC26BD0}" {
-    Position -71.172 -0 -60.219
+    Position -71.172 0 -60.219
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
@@ -17823,7 +17811,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -57.258 -20.127 -714.883
-       angles 0.122 168.404 -0
+       angles 0.122 168.404 0
        scale 0.714
       }
       {
@@ -17873,7 +17861,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -33.841 -14.403 -661.469
-       angles 2.647 66.232 -0
+       angles 2.647 66.232 0
        scale 0.995
       }
       {
@@ -18852,7 +18840,6 @@ $grp SplineShapeEntity {
       {
        coords -122.29 -10.081 -452.619
        angles 1.417 141.519 -0.377
-       scale 1
       }
       {
        coords -109.278 -10.033 -477.103
@@ -19472,7 +19459,6 @@ $grp SplineShapeEntity {
       {
        coords -78.194 -21.952 -695.887
        angles 0.207 58.493 -0.136
-       scale 1
       }
       {
        coords -43.131 -17.636 -691.564
@@ -21402,7 +21388,6 @@ $grp SplineShapeEntity {
       {
        coords -13.907 3.51 -82.299
        angles 2.153 -176.248 -2.183
-       scale 1
       }
       {
        coords -16.627 1.709 -75.394
@@ -21549,7 +21534,6 @@ $grp SplineShapeEntity {
       {
        coords -66.351 -10.033 -578.801
        angles 0.335 100.143 -4.768
-       scale 1
       }
       {
        coords -70.514 -10.033 -565.377
@@ -22951,7 +22935,6 @@ $grp SplineShapeEntity {
       {
        coords -60.91 -10.268 -617.334
        angles 0.945 -43.881 1.508
-       scale 1
       }
       {
        coords -83.565 -10.033 -597.913
@@ -23176,7 +23159,6 @@ $grp SplineShapeEntity {
       {
        coords -69.009 -10.033 -430.297
        angles -1.228 -123.71 -1.173
-       scale 1
       }
       {
        coords -57.24 -10.033 -404.374
@@ -24307,12 +24289,12 @@ $grp SplineShapeEntity {
      $grp Tree : "{9C6CE0F73E3AED80}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_pinus_sylvestris_1f.et" {
       {
        coords -53.81 -6.794 -200.918
-       angles -0.709 -82.048 -0
+       angles -0.709 -82.048 0
        scale 1.138
       }
       {
        coords -55.267 -7.203 -201.476
-       angles 0.136 -45.43 -0
+       angles 0.136 -45.43 0
        scale 1.123
       }
       {
@@ -24322,7 +24304,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -105.104 -10.033 -354.625
-       angles -1.613 -110.119 -0
+       angles -1.613 -110.119 0
        scale 0.969
       }
       {
@@ -24337,12 +24319,12 @@ $grp SplineShapeEntity {
       }
       {
        coords -28.664 -1.968 -84.544
-       angles 1.074 -88.069 -0
+       angles 1.074 -88.069 0
        scale 0.742
       }
       {
        coords -58.05 -10.033 -401.057
-       angles -0.05 117.436 -0
+       angles -0.05 117.436 0
        scale 0.914
       }
       {
@@ -24362,7 +24344,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -22.058 4.781 -173.131
-       angles 0.196 161.658 -0
+       angles 0.196 161.658 0
        scale 0.794
       }
       {
@@ -24372,7 +24354,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -39.103 -8.635 -336.658
-       angles 0.66 125.391 -0
+       angles 0.66 125.391 0
        scale 1.114
       }
       {
@@ -24397,7 +24379,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -43.917 -10.104 -454.168
-       angles 0.149 50.978 -0
+       angles 0.149 50.978 0
        scale 0.839
       }
       {
@@ -24412,7 +24394,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -33.97 -11.309 -613.554
-       angles -1.569 -86.103 -0
+       angles -1.569 -86.103 0
        scale 1.095
       }
       {
@@ -24432,17 +24414,17 @@ $grp SplineShapeEntity {
       }
       {
        coords -22.549 -19.096 -704.407
-       angles 1.999 -48.759 -0
+       angles 1.999 -48.759 0
        scale 0.993
       }
       {
        coords -53.626 -19.373 -745.392
-       angles 0.842 -13.052 -0
+       angles 0.842 -13.052 0
        scale 0.945
       }
       {
        coords -51.537 -20.033 -738.23
-       angles 1.612 -93.936 -0
+       angles 1.612 -93.936 0
        scale 1.005
       }
       {
@@ -24452,12 +24434,12 @@ $grp SplineShapeEntity {
       }
       {
        coords -95.105 -22.686 -674.972
-       angles -1.631 -59.053 -0
+       angles -1.631 -59.053 0
        scale 1.054
       }
       {
        coords -95.928 -23.303 -678.39
-       angles -1.393 -6.142 -0
+       angles -1.393 -6.142 0
        scale 1.174
       }
       {
@@ -24472,7 +24454,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -138.505 -10.551 -447.403
-       angles 0.118 61.47 -0
+       angles 0.118 61.47 0
        scale 0.98
       }
       {
@@ -24487,7 +24469,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -110.049 -10.033 -317.646
-       angles -0.486 -26.258 -0
+       angles -0.486 -26.258 0
        scale 1.073
       }
       {
@@ -24497,7 +24479,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -108.511 -10.084 -175.189
-       angles 1.491 -94.222 -0
+       angles 1.491 -94.222 0
        scale 1.054
       }
       {
@@ -24507,7 +24489,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -108.894 -10.033 -243.378
-       angles -1.334 -144.222 -0
+       angles -1.334 -144.222 0
        scale 0.821
       }
       {
@@ -24517,12 +24499,12 @@ $grp SplineShapeEntity {
       }
       {
        coords -72.185 -9.802 -69.219
-       angles -0.946 103.461 -0
+       angles -0.946 103.461 0
        scale 1.119
       }
       {
        coords -51.182 -8.631 -52.707
-       angles -0.523 116.898 -0
+       angles -0.523 116.898 0
        scale 0.833
       }
      }
@@ -27422,6 +27404,7 @@ $grp SplineShapeEntity {
   }
  }
  {
+  Flags 0 0x80000
   coords 5698.032 48.929 2966.937
   Points {
    ShapePoint "{6A50FD31823F4D15}" {
@@ -27439,7 +27422,7 @@ $grp SplineShapeEntity {
     }
    }
    ShapePoint "{6A50FD319C2C1AF3}" {
-    Position -66.945 -0 43.277
+    Position -66.945 0 43.277
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
@@ -27467,35 +27450,35 @@ $grp SplineShapeEntity {
     }
    }
    ShapePoint "{6A50FD319E4E823F}" {
-    Position -146.514 -0 -89.746
+    Position -146.514 0 -89.746
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
     }
    }
    ShapePoint "{6A50FD319FF13A67}" {
-    Position -100.255 -0 -110.797
+    Position -100.255 0 -110.797
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
     }
    }
    ShapePoint "{6A50FD3198486906}" {
-    Position -79.7 -0 -70.301
+    Position -79.7 0 -70.301
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
     }
    }
    ShapePoint "{6A50FD3199D128C6}" {
-    Position -45.978 -0 -31.687
+    Position -45.978 0 -31.687
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
     }
    }
    ShapePoint "{6A50FD31995BD1B6}" {
-    Position -15.293 -0 -13.051
+    Position -15.293 0 -13.051
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
@@ -28019,7 +28002,6 @@ $grp SplineShapeEntity {
       {
        coords -108.835 -10.969 -51.794
        angles -1.173 -18.381 2.409
-       scale 1
       }
       {
        coords -73.879 -11.667 -16.361
@@ -28039,7 +28021,6 @@ $grp SplineShapeEntity {
       {
        coords -70.141 -12.59 -11.225
        angles -0.157 -42.518 1.848
-       scale 1
       }
       {
        coords -103.668 -10.201 -50.859
@@ -29671,6 +29652,7 @@ $grp SplineShapeEntity {
   }
  }
  {
+  Flags 0 0x80000
   coords 5849.441 54.934 3009.624
   Points {
    ShapePoint "{6A50FD31AAB1EB5E}" {
@@ -29723,7 +29705,7 @@ $grp SplineShapeEntity {
     }
    }
    ShapePoint "{6A50FD31A55B15B4}" {
-    Position -255.156 -0 61.448
+    Position -255.156 0 61.448
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
@@ -30482,7 +30464,6 @@ $grp SplineShapeEntity {
       {
        coords -164.027 -16.059 64.295
        angles 2.197 80.082 -2.996
-       scale 1
       }
       {
        coords -164.914 -16.301 59.929
@@ -30527,7 +30508,6 @@ $grp SplineShapeEntity {
       {
        coords -175.937 -19.484 56.489
        angles -1.218 -43.112 1.847
-       scale 1
       }
       {
        coords -171.813 -18.164 73.437
@@ -31292,7 +31272,6 @@ $grp SplineShapeEntity {
       {
        coords 19.941 0.066 43.907
        angles 2.508 155.714 2.41
-       scale 1
       }
       {
        coords 10.001 0.066 20.545
@@ -32224,7 +32203,6 @@ $grp SplineShapeEntity {
       {
        coords -182.193 -23.176 33.066
        angles 2.877 -176.699 -1.302
-       scale 1
       }
       {
        coords -231.309 -28.173 56.172
@@ -32605,7 +32583,6 @@ $grp SplineShapeEntity {
       {
        coords -64.752 0.066 39.009
        angles -0.799 53.659 -1.527
-       scale 1
       }
       {
        coords -68.561 0.066 59.875
@@ -32902,7 +32879,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -154.943 -13.646 53.655
-       angles -1.988 143.376 -0
+       angles -1.988 143.376 0
        scale 1.202
       }
       {
@@ -32927,7 +32904,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -198.278 -26.988 45.191
-       angles 0.623 -84.619 -0
+       angles 0.623 -84.619 0
        scale 0.913
       }
       {
@@ -32942,12 +32919,12 @@ $grp SplineShapeEntity {
       }
       {
        coords -204.177 -28.565 97.07
-       angles 1.423 28.027 -0
+       angles 1.423 28.027 0
        scale 1.118
       }
       {
        coords -78.948 0.066 93.154
-       angles 1.624 134.905 -0
+       angles 1.624 134.905 0
        scale 1.045
       }
      }
@@ -34402,10 +34379,11 @@ $grp SplineShapeEntity {
   }
  }
  {
+  Flags 0 0x80000
   coords 5926.193 48.408 3516.099
   Points {
    ShapePoint "{6A50FD311AB22C75}" {
-    Position 0 -0 0
+    Position 0 0 0
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
@@ -34988,7 +34966,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -274.865 -20.618 -365.679
-       angles 1.095 -10.766 -0
+       angles 1.095 -10.766 0
        scale 0.667
       }
       {
@@ -34998,7 +34976,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -280.462 -19.649 -210.608
-       angles -2.683 1.032 -0
+       angles -2.683 1.032 0
        scale 0.965
       }
       {
@@ -35033,7 +35011,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -169.147 5.276 -333.363
-       angles -0.37 176.149 -0
+       angles -0.37 176.149 0
        scale 0.565
       }
       {
@@ -35048,7 +35026,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -163.72 5.73 -150.184
-       angles -0.159 -24.379 -0
+       angles -0.159 -24.379 0
        scale 0.708
       }
       {
@@ -36350,7 +36328,6 @@ $grp SplineShapeEntity {
       {
        coords -237.742 -10.999 -311.301
        angles 2.999 96.408 0.887
-       scale 1
       }
       {
        coords -241.103 -12.886 -347.447
@@ -36710,7 +36687,6 @@ $grp SplineShapeEntity {
       {
        coords -232.579 -9.507 -250.162
        angles -2.824 164.569 0.713
-       scale 1
       }
       {
        coords -254.267 -13.648 -248.259
@@ -36725,7 +36701,6 @@ $grp SplineShapeEntity {
       {
        coords -253.472 -13.341 -229.04
        angles -1.42 -46.88 1.007
-       scale 1
       }
       {
        coords -226.838 -8.342 -237.534
@@ -39495,7 +39470,6 @@ $grp SplineShapeEntity {
       {
        coords -75.807 6.592 -308.727
        angles 2.392 -19.82 -0.247
-       scale 1
       }
       {
        coords -102.393 6.592 -304.22
@@ -43594,7 +43568,6 @@ $grp SplineShapeEntity {
       {
        coords -122.504 6.592 -355.185
        angles -0.221 8.097 -1.987
-       scale 1
       }
       {
        coords -145.622 6.592 -333.086
@@ -45006,7 +44979,6 @@ $grp SplineShapeEntity {
       {
        coords -108.715 6.592 -358.627
        angles -1.212 -61.833 1.118
-       scale 1
       }
       {
        coords -115.733 6.592 -93.098
@@ -45128,7 +45100,6 @@ $grp SplineShapeEntity {
       {
        coords -259.044 -15.397 -207.603
        angles 1.543 5.416 -1.01
-       scale 1
       }
       {
        coords -143.001 6.592 -389.216
@@ -45198,7 +45169,6 @@ $grp SplineShapeEntity {
       {
        coords -105.864 6.592 -246.443
        angles 0.121 171.645 -1.938
-       scale 1
       }
       {
        coords -146.555 6.523 -115.263
@@ -45393,7 +45363,6 @@ $grp SplineShapeEntity {
       {
        coords -157.057 6.536 -403.424
        angles 1.082 -166.019 -1.448
-       scale 1
       }
       {
        coords -308.255 -21.225 -388.648
@@ -45439,7 +45408,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -165.806 5.853 -221.09
-       angles -1.832 123.864 -0
+       angles -1.832 123.864 0
        scale 0.939
       }
       {
@@ -45459,7 +45428,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -70.945 6.592 -67.616
-       angles 0.911 -101.857 -0
+       angles 0.911 -101.857 0
        scale 0.945
       }
       {
@@ -45504,7 +45473,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -168.438 6.274 -247.785
-       angles 0.317 172.15 -0
+       angles 0.317 172.15 0
        scale 0.936
       }
       {
@@ -45519,7 +45488,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -166.718 5.885 -184.108
-       angles -1.213 -96.672 -0
+       angles -1.213 -96.672 0
        scale 1.214
       }
       {
@@ -45534,7 +45503,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -260.502 -16.387 -199.865
-       angles -0.051 60.756 -0
+       angles -0.051 60.756 0
        scale 0.726
       }
       {
@@ -45544,12 +45513,12 @@ $grp SplineShapeEntity {
       }
       {
        coords -218.508 -7.688 -311.303
-       angles 0.813 -29.84 -0
+       angles 0.813 -29.84 0
        scale 0.987
       }
       {
        coords -184.625 1.213 -305.885
-       angles -1.979 21.402 -0
+       angles -1.979 21.402 0
        scale 1.005
       }
       {
@@ -45564,12 +45533,12 @@ $grp SplineShapeEntity {
       }
       {
        coords -30.744 3.209 -57.387
-       angles -1.81 -151.539 -0
+       angles -1.81 -151.539 0
        scale 0.983
       }
       {
        coords -34.277 5.389 -71.892
-       angles -1.948 0.461 -0
+       angles -1.948 0.461 0
        scale 0.909
       }
       {
@@ -45579,7 +45548,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -31.86 6.592 -269.929
-       angles 0.372 -1.274 -0
+       angles 0.372 -1.274 0
        scale 0.974
       }
       {
@@ -45589,7 +45558,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -51.516 6.592 -386.111
-       angles -0.053 79.401 -0
+       angles -0.053 79.401 0
        scale 1.073
       }
       {
@@ -45604,7 +45573,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -249.339 -19.255 -147.113
-       angles -1.995 -132.675 -0
+       angles -1.995 -132.675 0
        scale 0.966
       }
       {
@@ -45634,7 +45603,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -91.183 6.559 -49.032
-       angles -1.588 -83.279 -0
+       angles -1.588 -83.279 0
        scale 1.119
       }
       {
@@ -45654,7 +45623,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -295.275 -22.045 -388.7
-       angles -0.05 148.463 -0
+       angles -0.05 148.463 0
        scale 0.794
       }
      }
@@ -48441,7 +48410,6 @@ $grp SplineShapeEntity {
       {
        coords -262.28 -16.56 -203.051
        angles 0.517 -160.186 -1.041
-       scale 1
       }
       {
        coords -260.58 -16.167 -202.498
@@ -48746,475 +48714,566 @@ $grp SplineShapeEntity {
 }
 $grp Tree : "{053196EF2505964A}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_0.et" {
  {
-  coords 5755.044 11.701 2208.654
+  Flags 0 0x80000
+  coords 5755.044 41.701 2208.654
   angles -0.091 -52.459 -1.453
   scale 0.992
  }
  {
-  coords 5737.812 8.549 2200.261
+  Flags 0 0x80000
+  coords 5737.812 38.549 2200.261
   angles -0.218 -64.965 -3.007
   scale 1.073
  }
  {
-  coords 5727.08 8.048 2152.519
+  Flags 0 0x80000
+  coords 5727.08 48.048 2152.519
   angles -0.262 -85.431 -3.01
   scale 0.884
  }
  {
-  coords 5799.485 13.332 2193.522
+  Flags 0 0x80000
+  coords 5799.485 43.332 2193.522
   angles -0.187 176.644 1.177
   scale 0.915
  }
  {
-  coords 5765.857 13.305 2200.837
+  Flags 0 0x80000
+  coords 5765.857 43.305 2200.837
   angles -0.068 -2.055 -1.191
   scale 1.073
  }
  {
-  coords 5769.163 13.394 2194.219
+  Flags 0 0x80000
+  coords 5769.163 43.394 2194.219
   angles -0.019 60.745 1.556
   scale 1.077
  }
  {
-  coords 5761.933 13.186 2200.373
+  Flags 0 0x80000
+  coords 5761.933 43.186 2200.373
   angles 1.21 67.282 0.972
   scale 1.137
  }
  {
-  coords 5798.722 0.871 2170.842
+  Flags 0 0x80000
+  coords 5798.722 40.9 2170.842
   angles -0.513 -10.899 1.279
   scale 1.11
  }
  {
-  coords 5788.622 12.809 2206.8
+  Flags 0 0x80000
+  coords 5788.622 42.809 2206.8
   angles 0.355 67.777 0.95
   scale 0.932
  }
  {
-  coords 5793.219 11.439 2216.101
+  Flags 0 0x80000
+  coords 5793.219 41.439 2216.101
   angles 1.199 -137.707 -0.095
   scale 0.893
  }
  {
-  coords 5796.193 12.436 2208.381
+  Flags 0 0x80000
+  coords 5796.193 42.436 2208.381
   angles 0.934 -139.113 0.339
   scale 0.808
  }
  {
-  coords 5785.521 12.052 2213.249
+  Flags 0 0x80000
+  coords 5785.521 42.052 2213.249
   angles 0.327 34.938 -0.232
   scale 1.158
  }
  {
-  coords 5795.72 12.238 2210.087
+  Flags 0 0x80000
+  coords 5795.72 42.238 2210.087
   angles 1.122 -101.846 1.559
   scale 0.845
  }
 }
 Tree : "{0572596E23DDDC10}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_pinus_sylvestris_2f.et" {
- coords 5727.856 1.489 2176.716
+ Flags 0 0x80000
+ coords 5727.856 40.367 2176.716
  angles -3.427 -93.796 -5.829
  scale 1.145
 }
 GenericEntity : "{0C1246F8C2A11EAA}Assets/Ivy/GM_Placeable/E_Ivy_07.et" {
+ Flags 0 0x80000
  coords 5815.41 45.411 2956.2
  angles 41.085 -2.239 -9.544
 }
 $grp Tree : "{1263BEF0B822A24A}Prefabs/Vegetation/Tree/t_pinus_sylvestris/t_pinus_sylvestris_stump_01.et" {
  {
-  coords 5750.446 3.004 2173.268
+  Flags 0 0x80000
+  coords 5750.446 41.598 2173.268
   angles -2.039 -164.1 1.141
   scale 1.1
  }
  {
-  coords 5743.85 11.366 2221.424
+  Flags 0 0x80000
+  coords 5743.85 41.729 2221.424
   angles -0.869 156.989 2.169
   scale 0.937
  }
 }
 $grp Tree : "{20C4A23B039DFCF3}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_3s.et" {
  {
-  coords 5726.461 10.314 2184.646
+  Flags 0 0x80000
+  coords 5726.461 40.314 2184.646
   angles -0.139 -83.765 -1.392
   scale 0.876
  }
  {
-  coords 5747.726 13.466 2236.845
+  Flags 0 0x80000
+  coords 5747.726 49.057 2236.845
   angles -0.312 -56.1 -3.986
   scale 0.916
  }
 }
 $grp Tree : "{253445DD1D8B369D}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_3f_high.et" {
  {
-  coords 5731.875 8.048 2198.045
+  Flags 0 0x80000
+  coords 5731.875 38.048 2198.045
   angles -2.801 -53.316 -4.724
   scale 0.986
  }
  {
-  coords 5737.503 8.887 2228.096
+  Flags 0 0x80000
+  coords 5737.503 40.905 2228.096
   angles -2.272 -35.712 -3.9
   scale 1.015
  }
  {
-  coords 5734.479 9.698 2223.74
+  Flags 0 0x80000
+  coords 5734.479 40.561 2223.74
   angles -0.413 16.338 -4.101
   scale 0.984
  }
  {
-  coords 5743.464 8.636 2228.853
+  Flags 0 0x80000
+  coords 5743.464 41.226 2228.853
   angles 0.711 156.378 0.148
   scale 0.985
  }
  {
-  coords 5748.252 8.662 2229.327
+  Flags 0 0x80000
+  coords 5748.252 41.595 2229.327
   angles -0.897 124.396 2.986
   scale 1.006
  }
  {
-  coords 5748.541 11.906 2202.591
+  Flags 0 0x80000
+  coords 5748.541 41.906 2202.591
   angles -0.849 -22.479 -4.569
   scale 1.019
  }
  {
-  coords 5739.357 8.048 2190.202
+  Flags 0 0x80000
+  coords 5739.357 38.048 2190.202
   angles -0.542 -172.035 0.503
   scale 1.092
  }
  {
-  coords 5736.078 8.048 2208.264
+  Flags 0 0x80000
+  coords 5736.078 38.048 2208.264
   angles -0.056 174.638 3.737
   scale 1.037
  }
  {
-  coords 5734.815 10.905 2188.687
+  Flags 0 0x80000
+  coords 5734.815 40.905 2188.687
   angles -2.847 -84.196 -0.595
   scale 0.968
  }
  {
-  coords 5747.073 11.694 2219.82
+  Flags 0 0x80000
+  coords 5747.073 41.751 2219.82
   angles -0.775 23.315 -2.406
   scale 1.04
  }
  {
-  coords 5736.457 11.159 2180.021
+  Flags 0 0x80000
+  coords 5736.457 41.376 2180.021
   angles 3.326 94.681 1.831
   scale 1.081
  }
  {
-  coords 5742.709 11.602 2202.434
+  Flags 0 0x80000
+  coords 5742.709 41.602 2202.434
   angles 3.2 112.745 -0.456
   scale 1.029
  }
  {
-  coords 5727.887 8.048 2214.174
+  Flags 0 0x80000
+  coords 5727.887 38.048 2214.174
   angles 1.352 -9.421 0.671
   scale 0.969
  }
  {
-  coords 5740.294 8.048 2208.456
+  Flags 0 0x80000
+  coords 5740.294 38.048 2208.456
   angles -2.52 -151.275 2.212
   scale 1.036
  }
  {
-  coords 5730.25 10.523 2182.05
+  Flags 0 0x80000
+  coords 5730.25 40.523 2182.05
   angles 4.041 -0.715 1.205
   scale 1.027
  }
  {
-  coords 5740.71 8.048 2215.676
+  Flags 0 0x80000
+  coords 5740.71 38.048 2215.676
   angles 1.732 98.073 -0.692
   scale 1.014
  }
  {
-  coords 5732.822 8.048 2215.733
+  Flags 0 0x80000
+  coords 5732.822 38.048 2215.733
   angles -2.421 -75.332 0.656
   scale 1.041
  }
  {
-  coords 5732.246 1.892 2170.713
+  Flags 0 0x80000
+  coords 5732.246 40.711 2170.713
   angles 0.24 5.516 -4.354
   scale 1.046
  }
  {
-  coords 5744.773 3.267 2172.723
+  Flags 0 0x80000
+  coords 5744.773 41.587 2172.723
   angles 1.839 -5.577 -3.749
   scale 0.996
  }
  {
-  coords 5743.811 11.369 2181.982
+  Flags 0 0x80000
+  coords 5743.811 41.402 2181.982
   angles 0.077 168.829 3.744
   scale 1.061
  }
  {
-  coords 5732.244 8.048 2209.514
+  Flags 0 0x80000
+  coords 5732.244 38.048 2209.514
   angles 1.901 142.267 1.801
   scale 1.046
  }
  {
-  coords 5732.922 9.106 2202.857
+  Flags 0 0x80000
+  coords 5732.922 39.106 2202.857
   angles -2.622 151.169 0.705
   scale 0.952
  }
  {
-  coords 5745.3 11.421 2213.358
+  Flags 0 0x80000
+  coords 5745.3 41.421 2213.358
   angles 1.775 115.001 0.593
   scale 1.054
  }
  {
-  coords 5767.446 13.337 2201.392
+  Flags 0 0x80000
+  coords 5767.446 43.337 2201.392
   angles 0.682 22.698 2.433
   scale 1.09
  }
  {
-  coords 5780.902 11.867 2215.063
+  Flags 0 0x80000
+  coords 5780.902 41.867 2215.063
   angles 1.937 163.46 -1.889
   scale 1.071
  }
  {
-  coords 5758.302 12.557 2209.977
+  Flags 0 0x80000
+  coords 5758.302 42.557 2209.977
   angles 1.065 12.81 -1.017
   scale 0.991
  }
  {
-  coords 5757.319 12.798 2196.282
+  Flags 0 0x80000
+  coords 5757.319 42.798 2196.282
   angles -2.423 -77.082 2.767
   scale 1.072
  }
  {
-  coords 5777.276 13.238 2204.822
+  Flags 0 0x80000
+  coords 5777.276 43.238 2204.822
   angles 0.275 98.66 2.37
   scale 1.034
  }
  {
-  coords 5788.083 11.849 2214.239
+  Flags 0 0x80000
+  coords 5788.083 41.849 2214.239
   angles -2.785 81.686 2.925
   scale 0.993
  }
  {
-  coords 5787.633 13.448 2197.986
+  Flags 0 0x80000
+  coords 5787.633 43.448 2197.986
   angles 2.5 127.412 -0.404
   scale 0.965
  }
  {
-  coords 5792.168 10.834 2219.646
+  Flags 0 0x80000
+  coords 5792.168 40.834 2219.646
   angles 2.548 101.517 -2.461
   scale 0.964
  }
  {
-  coords 5777.918 13.51 2191.756
+  Flags 0 0x80000
+  coords 5777.918 43.51 2191.756
   angles 2.437 -178.357 -0.26
   scale 0.983
  }
  {
-  coords 5780.389 12.784 2208.797
+  Flags 0 0x80000
+  coords 5780.389 42.784 2208.797
   angles 1.022 87.97 0.076
   scale 1.029
  }
  {
-  coords 5782.209 13.52 2194.777
+  Flags 0 0x80000
+  coords 5782.209 43.52 2194.777
   angles -1.826 -172.611 0.511
   scale 0.971
  }
  {
-  coords 5774.502 13.492 2198.917
+  Flags 0 0x80000
+  coords 5774.502 43.492 2198.917
   angles 1.819 62.283 -0.755
   scale 1.05
  }
  {
-  coords 5755.293 12.692 2201.291
+  Flags 0 0x80000
+  coords 5755.293 42.692 2201.291
   angles -0.476 -30.169 0.515
   scale 1.086
  }
  {
-  coords 5763.145 12.812 2208.892
+  Flags 0 0x80000
+  coords 5763.145 42.812 2208.892
   angles 0.367 -135.773 1.821
-  scale 1
  }
  {
-  coords 5786.295 13.092 2204.612
+  Flags 0 0x80000
+  coords 5786.295 43.092 2204.612
   angles 2.145 77.61 1.598
   scale 1.072
  }
  {
-  coords 5784.25 11.184 2218.645
+  Flags 0 0x80000
+  coords 5784.25 41.194 2218.645
   angles 0.418 -108.922 -2.969
   scale 0.961
  }
  {
-  coords 5769.886 12.113 2214.591
+  Flags 0 0x80000
+  coords 5769.886 42.113 2214.591
   angles -1.811 158.889 1.391
   scale 1.052
  }
 }
 $grp SCR_DestructibleEntity : "{2CA940B210EDA36E}Prefabs/Structures/Walls/BarbedWire/NetFence_USSR_01/NetFence_USSR_01_6m_V2.et" {
  {
-  coords 5928.053 -0.514 3521.55
+  Flags 0 0x80000
+  coords 5928.053 47.468 3521.55
   angles 0 153.695 0
  }
  {
-  coords 5929.8 -0.787 3522.414
+  Flags 0 0x80000
+  coords 5929.8 47.341 3522.414
   angles 0 153.695 0
  }
 }
 Tree : "{2FE01B5E743D5205}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_pinus_sylvestris_1s.et" {
- coords 5724.396 9.524 2190.328
+ Flags 0 0x80000
+ coords 5724.396 39.524 2190.328
  angles -3.373 -131.346 0.768
  scale 1.16
 }
 SCR_IndestructibleEnvironmentalEntity : "{3583AB98E185C249}PrefabLibrary/DefaultLibrary/Rocks/Granite/Granite_Stone_02/Granite_ForestStone_02.et" {
- coords 5742.169 11.362 2185.081
+ Flags 0 0x80000
+ coords 5742.169 41.362 2185.081
  angles 6.818 8.421 -6.832
  scale 0.408
 }
 $grp Tree : "{425761285F36BF16}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_1s.et" {
  {
-  coords 5741.199 11.382 2185.995
+  Flags 0 0x80000
+  coords 5741.199 41.382 2185.995
   angles -1.417 135.249 2.676
   scale 0.505
  }
  {
-  coords 5727.856 2.424 2237.692
+  Flags 0 0x80000
+  coords 5727.856 39.546 2237.692
   angles -0.918 -159.035 2.672
   scale 0.794
  }
  {
-  coords 5731.209 8.052 2151.255
+  Flags 0 0x80000
+  coords 5731.209 48.102 2151.255
   angles -2.014 -128.172 0.396
   scale 1.198
  }
  {
-  coords 5723.157 9.353 2196.256
+  Flags 0 0x80000
+  coords 5723.157 39.353 2196.256
   angles -1.95 142.089 4.299
   scale 0.8
  }
  {
-  coords 5760.025 8.045 2250.907
+  Flags 0 0x80000
+  coords 5760.025 49.855 2250.907
   angles -0.265 6.507 -4.133
   scale 0.85
  }
  {
-  coords 5720.763 8.07 2136.468
+  Flags 0 0x80000
+  coords 5720.763 47.63 2136.468
   angles -5.017 -127.849 0.279
   scale 0.661
  }
  {
-  coords 5799.509 11.42 2195.049
+  Flags 0 0x80000
+  coords 5799.509 41.42 2195.049
   angles -1.926 -91.156 -0.585
   scale 0.788
  }
  {
-  coords 5791.868 11.938 2183.562
+  Flags 0 0x80000
+  coords 5791.868 41.952 2183.562
   angles -0.403 156.439 -1.611
   scale 0.849
  }
 }
 $grp SCR_IndestructibleEnvironmentalEntity : "{450AAF1BC197F8C9}Prefabs/Rocks/Granite/Granite_Cluster_01.et" {
  {
-  coords 5785.303 -0 2944.4
+  Flags 0 0x80000
+  coords 5785.303 55 2944.4
   scale 8.5
  }
  {
-  coords 5810.213 0 2931.972
+  Flags 0 0x80000
+  coords 5810.213 55 2931.972
   scale 8.5
  }
  {
-  coords 5762.486 0 2830.933
+  Flags 0 0x80000
+  coords 5762.486 28.092 2830.933
   scale 8.5
  }
  {
-  coords 5839.865 0 2915.374
+  Flags 0 0x80000
+  coords 5839.865 55 2915.374
   scale 8.5
  }
 }
 $grp Tree : "{531BB93086610CA1}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_0.et" {
  {
-  coords 5717.898 6.526 2189.976
+  Flags 0 0x80000
+  coords 5717.898 36.526 2189.976
   angles 4.057 49.433 2.439
   scale 1.159
  }
  {
-  coords 5721.399 8.708 2207.755
+  Flags 0 0x80000
+  coords 5721.399 38.708 2207.755
   angles 3.937 21.471 1.591
-  scale 1
  }
  {
-  coords 5759.333 11.946 2210.983
+  Flags 0 0x80000
+  coords 5759.333 41.946 2210.983
   angles -5.277 -132.311 -0.436
   scale 0.891
  }
  {
-  coords 5748.929 8.061 2259.269
+  Flags 0 0x80000
+  coords 5748.929 52.476 2259.269
   angles -2.397 -154.891 -0.67
   scale 1.182
  }
 }
 $grp SCR_IndestructibleEnvironmentalEntity : "{533CDABD77C4C43E}Prefabs/Rocks/Granite/GraniteCliff_02.et" {
  {
+  Flags 0 0x80000
   coords 5764.241 26.54 2932.264
   angles 15.223 -107.879 0
   scale 1.4
  }
  {
+  Flags 0 0x80000
   coords 5763.501 25.67 2950.53
   angles 12.344 -71.414 3.602
   scale 1.4
  }
  {
+  Flags 0 0x80000
   coords 5766.72 22.652 2960.215
   angles 11.272 -32.659 -4.129
   scale 1.4
  }
  {
+  Flags 0 0x80000
   coords 5777.554 23.365 2966.027
   angles 10.693 14.904 5.468
   scale 1.4
  }
  {
+  Flags 0 0x80000
   coords 5798.615 25.621 2960.23
   angles 10.85 23.387 -0.286
   scale 1.4
  }
  {
+  Flags 0 0x80000
   coords 5818.186 25.726 2951.745
   angles 10.85 23.387 -0.286
   scale 1.4
  }
  {
+  Flags 0 0x80000
   coords 5721.221 24.528 3002.457
   angles 30.992 -152.217 0.009
   scale 1.4
  }
  {
+  Flags 0 0x80000
   coords 5754.14 24.484 2999.333
   angles 25.247 -172.3 4.668
   scale 1.4
  }
  {
+  Flags 0 0x80000
   coords 5792.575 21.202 2994.904
   angles 24.948 -168.813 -2.47
   scale 1.4
  }
  {
+  Flags 0 0x80000
   coords 5817.386 26.153 2997.527
   angles 20.837 -168.624 -2.396
   scale 1.4
  }
  {
+  Flags 0 0x80000
   coords 5732.844 18.97 2787.719
   angles 34.506 63.981 -5.057
   scale 1.4
  }
  {
+  Flags 0 0x80000
   coords 5730.224 15.417 2804.398
   angles 34.506 63.981 -5.057
   scale 1.4
  }
  {
+  Flags 0 0x80000
   coords 5715.66 30.101 2792.855
   angles 4.795 89.183 65.734
   scale 1.4
  }
  {
+  Flags 0 0x80000
   coords 5735.442 24.295 2761.211
   angles 37.03 83.375 -11.24
   scale 1.4
@@ -49222,212 +49281,251 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{533CDABD77C4C43E}Prefabs/Rocks/Gr
 }
 $grp Tree : "{572740984A0430C5}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_pinus_sylvestris_3f_high.et" {
  {
-  coords 5738.089 3.164 2171.997
+  Flags 0 0x80000
+  coords 5738.089 41.078 2171.997
   angles -1.613 -169.621 3.045
   scale 1.035
  }
  {
-  coords 5744.503 11.496 2192.662
+  Flags 0 0x80000
+  coords 5744.503 41.496 2192.662
   angles -0.933 -71.744 -2.776
   scale 1.028
  }
  {
-  coords 5762.542 11.899 2215.966
+  Flags 0 0x80000
+  coords 5762.542 41.899 2215.966
   angles -0.256 143.09 -1.305
   scale 1.023
  }
 }
 $grp SCR_IndestructibleEnvironmentalEntity : "{59D79F785D414D67}PrefabLibrary/DefaultLibrary/Rocks/Granite/Granite_Stone_01/Granite_ForestStone_01.et" {
  {
-  coords 5757.906 11.967 2195.128
+  Flags 0 0x80000
+  coords 5757.906 41.967 2195.128
   angles 3.286 -9.067 6.356
   scale 0.511
  }
  {
-  coords 5754.068 12.43 2194.151
+  Flags 0 0x80000
+  coords 5754.068 42.43 2194.151
   angles 6.323 -27.17 -0.553
   scale 0.546
  }
 }
 $grp Tree : "{5CA1D12C1B27CAE2}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_stump_02.et" {
  {
-  coords 5740.08 0 2212.685
+  Flags 0 0x80000
+  coords 5740.08 30 2212.685
   angles -6.552 -144.891 3.982
   scale 0.709
  }
  {
-  coords 5735.559 0 2191.407
+  Flags 0 0x80000
+  coords 5735.559 30 2191.407
   angles -0.075 -104.474 3.685
   scale 0.967
  }
  {
-  coords 5743.076 9.149 2227.205
+  Flags 0 0x80000
+  coords 5743.076 41.243 2227.205
   angles 2.186 40.422 -5.113
   scale 0.762
  }
  {
-  coords 5810.363 3.572 2188.277
+  Flags 0 0x80000
+  coords 5810.363 40.136 2188.277
   angles -3.586 90.651 -4.422
   scale 1.098
  }
  {
-  coords 5794.91 1.977 2175.61
+  Flags 0 0x80000
+  coords 5794.91 41.977 2175.61
   angles -3.18 168.755 0.352
   scale 1.135
  }
  {
-  coords 5786.195 12.233 2202.477
+  Flags 0 0x80000
+  coords 5786.195 42.233 2202.477
   angles 4.342 -173.457 -3.108
   scale 0.949
  }
 }
 $grp Tree : "{68C5231808D63103}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_2f.et" {
  {
-  coords 5728.231 8.053 2153.089
+  Flags 0 0x80000
+  coords 5728.231 48.057 2153.089
   angles -0.424 -8.417 -3.034
   scale 0.717
  }
  {
-  coords 5725.129 8.045 2164.32
+  Flags 0 0x80000
+  coords 5725.129 47.991 2164.32
   angles 0.525 0.322 -1.631
   scale 1.086
  }
 }
 GenericEntity : "{767A0C8828780CC4}Assets/Ivy/GM_Placeable/E_Ivy_09.et" {
+ Flags 0 0x80000
  coords 5806.671 50.479 2960.081
  angles -18.042 -161.376 -1.32
 }
 $grp Tree : "{7D5C8883A0DF9D96}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_1f.et" {
  {
-  coords 5740.232 8.804 2205.168
+  Flags 0 0x80000
+  coords 5740.232 38.804 2205.168
   angles 1.146 82.708 3.127
   scale 0.881
  }
  {
-  coords 5788.185 12.613 2208.719
+  Flags 0 0x80000
+  coords 5788.185 42.613 2208.719
   angles -0.301 106.527 0.211
   scale 0.977
  }
 }
 $grp Tree : "{960EA50FD57CD7D5}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_1sw.et" {
  {
-  coords 5739.907 11.203 2186.293
+  Flags 0 0x80000
+  coords 5739.907 41.203 2186.293
   angles -2.357 -126.158 0.077
   scale 0.894
  }
  {
-  coords 5742.512 11.678 2186.259
+  Flags 0 0x80000
+  coords 5742.512 41.678 2186.259
   angles -0.757 -138.304 1.66
   scale 0.769
  }
  {
-  coords 5724.677 8.045 2166.222
+  Flags 0 0x80000
+  coords 5724.677 47.968 2166.222
   angles 0.966 -48.235 -1.148
   scale 0.956
  }
  {
-  coords 5722.197 9.074 2216.055
+  Flags 0 0x80000
+  coords 5722.197 39.074 2216.055
   angles -1.607 138.32 0.922
   scale 0.954
  }
  {
-  coords 5739.134 0 2185.672
+  Flags 0 0x80000
+  coords 5739.134 30 2185.672
   angles -3.223 -88.222 -0.228
   scale 0.661
  }
  {
-  coords 5719.83 8.071 2256.185
+  Flags 0 0x80000
+  coords 5719.83 48.516 2256.185
   angles -1.409 178.466 0.96
   scale 0.991
  }
  {
-  coords 5794.737 12.068 2197.359
+  Flags 0 0x80000
+  coords 5794.737 42.068 2197.359
   angles -1.465 -15.601 -0.015
   scale 0.872
  }
  {
-  coords 5812.799 5.071 2189.096
+  Flags 0 0x80000
+  coords 5812.799 39.203 2189.096
   angles 0.096 -23.347 0.341
   scale 1.125
  }
  {
-  coords 5806.45 1.074 2180.949
+  Flags 0 0x80000
+  coords 5806.45 40.937 2180.949
   angles 1.467 74.457 1.609
   scale 0.696
  }
  {
-  coords 5790.89 11.949 2183.605
+  Flags 0 0x80000
+  coords 5790.89 41.961 2183.605
   angles -1.734 168.667 -0.54
   scale 1.124
  }
  {
-  coords 5788.577 11.852 2186.836
+  Flags 0 0x80000
+  coords 5788.577 41.852 2186.836
   angles 1.477 62.459 1.978
   scale 1.085
  }
 }
 $grp Tree : "{9C6CE0F73E3AED80}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_pinus_sylvestris_1f.et" {
  {
-  coords 5751.6 8.078 2142.381
+  Flags 0 0x80000
+  coords 5751.6 49.221 2142.381
   angles -2.788 -83.9 -1.815
   scale 0.758
  }
  {
-  coords 5729.589 8.05 2152.305
+  Flags 0 0x80000
+  coords 5729.589 48.075 2152.305
   angles 0.566 31.938 -0.534
   scale 0.915
  }
  {
-  coords 5736.109 8.065 2150.874
+  Flags 0 0x80000
+  coords 5736.109 48.308 2150.874
   angles 0.076 -26.185 -2.214
   scale 0.869
  }
  {
-  coords 5719.638 7.829 2197.795
+  Flags 0 0x80000
+  coords 5719.638 37.829 2197.795
   angles -0.788 -17.283 -2.072
   scale 1.103
  }
  {
-  coords 5749.905 8.071 2143.67
+  Flags 0 0x80000
+  coords 5749.905 49.135 2143.67
   angles 0.899 28.618 -0.665
   scale 0.759
  }
 }
 $grp Tree : "{9D6B4E946D1074EA}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_piceaabies_2s.et" {
  {
-  coords 5726.507 8.69 2205.973
+  Flags 0 0x80000
+  coords 5726.507 38.69 2205.973
   angles 1.496 -47.014 -3.674
   scale 1.089
  }
  {
-  coords 5743.236 15.481 2233.392
+  Flags 0 0x80000
+  coords 5743.236 49.4 2233.392
   angles -1.744 -121.786 1.302
   scale 1.119
  }
 }
 $grp Tree : "{A35E15EBC6033C07}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1.et" {
  {
-  coords 5736.948 10.964 2185.001
+  Flags 0 0x80000
+  coords 5736.948 40.964 2185.001
   angles -2.285 -146.379 -0.91
   scale 0.842
  }
  {
-  coords 5722.108 9.029 2183.01
+  Flags 0 0x80000
+  coords 5722.108 39.239 2183.01
   angles -0.657 -55.778 -2.999
   scale 1.031
  }
  {
-  coords 5724.035 0.795 2175.064
+  Flags 0 0x80000
+  coords 5724.035 40.06 2175.064
   angles 0.676 22.557 -2.087
   scale 1.174
  }
  {
-  coords 5800.314 11.005 2199.509
+  Flags 0 0x80000
+  coords 5800.314 41.005 2199.509
   angles 0.72 -146.298 -0.599
   scale 0.839
  }
  {
-  coords 5801.055 11.159 2195.666
+  Flags 0 0x80000
+  coords 5801.055 41.159 2195.666
   angles 0.02 -17.853 1.398
   scale 1.102
  }
@@ -49808,28 +49906,33 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
 }
 $grp Tree : "{AC43B039B67361F6}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_3s.et" {
  {
-  coords 5723.604 9.174 2218.645
+  Flags 0 0x80000
+  coords 5723.604 39.174 2218.645
   angles -0.942 60.926 -2.681
   scale 0.903
  }
  {
-  coords 5730.204 9.131 2228.353
+  Flags 0 0x80000
+  coords 5730.204 40.551 2228.353
   angles -1.972 9.052 2.557
   scale 1.144
  }
 }
 $grp GenericEntity : "{AC8DA9EB47B9954E}Assets/Ivy/Prefabs/Ivy_12.et" {
  {
+  Flags 0 0x80000
   coords 5828.055 41.009 2979.63
   angles -14.636 92.409 0
   scale 2.2
  }
  {
+  Flags 0 0x80000
   coords 5828.72 41.009 2967.632
   angles -14.636 92.409 0
   scale 2.2
  }
  {
+  Flags 0 0x80000
   coords 5827.92 40.899 2958.902
   angles -20.01 114.638 -0.558
   scale 2.2
@@ -49837,54 +49940,65 @@ $grp GenericEntity : "{AC8DA9EB47B9954E}Assets/Ivy/Prefabs/Ivy_12.et" {
 }
 $grp GenericEntity : "{B0BD5E6DAA08B808}Prefabs/Infrastructure/Railways/Railway 40M.et" {
  {
+  Flags 0 0x80000
   coords 5665.394 30.542 2204.349
   angles 0 90.974 0
  }
  {
+  Flags 0 0x80000
   coords 5705.458 30.542 2203.668
   angles 0 90.974 0
  }
  {
+  Flags 0 0x80000
   coords 5745.482 30.542 2202.988
   angles 0 92.357 0
  }
  {
+  Flags 0 0x80000
   coords 5785.482 30.542 2201.342
   angles 0 92.357 0
  }
  {
+  Flags 0 0x80000
   coords 5825.331 30.542 2199.702
   angles 0 92.357 0
  }
 }
 $grp Tree : "{B6FEA2C769DA6395}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_pinus_sylvestris_2s.et" {
  {
-  coords 5726.387 3.789 2234.948
+  Flags 0 0x80000
+  coords 5726.387 39.445 2234.948
   angles -0.799 -166.603 2.476
   scale 1.253
  }
  {
-  coords 5734.189 7.634 2233.592
+  Flags 0 0x80000
+  coords 5734.189 40.849 2233.592
   angles -1.618 -112.16 0.594
   scale 1.408
  }
 }
 SCR_IndestructibleEnvironmentalEntity : "{BA73CB6DADFB194E}Prefabs/Rocks/Granite/Granite_Cluster_Large_01_V2.et" {
- coords 5848.222 -0 2882.395
+ Flags 0 0x80000
+ coords 5848.222 55 2882.395
  scale 5.3
 }
 $grp GenericEntity : "{C0D99D0BFB7D1A60}Assets/Ivy/Prefabs/Ivy_11.et" {
  {
+  Flags 0 0x80000
   coords 5826.962 38.006 2980.806
   angles 0 86.827 0
   scale 3.1
  }
  {
+  Flags 0 0x80000
   coords 5827.627 38.006 2968.808
   angles 0 86.827 0
   scale 3.1
  }
  {
+  Flags 0 0x80000
   coords 5827.084 38.006 2960.493
   angles -5.4 108.889 0
   scale 3.1
@@ -49892,439 +50006,524 @@ $grp GenericEntity : "{C0D99D0BFB7D1A60}Assets/Ivy/Prefabs/Ivy_11.et" {
 }
 $grp Tree : "{CED0732AEAD82213}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_1s.et" {
  {
-  coords 5744.534 19.551 2198.955
+  Flags 0 0x80000
+  coords 5744.534 49.551 2198.955
   angles 3.011 62.213 -0.09
   scale 0.839
  }
  {
-  coords 5731.098 6.976 2234.171
+  Flags 0 0x80000
+  coords 5731.098 40.332 2234.171
   angles 0.253 74.513 1.594
   scale 0.913
  }
  {
-  coords 5741.216 19.634 2201.74
+  Flags 0 0x80000
+  coords 5741.216 49.634 2201.74
   angles -2.042 -62.652 -2.279
   scale 0.826
  }
  {
-  coords 5731.296 7.664 2232.582
+  Flags 0 0x80000
+  coords 5731.296 40.446 2232.582
   angles 1.371 134.263 0.342
   scale 1.099
  }
  {
-  coords 5743.059 19.636 2200.29
+  Flags 0 0x80000
+  coords 5743.059 49.636 2200.29
   angles 2.05 -31.145 -0.822
   scale 1.044
  }
  {
-  coords 5749 8.078 2149.274
+  Flags 0 0x80000
+  coords 5749 49.572 2149.274
   angles -2.096 -121.904 1.257
   scale 0.802
  }
  {
-  coords 5740.458 19.072 2199.773
+  Flags 0 0x80000
+  coords 5740.458 49.072 2199.773
   angles 0.357 -51.278 -1.971
   scale 0.909
  }
  {
-  coords 5739.03 2.743 2170.509
+  Flags 0 0x80000
+  coords 5739.03 41.016 2170.509
   angles -0.256 -21.292 -3.804
   scale 0.904
  }
  {
-  coords 5752.072 11.444 2178.824
+  Flags 0 0x80000
+  coords 5752.072 42.275 2178.824
   angles -1.916 138.989 3.157
   scale 0.988
  }
  {
-  coords 5763.204 13.05 2205.699
+  Flags 0 0x80000
+  coords 5763.204 43.05 2205.699
   angles 0.602 -117.623 1.21
   scale 0.893
  }
  {
-  coords 5755.475 11.998 2213.828
+  Flags 0 0x80000
+  coords 5755.475 41.998 2213.828
   angles 0.785 -16.37 -0.301
   scale 0.878
  }
  {
-  coords 5801.627 0.945 2172.228
+  Flags 0 0x80000
+  coords 5801.627 40.97 2172.228
   angles -1.093 12.371 -1.844
   scale 0.878
  }
  {
-  coords 5765.032 13.313 2198.284
+  Flags 0 0x80000
+  coords 5765.032 43.313 2198.284
   angles 1.82 104.121 -1.767
   scale 1.019
  }
  {
-  coords 5762.982 13.145 2195.298
+  Flags 0 0x80000
+  coords 5762.982 43.145 2195.298
   angles 1.342 47.561 0.158
   scale 0.832
  }
  {
-  coords 5766.542 13.321 2195.162
+  Flags 0 0x80000
+  coords 5766.542 43.321 2195.162
   angles 1.108 -133.62 -1.349
   scale 0.928
  }
  {
-  coords 5792.236 11.717 2214.457
+  Flags 0 0x80000
+  coords 5792.236 41.717 2214.457
   angles -0.633 -84.399 -0.749
   scale 0.814
  }
  {
-  coords 5790.159 11.889 2213.69
+  Flags 0 0x80000
+  coords 5790.159 41.889 2213.69
   angles 1.885 70.644 -1.957
   scale 1.186
  }
  {
-  coords 5790.481 12.454 2209.417
+  Flags 0 0x80000
+  coords 5790.481 42.454 2209.417
   angles 0.859 127.709 0.938
   scale 0.894
  }
  {
-  coords 5793.153 12.302 2210.132
+  Flags 0 0x80000
+  coords 5793.153 42.302 2210.132
   angles -1.234 -110.141 -0.376
   scale 1.099
  }
 }
 $grp Tree : "{CF0A210B7AC7B329}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_2.et" {
  {
-  coords 5752.681 8.086 2152.035
+  Flags 0 0x80000
+  coords 5752.681 50.243 2152.035
   angles -0.623 134.709 3.957
   scale 0.823
  }
  {
-  coords 5744.895 8.08 2151.596
+  Flags 0 0x80000
+  coords 5744.895 49.235 2151.596
   angles -0.414 -30.004 -0.348
   scale 0.868
  }
  {
-  coords 5725.149 8.048 2209.142
+  Flags 0 0x80000
+  coords 5725.149 38.048 2209.142
   angles 2.631 41.554 0.183
   scale 0.86
  }
  {
-  coords 5726.896 7.837 2228.628
+  Flags 0 0x80000
+  coords 5726.896 39.546 2228.628
   angles 2.78 44.963 1.366
   scale 1.061
  }
  {
-  coords 5751.065 5.992 2236.231
+  Flags 0 0x80000
+  coords 5751.065 41.359 2236.231
   angles 0.394 88.161 0.059
   scale 1.169
  }
  {
-  coords 5721.663 3.088 2232.636
+  Flags 0 0x80000
+  coords 5721.663 38.974 2232.636
   angles -0.203 -24.009 -1.451
   scale 0.928
  }
  {
-  coords 5718.972 4.512 2181.091
+  Flags 0 0x80000
+  coords 5718.972 37.851 2181.091
   angles -0.835 179.505 3.662
   scale 0.984
  }
  {
-  coords 5721.742 8.07 2170.508
+  Flags 0 0x80000
+  coords 5721.742 47.831 2170.508
   angles -0.794 -112.228 -1.262
   scale 0.824
  }
  {
-  coords 5724.291 8.048 2159.401
+  Flags 0 0x80000
+  coords 5724.291 48.048 2159.401
   angles -1.887 -178.48 3.235
   scale 1.006
  }
  {
-  coords 5732.327 8.063 2257.782
+  Flags 0 0x80000
+  coords 5732.327 50.112 2257.782
   angles -0.035 -76.668 -3.213
   scale 0.901
  }
 }
 $grp SCR_IndestructibleEnvironmentalEntity : "{D01FE761ED605522}PrefabLibrary/DefaultLibrary/Rocks/Granite/Granite_Stone_03/Granite_ForestStone_03.et" {
  {
-  coords 5757.081 11.907 2210.003
+  Flags 0 0x80000
+  coords 5757.081 41.907 2210.003
   angles 12.334 5.484 8.341
   scale 0.383
  }
  {
-  coords 5758.085 0 2162.55
+  Flags 0 0x80000
+  coords 5758.085 41.374 2162.55
   angles -6.402 127.504 3.77
   scale 0.515
  }
 }
 $grp Tree : "{DA7492F3E6B63251}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et" {
  {
-  coords 5721.35 8.645 2182.861
+  Flags 0 0x80000
+  coords 5721.35 38.932 2182.861
   angles 0.261 96.739 1.516
   scale 1.155
  }
  {
-  coords 5724.879 8.048 2156.002
+  Flags 0 0x80000
+  coords 5724.879 48.048 2156.002
   angles -3.881 -138.896 -0.899
   scale 1.053
  }
  {
-  coords 5724.252 5.455 2178.877
+  Flags 0 0x80000
+  coords 5724.252 40.085 2178.877
   angles -0.649 113.82 3.651
   scale 0.982
  }
  {
-  coords 5722.289 8.048 2154.951
+  Flags 0 0x80000
+  coords 5722.289 48.048 2154.951
   angles 0.704 8.746 -1.464
   scale 0.873
  }
  {
-  coords 5755.845 8.056 2247.716
+  Flags 0 0x80000
+  coords 5755.845 48.645 2247.716
   angles -0.55 -173.311 2.868
   scale 0.783
  }
  {
-  coords 5735.451 6.337 2236.725
+  Flags 0 0x80000
+  coords 5735.451 40.853 2236.725
   angles -0.398 -85.163 -2.989
   scale 1.009
  }
  {
-  coords 5740.515 6.012 2236.213
+  Flags 0 0x80000
+  coords 5740.515 40.667 2236.213
   angles -1.763 -153.641 -0.058
   scale 0.758
  }
  {
-  coords 5754.658 9.227 2241.233
+  Flags 0 0x80000
+  coords 5754.658 48.57 2241.233
   angles 3.058 8.172 -0.347
   scale 1.056
  }
  {
-  coords 5722.359 8.08 2181.206
+  Flags 0 0x80000
+  coords 5722.359 39.418 2181.206
   angles 0.594 -67.019 -1.132
   scale 1.036
  }
  {
-  coords 5744.502 8.071 2148.908
+  Flags 0 0x80000
+  coords 5744.502 49.05 2148.908
   angles -0.445 -159.905 -0.51
   scale 0.946
  }
  {
-  coords 5721.094 8.048 2153.629
+  Flags 0 0x80000
+  coords 5721.094 48.048 2153.629
   angles 0.648 -3.089 0.01
   scale 0.782
  }
  {
-  coords 5742.835 8.08 2151.154
+  Flags 0 0x80000
+  coords 5742.835 48.971 2151.154
   angles -2.445 148.008 0.968
   scale 1.053
  }
  {
-  coords 5724.314 8.046 2170.75
+  Flags 0 0x80000
+  coords 5724.314 47.861 2170.75
   angles 2.008 -40.448 -1.577
   scale 1.052
  }
  {
-  coords 5740.19 2.522 2240.241
+  Flags 0 0x80000
+  coords 5740.19 40.064 2240.241
   angles -3.364 -84.762 -0.271
   scale 0.884
  }
  {
-  coords 5723.906 8.046 2161.8
+  Flags 0 0x80000
+  coords 5723.906 48.018 2161.8
   angles -2.879 -76.79 -2.112
   scale 0.822
  }
  {
-  coords 5718.905 1.29 2228.498
+  Flags 0 0x80000
+  coords 5718.905 36.16 2228.498
   angles 0.026 167.025 2.414
   scale 1.11
  }
  {
-  coords 5719.897 3.539 2226.082
+  Flags 0 0x80000
+  coords 5719.897 37.31 2226.082
   angles 0.884 100.541 0.771
   scale 1.059
  }
  {
-  coords 5724.577 6.059 2229.614
+  Flags 0 0x80000
+  coords 5724.577 39.15 2229.614
   angles 2.252 86.079 2.384
   scale 0.979
  }
  {
-  coords 5722.625 9.058 2204.465
+  Flags 0 0x80000
+  coords 5722.625 39.058 2204.465
   angles 0.085 13.099 -3.172
   scale 0.841
  }
  {
-  coords 5721.026 8.048 2154.502
+  Flags 0 0x80000
+  coords 5721.026 48.048 2154.502
   angles -2.081 -150.049 1.638
   scale 0.872
  }
  {
-  coords 5746.944 9.427 2240.614
+  Flags 0 0x80000
+  coords 5746.944 48.161 2240.614
   angles 0.655 -54.247 -3.287
   scale 1.021
  }
  {
-  coords 5745.592 1.663 2240.242
+  Flags 0 0x80000
+  coords 5745.592 40.097 2240.242
   angles -1.951 -95.353 -2.715
   scale 0.918
  }
  {
-  coords 5717.514 5.766 2195.266
+  Flags 0 0x80000
+  coords 5717.514 35.766 2195.266
   angles 0.08 -43.426 -3.314
   scale 1.091
  }
  {
-  coords 5721.066 3.617 2229.92
+  Flags 0 0x80000
+  coords 5721.066 38.452 2229.92
   angles -1.915 -111.396 -2.907
   scale 1.134
  }
  {
-  coords 5751.404 8.052 2247.65
+  Flags 0 0x80000
+  coords 5751.404 48.447 2247.65
   angles 2.675 40.333 1.349
   scale 0.957
  }
  {
-  coords 5744.92 0.277 2242.205
+  Flags 0 0x80000
+  coords 5744.92 39.622 2242.205
   angles -0.233 92.329 2.72
   scale 0.873
  }
  {
-  coords 5747.719 8.049 2244.292
+  Flags 0 0x80000
+  coords 5747.719 47.952 2244.292
   angles -2.984 -173.218 2.996
   scale 0.786
  }
  {
-  coords 5721.566 8.058 2252.876
+  Flags 0 0x80000
+  coords 5721.566 48.245 2252.876
   angles 1.139 110.182 2.18
   scale 0.78
  }
  {
-  coords 5719.233 8.074 2258.473
+  Flags 0 0x80000
+  coords 5719.233 48.768 2258.473
   angles -2.21 168.158 0.358
   scale 0.914
  }
  {
-  coords 5731.017 8.07 2135.696
+  Flags 0 0x80000
+  coords 5731.017 48.284 2135.696
   angles -2.274 149.962 1.158
   scale 0.85
  }
  {
-  coords 5756.332 12.648 2194.568
+  Flags 0 0x80000
+  coords 5756.332 42.648 2194.568
   angles -1.866 -0.154 0.638
   scale 0.921
  }
  {
-  coords 5781.297 11.576 2216.745
+  Flags 0 0x80000
+  coords 5781.297 41.576 2216.745
   angles 1.818 -54.263 1.03
   scale 1.008
  }
 }
 $grp Tree : "{DB49D8B142D18E86}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_2s.et" {
  {
-  coords 5739.957 8.076 2150.586
+  Flags 0 0x80000
+  coords 5739.957 48.643 2150.586
   angles -1.204 0.998 0.168
   scale 1.063
  }
  {
-  coords 5722.929 8.738 2222.697
+  Flags 0 0x80000
+  coords 5722.929 39.394 2222.697
   angles 1.827 -36.79 0.096
   scale 0.857
  }
 }
 $grp SCR_IndestructibleEnvironmentalEntity : "{F168A8DEE854592D}PrefabLibrary/DefaultLibrary/Rocks/Granite/Granite_BeachCluster_02/Granite_ForestCluster_02.et" {
  {
-  coords 5795.243 11.658 2192.201
+  Flags 0 0x80000
+  coords 5795.243 41.658 2192.201
   angles 3.674 -108.69 -0.299
   scale 0.917
  }
  {
-  coords 5803.308 10.969 2198.804
+  Flags 0 0x80000
+  coords 5803.308 40.969 2198.804
   angles -3.632 116.281 -6.743
   scale 0.955
  }
  {
-  coords 5754.269 12.268 2189.895
+  Flags 0 0x80000
+  coords 5754.269 42.268 2189.895
   angles 2.262 123.346 4.69
   scale 0.782
  }
  {
-  coords 5798.066 1.455 2178.223
+  Flags 0 0x80000
+  coords 5798.066 41.455 2178.223
   angles -1.369 66.129 3.537
   scale 0.76
  }
  {
-  coords 5759.827 12.693 2189.685
+  Flags 0 0x80000
+  coords 5759.827 42.693 2189.685
   angles 3.524 106.512 3.834
   scale 0.843
  }
  {
-  coords 5754.983 12.174 2186.024
+  Flags 0 0x80000
+  coords 5754.983 42.174 2186.024
   angles 0.027 -30.669 -5.206
   scale 0.856
  }
  {
-  coords 5751.607 11.807 2183.938
+  Flags 0 0x80000
+  coords 5751.607 41.808 2183.938
   angles -3.511 -170.731 4.848
   scale 0.813
  }
  {
-  coords 5773.953 12.506 2211.549
+  Flags 0 0x80000
+  coords 5773.953 42.506 2211.549
   angles 2.436 -101.156 7.678
   scale 0.957
  }
  {
-  coords 5781.079 12.332 2211.995
+  Flags 0 0x80000
+  coords 5781.079 42.332 2211.995
   angles 0.697 -88.592 8.023
   scale 0.75
  }
 }
 $grp Tree : "{F1DB9A8115310093}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_1f.et" {
  {
-  coords 5720.285 8.18 2188.032
+  Flags 0 0x80000
+  coords 5720.285 38.18 2188.032
   angles -5.465 -149.535 -3.389
   scale 0.936
  }
  {
-  coords 5723.984 9.46 2197.903
+  Flags 0 0x80000
+  coords 5723.984 39.46 2197.903
   angles 0.701 117.709 5.8
   scale 0.974
  }
  {
-  coords 5737.912 0 2187.677
+  Flags 0 0x80000
+  coords 5737.912 30 2187.677
   angles -0.985 39.489 -2.042
   scale 0.763
  }
  {
-  coords 5753.696 1.266 2240.806
+  Flags 0 0x80000
+  coords 5753.696 40.44 2240.806
   angles 0.433 -114.157 -1.958
   scale 1.014
  }
  {
-  coords 5723.321 5.34 2229.247
+  Flags 0 0x80000
+  coords 5723.321 38.851 2229.247
   angles -3.492 160.223 4.236
   scale 1.055
  }
  {
-  coords 5721.953 8.076 2259.318
+  Flags 0 0x80000
+  coords 5721.953 49.305 2259.318
   angles -3.316 -82.221 0.538
   scale 1.142
  }
  {
-  coords 5748.649 8.059 2134.12
+  Flags 0 0x80000
+  coords 5748.649 50.043 2134.12
   angles 4.475 80.665 1.667
   scale 0.806
  }
  {
-  coords 5797.216 11.707 2194.654
+  Flags 0 0x80000
+  coords 5797.216 41.707 2194.654
   angles 0.41 82.927 0.725
   scale 0.818
  }
  {
-  coords 5756.852 12.483 2190.181
+  Flags 0 0x80000
+  coords 5756.852 42.483 2190.181
   angles 3.378 -83.839 -2.685
   scale 0.81
  }
  {
-  coords 5751.997 12.178 2192.276
+  Flags 0 0x80000
+  coords 5751.997 42.178 2192.276
   angles 3.567 11.624 1.967
   scale 1.018
  }
  {
-  coords 5757.93 12.402 2186.65
+  Flags 0 0x80000
+  coords 5757.93 42.402 2186.65
   angles -2.121 -148.386 -3.928
   scale 0.736
  }
