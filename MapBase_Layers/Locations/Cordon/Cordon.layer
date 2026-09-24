@@ -66050,6 +66050,11 @@ $grp GenericEntity : "{24366EAD043C8459}Prefabs/shelfs/tumba_1.et" {
  }
 }
 GenericEntity Binoculars_B8_6A56CB62AA272D75 : "{243948B23D90BECB}Prefabs/Items/Equipment/Binoculars/Binoculars_B8.et" {
+ components {
+  ARMST_ITEMS_STATS_COMPONENTS "{646863418F183F68}" {
+   Enabled 0
+  }
+ }
  editor EntityEditorProps "{6A650A8D915AA765}" {
   Color 1 0 0 1
  }
@@ -70526,13 +70531,6 @@ Tree : "{4A1B3CBF2D322CC1}Prefabs/Vegetation/Plant/Hedera_Helix/p_hedera_helix_b
  }
  coords 4060.439 3.594 842.97
  angles 0 0 -5.819
-}
-GenericEntity Magazine_762x54_SVD_10rnd_Tracer_6A56CB62E4DA3BB4 : "{4A3649DFF8A3F0E3}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Tracer.et" {
- editor EntityEditorProps "{6A650A8D915AA765}" {
-  Color 1 0 0 1
- }
- coords 5140.244 29.176 1213.57
- angles 0 0 90.4
 }
 GenericEntity : "{4A4B245D7CAC341B}Prefabs/Props/Furniture/ChairOld_02.et" {
  editor EntityEditorProps "{6A650A8D915AA765}" {
@@ -77954,18 +77952,6 @@ $grp ParticleEffectEntity : "{A9B17C22B4099625}Prefabs/Particles/Water/Waterfall
    Color 1 0 0 1
   }
   coords 5868.383 20 1611.065
- }
- {
-  editor EntityEditorProps "{6A650A8D915AA765}" {
-   Color 1 0 0 1
-  }
-  coords 5851.847 20 1518.978
- }
- {
-  editor EntityEditorProps "{6A650A8D915AA765}" {
-   Color 1 0 0 1
-  }
-  coords 5915.667 20.001 1536.614
  }
 }
 GenericEntity : "{A9C80E12E85F8808}Prefabs/posters/Poster_14.et" {
