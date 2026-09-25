@@ -2554,9 +2554,83 @@ GenericEntity : "{44A063D644836F95}Prefabs/Terrains/holms/holms_7.et" {
  coords 5565.039 32.061 2483.166
  angles 0 82.879 0
 }
-SCR_IndestructibleEnvironmentalEntity : "{450AAF1BC197F8C9}Prefabs/Rocks/Granite/Granite_Cluster_01.et" {
- coords 5029.185 -0 2961.865
- angles 0 0 37.954
+$grp SCR_IndestructibleEnvironmentalEntity : "{450AAF1BC197F8C9}Prefabs/Rocks/Granite/Granite_Cluster_01.et" {
+ {
+  coords 5029.185 -0 2961.865
+  angles 0 0 37.954
+ }
+ {
+  coords 5032.032 0 2958.598
+  angles 0 0 37.954
+ }
+ {
+  coords 5032.911 -0 2956.678
+  angles 0 0 37.954
+ }
+ {
+  coords 5033.972 0 2958.35
+  angles 0 0 37.954
+ }
+ {
+  coords 5031.546 -0 2953.076
+  angles 0 0 37.954
+ }
+ {
+  coords 5033.569 0 2953.618
+  angles 0 0 37.954
+ }
+ {
+  coords 5036.143 0 2953.574
+  angles 0 0 37.954
+ }
+ {
+  coords 5036.932 0 2959.477
+  angles 0 0 37.954
+ }
+ {
+  coords 5030.083 0 2959.009
+  angles 0 0 37.954
+ }
+ {
+  coords 5028.156 -0 2951.02
+  angles 0 0 37.954
+ }
+ {
+  coords 5038.492 0.065 2954.036
+  angles 0 0 29.174
+ }
+ {
+  coords 5038.208 0 2959.183
+  angles 0 0 37.954
+ }
+ {
+  coords 5037.867 0 2956.603
+  angles 0 0 32.472
+ }
+ {
+  coords 5039.885 -0 2953.265
+  angles 0 0 28.464
+ }
+ {
+  coords 5039.811 -0 2959.052
+  angles 0 0 26.867
+ }
+ {
+  coords 5041.257 -0 2953.202
+  angles 0 0 24.083
+ }
+ {
+  coords 5039.977 0 2956.594
+  angles 0 0 27.955
+ }
+ {
+  coords 5044.249 0 2953.509
+  angles 0 0 23.491
+ }
+ {
+  coords 5041.776 0 2961.233
+  angles 0 0 23.4
+ }
 }
 $grp Tree : "{45A5973AE6686EA1}Prefabs/Vegetation/Tree/t_betula_pendula/t_betula_pendula_2sd.et" {
  {
@@ -3023,6 +3097,10 @@ $grp Tree : "{5813D69492B979A3}Prefabs/Vegetation/Bush/b_corylus_avellana_2_aut.
  {
   coords 5023.659 -0 2980.94
   angles -14.882 72.972 4.497
+ }
+ {
+  coords 5103.829 0 2950.057
+  angles 0 0 -9.574
  }
 }
 GenericEntity : "{58F0C4BE4655101A}Prefabs/Compositions/Misc/SubCompositions/VehicleGarbage_TireStack_02.et" {
@@ -5478,9 +5556,39 @@ $grp GenericEntity : "{A5732C6073957A71}Prefabs/Vehicles/vaz2105/base/BASE_vaz21
   coords 5372.01 19.287 2721.085
  }
 }
-Tree : "{A5DE58FC9FB6BA60}Prefabs/Vegetation/Bush/b_corylus_avellana_2.et" {
- coords 5028.771 -0 2947.263
- angles 0 0 4.579
+$grp Tree : "{A5DE58FC9FB6BA60}Prefabs/Vegetation/Bush/b_corylus_avellana_2.et" {
+ {
+  coords 5028.771 -0 2947.263
+  angles 0 0 4.579
+ }
+ {
+  coords 5117.641 0 2970.312
+  angles 0 0 4.579
+ }
+ {
+  coords 5352.541 0.11 2709.84
+  angles 0 0 4.579
+ }
+ {
+  coords 5352.862 -0 2693.759
+  angles 0 0 4.579
+ }
+ {
+  coords 5364.737 0.036 2656.579
+  angles 0 0 4.579
+ }
+ {
+  coords 5364.08 0 2635.192
+  angles 0 0 4.579
+ }
+ {
+  coords 5420.082 0 2686.198
+  angles 0 0 4.579
+ }
+ {
+  coords 5402.742 0 2710.27
+  angles 0 0 4.579
+ }
 }
 SCR_DestructibleEntity : "{A6E51DE187119C1D}Prefabs/Structures/Walls/Brick/BrickWallOld_01/BrickWallOld_01_white_2m.et" {
  coords 5385.43 7.22 3101.006
@@ -6651,6 +6759,18 @@ $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" 
   coords 5038.672 0 2983.598
   angles -14.045 81.841 0
  }
+ {
+  coords 5119.899 -0 2975.436
+  angles 0 81.841 0
+ }
+ {
+  coords 5114.047 0 2964.591
+  angles 0 81.841 0
+ }
+ {
+  coords 5032.68 0.156 2984.132
+  angles -14.045 81.841 0
+ }
 }
 $grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
  {
@@ -7591,6 +7711,38 @@ $grp Tree : "{DFA6FDF75C211A07}Prefabs/Vegetation/Bush/Betula_Nana/b_betula_nana
  {
   coords 5047.116 -0 2948.84
   angles -8.425 39.697 0
+ }
+ {
+  coords 5119.101 -0.19 3056.298
+  angles 0 100.823 -10.302
+ }
+ {
+  coords 5111.785 0 3064.942
+  angles 0 100.823 0
+ }
+ {
+  coords 5111.75 -0 3067.609
+  angles 0 100.823 0
+ }
+ {
+  coords 5114.341 0 3063.7
+  angles 0 100.823 0
+ }
+ {
+  coords 5113.669 -0 3061.39
+  angles 0 100.823 0
+ }
+ {
+  coords 5111.813 -0 3062.902
+  angles 0 100.823 0
+ }
+ {
+  coords 5119.076 -0.135 3058.677
+  angles 0 100.823 -4.094
+ }
+ {
+  coords 5121.441 -0.235 3054.739
+  angles 0 100.823 0
  }
 }
 GenericEntity : "{DFAB2CF47A3CCD8F}Prefabs/chairs/kreslo.et" {
