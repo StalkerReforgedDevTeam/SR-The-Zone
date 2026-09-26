@@ -1556,6 +1556,112 @@ $grp PolylineShapeEntity {
    }
   }
  }
+ {
+  coords 5331.846 19.378 2877.277
+  Points {
+   ShapePoint "{6A74954CBDA5D0E3}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6A74954CBDA5E5C4}" {
+    Position -0.167 0.135 7.182
+   }
+   ShapePoint "{6A74954CB9C4E30E}" {
+    Position 24.254 -0.353 8.003
+   }
+   ShapePoint "{6A74954CA4F2C179}" {
+    Position 24.558 -0.841 -22.843
+   }
+   ShapePoint "{6A74954CA0583E61}" {
+    Position -0.082 -0.012 -22.62
+   }
+   ShapePoint "{6A74954CAF225F08}" {
+    Position 0.217 -0.104 -6.283
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{F16DA17D77523514}Prefabs/WEGenerators/Walls/Net/WG_NetFence_03.et" {
+    Flags 0x100003 0
+    m_iSeed 3589
+    {
+     $grp SCR_DestructibleEntity : "{168CE46092EAD301}PrefabLibrary/DefaultLibrary/Walls/Net/NetFence_03_4m.et" {
+      {
+       coords 0 -0 0
+       angles 0 -91.328 0
+      }
+      {
+       coords 24.392 -0.856 -16.055
+       angles 0 88.604 0
+      }
+      {
+       coords 4.527 -0.425 -22.517
+       angles 0 -181.271 0
+      }
+     }
+     SCR_DestructibleEntity : "{25E7C831EF87A0E1}PrefabLibrary/DefaultLibrary/Walls/Net/NetFence_03_Pole.et" {
+      coords 0.223 -0.104 -6.59
+      angles 0 -91.066 0
+     }
+     $grp SCR_DestructibleEntity : "{664176B900CE86B2}PrefabLibrary/DefaultLibrary/Walls/Net/NetFence_03_2m.et" {
+      {
+       coords -0.093 0.071 4.008
+       angles 0 -91.328 0
+      }
+      {
+       coords 24.49 -0.892 -20.064
+       angles 0 88.604 0
+      }
+     }
+     SCR_DestructibleEntity : "{C378176AB614B1FD}PrefabLibrary/DefaultLibrary/Walls/Net/NetFence_03_4m_D.et" {
+      coords 8.533 -0.622 -22.428
+      angles 0 -181.271 0
+     }
+     $grp SCR_DestructibleEntity : "{F717C1D3B6A27867}PrefabLibrary/DefaultLibrary/Walls/Net/NetFence_03_8m.et" {
+      {
+       coords -0.139 0.107 6.017
+       angles 0 -4.655 0
+      }
+      {
+       coords 7.843 -0.339 6.667
+       angles 0 -4.655 0
+      }
+      {
+       coords 15.825 -0.485 7.317
+       angles 0 -4.655 0
+      }
+      {
+       coords 23.807 -0.37 7.967
+       angles 0 88.604 0
+      }
+      {
+       coords 24.002 -0.46 -0.04
+       angles 0 88.604 0
+      }
+      {
+       coords 24.197 -0.648 -8.048
+       angles 0 88.604 0
+      }
+      {
+       coords 24.539 -0.854 -22.073
+       angles 0 -181.271 0
+      }
+      {
+       coords 16.536 -0.822 -22.251
+       angles 0 -181.271 0
+      }
+      {
+       coords 0.521 -0.085 -22.606
+       angles 0 -91.066 0
+      }
+      {
+       coords 0.372 -0.152 -14.598
+       angles 0 -91.066 0
+      }
+     }
+    }
+   }
+  }
+ }
 }
 $grp SplineShapeEntity {
  {
