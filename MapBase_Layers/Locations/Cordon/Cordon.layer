@@ -67211,12 +67211,21 @@ GenericEntity : "{317469E9E9F69A81}Prefabs/Props/Dst/Trolley.et" {
  }
  coords 5724.994 20 1201.136
 }
-SCR_DestructibleBuildingEntity : "{3177788C81331648}Prefabs/Industrial/builds/bitovka_wheels2.et" {
- editor EntityEditorProps "{6A650A8D915AA765}" {
-  Color 1 0 0 1
+$grp SCR_DestructibleBuildingEntity : "{3177788C81331648}Prefabs/Industrial/builds/bitovka_wheels2.et" {
+ {
+  editor EntityEditorProps "{6A650A8D915AA765}" {
+   Color 1 0 0 1
+  }
+  coords 5041.491 20 1749.511
+  angles 0 165.647 0
  }
- coords 5041.491 20 1749.511
- angles 0 165.647 0
+ {
+  editor EntityEditorProps "{6A650A8D915AA765}" {
+   Color 1 0 0 1
+  }
+  coords 5062.941 13.125 1766.309
+  angles 0 -62.13 0
+ }
 }
 SCR_DestructibleBuildingEntity : "{31E0A18F22C69FFF}Prefabs/Structures/Military/BigHescos1.et" {
  coords 6085.431 0 1365.781
@@ -67948,6 +67957,10 @@ $grp GenericEntity : "{399875DC824B6478}Prefabs/Vehicles/gaz24/armst_gaz24_2_wre
   }
   coords 5191.843 21.968 2342.654
   angles -66.432 0 0
+ }
+ {
+  coords 5064.813 13.125 1778.953
+  angles 0 -64.204 0
  }
 }
 GenericEntity : "{39FFC65E0B390094}Prefabs/Systems/DeployableRadios/DeployableItemTentReplacementUSSR.et" {
@@ -70269,6 +70282,10 @@ SCR_DestructibleBuildingEntity : "{405DF9951DEA124D}Prefabs/Structures/Houses/Mi
  }
  coords 5088.217 0.194 516.194
  angles 0 48.022 0
+}
+GenericEntity : "{41585E73D5DB3209}Prefabs/Vehicles/kamaz/armst_kamaz_blue_wreck.et" {
+ coords 5066.455 20.004 1764.293
+ angles 0 -147.451 0
 }
 $grp GenericEntity : "{4176B677A9F9A7E8}Prefabs/Compositions/Misc/SubCompositions/VehicleGarbagePile_04.et" {
  {
@@ -74977,12 +74994,18 @@ Tree : "{8C68F90FC0B167D7}Prefabs/Vegetation/Tree/t_betula_pendula/t_betula_pend
  }
  coords 5045.347 0 1747.483
 }
-GenericEntity : "{8C8516E96B5173D8}Prefabs/Vehicles/gaz66/armst_gaz66_wreck_box.et" {
- editor EntityEditorProps "{6A650A8D915AA765}" {
-  Color 1 0 0 1
+$grp GenericEntity : "{8C8516E96B5173D8}Prefabs/Vehicles/gaz66/armst_gaz66_wreck_box.et" {
+ {
+  editor EntityEditorProps "{6A650A8D915AA765}" {
+   Color 1 0 0 1
+  }
+  coords 5131.306 20 1194.674
+  angles 0 -178.95 0
  }
- coords 5131.306 20 1194.674
- angles 0 -178.95 0
+ {
+  coords 5066.846 20.004 1776.764
+  angles 0 31.268 0
+ }
 }
 GenericEntity : "{8D00B5D8C8113FCD}Prefabs/Vehicles/zil131/armst_zil131_bigbox_green.et" {
  coords 5234.084 20.344 2444.182
