@@ -51,7 +51,7 @@ GenericWorldEntity world {
    Enabled 1
    WeatherStateMachine "{145430BBF1620448}TerrainsNEW/Common/WeatherPresets/StateMachine/Actual_weather/WeatherStates.conf"
    "UTC TimeZone" -2.5
-   "Initial Day Time" 3.595
+   "Initial Day Time" 5.468
    "Internal variant transition" 0
    "Internal subvariant 0" 0
    "Internal subvariant 1" 0
@@ -16389,6 +16389,44 @@ GenericWorldPPEffect {
     Priority 19
     Material "{BA5DE2A5962C178C}Common/Postprocess/NightNoise.emat"
    }
+  }
+ }
+}
+PolylineShapeEntity {
+ coords 6581.889 30.361 5133.668
+ Points {
+  ShapePoint "{6A5A4B81E19FFA26}" {
+   Position 0.196 0.035 7.281
+  }
+  ShapePoint "{6A5A4B81E19FA75D}" {
+   Position -3.472 0.057 -5.734
+  }
+  ShapePoint "{6A5A4B81FD4659B9}" {
+   Position 9.576 1.243 -7.854
+  }
+  ShapePoint "{6A5A4B81F69F5CDA}" {
+   Position 34.825 0.334 -4.061
+  }
+  ShapePoint "{6A5A4B81F7BC36A2}" {
+   Position 62.092 0.998 20.481
+  }
+  ShapePoint "{6A5A4B81F195DC4A}" {
+   Position 50.998 -0.207 30.457
+  }
+  ShapePoint "{6A5A4B81F28DBC83}" {
+   Position 30.212 1.832 12.658
+  }
+  ShapePoint "{6A5A4B81F3E4A3E8}" {
+   Position 19.501 0.803 6.883
+  }
+  ShapePoint "{6A5A4B81F32D6E5E}" {
+   Position 7.853 1.25 7.521
+  }
+ }
+ IsClosed 1
+ {
+  LakeGeneratorEntity : "{0263A3344F9DCAAD}Prefabs/WEGenerators/Water/Lake/LG_DirtyDrainage_01.et" {
+   coords 0 0 0
   }
  }
 }

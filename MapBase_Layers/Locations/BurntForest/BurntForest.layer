@@ -7074,6 +7074,15 @@ SplineShapeEntity {
   }
  }
 }
+SCR_DestructibleBuildingEntity : "{04525213B59D7755}Prefabs/Houses/villages/village_stone_house_base_7_filled.et" {
+ coords 3620.409 20.938 2377.644
+ angles 0 90.057 0
+ {
+  GenericEntity armst_itm_food_bottle_vodka_1_6A786E0D49DC69E8 {
+   ID "66CB4A4BA8607474"
+  }
+ }
+}
 SCR_DestructibleBuildingEntity : "{06804C659EF7C47D}Prefabs/Structures/Infrastructure/Power/TransformerStation_E_01/TransformerStation_E_01.et" {
  Flags 0 0x80000
  coords 3294.74 20 2661.038
@@ -7095,6 +7104,10 @@ GenericEntity : "{1732BF9B212910E8}Prefabs/Structures/Commerical/Busstop Roofing
  Flags 0 0x80000
  coords 3269.941 18.362 2713.512
  angles 0 -86.987 0
+}
+SCR_DestructibleBuildingEntity : "{182A0B12F5C29AE9}Prefabs/Houses/villages/village_wooden_house_base_3.et" {
+ coords 3655.855 20.29 2398.393
+ angles 0 -179.696 0
 }
 $grp SCR_DestructibleBuildingEntity : "{1E1FF3AE13CDC15D}Prefabs/Structures/Walls/Concrete/ConcreteRetainingWall_01/ConcreteRetainingWall_01_Corner.et" {
  {
@@ -7140,6 +7153,40 @@ $grp SCR_DestructibleBuildingEntity : "{1E1FF3AE13CDC15D}Prefabs/Structures/Wall
   scale 2.4
  }
 }
+SCR_DestructibleBuildingEntity : "{22EEA8D7D13438B5}Prefabs/Structures/Veiculos/DirtyCar.et" {
+ coords 3437.945 -0.001 2327.76
+ angles -0.377 136.654 2.696
+}
+SCR_DestructibleBuildingEntity : "{284A7F21D3B7430F}Prefabs/Structures/Commerical/RadioStation.et" {
+ coords 3704.606 0 2825.851
+ angles 0 93.55 0
+}
+GenericEntity : "{28C4CBADCD6EF576}Prefabs/Vehicles/vaz2109/armst_vaz2109_red_wreck.et" {
+ coords 3713.279 40 2795.198
+ angles 0 2.658 0
+ {
+  GenericEntity {
+   ID "62F50D3559C4040A"
+   coords -0.811 -0.067 1.689
+  }
+  GenericEntity {
+   ID "62F50D3559C59C08"
+   coords 0.821 -0.067 -1.211
+  }
+  GenericEntity {
+   ID "62F50D3559C5AA89"
+   coords -0.811 -0.067 -1.211
+  }
+  GenericEntity {
+   ID "62F50D3559C5AA8F"
+   coords 0.821 -0.067 1.689
+  }
+  GenericEntity {
+   ID "662E8AF0F8E6017F"
+   coords 0.152 0.602 2.052
+  }
+ }
+}
 StaticModelEntity : "{35E14C4C60C4A4F3}Prefabs/Structures/Agriculture/WeightStation/WeightStation_01/BuildingAddons/WeightStation_01_platform.et" {
  Flags 0 0x80000
  coords 3269.25 20 2711.4
@@ -7171,9 +7218,83 @@ $grp SCR_DestructibleBuildingEntity : "{3DC7F223D21B932C}Prefabs/Structures/Infr
   scale 2
  }
 }
+SCR_DestructibleBuildingEntity : "{45E53C8D7E30FB5F}Prefabs/Vehicles/azlk412/armst_azlk412_wreck.et" {
+ coords 3700.864 40 2796.204
+ angles 0 -2.508 0
+ {
+  GenericEntity {
+   ID "663473505AD2A326"
+   coords 0.309 0.762 1.984
+  }
+ }
+}
 StaticModelEntity : "{4DE187A3508D5A46}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_small_base.et" {
  Flags 0 0x80000
  coords 3241.273 23 2542.426
+}
+GameEntity : "{5EC10C92B8C82E69}Prefabs/Method/Props/Camps/Fireplace_Loiters_03.et" {
+ coords 3723.421 40 2808.067
+ angles 0 -21.627 0
+}
+SCR_DestructibleBuildingEntity : "{6D906A66DD727392}Prefabs/Houses/villages/village_stone_house_base_6_live.et" {
+ coords 3661.583 20.22 2420.436
+ angles 0 92.9 0
+}
+GenericEntity : "{73314E7C8FFC5B1C}Prefabs/Vehicles/gaz24/armst_gaz24_1_wreck.et" {
+ coords 3704.022 40 2796.048
+ angles 0 -6.139 0
+ {
+  GenericEntity {
+   ID "62C2833E1619B8CE"
+   coords 0.879 -0.071 1.58
+  }
+  GenericEntity {
+   ID "62C2833E1619B8D1"
+   coords -0.867 -0.071 -1.417
+  }
+  GenericEntity {
+   ID "662E8AF25F2CC297"
+   coords 0.179 0.711 2.636
+  }
+  GenericEntity {
+   ID "62C2833E1619B8E5"
+   coords 1.155 -0.039 -1.419
+  }
+ }
+}
+SCR_DestructibleBuildingEntity : "{8C060E332CFDBF79}Prefabs/Vehicles/azlk412/armst_azlk412_1_wreck.et" {
+ coords 3706.716 40 2796.145
+ angles 0 -6.139 0
+ {
+  GenericEntity {
+   ID "628F4218CFA7BCA8"
+   coords 1.012 -0.079 -1.548
+  }
+  GenericEntity {
+   ID "628F4218CFA7BCD0"
+   coords -0.504 -0.079 1.12
+  }
+  GenericEntity {
+   ID "628F4218CFA7BCDC"
+   coords -0.675 -0.079 -1.58
+  }
+  GenericEntity {
+   ID "628F4218CFA7BCF5"
+   coords 1.051 -0.079 1.112
+  }
+  GenericEntity {
+   ID "662E8AF28A4BB229"
+   coords 0.164 0.882 -1.779
+  }
+  GenericEntity {
+   ID "662E8AF28A4BB24A"
+   coords 0.104 0.739 2.096
+  }
+  GenericEntity {
+   ID "662E8AF2C420BE2E"
+   coords 0.152 0.641 2.069
+  }
+ }
 }
 $grp StaticModelEntity : "{94021BCA593A8CFF}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Wide.et" {
  {
@@ -7184,6 +7305,10 @@ $grp StaticModelEntity : "{94021BCA593A8CFF}Prefabs/Structures/BuildingParts/Ent
   Flags 0 0x80000
   coords 3276.347 23.035 2602.391
  }
+}
+GameEntity : "{9D922A33737B5C18}Prefabs/Method/Props/Camps/Fireplace_Loiters_Burned house_01.et" {
+ coords 3374.72 20.155 2328.137
+ angles 0 -26.469 0
 }
 $grp SCR_DestructibleBuildingEntity : "{A54F6416C3A6A4D7}Prefabs/Structures/Infrastructure/Power/TransformerSubstation_01/TransformerSubstation_01.et" {
  {
@@ -7216,6 +7341,16 @@ SCR_PowerPole : "{A6A8404C7705AA28}Prefabs/Structures/Infrastructure/Power/Trans
   }
  }
 }
+$grp SCR_DestructibleBuildingEntity : "{B2F1FA2F059A8D2B}Prefabs/Structures/Industrial/Shed with Concrete Wall.et" {
+ {
+  coords 3765.624 0 2812.91
+  angles 0 -179.581 0
+ }
+ {
+  coords 3765.811 -0.007 2838.461
+  angles 0 -179.581 0
+ }
+}
 $grp SCR_DestructibleBuildingEntity : "{B461AC17AE9B29EF}Prefabs/Structures/Agriculture/WeightStation/WeightStation_01/WeightStation_01.et" {
  {
   Flags 0 0x80000
@@ -7227,6 +7362,20 @@ $grp SCR_DestructibleBuildingEntity : "{B461AC17AE9B29EF}Prefabs/Structures/Agri
   coords 3256.517 20.099 2712.24
   angles 0 2.046 0
  }
+}
+$grp StaticModelEntity : "{DBCDEC45DB834E8A}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01.et" {
+ {
+  coords 3729.496 40.022 2824.859
+  angles 0 95.498 0
+ }
+ {
+  coords 3740.571 40.022 2823.777
+  angles 0 94.501 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{DC1E102B809EB8C1}Prefabs/Houses/villages/village_stone_house_base_6_filled.et" {
+ coords 3617.761 20.147 2429.287
+ angles 0 -179.956 0
 }
 $grp SCR_DestructibleBuildingEntity : "{E2FD1CBCB7FD5A9F}Prefabs/Structures/Construcoes_Ruinas/metaltower_eletric.et" {
  {
@@ -7364,6 +7513,32 @@ $grp SCR_DestructibleEntity : "{F37DCE92787A8557}Prefabs/Structures/Infrastructu
   Flags 0 0x80000
   coords 3267.867 23 2467.513
   angles 0 -1.831 0
+ }
+}
+GenericEntity : "{F739B7EF1DAE4134}Prefabs/Vehicles/vaz2109/armst_vaz2109_green_wreck.et" {
+ coords 3710.349 40 2795.382
+ angles 0 10.596 0
+ {
+  GenericEntity {
+   ID "661C685B7C9B4A8C"
+   coords 0.821 -0.067 1.689
+  }
+  GenericEntity {
+   ID "661C685B7C9B4A8E"
+   coords -0.811 -0.067 1.689
+  }
+  GenericEntity {
+   ID "661C685B7C9B69E8"
+   coords -0.811 -0.067 -1.211
+  }
+  GenericEntity {
+   ID "661C685B7C9B92D1"
+   coords 0.821 -0.067 -1.211
+  }
+  GenericEntity {
+   ID "662E8AF0EC29C2F4"
+   coords 0.223 0.602 1.992
+  }
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{F885365EEA3AD315}Prefabs/Structures/Walls/Concrete/ConcreteRetainingWall_01/ConcreteRetainingWall_01_End.et" {
