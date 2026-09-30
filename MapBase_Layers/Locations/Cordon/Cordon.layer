@@ -66359,13 +66359,6 @@ GenericEntity : "{2BF58454BEAB913E}Prefabs/Props/Industrial/Pallets/WoodenPallet
 GenericEntity armst_itm_money_100rub_6A6542844940F1ED : "{2BFAE99AC771DF8E}Prefabs/Items/Moneys/armst_itm_money_100rub.et" {
  coords 6175.464 40.175 1342.13
 }
-SCR_DestructibleEntity : "{2CA940B210EDA36E}Prefabs/Structures/Walls/BarbedWire/NetFence_USSR_01/NetFence_USSR_01_6m_V2.et" {
- editor EntityEditorProps "{6A650A8D915AA765}" {
-  Color 1 0 0 1
- }
- coords 4068.889 0 960.75
- angles 0 -180 0
-}
 $grp Tree : "{2ED50A8AD68FBA5E}PrefabLibrary/CainLibrary/Vegetation/Bushes/b_corylus_avellana_1l_aut.et" {
  {
   editor EntityEditorProps "{6A650A8D915AA765}" {
@@ -83971,22 +83964,6 @@ $grp Tree : "{EEDE2D0B5A4C68CB}Prefabs/Vegetation/Tree/t_alnus_glutinosa/t_alnus
    Color 1 0 0 1
   }
   coords 5019.787 0 1705.434
- }
-}
-$grp SCR_DestructibleBuildingEntity : "{EF5AD81E6FECDE0F}Prefabs/Structures/Military/Houses/Barracks_01/Barracks_USSR_01_medical.et" {
- {
-  editor EntityEditorProps "{6A650A8D915AA765}" {
-   Color 1 0 0 1
-  }
-  coords 5237.293 0 652.594
-  angles 0 89.799 0
- }
- {
-  editor EntityEditorProps "{6A650A8D915AA765}" {
-   Color 1 0 0 1
-  }
-  coords 5235.058 0 675.038
-  angles 0 87.963 0
  }
 }
 $grp Tree : "{F00023B339B79DD4}Prefabs/Vegetation/Bush/b_salix_cinerea_0_aut.et" {
