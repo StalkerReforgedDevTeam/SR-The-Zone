@@ -3,39 +3,39 @@ MetaFileClass {
  Configurations {
   FBXResourceClass PC {
    MaterialAssigns {
-    MaterialAssignClass "{6A7D4BAB6340F210}" {
-     SourceMaterial "DefaultGeneratedMaterial"
-     AssignedMaterial "{33EB7340ACFEFB1F}Cartographer Assets/Agroprom Assets/Data/DefaultGeneratedMaterial.emat"
+    MaterialAssignClass "{6A7D4BA49C0E7150}" {
+     SourceMaterial "Concrete"
+     AssignedMaterial "{C92B214F80F32278}Cartographer Assets/Agroprom Assets/Data/Concrete.emat"
     }
    }
    MeshParams {
     MeshParam "WallBay_Exact_03.001" {
     }
    }
-   Common TXOCommonClass "{6A7D4BAB65137809}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   Common TXOCommonClass "{6A7D4BA496E31F57}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
    }
    ApplicationVendor "Blender Foundation"
    ApplicationName "Blender (stable FBX IO)"
    ApplicationVersion "4.5.14 LTS"
   }
   FBXResourceClass XBOX_ONE : PC {
-   Common TXOCommonClass "{6A7D4BAB65137981}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   Common TXOCommonClass "{6A7D4BA496E31CBB}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
    }
   }
   FBXResourceClass XBOX_SERIES : PC {
-   Common TXOCommonClass "{6A7D4BAB65137962}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   Common TXOCommonClass "{6A7D4BA496E31C98}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
    }
   }
   FBXResourceClass PS4 : PC {
-   Common TXOCommonClass "{6A7D4BAB651376C4}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   Common TXOCommonClass "{6A7D4BA496E31DF8}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
    }
   }
   FBXResourceClass PS5 : PC {
-   Common TXOCommonClass "{6A7D4BAB651376AD}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   Common TXOCommonClass "{6A7D4BA496E31DDD}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
    }
   }
   FBXResourceClass HEADLESS : PC {
-   Common TXOCommonClass "{6A7D4BAB651376B8}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   Common TXOCommonClass "{6A7D4BA496E31DA0}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
    }
   }
  }
