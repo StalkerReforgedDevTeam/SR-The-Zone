@@ -1,0 +1,64 @@
+$object "" {
+ #version 1.0
+ #tag MergeMeshes "1"
+ #tag Coords "XZY"
+ #tag Scale "1.000000"
+ #tag SrcFile_AppVendor "Blender Foundation"
+ #tag SrcFile_AppName "Blender (stable FBX IO)"
+ #tag SrcFile_AppVersion "4.5.14 LTS"
+ $materials {
+  $material "DefaultGeneratedMaterial" {
+   #UVset 0
+  }
+ }
+ $lod 0 {
+  #lodFactor 0.5
+  $mesh "Spiral_TopLanding.001" {
+   #texCoords 2
+   $faces {
+     0 8 0 1 2 3 4 5 6 7
+   }
+   $faceVerts {
+     6 0 0 1
+     0 0 2 3
+     1 0 4 5
+     2 0 6 7
+     3 0 8 9
+     4 0 10 11
+     7 0 12 13
+     5 0 14 15
+   }
+   $verts {
+     108.568321 0 -0.534908 0
+     109.324791 -0 1.291378 0
+     109.771698 -0 1.033352 0
+     110.136589 -0 0.668461 0
+     110.3946 -0 0.221561 0
+     110.528168 0 -0.792931 0
+     110.394608 0 -1.291378 0
+     110.528168 0 -0.27689 0
+   }
+   $texCoords {
+     2.43874 0.33121
+     0.70657 0.9987
+     0.61245 -0.42526
+     0.0013 0.70657
+     1.36892 -2.25155
+     0.29343 0.0013
+     1.81583 -1.99352
+     0.46602 0.10095
+     2.18072 -1.62863
+     0.60693 0.24186
+     2.43873 -1.18173
+     0.70656 0.41444
+     2.5723 -0.68328
+     0.75815 0.60693
+     2.5723 -0.16724
+     0.75815 0.80621
+   }
+   $normals {
+     0 1 0
+   }
+  }
+ }
+}

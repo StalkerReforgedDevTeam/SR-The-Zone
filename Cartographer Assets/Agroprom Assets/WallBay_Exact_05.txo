@@ -1,0 +1,48 @@
+$object "" {
+ #version 1.0
+ #tag MergeMeshes "1"
+ #tag Coords "XZY"
+ #tag Scale "1.000000"
+ #tag SrcFile_AppVendor "Blender Foundation"
+ #tag SrcFile_AppName "Blender (stable FBX IO)"
+ #tag SrcFile_AppVersion "4.5.14 LTS"
+ $materials {
+  $material "DefaultGeneratedMaterial" {
+   #UVset 0
+  }
+ }
+ $lod 0 {
+  #lodFactor 0.5
+  $mesh "WallBay_Exact_05.001" {
+   #texCoords 2
+   $faces {
+     0 4 0 1 2 3
+   }
+   $faceVerts {
+     1 0 0 1
+     0 0 2 3
+     2 0 4 5
+     3 0 6 7
+   }
+   $verts {
+     99.918724 0.001362 44.999886 0
+     103.17775 0 45.000023 0
+     99.918739 2.208736 45.000252 0
+     103.17775 2.208736 45.000114 0
+   }
+   $texCoords {
+     3.62951 0.10471
+     0.99877 0.99877
+     0.37048 0.10335
+     0.00123 0.99835
+     0.3705 -2.10403
+     0.00124 0.32271
+     3.62951 -2.10403
+     0.99877 0.32271
+   }
+   $normals {
+     0 0.0001 -1
+   }
+  }
+ }
+}
