@@ -3,7 +3,7 @@ MetaFileClass {
  Configurations {
   FBXResourceClass PC {
    MaterialAssigns {
-    MaterialAssignClass "{6A7D4BA49DE2ABE2}" {
+    MaterialAssignClass "{6A7D4BA66F3642D9}" {
      SourceMaterial "Concrete"
      AssignedMaterial "{C92B214F80F32278}Cartographer Assets/Agroprom Assets/Data/Concrete.emat"
     }
@@ -21,30 +21,30 @@ MetaFileClass {
      Margin 0
     }
    }
-   Common TXOCommonClass "{6A7D4BA496EE1E63}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   Common TXOCommonClass "{6A7D4BA679E36477}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
    }
    ApplicationVendor "Blender Foundation"
    ApplicationName "Blender (stable FBX IO)"
    ApplicationVersion "4.5.14 LTS"
   }
   FBXResourceClass XBOX_ONE : PC {
-   Common TXOCommonClass "{6A7D4BA496EE1F64}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   Common TXOCommonClass "{6A7D4BA679E365FB}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
    }
   }
   FBXResourceClass XBOX_SERIES : PC {
-   Common TXOCommonClass "{6A7D4BA496EE1F41}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   Common TXOCommonClass "{6A7D4BA679E365DD}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
    }
   }
   FBXResourceClass PS4 : PC {
-   Common TXOCommonClass "{6A7D4BA496EE1F26}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   Common TXOCommonClass "{6A7D4BA679E365A2}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
    }
   }
   FBXResourceClass PS5 : PC {
-   Common TXOCommonClass "{6A7D4BA496EE1F0F}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   Common TXOCommonClass "{6A7D4BA679E36586}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
    }
   }
   FBXResourceClass HEADLESS : PC {
-   Common TXOCommonClass "{6A7D4BA496EE1F17}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   Common TXOCommonClass "{6A7D4BA679E3656E}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
    }
   }
  }
