@@ -116,41 +116,261 @@ GenericWorldPPEffect {
   }
  }
 }
-PolylineShapeEntity {
- coords 6581.889 30.361 5133.668
- Points {
-  ShapePoint "{6A5A4B81E19FFA26}" {
-   Position 0.196 0.035 7.281
+$grp PolylineShapeEntity {
+ {
+  coords 6581.889 30.361 5133.668
+  Points {
+   ShapePoint "{6A5A4B81E19FFA26}" {
+    Position 0.196 0.035 7.281
+   }
+   ShapePoint "{6A5A4B81E19FA75D}" {
+    Position -3.472 0.057 -5.734
+   }
+   ShapePoint "{6A5A4B81FD4659B9}" {
+    Position 9.576 1.243 -7.854
+   }
+   ShapePoint "{6A5A4B81F69F5CDA}" {
+    Position 34.825 0.334 -4.061
+   }
+   ShapePoint "{6A5A4B81F7BC36A2}" {
+    Position 62.092 0.998 20.481
+   }
+   ShapePoint "{6A5A4B81F195DC4A}" {
+    Position 50.998 -0.207 30.457
+   }
+   ShapePoint "{6A5A4B81F28DBC83}" {
+    Position 30.212 1.832 12.658
+   }
+   ShapePoint "{6A5A4B81F3E4A3E8}" {
+    Position 19.501 0.803 6.883
+   }
+   ShapePoint "{6A5A4B81F32D6E5E}" {
+    Position 7.853 1.25 7.521
+   }
   }
-  ShapePoint "{6A5A4B81E19FA75D}" {
-   Position -3.472 0.057 -5.734
-  }
-  ShapePoint "{6A5A4B81FD4659B9}" {
-   Position 9.576 1.243 -7.854
-  }
-  ShapePoint "{6A5A4B81F69F5CDA}" {
-   Position 34.825 0.334 -4.061
-  }
-  ShapePoint "{6A5A4B81F7BC36A2}" {
-   Position 62.092 0.998 20.481
-  }
-  ShapePoint "{6A5A4B81F195DC4A}" {
-   Position 50.998 -0.207 30.457
-  }
-  ShapePoint "{6A5A4B81F28DBC83}" {
-   Position 30.212 1.832 12.658
-  }
-  ShapePoint "{6A5A4B81F3E4A3E8}" {
-   Position 19.501 0.803 6.883
-  }
-  ShapePoint "{6A5A4B81F32D6E5E}" {
-   Position 7.853 1.25 7.521
+  IsClosed 1
+  {
+   LakeGeneratorEntity : "{0263A3344F9DCAAD}Prefabs/WEGenerators/Water/Lake/LG_DirtyDrainage_01.et" {
+    coords 0 0 0
+   }
   }
  }
- IsClosed 1
  {
-  LakeGeneratorEntity : "{0263A3344F9DCAAD}Prefabs/WEGenerators/Water/Lake/LG_DirtyDrainage_01.et" {
-   coords 0 0 0
+  coords 5446.069 31 2217.274
+  Points {
+   ShapePoint "{6A72DDE43E8F2E17}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6A72DDE43E8F5717}" {
+    Position -8.784 0 0.143
+   }
+   ShapePoint "{6A72DDE439347F65}" {
+    Position -10.042 -3.656 75.294
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{25A2E591AC54EF71}Prefabs/WEGenerators/Walls/Metal/WG_TinWall_01_rusty.et" {
+    Flags 0x100003 0
+    coords 0 0 0
+    m_iSeed 26646
+    {
+     $grp SCR_DestructibleEntity : "{0C1D044EBE92ADBF}Prefabs/Structures/Walls/Metal/TinWall_01_rusty/TinWall_01_6m_A_rusty.et" {
+      {
+       coords -8.969 0 0.108
+       angles 0 -90.817 0
+      }
+      {
+       coords -9.31 0 23.994
+       angles 0 -90.817 0
+      }
+      {
+       coords -9.481 0 35.937
+       angles 0 -90.817 1.682
+      }
+      {
+       coords -9.906 -3.446 65.795
+       angles 0 -90.817 0
+      }
+     }
+     $grp SCR_DestructibleEntity : "{4CED256B088E2FF8}Prefabs/Structures/Walls/Metal/TinWall_01_rusty/TinWall_01_6m_B_rusty.et" {
+      {
+       coords 0.038 0 -0.001
+       angles 0 -179.068 0
+      }
+      {
+       coords -9.225 0 18.023
+       angles 0 -90.817 0
+      }
+      {
+       coords -9.395 0 29.966
+       angles 0 -90.817 0
+      }
+      {
+       coords -9.566 -0.262 41.909
+       angles 0 -90.817 1.6
+      }
+     }
+     $grp SCR_DestructibleEntity : "{B2ED652EFDDC43B4}Prefabs/Structures/Walls/Metal/TinWall_01_rusty/TinWall_01_6m_C_rusty.et" {
+      {
+       coords -9.055 0 6.079
+       angles 0 -90.817 0
+      }
+      {
+       coords -9.14 0 12.051
+       angles 0 -90.817 0
+      }
+      {
+       coords -9.651 -0.927 47.88
+       angles 0 -90.817 0.682
+      }
+      {
+       coords -9.736 -1.566 53.852
+       angles 0 -90.817 1.787
+      }
+      {
+       coords -9.821 -2.537 59.823
+       angles 0 -90.817 -0.564
+      }
+     }
+     SCR_DestructibleEntity : "{B8AE0A0E4A79C2B2}Prefabs/Structures/Walls/Metal/TinWall_01_rusty/TinWall_01_6m_Pole_rusty.et" {
+      coords -10.034 -3.656 74.751
+      angles 0 -90.817 0
+     }
+     $grp SCR_DestructibleEntity : "{D34F3DD5D61E2F71}Prefabs/Structures/Walls/Metal/TinWall_01_rusty/TinWall_01_3m_rusty.et" {
+      {
+       coords -5.94 0 0.097
+       angles 0 -179.068 0
+      }
+      {
+       coords -9.992 -3.656 71.766
+       angles 0 -90.817 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 5483.748 31 2217.124
+  Points {
+   ShapePoint "{6A72DDE41B319BD7}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6A72DDE41B31AFFA}" {
+    Position 6.967 0 -0.123
+   }
+   ShapePoint "{6A72DDE406E79794}" {
+    Position 6.843 0 30.281
+   }
+   ShapePoint "{6A72DDE4039C4152}" {
+    Position -24.308 0 30.133
+   }
+   ShapePoint "{6A72DDE40B30D229}" {
+    Position -25.762 -3.875 74.489
+   }
+   ShapePoint "{6A72DDE40990E7D7}" {
+    Position -32.716 -3.656 74.718
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{25A2E591AC54EF71}Prefabs/WEGenerators/Walls/Metal/WG_TinWall_01_rusty.et" {
+    Flags 0x100003 0
+    m_iSeed 8256
+    {
+     $grp SCR_DestructibleEntity : "{0C1D044EBE92ADBF}Prefabs/Structures/Walls/Metal/TinWall_01_rusty/TinWall_01_6m_A_rusty.et" {
+      {
+       coords 5.977 0 -0.143
+       angles 0 -88.37 0
+      }
+      {
+       coords 6.487 0 17.787
+       angles 0 -88.37 0
+      }
+      {
+       coords -24.147 -1.4 47.918
+       angles 0 -93.477 1.289
+      }
+      {
+       coords -24.87 -3.111 59.809
+       angles 0 -93.477 1.93
+      }
+      {
+       coords -25.231 -3.83 65.755
+       angles 0 -93.477 0
+      }
+     }
+     $grp SCR_DestructibleEntity : "{4CED256B088E2FF8}Prefabs/Structures/Walls/Metal/TinWall_01_rusty/TinWall_01_6m_B_rusty.et" {
+      {
+       coords 6.147 0 5.834
+       angles 0 -88.37 0
+      }
+      {
+       coords 6.866 0 29.778
+       angles 0 -179.348 0
+      }
+      {
+       coords 0.888 0 29.846
+       angles 0 -179.348 0
+      }
+      {
+       coords -5.091 0 29.914
+       angles 0 -179.348 0
+      }
+      {
+       coords -25.737 -3.894 74.713
+       angles 0 -179.963 0
+      }
+     }
+     $grp SCR_DestructibleEntity : "{B2ED652EFDDC43B4}Prefabs/Structures/Walls/Metal/TinWall_01_rusty/TinWall_01_6m_C_rusty.et" {
+      {
+       coords -0.038 0 0.001
+       angles 0 1.008 0
+      }
+      {
+       coords 6.317 0 11.81
+       angles 0 -88.37 0
+      }
+      {
+       coords 6.657 0 23.764
+       angles 0 -88.37 0
+      }
+      {
+       coords -11.07 0 29.982
+       angles 0 -179.348 0
+      }
+      {
+       coords -17.049 0 30.05
+       angles 0 -179.348 0
+      }
+      {
+       coords -23.064 0 30.081
+       angles 0 -93.477 0
+      }
+      {
+       coords -23.425 -0.059 36.027
+       angles 0 -93.477 1.654
+      }
+      {
+       coords -23.786 -0.602 41.972
+       angles 0 -93.477 1.642
+      }
+      {
+       coords -24.509 -2.252 53.864
+       angles 0 -93.477 1.334
+      }
+     }
+     SCR_DestructibleEntity : "{B8AE0A0E4A79C2B2}Prefabs/Structures/Walls/Metal/TinWall_01_rusty/TinWall_01_6m_Pole_rusty.et" {
+      coords -31.708 -3.656 74.717
+      angles 0 -179.963 0
+     }
+     SCR_DestructibleEntity : "{D34F3DD5D61E2F71}Prefabs/Structures/Walls/Metal/TinWall_01_rusty/TinWall_01_3m_rusty.et" {
+      coords -25.592 -3.702 71.7
+      angles 0 -93.477 0
+     }
+    }
+   }
   }
  }
 }
@@ -52220,7 +52440,7 @@ $grp SplineShapeEntity {
   coords 3429.299 14.2 1347.246
   Points {
    ShapePoint "{6A821527CCC82B93}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{6A821527CCC7E103}" {
     Position 1.589 0.8 -13.054
@@ -52267,7 +52487,7 @@ $grp SplineShapeEntity {
   coords 3923.544 15 1519.478
   Points {
    ShapePoint "{6A821514C5FA55B8}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{6A821514C5F9C366}" {
     Position 9.043 -1.246 -1.93
@@ -52285,7 +52505,7 @@ $grp SplineShapeEntity {
     Position 96.503 0.001 69.545
    }
    ShapePoint "{6A821514C7446785}" {
-    Position 78.878 -0 80.153
+    Position 78.878 0 80.153
    }
    ShapePoint "{6A821514C08FC171}" {
     Position 58.587 -0.385 74.794
@@ -52300,7 +52520,7 @@ $grp SplineShapeEntity {
     Position -5.362 0 42.302
    }
    ShapePoint "{6A821514C1B74DD9}" {
-    Position -10.22 -0 9.991
+    Position -10.22 0 9.991
    }
    ShapePoint "{6A821514C1FB8654}" {
     Position -4.039 0 2.783
@@ -52355,7 +52575,7 @@ $grp SplineShapeEntity {
     Position 10.173 -0.874 33.404
    }
    ShapePoint "{6A821514EE1CA6A4}" {
-    Position 2.482 -0 14.956
+    Position 2.482 0 14.956
    }
    ShapePoint "{6A821514EE548B0D}" {
     Position -0.432 0 6.92
