@@ -170,6 +170,36 @@ $grp GenericEntity {
   coords 3528.447 18.631 1392.583
   angles -0.705 -2.638 -179.676
  }
+ {
+  components {
+   MeshObject "{6A35715CD6D20BC5}" {
+    Object "{D0465A56069AF2FC}Assets/Structures/Debris/DebrisPiles_HouseVillage/DebrisPile_HouseVillage_01_Large.xob"
+   }
+  }
+  coords 5176.173 37.421 2997.77
+  angles -17.765 0.028 6.203
+  scale 0.911
+ }
+ {
+  components {
+   MeshObject "{6A35715CD6D20BC5}" {
+    Object "{D0465A56069AF2FC}Assets/Structures/Debris/DebrisPiles_HouseVillage/DebrisPile_HouseVillage_01_Large.xob"
+   }
+  }
+  coords 3864.906 23.503 1770.609
+  angles -17.765 0.028 6.203
+  scale 2.937
+ }
+ {
+  components {
+   MeshObject "{6A35715CD6D20BC5}" {
+    Object "{D0465A56069AF2FC}Assets/Structures/Debris/DebrisPiles_HouseVillage/DebrisPile_HouseVillage_01_Large.xob"
+   }
+  }
+  coords 3835.069 23.139 1781.466
+  angles -23.54 -0.656 2.878
+  scale 2.937
+ }
 }
 $grp GenericEntity : "{0A87B5B82979BC0A}Prefabs/Structures/BuildingParts/Misc/SmallRoof_01.et" {
  {
@@ -73497,6 +73527,23 @@ SCR_DestructibleBuildingEntity : "{2B8F14E74F3097F0}Prefabs/Structures/Construco
  coords 3490.178 -0.001 1389.672
  angles 0 177.925 0
 }
+$grp StaticModelEntity : "{2D0FEDF121395411}Prefabs/Structures/Debris/DebrisPile_HouseVillage/DebrisPile_HouseVillage_01_Huge.et" {
+ {
+  coords 5150.738 32.728 2975.502
+  angles -10.797 23.622 -1.764
+  scale 1.037
+ }
+ {
+  coords 3839.875 22.333 1749.469
+  angles -10.797 23.622 -1.764
+  scale 2.937
+ }
+ {
+  coords 3842.981 28.168 1753.926
+  angles -10.797 23.622 -1.764
+  scale 2.937
+ }
+}
 SCR_DestructibleEntity : "{30DA935C5579E6DB}Prefabs/Structures/Military/Houses/ClubMilitary_01/SignInterior_Political_USSR_01_SlavaKPSS.et" {
  coords 3512.711 17.619 1397.915
  angles 0 -2.17 0
@@ -73535,6 +73582,140 @@ GenericEntity : "{4923E218F59644B9}Prefabs/Props/Wrecks/BoatWreck_01/BoatWreck_0
  coords 3500.408 13.917 1362.911
  angles 22.487 -42.916 0
 }
+$grp StaticModelEntity : "{4C606A89029A7E69}Prefabs/Structures/Debris/DebrisPile_HouseVillage/DebrisPile_HouseVillage_01_Small.et" {
+ Debris4 {
+  coords 3862.716 2.127 1668.312
+  angles 3.355 -0.157 -2.688
+  scale 7.533
+  {
+   $grp GenericEntity {
+    {
+     components {
+      MeshObject "{6A35715CD6D20BC5}" {
+       Object "{D0465A56069AF2FC}Assets/Structures/Debris/DebrisPiles_HouseVillage/DebrisPile_HouseVillage_01_Large.xob"
+      }
+     }
+     coords 4.258 -2.262 2.206
+     angles -17.765 0.028 6.203
+     scale 0.911
+    }
+    {
+     components {
+      MeshObject "{6A35715CD6D20BC5}" {
+       Object "{D0465A56069AF2FC}Assets/Structures/Debris/DebrisPiles_HouseVillage/DebrisPile_HouseVillage_01_Large.xob"
+      }
+     }
+     coords 0.288 -2.224 3.822
+     angles -23.54 -0.656 2.878
+     scale 0.487
+    }
+   }
+   StaticModelEntity : "{11B789B5F476A4B5}Prefabs/Structures/Debris/DebrisPile_HouseVillage/DebrisPile_HouseVillage_01_Large.et" {
+    coords -0.945 -0.768 -4.11
+    angles -3.533 -57.954 -4.165
+    scale 0.764
+   }
+   StaticModelEntity : "{2D0FEDF121395411}Prefabs/Structures/Debris/DebrisPile_HouseVillage/DebrisPile_HouseVillage_01_Huge.et" {
+    coords 0.856 -2.174 -0.785
+    angles -10.797 23.622 -1.764
+    scale 1.037
+   }
+   StaticModelEntity : "{9F9516E7AFB67010}Prefabs/Structures/Debris/DebrisPile/DebrisPile_Concrete_01_Medium.et" {
+    coords 0.877 0.343 -9.018
+    angles 0.773 1.25 7.027
+    scale 1.285
+   }
+  }
+ }
+ Debris5 {
+  coords 3857.682 3.282 1727.143
+  angles 8.689 -23.713 -6.671
+  scale 7.533
+  {
+   $grp GenericEntity {
+    {
+     components {
+      MeshObject "{6A35715CD6D20BC5}" {
+       Object "{D0465A56069AF2FC}Assets/Structures/Debris/DebrisPiles_HouseVillage/DebrisPile_HouseVillage_01_Large.xob"
+      }
+     }
+     coords 4.258 -2.262 2.206
+     angles -17.765 0.028 6.203
+     scale 0.911
+    }
+    {
+     components {
+      MeshObject "{6A35715CD6D20BC5}" {
+       Object "{D0465A56069AF2FC}Assets/Structures/Debris/DebrisPiles_HouseVillage/DebrisPile_HouseVillage_01_Large.xob"
+      }
+     }
+     coords 0.288 -2.224 3.822
+     angles -23.54 -0.656 2.878
+     scale 0.487
+    }
+   }
+   StaticModelEntity : "{11B789B5F476A4B5}Prefabs/Structures/Debris/DebrisPile_HouseVillage/DebrisPile_HouseVillage_01_Large.et" {
+    coords -0.945 -0.768 -4.11
+    angles -3.533 -57.954 -4.165
+    scale 0.764
+   }
+   StaticModelEntity : "{2D0FEDF121395411}Prefabs/Structures/Debris/DebrisPile_HouseVillage/DebrisPile_HouseVillage_01_Huge.et" {
+    coords 0.856 -2.174 -0.785
+    angles -10.797 23.622 -1.764
+    scale 1.037
+   }
+   StaticModelEntity : "{9F9516E7AFB67010}Prefabs/Structures/Debris/DebrisPile/DebrisPile_Concrete_01_Medium.et" {
+    coords 3.667 -1.122 -4.483
+    angles 0.773 1.25 7.027
+    scale 1.285
+   }
+  }
+ }
+ Debris6 {
+  coords 3828.621 12.141 1582.867
+  angles 1.184 112.613 4.132
+  scale 7.533
+  {
+   $grp GenericEntity {
+    {
+     components {
+      MeshObject "{6A35715CD6D20BC5}" {
+       Object "{D0465A56069AF2FC}Assets/Structures/Debris/DebrisPiles_HouseVillage/DebrisPile_HouseVillage_01_Large.xob"
+      }
+     }
+     coords 4.258 -2.262 2.206
+     angles -17.765 0.028 6.203
+     scale 0.911
+    }
+    {
+     components {
+      MeshObject "{6A35715CD6D20BC5}" {
+       Object "{D0465A56069AF2FC}Assets/Structures/Debris/DebrisPiles_HouseVillage/DebrisPile_HouseVillage_01_Large.xob"
+      }
+     }
+     coords 0.288 -2.224 3.822
+     angles -23.54 -0.656 2.878
+     scale 0.487
+    }
+   }
+   StaticModelEntity : "{11B789B5F476A4B5}Prefabs/Structures/Debris/DebrisPile_HouseVillage/DebrisPile_HouseVillage_01_Large.et" {
+    coords -0.945 -0.768 -4.11
+    angles -3.533 -57.954 -4.165
+    scale 0.764
+   }
+   StaticModelEntity : "{2D0FEDF121395411}Prefabs/Structures/Debris/DebrisPile_HouseVillage/DebrisPile_HouseVillage_01_Huge.et" {
+    coords 0.856 -2.174 -0.785
+    angles -10.797 23.622 -1.764
+    scale 1.037
+   }
+   StaticModelEntity : "{9F9516E7AFB67010}Prefabs/Structures/Debris/DebrisPile/DebrisPile_Concrete_01_Medium.et" {
+    coords 0.877 0.343 -9.018
+    angles 0.773 1.25 7.027
+    scale 1.285
+   }
+  }
+ }
+}
 $grp SCR_DestructibleBuildingEntity : "{52DE6E29E8B236F9}Prefabs/Industrial/builds/vodonaporka.et" {
  {
   coords 3582.393 15 1413.128
@@ -73544,10 +73725,36 @@ $grp SCR_DestructibleBuildingEntity : "{52DE6E29E8B236F9}Prefabs/Industrial/buil
   coords 3582.463 14.954 1408.963
   angles 0 179.06 0
  }
+ {
+  coords 4049.647 18.013 1660.012
+  angles 0 87.186 0
+ }
+ {
+  coords 4053.805 17.984 1660.217
+  angles 0 87.186 0
+ }
+ {
+  coords 4052.933 15.76 1698.479
+  angles 0 1.366 0
+ }
+ {
+  coords 4052.835 15.789 1694.318
+  angles 0 1.366 0
+ }
 }
-SCR_DestructibleBuildingEntity : "{572A0A3CCDD2BA32}Prefabs/Industrial/builds/saray_wood.et" {
- coords 3545.91 15 1375.078
- angles 0 174.178 0
+$grp SCR_DestructibleBuildingEntity : "{572A0A3CCDD2BA32}Prefabs/Industrial/builds/saray_wood.et" {
+ {
+  coords 3545.91 15 1375.078
+  angles 0 174.178 0
+ }
+ {
+  coords 4028.652 20 1675.116
+  angles 0 -91.094 0
+ }
+ {
+  coords 4028.35 20 1690.961
+  angles 0 -91.094 0
+ }
 }
 $grp SCR_DestructibleEntity : "{5A6C47A6285261E8}Prefabs/Structures/Walls/Brick/BrickWall_01/BrickWall_01_4m_base.et" {
  {
@@ -73574,6 +73781,10 @@ $grp SCR_DestructibleEntity : "{5A6C47A6285261E8}Prefabs/Structures/Walls/Brick/
   coords 3534.134 0.853 1391.814
   angles -1.477 -94.341 0.192
  }
+}
+SCR_DestructibleBuildingEntity : "{5E56D1602958C610}Prefabs/Industrial/builds/saray_03.et" {
+ coords 4056.205 20 1701.559
+ angles 0 1.613 0
 }
 GenericEntity : "{5E8A29DCCF68C5DD}Prefabs/destructible/wood_barricade_destr.et" {
  coords 3520.664 16.525 1395.264
@@ -73685,6 +73896,14 @@ $grp SCR_DestructibleEntity : "{8E065B1C87FAF088}Prefabs/Structures/Walls/Net/Ne
   scale 0.409
   placement none
  }
+}
+GenericEntity : "{97A424689ACB1C70}Prefabs/agroprom/kiosk_rama_death.et" {
+ coords 3503.398 15.939 1378.344
+ angles -1.413 86.988 0
+}
+SCR_DestructibleBuildingEntity : "{A2F458DFE43BB1C3}Prefabs/Structures/Ruins/House_Ruin_1I01/House_Ruin_1I01_V2_Brick.et" {
+ coords 4030.817 0 1656.117
+ angles 0 178.859 0
 }
 GenericEntity : "{A59868360F52B0FB}Prefabs/Structures/Signs/Military/HouseAddon_SovietStar_01/HouseAddon_SovietStar_01_base.et" {
  coords 3520.629 17.532 1395.241
@@ -73827,9 +74046,15 @@ $grp SCR_DestructibleEntity : "{D34F3DD5D61E2F71}Prefabs/Structures/Walls/Metal/
   placement none
  }
 }
-SCR_DestructibleBuildingEntity : "{D5DA5F5045444C64}Prefabs/Industrial/builds/house_36.et" {
- coords 3558.666 15 1364.366
- angles 0 172.908 0
+$grp SCR_DestructibleBuildingEntity : "{D5DA5F5045444C64}Prefabs/Industrial/builds/house_36.et" {
+ {
+  coords 3558.666 15 1364.366
+  angles 0 172.908 0
+ }
+ {
+  coords 4048.794 20 1688.106
+  angles 0 -88.615 0
+ }
 }
 GenericEntity : "{DC584ACF61CEF3C6}Prefabs/Props/Military/Compositions/Dst/PersonnelService_Table_01/PersonnelService_Table_01_dst_01_base.et" {
  coords 3524.016 15.811 1393.894
@@ -73898,6 +74123,10 @@ $grp SCR_DestructibleEntity : "{DF3905E54137495D}Prefabs/Structures/Walls/Metal/
   scale 1.331
   placement none
  }
+}
+SCR_DestructibleBuildingEntity : "{E2A20DFFC3F8DDA0}Prefabs/agroprom/ferma_big.et" {
+ coords 4054.975 20 1715.629
+ angles 0 -88.773 0
 }
 SCR_DestructibleBuildingEntity : "{E7D72F0E6837189F}Prefabs/Industrial/tent.et" {
  coords 3508.21 15.79 1384.274
@@ -74367,7 +74596,13 @@ SCR_DestructibleBuildingEntity : "{F6B2571BEAAD779C}Prefabs/Houses/villages/base
   }
  }
 }
-GenericEntity : "{F971B612CD2CA718}Prefabs/Vehicles/mi8/armst_mi6_wreck.et" {
- coords 3450.376 14.2 1388.624
- angles 0 87.339 8.013
+$grp GenericEntity : "{F971B612CD2CA718}Prefabs/Vehicles/mi8/armst_mi6_wreck.et" {
+ {
+  coords 3450.376 14.2 1388.624
+  angles 0 87.339 8.013
+ }
+ {
+  coords 3972.69 17.023 1667.464
+  angles -0.034 -179.448 11.871
+ }
 }
