@@ -51,7 +51,7 @@ GenericWorldEntity world {
    Enabled 1
    WeatherStateMachine "{145430BBF1620448}TerrainsNEW/Common/WeatherPresets/StateMachine/Actual_weather/WeatherStates.conf"
    "UTC TimeZone" -2.5
-   "Initial Day Time" 10.886
+   "Initial Day Time" 10.43
    "DST Offset" 2
    "Internal variant transition" 0
    "Internal subvariant 0" 0
@@ -52737,6 +52737,65 @@ $grp SplineShapeEntity {
   IsClosed 1
   {
    LakeGeneratorEntity : "{0263A3344F9DCAAD}Prefabs/WEGenerators/Water/Lake/LG_DirtyDrainage_01.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 6490.397 27.274 2278.928
+  Points {
+   ShapePoint "{6A837753F447A088}" {
+    Position 6.927 1.337 14.491
+   }
+   ShapePoint "{6A837753F44790E3}" {
+    Position 5 0.726 0
+   }
+   ShapePoint "{6A8377538E0FF5F9}" {
+    Position -2.917 0.845 -44.85
+   }
+   ShapePoint "{6A8377538B304607}" {
+    Position -52.978 7.418 -54.895
+   }
+   ShapePoint "{6A837753849F6CD3}" {
+    Position -107.671 0.884 -89.77
+   }
+   ShapePoint "{6A837753856A0FB2}" {
+    Position -190.166 2.296 -81.318
+   }
+   ShapePoint "{6A83775386770CB3}" {
+    Position -251.064 2.844 -36.633
+   }
+   ShapePoint "{6A83775387F0DAFC}" {
+    Position -302.824 2.417 12.814
+   }
+   ShapePoint "{6A837753802248DA}" {
+    Position -313.254 2.727 63.049
+   }
+   ShapePoint "{6A8377538053609C}" {
+    Position -305.236 2.25 110.332
+   }
+   ShapePoint "{6A83775382B84243}" {
+    Position -277.405 2.742 142.298
+   }
+   ShapePoint "{6A837753823E2446}" {
+    Position -187.808 2.374 155.46
+   }
+   ShapePoint "{6A8377539E8A09E2}" {
+    Position -129.839 2.707 154.892
+   }
+   ShapePoint "{6A8377539FDAA5EC}" {
+    Position -81.301 2.539 110.04
+   }
+   ShapePoint "{6A8377539F70059E}" {
+    Position -70.24 2.874 35.006
+   }
+   ShapePoint "{6A8377539847F522}" {
+    Position -8.276 3.5 26.434
+   }
+  }
+  IsClosed 1
+  {
+   LakeGeneratorEntity : "{1F2254A7C9C8AA57}Prefabs/WEGenerators/Water/Lake/LG_Lake_01.et" {
     coords 0 0 0
    }
   }
