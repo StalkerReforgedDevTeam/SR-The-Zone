@@ -74846,6 +74846,23 @@ StaticModelEntity : "{41CCD40548A3F72E}Prefabs/Props/Wrecks/ShipWreckMetal_02/Sh
  coords 3515.132 12.952 1356.543
  angles 5.655 118.327 0
 }
+$grp Tree : "{425761285F36BF16}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_1s.et" {
+ {
+  coords 3564.804 0 1928.11
+  angles 0.813 169.832 1.927
+  scale 0.913
+ }
+ {
+  coords 3559.257 -0 1933.324
+  angles 0.813 169.832 1.927
+  scale 0.913
+ }
+ {
+  coords 3556.377 0 1944.113
+  angles 0.813 169.832 1.927
+  scale 0.913
+ }
+}
 $grp SCR_IndestructibleEnvironmentalEntity : "{4527DE86025ECF43}Prefabs/Rocks/Granite/GraniteSurfaceStone_04.et" {
  {
   coords 3375.63 20.382 2073.744
@@ -74931,6 +74948,16 @@ $grp Tree : "{4A97ED3FD25D1484}PrefabLibrary/CainLibrary/Vegetation/Trees/t_betu
  {
   coords 3418.586 1.786 1972.565
   angles -0.553 173.029 1.494
+  scale 0.872
+ }
+ {
+  coords 3428.194 -0 1987.355
+  angles -0.553 173.029 1.494
+  scale 0.872
+ }
+ {
+  coords 3434.518 -0 1990.654
+  angles -0.553 -111.268 1.494
   scale 0.872
  }
 }
@@ -75231,6 +75258,11 @@ $grp Tree : "{572740984A0430C5}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_p
  {
   coords 3526.357 0 1973.594
   angles 89.28 109.234 -53.29
+  scale 1.077
+ }
+ {
+  coords 3463.062 0.907 1967.472
+  angles -59.55 -28.66 -155.634
   scale 1.077
  }
 }
@@ -75545,6 +75577,9 @@ GameEntity : "{5EC10C92B8C82E69}Prefabs/Method/Props/Camps/Fireplace_Loiters_03.
   }
  }
 }
+GenericEntity : "{632172193E638A2D}Prefabs/Vegetation/Tree/Roots/Roots_02_Base.et" {
+ coords 3570.05 3.988 1931.522
+}
 $grp SCR_DestructibleEntity : "{63EC0D3983F96A5C}Prefabs/Structures/Walls/Wooden/WoodenWall_02/WoodenWall_02_2m.et" {
  {
   coords 3522.072 0.948 1391.385
@@ -75797,7 +75832,7 @@ $grp GenericEntity : "{794D95ED8AA1742D}Prefabs/Vegetation/Tree/Roots/Roots_01_h
   scale 6
  }
  {
-  coords 3395.873 18.166 1995.517
+  coords 3395.873 21.753 1995.517
   angles 0 -157.775 0
   scale 6
  }
@@ -75812,7 +75847,7 @@ $grp GenericEntity : "{794D95ED8AA1742D}Prefabs/Vegetation/Tree/Roots/Roots_01_h
   scale 6
  }
  {
-  coords 3453.609 15.848 1919.519
+  coords 3453.609 16.92 1919.519
   angles 0 -157.775 0
   scale 6
  }
@@ -75832,7 +75867,7 @@ $grp GenericEntity : "{794D95ED8AA1742D}Prefabs/Vegetation/Tree/Roots/Roots_01_h
   scale 6
  }
  {
-  coords 3554.469 14.45 2002.479
+  coords 3554.469 17.44 2001.458
   angles 0 -157.775 0
   scale 6
  }
@@ -75841,6 +75876,100 @@ $grp GenericEntity : "{794D95ED8AA1742D}Prefabs/Vegetation/Tree/Roots/Roots_01_h
   angles 0 103.442 0
   scale 6
  }
+ {
+  coords 3707.29 17.984 2024.49
+  angles 0 103.442 0
+  scale 6
+ }
+ {
+  coords 3618.693 18.606 2010.92
+  angles 0 103.442 0
+  scale 6
+ }
+ {
+  coords 3589.028 17.046 2009.596
+  angles 0 103.442 0
+  scale 6
+ }
+ {
+  coords 3471.25 20.346 1997.071
+  angles 0 103.442 0
+  scale 6
+ }
+ {
+  coords 3409.19 19.532 1980.03
+  angles 0 103.442 0
+  scale 6
+ }
+ {
+  coords 3464.57 17.031 1924.377
+  angles 0 103.442 0
+  scale 6
+ }
+ {
+  coords 3504.135 16.174 1920.467
+  angles 0 103.442 0
+  scale 6
+ }
+ {
+  coords 3518.203 15.927 1918.85
+  angles 0 103.442 0
+  scale 6
+ }
+ {
+  coords 3564.986 14.869 1907.303
+  angles 0 103.442 0
+  scale 6
+ }
+ {
+  coords 3584.411 14.878 1909.809
+  angles 0 103.442 0
+  scale 6
+ }
+ {
+  coords 3612.239 14.24 1871.553
+  angles 0 103.442 0
+  scale 6
+ }
+ {
+  coords 3599.117 14.246 1870.402
+  angles 0 103.442 0
+  scale 6
+ }
+ {
+  coords 3661.042 16.839 1912.639
+  angles 0 103.442 0
+  scale 6
+ }
+ {
+  coords 3704.266 17.98 1918.607
+  angles 0 103.442 0
+  scale 6
+ }
+ {
+  coords 3667.056 15.789 1938.038
+  angles 0 103.442 0
+  scale 6
+ }
+ {
+  coords 3648.127 16.042 1949.42
+  angles 0 103.442 0
+  scale 6
+ }
+ {
+  coords 3627.374 15.396 1963.203
+  angles 0 103.442 0
+  scale 6
+ }
+ {
+  coords 3484.118 16.304 1950.855
+  angles 0 103.442 0
+  scale 6
+ }
+}
+GameEntity : "{799B47E2FA360C17}Prefabs/Method/Props/Camps/Fireplace_01_01.et" {
+ coords 3564.577 0.875 1931.896
+ angles 0 64.426 0
 }
 $grp Tree : "{7BEC4D46FABA042E}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_carpinus_betulus_branch_01.et" {
  {
@@ -76119,6 +76248,14 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{9633134198F3AB1A}Prefabs/Rocks/Gr
  }
  {
   coords 3752.937 7.174 1881.541
+ }
+ {
+  coords 3343.404 10.717 2076.021
+  angles 0 78.351 0
+ }
+ {
+  coords 3343.727 11.471 2085.191
+  angles 0 96.559 0
  }
 }
 GenericEntity : "{97A424689ACB1C70}Prefabs/agroprom/kiosk_rama_death.et" {
@@ -76591,6 +76728,51 @@ $grp Tree : "{CF0A210B7AC7B329}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_
   angles -1.303 93.398 -1.343
   scale 1.049
  }
+ {
+  coords 3677.651 0 1985.925
+  angles 0.316 -4.537 -0.773
+  scale 1.122
+ }
+ {
+  coords 3681.062 0 1985.691
+  angles 0.316 -4.537 -0.773
+  scale 1.122
+ }
+ {
+  coords 3683.68 -0 1985.818
+  angles 0.316 -4.537 -0.773
+  scale 1.122
+ }
+ {
+  coords 3683.184 -0 1980.962
+  angles 0.316 -4.537 -0.773
+  scale 1.122
+ }
+ {
+  coords 3684.674 -0 1976.259
+  angles 0.316 -4.537 -0.773
+  scale 1.122
+ }
+ {
+  coords 3684.051 -0 1965.12
+  angles 0.316 -4.537 -0.773
+  scale 1.122
+ }
+ {
+  coords 3653.878 0 1986.667
+  angles 0.316 -4.537 -0.773
+  scale 1.122
+ }
+ {
+  coords 3665.508 -0 1987.181
+  angles 0.316 -4.537 -0.773
+  scale 1.122
+ }
+ {
+  coords 3644.76 -0 1985.373
+  angles 0.316 -4.537 -0.773
+  scale 1.122
+ }
 }
 $grp SCR_DestructibleEntity : "{D34F3DD5D61E2F71}Prefabs/Structures/Walls/Metal/TinWall_01_rusty/TinWall_01_3m_rusty.et" {
  {
@@ -76896,9 +77078,15 @@ $grp Tree : "{D9D5932A42E3288B}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_b
   scale 0.894
  }
 }
-SCR_DestructibleBuildingEntity : "{DA18BC3C9738C614}Prefabs/Industrial/builds/bitovka_wheels.et" {
- coords 3552.287 3.125 1938.622
- angles 0 47.638 0
+$grp SCR_DestructibleBuildingEntity : "{DA18BC3C9738C614}Prefabs/Industrial/builds/bitovka_wheels.et" {
+ {
+  coords 3552.287 0.735 1938.622
+  angles 0 47.638 0
+ }
+ {
+  coords 3562.869 0.82 1922.677
+  angles 0 -99.526 0
+ }
 }
 $grp Tree : "{DA7492F3E6B63251}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et" {
  {
@@ -77411,6 +77599,33 @@ $grp Tree : "{DA7492F3E6B63251}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_
   angles -1.86 86.124 0.857
   scale 0.847
  }
+ {
+  coords 3428.412 0 1984.395
+  angles -1.904 -72.292 -1.092
+  scale 1.078
+ }
+ {
+  coords 3429.377 -0 1989.861
+  angles -1.904 -143.134 -1.092
+  scale 1.078
+ }
+ {
+  coords 3437.062 0 1990.662
+  angles -1.904 -89.284 -1.092
+  scale 1.078
+ }
+ {
+  coords 3564.309 -0 1936.846
+  angles 1.539 93.043 -1.605
+ }
+ {
+  coords 3560.49 -0 1936.155
+  angles 1.539 38.907 -1.605
+ }
+ {
+  coords 3567.792 0.021 1927.952
+  angles 1.539 95.191 -1.605
+ }
 }
 GenericEntity : "{DC584ACF61CEF3C6}Prefabs/Props/Military/Compositions/Dst/PersonnelService_Table_01/PersonnelService_Table_01_dst_01_base.et" {
  coords 3524.016 15.811 1393.894
@@ -77506,9 +77721,15 @@ SCR_DestructibleBuildingEntity : "{E7D72F0E6837189F}Prefabs/Industrial/tent.et" 
  coords 3508.21 15.79 1384.274
  angles 0 173.274 0
 }
-GameEntity : "{EE5C0DF8F62CE5E6}Prefabs/Method/Props/Camps/Fireplace_Loiters_02.et" {
- coords 3521.436 15 1954.269
- angles 0 -119.408 0
+$grp GameEntity : "{EE5C0DF8F62CE5E6}Prefabs/Method/Props/Camps/Fireplace_Loiters_02.et" {
+ {
+  coords 3521.436 15 1954.269
+  angles 0 -119.408 0
+ }
+ {
+  coords 3443.526 0.875 1936.84
+  angles 0 -2.164 0
+ }
 }
 SCR_DestructibleBuildingEntity : "{F08D8E78433D713A}Prefabs/Structures/Houses/Shed/Shed_01/Shed_01.et" {
  coords 3555.642 0 1388.83
@@ -78056,6 +78277,14 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{FA6727A124372434}Prefabs/Rocks/Gr
  }
  {
   coords 3615.223 6.412 1937.744
+ }
+ {
+  coords 3361.393 9.763 2083.659
+  angles 26.135 0 0
+ }
+ {
+  coords 3360.228 14.799 2093.114
+  angles 26.135 21.967 0
  }
 }
 $grp Tree : "{FE0BD218E0E417A3}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_carpinus_betulus_3d.et" {
