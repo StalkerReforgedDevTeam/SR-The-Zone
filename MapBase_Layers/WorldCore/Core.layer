@@ -51,7 +51,7 @@ GenericWorldEntity world {
    Enabled 1
    WeatherStateMachine "{145430BBF1620448}TerrainsNEW/Common/WeatherPresets/StateMachine/Actual_weather/WeatherStates.conf"
    "UTC TimeZone" -2.5
-   "Initial Day Time" 4.608
+   "Initial Day Time" 3.494
    "DST Offset" 2
    "Internal variant transition" 0
    "Internal subvariant 0" 0
@@ -368,6 +368,158 @@ $grp PolylineShapeEntity {
      SCR_DestructibleEntity : "{D34F3DD5D61E2F71}Prefabs/Structures/Walls/Metal/TinWall_01_rusty/TinWall_01_3m_rusty.et" {
       coords -25.592 -3.702 71.7
       angles 0 -93.477 0
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 4045.055 15 1409.736
+  Points {
+   ShapePoint "{6A84D8D174F6E6C3}" {
+    Position 2.239 0.283 1.849
+   }
+   ShapePoint "{6A84D8D174F6042B}" {
+    Position 0.794 0.128 -11.903
+   }
+   ShapePoint "{6A84D8D1738EC251}" {
+    Position 34.642 3.888 -14.127
+   }
+   ShapePoint "{6A84D8D171367C99}" {
+    Position 42.938 2.07 29.979
+   }
+   ShapePoint "{6A84D8D17BE83FBA}" {
+    Position 3.169 1.532 30.324
+   }
+   ShapePoint "{6A84D8D178FCF3C3}" {
+    Position 2.532 0 13.187
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{2F2706D3952846F0}Prefabs/WEGenerators/Walls/Wooden/WG_WoodenWall_02.et" {
+    Flags 0x100003 0
+    m_iSeed 29009
+    {
+     $grp SCR_DestructibleEntity : "{13219FE011DD3FEF}Prefabs/Structures/Walls/Wooden/WoodenWall_02/WoodenWall_02_4m_A.et" {
+      {
+       coords 2.242 0.285 1.879
+       angles 0 95.997 0
+      }
+      {
+       coords 1.822 0.193 -2.119
+       angles 0 95.997 0
+      }
+      {
+       coords 8.679 0.652 -12.582
+       angles 0 3.406 0
+      }
+      {
+       coords 12.667 0.83 -12.819
+       angles 0 3.406 0
+      }
+      {
+       coords 24.592 2.177 -13.529
+       angles 0 3.406 0
+      }
+      {
+       coords 28.581 2.764 -13.766
+       angles 0 3.406 0
+      }
+      {
+       coords 34.568 3.879 -14.152
+       angles 0 -79.26 0
+      }
+      {
+       coords 39.775 2.025 13.301
+       angles 0 -79.26 0
+      }
+      {
+       coords 40.523 1.922 17.248
+       angles 0 -79.26 0
+      }
+      {
+       coords 42.798 2.072 29.08
+       angles 0 -178.202 0
+      }
+      {
+       coords 30.787 0.537 29.457
+       angles 0 -178.202 0
+      }
+      {
+       coords 10.824 0.437 30.084
+       angles 0 -178.202 0
+      }
+      {
+       coords 6.807 0.507 30.21
+       angles 0 -178.202 0
+      }
+     }
+     $grp SCR_DestructibleEntity : "{13449740EE495C79}Prefabs/Structures/Walls/Wooden/WoodenWall_02/WoodenWall_02_8m_A.et" {
+      {
+       coords 35.316 2.786 -10.204
+       angles 0 -79.26 0
+      }
+      {
+       coords 36.802 0.437 -2.369
+       angles 0 -79.26 0
+      }
+      {
+       coords 38.288 0.437 5.466
+       angles 0 -79.26 0
+      }
+      {
+       coords 26.77 0.359 29.583
+       angles 0 -178.202 0
+      }
+      {
+       coords 18.797 0.455 29.833
+       angles 0 -178.202 0
+      }
+      {
+       coords 2.76 1.555 30.367
+       angles 0 90.762 0
+      }
+      {
+       coords 2.654 0.101 22.393
+       angles 0 90.762 0
+      }
+     }
+     SCR_DestructibleEntity : "{5585E2968ACE1D4B}Prefabs/Structures/Walls/Wooden/WoodenWall_02/WoodenWall_02_4m_B.et" {
+      coords 1.402 0.045 -6.118
+      angles 0 95.997 0
+     }
+     $grp SCR_DestructibleEntity : "{63EC0D3983F96A5C}Prefabs/Structures/Walls/Wooden/WoodenWall_02/WoodenWall_02_2m.et" {
+      {
+       coords 0.983 0.104 -10.102
+       angles 0 95.997 0
+      }
+      {
+       coords 32.569 3.413 -14.003
+       angles 0 3.406 0
+      }
+     }
+     SCR_DestructibleEntity : "{6BB2540CAAD4120B}Prefabs/Structures/Walls/Wooden/WoodenWall_02/WoodenWall_02_Pole.et" {
+      coords 2.548 0 14.409
+      angles 0 90.762 0
+     }
+     $grp SCR_DestructibleEntity : "{7F10A3A0528DD357}Prefabs/Structures/Walls/Wooden/WoodenWall_02/WoodenWall_02_8m_B.et" {
+      {
+       coords 0.743 0.134 -12.109
+       angles 0 3.406 0
+      }
+      {
+       coords 16.656 1.12 -13.056
+       angles 0 3.406 0
+      }
+      {
+       coords 41.272 0.745 21.196
+       angles 0 -79.26 0
+      }
+      {
+       coords 38.78 1.4 29.206
+       angles 0 -178.202 0
+      }
      }
     }
    }
@@ -52536,10 +52688,10 @@ $grp SplineShapeEntity {
   coords 3865.632 15 1848.052
   Points {
    ShapePoint "{6A821514D192B3FB}" {
-    Position 0 0 0
+    Position -17.599 0 -18.087
    }
    ShapePoint "{6A821514D1920DFA}" {
-    Position 0.961 0 -15.771
+    Position 3.826 0 -33.297
    }
    ShapePoint "{6A821514D3B5BFFE}" {
     Position 36.198 0 -44.029
@@ -52563,22 +52715,22 @@ $grp SplineShapeEntity {
     Position 128.174 0 20.39
    }
    ShapePoint "{6A821514ED124CEC}" {
-    Position 84.051 0 70.719
+    Position 97.693 0 150.03
    }
    ShapePoint "{6A821514ED582352}" {
-    Position 30.657 -0.444 82.448
+    Position -13.832 0.019 170.304
    }
    ShapePoint "{6A821514EE96851F}" {
-    Position 18.173 -0.001 57.362
+    Position -79.634 -0.016 100.962
    }
    ShapePoint "{6A821514EED19473}" {
-    Position 10.173 -0.874 33.404
+    Position -112.719 0 71.602
    }
    ShapePoint "{6A821514EE1CA6A4}" {
-    Position 2.482 0 14.956
+    Position -66.754 -1.682 35.578
    }
    ShapePoint "{6A821514EE548B0D}" {
-    Position -0.432 0 6.92
+    Position -63.431 -1.294 8.311
    }
   }
   IsClosed 1
