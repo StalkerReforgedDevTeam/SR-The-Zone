@@ -525,6 +525,127 @@ $grp PolylineShapeEntity {
    }
   }
  }
+ {
+  coords 3794.87 39.992 1696.599
+  Points {
+   ShapePoint "{6A8D1491BD2DCB9E}" {
+    Position 2.48 0.008 -0.059
+   }
+   ShapePoint "{6A8D1491BD32CA65}" {
+    Position -8.953 -0.223 0.249
+   }
+   ShapePoint "{6A8D1491BA8BA0BA}" {
+    Position -8.044 -1.138 -13.593
+   }
+   ShapePoint "{6A8D1491B8C408AD}" {
+    Position -6.718 -2.341 -20.954
+   }
+   ShapePoint "{6A8D1491A7EE6561}" {
+    Position 16.526 -0.076 -17.341
+   }
+   ShapePoint "{6A8D1491A5AF0B78}" {
+    Position 19.507 -0.16 -17.326
+   }
+   ShapePoint "{6A8D1491A5184948}" {
+    Position 19.802 -0.18 -17.273
+   }
+   ShapePoint "{6A8D1491A4437C00}" {
+    Position 20.272 -0.363 -0.208
+   }
+   ShapePoint "{6A8D1491A19AC741}" {
+    Position 4.461 0.008 0.072
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{25A2E591AC54EF71}Prefabs/WEGenerators/Walls/Metal/WG_TinWall_01_rusty.et" {
+    Flags 0x100003 0
+    m_iSeed 22411
+    {
+     $grp SCR_DestructibleEntity : "{0C1D044EBE92ADBF}Prefabs/Structures/Walls/Metal/TinWall_01_rusty/TinWall_01_6m_A_rusty.et" {
+      {
+       coords 2.518 0.008 -0.06
+       angles 0 -178.458 0
+      }
+      {
+       coords 4.99 -0.362 -18.88
+       angles 0 -7.603 0
+      }
+      {
+       coords 10.893 -0.113 -18.092
+       angles 0 -7.603 0
+      }
+     }
+     $grp SCR_DestructibleEntity : "{4CED256B088E2FF8}Prefabs/Structures/Walls/Metal/TinWall_01_rusty/TinWall_01_6m_B_rusty.et" {
+      {
+       coords -6.482 -0.11 0.22
+       angles 0 -263.546 0
+      }
+      {
+       coords 19.754 -0.175 -17.367
+       angles 0 -88.272 0
+      }
+      {
+       coords 19.935 -0.405 -11.391
+       angles 0 -88.272 0
+      }
+      {
+       coords 20.244 -0.361 -2.394
+       angles 0 -171.118 0
+      }
+     }
+     $grp SCR_DestructibleEntity : "{B2ED652EFDDC43B4}Prefabs/Structures/Walls/Metal/TinWall_01_rusty/TinWall_01_6m_C_rusty.et" {
+      {
+       coords -7.152 -0.316 -5.704
+       angles 0 -263.546 0
+      }
+      {
+       coords -7.831 -0.817 -11.629
+       angles 0 83.194 0
+      }
+      {
+       coords -6.815 -2.259 -20.456
+       angles 0 -7.603 0
+      }
+      {
+       coords -0.913 -0.96 -19.668
+       angles 0 -7.603 0
+      }
+      {
+       coords 14.338 -0.068 -1.471
+       angles 0 -171.118 0
+      }
+     }
+     SCR_DestructibleEntity : "{B8AE0A0E4A79C2B2}Prefabs/Structures/Walls/Metal/TinWall_01_rusty/TinWall_01_6m_Pole_rusty.et" {
+      coords 5.48 0.003 -0.087
+      angles 0 -171.118 0
+     }
+     $grp SCR_DestructibleEntity : "{D34F3DD5D61E2F71}Prefabs/Structures/Walls/Metal/TinWall_01_rusty/TinWall_01_3m_rusty.et" {
+      {
+       coords -3.458 -0.032 0.101
+       angles 0 -178.458 0
+      }
+      {
+       coords -7.132 -1.688 -17.484
+       angles 0 83.194 0
+      }
+      {
+       coords 16.796 -0.08 -17.299
+       angles 0 0.57 0
+      }
+      {
+       coords 20.115 -0.437 -5.416
+       angles 0 -88.272 0
+      }
+      {
+       coords 8.432 -0.023 -0.548
+       angles 0 -171.118 0
+      }
+     }
+    }
+   }
+  }
+ }
 }
 $grp SplineShapeEntity {
  {
@@ -53007,22 +53128,22 @@ $grp SplineShapeEntity {
     Position -66.173 0 -47.747
    }
    ShapePoint "{6A8D14926A2C2632}" {
-    Position -65.331 -0 -130.664
+    Position -65.331 0 -130.664
    }
    ShapePoint "{6A8D149269C93B73}" {
     Position -43.347 -0.001 -146.464
    }
    ShapePoint "{6A8D14926987377F}" {
-    Position -14.676 -0 -132.206
+    Position -14.676 0 -132.206
    }
    ShapePoint "{6A8D1492692B0835}" {
-    Position 4.166 -0 -107.724
+    Position 4.166 0 -107.724
    }
    ShapePoint "{6A8D149268D2E325}" {
     Position 7.108 0 -67.432
    }
    ShapePoint "{6A8D14926875E062}" {
-    Position 6.076 -0 -20.201
+    Position 6.076 0 -20.201
    }
   }
   IsClosed 1
@@ -53036,16 +53157,16 @@ $grp SplineShapeEntity {
   coords 5234.442 20 2101.884
   Points {
    ShapePoint "{6A8D1499881ED0AF}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{6A8D1499881E40B2}" {
-    Position -16.514 -0 4.253
+    Position -16.514 0 4.253
    }
    ShapePoint "{6A8D1499F5078C13}" {
-    Position -35.776 -0 9.959
+    Position -35.776 0 9.959
    }
    ShapePoint "{6A8D1499F4BF5802}" {
-    Position -56.117 -0 16.456
+    Position -56.117 0 16.456
    }
    ShapePoint "{6A8D1499F4520DF2}" {
     Position -86.032 0.108 17.792
@@ -53063,13 +53184,13 @@ $grp SplineShapeEntity {
     Position -348.115 2.687 2.179
    }
    ShapePoint "{6A8D1499FF050F54}" {
-    Position -405.854 -0 -5.915
+    Position -405.854 0 -5.915
    }
    ShapePoint "{6A8D1499FEAEF8EA}" {
     Position -448.008 -0.001 -9.252
    }
    ShapePoint "{6A8D1499FE0EDA92}" {
-    Position -500.021 -0 -7.228
+    Position -500.021 0 -7.228
    }
    ShapePoint "{6A8D1499FB7352E9}" {
     Position -531.686 0.031 -7.773
@@ -53156,7 +53277,7 @@ $grp SplineShapeEntity {
     Position -1820.344 0.539 66.086
    }
    ShapePoint "{6A8D1499C5FC1849}" {
-    Position -1821.975 -0 94.243
+    Position -1821.975 0 94.243
    }
   }
   LineColor 0 0.498 0.8314 0
@@ -53168,17 +53289,17 @@ $grp SplineShapeEntity {
     {
      $grp SCR_PowerPole : "{468A2CDE1906964B}PrefabLibrary/DefaultLibrary/Infrastructure/Powerline/PowerLine_HV_01_pole_end.et" {
       {
-       coords 0 -0 0
+       coords 0 0 0
        angles 0.757 286.748 -1.704
       }
       {
-       coords -1821.975 -0 94.243
+       coords -1821.975 0 94.243
        angles 1.5 356.627 0.137
       }
      }
      $grp PowerlineEntity : "{613763D114E7CD1C}Prefabs/WEGenerators/Powerline/Powerline.et" {
       {
-       coords 0 -0 0
+       coords 0 0 0
        Material "{AFC481E5CDFB2DF2}Assets/Structures/Infrastructure/Power/Powerlines/data/HV_01_powerline_wire.emat"
        Cables {
         Cable "{6A8D1499C9C6DB4A}" {
@@ -53196,7 +53317,7 @@ $grp SplineShapeEntity {
        }
       }
       {
-       coords -47.879 -0 14.408
+       coords -47.879 0 14.408
        Material "{AFC481E5CDFB2DF2}Assets/Structures/Infrastructure/Power/Powerlines/data/HV_01_powerline_wire.emat"
        Cables {
         Cable "{6A8D1499C9C6CCC3}" {
@@ -53340,7 +53461,7 @@ $grp SplineShapeEntity {
        }
       }
       {
-       coords -445.004 -0 -9.196
+       coords -445.004 0 -9.196
        Material "{AFC481E5CDFB2DF2}Assets/Structures/Infrastructure/Power/Powerlines/data/HV_01_powerline_wire.emat"
        Cables {
         Cable "{6A8D1499C9C6BC54}" {
@@ -53358,7 +53479,7 @@ $grp SplineShapeEntity {
        }
       }
       {
-       coords -494.971 -0 -7.375
+       coords -494.971 0 -7.375
        Material "{AFC481E5CDFB2DF2}Assets/Structures/Infrastructure/Power/Powerlines/data/HV_01_powerline_wire.emat"
        Cables {
         Cable "{6A8D1499C9C6BD9B}" {
@@ -53864,7 +53985,7 @@ $grp SplineShapeEntity {
      }
      $grp SCR_PowerPole : "{6F629670CF928923}PrefabLibrary/DefaultLibrary/Infrastructure/Powerline/PowerLine_HV_01_pole.et" {
       {
-       coords -47.879 -0 14.408
+       coords -47.879 0 14.408
        angles 1.186 281.054 0.177
       }
       {
@@ -53896,11 +54017,11 @@ $grp SplineShapeEntity {
        angles -1.29 263.22 -0.068
       }
       {
-       coords -445.004 -0 -9.196
+       coords -445.004 0 -9.196
        angles -0.89 268.435 -1.511
       }
       {
-       coords -494.971 -0 -7.375
+       coords -494.971 0 -7.375
        angles -1.477 271.454 0.423
       }
       {
@@ -54029,40 +54150,40 @@ $grp SplineShapeEntity {
     Position -37.97 0.036 11.851
    }
    ShapePoint "{6A8D149A71AC68E8}" {
-    Position -59.021 -0 22.747
+    Position -59.021 0 22.747
    }
    ShapePoint "{6A8D149A706705FD}" {
     Position -78.49 0 31.921
    }
    ShapePoint "{6A8D149A7023D6ED}" {
-    Position -98.89 -0 35.249
+    Position -98.89 0 35.249
    }
    ShapePoint "{6A8D149A7FCAB26F}" {
     Position -112.362 0 28.524
    }
    ShapePoint "{6A8D149A7F6A00E9}" {
-    Position -109.43 -0 10.98
+    Position -109.43 0 10.98
    }
    ShapePoint "{6A8D149A7F1F04C2}" {
-    Position -111.72 -0 -6.145
+    Position -111.72 0 -6.145
    }
    ShapePoint "{6A8D149A7ECDB585}" {
     Position -110.212 0 -29.423
    }
    ShapePoint "{6A8D149A7E785E72}" {
-    Position -98.373 -0 -44.02
+    Position -98.373 0 -44.02
    }
    ShapePoint "{6A8D149A7E283484}" {
     Position -75.63 0 -47.655
    }
    ShapePoint "{6A8D149A7DE74BE9}" {
-    Position -48.747 -0 -50.824
+    Position -48.747 0 -50.824
    }
    ShapePoint "{6A8D149A7D7B8936}" {
     Position -20.886 0 -57.175
    }
    ShapePoint "{6A8D149A7D24EED5}" {
-    Position 6.038 -0 -64.153
+    Position 6.038 0 -64.153
    }
    ShapePoint "{6A8D149A7B213FF2}" {
     Position 33.845 0 -75.239
@@ -54092,25 +54213,25 @@ $grp SplineShapeEntity {
     Position 92.121 0.057 -28.917
    }
    ShapePoint "{6A8D149A678B28DF}" {
-    Position 96.747 -0 -16.457
+    Position 96.747 0 -16.457
    }
    ShapePoint "{6A8D149A6743128F}" {
     Position 100 0 -7.578
    }
    ShapePoint "{6A8D149A6695C6D8}" {
-    Position 84.999 -0 -2.303
+    Position 84.999 0 -2.303
    }
    ShapePoint "{6A8D149A662DD7B9}" {
     Position 66.993 0 -6.423
    }
    ShapePoint "{6A8D149A64F20205}" {
-    Position 53.508 -0 -4.39
+    Position 53.508 0 -4.39
    }
    ShapePoint "{6A8D149A64B77E89}" {
     Position 41.3 0 -3.094
    }
    ShapePoint "{6A8D149A6474CEDB}" {
-    Position 26.019 -0 -3.093
+    Position 26.019 0 -3.093
    }
    ShapePoint "{6A8D149A6429421B}" {
     Position 8.81 0 -0.435
@@ -55364,7 +55485,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -120.864 0.019 24.949
-       angles 3.6 51.044 -0
+       angles 3.6 51.044 0
        scale 1.094
       }
       {
@@ -55384,7 +55505,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -77.487 3 11.229
-       angles 8 -154.612 -0
+       angles 8 -154.612 0
        scale 1.03
       }
       {
@@ -58456,7 +58577,6 @@ $grp SplineShapeEntity {
       {
        coords -0.856 -0.571 -80.034
        angles -27.626 111.449 -67.453
-       scale 1
       }
       {
        coords -56.791 -0.092 4.234
@@ -61006,7 +61126,6 @@ $grp SplineShapeEntity {
       {
        coords -157.523 -1.03 -11.546
        angles 0.757 -123.974 0.31
-       scale 1
       }
       {
        coords -153.49 -0.99 -6.835
@@ -61657,7 +61776,6 @@ $grp SplineShapeEntity {
       {
        coords 20.613 0.193 -33.77
        angles -0.648 92.541 -1.494
-       scale 1
       }
       {
        coords 18.008 -0.067 -33.323
