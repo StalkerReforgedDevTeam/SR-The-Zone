@@ -65601,68 +65601,6 @@ GenericEntity : "{1D2F578D059DEF0A}Prefabs/Props/Industrial/CargoContainers/Carg
  }
  coords 5172.578 20.009 2346.844
 }
-$grp GenericEntity : "{1D5355A64F27521C}Prefabs/Items/Moneys/armst_itm_money_1000rub.et" {
- armst_itm_money_1000rub_6A654284B55AA165 {
-  coords 6175.398 40.175 1341.985
-  angles 0 69.663 0
- }
- armst_itm_money_1000rub_6A654284B55AA2 {
-  coords 6175.422 40.175 1341.762
-  angles 0 -6.729 0
- }
- armst_itm_money_1000rub_6A654284B55AA3 {
-  coords 6175.764 40.183 1342.099
-  angles 0 -3.597 0
- }
- armst_itm_money_1000rub_6A654284B55AA4 {
-  coords 6175.794 40.175 1341.649
-  angles 0 19.605 0
- }
- armst_itm_money_1000rub_6A654284B55AA5 {
-  coords 6175.522 40.175 1341.625
-  angles 0 15.271 0
- }
- armst_itm_money_1000rub_6A654284B55AA6 {
-  coords 6175.349 40.175 1341.597
-  angles 0 -72.499 0
- }
- armst_itm_money_1000rub_6A654284B55AA7 {
-  coords 6175.61 40.175 1341.757
-  angles 0 81.614 0
- }
- armst_itm_money_1000rub_6A654284B55AA8 {
-  coords 6175.969 40.175 1342.152
-  angles 0 53.742 0
- }
- armst_itm_money_1000rub_6A654284B55AA9 {
-  coords 6175.572 40.175 1341.993
-  angles 0 88.71 0
- }
- armst_itm_money_1000rub_6A654284B55AA10 {
-  coords 6175.333 40.175 1341.887
-  angles 0 53.742 0
- }
- armst_itm_money_1000rub_6A654284B55AA11 {
-  coords 6175.957 40.175 1341.814
-  angles 0 28.006 0
- }
- armst_itm_money_1000rub_6A654284F1EFDBF9 {
-  coords 6176.364 40.515 1340.471
-  angles 0 20.08 0
- }
- armst_itm_money_1000rub_6A654284FF0530EA {
-  coords 6176.521 40.515 1340.586
-  angles 0 90.128 0
- }
- armst_itm_money_1000rub_6A654284FD21B695 {
-  coords 6176.576 40.515 1340.3
-  angles 0 -52.808 0
- }
- armst_itm_money_1000rub_6A654284E6A3ECE2 {
-  coords 6176.415 40.515 1340.21
-  angles 0 -88.817 0
- }
-}
 GenericEntity : "{1E3FA60090DE0E99}Prefabs/Props/Crates/CrateWooden_01_plain.et" {
  coords 6098.471 40 1366.219
 }
@@ -66372,9 +66310,6 @@ GenericEntity : "{2BF58454BEAB913E}Prefabs/Props/Industrial/Pallets/WoodenPallet
  }
  coords 5421.958 20.968 1840.496
  angles 0 3.185 0
-}
-GenericEntity armst_itm_money_100rub_6A6542844940F1ED : "{2BFAE99AC771DF8E}Prefabs/Items/Moneys/armst_itm_money_100rub.et" {
- coords 6175.464 40.175 1342.13
 }
 $grp Tree : "{2ED50A8AD68FBA5E}PrefabLibrary/CainLibrary/Vegetation/Bushes/b_corylus_avellana_1l_aut.et" {
  {
@@ -67803,18 +67738,12 @@ GenericEntity : "{3862BDA8F65E4A21}Prefabs/Props/Industrial/Repair/VehicleGarbag
  coords 5426.052 20 1841.855
  angles 0 25.506 0
 }
-$grp GenericEntity : "{386B401E642C5829}Prefabs/Items/Others/photos/girls/armst_photo_girls_5.et" {
- armst_photo_girls_5_6A58CEB74367538D {
-  editor EntityEditorProps "{6A650A8D915AA765}" {
-   Color 1 0 0 1
-  }
-  coords 5727.421 20.497 1205.757
-  angles 8.007 0 0
+GenericEntity armst_photo_girls_5_6A58CEB74367538D : "{386B401E642C5829}Prefabs/Items/Others/photos/girls/armst_photo_girls_5.et" {
+ editor EntityEditorProps "{6A650A8D915AA765}" {
+  Color 1 0 0 1
  }
- armst_photo_girls_5_6A6542848B6DA5FD {
-  coords 6174.982 40.523 1340.42
-  angles 0 42.572 0
- }
+ coords 5727.421 20.497 1205.757
+ angles 8.007 0 0
 }
 $grp StaticModelEntity : "{38830F6F1297670A}Prefabs/Structures/Military/Camps/AirfieldMatting_01/AirfieldMatting_USSR_01_short.et" {
  {
@@ -71239,10 +71168,6 @@ GenericEntity : "{53B76331BB3E6024}Prefabs/Props/Industrial/Mine/MiningLantern_0
  coords 5370.084 30.757 2059.995
  angles 0 -1.013 0
 }
-GenericEntity armst_photo_girls_6_6A6542849E1FE4F4 : "{543F74FED8E8D707}Prefabs/Items/Others/photos/girls/armst_photo_girls_6.et" {
- coords 6174.203 40.781 1342.022
- angles 0 66.292 0
-}
 StaticModelEntity : "{54B7A458FFFD01AF}Prefabs/Structures/Industrial/Houses/BoilerHouse_E_02/Dst/BoilerHouse_E_02_SmokeStack_Ruin.et" {
  editor EntityEditorProps "{6A650A8D915AA765}" {
   Color 1 0 0 1
@@ -72455,10 +72380,6 @@ $grp GenericEntity : "{6929659CE9375CAF}Prefabs/Props/Garbage/Tires/TireTractor_
   }
   coords 5733.608 20 1213.823
  }
-}
-GenericEntity armst_itm_money_50rub_6A654285C98B0810 : "{69F7DB51E2DFCEE4}Prefabs/Items/Moneys/armst_itm_money_50rub.et" {
- coords 6174.874 40.518 1340.205
- angles 0 -83.82 0
 }
 $grp GenericEntity : "{6A464C02FC40FBF3}Prefabs/Compositions/Misc/SubCompositions/Tire_UAZ469_Cluttered_USSR_01.et" {
  {
@@ -79901,10 +79822,6 @@ $grp GenericEntity : "{B16A99A11BC72793}Prefabs/Props/VehicleParts/Tires/Tire_M9
   coords 5461.117 20 1844.635
  }
 }
-GenericEntity armst_photo_girls_7_6A654284810CB2C2 : "{B1A33807D40D406C}Prefabs/Items/Others/photos/girls/armst_photo_girls_7.et" {
- coords 6174.659 40.78 1341.157
- angles 0 66.14 0
-}
 SCR_DestructibleBuildingEntity : "{B2172573ED15AA82}Prefabs/Structures/Houses/Village/House_Village_E_1L03/House_Village_E_1L03t.et" {
  editor EntityEditorProps "{6A650A8D915AA765}" {
   Color 1 0 0 1
@@ -83568,15 +83485,6 @@ $grp GenericEntity : "{DDF59362051B28BC}Prefabs/Props/Military/Fortification/Bar
   coords 5213.149 20 2345.371
  }
 }
-GenericEntity armst_photo_girls_4_6A654284F6EF4794 : "{DDF70CE768C9CF42}Prefabs/Items/Others/photos/girls/armst_photo_girls_4.et" {
- components {
-  ActionsManagerComponent "{508AB5952B584B2E}" {
-   Enabled 0
-  }
- }
- coords 6175.667 40.516 1340.333
- angles 0 27.163 0
-}
 GenericEntity : "{DE59CB05202006E8}Prefabs/Props/Agriculture/CultivatorWreck_01.et" {
  editor EntityEditorProps "{6A650A8D915AA765}" {
   Color 1 0 0 1
@@ -85464,10 +85372,6 @@ GenericEntity : "{F971B612CD2CA718}Prefabs/Vehicles/mi8/armst_mi6_wreck.et" {
  }
  coords 5628.998 20 1214.163
  angles 0 -129.432 0
-}
-GenericEntity armst_itm_money_500rub_6A654282362877C1 : "{F9BCE359095B16BB}Prefabs/Items/Moneys/armst_itm_money_500rub.et" {
- coords 6174.855 40.517 1340.399
- angles 0 -86.971 0
 }
 $grp Tree : "{F9D95E78D3E54D1E}PrefabLibrary/CainLibrary/Vegetation/Trees/t_picea_abies_2dw.et" {
  {
