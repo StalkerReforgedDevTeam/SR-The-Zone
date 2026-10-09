@@ -7231,6 +7231,10 @@ SCR_DestructibleBuildingEntity : "{45E53C8D7E30FB5F}Prefabs/Vehicles/azlk412/arm
   }
  }
 }
+SCR_DestructibleBuildingEntity : "{4942F5A04C472230}Prefabs/Structures/Houses/Village/House_Village_E_1I04/House_Village_E_1I04sf_red.et" {
+ coords 3468.266 0 3169.632
+ angles 0 88.869 0
+}
 StaticModelEntity : "{4DE187A3508D5A46}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_small_base.et" {
  Flags 0 0x80000
  coords 3241.273 23 2542.426
@@ -7238,6 +7242,9 @@ StaticModelEntity : "{4DE187A3508D5A46}Prefabs/Structures/Infrastructure/Towers/
 GameEntity : "{5EC10C92B8C82E69}Prefabs/Method/Props/Camps/Fireplace_Loiters_03.et" {
  coords 3723.421 40 2808.067
  angles 0 -21.627 0
+}
+SCR_DestructibleBuildingEntity : "{6A5434912CBD0296}Prefabs/Structures/Houses/Village/House_Village_E_1I03/House_Village_E_1I03_yellow.et" {
+ coords 3509.795 0 3129.448
 }
 SCR_DestructibleBuildingEntity : "{6D906A66DD727392}Prefabs/Houses/villages/village_stone_house_base_6_live.et" {
  coords 3661.583 20.22 2420.436
@@ -7264,6 +7271,17 @@ GenericEntity : "{73314E7C8FFC5B1C}Prefabs/Vehicles/gaz24/armst_gaz24_1_wreck.et
    coords 1.155 -0.039 -1.419
   }
  }
+}
+$grp SCR_DestructibleBuildingEntity : "{7A1C57051B31036D}Prefabs/Structures/Commercial/Shops/ShopHouse_E_2I01t_shoestore.et" {
+ {
+  coords 3426.959 0 3226.045
+ }
+ {
+  coords 3426.959 0 3195.354
+ }
+}
+SCR_DestructibleBuildingEntity : "{8ACC8A8EB87A28FF}Prefabs/Structures/Houses/Village/House_Village_E_1I03/House_Village_E_1I03.et" {
+ coords 3509.594 0 3099.19
 }
 SCR_DestructibleBuildingEntity : "{8C060E332CFDBF79}Prefabs/Vehicles/azlk412/armst_azlk412_1_wreck.et" {
  coords 3706.716 40 2796.145
@@ -7297,6 +7315,24 @@ SCR_DestructibleBuildingEntity : "{8C060E332CFDBF79}Prefabs/Vehicles/azlk412/arm
    ID "662E8AF2C420BE2E"
    coords 0.152 0.641 2.069
   }
+ }
+}
+SCR_DestructibleBuildingEntity : "{92AC652FED0FC35A}Prefabs/Structures/Houses/Village/House_Village_E_1I02/House_Village_E_1I02_white.et" {
+ coords 3466.065 0 3101.535
+ angles 0 -178.949 0
+}
+$grp SCR_DestructibleBuildingEntity : "{92E8F78BCF17D93D}Prefabs/Structures/Commercial/Shops/ShopHouse_E_2I01t_clothesstore.et" {
+ {
+  coords 3414.896 0 3227.027
+  angles 0 179.412 0
+ }
+ {
+  coords 3383.225 0 3236.934
+  angles 0 90.095 0
+ }
+ {
+  coords 3414.896 0 3196.336
+  angles 0 179.412 0
  }
 }
 $grp StaticModelEntity : "{94021BCA593A8CFF}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Wide.et" {
@@ -7344,6 +7380,10 @@ SCR_PowerPole : "{A6A8404C7705AA28}Prefabs/Structures/Infrastructure/Power/Trans
   }
  }
 }
+SCR_DestructibleBuildingEntity : "{B2172573ED15AA82}Prefabs/Structures/Houses/Village/House_Village_E_1L03/House_Village_E_1L03t.et" {
+ coords 3456.441 0 3132.634
+ angles 0 89.938 0
+}
 $grp SCR_DestructibleBuildingEntity : "{B2F1FA2F059A8D2B}Prefabs/Structures/Industrial/Shed with Concrete Wall.et" {
  {
   coords 3765.624 0 2812.91
@@ -7366,19 +7406,26 @@ $grp SCR_DestructibleBuildingEntity : "{B461AC17AE9B29EF}Prefabs/Structures/Agri
   angles 0 2.046 0
  }
 }
+SCR_DestructibleBuildingEntity : "{CFE8511B2B7E8AAA}Prefabs/Structures/Commercial/Shops/ShopModern_E_01.et" {
+ coords 3421.9 0.554 3251.254
+ angles 0 -178.489 0
+}
 $grp StaticModelEntity : "{DBCDEC45DB834E8A}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01.et" {
  {
-  coords 3729.496 40.022 2824.859
-  angles 0 95.498 0
+  coords 3699.71 40.022 2841.578
+  angles 0 92.734 0
  }
  {
-  coords 3740.571 40.022 2823.777
-  angles 0 94.501 0
+  coords 3710.824 40.022 2841.031
+  angles 0 91.737 0
  }
 }
 SCR_DestructibleBuildingEntity : "{DC1E102B809EB8C1}Prefabs/Houses/villages/village_stone_house_base_6_filled.et" {
  coords 3617.761 20.147 2429.287
  angles 0 -179.956 0
+}
+SCR_DestructibleBuildingEntity : "{DE43119351D125AC}Prefabs/Structures/Houses/Village/House_Village_E_1L02/House_Village_E_1L02t.et" {
+ coords 3505.845 0.183 3151.9
 }
 $grp SCR_DestructibleBuildingEntity : "{E2FD1CBCB7FD5A9F}Prefabs/Structures/Construcoes_Ruinas/metaltower_eletric.et" {
  {
@@ -7516,6 +7563,14 @@ $grp SCR_DestructibleEntity : "{F37DCE92787A8557}Prefabs/Structures/Infrastructu
   Flags 0 0x80000
   coords 3267.867 23 2467.513
   angles 0 -1.831 0
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{F51B9B9BD15BBE64}Prefabs/Structures/Commercial/Shops/ShopHouse_E_2I01t_householdwares.et" {
+ {
+  coords 3402.55 0 3225.965
+ }
+ {
+  coords 3402.55 0 3195.274
  }
 }
 GenericEntity : "{F739B7EF1DAE4134}Prefabs/Vehicles/vaz2109/armst_vaz2109_green_wreck.et" {
