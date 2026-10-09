@@ -7074,12 +7074,22 @@ SplineShapeEntity {
   }
  }
 }
-SCR_DestructibleBuildingEntity : "{04525213B59D7755}Prefabs/Houses/villages/village_stone_house_base_7_filled.et" {
- coords 3620.409 20.938 2377.644
- angles 0 90.057 0
+$grp SCR_DestructibleBuildingEntity : "{04525213B59D7755}Prefabs/Houses/villages/village_stone_house_base_7_filled.et" {
  {
-  GenericEntity armst_itm_food_bottle_vodka_1_6A786E0D49DC69E8 {
-   ID "66CB4A4BA8607474"
+  coords 3620.409 20.938 2377.644
+  angles 0 90.057 0
+  {
+   GenericEntity armst_itm_food_bottle_vodka_1_6A786E0D49DC69E8 {
+    ID "66CB4A4BA8607474"
+   }
+  }
+ }
+ {
+  coords 3346.397 40.163 3143.214
+  {
+   GenericEntity armst_itm_food_bottle_vodka_1_6A9333CC247227E7 {
+    ID "66CB4A4BA8607474"
+   }
   }
  }
 }
@@ -7156,6 +7166,9 @@ $grp SCR_DestructibleBuildingEntity : "{1E1FF3AE13CDC15D}Prefabs/Structures/Wall
 SCR_DestructibleBuildingEntity : "{22EEA8D7D13438B5}Prefabs/Structures/Veiculos/DirtyCar.et" {
  coords 3437.945 -0.001 2327.76
  angles -0.377 136.654 2.696
+}
+SCR_DestructibleBuildingEntity : "{24D17D223B42F404}Prefabs/Houses/villages/village_big_house_base_1.et" {
+ coords 3348.769 40 3187.013
 }
 SCR_DestructibleBuildingEntity : "{284A7F21D3B7430F}Prefabs/Structures/Commerical/RadioStation.et" {
  coords 3704.606 0 2825.851
@@ -7238,6 +7251,10 @@ SCR_DestructibleBuildingEntity : "{4942F5A04C472230}Prefabs/Structures/Houses/Vi
 StaticModelEntity : "{4DE187A3508D5A46}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_small_base.et" {
  Flags 0 0x80000
  coords 3241.273 23 2542.426
+}
+SCR_DestructibleBuildingEntity : "{501A1D545841BB0B}Prefabs/Houses/villages/village_stone_house_base_1_filled.et" {
+ coords 3416.398 40.375 3117.804
+ angles 0 -179.737 0
 }
 GameEntity : "{5EC10C92B8C82E69}Prefabs/Method/Props/Camps/Fireplace_Loiters_03.et" {
  coords 3723.421 40 2808.067
@@ -7406,6 +7423,10 @@ $grp SCR_DestructibleBuildingEntity : "{B461AC17AE9B29EF}Prefabs/Structures/Agri
   angles 0 2.046 0
  }
 }
+SCR_DestructibleBuildingEntity : "{BEF19A419D38409D}Prefabs/Houses/villages/village_stone_house_base_2+land.et" {
+ coords 3399.514 40 3134.506
+ angles 0 0.186 0
+}
 SCR_DestructibleBuildingEntity : "{CFE8511B2B7E8AAA}Prefabs/Structures/Commercial/Shops/ShopModern_E_01.et" {
  coords 3421.9 0.554 3251.254
  angles 0 -178.489 0
@@ -7420,9 +7441,14 @@ $grp StaticModelEntity : "{DBCDEC45DB834E8A}Prefabs/Structures/Infrastructure/To
   angles 0 91.737 0
  }
 }
-SCR_DestructibleBuildingEntity : "{DC1E102B809EB8C1}Prefabs/Houses/villages/village_stone_house_base_6_filled.et" {
- coords 3617.761 20.147 2429.287
- angles 0 -179.956 0
+$grp SCR_DestructibleBuildingEntity : "{DC1E102B809EB8C1}Prefabs/Houses/villages/village_stone_house_base_6_filled.et" {
+ {
+  coords 3617.761 20.147 2429.287
+  angles 0 -179.956 0
+ }
+ {
+  coords 3372.805 40 3114.32
+ }
 }
 SCR_DestructibleBuildingEntity : "{DE43119351D125AC}Prefabs/Structures/Houses/Village/House_Village_E_1L02/House_Village_E_1L02t.et" {
  coords 3505.845 0.183 3151.9
@@ -7571,6 +7597,305 @@ $grp SCR_DestructibleBuildingEntity : "{F51B9B9BD15BBE64}Prefabs/Structures/Comm
  }
  {
   coords 3402.55 0 3195.274
+ }
+}
+SCR_DestructibleBuildingEntity : "{F63A37887670DEEE}Prefabs/Houses/villages/village_stone_house_base_5_filled.et" {
+ coords 3371.694 40.257 3139.705
+}
+SCR_DestructibleBuildingEntity : "{F6CCBBDD7EDF3BEC}Prefabs/Structures/Industrial/Houses/Warehouse_01/Warehouse_01_V2.et" {
+ Flags 0 0x80000
+ coords 6598.01 30 2487.969
+ angles 0 -179.74 0
+ {
+  Building {
+   ID "56E0E50D72D4D301"
+   Flags 0 0x80000
+   coords 0 -4.425 0
+  }
+  Building {
+   ID "56E0E50D72D4D304"
+   Flags 0 0x80000
+   coords 0 -4.425 0
+  }
+  Building {
+   ID "56E0E50D72D4D305"
+   Flags 0 0x80000
+   coords 0 -4.425 0
+  }
+  Building {
+   ID "56E0E50D72D4D306"
+   Flags 0 0x80000
+   coords 0 -4.425 0
+  }
+  Building {
+   ID "56E0E50D72D4D308"
+   Flags 0 0x80000
+   coords 0.001 -4.425 0
+  }
+  Building {
+   ID "56E0E50D72D4D309"
+   Flags 0 0x80000
+   coords 0 -4.424 0
+  }
+  Building {
+   ID "56E0E50D72D4D30A"
+   Flags 0 0x80000
+   coords 0 -4.425 0
+  }
+  Building {
+   ID "56E0E50D72D4D30B"
+   Flags 0 0x80000
+   coords 0 -4.425 0
+  }
+  GameEnvironmentProbeEntity {
+   ID "5E68A1E6AACD7497"
+   Flags 0 0x80000
+   coords 0 0.001 0
+  }
+  GenericEntity {
+   ID "56E0E50D72D4D300"
+   Flags 0 0x80000
+   coords 0 -0.05 0
+   {
+    GenericEntity {
+     ID "5864884E712012FA"
+     Flags 0 0x80000
+     coords 0 -0.017 0
+    }
+    GenericEntity {
+     ID "5864884E7120121A"
+     Flags 0 0x80000
+     coords 0 -0.017 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "56E0E50D72D4D302"
+   Flags 0 0x80000
+   coords 0 -0.05 0
+   {
+    GenericEntity {
+     ID "5864884E712012FA"
+     Flags 0 0x80000
+     coords 0 -0.017 0
+    }
+    GenericEntity {
+     ID "5864884E7120121A"
+     Flags 0 0x80000
+     coords 0 -0.017 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "56E0E50D57BC7C92"
+   Flags 0 0x80000
+   coords 0 0 0
+   {
+    GenericEntity {
+     ID "56E0E50F1B7E8E81"
+     Flags 0 0x80000
+     coords 7.296 0 -4.658
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "56E0E50F1B7E8E9A"
+     Flags 0 0x80000
+     coords 2.691 0 -4.659
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "56E0E50F1B7E8EA3"
+     Flags 0 0x80000
+     coords 2.691 0 4.386
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "56E0E50F1B7E8EAF"
+     Flags 0 0x80000
+     coords -1.852 0.001 4.39
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "56E0E50F1B7E8EB1"
+     Flags 0 0x80000
+     coords 7.296 0.001 4.386
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "56E0E50F1B7E8EC1"
+     Flags 0 0x80000
+     coords 11.962 0 -4.658
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "56E0E50F1B7E8EDA"
+     Flags 0 0x80000
+     coords -10.959 0 -4.656
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "56E0E50F1B7E8F6E"
+     Flags 0 0x80000
+     coords -1.852 0.001 -4.656
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "56E0E50F1B7E8F7D"
+     Flags 0 0x80000
+     coords -6.475 0 -4.656
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "56E0EA16A21ADE50"
+     Flags 0 0x80000
+     coords 16.635 0 -2.414
+     angles 0 90 0
+     {
+      GameEntity {
+       ID "5A42D80F564F3E8B"
+       Flags 0 0x80000
+       {
+        LightEntity {
+         ID "5990CE56D1255F77"
+         Flags 0 0x80000
+         coords -0.001 -1.765 0.062
+         angles -65 0 0
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "56E0E50F1B7E8D65"
+     Flags 0 0x80000
+     coords -18.375 0 5.104
+     angles 0 92 0
+    }
+    GenericEntity {
+     ID "56E0E50F1B7E8C16"
+     Flags 0 0x80000
+     coords -18.603 0 -5.096
+     angles 0 -1 0
+    }
+    GenericEntity {
+     ID "56E0E50F1B7E8BF7"
+     Flags 0 0x80000
+     coords 16.331 0 2.17
+    }
+    GenericEntity {
+     ID "56E0E50F1B7E8F4E"
+     Flags 0 0x80000
+     coords 14.833 0.047 6.37
+     angles 0 -179.909 0
+    }
+    GenericEntity {
+     ID "56E0E50F1B7E8E29"
+     Flags 0 0x80000
+     coords -2.836 0.047 -5.958
+     angles 0 -175 0
+    }
+    GenericEntity {
+     ID "56E0E50F1B7E8E36"
+     Flags 0 0x80000
+     coords 8.382 0.047 4.917
+     angles 0 -4 0
+    }
+    GenericEntity {
+     ID "56E0E50F1B7E8E3D"
+     Flags 0 0x80000
+     coords -14.416 0.047 -6.262
+     angles 0 94 0
+    }
+    GenericEntity {
+     ID "56E0E50F1B7E8E54"
+     Flags 0 0x80000
+     coords 2.292 0.047 -3.152
+     angles 0 82 0
+    }
+    GenericEntity {
+     ID "56E0E50F1B7E8E68"
+     Flags 0 0x80000
+     coords 7.256 0.432 -3.459
+     angles 0 179 0
+    }
+    GenericEntity {
+     ID "56E0E50F1B7E8D8B"
+     Flags 0 0x80000
+     coords 11.995 4.271 -0.082
+    }
+    GenericEntity {
+     ID "56E0E50F1B7E8DA0"
+     Flags 0 0x80000
+     coords -6.402 4.271 -0.083
+     angles 0 -86.033 0
+    }
+    GenericEntity {
+     ID "56E0E50F1B7E8DB5"
+     Flags 0 0x80000
+     coords 2.804 4.271 -0.083
+     angles 0 38.699 0
+    }
+    GenericEntity {
+     ID "56E0E50F1B7E8DD3"
+     Flags 0 0x80000
+     coords -15.623 4.271 -0.082
+     angles 0 77.361 0
+    }
+    GenericEntity {
+     ID "56E0E50F1B7E8DE8"
+     Flags 0 0x80000
+     coords 15.115 0.047 3.242
+     angles 0 -1.135 0
+    }
+    GenericEntity {
+     ID "56E0E50F1B7E8D75"
+     Flags 0 0x80000
+     coords -13.106 0.047 -4.25
+    }
+    GenericEntity {
+     ID "56E0E50F1B7E8C95"
+     Flags 0 0x80000
+     coords -9.896 0.047 -6.571
+     angles 9.672 0 0
+    }
+    GenericEntity {
+     ID "56E0E50F1B7E8CE5"
+     Flags 0 0x80000
+     coords -0.758 0.047 3.022
+     angles 0 5 0
+    }
+    GenericEntity {
+     ID "56E0E50F1B7E8C01"
+     Flags 0 0x80000
+     coords 15.464 0.047 6.322
+     angles 0 180 0
+    }
+    GenericEntity {
+     ID "56E0E50F1B7E8C0D"
+     Flags 0 0x80000
+     coords 15.965 0.047 6.312
+     angles 0 -176 0
+    }
+    GenericEntity {
+     ID "56E0E50F1B7E8BA2"
+     Flags 0 0x80000
+     coords -5.128 0.047 5.587
+     angles 0 45 0
+    }
+    GenericEntity {
+     ID "56E0E50F1B7E8BAF"
+     Flags 0 0x80000
+     coords -7.164 0.047 5.574
+     angles 0 -68 0
+    }
+    GenericEntity {
+     ID "56E0E50F1B7E8BDE"
+     Flags 0 0x80000
+     coords -7.164 1.098 5.574
+     angles 0 -25.514 0
+    }
+   }
+  }
  }
 }
 GenericEntity : "{F739B7EF1DAE4134}Prefabs/Vehicles/vaz2109/armst_vaz2109_green_wreck.et" {

@@ -751,7 +751,7 @@ $grp PolylineShapeEntity {
     {
      $grp StaticModelEntity : "{7DD6D24A9BAE5A2D}Prefabs/Structures/Infrastructure/Pavements/ConcreteKerb_01_USSR/ConcreteKerb_01_USSR_2m.et" {
       {
-       coords 0 -0 0
+       coords 0 0 0
        angles 0 -111.097 0
       }
       {
@@ -803,16 +803,16 @@ $grp PolylineShapeEntity {
   coords 6612.34 28 2175.536
   Points {
    ShapePoint "{6A9157F2BF3C25B7}" {
-    Position -0.396 -0 0.293
+    Position -0.396 0 0.293
    }
    ShapePoint "{6A9157F2BF3C0D82}" {
-    Position 1.889 -0 -5.524
+    Position 1.889 0 -5.524
    }
    ShapePoint "{6A9157F2B918CC86}" {
-    Position -8.206 -0 -9.314
+    Position -8.206 0 -9.314
    }
    ShapePoint "{6A9157F2BA8F97C3}" {
-    Position -8.767 -0 -5.656
+    Position -8.767 0 -5.656
    }
   }
   LineColor 0 0 0 0
@@ -823,43 +823,43 @@ $grp PolylineShapeEntity {
     {
      $grp StaticModelEntity : "{7DD6D24A9BAE5A2D}Prefabs/Structures/Infrastructure/Pavements/ConcreteKerb_01_USSR/ConcreteKerb_01_USSR_2m.et" {
       {
-       coords -0.396 -0 0.293
+       coords -0.396 0 0.293
        angles 0 68.549 0
       }
       {
-       coords 0.342 -0 -1.587
+       coords 0.342 0 -1.587
        angles 0 68.549 0
       }
       {
-       coords 1.081 -0 -3.468
+       coords 1.081 0 -3.468
        angles 0 68.549 0
       }
       {
-       coords 1.82 -0 -5.348
+       coords 1.82 0 -5.348
        angles 0 -201.585 0
       }
       {
-       coords -0.059 -0 -6.091
+       coords -0.059 0 -6.091
        angles 0 -201.585 0
       }
       {
-       coords -1.937 -0 -6.834
+       coords -1.937 0 -6.834
        angles 0 -201.585 0
       }
       {
-       coords -3.816 -0 -7.577
+       coords -3.816 0 -7.577
        angles 0 -201.585 0
       }
       {
-       coords -5.694 -0 -8.32
+       coords -5.694 0 -8.32
        angles 0 -201.585 0
       }
       {
-       coords -7.573 -0 -9.064
+       coords -7.573 0 -9.064
        angles 0 -109.311 0
       }
       {
-       coords -8.241 -0 -7.157
+       coords -8.241 0 -7.157
        angles 0 -109.311 0
       }
      }
@@ -871,7 +871,7 @@ $grp PolylineShapeEntity {
   coords 6629.367 28 2168.931
   Points {
    ShapePoint "{6A9157F20D4EAA5C}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{6A9157F20D4E9415}" {
     Position -1.551 0.015 4.23
@@ -885,11 +885,11 @@ $grp PolylineShapeEntity {
     {
      $grp StaticModelEntity : "{7DD6D24A9BAE5A2D}Prefabs/Structures/Infrastructure/Pavements/ConcreteKerb_01_USSR/ConcreteKerb_01_USSR_2m.et" {
       {
-       coords 0 -0 0
+       coords 0 0 0
        angles 0 -110.135 0
       }
       {
-       coords -0.695 -0 1.897
+       coords -0.695 0 1.897
        angles 0 -110.135 0
       }
      }
@@ -916,7 +916,7 @@ $grp PolylineShapeEntity {
     {
      $grp StaticModelEntity : "{7DD6D24A9BAE5A2D}Prefabs/Structures/Infrastructure/Pavements/ConcreteKerb_01_USSR/ConcreteKerb_01_USSR_2m.et" {
       {
-       coords 0 -0 0
+       coords 0 0 0
        angles 0 -110.727 0
       }
       {
@@ -6885,7 +6885,7 @@ $grp SCR_DestructibleBuildingEntity : "{E88314DD42BF550D}Prefabs/Structures/Veic
 }
 $grp SCR_DestructibleBuildingEntity : "{EB050FB6C17A561D}Prefabs/Structures/Veiculos/OldTruck2.et" {
  {
-  coords 6672.435 -0 2103.598
+  coords 6672.435 0 2103.598
  }
  {
   coords 6674.762 0 2103.598
@@ -6964,302 +6964,6 @@ $grp GenericEntity : "{EF2962FC3EFD9C17}Prefabs/Props/Industrial/CargoContainers
  {
   coords 6622.708 28 2103.978
   angles 2.955 -112.74 2.88
- }
-}
-SCR_DestructibleBuildingEntity : "{F6CCBBDD7EDF3BEC}Prefabs/Structures/Industrial/Houses/Warehouse_01/Warehouse_01_V2.et" {
- Flags 0 0x80000
- coords 6598.01 30 2487.969
- angles 0 -179.74 0
- {
-  Building {
-   ID "56E0E50D72D4D301"
-   Flags 0 0x80000
-   coords 0 -4.425 0
-  }
-  Building {
-   ID "56E0E50D72D4D304"
-   Flags 0 0x80000
-   coords 0 -4.425 0
-  }
-  Building {
-   ID "56E0E50D72D4D305"
-   Flags 0 0x80000
-   coords 0 -4.425 0
-  }
-  Building {
-   ID "56E0E50D72D4D306"
-   Flags 0 0x80000
-   coords 0 -4.425 0
-  }
-  Building {
-   ID "56E0E50D72D4D308"
-   Flags 0 0x80000
-   coords 0.001 -4.425 0
-  }
-  Building {
-   ID "56E0E50D72D4D309"
-   Flags 0 0x80000
-   coords 0 -4.424 0
-  }
-  Building {
-   ID "56E0E50D72D4D30A"
-   Flags 0 0x80000
-   coords 0 -4.425 0
-  }
-  Building {
-   ID "56E0E50D72D4D30B"
-   Flags 0 0x80000
-   coords 0 -4.425 0
-  }
-  GameEnvironmentProbeEntity {
-   ID "5E68A1E6AACD7497"
-   Flags 0 0x80000
-   coords 0 0.001 0
-  }
-  GenericEntity {
-   ID "56E0E50D72D4D300"
-   Flags 0 0x80000
-   coords 0 -0.05 0
-   {
-    GenericEntity {
-     ID "5864884E712012FA"
-     Flags 0 0x80000
-     coords 0 -0.017 0
-    }
-    GenericEntity {
-     ID "5864884E7120121A"
-     Flags 0 0x80000
-     coords 0 -0.017 0
-    }
-   }
-  }
-  GenericEntity {
-   ID "56E0E50D72D4D302"
-   Flags 0 0x80000
-   coords 0 -0.05 0
-   {
-    GenericEntity {
-     ID "5864884E712012FA"
-     Flags 0 0x80000
-     coords 0 -0.017 0
-    }
-    GenericEntity {
-     ID "5864884E7120121A"
-     Flags 0 0x80000
-     coords 0 -0.017 0
-    }
-   }
-  }
-  GenericEntity {
-   ID "56E0E50D57BC7C92"
-   Flags 0 0x80000
-   coords 0 0 0
-   {
-    GenericEntity {
-     ID "56E0E50F1B7E8E81"
-     Flags 0 0x80000
-     coords 7.296 0 -4.658
-     angles 0 90 0
-    }
-    GenericEntity {
-     ID "56E0E50F1B7E8E9A"
-     Flags 0 0x80000
-     coords 2.691 0 -4.659
-     angles 0 90 0
-    }
-    GenericEntity {
-     ID "56E0E50F1B7E8EA3"
-     Flags 0 0x80000
-     coords 2.691 0 4.386
-     angles 0 90 0
-    }
-    GenericEntity {
-     ID "56E0E50F1B7E8EAF"
-     Flags 0 0x80000
-     coords -1.852 0.001 4.39
-     angles 0 90 0
-    }
-    GenericEntity {
-     ID "56E0E50F1B7E8EB1"
-     Flags 0 0x80000
-     coords 7.296 0.001 4.386
-     angles 0 90 0
-    }
-    GenericEntity {
-     ID "56E0E50F1B7E8EC1"
-     Flags 0 0x80000
-     coords 11.962 0 -4.658
-     angles 0 90 0
-    }
-    GenericEntity {
-     ID "56E0E50F1B7E8EDA"
-     Flags 0 0x80000
-     coords -10.959 0 -4.656
-     angles 0 90 0
-    }
-    GenericEntity {
-     ID "56E0E50F1B7E8F6E"
-     Flags 0 0x80000
-     coords -1.852 0.001 -4.656
-     angles 0 90 0
-    }
-    GenericEntity {
-     ID "56E0E50F1B7E8F7D"
-     Flags 0 0x80000
-     coords -6.475 0 -4.656
-     angles 0 90 0
-    }
-    GenericEntity {
-     ID "56E0EA16A21ADE50"
-     Flags 0 0x80000
-     coords 16.635 0 -2.414
-     angles 0 90 0
-     {
-      GameEntity {
-       ID "5A42D80F564F3E8B"
-       Flags 0 0x80000
-       {
-        LightEntity {
-         ID "5990CE56D1255F77"
-         Flags 0 0x80000
-         coords -0.001 -1.765 0.062
-         angles -65 0 0
-        }
-       }
-      }
-     }
-    }
-    GenericEntity {
-     ID "56E0E50F1B7E8D65"
-     Flags 0 0x80000
-     coords -18.375 0 5.104
-     angles 0 92 0
-    }
-    GenericEntity {
-     ID "56E0E50F1B7E8C16"
-     Flags 0 0x80000
-     coords -18.603 0 -5.096
-     angles 0 -1 0
-    }
-    GenericEntity {
-     ID "56E0E50F1B7E8BF7"
-     Flags 0 0x80000
-     coords 16.331 0 2.17
-    }
-    GenericEntity {
-     ID "56E0E50F1B7E8F4E"
-     Flags 0 0x80000
-     coords 14.833 0.047 6.37
-     angles 0 -179.909 0
-    }
-    GenericEntity {
-     ID "56E0E50F1B7E8E29"
-     Flags 0 0x80000
-     coords -2.836 0.047 -5.958
-     angles 0 -175 0
-    }
-    GenericEntity {
-     ID "56E0E50F1B7E8E36"
-     Flags 0 0x80000
-     coords 8.382 0.047 4.917
-     angles 0 -4 0
-    }
-    GenericEntity {
-     ID "56E0E50F1B7E8E3D"
-     Flags 0 0x80000
-     coords -14.416 0.047 -6.262
-     angles 0 94 0
-    }
-    GenericEntity {
-     ID "56E0E50F1B7E8E54"
-     Flags 0 0x80000
-     coords 2.292 0.047 -3.152
-     angles 0 82 0
-    }
-    GenericEntity {
-     ID "56E0E50F1B7E8E68"
-     Flags 0 0x80000
-     coords 7.256 0.432 -3.459
-     angles 0 179 0
-    }
-    GenericEntity {
-     ID "56E0E50F1B7E8D8B"
-     Flags 0 0x80000
-     coords 11.995 4.271 -0.082
-    }
-    GenericEntity {
-     ID "56E0E50F1B7E8DA0"
-     Flags 0 0x80000
-     coords -6.402 4.271 -0.083
-     angles 0 -86.033 0
-    }
-    GenericEntity {
-     ID "56E0E50F1B7E8DB5"
-     Flags 0 0x80000
-     coords 2.804 4.271 -0.083
-     angles 0 38.699 0
-    }
-    GenericEntity {
-     ID "56E0E50F1B7E8DD3"
-     Flags 0 0x80000
-     coords -15.623 4.271 -0.082
-     angles 0 77.361 0
-    }
-    GenericEntity {
-     ID "56E0E50F1B7E8DE8"
-     Flags 0 0x80000
-     coords 15.115 0.047 3.242
-     angles 0 -1.135 0
-    }
-    GenericEntity {
-     ID "56E0E50F1B7E8D75"
-     Flags 0 0x80000
-     coords -13.106 0.047 -4.25
-    }
-    GenericEntity {
-     ID "56E0E50F1B7E8C95"
-     Flags 0 0x80000
-     coords -9.896 0.047 -6.571
-     angles 9.672 0 0
-    }
-    GenericEntity {
-     ID "56E0E50F1B7E8CE5"
-     Flags 0 0x80000
-     coords -0.758 0.047 3.022
-     angles 0 5 0
-    }
-    GenericEntity {
-     ID "56E0E50F1B7E8C01"
-     Flags 0 0x80000
-     coords 15.464 0.047 6.322
-     angles 0 180 0
-    }
-    GenericEntity {
-     ID "56E0E50F1B7E8C0D"
-     Flags 0 0x80000
-     coords 15.965 0.047 6.312
-     angles 0 -176 0
-    }
-    GenericEntity {
-     ID "56E0E50F1B7E8BA2"
-     Flags 0 0x80000
-     coords -5.128 0.047 5.587
-     angles 0 45 0
-    }
-    GenericEntity {
-     ID "56E0E50F1B7E8BAF"
-     Flags 0 0x80000
-     coords -7.164 0.047 5.574
-     angles 0 -68 0
-    }
-    GenericEntity {
-     ID "56E0E50F1B7E8BDE"
-     Flags 0 0x80000
-     coords -7.164 1.098 5.574
-     angles 0 -25.514 0
-    }
-   }
-  }
  }
 }
 SCR_DestructibleBuildingEntity : "{F885365EEA3AD315}Prefabs/Structures/Walls/Concrete/ConcreteRetainingWall_01/ConcreteRetainingWall_01_End.et" {
