@@ -1639,7 +1639,7 @@ $grp PolylineShapeEntity {
     Position -40.187 0 -5.53
    }
    ShapePoint "{6A928681A26514CF}" {
-    Position -38.788 -0 -66.927
+    Position -38.788 0 -66.927
    }
    ShapePoint "{6A928681AE9CE1AD}" {
     Position -15.469 1.663 -93.932
@@ -64727,6 +64727,326 @@ $grp SplineShapeEntity {
   IsClosed 1
   {
    LakeGeneratorEntity : "{0263A3344F9DCAAD}Prefabs/WEGenerators/Water/Lake/LG_DirtyDrainage_01.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 4012.276 20.267 3204.644
+  Points {
+   ShapePoint "{6A94A793B3362841}" {
+    Position 7.271 -0.59 21.82
+   }
+   ShapePoint "{6A94A793B3364172}" {
+    Position -0.238 0.085 -3.262
+   }
+   ShapePoint "{6A94A793B1AEFAAA}" {
+    Position -15.628 1.706 -2.656
+   }
+   ShapePoint "{6A94A793B0E03871}" {
+    Position -27.871 2.019 7.767
+   }
+   ShapePoint "{6A94A793B03CFE29}" {
+    Position -29.695 0.199 25.184
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{D70816286B74E7F8}Prefabs/WEGenerators/Walls/Wooden/WG_WoodenFence_03.et" {
+    Flags 0x100003 0
+    m_iSeed 1836
+    {
+     SCR_DestructibleEntity : "{261B2C977CEB1CEA}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenFence_03_Pole.et" {
+      coords -29.706 0.241 24.657
+      angles 0 271.237 0
+     }
+     $grp SCR_DestructibleEntity : "{5EF68161E25B9320}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenFence_03_8m.et" {
+      {
+       coords 7.283 -0.592 21.88
+       angles 0 101.429 0
+      }
+      {
+       coords 0.384 0.04 -2.505
+       angles 0 159.642 0
+      }
+      {
+       coords -27.63 2.048 7.293
+       angles 0 256.711 0
+      }
+     }
+     $grp SCR_DestructibleEntity : "{BF6DA4D2C6133846}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenFence_03_4m.et" {
+      {
+       coords 5.732 -0.266 14.199
+       angles 0 103.161 0
+      }
+      {
+       coords 4.844 -0.443 10.393
+       angles 0 104.673 0
+      }
+      {
+       coords 3.857 -0.362 6.612
+       angles 0 107.098 0
+      }
+      {
+       coords 2.712 -0.177 2.876
+       angles 0 111.328 0
+      }
+      {
+       coords -6.96 0.785 -5.265
+       angles 0 192.349 0
+      }
+      {
+       coords -10.779 1.222 -4.437
+       angles 0 199.758 0
+      }
+      {
+       coords -29.441 1.248 14.918
+       angles 0 266.471 0
+      }
+      {
+       coords -29.684 0.797 18.818
+       angles 0 269.214 0
+      }
+     }
+     SCR_DestructibleEntity : "{C084F3CC25780DF6}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenFence_03_4m_D.et" {
+      coords -14.459 1.593 -3.122
+      angles 0 205.619 0
+     }
+     $grp SCR_DestructibleEntity : "{CFA0360B54376DF5}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenFence_03_2m.et" {
+      {
+       coords 1.298 -0.006 -0.768
+       angles 0 118.908 0
+      }
+      {
+       coords -19.348 1.996 -0.786
+       angles 0 213.217 0
+      }
+      {
+       coords -20.979 2.078 0.277
+       angles 0 217.181 0
+      }
+      {
+       coords -22.534 2.128 1.45
+       angles 0 221.506 0
+      }
+      {
+       coords -23.995 2.111 2.737
+       angles 0 226.1 0
+      }
+      {
+       coords -25.35 2.116 4.137
+       angles 0 231.386 0
+      }
+      {
+       coords -26.571 2.112 5.654
+       angles 0 237.707 0
+      }
+      {
+       coords -29.74 0.419 22.725
+       angles 0 271.013 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3981.675 20.753 3234.468
+  Points {
+   ShapePoint "{6A94A7939C71D53F}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6A94A7939C71F0DE}" {
+    Position 0.753 0.053 6.205
+   }
+   ShapePoint "{6A94A79399E0A8AC}" {
+    Position 10.037 0.344 18.024
+   }
+   ShapePoint "{6A94A7939963210B}" {
+    Position 19.27 0.138 23.603
+   }
+   ShapePoint "{6A94A793983ADF46}" {
+    Position 34.347 0.423 20.361
+   }
+   ShapePoint "{6A94A793859B4A8B}" {
+    Position 47.242 -0.753 11.801
+   }
+   ShapePoint "{6A94A79384D3ED73}" {
+    Position 40.878 -0.908 -0.699
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{D70816286B74E7F8}Prefabs/WEGenerators/Walls/Wooden/WG_WoodenFence_03.et" {
+    Flags 0x100003 0
+    coords 0 0 0
+    m_iSeed 7761
+    {
+     SCR_DestructibleEntity : "{261B2C977CEB1CEA}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenFence_03_Pole.et" {
+      coords 41.243 -0.957 -0.235
+      angles 0 128.17 0
+     }
+     $grp SCR_DestructibleEntity : "{5EF68161E25B9320}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenFence_03_8m.et" {
+      {
+       coords 0.34 0.125 5.353
+       angles 0 303.52 0
+      }
+      {
+       coords 9.785 0.331 17.788
+       angles 0 321.352 0
+      }
+      {
+       coords 32.562 0.577 21.071
+       angles 0 23.613 0
+      }
+      {
+       coords 47.245 -0.75 11.905
+       angles 0 109.504 0
+      }
+     }
+     $grp SCR_DestructibleEntity : "{BF6DA4D2C6133846}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenFence_03_4m.et" {
+      {
+       coords 4.662 0.034 11.89
+       angles 0 309.2 0
+      }
+      {
+       coords 7.129 0.16 14.92
+       angles 0 312.94 0
+      }
+      {
+       coords 39.744 -0.22 17.938
+       angles 0 29.207 0
+      }
+      {
+       coords 43.161 -0.641 16.04
+       angles 0 39.414 0
+      }
+      {
+       coords 44.643 -1.052 4.512
+       angles 0 124.706 0
+      }
+     }
+     $grp SCR_DestructibleEntity : "{C084F3CC25780DF6}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenFence_03_4m_D.et" {
+      {
+       coords -0.004 -0.001 -0.061
+       angles 0 273.953 0
+      }
+      {
+       coords 17.731 0.199 23.357
+       angles 0 358.799 0
+      }
+     }
+     $grp SCR_DestructibleEntity : "{CFA0360B54376DF5}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenFence_03_2m.et" {
+      {
+       coords 15.895 0.105 22.699
+       angles 0 340.847 0
+      }
+      {
+       coords 23.147 0.574 23.481
+       angles 0 9.042 0
+      }
+      {
+       coords 25.071 0.692 23.179
+       angles 0 12.145 0
+      }
+      {
+       coords 26.975 0.753 22.772
+       angles 0 14.734 0
+      }
+      {
+       coords 28.859 0.74 22.279
+       angles 0 17.045 0
+      }
+      {
+       coords 30.722 0.679 21.71
+       angles 0 19.3 0
+      }
+      {
+       coords 46.196 -0.753 13.572
+       angles 0 59.178 0
+      }
+      {
+       coords 42.421 -1.074 1.297
+       angles 0 127.587 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 4296.702 20 3057.319
+  Points {
+   ShapePoint "{6A94A796340846CF}" {
+    Position -0.857 -0 1.886
+   }
+   ShapePoint "{6A94A796340917CC}" {
+    Position 8.25 -0 2.785
+   }
+   ShapePoint "{6A94A796332F88A2}" {
+    Position 16.582 -0 -4.573
+   }
+   ShapePoint "{6A94A79632E5B54C}" {
+    Position 17.294 -0 -17.273
+   }
+   ShapePoint "{6A94A79632947BFA}" {
+    Position 16.792 -0 -28.042
+   }
+   ShapePoint "{6A94A796324302F7}" {
+    Position 10.82 -0.001 -37.114
+   }
+   ShapePoint "{6A94A79631F85DBE}" {
+    Position -7.088 -0 -34.105
+   }
+   ShapePoint "{6A94A79631B7431B}" {
+    Position -21.842 0 -34.028
+   }
+   ShapePoint "{6A94A796317A8DAF}" {
+    Position -39.177 -0 -34.031
+   }
+   ShapePoint "{6A94A796313E85D4}" {
+    Position -53.364 -0 -31.459
+   }
+   ShapePoint "{6A94A79630FB1806}" {
+    Position -66.769 -0 -30.632
+   }
+   ShapePoint "{6A94A796308527F2}" {
+    Position -76.134 -0 -22.777
+   }
+   ShapePoint "{6A94A7963F51A072}" {
+    Position -90.812 0.481 -7.763
+   }
+   ShapePoint "{6A94A7963F1EE100}" {
+    Position -92.722 0.636 -1.947
+   }
+   ShapePoint "{6A94A7963E8DE9B0}" {
+    Position -85.683 0.297 7.706
+   }
+   ShapePoint "{6A94A7963E4B7A5B}" {
+    Position -77.474 0.012 10.544
+   }
+   ShapePoint "{6A94A7963E08E9ED}" {
+    Position -67.93 -0 6.313
+   }
+   ShapePoint "{6A94A7963DC8C5D9}" {
+    Position -59.854 -0 3.729
+   }
+   ShapePoint "{6A94A7963D6D48D5}" {
+    Position -50.019 -0 1.835
+   }
+   ShapePoint "{6A94A7963D332B14}" {
+    Position -45.652 -0 1.913
+   }
+   ShapePoint "{6A94A7963C7EE2FA}" {
+    Position -25.474 -0 1.552
+   }
+   ShapePoint "{6A94A7963BD313E7}" {
+    Position -7.459 -0 2.283
+   }
+  }
+  IsClosed 1
+  {
+   LakeGeneratorEntity : "{1F2254A7C9C8AA57}Prefabs/WEGenerators/Water/Lake/LG_Lake_01.et" {
     coords 0 0 0
    }
   }
