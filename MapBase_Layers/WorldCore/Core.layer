@@ -65104,4 +65104,224 @@ $grp SplineShapeEntity {
    }
   }
  }
+ {
+  coords 6428.942 30.577 3326.229
+  Points {
+   ShapePoint "{6A8D3CFB320E3260}" {
+    Position -20.526 -1.831 -17.622
+   }
+   ShapePoint "{6A8D3CFB32F1E017}" {
+    Position -27.428 -0.53 -41.242
+   }
+   ShapePoint "{6A8D3CFB335B2F69}" {
+    Position -35.745 -0.416 -62.263
+   }
+   ShapePoint "{6A8D3CFB30C32BCD}" {
+    Position -39.314 -0.577 -90.868
+   }
+  }
+  {
+   RoadGeneratorEntity : "{0032466D94C588E6}Prefabs/WEGenerators/Roads/Dirt/RG_Road_Forest_01.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "55F85D16D1C7EB8E"
+      SplinePoints {
+       ShapePoint "{556C65561A62B78A}" {
+        Position -20.526 -1.831 -17.622
+       }
+       ShapePoint "{556C65561A62EBA9}" {
+        Position -27.428 -0.53 -41.242
+       }
+       ShapePoint "{6A8D3CFA94A5D8ED}" {
+        Position -35.745 -0.416 -62.263
+       }
+       ShapePoint "{6A8D3CFA94A5D93F}" {
+        Position -39.314 -0.577 -90.868
+       }
+      }
+      IsClosedSpline 0
+      Width 4.5
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6410.661 24.477 3353.471
+  Points {
+   ShapePoint "{6A96151D011BD628}" {
+    Position -2.787 2.948 5.366
+   }
+   ShapePoint "{6A96151D016D8D3E}" {
+    Position -8.351 5.178 26.389
+    Data {
+     SplinePointData SplinePointData {
+      InTangent -3.453 -2.95 21.285
+      OutTangent -3.453 -2.95 21.285
+     }
+    }
+   }
+   ShapePoint "{6A96151D01D05C71}" {
+    Position -11.074 4.512 42.579
+   }
+   ShapePoint "{6A96151D07BCFD52}" {
+    Position -12.027 3.671 57.867
+   }
+  }
+  {
+   RoadGeneratorEntity : "{8E83BBD5CEC42A11}Prefabs/WEGenerators/Roads/Dirt/RG_Road_Dirt_01.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "523EAA80CAA6C6B5"
+      SplinePoints {
+       ShapePoint "{52346539D885C296}" {
+        Position -2.787 2.948 5.366
+       }
+       ShapePoint "{52346539D885C1A2}" {
+        Position -8.351 5.178 26.389
+        Data {
+         SplinePointData "{00000000D8F1BA4F}" {
+          InTangent -3.453 -2.95 21.285
+          OutTangent -3.453 -2.95 21.285
+         }
+        }
+       }
+       ShapePoint "{6A961511AF6BD349}" {
+        Position -11.074 4.512 42.579
+       }
+       ShapePoint "{6A961511AF6BD390}" {
+        Position -12.027 3.671 57.867
+       }
+      }
+      IsClosedSpline 0
+      Width 4
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6254.817 20 3603.746
+  Points {
+   ShapePoint "{6A967588F0636B22}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6A967588F0635EB7}" {
+    Position 5 0 0
+   }
+   ShapePoint "{6A967588888C115C}" {
+    Position 28.004 -0 -6.413
+   }
+   ShapePoint "{6A9675888847D49F}" {
+    Position 48.467 0 -37.774
+   }
+   ShapePoint "{6A96758889089CC8}" {
+    Position 40.402 0 -75.611
+   }
+   ShapePoint "{6A9675888AC16FE0}" {
+    Position 12.381 -0.004 -93.708
+   }
+   ShapePoint "{6A9675888B8F714E}" {
+    Position -16.389 0 -89.951
+   }
+   ShapePoint "{6A9675888B500945}" {
+    Position -37.679 -0 -65.154
+   }
+   ShapePoint "{6A96758884C67535}" {
+    Position -36.4 0.001 -29.272
+   }
+   ShapePoint "{6A967588854C02D6}" {
+    Position -55.493 4.99 -5.065
+   }
+   ShapePoint "{6A967588872FEF8C}" {
+    Position -91.022 10.223 -7.823
+   }
+   ShapePoint "{6A96758881444E79}" {
+    Position -129.376 11.074 -7.506
+   }
+  }
+  {
+   RoadGeneratorEntity : "{48DE5853DE20B238}Prefabs/WEGenerators/Roads/Dirt/RG_TrailCoal_01.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "64C696E4EE5B4CC1"
+      SplinePoints {
+       ShapePoint "{5256E6ED186CB7B5}" {
+        Position 0 0 0
+       }
+       ShapePoint "{5256E6ED186CB58D}" {
+        Position 5 0 0
+       }
+       ShapePoint "{6A967588888D3653}" {
+        Position 28.004 -0 -6.413
+       }
+       ShapePoint "{6A967588884A0802}" {
+        Position 48.467 0 -37.774
+       }
+       ShapePoint "{6A967588890B06C4}" {
+        Position 40.402 0 -75.611
+       }
+       ShapePoint "{6A9675888AC39B5F}" {
+        Position 12.381 -0.004 -93.708
+       }
+       ShapePoint "{6A9675888B91A5BC}" {
+        Position -16.389 0 -89.951
+       }
+       ShapePoint "{6A9675888B524F99}" {
+        Position -37.679 -0 -65.154
+       }
+       ShapePoint "{6A96758884C8A474}" {
+        Position -36.4 0.001 -29.272
+       }
+       ShapePoint "{6A967588854E4249}" {
+        Position -55.493 4.99 -5.065
+       }
+       ShapePoint "{6A96758887322B2B}" {
+        Position -91.022 10.223 -7.823
+       }
+       ShapePoint "{6A96758881468AEA}" {
+        Position -129.376 11.074 -7.506
+       }
+      }
+      IsClosedSpline 0
+      Width 1.75
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6255.001 19.996 3509.946
+  Points {
+   ShapePoint "{6A967597C7016B4C}" {
+    Position 0 -0 0
+   }
+   ShapePoint "{6A967597C73FA7E5}" {
+    Position -1.113 -8.132 38.807
+   }
+  }
+  {
+   RoadGeneratorEntity : "{48DE5853DE20B238}Prefabs/WEGenerators/Roads/Dirt/RG_TrailCoal_01.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "64C696E4EE5B4CC1"
+      SplinePoints {
+       ShapePoint "{5256E6ED186CB7B5}" {
+        Position 0 -0 0
+       }
+       ShapePoint "{5256E6ED186CB58D}" {
+        Position -1.113 -8.132 38.807
+       }
+      }
+      IsClosedSpline 0
+      Width 1.75
+     }
+    }
+   }
+  }
+ }
 }
