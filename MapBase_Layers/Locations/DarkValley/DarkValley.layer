@@ -1117,6 +1117,10 @@ $grp PolylineShapeEntity {
   }
  }
 }
+GenericEntity : "{002B8C09F0E7E371}Prefabs/Props/Wrecks/S1203_wreck/S1203_wreck_static.et" {
+ coords 6501.146 30 2425.103
+ angles 0 -92.149 0
+}
 SCR_DestructibleBuildingEntity : "{00D9E37F8064CE03}Prefabs/Structures/City/TP.et" {
  Flags 0 0x80000
  coords 6482.272 30 2397.777
@@ -1597,6 +1601,10 @@ SCR_DestructibleBuildingEntity : "{07814673B75CDCFB}Prefabs/Structures/Industria
   }
  }
 }
+StaticModelEntity : "{07F043DD6AACCD0B}Prefabs/Structures/Infrastructure/Barriers/BarGate_01/BarGate_01.et" {
+ coords 6495.84 0 2432.668
+ angles 0 -89.396 0
+}
 SCR_DestructibleBuildingEntity : "{080058919D353B6B}Prefabs/Structures/Construcoes_Ruinas/abandonedShop.et" {
  Flags 0 0x80000
  coords 6282.27 39.915 2845.735
@@ -1943,6 +1951,24 @@ $grp GenericEntity : "{16B3A59B10F83339}Prefabs/Props/Industrial/CargoContainers
   coords 6655.101 28 2103.332
   angles 1.059 -112.835 2.876
  }
+ {
+  coords 6501.388 30 2418.235
+  angles 0 91.064 0
+ }
+ {
+  coords 6501.064 32.634 2414.251
+ }
+ {
+  coords 6575.324 30 2405.036
+ }
+ {
+  coords 6537.045 30 2475.627
+  angles 0 178.541 0
+ }
+}
+GenericEntity : "{1A1CE09F7BCA6650}Prefabs/Props/Wrecks/S105_wreck/S105_wreck_static.et" {
+ coords 6503.167 30 2434.725
+ angles 0 108.07 0
 }
 $grp SCR_DestructibleBuildingEntity : "{1AB3F8B3F8CA860D}Prefabs/Structures/Houses/Garage/Garage_B.et" {
  {
@@ -1991,7 +2017,7 @@ $grp SCR_DestructibleBuildingEntity : "{1AB3F8B3F8CA860D}Prefabs/Structures/Hous
  }
  {
   Flags 0 0x80000
-  coords 6527.642 30 2448.951
+  coords 6527.786 30 2453.579
   angles 0 -88.217 0
   {
    GameEnvironmentProbeEntity {
@@ -2013,7 +2039,7 @@ $grp SCR_DestructibleBuildingEntity : "{1AB3F8B3F8CA860D}Prefabs/Structures/Hous
  }
  {
   Flags 0 0x80000
-  coords 6527.87 30 2456.276
+  coords 6527.991 30 2460.168
   angles 0 -88.217 0
   {
    GameEnvironmentProbeEntity {
@@ -2069,6 +2095,27 @@ $grp SCR_DestructibleBuildingEntity : "{1C87C72319097FC1}Prefabs/Structures/Wall
  {
   coords 6684.886 26.073 2091.095
   angles 0 -18.12 0
+ }
+}
+$grp GenericEntity : "{1D2F578D059DEF0A}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_20ft_green_rusty.et" {
+ {
+  coords 6501.063 30 2412.018
+  angles 0 92.696 0
+ }
+ {
+  coords 6571.096 30 2412.553
+  angles 0 -16.857 0
+ }
+ {
+  coords 6560.345 30 2412.772
+ }
+ {
+  coords 6541.463 30 2468.22
+  angles 0 161.685 0
+ }
+ {
+  coords 6552.216 30 2468.275
+  angles 0 178.541 0
  }
 }
 SCR_DestructibleBuildingEntity : "{1F5DE8371A7EA3B1}Prefabs/Structures/Industrial/ConstructionBuilding_A.et" {
@@ -2678,6 +2725,10 @@ $grp GenericEntity : "{35E211705F8FED68}Prefabs/Props/Industrial/CargoContainers
   angles 0 70.588 0
  }
 }
+GenericEntity : "{38E750A0E7C3B350}Prefabs/Props/Wrecks/Mi8MT_wreck/Mi8MT_wreck.et" {
+ coords 6558.544 38.903 2383.518
+ angles -23.419 -59.561 7.473
+}
 $grp SCR_DestructibleBuildingEntity : "{3D8DD14823A2EFB0}Prefabs/Structures/Veiculos/Oldcar_blue.et" {
  {
   coords 6271.27 0 2515.999
@@ -3161,6 +3212,14 @@ SCR_DestructibleBuildingEntity : "{427D2BB4E4D96606}Prefabs/Structures/Industria
   }
  }
 }
+GenericEntity : "{44277710A8E45F97}Prefabs/Props/Wrecks/UAZ469_wreck/UAZ469_wreck_rusty_static.et" {
+ coords 6518.441 29.664 2434.745
+ angles 0 111.055 0
+}
+GenericEntity : "{45D056CC11985141}Prefabs/Props/Wrecks/S1203_wreck/S1203_wreck.et" {
+ coords 6499.014 30 2431.043
+ angles 0 38.054 0
+}
 SCR_DestructibleBuildingEntity : "{465A314549554C2A}Prefabs/Industrial/gas_station_short.et" {
  coords 6470.237 30 2574.534
 }
@@ -3338,6 +3397,10 @@ SCR_DestructibleBuildingEntity : "{4DC0293EF161C898}Prefabs/Structures/Industria
   }
  }
 }
+GenericEntity : "{526D39BE96FE8A08}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_20ft_grey.et" {
+ coords 6501.22 30 2415
+ angles 0 93.743 0
+}
 GenericEntity : "{55F21CE2D90D51FD}Prefabs/Infrastructure/Railways/Railway Crossing.et" {
  coords 6458.567 30.393 2016.42
  angles 0 -78.495 0
@@ -3418,6 +3481,16 @@ $grp GenericEntity : "{6847B4411BBEEBDE}Prefabs/Structures/Infrastructure/Rail/O
   angles 0 70.056 0
  }
 }
+$grp GenericEntity : "{6BE5C753730DBFED}Prefabs/Props/Wrecks/M923A1_wreck/M923A1_wreck_static.et" {
+ {
+  coords 6502.82 30 2422.158
+  angles 0 87.931 0
+ }
+ {
+  coords 6513.148 30 2430.506
+  angles 0 82.507 0
+ }
+}
 SCR_DestructibleBuildingEntity : "{799FE10C39B1159C}Prefabs/Structures/Veiculos/Oldcar_gray.et" {
  coords 6266.04 0 2545.187
  angles 0 -40.477 0
@@ -3434,6 +3507,15 @@ $grp StaticModelEntity : "{7DD6D24A9BAE5A2D}Prefabs/Structures/Infrastructure/Pa
  {
   coords 6622.783 -0.105 2186.495
   angles 0 -110.386 0
+ }
+}
+$grp GenericEntity : "{7E3F6F5A6BAEC717}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_20ft_olive.et" {
+ {
+  coords 6581.114 30 2408.271
+ }
+ {
+  coords 6531.34 30 2472.246
+  angles 0 178.541 0
  }
 }
 SCR_DestructibleBuildingEntity : "{80A5B37A1472B084}Prefabs/Structures/Industrial/Garages/Garage_E_02/Garage_E_02.et" {
@@ -3748,6 +3830,13 @@ $grp GenericEntity : "{8F08705D73A7C711}Prefabs/Props/Industrial/CargoContainers
   coords 6632.176 28 2092.473
   angles 1.88 -112.833 3.77
  }
+ {
+  coords 6568.693 30 2405.015
+ }
+ {
+  coords 6543.674 30 2475.817
+  angles 0 178.541 0
+ }
 }
 $grp SCR_DestructibleBuildingEntity : "{93710009B66143C7}Prefabs/Structures/Commerical/Gas Station Cover Pumpes and lights.et" {
  {
@@ -3758,6 +3847,10 @@ $grp SCR_DestructibleBuildingEntity : "{93710009B66143C7}Prefabs/Structures/Comm
   coords 6476.288 30 2631.586
   angles 0 89.957 0
  }
+}
+GenericEntity : "{939E032C3B6E837A}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_02_20ft_Chernarussian.et" {
+ coords 6508.065 30.656 2430.717
+ angles 11.802 76.877 0
 }
 SCR_DestructibleBuildingEntity : "{9402B7A68307F489}Prefabs/Structures/Industrial/Cranes/GantryCrane_03/GantryCrane_03.et" {
  coords 6616.527 -1.368 2097.986
@@ -6553,6 +6646,9 @@ $grp GenericEntity : "{A52C57FE8549A13E}Prefabs/Props/Industrial/CargoContainers
   angles 3.515 -112.712 2.882
  }
 }
+SCR_DestructibleBuildingEntity : "{A5548DAA9EEA018F}Prefabs/Structures/Military/Houses/GuardHouse_05/Guardhouse_USSR_05_checkpoint.et" {
+ coords 6509.966 0 2442.504
+}
 GenericEntity : "{AA3F295D8E086A6D}Prefabs/Compositions/Misc/SubCompositions/TireStack_M939A1_02.et" {
  coords 6667.646 28 2106.905
 }
@@ -6578,9 +6674,45 @@ $grp GenericEntity : "{BCE56C835FE15478}PrefabLibrary/DefaultLibrary/Props/Indus
   angles 2.556 -112.76 2.879
  }
 }
+$grp GenericEntity : "{C1868B74D5A0C96E}Prefabs/Props/Military/CargoContainers/CargoContainer_01_20ft_USSR_ammo.et" {
+ {
+  coords 6557.866 30 2405.377
+ }
+ {
+  coords 6562.886 30 2405.617
+ }
+ {
+  coords 6555.448 30 2412.999
+ }
+ {
+  coords 6557.117 30 2468.173
+  angles 0 178.541 0
+ }
+ {
+  coords 6549.494 30 2475.363
+  angles 0 178.541 0
+ }
+ {
+  coords 6554.506 30 2475.731
+  angles 0 178.541 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{C62C4F2A3F686C65}Prefabs/Industrial/sklades_soviet/Barrack_soviets.et" {
+ coords 6568.199 30 2439.078
+ angles 0 89.8 0
+}
 SCR_DestructibleBuildingEntity : "{C972EF3573B67369}Prefabs/Industrial/sklades_soviet/Covering_soviets.et" {
  coords 6671.441 28 2112.452
  angles 0 -19.707 0
+}
+$grp GenericEntity : "{CAD13AC8DAFEB0E8}Prefabs/Props/Military/CargoContainers/CargoContainer_01_20ft_USSR_supplies.et" {
+ {
+  coords 6553.064 30 2405.675
+ }
+ {
+  coords 6559.314 30 2475.555
+  angles 0 178.541 0
+ }
 }
 $grp GenericEntity : "{CAE986C2BF5D5859}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_10ft_Base.et" {
  {
@@ -6969,6 +7101,10 @@ $grp GenericEntity : "{EF2962FC3EFD9C17}Prefabs/Props/Industrial/CargoContainers
 SCR_DestructibleBuildingEntity : "{F885365EEA3AD315}Prefabs/Structures/Walls/Concrete/ConcreteRetainingWall_01/ConcreteRetainingWall_01_End.et" {
  coords 6664.869 26.074 2104.179
  angles 0 -109.271 0
+}
+SCR_DestructibleBuildingEntity : "{FA375A3AD7C383B3}Prefabs/Industrial/Office_E_01_int_1.et" {
+ coords 6588.003 0 2439.16
+ angles 0 92.068 0
 }
 $grp Tree : "{FE0BD218E0E417A3}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_carpinus_betulus_3d.et" {
  {
