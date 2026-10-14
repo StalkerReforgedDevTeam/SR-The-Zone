@@ -739,6 +739,16 @@ SCR_DestructibleBuildingEntity : "{4C3D7EBFFE1C669D}Prefabs/Houses/villages/vill
  Flags 0 0x80000
  coords 2905.981 29.531 4341.543
 }
+$grp SCR_DestructibleBuildingEntity : "{52DE6E29E8B236F9}Prefabs/Industrial/builds/vodonaporka.et" {
+ {
+  coords 3451.269 38 3760.525
+  angles 0 -177.597 0
+ }
+ {
+  coords 3451.182 38 3756.38
+  angles 0 -177.597 0
+ }
+}
 $grp SCR_DestructibleBuildingEntity : "{55ECF41F2A5684E7}Prefabs/Structures/Construcoes/Panel2House.et" {
  {
   Flags 0 0x80000
@@ -760,10 +770,24 @@ SCR_DestructibleBuildingEntity : "{5631CE822A8D7B1E}Prefabs/Structures/Houses/Vi
  Flags 0 0x80000
  coords 3178.526 38.02 3965.609
 }
+$grp SCR_DestructibleBuildingEntity : "{572A0A3CCDD2BA32}Prefabs/Industrial/builds/saray_wood.et" {
+ {
+  coords 3428.632 38 3791.658
+  angles 0 1.191 0
+ }
+ {
+  coords 3444.791 38 3791.815
+  angles 0 1.191 0
+ }
+}
 GenericEntity : "{5E249786B7A6896D}Prefabs/Props/Construction/ConcretePipe/ConcretePipe_01_Large.et" {
  Flags 0 0x80000
  coords 3144.147 37.231 3974.444
  angles 0 0 -90
+}
+SCR_DestructibleBuildingEntity : "{5E56D1602958C610}Prefabs/Industrial/builds/saray_03.et" {
+ coords 3454.581 38 3763.331
+ angles 0 2.865 0
 }
 SCR_DestructibleBuildingEntity : "{66178E314C6F98D4}Prefabs/Structures/Ruins/House_Ruin_1I01/House_Ruin_1I01_V3_Brick.et" {
  Flags 0 0x80000
@@ -1898,6 +1922,16 @@ GenericEntity : "{9C3486C0D8969D0A}PrefabLibrary/DefaultLibrary/Props/Industrial
  angles -75 90 0
  scale 0.74
 }
+$grp SCR_DestructibleBuildingEntity : "{A1438F717AE90375}Prefabs/agroprom/teplica_shcool.et" {
+ {
+  coords 3351.582 38 3734.223
+  angles 0 0.705 0
+ }
+ {
+  coords 3386.508 38 3738.7
+  angles 0 -88.403 0
+ }
+}
 SCR_DestructibleBuildingEntity : "{A9A13246F2F9F1F6}Prefabs/Houses/villages/village_stone_house_base_3.et" {
  Flags 0 0x80000
  coords 2944.984 29.531 4338.967
@@ -2133,6 +2167,14 @@ $grp GenericEntity : "{C93D17434595397D}Prefabs/ZBK/Props/Pipe/Pipe8m_Bridge.et"
   scale 1.03
  }
 }
+SCR_DestructibleBuildingEntity : "{CF6F56A0D54DCC63}Prefabs/agroprom/oranjereya.et" {
+ coords 3331.552 38.007 3728
+ angles 0 -178.634 0
+}
+SCR_DestructibleBuildingEntity : "{D5DA5F5045444C64}Prefabs/Industrial/builds/house_36.et" {
+ coords 3444.431 38 3775.61
+ angles 0 92.422 0
+}
 GenericEntity : "{DCA76EA9DD0458DB}Prefabs/Structures/Scientists/Bunker_Modul/Bunk_Mid_base.et" {
  coords 2964.2 25.274 4092.011
  angles 0 -29.022 0
@@ -2141,6 +2183,20 @@ SCR_DestructibleBuildingEntity : "{DE877694686BF978}Prefabs/Structures/Industria
  Flags 0 0x80000
  coords 3139.138 37.75 4007.209
  angles 0 -90 0
+}
+$grp SCR_DestructibleBuildingEntity : "{E2A20DFFC3F8DDA0}Prefabs/agroprom/ferma_big.et" {
+ {
+  coords 3339.937 38 3733.587
+  angles 0 -0.305 0
+ }
+ {
+  coords 3395.002 38 3788.775
+  angles 0 -90.059 0
+ }
+ {
+  coords 3429.477 38.198 3778.012
+  angles 0 -179.766 0
+ }
 }
 SCR_DestructibleEntity : "{E38C2EEE61381A66}Prefabs/Structures/Infrastructure/Piping/DieselPipe_01_pump.et" {
  Flags 0 0x80000
