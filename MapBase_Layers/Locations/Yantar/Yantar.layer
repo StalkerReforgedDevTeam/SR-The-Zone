@@ -526,6 +526,15 @@ $grp PolylineShapeEntity {
   }
  }
 }
+SCR_DestructibleBuildingEntity : "{04525213B59D7755}Prefabs/Houses/villages/village_stone_house_base_7_filled.et" {
+ coords 3727.323 38 3709.106
+ angles 0 108.945 0
+ {
+  GenericEntity armst_itm_food_bottle_vodka_1_6A8C221E8458C93F2 {
+   ID "66CB4A4BA8607474"
+  }
+ }
+}
 $grp GenericEntity : "{0B6917C3FD03F05F}Prefabs/Structures/BuildingParts/Doors/Door_MetalGate_06/Door_MetalGate_06_RIGHT_EXT_ST_B_base.et" {
  {
   Flags 0 0x80000
@@ -539,6 +548,10 @@ $grp GenericEntity : "{0B6917C3FD03F05F}Prefabs/Structures/BuildingParts/Doors/D
   angles 0 -46.621 0
   scale 1.097
  }
+}
+SCR_DestructibleBuildingEntity : "{0F5AC772A49226AD}Prefabs/Houses/churchs/church_4.et" {
+ coords 4058.465 32.861 3961.314
+ angles 3.278 0 0
 }
 $grp SCR_DestructibleBuildingEntity : "{11298B17EF8881E1}Prefabs/Structures/Houses/Village/Sheds/ShedGarage.et" {
  {
@@ -685,6 +698,10 @@ SCR_DestructibleBuildingEntity : "{1C4FE5160B6ED8F4}Prefabs/Houses/villages/vill
   }
  }
 }
+SCR_DestructibleBuildingEntity : "{1D5D6F6737B46084}Prefabs/Houses/villages/village_stone_house_base_6.et" {
+ coords 4007.334 28.347 3763.843
+ angles -4.966 18.523 -1.661
+}
 $grp StaticModelEntity : "{1E0BC50E7000DEFD}Prefabs/Structures/Debris/Debris_HouseVillage/Debris_HouseVillage_Metal_Roof_v1.et" {
  {
   Flags 0 0x80000
@@ -699,9 +716,48 @@ $grp StaticModelEntity : "{1E0BC50E7000DEFD}Prefabs/Structures/Debris/Debris_Hou
   scale 2.165
  }
 }
+$grp SCR_DestructibleBuildingEntity : "{20694A5F42D8E9B3}Prefabs/Houses/villages/village_stone_house_base_1.et" {
+ {
+  coords 4075.809 30.614 3785.559
+  angles 0 -178.222 0
+ }
+ {
+  coords 4070.317 30.38 3703.349
+ }
+}
+SCR_DestructibleBuildingEntity : "{24D17D223B42F404}Prefabs/Houses/villages/village_big_house_base_1.et" {
+ coords 3657.641 38 3694.51
+ angles 0 -162.874 0
+}
 SCR_DestructibleBuildingEntity : "{25C8430C9EFB0CA9}Prefabs/Structures/Infrastructure/Rail/Other/RailwayTunnelPortal/RailwayTunnelPortal.et" {
  coords 3076.223 -0.863 4044.027
  angles 0 88.085 0
+}
+$grp SCR_DestructibleBuildingEntity : "{3140009AA235E892}Prefabs/Industrial/crane_trash.et" {
+ {
+  coords 3704.76 43.425 4043.313
+  angles 0 -46.147 -90.134
+ }
+ {
+  coords 3700.424 43.403 4038.809
+  angles 0 -46.147 -90.134
+ }
+ {
+  coords 3697.459 43.318 4041.741
+  angles 0 -46.147 -90.134
+ }
+ {
+  coords 3701.793 43.34 4046.244
+  angles 0 -46.147 -90.134
+ }
+ {
+  coords 3694.141 43.282 4044.902
+  angles 0 -46.147 -90.134
+ }
+ {
+  coords 3698.477 43.304 4049.404
+  angles 0 -46.147 -90.134
+ }
 }
 SCR_DestructibleBuildingEntity : "{389D6DF9941FF22D}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_01/FuelTank_01_grey.et" {
  Flags 0 0x80000
@@ -735,9 +791,22 @@ SCR_DestructibleBuildingEntity : "{46DD0AFACF61C6EF}Prefabs/Structures/Industria
  angles 0 90 0
  scale 0.56
 }
-SCR_DestructibleBuildingEntity : "{4C3D7EBFFE1C669D}Prefabs/Houses/villages/village_stone_house_base_2.et" {
- Flags 0 0x80000
- coords 2905.981 29.531 4341.543
+$grp SCR_DestructibleBuildingEntity : "{4C3D7EBFFE1C669D}Prefabs/Houses/villages/village_stone_house_base_2.et" {
+ {
+  Flags 0 0x80000
+  coords 2905.981 29.531 4341.543
+ }
+ {
+  coords 4059.357 31.26 3804.626
+ }
+ {
+  coords 4068.732 30.879 3740.772
+  angles 0 90.693 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{501A1D545841BB0B}Prefabs/Houses/villages/village_stone_house_base_1_filled.et" {
+ coords 3688.913 37.59 3672.726
+ angles 0 17.957 0
 }
 $grp SCR_DestructibleBuildingEntity : "{52DE6E29E8B236F9}Prefabs/Industrial/builds/vodonaporka.et" {
  {
@@ -779,6 +848,10 @@ $grp SCR_DestructibleBuildingEntity : "{572A0A3CCDD2BA32}Prefabs/Industrial/buil
   coords 3444.791 38 3791.815
   angles 0 1.191 0
  }
+}
+SCR_DestructibleBuildingEntity : "{5AEC1BD649CA4525}Prefabs/Houses/villages/village_wooden_house_base_9_shmot.et" {
+ coords 4036.601 30.652 3733.121
+ angles 0 -91.552 0
 }
 GenericEntity : "{5E249786B7A6896D}Prefabs/Props/Construction/ConcretePipe/ConcretePipe_01_Large.et" {
  Flags 0 0x80000
@@ -934,9 +1007,15 @@ $grp GenericEntity : "{6EEC06CAF1F08FE8}Prefabs/ZBK/KitFactory/KitFrameWork/Meta
   scale 1.251
  }
 }
-SCR_DestructibleBuildingEntity : "{71095B878B70EFAA}Prefabs/Houses/villages/village_stone_house_base_5.et" {
- Flags 0 0x80000
- coords 2940.409 29.531 4317.449
+$grp SCR_DestructibleBuildingEntity : "{71095B878B70EFAA}Prefabs/Houses/villages/village_stone_house_base_5.et" {
+ {
+  Flags 0 0x80000
+  coords 2940.409 29.531 4317.449
+ }
+ {
+  coords 4005.196 30.167 3713.062
+  angles -2.628 -0.179 3.903
+ }
 }
 StaticModelEntity : "{72CA69A5735FF68B}Prefabs/Props/Military/Covers/DirtCoverwithwoodenwall.et" {
  Flags 0 0x80000
@@ -1909,6 +1988,3235 @@ $grp SCR_DestructibleBuildingEntity : "{9495177E879578C1}Prefabs/Houses/villages
    }
   }
  }
+ {
+  coords 4009.562 30.993 3813.846
+ }
+}
+SCR_DestructibleBuildingEntity : "{98E878BFD0072149}Prefabs/Buildings/Fire Station/Firestation_v1.et" {
+ coords 3677.041 38 4014.063
+ angles 0 41.639 0
+ {
+  Building {
+   ID "607D3754B814F85F"
+   coords 0 0 0
+   {
+    Building {
+     ID "604F563C22348521"
+     coords 0 0 0.001
+    }
+    Building {
+     ID "604F563C224B1573"
+     coords 0 0 0.001
+    }
+   }
+  }
+  Building {
+   ID "607D3754B814F861"
+   coords 0 0 0
+   {
+    Building {
+     ID "604F563C22348521"
+     coords 0 0 0.002
+    }
+    Building {
+     ID "604F563C224B1573"
+     coords 0 0 0.001
+    }
+   }
+  }
+  Building {
+   ID "607D3754B814F83F"
+   coords 0 0 0
+   {
+    Building {
+     ID "5F2D5AACFF2A5BA8"
+     coords 0 0 -0.001
+    }
+    Building {
+     ID "5F2D5AACFF2B37DA"
+     coords 0 0 -0.001
+    }
+    GenericEntity {
+     ID "5F2D5AACFF294554"
+     coords 0 0 0
+     angles 0 180 0
+    }
+    GenericEntity {
+     ID "5F2D5AACFF29F370"
+     coords 0.001 0 -0
+    }
+    GenericEntity {
+     ID "5F2D5AACFF2A5BA7"
+     coords 0.001 0 0
+     angles 0 -180 0
+    }
+    GenericEntity {
+     ID "5F2D5AACFF2ADD01"
+     coords 0.001 0 0
+    }
+   }
+  }
+  Building {
+   ID "607D3754B81542A0"
+   coords 0 0 -0.001
+   {
+    Building {
+     ID "605749A676479D02"
+     coords -0.001 0 0
+     {
+      GenericEntity {
+       ID "605749A67647A453"
+       coords 0 0 0
+      }
+     }
+    }
+   }
+  }
+  Building {
+   ID "607D3754B81542A2"
+   coords 0 0 0
+   {
+    Building {
+     ID "605749A676479D02"
+     coords -0.001 0 -0.002
+     {
+      GenericEntity {
+       ID "605749A67647A453"
+       coords 0 0 0.001
+      }
+     }
+    }
+   }
+  }
+  Building {
+   ID "607D3754B81542A4"
+   coords 0 0 0
+   {
+    Building {
+     ID "605749A676479D02"
+     coords -0.001 0 0
+     {
+      GenericEntity {
+       ID "605749A67647A453"
+       coords -0.001 0 0
+      }
+     }
+    }
+   }
+  }
+  Building {
+   ID "607D3754B81542A6"
+   coords 0 0 -0.001
+   {
+    Building {
+     ID "605749A676479D02"
+     coords -0.001 0 0.001
+    }
+   }
+  }
+  Building {
+   ID "607D3754B81542A8"
+   coords 0 0 -0.002
+   {
+    Building {
+     ID "605749A676479D02"
+     coords -0.001 0 0.001
+    }
+   }
+  }
+  Building {
+   ID "607D3754B8154556"
+   coords 0 0.005 0
+   {
+    Building {
+     ID "605749A676479D02"
+     coords 0.001 0 0
+    }
+   }
+  }
+  Building {
+   ID "607D3754B8154558"
+   coords 0 0 0
+   {
+    Building {
+     ID "605749A676479D02"
+     coords 0 0 0
+    }
+   }
+  }
+  Building {
+   ID "607D3754B8154559"
+   coords 0 0 0
+   {
+    Building {
+     ID "605749A676479D02"
+     coords 0.002 0 -0.001
+    }
+   }
+  }
+  Building {
+   ID "607D3754B815455B"
+   coords 0.001 0 0
+   {
+    Building {
+     ID "605749A676479D02"
+     coords -0.001 0 -0.001
+    }
+   }
+  }
+  Building {
+   ID "607D3754B815455C"
+   coords 0 0 -0.001
+   {
+    Building {
+     ID "605749A676479D02"
+     coords 0 0 0
+    }
+   }
+  }
+  Building {
+   ID "607D3754B815455D"
+   coords -0.001 0 0
+   {
+    Building {
+     ID "605749A676479D02"
+     coords 0.001 0 -0.002
+    }
+   }
+  }
+  Building {
+   ID "607D3754B815455E"
+   coords 0 0 0
+   {
+    Building {
+     ID "605749A676479D02"
+     coords 0 0 0
+    }
+   }
+  }
+  Building {
+   ID "607D3754B815455F"
+   coords 0 0 0
+   {
+    Building {
+     ID "605749A676479D02"
+     coords 0 0 0
+     {
+      GenericEntity {
+       ID "605749A67647A453"
+       coords -0 0 0.001
+      }
+     }
+    }
+   }
+  }
+  Building {
+   ID "607D3754B8159541"
+   coords 0 0 0
+   {
+    GenericEntity {
+     ID "604F344EFE264A7D"
+     coords 0 0 0
+    }
+   }
+  }
+  Building {
+   ID "607D3754B8159547"
+   coords 0 0 0.001
+   {
+    GenericEntity {
+     ID "604F344EFE264A7D"
+     coords 0 0 0
+    }
+   }
+  }
+  Building {
+   ID "60A77A40DA2EC667"
+   coords 0 0 0.001
+   angles 0 0 0
+   {
+    Building {
+     ID "604F56204170B9EC"
+     coords 0 0 -0.001
+    }
+    Building {
+     ID "604F562041715A11"
+     coords 0 0 0
+    }
+    GenericEntity {
+     ID "604F5620417033CF"
+     coords 0 0 0
+    }
+    GenericEntity {
+     ID "604F562041732A42"
+     coords 0.001 0 0
+    }
+    GenericEntity {
+     ID "604F56204173AD17"
+     coords 0.001 0 0
+    }
+   }
+  }
+  Building {
+   ID "60A77B1BA8F989D1"
+   coords 0 0 0
+   angles 0 0 0
+   {
+    Building {
+     ID "604F56204170B9EC"
+     coords 0 0 -0.001
+    }
+    Building {
+     ID "604F562041715A11"
+     coords 0.002 0 0
+    }
+    GenericEntity {
+     ID "604F56204173AD17"
+     coords -0.001 0 -0.001
+    }
+    GenericEntity {
+     ID "604F5620417033CF"
+     coords 0.001 0 0.001
+    }
+    GenericEntity {
+     ID "604F562041732A42"
+     coords 0 0 -0
+    }
+   }
+  }
+  GameEntity {
+   ID "607D3754B815456F"
+   coords -10.953 6.76 7.058
+  }
+  GameEntity {
+   ID "607D3754B8159548"
+   coords 4.33 0.523 17.94
+   angles 0 90 0
+  }
+  GameEnvironmentProbeEntity {
+   ID "607D3754B814F83D"
+   coords 0.001 4.68 -13.199
+  }
+  GenericEntity {
+   ID "60D4FA241FE8600B"
+   coords 0 0.53 0.001
+   {
+    GenericEntity {
+     ID "60D4FA242FBE29A9"
+     coords -14.997 10.765 -31.175
+     scale 0
+    }
+    GenericEntity {
+     ID "60D4FA242F6D4DEE"
+     coords 0 -0.53 0
+     {
+      GenericEntity {
+       ID "60D4FA242F00E615"
+       coords -7.351 6.669 -20.327
+      }
+     }
+    }
+    GenericEntity {
+     ID "60D4FA242FB81266"
+     coords -10.676 0 -19.762
+     angles 0 -90.062 0
+    }
+    GenericEntity {
+     ID "60D4FA242FB81267"
+     coords -10.646 0 -19.145
+     angles 0 87.258 0
+    }
+    GenericEntity {
+     ID "60D4FA242FB84D06"
+     coords -7.795 0 -19.007
+     angles 0 88.798 0
+    }
+    GenericEntity {
+     ID "60D4FA242FB89190"
+     coords -7.824 0 -19.688
+     angles 0 -92.17 0
+    }
+    GenericEntity {
+     ID "60D4FA242FB89193"
+     coords -10.677 0 -14.852
+     angles 0 -91.321 0
+    }
+    GenericEntity {
+     ID "60D4FA242FB8DD56"
+     coords -10.677 0 -25.667
+     angles 0 92.756 0
+    }
+    GenericEntity {
+     ID "60D4FA242FB81278"
+     coords -11.731 -0.002 -8.912
+     angles 0 4.207 0
+    }
+    GenericEntity {
+     ID "60D4FA242FB81279"
+     coords -4.617 -0.002 -7.066
+     angles 0 93.698 0
+    }
+    GenericEntity {
+     ID "60D4FA242FBAFC18"
+     coords -2.026 -0.002 -10.873
+     angles 0 -163.823 0
+    }
+    GenericEntity {
+     ID "60D4FA242FBB7111"
+     coords -3.296 -0.002 -10.459
+     angles 0 169.016 0
+    }
+    GenericEntity {
+     ID "60D4FA242FBBA296"
+     coords -10.85 -0.002 -8.686
+     angles 0 -24.331 0
+    }
+    GenericEntity {
+     ID "60D4FA242FBBD197"
+     coords -4.383 -0.002 -7.947
+     angles 0 65.16 0
+    }
+    GenericEntity {
+     ID "60D4FA242FBBD255"
+     coords -11.4 -0.002 -10.956
+     angles 0 -178.654 0
+    }
+    GenericEntity {
+     ID "60D4FA242FBBD256"
+     coords -10.528 -0.002 -10.701
+     angles 0 -178.654 0
+    }
+    GenericEntity {
+     ID "60D4FA242FBA8869"
+     coords -11.737 6.688 6.187
+     angles 0 -180 0
+    }
+    GenericEntity {
+     ID "60D4FA242FBAFC1E"
+     coords -1.097 6.688 3.561
+     angles 0 -90 0
+    }
+    GenericEntity {
+     ID "60D4FA242FBAFC1F"
+     coords -9.087 6.688 0.567
+     angles 0 -84.76 0
+    }
+    GenericEntity {
+     ID "60D4FA242FBA7D81"
+     coords -6.132 3.342 -6.326
+     angles 0 112.415 0
+    }
+    GenericEntity {
+     ID "60D4FA242FBA886B"
+     coords -12.684 3.342 -6.303
+     angles 0 112.415 0
+    }
+    GenericEntity {
+     ID "60D4FA242FBDCC78"
+     coords -0.411 3.342 -6.082
+     angles 0 163.057 0
+    }
+    GenericEntity {
+     ID "60D4FA242FBDCC74"
+     coords 9.03 0 -17.741
+     angles 0 84.781 0
+    }
+    GenericEntity {
+     ID "60D4FA242FBDCC71"
+     coords -15.031 11.117 -29.896
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "60D4FA242FBCCEF9"
+     coords -10.96 6.688 6.14
+     angles 0 -180 0
+    }
+    GenericEntity {
+     ID "60D4FA242FBD4AF8"
+     coords -10.951 6.688 -5.116
+    }
+    GenericEntity {
+     ID "60D4FA242FBD8F33"
+     coords -6.109 6.688 6.163
+     angles 0 -180 0
+    }
+    GenericEntity {
+     ID "60D4FA242FBCADB8"
+     coords -0.734 0 -7.239
+     angles 0 96.351 0
+    }
+    GenericEntity {
+     ID "60D4FA242FBCCEFA"
+     coords -12.535 6.688 6.205
+     angles 0 -180 0
+    }
+    GenericEntity {
+     ID "60D4FA242FBEE2B6"
+     coords 6.966 6.688 -5.624
+     angles 0 -180 0
+    }
+    GenericEntity {
+     ID "60D4FA242FBE418E"
+     coords 3.777 1.857 6.377
+     angles 0 -90 0
+    }
+    GenericEntity {
+     ID "60D4FA242FBEE2AA"
+     coords 3.777 1.857 15.595
+     angles 0 -90 0
+    }
+    GenericEntity {
+     ID "60D4FA242FB1D0FE"
+     coords -11.606 6.688 -32.119
+    }
+    GenericEntity {
+     ID "60D4FA242FB0F2F2"
+     coords -5.968 0 21.519
+    }
+    GenericEntity {
+     ID "60D4FA242FB10153"
+     coords -5.968 0 14.544
+    }
+    GenericEntity {
+     ID "60D4FA242FB1A472"
+     coords -5.968 0 7.53
+    }
+    GenericEntity {
+     ID "60D4FA242FB1D0F9"
+     coords -5.968 0 0.519
+    }
+    GenericEntity {
+     ID "60D4FA242FB0214E"
+     coords 6.544 6.688 -24.05
+     angles 0 75.093 0
+    }
+    GenericEntity {
+     ID "60D4FA242FB05061"
+     coords 8.729 6.688 -12.296
+     angles 0 92.44 0
+    }
+    GenericEntity {
+     ID "60D4FA242FB0F2F1"
+     coords 8.915 6.688 -13.51
+     angles 0 80.325 0
+    }
+    GenericEntity {
+     ID "60D4FA242FB26917"
+     coords 7.826 6.912 -23.68
+     angles 85.977 -177.696 0
+    }
+    GenericEntity {
+     ID "60D4FA242FB28727"
+     coords 8.519 6.688 -25.16
+     angles 0 -52.658 0
+    }
+    GenericEntity {
+     ID "60D4FA242FB2ACB7"
+     coords 10.416 6.688 -13.621
+     angles 0 -78.199 0
+    }
+    GenericEntity {
+     ID "60D4FA242FB2BD43"
+     coords 9.691 6.688 -12.6
+     angles 0 -97.758 0
+    }
+    GenericEntity {
+     ID "60D4FA242FB2BD7C"
+     coords 8.38 6.688 -24.08
+     angles 0 -90.273 0
+    }
+    GenericEntity {
+     ID "60D4FA242FB32EA6"
+     coords 10.304 6.688 -25.947
+     angles 0 -139.724 0
+    }
+    GenericEntity {
+     ID "60D4FA242FB34D85"
+     coords 6.603 6.688 -25.524
+     angles 0 92.082 0
+    }
+    GenericEntity {
+     ID "60D4FA242FB3D03F"
+     coords 6.418 6.688 -24.821
+     angles 0 101.653 0
+    }
+    GenericEntity {
+     ID "60D4FA242FB3EEC6"
+     coords 6.533 6.688 -27.736
+     angles 0 94.755 0
+    }
+    GenericEntity {
+     ID "60D4FA242FB3EEC7"
+     coords 6.386 6.688 -26.389
+     angles 0 76.228 0
+    }
+    GenericEntity {
+     ID "60D4FA242FB4F7EB"
+     coords 10.552 6.688 -26.846
+     angles 0 -73.589 0
+    }
+    GenericEntity {
+     ID "60D4FA242FB56263"
+     coords 8.409 6.688 -27.66
+     angles 0 -90.306 0
+    }
+    GenericEntity {
+     ID "60D4FA242FB5ABB0"
+     coords 7.931 6.688 -28.187
+     angles 0 -9.5 0
+    }
+    GenericEntity {
+     ID "60D4FA242FB5ABB1"
+     coords 7.053 6.688 -28.222
+     angles 0 27.335 0
+    }
+    GenericEntity {
+     ID "60D4FA242FB5C3C9"
+     coords 5.897 6.907 -27.161
+     angles -54.78 90 0
+    }
+    GenericEntity {
+     ID "60D4FA242FB4282D"
+     coords -6.479 -0.002 -10.443
+     angles 0 -89.143 0
+    }
+    GenericEntity {
+     ID "60D4FA242FB450C7"
+     coords -7.815 -0.002 -6.213
+     angles 0 40.312 0
+    }
+    GenericEntity {
+     ID "60D4FA242FB4F7E2"
+     coords -9.329 0 -28.966
+    }
+    GenericEntity {
+     ID "60D4FA242FB75474"
+     coords -7.156 6.883 -30.216
+     angles -46.876 -0.683 0
+    }
+    GenericEntity {
+     ID "60D4FA242FB75475"
+     coords -7.829 6.688 -29.731
+     angles 0 -2.619 0
+    }
+    GenericEntity {
+     ID "60D4FA242FB79C74"
+     coords -6.415 6.688 -29.958
+     angles 0 -13.582 0
+    }
+    GenericEntity {
+     ID "60D4FA242FB68B5A"
+     coords -3.257 -0.002 -12.982
+     angles 0 34.568 0
+    }
+    GenericEntity {
+     ID "60D4FA242FB6C80E"
+     coords -2.524 -0.002 -6.578
+     angles 0 -120.697 0
+    }
+    GenericEntity {
+     ID "60D4FA242FB6FF21"
+     coords -12.202 -0.002 -6.815
+     angles 0 149.812 0
+    }
+    GenericEntity {
+     ID "60D4FA242FB6FF22"
+     coords -11.423 -0.002 -12.758
+     angles 0 0.856 0
+    }
+    GenericEntity {
+     ID "60D4FA242FB68B46"
+     coords 7.654 0 -11.44
+     angles 0 -32.168 0
+    }
+    GenericEntity {
+     ID "60D4FA242FA9C902"
+     coords 7.846 0.08 -17.465
+     angles 0 -90 0
+    }
+    GenericEntity {
+     ID "60D4FA242FB643C7"
+     coords -1.332 0.122 -5.375
+    }
+    GenericEntity {
+     ID "60D4FA242FB68B43"
+     coords 5.07 3.371 -18.389
+    }
+    GenericEntity {
+     ID "60D4FA242FB6B3E2"
+     coords 6.374 3.371 -18.389
+    }
+    GenericEntity {
+     ID "60D4FA242FA83FCA"
+     coords 10.658 -0.07 -21.495
+     angles 0 0 0
+    }
+    GenericEntity {
+     ID "60D4FA242FA85935"
+     coords 6.933 -0.07 -31.178
+     angles 0 0 0
+    }
+    GenericEntity {
+     ID "60D4FA242FA85936"
+     coords 6.907 -0.07 -27.781
+     angles 0 -1.187 0
+    }
+    GenericEntity {
+     ID "60D4FA242FA88674"
+     coords 6.885 -0.07 -24.433
+     angles 0 -0.061 0
+    }
+    GenericEntity {
+     ID "60D4FA242FA88675"
+     coords 7.509 -0.07 -24.457
+     angles 0 1.395 0
+    }
+    GenericEntity {
+     ID "60D4FA242FA8BF23"
+     coords 7.573 -0.07 -31.197
+     angles 0 1.095 0
+    }
+    GenericEntity {
+     ID "60D4FA242FA8F9AC"
+     coords 7.531 -0.07 -27.774
+     angles 0 -0.509 0
+    }
+    GenericEntity {
+     ID "60D4FA242FA8F9D3"
+     coords 7.531 -0.07 -21.489
+     angles 0 -0.509 0
+    }
+    GenericEntity {
+     ID "60D4FA242FA910E5"
+     coords 9.406 -0.07 -21.495
+     angles 0 0 0
+    }
+    GenericEntity {
+     ID "60D4FA242FA944FA"
+     coords 10.031 -0.07 -21.508
+     angles 0 -1.111 0
+    }
+    GenericEntity {
+     ID "60D4FA242FA944FC"
+     coords 8.152 -0.07 -21.495
+     angles 0 0 0
+    }
+    GenericEntity {
+     ID "60D4FA242FA944FE"
+     coords 6.908 -0.07 -21.495
+     angles 0 -1.187 0
+    }
+    GenericEntity {
+     ID "60D4FA242FA944FF"
+     coords 8.778 -0.07 -21.475
+     angles 0 1.506 0
+    }
+    GenericEntity {
+     ID "60D4FA242FAA22B9"
+     coords 9.435 -0.07 -31.188
+     angles 0 0 0
+    }
+    GenericEntity {
+     ID "60D4FA242FAA2AC4"
+     coords 10.045 -0.07 -31.178
+     angles 0 0 0
+    }
+    GenericEntity {
+     ID "60D4FA242FAA2AC5"
+     coords 10.031 -0.07 -27.793
+     angles 0 -1.111 0
+    }
+    GenericEntity {
+     ID "60D4FA242FAA5F0D"
+     coords 10.661 -0.07 -31.173
+     angles 0 -1.229 0
+    }
+    GenericEntity {
+     ID "60D4FA242FAA5F0E"
+     coords 8.822 -0.07 -31.178
+     angles 0 0 0
+    }
+    GenericEntity {
+     ID "60D4FA242FAADE53"
+     coords 8.198 -0.07 -31.178
+     angles 0 -1.156 0
+    }
+    GenericEntity {
+     ID "60D4FA242FAADF44"
+     coords 10.042 -0.07 -24.456
+     angles 0 0 0
+    }
+    GenericEntity {
+     ID "60D4FA242FAADF45"
+     coords 9.419 -0.07 -24.468
+     angles 0 2.083 0
+    }
+    GenericEntity {
+     ID "60D4FA242FAB1CBB"
+     coords 8.139 -0.07 -24.471
+     angles 0 -0.82 0
+    }
+    GenericEntity {
+     ID "60D4FA242FAB1CBC"
+     coords 10.659 -0.07 -24.457
+     angles 0 0 0
+    }
+    GenericEntity {
+     ID "60D4FA242FABB474"
+     coords 8.771 -0.07 -24.456
+     angles 0 0 0
+    }
+    GenericEntity {
+     ID "60D4FA242FABF57E"
+     coords 4.324 -0.067 -29.925
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "60D4FA242FABF57F"
+     coords 4.299 -0.067 -29.304
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "60D4FA242FAD11C1"
+     coords 4.309 -0.067 -28.055
+     angles 0 89.02 0
+    }
+    GenericEntity {
+     ID "60D4FA242FAD4F32"
+     coords 8.152 -0.07 -27.781
+     angles 0 0 0
+    }
+    GenericEntity {
+     ID "60D4FA242FAD6FA4"
+     coords 4.324 -0.067 -28.691
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "60D4FA242FAD6FA7"
+     coords 4.311 -0.067 -27.434
+     angles 0 92.17 0
+    }
+    GenericEntity {
+     ID "60D4FA242FAD6FD8"
+     coords 10.658 -0.07 -27.781
+     angles 0 0 0
+    }
+    GenericEntity {
+     ID "60D4FA242FAD6FD9"
+     coords 4.311 -0.067 -30.543
+     angles 0 91.792 0
+    }
+    GenericEntity {
+     ID "60D4FA242FADB132"
+     coords 8.78 -0.07 -27.761
+     angles 0 1.506 0
+    }
+    GenericEntity {
+     ID "60D4FA242FADB13D"
+     coords 9.406 -0.07 -27.781
+     angles 0 0 0
+    }
+    GenericEntity {
+     ID "60D4FA242FAD11C7"
+     coords 2.462 0 10.939
+     angles 0 168.451 0
+    }
+    GenericEntity {
+     ID "60D4FA242FAD11C6"
+     coords -4.218 6.688 -9.916
+     angles 0 111.358 0
+    }
+    GenericEntity {
+     ID "60D4FA242FAD11DB"
+     coords 5.705 6.688 -14.188
+     angles 0 1.058 0
+    }
+    GenericEntity {
+     ID "60D4FA242FACE74B"
+     coords 2.704 0 4.028
+     angles 0 -92.736 0
+    }
+    GenericEntity {
+     ID "60D4FA242FAE6700"
+     coords 5.399 5.337 -31.557
+     angles 0 0 0
+    }
+    GenericEntity {
+     ID "60D4FA242FAE9812"
+     coords 7.423 5.337 -31.557
+     angles 0 0 0
+    }
+    GenericEntity {
+     ID "60D4FA242FAE9815"
+     coords 9.392 5.337 -31.557
+     angles 0 0 0
+    }
+    GenericEntity {
+     ID "60D4FA242FAF043E"
+     coords 9.004 5.383 -14.245
+     angles 0 0 0
+    }
+    GenericEntity {
+     ID "60D4FA242FAF4B45"
+     coords 6.039 5.383 -14.245
+     angles 0 0 0
+    }
+    GenericEntity {
+     ID "60D4FA242FAFEA9D"
+     coords 9.263 8.676 -14.248
+     angles 0 0 0
+    }
+    GenericEntity {
+     ID "60D4FA242FAE6702"
+     coords -7.374 0 -5.018
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "60D4FA242FAE6703"
+     coords -8.738 0 -5.018
+     angles 0 -90 0
+    }
+    GenericEntity {
+     ID "60D4FA242FA06204"
+     coords 9.119 3.344 -17.61
+     {
+      GenericEntity {
+       ID "60D4FA242FA3C3DD"
+       coords 0.046 0 -0.756
+      }
+      GenericEntity {
+       ID "607B174F41E4BEF2"
+       coords 0.001 0 0
+      }
+     }
+    }
+    GenericEntity {
+     ID "60D4FA242FA09496"
+     coords 7.063 -0.004 -13.235
+     angles 0 -90 0
+     {
+      GenericEntity {
+       ID "60D4FA242FA09497"
+       coords 0.018 0 -0.755
+      }
+      GenericEntity {
+       ID "607B174F41E4BEF2"
+       coords 0 0 0
+      }
+     }
+    }
+    GenericEntity {
+     ID "60D4FA242FA12F3D"
+     coords 10.357 3.344 -17.61
+     {
+      GenericEntity {
+       ID "60D4FA242FA124BA"
+       coords 0.052 0 -0.756
+      }
+      GenericEntity {
+       ID "607B174F41E4BEF2"
+       coords 0 0 0
+      }
+     }
+    }
+    GenericEntity {
+     ID "60D4FA242FA16754"
+     coords 7.063 -0.004 -14.474
+     angles 0 -90 0
+     {
+      GenericEntity {
+       ID "60D4FA242FA12F3A"
+       coords 0.018 0 -0.756
+      }
+      GenericEntity {
+       ID "607B174F41E4BEF2"
+       coords 0.001 0 0
+      }
+     }
+    }
+    GenericEntity {
+     ID "60D4FA242FA18D72"
+     coords 7.063 -0.004 -15.712
+     angles 0 -90 0
+     {
+      GenericEntity {
+       ID "60D4FA242FA18D70"
+       coords 0.017 0 -0.754
+      }
+      GenericEntity {
+       ID "607B174F41E4BEF2"
+       coords 0 0 0
+      }
+     }
+    }
+    GenericEntity {
+     ID "60D4FA242FA3C3DE"
+     coords 7.887 3.344 -17.61
+     {
+      GenericEntity {
+       ID "60D4FA242FA39B14"
+       coords 0.017 0 -0.755
+      }
+      GenericEntity {
+       ID "607B174F41E4BEF2"
+       coords 0 0 -0.001
+      }
+     }
+    }
+    GenericEntity {
+     ID "60D4FA242FA2150C"
+     coords 3.955 3.344 -8.128
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "60D4FA242FA245E4"
+     coords -12.191 -0.008 -11.351
+     angles 0 -178.654 0
+    }
+    GenericEntity {
+     ID "60D4FA242FA25A5A"
+     coords 3.956 3.344 -10.646
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "60D4FA242FA25A5B"
+     coords -10.042 -0.008 -8.32
+     angles 0 0.509 0
+    }
+    GenericEntity {
+     ID "60D4FA242FA2D0AA"
+     coords 1.06 3.344 -5.839
+     angles 0 -89.799 0
+    }
+    GenericEntity {
+     ID "60D4FA242FA2FD61"
+     coords -3.843 -0.008 -11.5
+     angles 0 179.261 0
+    }
+    GenericEntity {
+     ID "60D4FA242FA2FEF2"
+     coords -4.009 -0.008 -8.749
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "60D4FA242FA3533D"
+     coords 3.957 3.344 -27.058
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "60D4FA242FA36682"
+     coords -11.219 3.344 -5.796
+     angles 0 -89.799 0
+    }
+    GenericEntity {
+     ID "60D4FA242FA36CCD"
+     coords -4.667 3.344 -5.82
+     angles 0 -89.799 0
+    }
+    GenericEntity {
+     ID "60D4FA242FA36CCE"
+     coords 8.821 6.688 -9.849
+     angles 0 19.977 0
+    }
+    GenericEntity {
+     ID "60D4FA242FA39B2A"
+     coords 3.956 3.344 -24.354
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "60D4FA242FA39B2B"
+     coords 3.955 3.344 -29.494
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "60D4FA242FA2150A"
+     coords -12.271 0 -19.36
+    }
+    GenericEntity {
+     ID "60D4FA242FA56C52"
+     coords -6.457 -0.002 -13.84
+    }
+    GenericEntity {
+     ID "60D4FA242FA590CC"
+     coords -12.164 0 -31.051
+    }
+    GenericEntity {
+     ID "60D4FA242FA590CF"
+     coords 5.893 7.688 -6.025
+     angles 0 -53.527 0
+    }
+    GenericEntity {
+     ID "60D4FA242FA5FCF8"
+     coords -1.793 6.688 -22.138
+     angles 0 -58.909 0
+    }
+    GenericEntity {
+     ID "60D4FA242FA56C5C"
+     coords 4.889 0 -11.679
+    }
+    GenericEntity {
+     ID "60D4FA242FA4364F"
+     coords -3.425 0 25.248
+     angles 0 -180 0
+    }
+    GenericEntity {
+     ID "60D4FA242FA4AA06"
+     coords 1.418 0 25.247
+     angles 0 -180 0
+    }
+    GenericEntity {
+     ID "60D4FA242FA4364E"
+     coords 10.325 0 -17.089
+     angles 0 -85.884 0
+    }
+    GenericEntity {
+     ID "60D4FA242FA7C2AF"
+     coords 10.74 0 -16.939
+     angles 0 -98.975 0
+    }
+    GenericEntity {
+     ID "60D4FA242FA7C2B0"
+     coords 10.517 0 -17.037
+     angles 0 -91.558 0
+    }
+    GenericEntity {
+     ID "60D4FA242FA74C98"
+     coords 10.361 0 -11.311
+     angles 0 -1.309 0
+    }
+    GenericEntity {
+     ID "60D4FA242F59F4B4"
+     coords 1.266 5.041 -27.226
+     angles 0 -180 0
+    }
+    GenericEntity {
+     ID "60D4FA242FA66B9C"
+     coords 1.65 3.317 -27.225
+    }
+    GenericEntity {
+     ID "60D4FA242FA6B860"
+     coords 1.266 1.705 -27.226
+     angles 0 -180 0
+    }
+    GenericEntity {
+     ID "60D4FA242FA6B861"
+     coords 1.65 -0.031 -27.225
+    }
+    GenericEntity {
+     ID "60D4FA242F59E372"
+     coords 7.906 3.344 -25.136
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F59E37D"
+     coords 7.205 3.344 -24.997
+     angles 0 -90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F59F30E"
+     coords 7.323 3.342 -9.456
+     angles 0 -90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F59F4B6"
+     coords 8.034 3.342 -9.627
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F590CFB"
+     coords -1.37 3.342 -9.618
+    }
+    GenericEntity {
+     ID "60D4FA242F591088"
+     coords -7.126 3.342 -5.659
+     angles 0 -90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F597C54"
+     coords 5.461 6.688 -5.608
+     angles 0 -180 0
+    }
+    GenericEntity {
+     ID "60D4FA242F580C66"
+     coords -12.09 8.5 -15.269
+     angles 0 177.092 180
+    }
+    GenericEntity {
+     ID "60D4FA242F5883FC"
+     coords -12.09 6.688 -15.269
+     angles 0 1.062 0
+    }
+    GenericEntity {
+     ID "60D4FA242F5883FF"
+     coords -8.813 6.688 -18.725
+     angles 0 1.062 0
+    }
+    GenericEntity {
+     ID "60D4FA242F58D991"
+     coords -5.34 6.688 -26.615
+    }
+    GenericEntity {
+     ID "60D4FA242F590CFA"
+     coords -7.204 6.688 -29.271
+    }
+    GenericEntity {
+     ID "60D4FA242F5A3D51"
+     coords -9.621 6.688 -15.314
+     angles 0 2.63 0
+    }
+    GenericEntity {
+     ID "60D4FA242F5A4DD3"
+     coords -10.018 0 -27.521
+     angles 0 -90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F5A4DD4"
+     coords -5.211 6.688 -18.915
+     angles 0 7.026 0
+    }
+    GenericEntity {
+     ID "60D4FA242F5AC5E2"
+     coords -5.34 6.688 -24.253
+    }
+    GenericEntity {
+     ID "60D4FA242F5B2283"
+     coords -9.052 6.688 -26.615
+    }
+    GenericEntity {
+     ID "60D4FA242F5B5071"
+     coords -8.868 6.688 -21.654
+     angles 0 1.062 0
+    }
+    GenericEntity {
+     ID "60D4FA242F5B8050"
+     coords -5.341 6.688 -21.715
+    }
+    GenericEntity {
+     ID "60D4FA242F5B8051"
+     coords -8.805 6.688 -24.032
+     angles 0 4.011 0
+    }
+    GenericEntity {
+     ID "60D4FA242F5BD5AD"
+     coords -9.621 8.5 -15.314
+     angles 0 -179.449 -180
+    }
+    GenericEntity {
+     ID "60D4FA242F5D3040"
+     coords 6.978 6.688 -27.059
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F5D65A0"
+     coords 9.276 6.688 -13.033
+     angles 0 -90.869 0
+    }
+    GenericEntity {
+     ID "60D4FA242F5DA964"
+     coords 7.985 6.688 -24.755
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F5DA965"
+     coords 6.978 6.688 -24.755
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F5DB796"
+     coords 7.984 6.688 -27.058
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F5DF2B0"
+     coords -8.963 0 -27.52
+     angles 0 -90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F5D3043"
+     coords -7.286 6.688 -32.117
+    }
+    GenericEntity {
+     ID "60D4FA242F5D3042"
+     coords -13.956 0.102 10.747
+     angles 0 -90 0
+     {
+      GenericEntity {
+       ID "605CAE7672F36011"
+       coords 0.461 -0.252 -0.001
+       angles 0 0 -90
+      }
+      GenericEntity {
+       ID "605CAE7672FCE6F9"
+       coords 0.461 1.796 -0.001
+       angles 0 -102.31 -90
+      }
+     }
+    }
+    GenericEntity {
+     ID "60D4FA242F5D251A"
+     coords -3.844 6.688 6.174
+     angles 0 -180 0
+    }
+    GenericEntity {
+     ID "60D4FA242F5D33BF"
+     coords -12.499 6.688 -5.08
+     angles 0 1.11 0
+    }
+    GenericEntity {
+     ID "60D4FA242F5C41C6"
+     coords -1.053 0 -9.968
+     angles 0 91.586 0
+    }
+    GenericEntity {
+     ID "60D4FA242F5C8003"
+     coords 11.029 3.342 -12.371
+     angles 0 -90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F5CFC4C"
+     coords 11.028 3.344 -21.836
+     angles 0 -90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F5CFC4D"
+     coords -1.027 0 -11.58
+     angles 0 89.063 0
+    }
+    GenericEntity {
+     ID "60D4FA242F5C41C1"
+     coords 1.837 0 21.367
+     angles 0 -68.751 0
+    }
+    GenericEntity {
+     ID "60D4FA242F5C41C2"
+     coords 3.587 2.829 1.634
+     angles 0 -90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F5C41C3"
+     coords 3.588 2.829 7.661
+     angles 0 -90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F5FD52C"
+     coords 3.588 2.829 21.167
+     angles 0 -90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F5FD9B4"
+     coords 3.588 2.829 14.46
+     angles 0 -90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F5FD522"
+     coords 1.082 0 -20.625
+     angles 0 31.871 0
+    }
+    GenericEntity {
+     ID "60D4FA242F5E043A"
+     coords -10.574 2 -26.158
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F535F6A"
+     coords 3.408 0 7.82
+    }
+    GenericEntity {
+     ID "60D4FA242F5310A1"
+     coords -13.708 7.713 -19.057
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F535F68"
+     coords -13.708 7.713 -20.401
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F532EE4"
+     coords 1.767 0 -16.886
+     angles 0 -175.768 0
+    }
+    GenericEntity {
+     ID "60D4FA242F52EEAF"
+     coords 2.793 0 9.026
+     angles 0 -167.559 0
+    }
+    GenericEntity {
+     ID "60D4FA242F4921DA"
+     coords -6.25 6.688 -25.83
+     angles 0 -174.34 0
+    }
+    GenericEntity {
+     ID "60D4FA242F493B2E"
+     coords -5.441 6.688 -25.791
+     angles 0 174.779 0
+    }
+    GenericEntity {
+     ID "60D4FA242F494602"
+     coords -4.542 6.688 -25.89
+     angles 0 -172.587 0
+    }
+    GenericEntity {
+     ID "60D4FA242F494605"
+     coords -5.517 6.751 -23.099
+     angles 16.533 -86.512 0
+    }
+    GenericEntity {
+     ID "60D4FA242F49F8AF"
+     coords -4.816 6.688 -23.534
+     angles 0 -162.792 0
+    }
+    GenericEntity {
+     ID "60D4FA242F525347"
+     coords -10.378 6.688 -21.015
+     angles 0 -135.672 0
+    }
+    GenericEntity {
+     ID "60D4FA242F52892E"
+     coords -6.221 6.688 -21.041
+     angles 0 160.527 0
+    }
+    GenericEntity {
+     ID "60D4FA242F52892F"
+     coords -5.5 6.688 -20.751
+     angles 0 -175.415 0
+    }
+    GenericEntity {
+     ID "60D4FA242F54123E"
+     coords -4.601 6.688 -20.851
+     angles 0 164.269 0
+    }
+    GenericEntity {
+     ID "60D4FA242F54B982"
+     coords -8.179 6.688 -23.168
+     angles 0 179.282 0
+    }
+    GenericEntity {
+     ID "60D4FA242F54B983"
+     coords -5.845 6.688 -23.455
+     angles 0 169.009 0
+    }
+    GenericEntity {
+     ID "60D4FA242F54EDF2"
+     coords -9.068 6.688 -23.117
+     angles 0 -171.125 0
+    }
+    GenericEntity {
+     ID "60D4FA242F556019"
+     coords -9.713 6.688 -23.329
+     angles 0 175.137 0
+    }
+    GenericEntity {
+     ID "60D4FA242F55AC30"
+     coords -5.014 6.931 -17.923
+     angles 0.419 -158.938 -90.921
+    }
+    GenericEntity {
+     ID "60D4FA242F55AFD9"
+     coords -6.209 6.688 -17.829
+     angles 0 167.968 0
+    }
+    GenericEntity {
+     ID "60D4FA242F55AFE6"
+     coords -5.629 6.688 -17.772
+     angles 0 -167.449 0
+    }
+    GenericEntity {
+     ID "60D4FA242F55DAF8"
+     coords -9.219 6.688 -20.916
+     angles 0 177.986 0
+    }
+    GenericEntity {
+     ID "60D4FA242F56154C"
+     coords -8.447 6.92 -25.87
+     angles 84.764 177.44 -18.182
+    }
+    GenericEntity {
+     ID "60D4FA242F564F7F"
+     coords -1.902 6.88 -14.995
+     angles 0 -121.725 0
+    }
+    GenericEntity {
+     ID "60D4FA242F566F45"
+     coords -9.03 6.688 -25.928
+     angles 0 168.13 0
+    }
+    GenericEntity {
+     ID "60D4FA242F567D3E"
+     coords -1.896 6.822 -14.991
+     angles 0 -121.725 0
+    }
+    GenericEntity {
+     ID "60D4FA242F567D3F"
+     coords -9.848 6.688 -26
+     angles 0 164.707 0
+    }
+    GenericEntity {
+     ID "60D4FA242F568710"
+     coords -1.858 6.688 -14.969
+     angles 0 -121.725 0
+    }
+    GenericEntity {
+     ID "60D4FA242F569BEE"
+     coords -1.876 6.772 -14.98
+     angles 0 -121.725 0
+    }
+    GenericEntity {
+     ID "60D4FA242F5704B1"
+     coords -9.405 6.688 -17.761
+     angles 0 175.137 0
+    }
+    GenericEntity {
+     ID "60D4FA242F5704B2"
+     coords -8.462 6.688 -20.824
+     angles 0 175.547 0
+    }
+    GenericEntity {
+     ID "60D4FA242F5795F5"
+     coords -8.614 6.688 -17.634
+     angles 0 -177.139 0
+    }
+    GenericEntity {
+     ID "60D4FA242F57BA81"
+     coords -7.8 6.688 -17.689
+     angles 0 -168.452 0
+    }
+    GenericEntity {
+     ID "60D4FA242F485133"
+     coords -11.721 6.688 -5.093
+     angles 0 -1.803 0
+    }
+    GenericEntity {
+     ID "60D4FA242F48C24A"
+     coords -0.734 0 -8.032
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F48C24B"
+     coords -8.403 6.688 0.864
+    }
+    GenericEntity {
+     ID "60D4FA242F480827"
+     coords 3.258 0 6.333
+     angles 0 -89.098 0
+    }
+    GenericEntity {
+     ID "60D4FA242F485131"
+     coords 3.264 0 15.618
+     angles 0 -89.098 0
+    }
+    GenericEntity {
+     ID "60D4FA242F4B4368"
+     coords -1.072 8.003 -16.139
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F4B6EA8"
+     coords 11.024 4.316 -27.201
+     angles 0 -90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F4BBB1F"
+     coords -1.293 7.795 -26.794
+     angles 0 -90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F4B6EAB"
+     coords 3.95 6.688 -21.271
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F4D37E6"
+     coords -5.974 0.103 17.391
+     {
+      GenericEntity {
+       ID "605CAE7790439D7D"
+       coords 0.464 1.796 0
+       angles 0 -102.31 -90
+      }
+      GenericEntity {
+       ID "605CAE779043C330"
+       coords 0.464 -0.252 0
+       angles 0 0 -90
+      }
+      GenericEntity {
+       ID "605CAE7790439D7C"
+       coords 0.464 4.838 0
+       angles 0 162.066 90
+      }
+      GenericEntity {
+       ID "605CAE7790448B5C"
+       coords 0.464 4.855 0
+       angles 0 0 -90
+      }
+     }
+    }
+    GenericEntity {
+     ID "60D4FA242F4CAC1C"
+     coords -4.647 6.686 -6.565
+     angles 0 -66.159 0
+    }
+    GenericEntity {
+     ID "60D4FA242F4CC257"
+     coords 4.603 6.688 -8.529
+     angles 0 88.179 0
+    }
+    GenericEntity {
+     ID "60D4FA242F4D37F8"
+     coords -6.665 6.686 -3.884
+     angles 0 173.238 0
+    }
+    GenericEntity {
+     ID "60D4FA242F4CAC1D"
+     coords 2.77 7.001 -1.62
+    }
+    GenericEntity {
+     ID "60D4FA242F40C79C"
+     coords -0.771 3.342 -9.361
+    }
+    GenericEntity {
+     ID "60D4FA242F415322"
+     coords -10.454 -0.002 -13.928
+     angles 0 4.378 0
+    }
+    GenericEntity {
+     ID "60D4FA242F4175E4"
+     coords -8.949 -0.002 -5.879
+     angles 0 -180 0
+    }
+    GenericEntity {
+     ID "60D4FA242F41B7C3"
+     coords -9.933 -0.002 -13.928
+    }
+    GenericEntity {
+     ID "60D4FA242F41D880"
+     coords 3.395 3.342 -9.361
+    }
+    GenericEntity {
+     ID "60D4FA242F41EF83"
+     coords -6.07 3.342 -9.361
+    }
+    GenericEntity {
+     ID "60D4FA242F41EF8C"
+     coords -2.129 -0.002 -13.943
+    }
+    GenericEntity {
+     ID "60D4FA242F41F5DA"
+     coords -6.554 3.342 -9.361
+    }
+    GenericEntity {
+     ID "60D4FA242F4C176D"
+     coords -10.103 0 -31.197
+    }
+    GenericEntity {
+     ID "60D4FA242F4C498A"
+     coords -3.195 6.688 -31.828
+    }
+    GenericEntity {
+     ID "60D4FA242F4E6468"
+     coords -12.693 3.342 -9.361
+    }
+    GenericEntity {
+     ID "60D4FA242F4E9F64"
+     coords -13.18 3.342 -9.36
+    }
+    GenericEntity {
+     ID "60D4FA242F4E9F65"
+     coords -9.451 -0.002 -5.879
+     angles 0 -180 0
+    }
+    GenericEntity {
+     ID "60D4FA242F4EE044"
+     coords -3.668 6.688 -31.827
+    }
+    GenericEntity {
+     ID "60D4FA242F4F1095"
+     coords -4.146 6.688 -31.827
+    }
+    GenericEntity {
+     ID "60D4FA242F4F68A8"
+     coords -9.617 0 -31.198
+    }
+    GenericEntity {
+     ID "60D4FA242F4F8559"
+     coords -1.646 -0.002 -8.137
+     angles 0 -90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F4F8D36"
+     coords 9.246 6.688 -5.937
+     angles 0 179.92 0
+    }
+    GenericEntity {
+     ID "60D4FA242F4F8EEC"
+     coords -10.601 0 -31.198
+    }
+    GenericEntity {
+     ID "60D4FA242F4F8EED"
+     coords 8.753 6.688 -5.932
+     angles 0 -179.212 0
+    }
+    GenericEntity {
+     ID "60D4FA242F4FB728"
+     coords -1.646 -0.002 -8.613
+     angles 0 -90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F4FB72B"
+     coords -1.646 -0.002 -13.943
+    }
+    GenericEntity {
+     ID "60D4FA242F4FF0CE"
+     coords -2.717 6.688 -31.827
+    }
+    GenericEntity {
+     ID "60D4FA242F40C79E"
+     coords 10.598 0 -7.937
+     angles 0 -90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F406EF1"
+     coords -9.36 6.688 -3.991
+    }
+    GenericEntity {
+     ID "60D4FA242F40C79B"
+     coords -2.226 6.688 5.889
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F40C7E4"
+     coords -1.303 6.688 1.956
+    }
+    GenericEntity {
+     ID "60D4FA242F40EF7B"
+     coords -9.36 6.688 -1.148
+    }
+    GenericEntity {
+     ID "60D4FA242F43826B"
+     coords -14.208 6.688 3.56
+    }
+    GenericEntity {
+     ID "60D4FA242F43C6A2"
+     coords -7.818 6.688 5.887
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F43C92E"
+     coords -6.762 6.688 1.099
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F43D498"
+     coords -14.206 6.688 -3.991
+    }
+    GenericEntity {
+     ID "60D4FA242F43D499"
+     coords -14.208 6.688 -1.148
+    }
+    GenericEntity {
+     ID "60D4FA242F4332B9"
+     coords 0.465 0 -21.885
+    }
+    GenericEntity {
+     ID "60D4FA242F457912"
+     coords -1.004 5.041 -27.224
+     angles 0 -180 0
+    }
+    GenericEntity {
+     ID "60D4FA242F45935E"
+     coords 3.683 3.317 -27.226
+    }
+    GenericEntity {
+     ID "60D4FA242F459A8C"
+     coords 3.683 -0.031 -27.226
+    }
+    GenericEntity {
+     ID "60D4FA242F45D704"
+     coords -1.004 1.705 -27.224
+     angles 0 -180 0
+    }
+    GenericEntity {
+     ID "60D4FA242F457913"
+     {
+      GenericEntity {
+       ID "60D4FA242F44D574"
+       coords -4.934 1.296 -4.723
+       angles 0 90 0
+      }
+      GenericEntity {
+       ID "60D4FA242F448820"
+       coords -4.96 0.015 -4.237
+       angles 0 90 0
+      }
+      GenericEntity {
+       ID "60D4FA242F44F1F5"
+       coords -4.96 0.015 -5.224
+       angles 0 90 0
+      }
+      GenericEntity {
+       ID "60D4FA242F466EFC"
+       coords -0.84 1.181 -8.628
+      }
+      GenericEntity {
+       ID "60D4FA242F469178"
+       coords -0.041 1.181 -3.84
+       angles 0 -90 0
+      }
+      GenericEntity {
+       ID "60D4FA242F46917B"
+       coords -0.041 1.181 -0.724
+       angles 0 -90 0
+      }
+      GenericEntity {
+       ID "60D4FA242F46F208"
+       coords -0.04 1.181 -2.286
+       angles 0 -90 0
+      }
+      GenericEntity {
+       ID "60D4FA242F4706C0"
+       coords -4.087 1.181 -8.627
+      }
+      GenericEntity {
+       ID "60D4FA242F476B36"
+       coords -2.426 1.181 -8.628
+      }
+     }
+    }
+    GenericEntity {
+     ID "60D4FA242F466EFD"
+     coords 3.246 0 4.808
+     angles 0 76.42 0
+    }
+    GenericEntity {
+     ID "60D4FA242F780610"
+     coords 9.912 -0.002 -28.431
+     angles 0 -178.583 0
+    }
+    GenericEntity {
+     ID "60D4FA242F780611"
+     coords 4.306 -0.002 -26.137
+     angles 0 93.299 0
+    }
+    GenericEntity {
+     ID "60D4FA242F788750"
+     coords 9.975 -0.002 -19.095
+     angles 0 178.964 0
+    }
+    GenericEntity {
+     ID "60D4FA242F792B44"
+     coords 7.915 -0.002 -19.183
+     angles 0 176.847 0
+    }
+    GenericEntity {
+     ID "60D4FA242F794BA6"
+     coords 4.367 -0.002 -24.072
+     angles 0 89.6 0
+    }
+    GenericEntity {
+     ID "60D4FA242F794BA9"
+     coords 5.612 -0.002 -31.103
+     angles 0 0.458 0
+    }
+    GenericEntity {
+     ID "60D4FA242F79F2FB"
+     coords -13.254 6.688 -7.226
+     angles 0 88.305 0
+    }
+    GenericEntity {
+     ID "60D4FA242F79F90D"
+     coords -12.562 6.688 -5.889
+     angles 0 0.795 0
+    }
+    GenericEntity {
+     ID "60D4FA242F7BACBD"
+     coords 7.846 -0.002 -25.06
+     angles 0 -179.429 0
+    }
+    GenericEntity {
+     ID "60D4FA242F7BACBE"
+     coords 9.907 -0.002 -25.293
+     angles 0 -166.312 0
+    }
+    GenericEntity {
+     ID "60D4FA242F7BB41F"
+     coords 7.925 -0.002 -22.08
+     angles 0 176.489 0
+    }
+    GenericEntity {
+     ID "60D4FA242F7BE5C3"
+     coords 9.988 -0.002 -22.085
+     angles 0 -178.63 0
+    }
+    GenericEntity {
+     ID "60D4FA242F7BEFAA"
+     coords 7.846 -0.002 -28.385
+     angles 0 -179.429 0
+    }
+    GenericEntity {
+     ID "60D4FA242F7B4496"
+     coords -12.382 0 -4.017
+    }
+    GenericEntity {
+     ID "60D4FA242F7DCEC6"
+     coords 6.612 2.168 -12.239
+    }
+    GenericEntity {
+     ID "60D4FA242F7D2450"
+     coords -1.622 6.688 -30.212
+     angles 0 -90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F7D2E64"
+     coords 10.688 6.688 -7.766
+     angles 0 -90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F70863A"
+     coords -7.624 -0.002 -10.723
+     angles 0 -5.176 0
+    }
+    GenericEntity {
+     ID "60D4FA242F70863B"
+     coords 3.168 0 12.857
+     angles 0 -91.588 0
+     {
+      GenericEntity {
+       ID "551C7973A671B69B"
+       coords -0.002 1.003 0.14
+      }
+     }
+    }
+    GenericEntity {
+     ID "60D4FA242F70322D"
+     coords 6.978 3.344 -24.399
+     angles 0 88.383 0
+    }
+    GenericEntity {
+     ID "60D4FA242F705601"
+     coords 4.946 3.344 -29.17
+     angles 0 -76.793 0
+    }
+    GenericEntity {
+     ID "60D4FA242F705602"
+     coords 6.595 3.344 -25.603
+     angles 0 131.75 0
+    }
+    GenericEntity {
+     ID "60D4FA242F70846D"
+     coords 4.927 3.344 -23.597
+     angles 0 -53.099 0
+    }
+    GenericEntity {
+     ID "60D4FA242F726D62"
+     coords 4.927 3.344 -9.889
+     angles 0 -53.099 0
+    }
+    GenericEntity {
+     ID "60D4FA242F728AAA"
+     coords 8.842 3.342 -10.771
+     angles 0 -128.706 0
+    }
+    GenericEntity {
+     ID "60D4FA242F728AAD"
+     coords 6.612 3.342 -8.594
+     angles 0 113.881 0
+    }
+    GenericEntity {
+     ID "60D4FA242F7295DA"
+     coords 7 3.342 -10.339
+     angles 0 89.426 0
+    }
+    GenericEntity {
+     ID "60D4FA242F72C88A"
+     coords 8.746 3.342 -9.398
+     angles 0 -45.79 0
+    }
+    GenericEntity {
+     ID "60D4FA242F72D266"
+     coords 8.241 6.688 -8.393
+     angles 0 128.784 0
+    }
+    GenericEntity {
+     ID "60D4FA242F734380"
+     coords 8.564 3.344 -25.766
+     angles 0 -3.967 0
+    }
+    GenericEntity {
+     ID "60D4FA242F734381"
+     coords 8.595 3.344 -24.354
+     angles 0 118.574 0
+    }
+    GenericEntity {
+     ID "60D4FA242F73E356"
+     coords 4.594 3.344 -26.043
+     angles 0 -91.386 0
+    }
+    GenericEntity {
+     ID "60D4FA242F75DFC7"
+     coords 5.094 3.344 -6.298
+     angles 0 -134.843 0
+    }
+    GenericEntity {
+     ID "60D4FA242F7445A3"
+     coords -1.387 6.688 -24.141
+     angles 0 -90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F74C254"
+     coords -1.386 6.688 -22.687
+     angles 0 -90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F7445A0"
+     coords 10.604 0 -9.544
+     angles 0 -90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F74645D"
+     coords 5.679 -0.004 -6.61
+     angles 0 89 0
+    }
+    GenericEntity {
+     ID "60D4FA242F746459"
+     coords 3.961 7.787 -11.81
+     angles 0 -90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F742537"
+     coords 3.954 6.688 -25.739
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F77EF53"
+     coords 3.954 6.688 -27.976
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F77EF5C"
+     coords 3.953 6.688 -23.515
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F77EF5D"
+     coords -6.79 6.686 -5.994
+     angles 0 43.447 0
+    }
+    GenericEntity {
+     ID "60D4FA242F77EF5E"
+     coords -7.171 6.686 -6.396
+     angles 0 43.447 0
+    }
+    GenericEntity {
+     ID "60D4FA242F76E433"
+     coords -6.917 0 -14.952
+     angles 0 -126.053 0
+    }
+    GenericEntity {
+     ID "60D4FA242F770B6A"
+     coords -3.536 -0.002 -6.165
+     angles 0 -78.407 0
+    }
+    GenericEntity {
+     ID "60D4FA242F778BFA"
+     coords 4.477 6.688 -10.446
+     angles 0 -39.991 0
+    }
+    GenericEntity {
+     ID "60D4FA242F76595A"
+     coords -15.102 10.282 6.264
+    }
+    GenericEntity {
+     ID "60D4FA242F765958"
+     coords -14.995 5.093 26.068
+     angles 0 180 0
+    }
+    GenericEntity {
+     ID "60D4FA242F692B78"
+     coords 2.921 0.102 10.632
+     {
+      GenericEntity {
+       ID "605CAE74C1556100"
+       coords -1.991 5.237 0
+       angles 12.117 -180 -180
+      }
+      GenericEntity {
+       ID "605CAE74C1556101"
+       coords -4.053 5.237 0
+       angles 89.972 -180 -180
+      }
+      GenericEntity {
+       ID "605CAE74C155B34F"
+       coords 0.463 -0.252 0
+       angles 0 0 -90
+      }
+      GenericEntity {
+       ID "605CAE74C155E517"
+       coords 0.463 1.796 0
+       angles 0 -102.31 -90
+      }
+      GenericEntity {
+       ID "605CAE74C1556102"
+       coords 0.464 4.838 -0.001
+       angles 0 162.066 90
+      }
+     }
+    }
+    GenericEntity {
+     ID "60D4FA242F6AAF51"
+     coords 3.958 0 -12.559
+    }
+    GenericEntity {
+     ID "60D4FA242F6AAF5E"
+     coords -10.864 2 -14.435
+     angles 0 -90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F6A0248"
+     coords -0.791 0 -6.421
+     angles 0 90 0
+    }
+    GenericEntity {
+     ID "60D4FA242F6A024B"
+     coords -14.472 6.688 0.706
+     angles 0 87.784 0
+    }
+    GenericEntity {
+     ID "60D4FA242F6DE52F"
+     coords 3.962 6.688 -28.673
+    }
+    StaticModelEntity {
+     ID "60D4FA242F532EE2"
+     coords 3.304 0 20.443
+     angles 0 -144.593 0
+    }
+    StaticModelEntity {
+     ID "60D4FA242F77EF5F"
+     coords 3.064 0.91 18.092
+     angles -5.265 -0.261 -87.163
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B814F850"
+   coords 0 0 0.001
+   {
+    GenericEntity {
+     ID "5F320EEC17021ECD"
+     coords 0.001 0 -0.002
+     {
+      GenericEntity {
+       ID "5F320EEC17021ECC"
+       coords 0.001 0 0
+      }
+     }
+    }
+    GenericEntity {
+     ID "5F320EEC1702AD76"
+     coords 0.002 0 0
+     {
+      GenericEntity {
+       ID "5F320EEC170264DE"
+       coords 0 0 0.001
+      }
+     }
+    }
+    GenericEntity {
+     ID "5F320EEC1702E750"
+     coords 0 0 -0.001
+     {
+      GenericEntity {
+       ID "5F320EEC1702AD75"
+       coords 0 0 0
+      }
+     }
+    }
+    GenericEntity {
+     ID "5F320EEC1703A7F9"
+     coords 0.001 0 -0.001
+     {
+      GenericEntity {
+       ID "5F320EEC1703A7F6"
+       coords -0.001 0 0.001
+      }
+     }
+    }
+    GenericEntity {
+     ID "5F320EEC1703CCFB"
+     coords 0.001 0 0
+     {
+      GenericEntity {
+       ID "5F320EEC1703AC41"
+       coords 0.001 0 0.001
+      }
+     }
+    }
+    GenericEntity {
+     ID "5F320EEC17041FB6"
+     coords 0.001 0 -0.001
+    }
+    GenericEntity {
+     ID "5F320EEC170579A4"
+     coords 0.001 0 -0.001
+     {
+      GenericEntity {
+       ID "5F320EEC1702E751"
+       coords -0.001 0 0.002
+      }
+     }
+    }
+    GenericEntity {
+     ID "5F320EEC17059183"
+     coords 0 0 -0.001
+    }
+    GenericEntity {
+     ID "5F320EEC17059184"
+     coords 0 0 -0.001
+    }
+    GenericEntity {
+     ID "5F320EEC17059919"
+     coords 0 0 -0.001
+    }
+    GenericEntity {
+     ID "5F320EEC1705EBF4"
+     coords 0 0 0
+    }
+    GenericEntity {
+     ID "5F320EEC1705EBF5"
+     coords 0.001 0 -0.001
+    }
+    GenericEntity {
+     ID "5F320EEC1705EBF6"
+     coords 0 0 -0.001
+    }
+    GenericEntity {
+     ID "5F320EEC1705EE8A"
+     coords -0 0 -0.001
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B814F848"
+   coords 0.806 6.607 7.29
+  }
+  GenericEntity {
+   ID "607D3754B814F84A"
+   coords 0.001 0 -0.001
+   {
+    GenericEntity {
+     ID "5F2D5AAA125A8025"
+     coords -0.001 0 0
+     angles 0 -180 0
+    }
+    GenericEntity {
+     ID "5F2D5AAA125A8027"
+     coords -0.001 0 0
+     angles 0 -180 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B814F844"
+   coords 0 0 0
+   {
+    GenericEntity {
+     ID "5F320EEC28A865ED"
+     coords 0.001 0 0
+     {
+      GenericEntity {
+       ID "5F320EEC28ABC142"
+       coords -0.001 0 0.001
+      }
+     }
+    }
+    GenericEntity {
+     ID "5F320EEC28A8B471"
+     coords 0 0 0
+     {
+      GenericEntity {
+       ID "5F320EEC28A865EE"
+       coords 0.002 0 0.001
+      }
+     }
+    }
+    GenericEntity {
+     ID "5F320EEC28A8E43D"
+     coords 0.001 0 0.001
+     {
+      GenericEntity {
+       ID "5F320EEC28A8E43C"
+       coords 0 0 -0.001
+      }
+     }
+    }
+    GenericEntity {
+     ID "5F320EEC28A95029"
+     coords 0 0 0
+     {
+      GenericEntity {
+       ID "5F320EEC28A9092B"
+       coords 0 0 0.001
+      }
+     }
+    }
+    GenericEntity {
+     ID "5F320EEC28A95FC1"
+     coords 0.001 0 0
+    }
+    GenericEntity {
+     ID "5F320EEC28A95FC6"
+     coords 0 0 0.001
+    }
+    GenericEntity {
+     ID "5F320EEC28A990DB"
+     coords 0.001 0 0
+    }
+    GenericEntity {
+     ID "5F320EEC28A9CE9A"
+     coords 0.001 0 0
+    }
+    GenericEntity {
+     ID "5F320EEC28A9CE9B"
+     coords 0 0 0
+    }
+    GenericEntity {
+     ID "5F320EEC28AB7E5C"
+     coords 0.001 0 0
+     {
+      GenericEntity {
+       ID "5F320EEC28AB2978"
+       coords 0 0 0.002
+      }
+     }
+    }
+    GenericEntity {
+     ID "5F320EEC28AB81D0"
+     coords 0.001 0 0.003
+     {
+      GenericEntity {
+       ID "5F320EEC28AB81D1"
+       coords 0 0 -0.001
+      }
+     }
+    }
+    GenericEntity {
+     ID "5F320EEC28D603B1"
+     coords 0 0 0.001
+    }
+    GenericEntity {
+     ID "5F320EEC28D603B2"
+     coords 0 0 0
+    }
+    GenericEntity {
+     ID "5F320EEC28D66EA9"
+     coords 0 0 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "60D4FA22E798C910"
+   coords 0 0 0.001
+   {
+    GenericEntity {
+     ID "60D4F0D0F5A362BC"
+     coords -12.273 11.699 6.062
+     angles 0 0 -180
+    }
+    GenericEntity {
+     ID "60D4F0D0F5B567E7"
+     coords -13.049 9.136 7.624
+     angles 89.972 -180 -180
+    }
+    GenericEntity {
+     ID "60D4F0D0F5B58C12"
+     coords -12.273 9.136 7.625
+     angles 89.972 -180 -180
+    }
+    GenericEntity {
+     ID "60D4F0D0F5B5CF41"
+     coords -13.049 11.134 7.624
+     angles 89.972 -180 -180
+    }
+    GenericEntity {
+     ID "60D4F0D0F5B5CF4E"
+     coords -12.273 11.134 7.625
+     angles 89.972 -180 -180
+    }
+    GenericEntity {
+     ID "60D4F0D0F5B9F624"
+     coords -13.045 11.696 6.062
+     angles 0 0 -180
+    }
+    GenericEntity {
+     ID "60D4F0D0F5BEC340"
+     coords -12.285 11.342 2.975
+    }
+    GenericEntity {
+     ID "60D4F0D0F5BECA8F"
+     coords -13.031 12.044 2.975
+     angles 0 0 180
+    }
+    GenericEntity {
+     ID "60D4F0D0F5B9F62E"
+     coords -10.507 10.706 2.284
+     angles 0 -90 0
+     {
+      GenericEntity {
+       ID "60D4F0D161EF6E84"
+       coords -0.425 -0.027 -5.487
+       angles 0 90 0
+      }
+      GenericEntity {
+       ID "60D4F0D161EF6E85"
+       coords 0.586 0 -4.953
+       angles 0 90 0
+      }
+      GenericEntity {
+       ID "60D4F0D161EF12D1"
+       coords 0.559 0 -8.198
+       angles 0 90 0
+      }
+      GenericEntity {
+       ID "60D4F0D161EF407E"
+       coords 0.559 0 -3.891
+       angles 0 90 0
+      }
+     }
+    }
+    GenericEntity {
+     ID "60D4F0D0F5BD9298"
+     coords -11.772 5.57 9.676
+     angles 0 -90 0
+     {
+      GenericEntity {
+       ID "60B51A2DE5CBE568"
+       coords -0.001 0 -0.999
+      }
+     }
+    }
+    GenericEntity {
+     ID "60D4F0D0F5BDF435"
+     coords -9.77 5.57 9.675
+     angles 0 -90 0
+     {
+      GenericEntity {
+       ID "60B51A2DE5CBE568"
+       coords 0 0 -1
+      }
+     }
+    }
+    GenericEntity {
+     ID "60D4F0D0F5BDF436"
+     coords -7.772 5.57 9.676
+     angles 0 -90 0
+     {
+      GenericEntity {
+       ID "60B51A2DE5CBE568"
+       coords 0 0 -0.999
+      }
+     }
+    }
+    GenericEntity {
+     ID "60D4F0D0F5BE3950"
+     coords -5.771 5.57 9.675
+     angles 0 -90 0
+     {
+      GenericEntity {
+       ID "60B51A2DE5CBE568"
+       coords 0 0 -1
+      }
+     }
+    }
+    GenericEntity {
+     ID "60D4F0D0F5BE3951"
+     coords -3.769 5.57 9.674
+     angles 0 -90 0
+     {
+      GenericEntity {
+       ID "60B51A2DE5CBE568"
+       coords 0 0 -1
+      }
+     }
+    }
+    GenericEntity {
+     ID "60D4F0D0F5BE4488"
+     coords -1.769 5.57 9.675
+     angles 0 -90 0
+     {
+      GenericEntity {
+       ID "60B51A2DE5CBE568"
+       coords 0 0 -1
+      }
+     }
+    }
+    GenericEntity {
+     ID "60D4F0D0F5BE44B6"
+     coords -0.55 5.571 5.562
+     angles 0 -90 0
+     {
+      GenericEntity {
+       ID "60B51A2DE5CBE568"
+       coords -0.001 0 -1
+      }
+     }
+    }
+    GenericEntity {
+     ID "60D4F0D0F5BE44B7"
+     coords 0.235 5.57 9.675
+     angles 0 -90 0
+     {
+      GenericEntity {
+       ID "60B51A2DE5CBE568"
+       coords 0 0 -1
+      }
+     }
+    }
+    GenericEntity {
+     ID "60D4F0D0F5BEB2FB"
+     coords -6.556 5.571 5.562
+     angles 0 -90 0
+     {
+      GenericEntity {
+       ID "60B51A2DE5CBE568"
+       coords 0 0 -1
+      }
+     }
+    }
+    GenericEntity {
+     ID "60D4F0D0F5BEB2FC"
+     coords -8.557 5.571 5.561
+     angles 0 -90 0
+     {
+      GenericEntity {
+       ID "60B51A2DE5CBE568"
+       coords 0 0 -0.999
+      }
+     }
+    }
+    GenericEntity {
+     ID "60D4F0D0F5BEB2FD"
+     coords -4.553 5.571 5.561
+     angles 0 -90 0
+     {
+      GenericEntity {
+       ID "60B51A2DE5CBE568"
+       coords 0.002 0 -0.999
+      }
+     }
+    }
+    GenericEntity {
+     ID "60D4F0D0F5BEB2FE"
+     coords -2.552 5.571 5.561
+     angles 0 -90 0
+     {
+      GenericEntity {
+       ID "60B51A2DE5CBE568"
+       coords 0 0 -0.999
+      }
+     }
+    }
+    GenericEntity {
+     ID "60D4F0D0F5BECA80"
+     coords -12.556 5.571 5.562
+     angles 0 -90 0
+     {
+      GenericEntity {
+       ID "60B51A2DE5CBE568"
+       coords -0.001 0 -1
+      }
+     }
+    }
+    GenericEntity {
+     ID "60D4F0D0F5BECA82"
+     coords -10.554 5.571 5.561
+     angles 0 -90 0
+     {
+      GenericEntity {
+       ID "60B51A2DE5CBE568"
+       coords -0.001 0 -0.999
+      }
+     }
+    }
+    GenericEntity {
+     ID "60D4F0D0F5A38602"
+     coords 0.789 5.419 19.614
+     {
+      GenericEntity {
+       ID "60B35B83DB57015D"
+       coords 0.001 0 -1.03
+      }
+     }
+    }
+    GenericEntity {
+     ID "60D4F0D0F5A38603"
+     coords 0.79 5.419 13.612
+     angles 0 -180 0
+     {
+      GenericEntity {
+       ID "60B35B83DB57015D"
+       coords -0 0 -2.172
+      }
+     }
+    }
+    GenericEntity {
+     ID "60D4F0D0F5A3861C"
+     coords 0.788 5.419 10.611
+     angles 0 -180 0
+     {
+      GenericEntity {
+       ID "60B35B83DB57015D"
+       coords -0.001 0 -1.499
+      }
+     }
+    }
+    GenericEntity {
+     ID "60D4F0D0F5A3C9E1"
+     coords -3.4 5.419 19.614
+     {
+      GenericEntity {
+       ID "60B35B83DB57015D"
+       coords 0.001 0 -1.029
+      }
+     }
+    }
+    GenericEntity {
+     ID "60D4F0D0F5BC216E"
+     coords -3.399 5.419 10.612
+     angles 0 -180 0
+     {
+      GenericEntity {
+       ID "60B35B83DB57015D"
+       coords -0 0 -1.5
+      }
+     }
+    }
+    GenericEntity {
+     ID "60D4F0D0F5BC216F"
+     coords -3.4 5.419 13.613
+     angles 0 -180 0
+     {
+      GenericEntity {
+       ID "60B35B83DB57015D"
+       coords -0 0 -2.172
+      }
+     }
+    }
+    GenericEntity {
+     ID "60D4F0D0F5BC68A0"
+     coords -11.741 5.419 19.614
+    }
+    GenericEntity {
+     ID "60D4F0D0F5BC68A1"
+     coords -7.593 5.419 10.612
+     angles 0 -180 0
+    }
+    GenericEntity {
+     ID "60D4F0D0F5BC7204"
+     coords -7.593 5.419 13.613
+     angles 0 -180 0
+    }
+    GenericEntity {
+     ID "60D4F0D0F5BC7207"
+     coords -7.594 5.419 19.614
+    }
+    GenericEntity {
+     ID "60D4F0D0F5BC8F40"
+     coords -11.742 5.419 10.612
+     angles 0 -180 0
+    }
+    GenericEntity {
+     ID "60D4F0D0F5BC8F47"
+     coords -11.741 5.419 13.614
+     angles 0 -180 0
+    }
+    GenericEntity {
+     ID "60D4F0D0F5BCC92E"
+     coords -11.771 5.344 1.608
+    }
+    GenericEntity {
+     ID "60D4F0D0F5BCC92F"
+     coords -11.771 5.344 4.609
+    }
+    GenericEntity {
+     ID "60D4F0D0F5BD6448"
+     coords -7.599 5.344 4.61
+    }
+    GenericEntity {
+     ID "60D4F0D0F5BD644B"
+     coords -7.599 5.344 1.608
+    }
+    GenericEntity {
+     ID "60D4F0D0F5BD9292"
+     coords 0.771 5.344 1.609
+    }
+    GenericEntity {
+     ID "60D4F0D0F5BD929D"
+     coords 0.769 5.344 4.609
+     {
+      GenericEntity {
+       ID "60B35B83DB57015D"
+       coords 0 0 -1.5
+      }
+     }
+    }
+    GenericEntity {
+     ID "60D4F0D0F5BDB6BE"
+     coords -3.4 5.344 1.607
+    }
+    GenericEntity {
+     ID "60D4F0D0F5BDB6BF"
+     coords -3.399 5.344 4.609
+    }
+    GenericEntity {
+     ID "60D4F0D0F5B39382"
+     coords -11.529 12.027 1.955
+     angles 0 -90 0
+    }
+    GenericEntity {
+     ID "60D4F0D0F5B39383"
+     coords -11.784 11.344 1.959
+     angles 0 -90 0
+    }
+    GenericEntity {
+     ID "60D4F0D0F5B3BC6D"
+     coords -12.531 12.027 1.954
+     angles 0 -90 0
+    }
+    GenericEntity {
+     ID "60D4F0D0F5B3CD61"
+     coords -12.274 11.681 7.063
+    }
+    GenericEntity {
+     ID "60D4F0D0F5B3CD62"
+     coords -13.049 7.137 7.625
+     angles 90 0 0
+    }
+    GenericEntity {
+     ID "60D4F0D0F5B3F274"
+     coords -13.049 11.681 7.063
+    }
+    GenericEntity {
+     ID "60D4F0D0F5CC0C62"
+     coords -12.274 7.137 7.625
+     angles 90 0 0
+    }
+    GenericEntity {
+     ID "60D4F0D0F5B2D70C"
+     coords -13.054 5.571 7.06
+     {
+      GenericEntity {
+       ID "60B51A2D80A34190"
+       coords 0 0 -0.5
+      }
+     }
+    }
+    GenericEntity {
+     ID "60D4F0D0F5B2D70E"
+     coords -12.274 5.57 9.175
+     {
+      GenericEntity {
+       ID "60B51A2D80A34190"
+       coords 0 0 -0.5
+      }
+     }
+    }
+    GenericEntity {
+     ID "60D4F0D0F5B2D708"
+     coords -10.922 11.336 1.94
+    }
+    GenericEntity {
+     ID "60D4F0D0F5B2D70B"
+     coords -10.922 12.019 1.94
+    }
+   }
+  }
+  GenericEntity {
+   ID "60A9228EE15A47FF"
+   coords 0 0 0.001
+   {
+    GenericEntity {
+     ID "5F315BD12316285D"
+     coords -0.001 0 -0.001
+    }
+    GenericEntity {
+     ID "5F315BD12316285E"
+     coords -0.001 0 -0.001
+    }
+    GenericEntity {
+     ID "5F315BD123164444"
+     coords 0 0 0
+    }
+    GenericEntity {
+     ID "5F315BD12316447A"
+     coords -0.001 0 -0.001
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B810FD45"
+   coords 0 0 0
+   {
+    GenericEntity {
+     ID "605749A674D9DB64"
+     coords 0 0 -0.001
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B815456C"
+   coords 0.001 0 -0.001
+   {
+    GenericEntity {
+     ID "605749A674D9DB64"
+     coords -0.001 0 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B8154542"
+   coords 0 0 0
+   {
+    GenericEntity {
+     ID "6073302301DBD285"
+     coords 0 0 0
+    }
+    GenericEntity {
+     ID "6073302301DBEFA9"
+     coords 0 1.196 -0.115
+     angles 0 90 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B8154570"
+   coords 0.001 0 0
+   {
+    GenericEntity {
+     ID "6073302301DBD285"
+     coords 0 0 -0.001
+    }
+    GenericEntity {
+     ID "6073302301DBEFA9"
+     coords -0.001 1.196 -0.115
+     angles 0 90 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B8154576"
+   coords -0.002 0 0
+   {
+    GenericEntity {
+     ID "6073302301DBD285"
+     coords 0.001 0 0
+    }
+    GenericEntity {
+     ID "6073302301DBEFA9"
+     coords 0 1.196 -0.114
+     angles 0 90 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B815457B"
+   coords 0 0 0
+   {
+    GenericEntity {
+     ID "6073302301DBD285"
+     coords -0.001 0 0
+    }
+    GenericEntity {
+     ID "6073302301DBEFA9"
+     coords -0.001 1.196 -0.115
+     angles 0 90 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B815457F"
+   coords -0.001 0 0
+   {
+    GenericEntity {
+     ID "6073302301DBD285"
+     coords 0 0 0
+    }
+    GenericEntity {
+     ID "6073302301DBEFA9"
+     coords 0 1.196 -0.114
+     angles 0 90 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B8154546"
+   coords 0 0 0
+   {
+    GenericEntity {
+     ID "5F2D5AAF8EB8AB94"
+     coords 0.002 0 -0.001
+    }
+    GenericEntity {
+     ID "5F2D5AAF8EBBE4B7"
+     coords 0 0 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B815454A"
+   coords 0 0 -0.001
+   {
+    GenericEntity {
+     ID "5F2D5AAF8EB8AB94"
+     coords 0 0 0
+    }
+    GenericEntity {
+     ID "5F2D5AAF8EBBE4B7"
+     coords 0 0 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B815454D"
+   coords 0.001 0 -0.001
+   {
+    GenericEntity {
+     ID "5F2D5AAF8EB8AB94"
+     coords -0.001 0 0.001
+    }
+    GenericEntity {
+     ID "5F2D5AAF8EBBE4B7"
+     coords 0 0 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B8154553"
+   coords 0 0 0
+   {
+    GenericEntity {
+     ID "5F2D5AAF8EB8AB94"
+     coords 0.001 0 -0.001
+    }
+    GenericEntity {
+     ID "5F2D5AAF8EBBE4B7"
+     coords 0 0 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B81542AA"
+   coords 0 0 0
+   {
+    GenericEntity {
+     ID "6073242D168F3610"
+     coords 0 0 0
+    }
+    GenericEntity {
+     ID "6073242D168F970F"
+     coords 0 1.196 -0.115
+     angles 0 90 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B81542B2"
+   coords 0 0 0
+   {
+    GenericEntity {
+     ID "6073242D168F3610"
+     coords -0.001 0 0.001
+    }
+    GenericEntity {
+     ID "6073242D168F970F"
+     coords 0 1.196 -0.114
+     angles 0 90 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B81542B8"
+   coords 0 0 0
+   {
+    GenericEntity {
+     ID "6073242D168F3610"
+     coords -0.001 0 0
+    }
+    GenericEntity {
+     ID "6073242D168F970F"
+     coords -0.001 1.196 -0.114
+     angles 0 90 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B8104862"
+   coords 0 0 0
+   {
+    GenericEntity {
+     ID "5F2D5AABEC079823"
+     coords 0 0 0
+     angles 0 180 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B8121808"
+   coords 0 0 0.001
+   {
+    GenericEntity {
+     ID "5F2D5AABEC079823"
+     coords 0 0 0
+     angles 0 180 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B8121817"
+   coords 0.001 0 0.001
+   {
+    GenericEntity {
+     ID "5F2D5AABEC079823"
+     coords -0.001 0 -0.001
+     angles 0 180 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B8124850"
+   coords 0.001 0 -0.001
+   {
+    GenericEntity {
+     ID "5F2D5AABEC079823"
+     coords -0.001 0 0.001
+     angles 0 180 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B8124851"
+   coords 0 0 0
+   {
+    GenericEntity {
+     ID "5F2D5AABEC079823"
+     coords 0 0 0
+     angles 0 180 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B8124853"
+   coords 0 0 0
+   {
+    GenericEntity {
+     ID "5F2D5AABEC079823"
+     coords -0.001 0 0
+     angles 0 180 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B8128BA1"
+   coords 0 0 0
+   {
+    GenericEntity {
+     ID "5F2D5AABEC079823"
+     coords 0.001 0 -0.001
+     angles 0 180 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B8128BA2"
+   coords 0 0 0
+   {
+    GenericEntity {
+     ID "5F2D5AABEC079823"
+     coords 0 0 0
+     angles 0 180 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B812A602"
+   coords 0.001 0 0
+   {
+    GenericEntity {
+     ID "5F2D5AABEC079823"
+     coords 0 0 0
+     angles 0 180 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B812A603"
+   coords 0 0 0
+   {
+    GenericEntity {
+     ID "5F2D5AABEC079823"
+     coords 0 0 0
+     angles 0 180 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B8133746"
+   coords 0 0 0
+   {
+    GenericEntity {
+     ID "5F2D5AABEC079823"
+     coords 0.001 0 -0.001
+     angles 0 180 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B8133747"
+   coords 0 0 0
+   {
+    GenericEntity {
+     ID "5F2D5AABEC079823"
+     coords 0 0 0
+     angles 0 180 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B813B628"
+   coords 0 0 0
+   {
+    GenericEntity {
+     ID "5F2D5AABEC079823"
+     coords 0 0 0
+     angles 0 180 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B813B62A"
+   coords 0.001 0 0.001
+   {
+    GenericEntity {
+     ID "5F2D5AABEC079823"
+     coords -0.001 0 -0.001
+     angles 0 180 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B813B62B"
+   coords 0 0 0
+   {
+    GenericEntity {
+     ID "5F2D5AABEC079823"
+     coords 0 0 0
+     angles 0 180 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B813CB40"
+   coords 0 0 0
+   {
+    GenericEntity {
+     ID "5F2D5AABEC079823"
+     coords 0 0 0
+     angles 0 180 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B813CB41"
+   coords 0 0 0
+   {
+    GenericEntity {
+     ID "5F2D5AABEC079823"
+     coords 0.001 0 -0.001
+     angles 0 180 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B813CEB3"
+   coords -0.001 0 0
+   {
+    GenericEntity {
+     ID "5F2D5AABEC079823"
+     coords 0 0 0
+     angles 0 180 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B813CEB4"
+   coords -0.001 0 0
+   {
+    GenericEntity {
+     ID "5F2D5AABEC079823"
+     coords 0 0 0
+     angles 0 180 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B810FD2A"
+   coords 0.001 0 0
+   {
+    GenericEntity {
+     ID "5F2D5AA9070EEE4B"
+     coords 0 0 -0.001
+    }
+    GenericEntity {
+     ID "6073242DBF8F77D2"
+     coords -0.001 1.196 -0.116
+     angles 0 90 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B810FD57"
+   coords 0 0 0
+   {
+    GenericEntity {
+     ID "5F2D5AA9070EEE4B"
+     coords 0 0 0
+    }
+    GenericEntity {
+     ID "6073242DBF8F77D2"
+     coords 0 1.196 -0.115
+     angles 0 90 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B810FD5A"
+   coords 0 0 0
+   {
+    GenericEntity {
+     ID "5F2D5AA9070EEE4B"
+     coords -0.001 0 0.001
+    }
+    GenericEntity {
+     ID "6073242DBF8F77D2"
+     coords 0 1.196 -0.114
+     angles 0 90 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "607D3754B810FD5C"
+   coords 0 0 -0.001
+   {
+    GenericEntity {
+     ID "5F2D5AA9070EEE4B"
+     coords 0.001 0 0.001
+    }
+    GenericEntity {
+     ID "6073242DBF8F77D2"
+     coords 0 1.196 -0.113
+     angles 0 90 0
+    }
+   }
+  }
+ }
 }
 GenericEntity : "{9BDB4FCE246DD60C}Prefabs/Structures/Debris/ConcreteDebris_01/ConcreteDebris_01_V2.et" {
  Flags 0 0x80000
@@ -1932,18 +5240,1620 @@ $grp SCR_DestructibleBuildingEntity : "{A1438F717AE90375}Prefabs/agroprom/teplic
   angles 0 -88.403 0
  }
 }
-SCR_DestructibleBuildingEntity : "{A9A13246F2F9F1F6}Prefabs/Houses/villages/village_stone_house_base_3.et" {
- Flags 0 0x80000
- coords 2944.984 29.531 4338.967
- angles 0 2.099 0
+$grp SCR_DestructibleBuildingEntity : "{A9A13246F2F9F1F6}Prefabs/Houses/villages/village_stone_house_base_3.et" {
+ {
+  Flags 0 0x80000
+  coords 2944.984 29.531 4338.967
+  angles 0 2.099 0
+ }
+ {
+  coords 4013.744 30.003 3780.089
+  angles -10.942 0 0
+ }
 }
 SCR_DestructibleBuildingEntity : "{AF44CFF705C52B9B}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_02/FuelTank_02_grey.et" {
  Flags 0 0x80000
  coords 3140.922 38.063 3990.176
 }
-SCR_DestructibleBuildingEntity : "{B1F1B1BEB21102A7}Prefabs/Structures/Industrial/Houses/FactoryHall_E_01/FactoryHall_E_01.et" {
- Flags 0 0x80000
- coords 3179.526 37.605 4029.842
+$grp SCR_DestructibleBuildingEntity : "{B1F1B1BEB21102A7}Prefabs/Structures/Industrial/Houses/FactoryHall_E_01/FactoryHall_E_01.et" {
+ {
+  Flags 0 0x80000
+  coords 3179.526 37.605 4029.842
+ }
+ {
+  coords 3717.51 38 4054.817
+  angles 0 -136.546 0
+  {
+   Building {
+    ID "57132DCB367C8931"
+    coords 0.001 0 0.001
+   }
+   Building {
+    ID "57132DCB367C8E1E"
+    coords -0.001 0 0
+   }
+   Building {
+    ID "57132DCB367C8E36"
+    coords 0 0 0
+   }
+   Building {
+    ID "57132DCB367C8E48"
+    coords -0.001 0 0
+    {
+     GenericEntity {
+      ID "559EA7E8A04F041E"
+      coords -0.001 0 -0.001
+     }
+     GenericEntity {
+      ID "559EA7E8A04F0435"
+      coords 0.001 0 0
+     }
+     GenericEntity {
+      ID "559EA7E8A04F045F"
+      coords 0.001 0 0
+     }
+     GenericEntity {
+      ID "559EA7E8A04F046C"
+      coords 0.001 0 0
+     }
+     GenericEntity {
+      ID "559EA7E8A04F0797"
+      coords 0.001 0 0
+     }
+    }
+   }
+   Building {
+    ID "57132DCB367C8E9E"
+    coords -0.002 0 0
+    {
+     GenericEntity {
+      ID "559EA7E8A04F041E"
+      coords 0.002 0 0
+     }
+     GenericEntity {
+      ID "559EA7E8A04F0435"
+      coords 0.001 0 0
+     }
+     GenericEntity {
+      ID "559EA7E8A04F0446"
+      coords 0.002 0 0
+     }
+     GenericEntity {
+      ID "559EA7E8A04F045F"
+      coords 0.001 0 0
+     }
+     GenericEntity {
+      ID "559EA7E8A04F046C"
+      coords 0.001 0 0
+     }
+     GenericEntity {
+      ID "559EA7E8A04F0797"
+      coords 0.001 0 0
+     }
+    }
+   }
+   Building {
+    ID "57132DCB367C8EB2"
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "559EA7E8A04F041E"
+      coords 0 0 0
+     }
+     GenericEntity {
+      ID "559EA7E8A04F0435"
+      coords 0 0 0
+     }
+     GenericEntity {
+      ID "559EA7E8A04F0446"
+      coords 0 0 0
+     }
+     GenericEntity {
+      ID "559EA7E8A04F045F"
+      coords -0 0 0
+     }
+     GenericEntity {
+      ID "559EA7E8A04F046C"
+      coords 0 0 0
+     }
+     GenericEntity {
+      ID "559EA7E8A04F0797"
+      coords -0 0 0
+     }
+    }
+   }
+   Building {
+    ID "57132DCB367C8EC7"
+    coords -0.001 0 0
+    {
+     GenericEntity {
+      ID "559EA7E8A04F041E"
+      coords 0 0 0
+     }
+     GenericEntity {
+      ID "559EA7E8A04F0435"
+      coords 0 0 -0.001
+     }
+     GenericEntity {
+      ID "559EA7E8A04F0446"
+      coords 0 0 0
+     }
+     GenericEntity {
+      ID "559EA7E8A04F045F"
+      coords -0 0 0
+     }
+     GenericEntity {
+      ID "559EA7E8A04F046C"
+      coords 0 0 -0.001
+     }
+     GenericEntity {
+      ID "559EA7E8A04F0797"
+      coords -0 0 0
+     }
+    }
+   }
+   Building {
+    ID "57132DCB367C8FC6"
+    coords 0.001 0 0
+   }
+   Building {
+    ID "57132DCB367C889E"
+    coords -0.001 0 0
+   }
+   Building {
+    ID "57132DCB367C8A20"
+    coords 0 0 0
+   }
+   Building {
+    ID "57132DCB367C8A70"
+    coords 0 0 0
+   }
+   Building {
+    ID "57132DCB367C8B32"
+    coords -0.001 0 0
+   }
+   Building {
+    ID "57132DCB367C8B43"
+    coords 0.001 0 0
+   }
+   Building {
+    ID "57132DCB367C8B94"
+    coords 0 0 0
+   }
+   Building {
+    ID "57132DCB367C8588"
+    coords 0 0 0
+   }
+   Building {
+    ID "57132DCB367C85A1"
+    coords 0.001 0 0.001
+   }
+   Building {
+    ID "57132DCB367C85DF"
+    coords 0 0 0
+   }
+   Building {
+    ID "57132DCB367C85F7"
+    coords 0 0 0
+   }
+   Building {
+    ID "57132DCB367C8F8A"
+    coords 0.001 0 0
+   }
+   Building {
+    ID "57132DCB367C8C9B"
+    coords 0 0 0
+   }
+   Building {
+    ID "57132DCB367C8CD7"
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "559EA7E94B9E9214"
+      coords 0 0 0
+     }
+     GenericEntity {
+      ID "559EA7E94B9E92F0"
+      coords 0 0 0
+     }
+    }
+   }
+   Building {
+    ID "57132DCB367C8F11"
+    coords -0.001 0 -0.001
+   }
+   Building {
+    ID "57132DCB367C8F4D"
+    coords -0.001 0 0
+   }
+   Building {
+    ID "57132DCB367C843C"
+    coords 0 0 0
+   }
+   Building {
+    ID "57132DCB367C8119"
+    coords 0 0 0
+   }
+   Building {
+    ID "57132DCB367C8136"
+    coords -0.001 0 0
+   }
+   Building {
+    ID "57132DCB367C8179"
+    coords 0 0 0
+   }
+   Building {
+    ID "57132DCB367C853C"
+    coords 0.001 0 0.001
+   }
+   Building {
+    ID "57132DCB367C856F"
+    coords 0 0 0
+   }
+   Building {
+    ID "57132DCB367C8A9D"
+    coords 0.001 0 -0.001
+   }
+   Building {
+    ID "57132DCB367C8AAA"
+    coords 0 0 0.001
+   }
+   Building {
+    ID "57132DCB367C8AD0"
+    coords -0.001 0 0
+   }
+   Building {
+    ID "57132DCB367C8028"
+    coords 0 0 0
+   }
+   Building {
+    ID "57132DCB367C8190"
+    coords 0 0 0
+   }
+   Building {
+    ID "57132DCB367C81A7"
+    coords 0 0 0
+   }
+   Building {
+    ID "57132DCB367C81FE"
+    coords -0.001 0 0
+   }
+   Building {
+    ID "57132DCB367C8804"
+    coords 0 0 0
+   }
+   Building {
+    ID "57132DCB367C8877"
+    coords 0 0 0
+   }
+   Building {
+    ID "57132DCB367C8976"
+    coords 0 0 0
+   }
+   Building {
+    ID "57132DCB367C899F"
+    coords 0 0 0.001
+   }
+   Building {
+    ID "57132DCB367C89AC"
+    coords 0 0 0
+   }
+   Building {
+    ID "57132DCB367C89D1"
+    coords 0.001 0 0
+   }
+   GameEntity {
+    ID "57132DCB367C8003"
+    coords 0 -0.043 -0.202
+   }
+   GameEnvironmentProbeEntity {
+    ID "5E68B228246861CF"
+    coords 3.101 8.536 2.866
+   }
+   GenericEntity {
+    ID "650EE76B64E0FA52"
+    coords -10.606 2.816 10.798
+    angles 0 168.845 0
+   }
+   GenericEntity {
+    ID "650EE76B64E0FA69"
+    coords 15.408 15.893 13.212
+    angles 0 167.791 0
+   }
+   GenericEntity {
+    ID "650EE76B64E0F986"
+    coords -18.929 1.913 -5.279
+    angles 0 90.834 103.967
+   }
+   GenericEntity {
+    ID "650EE76B64E0F999"
+    coords 18.088 10.096 -1.888
+    angles -0.389 -90.269 15.59
+   }
+   GenericEntity {
+    ID "650EE76B64E0F9A8"
+    coords -17.229 2.072 -7.046
+    angles 0 0 -75.47
+   }
+   GenericEntity {
+    ID "650EE76B64E0FA78"
+    coords -9.87 6.72 9.827
+    angles 0 -90.285 -77.163
+   }
+   GenericEntity {
+    ID "650EE76B64E0FABB"
+    coords 8.231 10.196 17.226
+    angles 0 0 11.344
+   }
+   GenericEntity {
+    ID "650EE76B64E0F9CF"
+    coords 17.9 11.307 7.613
+    angles 0 -147.441 0
+   }
+   GenericEntity {
+    ID "650EE76B64E0FA13"
+    coords 2.102 0.1 3.108
+    angles 0 107.532 0
+   }
+   GenericEntity {
+    ID "650EE76B64E0FA2F"
+    coords -14.496 0.1 -4.937
+    angles 0 2.203 0
+   }
+   GenericEntity {
+    ID "650EE76B64E0FAC4"
+    coords 1.488 6.19 5.468
+   }
+   GenericEntity {
+    ID "650EE76B64E0FAEA"
+    coords 8.572 6.19 -3.294
+    angles 0 -21.443 0
+   }
+   GenericEntity {
+    ID "57132DCB367C8C2D"
+    coords -0.001 0 0
+    {
+     GenericEntity {
+      ID "5D627BD4F3FA84AB"
+      coords 0 0 0
+     }
+     GenericEntity {
+      ID "5D627BD4F3FA854B"
+      coords 0 0 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "57132DCB367C8C48"
+    coords -0.001 0 -0.001
+    {
+     GenericEntity {
+      ID "5D627BD4F3FA84AB"
+      coords 0.001 0 0
+     }
+     GenericEntity {
+      ID "5D627BD4F3FA854B"
+      coords -0.001 0 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "57132DCB367C8C63"
+    coords -0.002 0 0
+    {
+     GenericEntity {
+      ID "5D627BD4F3FA84AB"
+      coords 0.002 0 0
+     }
+     GenericEntity {
+      ID "5D627BD4F3FA854B"
+      coords -0.001 0 -0.001
+     }
+    }
+   }
+   GenericEntity {
+    ID "57132DCB5CEA6D51"
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "5CFCCAE8B11BFEB4"
+      coords -15.783 0.1 2.103
+     }
+     GenericEntity {
+      ID "5CFCCAE8B11BFEEB"
+      coords -17.337 0.1 2.043
+      angles 0 3 0
+     }
+     GenericEntity {
+      ID "571326B736B72417"
+      coords -11.242 0.1 -1.422
+      angles 0 -1 0
+     }
+     GenericEntity {
+      ID "571326B736B7244C"
+      coords -11.221 0.1 2.31
+      angles 0 179 0
+     }
+     GenericEntity {
+      ID "571326B736B7245F"
+      coords -9.677 0.1 -1.975
+      angles 0 179 0
+     }
+     GenericEntity {
+      ID "571326B736B7247A"
+      coords -14.283 0.1 -2.028
+      angles 0 179 0
+     }
+     GenericEntity {
+      ID "571326B736B724AD"
+      coords -11.979 0.1 -1.987
+      angles 0 179 0
+     }
+     GenericEntity {
+      ID "571326B736B724BC"
+      coords -13.543 0.1 -1.436
+      angles 0 -1 0
+     }
+     GenericEntity {
+      ID "571326B736B72490"
+      coords 8.5 0.1 15.875
+      angles 0 90 0
+     }
+     GenericEntity {
+      ID "571326B736B724CD"
+      coords -5.918 1.25 6.793
+      angles 0 180 0
+     }
+     GenericEntity {
+      ID "571326B736B724DA"
+      coords -4.995 1.25 6.757
+      angles 0 0 0
+     }
+     GenericEntity {
+      ID "571326B736B724E1"
+      coords 8.819 1.065 15.415
+      angles 0 -180 0
+     }
+     GenericEntity {
+      ID "571326B736B724EF"
+      coords 8.819 0.1 14.801
+      angles 0 180 0
+     }
+     GenericEntity {
+      ID "571326B736B724FC"
+      coords -1.12 1.25 3.97
+      angles 0 -87 0
+     }
+     GenericEntity {
+      ID "571326B736B72706"
+      coords -11.995 0.1 2.306
+      angles 0 -177 0
+     }
+     GenericEntity {
+      ID "571326B736B72714"
+      coords -10.448 0.1 -1.978
+      angles 0 -177 0
+     }
+     GenericEntity {
+      ID "571326B736B7272B"
+      coords -10.471 0.1 -1.42
+      angles 0 3 0
+     }
+     GenericEntity {
+      ID "571326B736B72738"
+      coords -9.693 0.1 2.319
+      angles 0 -177 0
+     }
+     GenericEntity {
+      ID "571326B736B72765"
+      coords -12.751 0.1 -1.988
+      angles 0 -177 0
+     }
+     GenericEntity {
+      ID "571326B736B72771"
+      coords -12.771 0.1 -1.434
+      angles 0 3 0
+     }
+     GenericEntity {
+      ID "571326B736B727B2"
+      coords -3.57 1.25 6.851
+      angles 0 -180 0
+     }
+     GenericEntity {
+      ID "571326B736B72782"
+      coords -12.035 0.212 2.756
+     }
+     GenericEntity {
+      ID "571326B736B72793"
+      coords -10.456 0.212 2.756
+     }
+     GenericEntity {
+      ID "571326B736B727E0"
+      coords 8.351 0.325 5.072
+      angles 0 -106 0
+     }
+     GenericEntity {
+      ID "571326B736B72615"
+      coords -4.889 1.25 1.027
+      angles 0 87 0
+     }
+     GenericEntity {
+      ID "571326B736B72660"
+      coords 7.142 0.1 15.985
+      angles 0 90 0
+     }
+     GenericEntity {
+      ID "571326B736B7264E"
+      coords -13.584 3.71 -0.354
+     }
+     GenericEntity {
+      ID "571326B736B72689"
+      coords 10.511 0.1 14.285
+     }
+     GenericEntity {
+      ID "571326B736B72694"
+      coords -2.239 0.1 -5.011
+      angles 0 90 0
+     }
+     GenericEntity {
+      ID "571326B736B726E2"
+      coords -7.095 1.25 7.047
+      angles 0 91 0
+     }
+     GenericEntity {
+      ID "571326B736B726EE"
+      coords 8.859 0.1 13.369
+     }
+     GenericEntity {
+      ID "571326B736B72101"
+      coords -13.531 0.1 -1.984
+      angles 0 179 0
+     }
+     GenericEntity {
+      ID "571326B736B7210E"
+      coords -11.99 0.1 -1.438
+      angles 0 -1 0
+     }
+     GenericEntity {
+      ID "571326B736B72128"
+      coords -11.23 0.1 -1.972
+      angles 0 179 0
+     }
+     GenericEntity {
+      ID "571326B736B72135"
+      coords -14.296 0.1 -1.479
+      angles 0 -1 0
+     }
+     GenericEntity {
+      ID "571326B736B726CF"
+      coords -10.473 0.1 2.324
+      angles 0 179 0
+     }
+     GenericEntity {
+      ID "571326B736B726DA"
+      coords -12.773 0.1 2.312
+      angles 0 179 0
+     }
+     GenericEntity {
+      ID "571326B736B726FE"
+      coords -9.69 0.1 -1.426
+      angles 0 -1 0
+     }
+     GenericEntity {
+      ID "571326B736B721AC"
+      coords -9.306 1.312 -4.729
+      angles 0 -90 0
+     }
+     GenericEntity {
+      ID "571326B736B7219D"
+      coords -15.182 0.879 -6.481
+     }
+     GenericEntity {
+      ID "571326B736B7202A"
+      coords -11.108 -0.057 -6.5
+      angles 0 0 0
+     }
+     GenericEntity {
+      ID "571326B736B721DE"
+      coords -12.738 -0.052 -6.501
+      angles 0 0 0
+     }
+     GenericEntity {
+      ID "571326B736B72005"
+      coords 10.918 0.1 6.156
+      angles 0 88.933 0
+     }
+     GenericEntity {
+      ID "571326B736B72039"
+      coords 10.896 0.1 4.731
+      angles 0 90.879 0
+     }
+     GenericEntity {
+      ID "571326B736B72010"
+      coords -2.227 1.25 1.127
+      angles 0 91 0
+     }
+     GenericEntity {
+      ID "571326B736B72044"
+      coords -1.09 1.25 2.777
+      angles 0 180 0
+     }
+     GenericEntity {
+      ID "571326B736B72050"
+      coords -1.06 1.25 1.342
+      angles 0 -2 0
+     }
+     GenericEntity {
+      ID "571326B736B72061"
+      coords 14.431 0.1 5.006
+      angles 0 177 0
+     }
+     GenericEntity {
+      ID "571326B736B7206D"
+      coords 14.438 0.1 6.448
+      angles 0 -2 0
+     }
+     GenericEntity {
+      ID "571326B736B72079"
+      coords -1.084 2.047 2.038
+      angles 0 -2 0
+     }
+     GenericEntity {
+      ID "571326B736B720C4"
+      coords 8.053 0.325 5.204
+      angles 0 -90 0
+     }
+     GenericEntity {
+      ID "571326B736B720F6"
+      coords 8.053 0.325 4
+      angles 0 90 0
+     }
+     GenericEntity {
+      ID "5CFCCAE8B11BFE0F"
+      coords -16.54 0.1 -6.212
+      angles 0 180 0
+     }
+     GenericEntity {
+      ID "5CFCCAE8B11BFE21"
+      coords -14.507 0.1 -6.165
+      angles 0 -2.743 0
+     }
+     GenericEntity {
+      ID "5CFCCAE8B11BFE42"
+      coords -12.435 0.123 0.381
+      angles 0 180 0
+     }
+     GenericEntity {
+      ID "5CFCCAE8B11BFE6B"
+      coords -17.919 0.1 -5.208
+      angles 0 91.61 0
+     }
+     GenericEntity {
+      ID "5CFCCAE8B11BFE79"
+      coords -17.933 0.1 -3.177
+      angles 0 -90 0
+     }
+     GenericEntity {
+      ID "5CFCCAE8B11BFEAC"
+      coords -10.404 0.123 0.381
+     }
+     GenericEntity {
+      ID "571326B736B720DE"
+      coords -9.304 3.301 6.269
+      angles 0 -90 0
+     }
+     GenericEntity {
+      ID "571326B736B7232D"
+      coords -9.304 3.301 5.373
+      angles 0 -90 0
+     }
+     GenericEntity {
+      ID "571326B736B72338"
+      coords -6.487 0.1 -5.083
+      angles 0 90 0
+     }
+     GenericEntity {
+      ID "571326B736B7231E"
+      coords -9.735 0.1 -5.069
+      angles 0 -96 0
+     }
+     GenericEntity {
+      ID "571326B736B7236D"
+      coords -9.803 0.1 -5.865
+      angles 0 90 0
+     }
+     GenericEntity {
+      ID "571326B736B72344"
+      coords 7.903 0.1 14.619
+      angles 0 4 0
+     }
+     GenericEntity {
+      ID "571326B736B72353"
+      coords -10.318 1.066 7.293
+      angles 0 180 0
+     }
+     GenericEntity {
+      ID "571326B736B7235F"
+      coords -11.621 1.066 7.294
+      angles 0 180 0
+     }
+     GenericEntity {
+      ID "571326B736B723AC"
+      coords -11.842 0.152 -6.499
+      angles 0 0 0
+     }
+     GenericEntity {
+      ID "571326B736B723BF"
+      coords -8.888 0.1 -1.29
+      angles 0 -87 0
+     }
+     GenericEntity {
+      ID "571326B736B7238B"
+      coords -18.294 0.1 6.037
+      angles 0 90 0
+     }
+     GenericEntity {
+      ID "571326B736B72399"
+      coords -18.293 0.1 3.922
+      angles 0 90 0
+     }
+     GenericEntity {
+      ID "571326B736B723E9"
+      coords -1.899 1.25 1.857
+      angles 0 84 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "58C87882355526E6"
+    coords 0 0 0
+    angles 0 -180 0
+    {
+     GenericEntity {
+      ID "568AF712D1ABDA6B"
+      coords 0 0 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "58C87882DD2714AF"
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "568AF712D1ABDA6B"
+      coords 0 0 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "57132DCB367C87D8"
+    coords -0.001 0 -0.001
+   }
+   GenericEntity {
+    ID "57132DCB367C84C4"
+    coords 0.002 0 -0.001
+    {
+     GenericEntity {
+      ID "55649319921183B4"
+      coords -0.001 0 0.001
+     }
+    }
+   }
+   GenericEntity {
+    ID "57132DCB367C8717"
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "55649319921183B4"
+      coords 0.001 0 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "57132DCB367C8721"
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "55649319921183B4"
+      coords 0 0 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "57132DCB367C873A"
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "55649319921183B4"
+      coords 0 0 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "57132DCB367C8754"
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "55649319921183B4"
+      coords -0.001 0 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "57132DCB367C8775"
+    coords 0 0 -0.001
+    {
+     GenericEntity {
+      ID "55649319921183B4"
+      coords 0 0 0.001
+     }
+    }
+   }
+   GenericEntity {
+    ID "57132DCB367C87B3"
+    coords -0.001 0 0
+    {
+     GenericEntity {
+      ID "55649319921183B4"
+      coords 0.001 0 -0.001
+     }
+    }
+   }
+   GenericEntity {
+    ID "57132DCB367C8798"
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "58689E19F6D84399"
+      coords 0 0 0
+     }
+     GenericEntity {
+      ID "58689E19F6D843D7"
+      coords 0 0 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "57132DCB367C87FB"
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "58689E19F6D84399"
+      coords 0 0 0
+     }
+     GenericEntity {
+      ID "58689E19F6D843D7"
+      coords -0.001 0 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "57132DCB367C84E6"
+    coords 0 0 0.001
+    {
+     GenericEntity {
+      ID "5564931ADBF597B6"
+      coords 0.001 0 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "57132DCB367C8440"
+    coords 0 0 0
+   }
+   GenericEntity {
+    ID "57132DCB367C8463"
+    coords 0 0 0
+   }
+   GenericEntity {
+    ID "57132DCB367C8608"
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "568C838F54E3245F"
+      coords 0.001 0 0
+     }
+     GenericEntity {
+      ID "568C838F54E32476"
+      coords 0 0 -0.001
+     }
+    }
+   }
+   GenericEntity {
+    ID "57132DCB367C866A"
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "568C838F54E32476"
+      coords 0 0 -0.001
+     }
+     GenericEntity {
+      ID "568C838F54E3245F"
+      coords 0.001 0 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "57132DCB5DE81741"
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "55547DC5D9D946E8"
+      coords 8.088 6.19 -5.927
+      angles 0 90 0
+     }
+     GenericEntity {
+      ID "55547DC596BFE5C0"
+      coords 12.401 6.19 -1.937
+      angles 0 -88.757 0
+     }
+     GenericEntity {
+      ID "55547DC596BFE5F1"
+      coords 12.425 6.19 -1.173
+      angles 0 -91.638 0
+     }
+     GenericEntity {
+      ID "55547DC5AB5214B3"
+      coords 12.402 6.19 -2.743
+      angles 0 -94 0
+     }
+     GenericEntity {
+      ID "55547DC5AB521545"
+      coords -5.529 6.19 -0.177
+      angles 0 -1 0
+     }
+     GenericEntity {
+      ID "55547DC5AB521584"
+      coords -8.396 6.19 12.375
+      angles 0 -2.478 0
+     }
+     GenericEntity {
+      ID "55547DC5AB52159A"
+      coords -8.447 6.19 13.812
+      angles 0 -178.62 0
+     }
+     GenericEntity {
+      ID "55547DC5AB5215A5"
+      coords -8.396 7.158 11.745
+      angles 0 -180 0
+     }
+     GenericEntity {
+      ID "55547DC5AB5215BB"
+      coords -8.395 6.19 11.079
+      angles 0 -175.397 0
+     }
+     GenericEntity {
+      ID "55547DC5AB52164A"
+      coords 7.525 6.19 1.288
+      angles 0 94 0
+     }
+     GenericEntity {
+      ID "55547DC5AB521668"
+      coords 6.663 6.19 -6.005
+      angles 0 -91 0
+     }
+     GenericEntity {
+      ID "55547DC5AB52167A"
+      coords 5.239 6.19 -6.072
+      angles 0 89 0
+     }
+     GenericEntity {
+      ID "55547DC5AC9BBF11"
+      coords -8.795 6.19 0.906
+      angles 0 93.162 0
+     }
+     GenericEntity {
+      ID "55547DC5AC9BBFE7"
+      coords -8.776 6.19 1.696
+      angles 0 90 0
+     }
+     GenericEntity {
+      ID "55547DC5B90DEE3D"
+      coords -8.641 6.19 6.935
+      angles 0 -180 0
+     }
+     GenericEntity {
+      ID "55547DC5B90DEE5F"
+      coords -7.105 6.19 6.929
+      angles 0 -179.055 0
+     }
+     GenericEntity {
+      ID "55547DC5B90DEEE8"
+      coords 15.34 6.19 1.956
+      angles 0 17 0
+     }
+     GenericEntity {
+      ID "55547DC5BDE2960E"
+      coords -9.735 6.19 -6.027
+      angles 0 24 0
+     }
+     GenericEntity {
+      ID "55547DC5BDE2961E"
+      coords -8.62 6.19 2.538
+      angles 0 -18 0
+     }
+     GenericEntity {
+      ID "55547DC5AB521508"
+      coords -5.053 6.19 9.764
+      angles 0 90 0
+     }
+     GenericEntity {
+      ID "55547DC5BDE296BA"
+      coords -9.389 6.19 -4.064
+      angles 0 -90 0
+     }
+     GenericEntity {
+      ID "55547DC5AB5216FC"
+      coords 0.111 6.19 8.594
+      angles 0 93 0
+     }
+     GenericEntity {
+      ID "55547DC5B6DDAA67"
+      coords 0.566 6.19 6.685
+      angles 0 176 0
+     }
+     GenericEntity {
+      ID "55547DC5BDE296E9"
+      coords -6.876 6.19 -5.599
+      angles 0 -178 0
+     }
+     GenericEntity {
+      ID "55547DC596BFE39E"
+      coords 16.708 6.19 -5.235
+     }
+     GenericEntity {
+      ID "55547DC596BFE463"
+      coords 13.672 6.19 -5.234
+     }
+     GenericEntity {
+      ID "55547DC596BFE46D"
+      coords 15.187 6.19 -5.234
+      angles 0 -180 0
+     }
+     GenericEntity {
+      ID "5CFCCAEA145EBE3A"
+      coords -11.512 6.19 2.272
+      angles 0 -180 0
+     }
+     GenericEntity {
+      ID "55547DC5E5D791C3"
+      coords 14.168 11.298 0.397
+     }
+     GenericEntity {
+      ID "55547DC5AB5214A2"
+      coords 12.396 6.19 13.643
+      angles 0 3 0
+     }
+     GenericEntity {
+      ID "55547DC5D9D94590"
+      coords -1.249 6.19 15.939
+      angles 0 90 0
+     }
+     GenericEntity {
+      ID "55547DC596BFE31F"
+      coords 18.052 7.022 -1.824
+      angles 0 90 0
+      {
+       GameEntity {
+        ID "5A42D80F564F3E8B"
+        {
+         LightEntity {
+          ID "5990CE56D1255F77"
+          coords 0.002 -0.137 0.065
+          angles -65 0 0
+         }
+        }
+       }
+      }
+     }
+     GenericEntity {
+      ID "55547DC596BFE330"
+      coords -0.429 6.404 17.111
+      {
+       GameEntity {
+        ID "5A42D80F564F3E8B"
+        {
+         LightEntity {
+          ID "5990CE56D1255F77"
+          coords -0.001 -0.137 0.063
+          angles -65 0 0
+         }
+        }
+       }
+      }
+     }
+     GenericEntity {
+      ID "55547DC248BEC893"
+      coords -9.784 6.161 2.55
+      angles 0 180 0
+     }
+     GenericEntity {
+      ID "55547DC248BEC922"
+      coords 12.683 6.161 -5.424
+      angles 0 -90 0
+     }
+     GenericEntity {
+      ID "55547DC248BEC970"
+      coords 12.998 6.161 15.479
+      angles 0 -90 0
+     }
+     GenericEntity {
+      ID "55547DC596BFE3A6"
+      coords -1.762 6.19 15.998
+      angles 0 92 0
+     }
+     GenericEntity {
+      ID "55547DC596BFE3B5"
+      coords -7.741 6.19 8.065
+      angles 0 -89.801 0
+     }
+     GenericEntity {
+      ID "55547DC5AB521528"
+      coords -8.399 6.19 15.757
+      angles 0 1 0
+     }
+     GenericEntity {
+      ID "55547DC5AB5215E9"
+      coords -8.256 6.19 8.098
+      angles 0 91 0
+     }
+     GenericEntity {
+      ID "55547DC5AB5215FA"
+      coords -8.218 6.19 9.342
+      angles 0 -87 0
+     }
+     GenericEntity {
+      ID "55547DC24721D4C9"
+      coords -13.641 6.19 -6.356
+      angles 0 89.889 0
+     }
+     GenericEntity {
+      ID "55547DC24721D4F8"
+      coords -13.635 6.19 -4.357
+      angles 0 90.449 0
+     }
+     GenericEntity {
+      ID "55547DC5B6DDA990"
+      coords 12.924 6.19 -4.156
+      angles 0 178.456 0
+     }
+     GenericEntity {
+      ID "55547DC5B6DDAAA4"
+      coords -18.271 6.19 -4.23
+      angles 0 90.449 0
+     }
+     GenericEntity {
+      ID "55547DC5AC9BA009"
+      coords -7.097 9.446 11.764
+      angles 0 74.884 0
+     }
+     GenericEntity {
+      ID "55547DC5AC9BA018"
+      coords -2.586 9.747 11.749
+     }
+     GenericEntity {
+      ID "55547DC5AC9BA0C7"
+      coords 2.104 10.032 9.843
+     }
+     GenericEntity {
+      ID "55547DC5AC9BA0E5"
+      coords 11.253 9.647 9.846
+     }
+     GenericEntity {
+      ID "55547DC5AC9BA0FA"
+      coords 5.108 9.961 9.843
+      angles 0 -40.109 0
+     }
+     GenericEntity {
+      ID "55547DC5B6DDAA22"
+      coords -13.906 9.991 -4.468
+     }
+     GenericEntity {
+      ID "55547DC5B6DDAA2D"
+      coords -13.915 9.95 5.076
+     }
+     GenericEntity {
+      ID "55547DC5B6DDAA42"
+      coords 6.913 10.032 -2.044
+      angles 0 -101.878 0
+     }
+     GenericEntity {
+      ID "55547DC5B6DDAA4E"
+      coords 1.171 10.032 -2.043
+     }
+     GenericEntity {
+      ID "55547DC5B6DDAA75"
+      coords -4.573 10.032 -2.043
+     }
+     GenericEntity {
+      ID "55547DC5AC9BBFD1"
+      coords -3.972 6.19 -4.561
+     }
+     GenericEntity {
+      ID "55547DC5D9D94636"
+      coords 1.224 6.19 0.811
+      angles 0 -6 0
+     }
+     GenericEntity {
+      ID "55547DC242273E66"
+      coords -12.852 6.19 -2.378
+      angles 0 1 0
+     }
+     GenericEntity {
+      ID "55547DC5AC9BA164"
+      coords 17.421 6.19 -2.299
+      angles 0 -90 0
+     }
+     GenericEntity {
+      ID "55547DC5B6DDAAD5"
+      coords -18.166 6.19 -5.999
+      angles 0 87.485 0
+     }
+     GenericEntity {
+      ID "55547DC5B6DDA9C0"
+      coords 17.459 6.19 0.21
+      angles 0 -90 0
+     }
+     GenericEntity {
+      ID "55547DC242273D84"
+      coords -14.163 6.19 -3.535
+      angles 0 91 0
+     }
+     GenericEntity {
+      ID "55547DC5B90DEEF8"
+      coords 12.891 6.577 0.019
+      angles 0 90 0
+     }
+     GenericEntity {
+      ID "55547DC5B90DEE2D"
+      coords -7.881 6.19 6.939
+      angles 0 177.594 0
+     }
+     GenericEntity {
+      ID "55547DC5C431CCA4"
+      coords 2.508 6.19 -5.796
+      angles 0 -92 0
+     }
+     GenericEntity {
+      ID "55547DC5C431CCD4"
+      coords 2.508 6.767 -5.796
+      angles 0 -92 0
+     }
+     GenericEntity {
+      ID "55547DC5C431CC66"
+      coords -17.387 7.249 2.75
+     }
+     GenericEntity {
+      ID "55547DC5B6DDAAE1"
+      coords -17.805 6.19 1.701
+      angles 0 -98 0
+     }
+     GenericEntity {
+      ID "55547DC24B413293"
+      coords -17.34 6.639 2.552
+      angles 0 -180 0
+     }
+     GenericEntity {
+      ID "55547DC24B413361"
+      coords -13.433 6.639 2.549
+      angles 0 -180 0.383
+     }
+     GenericEntity {
+      ID "55547DC24B413370"
+      coords -14.311 6.639 2.55
+      angles 0 -180 0
+     }
+     GenericEntity {
+      ID "55547DC24721D484"
+      coords -4.44 6.19 -1.051
+      angles 0 90 0
+     }
+     GenericEntity {
+      ID "55547DC24721D4B4"
+      coords 0.229 6.19 10.084
+      angles 0 90 0
+     }
+     GenericEntity {
+      ID "55547DC242273DC3"
+      coords 10.271 7.108 5.234
+      angles 0 -90 0
+     }
+     GenericEntity {
+      ID "55547DC24B4133CE"
+      coords -10.753 7.035 2.762
+     }
+     GenericEntity {
+      ID "55547DC5B90DEE1D"
+      coords 14.018 7.268 2.406
+      angles 0 -180 0
+     }
+     GenericEntity {
+      ID "55547DC248BEC8A6"
+      coords -14.049 6.025 2.751
+      angles 0 0 0
+     }
+     GenericEntity {
+      ID "55547DC248BEC8D7"
+      coords -12.417 6.025 2.75
+      angles 0 0 0
+     }
+     GenericEntity {
+      ID "55547DC242273D16"
+      coords -13.963 6.19 -6.11
+      angles 0 -88.297 0
+     }
+     GenericEntity {
+      ID "55547DC242273DE7"
+      coords -13.948 6.19 -5.625
+      angles 0 -89.24 0
+     }
+     GenericEntity {
+      ID "55547DC242273DF4"
+      coords -13.946 6.19 -5.152
+      angles 0 -88 0
+     }
+     GenericEntity {
+      ID "55547DC5BDE296AB"
+      coords -9.733 6.19 -3.813
+      angles 0 -88 0
+     }
+     GenericEntity {
+      ID "55547DC5BDE296CE"
+      coords -9.716 6.19 -2.849
+      angles 0 -89.559 0
+     }
+     GenericEntity {
+      ID "55547DC5BDE296DE"
+      coords -9.728 6.19 -3.329
+      angles 0 -88.858 0
+     }
+     GenericEntity {
+      ID "55547DC5BDE296F9"
+      coords -9.698 6.19 -2.363
+      angles 0 -88.553 0
+     }
+     GenericEntity {
+      ID "55547DC5AC9BA0D7"
+      coords -0.755 6.19 8.305
+      angles 0 -90 0
+     }
+     GenericEntity {
+      ID "55547DC24721D4D9"
+      coords -5.479 6.19 -4.801
+      angles 0 90 0
+     }
+     GenericEntity {
+      ID "55547DC5BDE29639"
+      coords -17.939 6.19 1.321
+      angles 0 -91 0
+     }
+     GenericEntity {
+      ID "55547DC5AB521607"
+      coords 0.344 6.19 0.691
+      angles 0 176.808 0
+     }
+     GenericEntity {
+      ID "55547DC5AB521616"
+      coords -0.846 6.19 1.052
+      angles 0 88.058 0
+     }
+     GenericEntity {
+      ID "55547DC5AB521627"
+      coords 7.504 6.19 0.408
+      angles 0 -89 0
+     }
+     GenericEntity {
+      ID "55547DC5AB521637"
+      coords 0.255 6.996 0.787
+      angles 0 -7 0
+     }
+     GenericEntity {
+      ID "55547DC5AB521657"
+      coords 7.505 6.997 0.407
+      angles 0 -87.303 0
+     }
+     GenericEntity {
+      ID "55547DC24721D548"
+      coords -5.873 6.19 -6.014
+      angles 0 1.552 0
+     }
+     GenericEntity {
+      ID "55547DC24721D563"
+      coords -7.204 6.19 -6.046
+      angles 0 -1.636 0
+     }
+     GenericEntity {
+      ID "55547DC5B90DEEC5"
+      coords 16.868 6.19 2.113
+      angles 0 -180 0
+     }
+     GenericEntity {
+      ID "55547DC59C3087A0"
+      coords -17.817 6.19 -1.834
+     }
+     GenericEntity {
+      ID "55547DC59C3087B1"
+      coords -9.769 6.19 -5.204
+      angles 0 90 0
+     }
+     GenericEntity {
+      ID "55547DC5D9D94672"
+      coords 4.571 6.19 6.591
+      angles 0 -178.519 0
+     }
+     GenericEntity {
+      ID "55547DC5D9D9467D"
+      coords -8.218 6.19 -6.163
+      angles 0 87.852 0
+     }
+     GenericEntity {
+      ID "55547DC59C3087C6"
+      coords 3.673 6.19 -5.726
+      {
+       GenericEntity {
+        ID "551C7973A671B69B"
+        coords 0 1.003 0.14
+       }
+      }
+     }
+     GenericEntity {
+      ID "55547DC59C3087FD"
+      coords -1.346 6.19 -5.726
+      {
+       GenericEntity {
+        ID "551C7973A671B69B"
+        coords 0.001 1.003 0.139
+       }
+      }
+     }
+     GenericEntity {
+      ID "55547DC242273C9A"
+      coords -8.816 6.19 -3.186
+      angles 0 92 0
+     }
+     GenericEntity {
+      ID "55547DC242273D69"
+      coords 3.27 6.19 11.01
+      angles 0 -176 0
+     }
+     GenericEntity {
+      ID "55547DC242273D7F"
+      coords 5.838 6.19 11.002
+      angles 0 178 0
+     }
+     GenericEntity {
+      ID "55547DC5AC9BA097"
+      coords 16.71 6.19 -3.35
+      angles 0 91 0
+     }
+     GenericEntity {
+      ID "55547DC5B6DDA9A4"
+      coords 14.006 6.19 -4.972
+      angles 0 -10 0
+     }
+     GenericEntity {
+      ID "55547DC5B6DDAAC6"
+      coords -17.546 6.19 -3.23
+      angles 0 -87 0
+     }
+     GenericEntity {
+      ID "55547DC5B6DDAAF2"
+      coords -17.459 6.19 -4.975
+      angles 0 -74 0
+     }
+     GenericEntity {
+      ID "55547DC5BDE2971D"
+      coords -13.979 6.19 -1.481
+      angles 0 -178 0
+     }
+     GenericEntity {
+      ID "55547DC5BDE2972E"
+      coords -13.009 6.19 -3.381
+      angles 0 -83 0
+     }
+     GenericEntity {
+      ID "55547DC5BDE2975C"
+      coords -12.719 6.19 -5.131
+      angles 0 -146 0
+     }
+     GenericEntity {
+      ID "55547DC24721D496"
+      coords 1.298 6.19 6.528
+      angles 0 2 0
+     }
+     GenericEntity {
+      ID "55547DC248BEC91B"
+      coords 5.552 6.19 -3.006
+      angles 0 90.727 0
+     }
+     GenericEntity {
+      ID "55547DC5AB5215CA"
+      coords 1.149 6.19 -3.006
+      angles 0 90.727 0
+     }
+     GenericEntity {
+      ID "55547DC5AB5215DB"
+      coords 9.984 6.19 -3.006
+      angles 0 90.727 0
+     }
+     GenericEntity {
+      ID "55547DC5B90DEE72"
+      coords 12.89 7.425 -2.354
+      angles 0 -90 0
+     }
+     GenericEntity {
+      ID "55547DC5B6DDAA84"
+      coords -10.34 6.19 6.834
+      angles 0 180 0
+     }
+     GenericEntity {
+      ID "55547DC5B6DDAA97"
+      coords -12.516 6.19 6.833
+      angles 0 180 0
+     }
+     GenericEntity {
+      ID "55547DC5B6DDAAB7"
+      coords -17.887 6.19 -0.399
+      angles 0 90 0
+     }
+     GenericEntity {
+      ID "55547DC248BEC8B6"
+      coords -13.153 6.234 2.75
+      angles 0 0 0
+     }
+     GenericEntity {
+      ID "55547DC596BFE38B"
+      coords -7.401 6.19 16.277
+      angles 0 -5 0
+     }
+     GenericEntity {
+      ID "55547DC596BFE5E7"
+      coords 12.433 6.19 -0.394
+      angles 0 85 0
+     }
+     GenericEntity {
+      ID "55547DC24B413281"
+      coords 4.222 6.19 6.406
+     }
+     GenericEntity {
+      ID "55547DC24B4132B1"
+      coords -6.382 6.19 7.094
+      angles 0 -180 0
+     }
+     GenericEntity {
+      ID "55547DC5AB521519"
+      coords -5.123 6.19 11.979
+      angles 0 90 0
+     }
+     GenericEntity {
+      ID "55547DC5AB521538"
+      coords -1.368 6.19 9.115
+      angles 0 90 0
+     }
+     GenericEntity {
+      ID "55547DC5AC9BA12F"
+      coords 17.109 6.19 -1.55
+      angles 0 -90 0
+     }
+     GenericEntity {
+      ID "55547DC5AC9BA173"
+      coords 17.108 6.19 -2.032
+      angles 0 -91.736 0
+     }
+     GenericEntity {
+      ID "55547DC5B90DEE8C"
+      coords -9.344 6.19 -0.624
+      angles 0 -90 0
+     }
+     GenericEntity {
+      ID "55547DC5B90DEED1"
+      coords -9.343 6.19 0.901
+      angles 0 -90 0
+     }
+    }
+   }
+  }
+ }
 }
 $grp SCR_DestructibleBuildingEntity : "{B660BEC050A9F174}Prefabs/Houses/House_Individual_Brus/House_Individual_Brus_Modul_4.et" {
  {
@@ -2175,14 +7085,469 @@ SCR_DestructibleBuildingEntity : "{D5DA5F5045444C64}Prefabs/Industrial/builds/ho
  coords 3444.431 38 3775.61
  angles 0 92.422 0
 }
+SCR_DestructibleBuildingEntity : "{DC1E102B809EB8C1}Prefabs/Houses/villages/village_stone_house_base_6_filled.et" {
+ coords 3680.274 38 3738.249
+ angles 0 18.796 0
+ {
+  GenericEntity {
+   ID "66C2DA7DD18125A2"
+   coords 3.779 0.031 -6.387
+   angles 0 -0.124 0
+  }
+  GenericEntity {
+   ID "66C2DA7DD18125BB"
+   coords 6.489 0.031 -6.34
+   angles 0 179.736 0
+  }
+  GenericEntity {
+   ID "66C2DA7DD1812542"
+   coords 5.886 0.031 -16.179
+   angles 0 -179.146 0
+  }
+  GenericEntity {
+   ID "66C2DA60BB47B10C"
+   coords -12.689 0 -15.129
+   angles 0 -175.217 0
+  }
+  GenericEntity {
+   ID "66C2DA7DD1812553"
+   coords 3.348 2.989 -8.793
+  }
+  GenericEntity {
+   ID "66C2DA7DD18125EC"
+   coords 0.833 0.011 -10.339
+   angles 0 0.699 0
+  }
+  GenericEntity {
+   ID "66C2DA6366BC2015"
+   coords -6.756 0 -3.985
+  }
+  GenericEntity {
+   ID "66C2DA60BB47B13A"
+   coords -13.111 0 -17.98
+   angles 0 94.311 0
+  }
+  GenericEntity {
+   ID "66C2DA7DD18125F9"
+   coords 0.43 0.037 -7.452
+   angles 0 88.615 0
+  }
+  GenericEntity {
+   ID "66C2DA6366BC2050"
+   coords -5.2 0 -19.021
+   angles 0 0 0
+  }
+  GenericEntity {
+   ID "66C2DA6366BC2057"
+   coords -6.653 0 -19.021
+   angles 0 0 0
+  }
+  GenericEntity {
+   ID "66C2DA6366BC205A"
+   coords -10.344 0 -19.021
+   angles 0 0 0
+  }
+  GenericEntity {
+   ID "66C2DA6366BC20A8"
+   coords -3.701 0 -19.021
+   angles 0 0 0
+  }
+  GenericEntity {
+   ID "66C2DA636860C72A"
+   coords 5.826 0.019 -1.35
+   angles 0 -9.608 0
+  }
+  GenericEntity {
+   ID "66C2DA6366BC206D"
+   coords -13.454 0 -6.338
+  }
+  GenericEntity {
+   ID "66C2DA7DD18125C9"
+   coords 0.8 0.812 -6.002
+   angles 0 87.015 0
+  }
+  GenericEntity {
+   ID "66C2DA7DD18125E7"
+   coords 0.974 0.011 -9.047
+   angles 0 172.96 0
+  }
+  GenericEntity {
+   ID "66C2DA7DD18125CE"
+   coords 7.808 0.717 -7.086
+   angles 0 -67.073 0
+  }
+  GenericEntity {
+   ID "66C2DA636860C6F9"
+   coords 5.294 0.177 -7.752
+   angles 0 177.173 0
+  }
+  GenericEntity {
+   ID "66C2DA636860C7A0"
+   coords 2.054 2.946 -9.933
+  }
+  GenericEntity {
+   ID "66C2DA6045E92E68"
+   coords -5.56 0.785 2.457
+   angles 89.521 0 0
+  }
+  GenericEntity {
+   ID "66C2DA6366BC2087"
+   coords -17.705 0 -6.98
+   angles 0 0 0
+  }
+  GenericEntity {
+   ID "66C2DA6366BC20B1"
+   coords -17.705 0 0.643
+   angles 0 0 0
+  }
+  GenericEntity {
+   ID "66C2DA6366BC20BB"
+   coords -17.705 0 -1.95
+   angles 0 0 0
+  }
+  GenericEntity {
+   ID "66C2DA636860C77E"
+   coords 0.708 0 -4.764
+   angles 0 91.462 0
+  }
+  GenericEntity {
+   ID "66C2DA7DD181259C"
+   coords 0.951 0.011 -9.679
+   angles 0 91.667 0
+  }
+  GenericEntity {
+   ID "66C2DA6366BC201B"
+   coords -11.412 0 -1.596
+   angles 0 0 0
+  }
+  GenericEntity {
+   ID "66C2DA6366BC2067"
+   coords -14.781 0 3.762
+  }
+  GenericEntity {
+   ID "66C2DA636860C6FE"
+   coords -1.761 0 0.982
+  }
+  GenericEntity {
+   ID "66C2DA636860C73D"
+   coords 7.048 0 -12.981
+  }
+  GenericEntity {
+   ID "66C2DA636860C6C0"
+   coords 3.766 2.998 -2.202
+   angles 0 69.398 0
+  }
+  GenericEntity {
+   ID "66C2DA7EAD1E943F"
+   coords 11.273 0 -20.375
+   angles 0 -89.854 0
+  }
+  GenericEntity {
+   ID "66C2DA7DD18125B0"
+   coords 7.851 0.035 -7.11
+   angles 0 -90 0
+  }
+  GenericEntity {
+   ID "66C2DA636860C695"
+   coords 3.703 0.113 -5.288
+   angles 88.816 180 1.945
+  }
+  GenericEntity {
+   ID "66C2DA636860C74F"
+   coords 5.867 -2.895 -10.287
+   angles 0 90.763 0
+  }
+  GenericEntity {
+   ID "66C2DA7DD18125C1"
+   coords 0.456 0.03 -6.684
+   angles 0 88.897 0
+  }
+  GenericEntity {
+   ID "66C2DA636860C7AB"
+   coords 4.065 2.895 -3.706
+   angles 0 -90 0
+  }
+  GenericEntity {
+   ID "66C2DA6366BC207C"
+   coords -16.723 0.153 -0.567
+   angles 0 112.757 0
+  }
+  GenericEntity {
+   ID "66C2DA7DD1812558"
+   coords 6.618 0.031 -14.314
+   angles 0 -61.908 0
+  }
+  GenericEntity {
+   ID "66C2DA636860C689"
+   coords 5.268 0.036 -12.524
+   angles -89.126 0 0
+  }
+  GenericEntity {
+   ID "66C2DA7DD1812569"
+   coords 3.599 -0.025 -7.717
+   angles 0 -89.951 0
+  }
+  GenericEntity {
+   ID "66C2DA7DD1812586"
+   coords 8.803 0.043 -2.029
+   angles 0 -90 0
+  }
+  GenericEntity {
+   ID "66C2DA636860C723"
+   coords 5.662 0.019 -0.82
+   angles 0 0.492 0
+  }
+  GenericEntity {
+   ID "66C2DA636860C683"
+   coords 4.022 0.106 -12.283
+  }
+  GenericEntity {
+   ID "66C2DA7DD18125FE"
+   coords 1.38 0.011 -9.752
+   angles 0 -87.738 0
+  }
+  GenericEntity {
+   ID "66C2DA636860C6E5"
+   coords 3.711 1.825 -9.8
+   angles 0 91.83 0
+  }
+  GenericEntity {
+   ID "66C2DA60E1F8C0B5"
+   coords 7.662 2.998 -6.883
+   angles 0 -89.768 0
+  }
+  GenericEntity {
+   ID "66C2DA60E1F8C0EC"
+   coords 2.535 2.998 -5.008
+   angles 0 -89.768 0
+  }
+  GenericEntity {
+   ID "66C2DA636860C69B"
+   coords 4.645 0 -12.295
+   angles 0 -89.768 0
+  }
+  GenericEntity {
+   ID "66C2DA7DD181254C"
+   coords 6.764 0.031 -15.674
+   angles 0 -72.418 0
+  }
+  GenericEntity {
+   ID "66C2DA636860C6CA"
+   coords 0.363 0.395 -2.973
+   angles 0 89.916 0
+  }
+  GenericEntity {
+   ID "66C2DA7DD1812A34"
+   coords 8.34 0.461 -2.785
+   angles 0 -89.503 0
+  }
+  GenericEntity {
+   ID "66C2DA6366BC204D"
+   coords -12.714 0 -2.447
+   angles 0 0 0
+  }
+  GenericEntity {
+   ID "66C2DA6366BC2074"
+   coords -15.63 0 -6.35
+   angles 0 0 0
+  }
+  GenericEntity {
+   ID "66C2DA6366BC20BE"
+   coords -4.781 0 -15.462
+   angles 0 0 0
+  }
+  GenericEntity {
+   ID "66C2DA636860C740"
+   coords -1.347 0 -1.089
+  }
+  GenericEntity {
+   ID "66C2DA7DD1812563"
+   coords 3.6 -0.02 -8.383
+   angles 0 -89.849 0
+  }
+  GenericEntity {
+   ID "66C2DA636860C705"
+   coords 4.302 0.031 -7.731
+   angles 0 -177.175 0
+  }
+  GenericEntity {
+   ID "66C2DA636860C708"
+   coords 1.996 3.088 -1.239
+   angles 87.792 -158.975 176.497
+  }
+  GenericEntity {
+   ID "66C2DA636860C7EA"
+   coords 6.023 -2.925 -5.783
+   angles 0 -90.232 0
+  }
+  GenericEntity {
+   ID "66C2DA60BB47B162"
+   coords -13.825 0 -15.068
+  }
+  GenericEntity {
+   ID "66C2DA636860C6DB"
+   coords 3.292 3.12 -4.186
+   angles 87.869 29.197 -151.395
+  }
+  GenericEntity {
+   ID "66C2DA7DD1812510"
+   coords 3.561 -0.037 -12.604
+   angles 0 -87.546 0
+  }
+  SCR_DestructibleBuildingEntity {
+   ID "66C2DA70B8D9E813"
+   coords 11.193 0 -10.486
+   angles 0 89.966 0
+  }
+  SCR_DestructibleBuildingEntity {
+   ID "66C2DA70B8D9E83D"
+   coords 5.887 0 7.885
+   angles 0 179.67 0
+  }
+  SCR_DestructibleBuildingEntity {
+   ID "66C2DA7EAD1E940F"
+   coords 11.196 0 -15.696
+   angles 0 89.966 0
+  }
+  SCR_DestructibleBuildingEntity {
+   ID "66C2DA70B8D9E834"
+   coords -2.819 0 7.851
+  }
+  SCR_DestructibleBuildingEntity {
+   ID "66C2DA7EAD1E947D"
+   coords -8.485 0 -23.218
+   angles 0 179.486 0
+  }
+  SCR_DestructibleBuildingEntity {
+   ID "66C2DA70B8D9E80B"
+   coords -0.428 0 7.839
+  }
+  SCR_DestructibleBuildingEntity {
+   ID "66C2DA7EAD1E9415"
+   coords 9.919 0 -23.102
+   angles 0 179.27 0
+  }
+  SCR_DestructibleBuildingEntity {
+   ID "66C2DA7EAD1E97D2"
+   coords 11.197 0 1.525
+   angles 0 -90.975 0
+  }
+  SCR_DestructibleBuildingEntity {
+   ID "66C2DA70B8D9E81A"
+   coords 11.172 0 -3.999
+   angles 0 90.438 0
+  }
+  SCR_DestructibleBuildingEntity {
+   ID "66C2DA7EAD1E9442"
+   coords -20.026 0 -19.249
+   angles 0 -90.137 0
+  }
+  SCR_DestructibleBuildingEntity {
+   ID "66C2DA7EAD1E9456"
+   coords -20.064 0 -3.653
+   angles 0 -90.137 0
+  }
+  SCR_DestructibleBuildingEntity {
+   ID "66C2DA7EAD1E945C"
+   coords -20.046 0 -11.414
+   angles 0 -90.137 0
+  }
+  SCR_DestructibleBuildingEntity {
+   ID "66C2DA7EAD1E9467"
+   coords -3.402 0 -23.208
+   angles 0 179.697 0
+  }
+  SCR_DestructibleBuildingEntity {
+   ID "66C2DA7EAD1E946C"
+   coords 4.488 0 -23.166
+   angles 0 179.697 0
+  }
+  SCR_DestructibleBuildingEntity {
+   ID "66C2DA7EAD1E9474"
+   coords -13.705 0 -23.262
+   angles 0 179.697 0
+  }
+  SCR_DestructibleBuildingEntity {
+   ID "66C2DA7EAD1E9485"
+   coords -15.913 0 7.888
+  }
+  SCR_DestructibleBuildingEntity {
+   ID "66C2DA7EAD1E94AD"
+   coords -20.083 0 4.181
+   angles 0 -90.137 0
+  }
+  SCR_DestructibleBuildingEntity {
+   ID "66C2DA7EAD1E97DB"
+   coords -8.061 0 7.888
+  }
+  SCR_DestructibleBuildingEntity {
+   ID "66C2DA70B8D9E84C"
+   coords 11.006 0 7.645
+  }
+  SCR_DestructibleBuildingEntity {
+   ID "66C2DA7EAD1E9436"
+   coords 11.193 0 -21.638
+   angles 0 -89.691 0
+  }
+  SCR_DestructibleBuildingEntity {
+   ID "66C2DA70B8D9E803"
+   coords 1.978 0 7.843
+   angles 0 179.397 0
+  }
+  SCR_DestructibleBuildingEntity {
+   ID "66C2DA732ABFABFF"
+   coords -2.917 0 -12.889
+   angles 0 -90.407 0
+  }
+  SCR_DestructibleBuildingEntity {
+   ID "66C2DA7EAD1E942B"
+   coords 11.215 0 0.254
+  }
+  SCR_DestructibleBuildingEntity {
+   ID "66C2DA7EAD1E9402"
+   coords 8.63 0 -23.095
+  }
+  SCR_DestructibleBuildingEntity {
+   ID "66C2DA7EAD1E941B"
+   coords 11.229 0 -23.095
+  }
+  SCR_DestructibleBuildingEntity {
+   ID "66C2DA7EAD1E944F"
+   coords -18.937 0 -23.229
+   angles 0 179.953 0
+  }
+  SCR_DestructibleBuildingEntity {
+   ID "66C2DA732ABFABD7"
+   coords -14.186 0 -1.539
+   angles 0 90.354 0
+  }
+  StaticModelEntity {
+   ID "66C2DA6366BC2040"
+   coords -10.389 0.001 6.332
+  }
+  StaticModelEntity {
+   ID "66C2DA6366BC20F5"
+   coords -14.095 0 6.388
+  }
+ }
+}
 GenericEntity : "{DCA76EA9DD0458DB}Prefabs/Structures/Scientists/Bunker_Modul/Bunk_Mid_base.et" {
  coords 2964.2 25.274 4092.011
  angles 0 -29.022 0
 }
-SCR_DestructibleBuildingEntity : "{DE877694686BF978}Prefabs/Structures/Industrial/Hangar Civilian.et" {
- Flags 0 0x80000
- coords 3139.138 37.75 4007.209
- angles 0 -90 0
+SCR_DestructibleBuildingEntity : "{DD972CF3A53568A8}Prefabs/Houses/villages/Barn_spawn.et" {
+ coords 4103.438 0.215 3736.155
+}
+$grp SCR_DestructibleBuildingEntity : "{DE877694686BF978}Prefabs/Structures/Industrial/Hangar Civilian.et" {
+ {
+  Flags 0 0x80000
+  coords 3139.138 37.75 4007.209
+  angles 0 -90 0
+ }
+ {
+  coords 3708.461 0 4006.68
+  angles 0 -138.526 0
+ }
 }
 $grp SCR_DestructibleBuildingEntity : "{E2A20DFFC3F8DDA0}Prefabs/agroprom/ferma_big.et" {
  {
@@ -2221,10 +7586,17 @@ $grp SCR_DestructibleBuildingEntity : "{EAFE301B4E854AF8}PrefabLibrary/CainLibra
   angles 0 90 0
  }
 }
-SCR_DestructibleBuildingEntity : "{EE6B95EB59D4CFFF}Prefabs/Structures/Industrial/Garage_02_Industrial.et" {
- Flags 0 0x80000
- coords 3177.912 37.75 4008.145
- angles 0 -180 0
+$grp SCR_DestructibleBuildingEntity : "{EE6B95EB59D4CFFF}Prefabs/Structures/Industrial/Garage_02_Industrial.et" {
+ {
+  Flags 0 0x80000
+  coords 3177.912 37.75 4008.145
+  angles 0 -180 0
+ }
+ {
+  Flags 0 0x80000
+  coords 3678.749 38 3984.901
+  angles 0 132.089 0
+ }
 }
 $grp SCR_DestructibleBuildingEntity : "{EFE49212769E45CC}Prefabs/Houses/villages/Shed_02_Base_obolon.et" {
  {
