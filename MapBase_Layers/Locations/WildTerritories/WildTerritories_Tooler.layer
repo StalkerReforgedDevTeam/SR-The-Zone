@@ -325,10 +325,10 @@ $grp PolylineShapeEntity {
     Position 0 0 0
    }
    ShapePoint "{6AA36078EE773D36}" {
-    Position -142.836 -0 -0.097
+    Position -142.836 0 -0.097
    }
    ShapePoint "{6AA36078E7C1F054}" {
-    Position -142.601 -0 5.105
+    Position -142.601 0 5.105
    }
   }
   LineColor 0 0 0 0
@@ -338,28 +338,28 @@ $grp PolylineShapeEntity {
     m_iSeed 808
     {
      SCR_DestructibleEntity : "{2BA5C7F599779832}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_6m_D_A.et" {
-      coords -130.308 -0 -0.089
+      coords -130.308 0 -0.089
       angles 0 -180.039 0
      }
      $grp SCR_DestructibleEntity : "{350B1D05E8446B1C}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_6m_A.et" {
       {
-       coords 0.108 -0 0
+       coords 0.108 0 0
        angles 0 -180.039 0
       }
       {
-       coords -5.815 -0 -0.004
+       coords -5.815 0 -0.004
        angles 0 -180.039 0
       }
       {
-       coords -11.739 -0 -0.008
+       coords -11.739 0 -0.008
        angles 0 -180.039 0
       }
       {
-       coords -17.662 -0 -0.012
+       coords -17.662 0 -0.012
        angles 0 -180.039 0
       }
       {
-       coords -29.52 -0 -0.02
+       coords -29.52 0 -0.02
        angles 0 -180.039 0
       }
       {
@@ -379,15 +379,15 @@ $grp PolylineShapeEntity {
        angles 0 -180.039 0
       }
       {
-       coords -100.668 -0 -0.068
+       coords -100.668 0 -0.068
        angles 0 -180.039 0
       }
       {
-       coords -106.591 -0 -0.073
+       coords -106.591 0 -0.073
        angles 0 -180.039 0
       }
       {
-       coords -118.45 -0 -0.081
+       coords -118.45 0 -0.081
        angles 0 -180.039 0
       }
      }
@@ -403,7 +403,7 @@ $grp PolylineShapeEntity {
      }
      $grp SCR_DestructibleEntity : "{595F29E55480E432}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_6m_B.et" {
       {
-       coords -23.585 -0 -0.016
+       coords -23.585 0 -0.016
        angles 0 -180.039 0
       }
       {
@@ -423,28 +423,28 @@ $grp PolylineShapeEntity {
        angles 0 -180.039 0
       }
       {
-       coords -94.733 -0 -0.064
+       coords -94.733 0 -0.064
        angles 0 -180.039 0
       }
       {
-       coords -112.515 -0 -0.077
+       coords -112.515 0 -0.077
        angles 0 -180.039 0
       }
       {
-       coords -124.373 -0 -0.085
+       coords -124.373 0 -0.085
        angles 0 -180.039 0
       }
       {
-       coords -136.232 -0 -0.093
+       coords -136.232 0 -0.093
        angles 0 -180.039 0
       }
      }
      SCR_DestructibleEntity : "{95A1D31077D47BEA}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_Pole.et" {
-      coords -142.451 -0 2.717
+      coords -142.451 0 2.717
       angles 0 -93.588 0
      }
      SCR_DestructibleEntity : "{CAFF4B51059A0F81}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_3m.et" {
-      coords -142.268 -0 -0.205
+      coords -142.268 0 -0.205
       angles 0 -93.588 0
      }
     }
@@ -654,7 +654,7 @@ $grp PolylineShapeEntity {
     Position 12.073 0 -188.433
    }
    ShapePoint "{6AA3607FDB46C48B}" {
-    Position -35.687 -0 -185.346
+    Position -35.687 0 -185.346
    }
   }
   LineColor 0 0 0 0
@@ -893,7 +893,7 @@ $grp PolylineShapeEntity {
      }
      $grp SCR_DestructibleEntity : "{595F29E55480E432}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_6m_B.et" {
       {
-       coords -0.108 0 -0
+       coords -0.108 0 0
        angles 0 -0.01 0
       }
       {
@@ -1695,15 +1695,15 @@ SCR_DestructibleBuildingEntity : "{1A18A755842DCA36}Prefabs/Structures/Industria
 }
 $grp SCR_DestructibleBuildingEntity : "{1AB3F8B3F8CA860D}Prefabs/Structures/Houses/Garage/Garage_B.et" {
  {
-  coords 4353.752 0 4113.812
+  coords 4353.222 0 4104.125
   angles 0 -86.87 0
  }
  {
-  coords 4353.352 0 4107.475
+  coords 4352.822 0 4097.788
   angles 0 -86.87 0
  }
  {
-  coords 4352.88 0 4101.197
+  coords 4352.35 0 4091.509
   angles 0 -86.87 0
  }
 }
@@ -1837,7 +1837,7 @@ $grp SCR_DestructibleBuildingEntity : "{1C87C72319097FC1}Prefabs/Structures/Wall
   angles 0 -88.726 0
  }
  {
-  coords 4443.882 23.371 4079.289
+  coords 4443.311 23.371 4079.3
   angles 0 1.057 0
  }
  {
@@ -4137,7 +4137,7 @@ $grp SCR_DestructibleBuildingEntity : "{405D52096F6F6DA2}Prefabs/Structures/Indu
   }
  }
  {
-  coords 4395.111 27 4280.621
+  coords 4395.111 26.001 4280.621
   angles 0 2.965 0
   {
    Building {
@@ -5117,7 +5117,7 @@ $grp SCR_DestructibleBuildingEntity : "{405D52096F6F6DA2}Prefabs/Structures/Indu
   }
  }
  {
-  coords 4358.345 27 4282.016
+  coords 4358.345 26.001 4282.016
   angles 0 1.33 0
   {
    Building {
@@ -6097,7 +6097,7 @@ $grp SCR_DestructibleBuildingEntity : "{405D52096F6F6DA2}Prefabs/Structures/Indu
   }
  }
  {
-  coords 4321.476 27 4282.888
+  coords 4321.476 26.001 4282.888
   angles 0 1.566 0
   {
    Building {
@@ -8211,11 +8211,11 @@ $grp GenericEntity : "{62A2AC8BAF5AE7D6}Prefabs/Infrastructure/Railways/Concrete
 }
 $grp SCR_DestructibleBuildingEntity : "{65ED02B8B05842F8}Prefabs/Structures/Commercial/FuelStations/FuelStation_E_01/HouseAddons/FuelStation_E_01_platform.et" {
  {
-  coords 4488.573 5.273 4331.486
+  coords 4451.988 0.428 4352.732
   angles 0 120.145 0
  }
  {
-  coords 4504.789 5.227 4334.455
+  coords 4468.204 0.378 4355.701
   angles 0 -59.776 0
  }
 }
@@ -8310,7 +8310,7 @@ SCR_DestructibleBuildingEntity : "{838F1E7BFB3C23FA}Prefabs/Vehicles/azlk412/arm
 }
 $grp SCR_DestructibleBuildingEntity : "{87637EF4459695E6}Prefabs/Structures/Commerical/Railwaystation.et" {
  {
-  coords 4523.884 5.382 4338.127
+  coords 4487.299 0.959 4359.373
   angles 0 118.596 0
   {
    Building {
@@ -10307,8 +10307,8 @@ $grp SCR_DestructibleBuildingEntity : "{C78C68313AAC28C0}Prefabs/Structures/Indu
  }
 }
 SCR_DestructibleBuildingEntity : "{C972EF3573B67369}Prefabs/Industrial/sklades_soviet/Covering_soviets.et" {
- coords 4579.128 25.844 4217.118
- angles 0 -91.057 0
+ coords 4572.042 25.844 4223.887
+ angles 0 -179.837 0
 }
 SCR_DestructibleEntity : "{CAFF4B51059A0F81}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_3m.et" {
  coords 4407.088 0 3908.659
@@ -10536,13 +10536,6 @@ $grp SCR_DestructibleEntity : "{DA5642771C410D0D}Prefabs/Structures/walls/Brick/
   angles 0 -87.17 0
  }
  {
-  coords 4276.546 1.326 4248.769
-  angles 0 21.979 0
- }
- {
-  coords 4281.77 1.326 4245.815
- }
- {
   coords 4294.636 0 4277.717
   angles 0 2.164 0
  }
@@ -10675,15 +10668,15 @@ $grp GenericEntity : "{E4BE27AA5AD0C035}Prefabs/Infrastructure/Railways/Railway 
   angles 0 44.032 0
  }
  {
-  coords 4356.783 27 4167.218
+  coords 4356.557 27 4159.717
   angles 0 1.727 0
  }
  {
-  coords 4356.125 27 4142.569
+  coords 4355.899 27 4135.068
   angles 0 1.727 0
  }
  {
-  coords 4355.467 27 4119.921
+  coords 4355.241 27 4112.42
   angles 0 1.727 0
  }
 }
@@ -10712,8 +10705,8 @@ GameEntity : "{F0533FFB4A171452}Prefabs/Method/Props/Camps/Fireplace_01_03.et" {
  }
 }
 SCR_DestructibleBuildingEntity : "{F0F586ED11B52C6E}Prefabs/Structures/Houses/Apartment building/97-50_Panelka/97-50_Panelka_03.et" {
- coords 4464.596 0 3997.212
- angles 0 -88.376 0
+ coords 4465.176 0 3997.203
+ angles 0 -89.092 0
 }
 $grp SCR_DestructibleBuildingEntity : "{F4E08FE7DD7264EB}Prefabs/Vehicles/azlk412/armst_azlk412_1.et" {
  {
