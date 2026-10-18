@@ -528,1049 +528,59 @@ $grp PolylineShapeEntity {
   }
  }
  {
-  coords 2965.383 27.875 4071.741
+  coords 3025.601 29.531 4296.134
   Points {
-   ShapePoint "{6AA476C2BDA2E242}" {
-    Position 0 0 0
+   ShapePoint "{6AA476CA8F227BE8}" {
+    Position 19.213 -0 21.844
    }
-   ShapePoint "{6AA476C2BDA20B7A}" {
-    Position 0.152 0 8.111
+   ShapePoint "{6AA476CA82A4BCE6}" {
+    Position 18.18 -0 0.108
    }
-   ShapePoint "{6AA476C2BADC9891}" {
-    Position -9.775 -0.135 8.033
-   }
-   ShapePoint "{6AA476C2B9839D61}" {
-    Position -9.649 0 -1.63
+   ShapePoint "{6AA476CA82A49673}" {
+    Position 0 -0 0
    }
   }
-  IsClosed 1
   LineColor 0 0 0 0
   {
-   WallGeneratorEntity : "{14F1ED847BB7A27F}Prefabs/WEGenerators/Walls/Net/WG_NetFence_02.et" {
+   WallGeneratorEntity : "{25A2E591AC54EF71}Prefabs/WEGenerators/Walls/Metal/WG_TinWall_01_rusty.et" {
     Flags 0x100003 0
-    m_iSeed 3525
+    m_iSeed 16964
     {
-     $grp SCR_DestructibleEntity : "{2DEFFC3B4DE1E33A}Prefabs/Structures/Walls/Net/NetFence_02/NetFence_02_2m.et" {
+     $grp SCR_DestructibleEntity : "{0C1D044EBE92ADBF}Prefabs/Structures/Walls/Metal/TinWall_01_rusty/TinWall_01_6m_A_rusty.et" {
       {
-       coords -7.79 0 8.02
-       angles 0 -179.638 0
-      }
-      {
-       coords -9.679 0 0.095
-       angles 0 89.017 0
-      }
-     }
-     $grp SCR_DestructibleEntity : "{CBB323D90F2FF29F}Prefabs/Structures/Walls/Net/NetFence_02/NetFence_02_8m.et" {
-      {
-       coords -0.001 0 -0.032
-       angles 0 -88.929 0
+       coords 18.258 -0 0.94
+       angles 0 -182.946 0
       }
       {
-       coords 0.181 0 7.97
-       angles 0 -179.638 0
+       coords 6.315 -0 0.325
+       angles 0 -182.946 0
+      }
+     }
+     $grp SCR_DestructibleEntity : "{B2ED652EFDDC43B4}Prefabs/Structures/Walls/Metal/TinWall_01_rusty/TinWall_01_6m_C_rusty.et" {
+      {
+       coords 19.215 -0 21.882
+       angles 0 -267.279 0
       }
       {
-       coords -9.816 -0.149 8.065
-       angles 0 89.017 0
+       coords 18.931 -0 15.909
+       angles 0 -267.279 0
       }
       {
-       coords -9.675 0 -1.937
-       angles 0 -11.319 0
-      }
-     }
-     SCR_DestructibleEntity : "{EDBF917B5A553026}Prefabs/Structures/Walls/Net/NetFence_02/NetFence_02_Pole_B.et" {
-      coords -3.41 0 -0.683
-      angles 0 -11.319 0
-     }
-    }
-   }
-  }
- }
- {
-  coords 2928.174 37.2 4125.12
-  Points {
-   ShapePoint "{6AA476C36E858583}" {
-    Position 1.132 -0.07 -1.496
-   }
-   ShapePoint "{6AA476C36E8AB9E8}" {
-    Position -4.688 0.12 8.438
-   }
-   ShapePoint "{6AA476C36C8BE469}" {
-    Position 3.699 -0.012 14.612
-   }
-   ShapePoint "{6AA476C36A9EDDF5}" {
-    Position 10.397 -0.318 4.409
-   }
-  }
-  IsClosed 1
-  LineColor 0 0 0 0
-  {
-   WallGeneratorEntity : "{14F1ED847BB7A27F}Prefabs/WEGenerators/Walls/Net/WG_NetFence_02.et" {
-    Flags 0x100003 0
-    m_iSeed 2131
-    {
-     SCR_DestructibleEntity : "{2DEFFC3B4DE1E33A}Prefabs/Structures/Walls/Net/NetFence_02/NetFence_02_2m.et" {
-      coords 1.676 0.016 13.248
-      angles 0 -33.986 0
-     }
-     $grp SCR_DestructibleEntity : "{5AE594B3B9430C4A}Prefabs/Structures/Walls/Net/NetFence_02/NetFence_02_4m.et" {
-      {
-       coords -2.881 0.124 5.353
-       angles 0 -120.367 0
+       coords 18.648 -0 9.937
+       angles 0 -267.279 0
       }
       {
-       coords 7.934 -0.125 7.896
-       angles 0 54.766 0
+       coords 12.287 -0 0.632
+       angles 0 -182.946 0
       }
      }
-     $grp SCR_DestructibleEntity : "{CBB323D90F2FF29F}Prefabs/Structures/Walls/Net/NetFence_02/NetFence_02_8m.et" {
-      {
-       coords 1.148 -0.072 -1.524
-       angles 0 -120.367 0
-      }
-      {
-       coords -4.933 0.114 8.792
-       angles 0 -33.986 0
-      }
-      {
-       coords 3.336 -0.012 14.406
-       angles 0 54.766 0
-      }
-      {
-       coords 10.271 -0.298 4.642
-       angles 0 -213.886 0
-      }
-     }
-     SCR_DestructibleEntity : "{EDBF917B5A553026}Prefabs/Structures/Walls/Net/NetFence_02/NetFence_02_Pole_B.et" {
-      coords 4.967 -0.156 1.08
-      angles 0 -213.886 0
-     }
-    }
-   }
-  }
- }
-}
-SplineShapeEntity {
- coords 2955.102 27.875 4063.537
- Points {
-  ShapePoint "{6AA476C288FE5A21}" {
-   Position 0 0 0
-  }
-  ShapePoint "{6AA476C288FE7877}" {
-   Position 0.068 -0 -7.86
-  }
-  ShapePoint "{6AA476C2F743E0FD}" {
-   Position -13.047 -0.038 -19.087
-  }
-  ShapePoint "{6AA476C2F532A1E4}" {
-   Position -25.969 -0.688 -39.518
-  }
-  ShapePoint "{6AA476C2F488D57B}" {
-   Position -25.489 -0.688 -59.305
-  }
-  ShapePoint "{6AA476C2F0C5C03F}" {
-   Position -18.078 -0.687 -80.324
-  }
-  ShapePoint "{6AA476C2FFBF260A}" {
-   Position -14.464 -0.687 -88.815
-  }
-  ShapePoint "{6AA476C2FF286220}" {
-   Position -25.274 -0.688 -105.149
-  }
-  ShapePoint "{6AA476C2FAEB94C9}" {
-   Position -34.291 1.444 -127.695
-  }
-  ShapePoint "{6AA476C2FA70E9C4}" {
-   Position -38.168 1.656 -142.6
-  }
-  ShapePoint "{6AA476C2F921B6B4}" {
-   Position -40.525 1.701 -159.801
-  }
-  ShapePoint "{6AA476C2F8A1134E}" {
-   Position -38.249 1.656 -170.945
-  }
-  ShapePoint "{6AA476C2F81A07EC}" {
-   Position -37.743 1.656 -186.649
-  }
-  ShapePoint "{6AA476C2E6E23C8B}" {
-   Position -34.406 1.719 -202.518
-  }
-  ShapePoint "{6AA476C2E67D2D19}" {
-   Position -28.043 1.795 -211.971
-  }
-  ShapePoint "{6AA476C2E627149B}" {
-   Position -19.772 1.84 -218.14
-  }
-  ShapePoint "{6AA476C2E599D727}" {
-   Position -9.584 2 -223.771
-  }
-  ShapePoint "{6AA476C2E422DC8A}" {
-   Position 12.097 2.321 -227.705
-  }
-  ShapePoint "{6AA476C2E39D0037}" {
-   Position 25.22 2.184 -228.187
-  }
-  ShapePoint "{6AA476C2E2A0DE4F}" {
-   Position 46.363 2.101 -225.707
-  }
-  ShapePoint "{6AA476C2E23E7312}" {
-   Position 67.591 1.891 -223.474
-  }
-  ShapePoint "{6AA476C2E1063105}" {
-   Position 88.873 1.663 -231.747
-  }
-  ShapePoint "{6AA476C2E0A2C36D}" {
-   Position 91.927 2.177 -243.34
-  }
-  ShapePoint "{6AA476C2EF236250}" {
-   Position 95.199 2.486 -263.42
-  }
-  ShapePoint "{6AA476C2EEAD428E}" {
-   Position 102.385 2.194 -280.647
-  }
-  ShapePoint "{6AA476C2ED9CBAAA}" {
-   Position 114.414 2.604 -302.335
-  }
-  ShapePoint "{6AA476C2ED2C2019}" {
-   Position 121.775 3.515 -317.178
-  }
-  ShapePoint "{6AA476C2EC3A2511}" {
-   Position 126.59 6.051 -340.703
-  }
-  ShapePoint "{6AA476C2EB465958}" {
-   Position 125.982 5.909 -360.291
-  }
-  ShapePoint "{6AA476C2EAB86A6A}" {
-   Position 122.386 7.048 -387.285
-  }
-  ShapePoint "{6AA476C2E90092B2}" {
-   Position 113.236 8.469 -422.062
-  }
-  ShapePoint "{6AA476C2E889D11F}" {
-   Position 106.358 9.786 -451.185
-  }
-  ShapePoint "{6AA476C2D7671FF8}" {
-   Position 99.409 10.079 -479.33
-  }
-  ShapePoint "{6AA476C2D68672B6}" {
-   Position 92.393 10.961 -509.549
-  }
-  ShapePoint "{6AA476C2D60F0A53}" {
-   Position 86.558 11.943 -534.87
-  }
-  ShapePoint "{6AA476C2D4D69FE4}" {
-   Position 80.193 12.307 -557.412
-  }
-  ShapePoint "{6AA476C2D47B6400}" {
-   Position 74.924 12.066 -573.656
-  }
-  ShapePoint "{6AA476C2D35EDF7F}" {
-   Position 70.929 10.806 -596.307
-  }
-  ShapePoint "{6AA476C2D2D97ABC}" {
-   Position 67.712 8.276 -616.734
-  }
-  ShapePoint "{6AA476C2D17708D9}" {
-   Position 77.018 4.024 -651.605
-  }
-  ShapePoint "{6AA476C2D108B5F2}" {
-   Position 90.032 1.96 -670.817
-  }
-  ShapePoint "{6AA476C2D00AF71C}" {
-   Position 111.139 1.021 -697.366
-  }
-  ShapePoint "{6AA476C2DFA91A9D}" {
-   Position 130.253 -2.227 -724.15
-  }
-  ShapePoint "{6AA476C2DEA81563}" {
-   Position 155.953 -4.962 -758.497
-  }
-  ShapePoint "{6AA476C2DE5763DD}" {
-   Position 172.923 -6.946 -787.38
-  }
-  ShapePoint "{6AA476C2DD1BD3F0}" {
-   Position 186.068 -7.242 -819.373
-  }
-  ShapePoint "{6AA476C2DCB432ED}" {
-   Position 194.493 -6.763 -843.433
-  }
-  ShapePoint "{6AA476C2DBC14FD6}" {
-   Position 202.104 -6.604 -876.625
-  }
-  ShapePoint "{6AA476C2DB5CFC63}" {
-   Position 208.224 -5.99 -902.032
-  }
-  ShapePoint "{6AA476C2DA560A7A}" {
-   Position 214.342 -5.686 -934.208
-  }
-  ShapePoint "{6AA476C2D9F04D25}" {
-   Position 217.549 -5.738 -954.43
-  }
-  ShapePoint "{6AA476C2D982BFB2}" {
-   Position 224.507 -6.165 -980.303
-  }
-  ShapePoint "{6AA476C2D8481782}" {
-   Position 227.942 -7.848 -1010.825
-  }
-  ShapePoint "{6AA476C2C7F52D96}" {
-   Position 232.32 -7.875 -1035.391
-  }
-  ShapePoint "{6AA476C2C7003545}" {
-   Position 241.169 -7.737 -1057.369
-  }
-  ShapePoint "{6AA476C2C6AB6686}" {
-   Position 250.345 -7.712 -1079.479
-  }
-  ShapePoint "{6AA476C2C5CE52CD}" {
-   Position 261.697 -7.787 -1108.69
-  }
-  ShapePoint "{6AA476C2C57E8BB8}" {
-   Position 270.239 -7.87 -1127.206
-  }
-  ShapePoint "{6AA476C330DC8B8A}" {
-   Position 298.329 -7.875 -1181.756
-  }
-  ShapePoint "{6AA476C330588915}" {
-   Position 302.774 -7.875 -1217.119
-  }
-  ShapePoint "{6AA476C33FE1949D}" {
-   Position 302.153 -7.875 -1247.019
-  }
-  ShapePoint "{6AA476C33DEC51B8}" {
-   Position 303.641 -7.875 -1272.662
-  }
-  ShapePoint "{6AA476C33C7CDE22}" {
-   Position 302.586 -7.839 -1312.396
-  }
-  ShapePoint "{6AA476C33C23FE12}" {
-   Position 302.154 -7.832 -1327.372
-  }
-  ShapePoint "{6AA476C33A99A0D7}" {
-   Position 295.271 -7.875 -1352.759
-  }
-  ShapePoint "{6AA476C327145859}" {
-   Position 294.027 -7.875 -1376.94
-  }
- }
- LineColor 0 0.498 0.8314 0
- {
-  SCR_PowerlineGeneratorEntity : "{F9CF7B0E9B97B012}Prefabs/WEGenerators/Powerline/PG_PowerLine_HV_01_Concrete.et" {
-   Flags 0x100003 0
-   coords 0 0 0
-   m_iSeed 18207
-   {
-    $grp SCR_PowerPole : "{468A2CDE1906964B}PrefabLibrary/DefaultLibrary/Infrastructure/Powerline/PowerLine_HV_01_pole_end.et" {
-     {
-      coords 0 -0 0
-      angles 1.105 212.205 -0.312
-     }
-     {
-      coords 294.027 -7.875 -1376.94
-      angles -1.281 180.083 0.504
-     }
-    }
-    $grp PowerlineEntity : "{613763D114E7CD1C}Prefabs/WEGenerators/Powerline/Powerline.et" {
-     {
-      coords 0 -0 0
-      Material "{AFC481E5CDFB2DF2}Assets/Structures/Infrastructure/Power/Powerlines/data/HV_01_powerline_wire.emat"
-      Cables {
-       Cable "{6AA476C31E4109D4}" {
-        StartPoint 1.257 9.142 -0.678
-        EndPoint -25.269 8.459 -42.572
-       }
-       Cable "{6AA476C31E41F69F}" {
-        StartPoint 0.077 9.15 0.066
-        EndPoint -26.649 8.463 -42.337
-       }
-       Cable "{6AA476C31E41F722}" {
-        StartPoint -1.108 9.157 0.812
-        EndPoint -28.029 8.466 -42.103
-       }
-      }
-     }
-     {
-      coords -26.647 -0.688 -42.308
-      Material "{AFC481E5CDFB2DF2}Assets/Structures/Infrastructure/Power/Powerlines/data/HV_01_powerline_wire.emat"
-      Cables {
-       Cable "{6AA476C31E41F4BF}" {
-        StartPoint 1.378 9.147 -0.264
-        EndPoint 12.703 9.121 -49.037
-       }
-       Cable "{6AA476C31E41F55F}" {
-        StartPoint -0.002 9.15 -0.03
-        EndPoint 11.311 9.148 -48.887
-       }
-       Cable "{6AA476C31E41F503}" {
-        StartPoint -1.382 9.154 0.205
-        EndPoint 9.92 9.175 -48.736
-       }
-      }
-     }
-     {
-      coords -15.478 -0.688 -91.044
-      Material "{AFC481E5CDFB2DF2}Assets/Structures/Infrastructure/Power/Powerlines/data/HV_01_powerline_wire.emat"
-      Cables {
-       Cable "{6AA476C31E41F2C2}" {
-        StartPoint 1.533 9.121 -0.301
-        EndPoint -20.005 11.472 -45.525
-       }
-       Cable "{6AA476C31E41F375}" {
-        StartPoint 0.142 9.148 -0.15
-        EndPoint -21.368 11.473 -45.206
-       }
-       Cable "{6AA476C31E41F324}" {
-        StartPoint -1.25 9.175 0
-        EndPoint -22.731 11.473 -44.887
-       }
-      }
-     }
-     {
-      coords -36.83 1.635 -136.255
-      Material "{AFC481E5CDFB2DF2}Assets/Structures/Infrastructure/Power/Powerlines/data/HV_01_powerline_wire.emat"
-      Cables {
-       Cable "{6AA476C31E41F0F0}" {
-        StartPoint 1.348 9.15 -0.314
-        EndPoint 0.141 9.2 -49.56
-       }
-       Cable "{6AA476C31E41F0AE}" {
-        StartPoint -0.015 9.15 0.006
-        EndPoint -1.18 9.169 -50.023
-       }
-       Cable "{6AA476C31E41F151}" {
-        StartPoint -1.378 9.151 0.325
-        EndPoint -2.5 9.138 -50.486
-       }
-      }
-     }
-     {
-      coords -37.786 1.656 -186.246
-      Material "{AFC481E5CDFB2DF2}Assets/Structures/Infrastructure/Power/Powerlines/data/HV_01_powerline_wire.emat"
-      Cables {
-       Cable "{6AA476C31E41FE3E}" {
-        StartPoint 1.097 9.178 0.431
-        EndPoint 32.396 9.536 -37.058
-       }
-       Cable "{6AA476C31E41FEE2}" {
-        StartPoint -0.224 9.148 -0.032
-        EndPoint 31.785 9.55 -38.317
-       }
-       Cable "{6AA476C31E41FE92}" {
-        StartPoint -1.545 9.117 -0.495
-        EndPoint 31.174 9.565 -39.577
-       }
-      }
-     }
-     {
-      coords -5.851 2.059 -224.719
-      Material "{AFC481E5CDFB2DF2}Assets/Structures/Infrastructure/Power/Powerlines/data/HV_01_powerline_wire.emat"
-      Cables {
-       Cable "{6AA476C31E41FC71}" {
-        StartPoint 0.461 9.133 1.415
-        EndPoint 50.473 9.153 -0.05
-       }
-       Cable "{6AA476C31E41FCFC}" {
-        StartPoint -0.15 9.148 0.155
-        EndPoint 50.236 9.136 -1.429
-       }
-       Cable "{6AA476C31E41FCA2}" {
-        StartPoint -0.761 9.162 -1.104
-        EndPoint 49.998 9.119 -2.809
-       }
-      }
-     }
-     {
-      coords 44.134 2.05 -225.97
-      Material "{AFC481E5CDFB2DF2}Assets/Structures/Infrastructure/Power/Powerlines/data/HV_01_powerline_wire.emat"
-      Cables {
-       Cable "{6AA476C31E41FD8D}" {
-        StartPoint 0.489 9.162 1.201
-        EndPoint 48.779 9.12 -14.514
-       }
-       Cable "{6AA476C31E41FA32}" {
-        StartPoint 0.251 9.145 -0.178
-        EndPoint 47.787 9.154 -15.502
-       }
-       Cable "{6AA476C31E41FAEE}" {
-        StartPoint 0.014 9.128 -1.558
-        EndPoint 46.795 9.187 -16.489
-       }
-      }
-     }
-     {
-      coords 91.663 2.057 -241.493
-      Material "{AFC481E5CDFB2DF2}Assets/Structures/Infrastructure/Power/Powerlines/data/HV_01_powerline_wire.emat"
-      Cables {
-       Cable "{6AA476C31E41FBD5}" {
-        StartPoint 1.249 9.113 1.009
-        EndPoint 16.664 9.347 -47.332
-       }
-       Cable "{6AA476C31E41FB86}" {
-        StartPoint 0.257 9.147 0.021
-        EndPoint 15.349 9.349 -47.812
-       }
-       Cable "{6AA476C31E41F831}" {
-        StartPoint -0.735 9.18 -0.966
-        EndPoint 14.034 9.351 -48.291
-       }
-      }
-     }
-     {
-      coords 106.944 2.258 -289.101
-      Material "{AFC481E5CDFB2DF2}Assets/Structures/Infrastructure/Power/Powerlines/data/HV_01_powerline_wire.emat"
-      Cables {
-       Cable "{6AA476C31E41F913}" {
-        StartPoint 1.384 9.146 0.276
-        EndPoint 20.324 12.514 -46.231
-       }
-       Cable "{6AA476C31E41F9C1}" {
-        StartPoint 0.068 9.148 -0.204
-        EndPoint 18.942 12.51 -46.458
-       }
-       Cable "{6AA476C31E41E673}" {
-        StartPoint -1.247 9.15 -0.684
-        EndPoint 17.561 12.506 -46.686
-       }
-      }
-     }
-     {
-      coords 125.9 5.619 -335.368
-      Material "{AFC481E5CDFB2DF2}Assets/Structures/Infrastructure/Power/Powerlines/data/HV_01_powerline_wire.emat"
-      Cables {
-       Cable "{6AA476C31E41E75E}" {
-        StartPoint 1.368 9.152 0.036
-        EndPoint -1.874 10.379 -50.186
-       }
-       Cable "{6AA476C31E41E70F}" {
-        StartPoint -0.014 9.148 -0.191
-        EndPoint -3.257 10.362 -49.969
-       }
-       Cable "{6AA476C31E41E7BA}" {
-        StartPoint -1.395 9.145 -0.418
-        EndPoint -4.64 10.345 -49.751
-       }
-      }
-     }
-     {
-      coords 122.787 6.833 -385.271
-      Material "{AFC481E5CDFB2DF2}Assets/Structures/Infrastructure/Power/Powerlines/data/HV_01_powerline_wire.emat"
-      Cables {
-       Cable "{6AA476C31E41E4A1}" {
-        StartPoint 1.238 9.166 -0.283
-        EndPoint -10.956 11.117 -48.93
-       }
-       Cable "{6AA476C31E41E55D}" {
-        StartPoint -0.145 9.149 -0.066
-        EndPoint -12.315 11.131 -48.593
-       }
-       Cable "{6AA476C31E41E503}" {
-        StartPoint -1.528 9.132 0.152
-        EndPoint -13.673 11.145 -48.256
-       }
-      }
-     }
-     {
-      coords 110.434 8.814 -433.721
-      Material "{AFC481E5CDFB2DF2}Assets/Structures/Infrastructure/Power/Powerlines/data/HV_01_powerline_wire.emat"
-      Cables {
-       Cable "{6AA476C31E41E2FC}" {
-        StartPoint 1.397 9.135 -0.48
-        EndPoint -10.504 10.481 -48.99
-       }
-       Cable "{6AA476C31E41E2A8}" {
-        StartPoint 0.038 9.149 -0.143
-        EndPoint -11.867 10.466 -48.669
-       }
-       Cable "{6AA476C31E41E367}" {
-        StartPoint -1.32 9.163 0.194
-        EndPoint -13.229 10.452 -48.348
-       }
-      }
-     }
-     {
-      coords 98.701 10.131 -482.325
-      Material "{AFC481E5CDFB2DF2}Assets/Structures/Infrastructure/Power/Powerlines/data/HV_01_powerline_wire.emat"
-      Cables {
-       Cable "{6AA476C31E41E049}" {
-        StartPoint 1.229 9.164 -0.386
-        EndPoint -9.872 10.818 -49.076
-       }
-       Cable "{6AA476C31E41E0F8}" {
-        StartPoint -0.134 9.149 -0.065
-        EndPoint -11.228 10.817 -48.728
-       }
-       Cable "{6AA476C31E41E0AA}" {
-        StartPoint -1.496 9.135 0.256
-        EndPoint -12.584 10.816 -48.378
-       }
-      }
-     }
-     {
-      coords 87.5 11.798 -531.054
-      Material "{AFC481E5CDFB2DF2}Assets/Structures/Infrastructure/Power/Powerlines/data/HV_01_powerline_wire.emat"
-      Cables {
-       Cable "{6AA476C31E41E194}" {
-        StartPoint 1.329 9.151 -0.347
-        EndPoint -12.415 9.294 -48.264
-       }
-       Cable "{6AA476C31E41EE40}" {
-        StartPoint -0.027 9.15 0.002
-        EndPoint -13.793 9.284 -48.018
-       }
-       Cable "{6AA476C31E41EEF3}" {
-        StartPoint -1.383 9.149 0.351
-        EndPoint -15.171 9.275 -47.771
-       }
-      }
-     }
-     {
-      coords 73.779 11.933 -579.134
-      Material "{AFC481E5CDFB2DF2}Assets/Structures/Infrastructure/Power/Powerlines/data/HV_01_powerline_wire.emat"
-      Cables {
-       Cable "{6AA476C31E41EFD3}" {
-        StartPoint 1.306 9.159 -0.183
-        EndPoint -2.284 4.012 -49.646
-       }
-       Cable "{6AA476C31E41EF88}" {
-        StartPoint -0.072 9.15 0.063
-        EndPoint -3.658 4.029 -49.915
-       }
-       Cable "{6AA476C31E41EC3B}" {
-        StartPoint -1.45 9.14 0.309
-        EndPoint -5.032 4.046 -50.183
-       }
-      }
-     }
-     {
-      coords 70.017 6.812 -628.993
-      Material "{AFC481E5CDFB2DF2}Assets/Structures/Infrastructure/Power/Powerlines/data/HV_01_powerline_wire.emat"
-      Cables {
-       Cable "{6AA476C31E41ED2D}" {
-        StartPoint 1.477 9.133 0.213
-        EndPoint 23.232 4.146 -44.205
-       }
-       Cable "{6AA476C31E41EDD8}" {
-        StartPoint 0.103 9.15 -0.056
-        EndPoint 22.045 4.106 -44.945
-       }
-       Cable "{6AA476C31E41ED89}" {
-        StartPoint -1.271 9.167 -0.325
-        EndPoint 20.857 4.067 -45.686
-       }
-      }
-     }
-     {
-      coords 92.281 1.772 -673.762
-      Material "{AFC481E5CDFB2DF2}Assets/Structures/Infrastructure/Power/Powerlines/data/HV_01_powerline_wire.emat"
-      Cables {
-       Cable "{6AA476C31E41EB76}" {
-        StartPoint 0.968 9.186 0.564
-        EndPoint 31.249 6.858 -38.839
-       }
-       Cable "{6AA476C31E41EB1A}" {
-        StartPoint -0.219 9.146 -0.176
-        EndPoint 30.132 6.836 -39.683
-       }
-       Cable "{6AA476C31E41EBD5}" {
-        StartPoint -1.407 9.106 -0.916
-        EndPoint 29.015 6.814 -40.527
-       }
-      }
-     }
-     {
-      coords 122.65 -0.539 -713.483
-      Material "{AFC481E5CDFB2DF2}Assets/Structures/Infrastructure/Power/Powerlines/data/HV_01_powerline_wire.emat"
-      Cables {
-       Cable "{6AA476C31E41E8BA}" {
-        StartPoint 0.881 9.17 0.882
-        EndPoint 31.096 4.99 -39.077
-       }
-       Cable "{6AA476C31E41E976}" {
-        StartPoint -0.236 9.147 0.038
-        EndPoint 29.925 5.023 -39.842
-       }
-       Cable "{6AA476C31E41E92D}" {
-        StartPoint -1.353 9.125 -0.806
-        EndPoint 28.753 5.055 -40.608
-       }
-      }
-     }
-     {
-      coords 152.515 -4.663 -753.583
-      Material "{AFC481E5CDFB2DF2}Assets/Structures/Infrastructure/Power/Powerlines/data/HV_01_powerline_wire.emat"
-      Cables {
-       Cable "{6AA476C31E41D61C}" {
-        StartPoint 1.23 9.114 1.024
-        EndPoint 25.908 6.696 -42.901
-       }
-       Cable "{6AA476C31E41D6C3}" {
-        StartPoint 0.059 9.146 0.258
-        EndPoint 24.639 6.674 -43.492
-       }
-       Cable "{6AA476C31E41D778}" {
-        StartPoint -1.113 9.179 -0.507
-        EndPoint 23.37 6.653 -44.084
-       }
-      }
-     }
-     {
-      coords 177.298 -7.137 -797.009
-      Material "{AFC481E5CDFB2DF2}Assets/Structures/Infrastructure/Power/Powerlines/data/HV_01_powerline_wire.emat"
-      Cables {
-       Cable "{6AA476C31E41D466}" {
-        StartPoint 1.125 9.17 0.525
-        EndPoint 18.689 9.533 -46.805
-       }
-       Cable "{6AA476C31E41D411}" {
-        StartPoint -0.144 9.149 -0.067
-        EndPoint 17.348 9.526 -47.208
-       }
-       Cable "{6AA476C31E41D4C2}" {
-        StartPoint -1.413 9.128 -0.658
-        EndPoint 16.008 9.519 -47.612
-       }
-      }
-     }
-     {
-      coords 194.623 -6.756 -843.912
-      Material "{AFC481E5CDFB2DF2}Assets/Structures/Infrastructure/Power/Powerlines/data/HV_01_powerline_wire.emat"
-      Cables {
-       Cable "{6AA476C31E41D5B6}" {
-        StartPoint 1.364 9.152 0.097
-        EndPoint 12.852 9.696 -48.608
-       }
-       Cable "{6AA476C31E41D260}" {
-        StartPoint 0.023 9.145 -0.306
-        EndPoint 11.483 9.7 -48.9
-       }
-       Cable "{6AA476C31E41D212}" {
-        StartPoint -1.317 9.138 -0.709
-        EndPoint 10.114 9.704 -49.192
-       }
-      }
-     }
-     {
-      coords 206.052 -6.204 -892.588
-      Material "{AFC481E5CDFB2DF2}Assets/Structures/Infrastructure/Power/Powerlines/data/HV_01_powerline_wire.emat"
-      Cables {
-       Cable "{6AA476C31E41D301}" {
-        StartPoint 1.424 9.143 0.068
-        EndPoint 10.6 9.726 -48.929
-       }
-       Cable "{6AA476C31E41D3BF}" {
-        StartPoint 0.054 9.147 -0.224
-        EndPoint 9.228 9.695 -49.207
-       }
-       Cable "{6AA476C31E41D075}" {
-        StartPoint -1.315 9.151 -0.516
-        EndPoint 7.856 9.663 -49.484
-       }
-      }
-     }
-     {
-      coords 215.489 -5.656 -941.689
-      Material "{AFC481E5CDFB2DF2}Assets/Structures/Infrastructure/Power/Powerlines/data/HV_01_powerline_wire.emat"
-      Cables {
-       Cable "{6AA476C31E41D14C}" {
-        StartPoint 1.163 9.179 0.173
-        EndPoint 12.034 8.073 -48.891
-       }
-       Cable "{6AA476C31E41D1F9}" {
-        StartPoint -0.209 9.147 -0.105
-        EndPoint 10.659 8.107 -49.148
-       }
-       Cable "{6AA476C31E41D1AB}" {
-        StartPoint -1.581 9.116 -0.383
-        EndPoint 9.283 8.141 -49.406
-       }
-      }
-     }
-     {
-      coords 225.897 -6.693 -990.594
-      Material "{AFC481E5CDFB2DF2}Assets/Structures/Infrastructure/Power/Powerlines/data/HV_01_powerline_wire.emat"
-      Cables {
-       Cable "{6AA476C31E41DE9D}" {
-        StartPoint 1.627 9.11 0.013
-        EndPoint 9.404 7.941 -48.96
-       }
-       Cable "{6AA476C31E41DF54}" {
-        StartPoint 0.251 9.144 -0.244
-        EndPoint 8.057 7.967 -49.341
-       }
-       Cable "{6AA476C31E41DF0F}" {
-        StartPoint -1.125 9.178 -0.501
-        EndPoint 6.71 7.993 -49.722
-       }
-      }
-     }
-     {
-      coords 233.806 -7.875 -1039.965
-      Material "{AFC481E5CDFB2DF2}Assets/Structures/Infrastructure/Power/Powerlines/data/HV_01_powerline_wire.emat"
-      Cables {
-       Cable "{6AA476C31E41DCF8}" {
-        StartPoint 1.495 9.123 0.411
-        EndPoint 20.752 9.198 -45.763
-       }
-       Cable "{6AA476C31E41DCAE}" {
-        StartPoint 0.148 9.149 0.03
-        EndPoint 19.463 9.239 -46.309
-       }
-       Cable "{6AA476C31E41DD5A}" {
-        StartPoint -1.199 9.175 -0.351
-        EndPoint 18.175 9.279 -46.855
-       }
-      }
-     }
-     {
-      coords 252.95 -7.78 -1086.155
-      Material "{AFC481E5CDFB2DF2}Assets/Structures/Infrastructure/Power/Powerlines/data/HV_01_powerline_wire.emat"
-      Cables {
-       Cable "{6AA476C31E41DA49}" {
-        StartPoint 1.608 9.103 0.427
-        EndPoint 21.362 9.024 -45.544
-       }
-       Cable "{6AA476C31E41DAF9}" {
-        StartPoint 0.319 9.144 -0.119
-        EndPoint 20.1 9.048 -46.149
-       }
-       Cable "{6AA476C31E41DAB6}" {
-        StartPoint -0.969 9.185 -0.665
-        EndPoint 18.838 9.073 -46.754
-       }
-      }
-     }
-     {
-      coords 272.777 -7.875 -1132.056
-      Material "{AFC481E5CDFB2DF2}Assets/Structures/Infrastructure/Power/Powerlines/data/HV_01_powerline_wire.emat"
-      Cables {
-       Cable "{6AA476C31E41DB91}" {
-        StartPoint 1.536 9.118 0.357
-        EndPoint 24.621 9.162 -44.068
-       }
-       Cable "{6AA476C31E41D84D}" {
-        StartPoint 0.274 9.143 -0.248
-        EndPoint 23.288 9.146 -44.496
-       }
-       Cable "{6AA476C31E41D8FB}" {
-        StartPoint -0.989 9.167 -0.853
-        EndPoint 21.955 9.13 -44.924
-       }
-      }
-     }
-     {
-      coords 296.108 -7.875 -1176.278
-      Material "{AFC481E5CDFB2DF2}Assets/Structures/Infrastructure/Power/Powerlines/data/HV_01_powerline_wire.emat"
-      Cables {
-       Cable "{6AA476C31E41D9F4}" {
-        StartPoint 1.289 9.162 0.154
-        EndPoint 8.036 9.169 -49.72
-       }
-       Cable "{6AA476C31E41D9A2}" {
-        StartPoint -0.043 9.146 -0.274
-        EndPoint 6.64 9.144 -49.825
-       }
-       Cable "{6AA476C31E41C65D}" {
-        StartPoint -1.376 9.13 -0.702
-        EndPoint 5.245 9.12 -49.93
-       }
-      }
-     }
-     {
-      coords 302.909 -7.875 -1225.814
-      Material "{AFC481E5CDFB2DF2}Assets/Structures/Infrastructure/Power/Powerlines/data/HV_01_powerline_wire.emat"
-      Cables {
-       Cable "{6AA476C31E41C73D}" {
-        StartPoint 1.236 9.169 -0.185
-        EndPoint 1.85 9.184 -49.87
-       }
-       Cable "{6AA476C31E41C7EA}" {
-        StartPoint -0.16 9.144 -0.29
-        EndPoint 0.451 9.145 -49.864
-       }
-       Cable "{6AA476C31E41C7A4}" {
-        StartPoint -1.556 9.12 -0.395
-        EndPoint -0.948 9.107 -49.858
-       }
-      }
-     }
-     {
-      coords 303.631 -7.875 -1275.809
-      Material "{AFC481E5CDFB2DF2}Assets/Structures/Infrastructure/Power/Powerlines/data/HV_01_powerline_wire.emat"
-      Cables {
-       Cable "{6AA476C31E41C495}" {
-        StartPoint 1.128 9.184 0.125
-        EndPoint 0.3 9.156 -50.451
-       }
-       Cable "{6AA476C31E41C54E}" {
-        StartPoint -0.271 9.145 0.131
-        EndPoint -1.094 9.182 -50.317
-       }
-       Cable "{6AA476C31E41C506}" {
-        StartPoint -1.67 9.107 0.137
-        EndPoint -2.487 9.208 -50.183
-       }
-      }
-     }
-     {
-      coords 302.417 -7.836 -1325.794
-      Material "{AFC481E5CDFB2DF2}Assets/Structures/Infrastructure/Power/Powerlines/data/HV_01_powerline_wire.emat"
-      Cables {
-       Cable "{6AA476C31E41C2F4}" {
-        StartPoint 1.513 9.117 -0.466
-        EndPoint -6.787 9.068 -49.67
-       }
-       Cable "{6AA476C31E41C2A0}" {
-        StartPoint 0.12 9.144 -0.332
-        EndPoint -8.181 9.106 -49.552
-       }
-       Cable "{6AA476C31E41C350}" {
-        StartPoint -1.274 9.17 -0.198
-        EndPoint -9.576 9.143 -49.434
-       }
-      }
-     }
-     {
-      coords 294.03 -7.875 -1375.085
-      Material "{AFC481E5CDFB2DF2}Assets/Structures/Infrastructure/Power/Powerlines/data/HV_01_powerline_wire.emat"
-      Cables {
-       Cable "{6AA476C31E41C036}" {
-        StartPoint 1.601 9.106 -0.379
-        EndPoint 1.291 9.158 -2.141
-       }
-       Cable "{6AA476C31E41C0EC}" {
-        StartPoint 0.206 9.144 -0.261
-        EndPoint -0.104 9.145 -2.139
-       }
-       Cable "{6AA476C31E41C09D}" {
-        StartPoint -1.188 9.182 -0.143
-        EndPoint -1.503 9.133 -2.137
-       }
-      }
-     }
-    }
-    $grp SCR_PowerPole : "{6F629670CF928923}PrefabLibrary/DefaultLibrary/Infrastructure/Powerline/PowerLine_HV_01_pole.et" {
-     {
-      coords -26.647 -0.688 -42.308
-      angles 0.284 189.647 -0.145
-     }
-     {
-      coords -15.478 -0.688 -91.044
-      angles -0.372 186.176 -1.11
-     }
-     {
-      coords -36.83 1.635 -136.255
-      angles 0.481 193.181 -0.024
-     }
-     {
-      coords -37.786 1.656 -186.246
-      angles 0.743 160.7 1.265
-     }
-     {
-      coords -5.851 2.059 -224.719
-      angles 1.74 115.869 -0.59
-     }
-     {
-      coords 44.134 2.05 -225.97
-      angles -1.271 99.76 0.708
-     }
-     {
-      coords 91.663 2.057 -241.493
-      angles -0.572 135.146 -1.362
-     }
-     {
-      coords 106.944 2.258 -289.101
-      angles -0.877 159.965 -0.089
-     }
-     {
-      coords 125.9 5.619 -335.368
-      angles -0.698 170.658 0.154
-     }
-     {
-      coords 122.787 6.833 -385.271
-      angles -0.078 188.935 0.706
-     }
-     {
-      coords 110.434 8.814 -433.721
-      angles -0.342 193.938 -0.574
-     }
-     {
-      coords 98.701 10.131 -482.325
-      angles -0.121 193.259 0.595
-     }
-     {
-      coords 87.5 11.798 -531.054
-      angles 0.439 194.437 0.039
-     }
-     {
-      coords 73.779 11.933 -579.134
-      angles 0.777 190.136 0.389
-     }
-     {
-      coords 70.017 6.812 -628.993
-      angles 0.001 168.935 -0.693
-     }
-     {
-      coords 92.281 1.772 -673.762
-      angles 0.262 148.069 1.624
-     }
-     {
-      coords 122.65 -0.539 -713.483
-      angles 1.55 142.961 0.914
-     }
-     {
-      coords 152.515 -4.663 -753.583
-      angles 1.622 146.808 -1.318
-     }
-     {
-      coords 177.298 -7.137 -797.009
-      angles 0.472 155.01 0.868
-     }
-     {
-      coords 194.623 -6.756 -843.912
-      angles -1.407 163.257 0.286
-     }
-     {
-      coords 206.052 -6.204 -892.588
-      angles -0.972 167.954 -0.166
-     }
-     {
-      coords 215.489 -5.656 -941.689
-      angles 0.084 168.553 1.289
-     }
-     {
-      coords 225.897 -6.693 -990.594
-      angles -1.319 169.442 -1.392
-     }
-     {
-      coords 233.806 -7.875 -1039.965
-      angles 0.397 164.192 -1.066
-     }
-     {
-      coords 252.95 -7.78 -1086.155
-      angles -0.997 157.063 -1.675
-     }
-     {
-      coords 272.777 -7.875 -1132.056
-      angles -1.673 154.411 -1
-     }
-     {
-      coords 296.108 -7.875 -1176.278
-      angles -1.078 162.183 0.658
-     }
-     {
-      coords 302.909 -7.875 -1225.814
-      angles -1.263 175.678 1.011
-     }
-     {
-      coords 303.631 -7.875 -1275.809
-      angles 1.282 180.282 1.576
-     }
-     {
-      coords 302.417 -7.836 -1325.794
-      angles -1.53 185.524 -1.07
-     }
-     {
-      coords 294.03 -7.875 -1375.085
-      angles -1.049 184.869 -1.55
+     SCR_DestructibleEntity : "{B8AE0A0E4A79C2B2}Prefabs/Structures/Walls/Metal/TinWall_01_rusty/TinWall_01_6m_Pole_rusty.et" {
+      coords 0.347 -0 0.018
+      angles 0 -182.946 0
+     }
+     SCR_DestructibleEntity : "{D34F3DD5D61E2F71}Prefabs/Structures/Walls/Metal/TinWall_01_rusty/TinWall_01_3m_rusty.et" {
+      coords 18.364 -0 3.964
+      angles 0 -267.279 0
      }
     }
    }
@@ -1604,6 +614,32 @@ SCR_DestructibleBuildingEntity : "{0F5AC772A49226AD}Prefabs/Houses/churchs/churc
  coords 4058.465 32.861 3961.314
  angles 3.278 0 0
 }
+SCR_DestructibleBuildingEntity : "{10A5F1314C15F527}Prefabs/Structures/Commerical/Rural Store.et" {
+ coords 3028.139 0 4331.758
+ angles 0 89.307 0
+ {
+  GenericEntity {
+   ID "62053EFFC67663AA"
+   {
+    GenericEntity AspirinBottle_6AA476C91208E4F4 {
+     ID "629839D3AEBD748C"
+    }
+    GenericEntity AspirinBottle_6AA476C91208E5D0 {
+     ID "629839D3B0326906"
+    }
+    GenericEntity AspirinBottle_6AA476C91208E5AD {
+     ID "629839D3B032697E"
+    }
+    GenericEntity MRE_6AA476C91208E27C {
+     ID "629839D3B0326956"
+    }
+    GenericEntity MRE_6AA476C91208E24B {
+     ID "629839D3B0326960"
+    }
+   }
+  }
+ }
+}
 $grp SCR_DestructibleBuildingEntity : "{11298B17EF8881E1}Prefabs/Structures/Houses/Village/Sheds/ShedGarage.et" {
  {
   Flags 0 0x80000
@@ -1630,6 +666,23 @@ $grp SCR_DestructibleBuildingEntity : "{125BE4F6E5E2A8F5}Prefabs/Structures/Apar
   coords 3136.093 38.741 3963.601
   angles 0 90 0
   scale 1.017
+ }
+}
+$grp Tree : "{159BD386C0F6F3AD}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_pinus_sylvestris_3w.et" {
+ {
+  coords 3041.903 -0 4342.198
+  angles 1.511 -164.767 0.214
+  scale 0.906
+ }
+ {
+  coords 3052.508 -0 4338.62
+  angles 1.511 -164.767 0.214
+  scale 0.906
+ }
+ {
+  coords 3063.467 -0 4330.007
+  angles 1.511 -164.767 0.214
+  scale 0.906
  }
 }
 SCR_DestructibleBuildingEntity : "{184042D4EAE59FF5}Prefabs/Structures/Houses/Village/House_Village_E_1I02/Dst/House_Village_E_1I02_ruined.et" {
@@ -1791,6 +844,42 @@ $grp SCR_DestructibleBuildingEntity : "{1C87C72319097FC1}Prefabs/Structures/Wall
   coords 2963.094 27.05 4328.331
   angles 0 90.231 0
  }
+ {
+  coords 2917.013 25.889 4302.413
+  angles 0 90.231 0
+ }
+ {
+  coords 2916.989 25.895 4299.094
+  angles 0 90.231 0
+ }
+ {
+  coords 2916.946 25.939 4292.187
+  angles 0 90.231 0
+ }
+ {
+  coords 2916.97 25.933 4295.505
+  angles 0 90.231 0
+ }
+ {
+  coords 2916.892 25.974 4285.116
+  angles 0 90.231 0
+ }
+ {
+  coords 2916.916 25.968 4288.435
+  angles 0 90.231 0
+ }
+ {
+  coords 2914.14 25.945 4283.886
+  angles 0 -0.971 0
+ }
+ {
+  coords 2917.002 25.88 4306.394
+  angles 0 90.231 0
+ }
+ {
+  coords 2917.026 25.874 4309.713
+  angles 0 90.231 0
+ }
 }
 $grp GenericEntity : "{1D2BBC06E656974F}Prefabs/Structures/BuildingParts/Misc/TvAntenna_01.et" {
  {
@@ -1820,6 +909,37 @@ $grp StaticModelEntity : "{1E0BC50E7000DEFD}Prefabs/Structures/Debris/Debris_Hou
   scale 2.165
  }
 }
+SCR_DestructibleBuildingEntity : "{1EB7F56F2D294872}Prefabs/Structures/Infrastructure/Naval/Sheds/BoatShed_01/BoatShed_01_weathered.et" {
+ coords 2913.684 1.733 4289.714
+ angles 0 -89.224 0
+}
+$grp Tree : "{1FCF4B90FC74DE73}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_3f.et" {
+ {
+  coords 3035.926 0 4326.215
+  angles -2.621 101.429 -0.894
+  scale 0.997
+ }
+ {
+  coords 3031.812 -0 4326.489
+  angles -2.621 101.429 -0.894
+  scale 0.997
+ }
+ {
+  coords 2965.284 0 4311.728
+  angles -2.621 101.429 -0.894
+  scale 0.997
+ }
+ {
+  coords 2965.136 0 4329.006
+  angles -2.621 101.429 -0.894
+  scale 0.997
+ }
+ {
+  coords 2991.178 -0 4311.333
+  angles -2.621 101.429 -0.894
+  scale 0.997
+ }
+}
 $grp SCR_DestructibleBuildingEntity : "{20694A5F42D8E9B3}Prefabs/Houses/villages/village_stone_house_base_1.et" {
  {
   coords 4075.809 30.614 3785.559
@@ -1840,6 +960,81 @@ $grp Tree : "{20C4A23B039DFCF3}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_p
   angles 0.972 -1.209 0.793
   scale 0.768
  }
+ {
+  coords 2968.718 0 4113.478
+  angles 0.972 -1.209 0.793
+  scale 0.768
+ }
+ {
+  coords 2960.87 -0 4109.05
+  angles 0.972 -1.209 0.793
+  scale 0.768
+ }
+ {
+  coords 2977.27 -0 4118.561
+  angles 0.972 -1.209 0.793
+  scale 0.768
+ }
+ {
+  coords 2924.864 0 4212.504
+  angles 1.729 118.986 -0.668
+  scale 0.873
+ }
+ {
+  coords 2941.487 0 4213.635
+  angles 1.729 118.986 -0.668
+  scale 0.873
+ }
+ {
+  coords 2936.658 -0 4208.93
+  angles 1.729 118.986 -0.668
+  scale 0.873
+ }
+ {
+  coords 2929.236 -0 4209.427
+  angles 1.729 118.986 -0.668
+  scale 0.873
+ }
+ {
+  coords 2934.506 0 4218.376
+  angles 1.729 118.986 -0.668
+  scale 0.873
+ }
+ {
+  coords 2993.791 0 4339.21
+  angles -1.969 68.282 -1.352
+  scale 0.786
+ }
+ {
+  coords 2994.721 -0 4353.994
+  angles -1.969 68.282 -1.352
+  scale 0.786
+ }
+ {
+  coords 2934.369 0 4330.246
+  angles -1.969 68.282 -1.352
+  scale 0.786
+ }
+ {
+  coords 2934.648 0 4355.863
+  angles -1.969 68.282 -1.352
+  scale 0.786
+ }
+ {
+  coords 2897.011 0 4322.404
+  angles -1.969 68.282 -1.352
+  scale 0.786
+ }
+ {
+  coords 2895.669 0 4332.114
+  angles -1.969 68.282 -1.352
+  scale 0.786
+ }
+ {
+  coords 2905.757 -0 4322.528
+  angles -1.969 68.282 -1.352
+  scale 0.786
+ }
 }
 SCR_DestructibleBuildingEntity : "{24D17D223B42F404}Prefabs/Houses/villages/village_big_house_base_1.et" {
  coords 3657.641 38 3694.51
@@ -1848,6 +1043,10 @@ SCR_DestructibleBuildingEntity : "{24D17D223B42F404}Prefabs/Houses/villages/vill
 SCR_DestructibleBuildingEntity : "{25C8430C9EFB0CA9}Prefabs/Structures/Infrastructure/Rail/Other/RailwayTunnelPortal/RailwayTunnelPortal.et" {
  coords 3076.223 -0.863 4044.027
  angles 0 88.085 0
+}
+GenericEntity : "{262222CE328B0DAD}Prefabs/Vehicles/liaz2/base/BASE_liaz677_wreck.et" {
+ coords 3063.608 29.531 4323.944
+ angles 0 90.252 0
 }
 SCR_PowerPole : "{289C67C94BFF0359}Prefabs/Structures/Military/Antennas/Antenna_Array_01/Antenna_Array_01_end_v1.et" {
  coords 2954.493 0 4066.2
@@ -1883,6 +1082,10 @@ $grp SCR_DestructibleBuildingEntity : "{3140009AA235E892}Prefabs/Industrial/cran
   angles 0 -46.147 -90.134
  }
 }
+GenericEntity : "{314EF5F8BF036549}Prefabs/Vehicles/vaz2109/armst_vaz2109_red.et" {
+ coords 3012.336 29.531 4355.478
+ angles 0 -36.864 0
+}
 SCR_DestructibleBuildingEntity : "{3177788C81331648}Prefabs/Industrial/builds/bitovka_wheels2.et" {
  coords 2947.013 27.187 4077.189
  angles 0 17.512 0
@@ -1892,9 +1095,15 @@ SCR_DestructibleBuildingEntity : "{389D6DF9941FF22D}Prefabs/Structures/Industria
  coords 3195.752 37.962 4012.189
  scale 0.9
 }
-GenericEntity : "{399875DC824B6478}Prefabs/Vehicles/gaz24/armst_gaz24_2_wreck.et" {
- coords 2959.163 29.531 4325.353
- angles 0 93.904 0
+$grp GenericEntity : "{399875DC824B6478}Prefabs/Vehicles/gaz24/armst_gaz24_2_wreck.et" {
+ {
+  coords 2959.163 29.531 4325.353
+  angles 0 93.904 0
+ }
+ {
+  coords 3047.022 29.531 4328.854
+  angles 0 88.118 0
+ }
 }
 GenericEntity : "{3AB3A4D05173D31A}Prefabs/Structures/Scientists/Bunker_Modul/Bunk_Small_base.et" {
  coords 2985.709 27.581 4083.144
@@ -1916,6 +1125,14 @@ GenericEntity : "{40FBD8EA6551D8A9}PrefabLibrary/DefaultLibrary/Props/Constructi
  coords 3138.813 38.663 3979.033
  angles -84.941 -126.22 -90
  scale 1.59
+}
+GenericEntity : "{4205483AA759382B}Prefabs/Vehicles/zaz968/armst_zaz968_2_wreck.et" {
+ coords 2999.226 29.531 4298.085
+ angles 0 -95.638 0
+}
+GenericEntity : "{44466D95C072C404}Prefabs/Vehicles/azlk412/base/BASE_azlk412_wreck.et" {
+ coords 2994.738 29.531 4305.352
+ angles 0 93.937 0
 }
 SCR_DestructibleBuildingEntity : "{46DD0AFACF61C6EF}Prefabs/Structures/Industrial/Houses/BoilerHouse_E_02/BoilerHouse_E_02_smokestack_smoking.et" {
  Flags 0 0x80000
@@ -1985,6 +1202,33 @@ $grp SCR_DestructibleBuildingEntity : "{572A0A3CCDD2BA32}Prefabs/Industrial/buil
   angles 0 1.191 0
  }
 }
+$grp Tree : "{59EDDDB5D3B5241F}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_piceaabies_3f.et" {
+ {
+  coords 2974.904 -0 4111.475
+  angles -1.658 112.372 -1.996
+  scale 1.138
+ }
+ {
+  coords 2989.186 0 4111.854
+  angles -1.658 112.372 -1.996
+  scale 1.138
+ }
+ {
+  coords 2929.194 0 4215.061
+  angles -0.107 -64.316 1.256
+  scale 1.158
+ }
+ {
+  coords 2933.815 -0 4213.257
+  angles -0.107 -64.316 1.256
+  scale 1.158
+ }
+ {
+  coords 2938.218 -0 4214.232
+  angles -0.107 -64.316 1.256
+  scale 1.158
+ }
+}
 SCR_DestructibleBuildingEntity : "{5AEC1BD649CA4525}Prefabs/Houses/villages/village_wooden_house_base_9_shmot.et" {
  coords 4036.601 30.652 3733.121
  angles 0 -91.552 0
@@ -1998,9 +1242,17 @@ SCR_DestructibleBuildingEntity : "{5E56D1602958C610}Prefabs/Industrial/builds/sa
  coords 3454.581 38 3763.331
  angles 0 2.865 0
 }
+SCR_DestructibleBuildingEntity : "{5E6A5E98D7A6CB37}Prefabs/Structures/Infrastructure/Naval/Sheds/FishermanShed_03/BuildingAddons/FishermanShed_E_03_Addon_weathered.et" {
+ coords 2892.197 29.604 4282.678
+ angles 0 -45.13 0
+}
 GenericEntity : "{62607490B29EF963}Prefabs/Scientists/Bunker_Modul_Small/Birdhouse_01_abadoned.et" {
  coords 2985.446 27.519 4074.833
  angles 0 92.821 0
+}
+SCR_DestructibleBuildingEntity : "{66135282F7D9B491}Prefabs/Vehicles/azlk412/armst_azlk412_wreck3.et" {
+ coords 3047.265 29.531 4331.998
+ angles 0 -91.179 0
 }
 SCR_DestructibleBuildingEntity : "{66178E314C6F98D4}Prefabs/Structures/Ruins/House_Ruin_1I01/House_Ruin_1I01_V3_Brick.et" {
  Flags 0 0x80000
@@ -2164,9 +1416,15 @@ $grp SCR_DestructibleBuildingEntity : "{71095B878B70EFAA}Prefabs/Houses/villages
   angles -2.628 -0.179 3.903
  }
 }
-SCR_DestructibleBuildingEntity : "{71F7974F325DE404}Prefabs/Vehicles/vaz2105/armst_vaz2105_1.et" {
- coords 2966.354 29.531 4307.396
- angles 0 89.069 0
+$grp SCR_DestructibleBuildingEntity : "{71F7974F325DE404}Prefabs/Vehicles/vaz2105/armst_vaz2105_1.et" {
+ {
+  coords 2966.354 29.531 4307.396
+  angles 0 89.069 0
+ }
+ {
+  coords 3046.75 29.531 4337.132
+  angles 0 86.876 0
+ }
 }
 StaticModelEntity : "{72CA69A5735FF68B}Prefabs/Props/Military/Covers/DirtCoverwithwoodenwall.et" {
  Flags 0 0x80000
@@ -2201,6 +1459,10 @@ $grp StaticModelEntity : "{7CC7516C8AB0B08F}Prefabs/Structures/Military/Antennas
   coords 2990.571 27.187 4023.344
  }
 }
+GenericEntity : "{7EED03B85C4DFD76}Prefabs/Vehicles/MZT_80/armst_veh_MZT80_3.et" {
+ coords 2982.107 29.531 4280.857
+ angles 0 179.717 0
+}
 GenericEntity : "{81AA8743455F68A5}Prefabs/Vehicles/uaz452/armst_uaz452_open_wheels.et" {
  coords 2959.29 29.531 4321.847
  angles 0 115.61 0
@@ -2217,6 +1479,27 @@ SCR_DestructibleEntity : "{879865F07EA907B0}Prefabs/Structures/Walls/Concrete/Co
  Flags 0 0x80000
  coords 3134.604 37.33 3970.513
  angles 0 -90 0
+}
+GenericEntity : "{88C49C75C82E77AF}Prefabs/Vehicles/zil131/armst_zil131_bigbox_gray.et" {
+ coords 3007.909 29.934 4359.366
+ angles 0 -88.953 0
+}
+$grp GenericEntity : "{8C30960EF8E50389}Prefabs/Vehicles/ural/armst_ural_wheels_tents.et" {
+ {
+  coords 2946.264 29.46 4300.966
+  angles 0 77.445 0
+ }
+ {
+  coords 2936.884 29.531 4300.181
+  angles 0 97.424 0
+ }
+ {
+  coords 2958.766 29.531 4296.009
+  angles 0 90.496 0
+ }
+}
+GenericEntity : "{8C5A67BFC55291BC}Prefabs/Vehicles/uaz452/base/BASE_uaz452_open_wreck.et" {
+ coords 3023.668 29.531 4347.307
 }
 $grp SCR_DestructibleBuildingEntity : "{8ED47AC94995D71A}Prefabs/Structures/Agriculture/CowShed/CowShed_E_01/CowShed_E_01_long.et" {
  {
@@ -3161,6 +2444,33 @@ $grp SCR_DestructibleBuildingEntity : "{9495177E879578C1}Prefabs/Houses/villages
  }
  {
   coords 4009.562 30.993 3813.846
+ }
+}
+$grp Tree : "{960EA50FD57CD7D5}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_1sw.et" {
+ {
+  coords 2925.544 0 4218.611
+  angles 1.289 97.54 0.794
+  scale 1.155
+ }
+ {
+  coords 2940.94 -0 4218.091
+  angles 1.289 97.54 0.794
+  scale 1.155
+ }
+ {
+  coords 2944.88 0 4213.209
+  angles 1.289 97.54 0.794
+  scale 1.155
+ }
+ {
+  coords 2943.163 -0 4208.222
+  angles 1.289 97.54 0.794
+  scale 1.155
+ }
+ {
+  coords 2927.589 0 4206.452
+  angles 1.289 97.54 0.794
+  scale 1.155
  }
 }
 StaticModelEntity : "{98AF8550D18D2507}Prefabs/Structures/Military/Antennas/Antenna_BARS_01/Antenna_BARS_01_base.et" {
@@ -6394,11 +5704,17 @@ SCR_DestructibleBuildingEntity : "{98E878BFD0072149}Prefabs/Buildings/Fire Stati
   }
  }
 }
+GenericEntity : "{9B714F4150A86A1D}Prefabs/Vehicles/MZT_80/armst_veh_MZT80_2.et" {
+ coords 2975.825 29.531 4281.384
+}
 GenericEntity : "{9BDB4FCE246DD60C}Prefabs/Structures/Debris/ConcreteDebris_01/ConcreteDebris_01_V2.et" {
  Flags 0 0x80000
  coords 3136.855 37.693 3968.304
  angles 0 179.663 0
  scale 0.68
+}
+GenericEntity : "{9C3194D015F3ED74}Prefabs/Vehicles/kamaz/base/BASE_kamaz_wreck.et" {
+ coords 3023.69 29.531 4331.097
 }
 GenericEntity : "{9C3486C0D8969D0A}PrefabLibrary/DefaultLibrary/Props/Industrial/ConcretePanel_01_A.et" {
  Flags 0 0x80000
@@ -6439,6 +5755,96 @@ $grp Tree : "{A35E15EBC6033C07}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_
   coords 2948.785 0 4069.105
   angles 0.853 83.4 -1.097
   scale 1.074
+ }
+ {
+  coords 3051.836 0 4326.275
+  angles 0.327 -135.674 -1.907
+  scale 1.09
+ }
+ {
+  coords 3034.13 0 4326.223
+  angles 0.327 -135.674 -1.907
+  scale 1.09
+ }
+ {
+  coords 2976.79 0 4310.87
+  angles 0.327 -135.674 -1.907
+  scale 1.09
+ }
+ {
+  coords 2979.738 0 4310.952
+  angles 0.327 -135.674 -1.907
+  scale 1.09
+ }
+ {
+  coords 2982.898 0 4311.207
+  angles 0.327 -135.674 -1.907
+  scale 1.09
+ }
+ {
+  coords 2985.998 -0 4310.872
+  angles 0.327 -135.674 -1.907
+  scale 1.09
+ }
+ {
+  coords 2990.137 0 4310.682
+  angles 0.327 -135.674 -1.907
+  scale 1.09
+ }
+ {
+  coords 2988.049 0 4311.341
+  angles 0.327 -135.674 -1.907
+  scale 1.09
+ }
+ {
+  coords 2974.771 0 4310.846
+  angles 0.327 -135.674 -1.907
+  scale 1.09
+ }
+ {
+  coords 2971.999 0 4310.923
+  angles 0.327 -135.674 -1.907
+  scale 1.09
+ }
+ {
+  coords 2969.442 -0 4311.161
+  angles 0.327 -135.674 -1.907
+  scale 1.09
+ }
+ {
+  coords 2966.596 -0 4311.143
+  angles 0.327 -135.674 -1.907
+  scale 1.09
+ }
+ {
+  coords 2964.918 0 4312.508
+  angles 0.327 -135.674 -1.907
+  scale 1.09
+ }
+ {
+  coords 2964.968 0 4314.624
+  angles 0.327 -135.674 -1.907
+  scale 1.09
+ }
+ {
+  coords 2965.105 0 4320.199
+  angles 0.327 -135.674 -1.907
+  scale 1.09
+ }
+ {
+  coords 2965.258 -0 4323.574
+  angles 0.327 -135.674 -1.907
+  scale 1.09
+ }
+ {
+  coords 2964.977 -0 4326.969
+  angles 0.327 -135.674 -1.907
+  scale 1.09
+ }
+ {
+  coords 2964.462 -0 4322.399
+  angles 0.327 -135.674 -1.907
+  scale 1.09
  }
 }
 SCR_DestructibleBuildingEntity : "{A54F6416C3A6A4D7}Prefabs/Structures/Infrastructure/Power/TransformerSubstation_01/TransformerSubstation_01.et" {
@@ -8280,6 +7686,10 @@ SCR_DestructibleBuildingEntity : "{BEF19A419D38409D}Prefabs/Houses/villages/vill
   }
  }
 }
+GenericEntity : "{C69E1B9B00A341B1}Prefabs/Vehicles/gaz24/armst_gaz24_2.et" {
+ coords 3046.855 29.531 4334.498
+ angles 0 87.641 0
+}
 $grp GenericEntity : "{C93D17434595397D}Prefabs/ZBK/Props/Pipe/Pipe8m_Bridge.et" {
  {
   Flags 0 0x80000
@@ -8301,13 +7711,108 @@ StaticModelEntity : "{CAF8666F26CEB7AD}Prefabs/Structures/BuildingParts/Entry/Co
  coords 2962.532 31.012 4317.479
  angles 0 -91.337 0
 }
+$grp Tree : "{CF0A210B7AC7B329}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_2.et" {
+ {
+  coords 3045.612 0 4341.688
+  angles -0.368 43.771 1.708
+  scale 1.13
+ }
+ {
+  coords 3052.976 0 4335.222
+  angles -0.368 43.771 1.708
+  scale 1.13
+ }
+ {
+  coords 3037.177 -0 4342.152
+  angles -0.368 43.771 1.708
+  scale 1.13
+ }
+ {
+  coords 3030.997 0 4339.106
+  angles -0.368 43.771 1.708
+  scale 1.13
+ }
+}
 SCR_DestructibleBuildingEntity : "{CF6F56A0D54DCC63}Prefabs/agroprom/oranjereya.et" {
  coords 3331.552 38.007 3728
  angles 0 -178.634 0
 }
+$grp SCR_DestructibleBuildingEntity : "{D1C13682E4590A12}Prefabs/Structures/Cultural/Cemeteries/Graves/Grave_E_01_Covered_V1.et" {
+ {
+  coords 2978.599 0 4316.172
+  angles 0 87.762 0
+ }
+ {
+  coords 2978.729 0 4314.423
+  angles 0 87.762 0
+ }
+ {
+  coords 2978.861 0 4312.513
+  angles 0 87.762 0
+ }
+ {
+  coords 2975.335 0 4316.081
+  angles 0 87.762 0
+ }
+ {
+  coords 2975.401 0 4314.249
+  angles 0 87.762 0
+ }
+ {
+  coords 2975.49 0 4312.423
+  angles 0 87.762 0
+ }
+}
 SCR_DestructibleBuildingEntity : "{D5DA5F5045444C64}Prefabs/Industrial/builds/house_36.et" {
  coords 3444.431 38 3775.61
  angles 0 92.422 0
+}
+$grp Tree : "{DA7492F3E6B63251}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et" {
+ {
+  coords 3047.145 0 4326.446
+  angles -2.31 72.459 1.281
+  scale 1.017
+ }
+ {
+  coords 3051.556 0.015 4330.751
+  angles -0.761 174.737 -2.529
+  scale 1.017
+ }
+ {
+  coords 3049.994 -0 4341.612
+  angles -2.627 107.329 -0.269
+  scale 1.017
+ }
+ {
+  coords 2921.883 -0 4216.664
+  angles -0.039 127.039 1.497
+  scale 0.889
+ }
+ {
+  coords 2923.373 0 4209.984
+  angles -0.039 127.039 1.497
+  scale 0.889
+ }
+ {
+  coords 2933.172 0 4208.503
+  angles 1.05 81.026 1.068
+  scale 0.889
+ }
+ {
+  coords 2941.171 -0 4211.627
+  angles -0.039 127.039 1.497
+  scale 0.889
+ }
+ {
+  coords 2938.095 0 4217.388
+  angles -1.129 -103.395 -0.984
+  scale 0.889
+ }
+ {
+  coords 2930.168 0 4218.346
+  angles -1.138 -103.933 -0.973
+  scale 0.889
+ }
 }
 $grp SCR_DestructibleBuildingEntity : "{DAC148D18C3835B9}Prefabs/Structures/Military/Bunkers/ShelterMilitary_E_01/ShelterMilitary_E_01_long.et" {
  {
@@ -8319,10 +7824,62 @@ $grp SCR_DestructibleBuildingEntity : "{DAC148D18C3835B9}Prefabs/Structures/Mili
   angles 0 -168.069 0
  }
 }
-Tree : "{DB49D8B142D18E86}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_2s.et" {
- coords 2983.534 -0 4104.081
- angles -0.789 -153.67 0.421
- scale 0.902
+$grp Tree : "{DB49D8B142D18E86}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_2s.et" {
+ {
+  coords 2983.534 -0 4104.081
+  angles -0.789 -153.67 0.421
+  scale 0.902
+ }
+ {
+  coords 3028.49 0 4338.665
+  angles 1.004 -114.085 1.735
+  scale 1.26
+ }
+ {
+  coords 3031.282 -0 4343.992
+  angles 1.004 -114.085 1.735
+  scale 1.26
+ }
+ {
+  coords 3035.74 0 4339.888
+  angles 1.004 -114.085 1.735
+  scale 1.26
+ }
+ {
+  coords 3052.183 -0 4329.169
+  angles 1.004 -114.085 1.735
+  scale 1.26
+ }
+ {
+  coords 3056.314 0 4342.634
+  angles 1.004 -114.085 1.735
+  scale 1.26
+ }
+ {
+  coords 2985.576 -0 4328.996
+  angles 1.004 -114.085 1.735
+  scale 1.26
+ }
+ {
+  coords 2976.992 0 4327.471
+  angles 1.004 -114.085 1.735
+  scale 1.26
+ }
+ {
+  coords 2949.409 -0 4071.278
+  angles -0.789 -153.67 0.421
+  scale 0.902
+ }
+ {
+  coords 2950.538 0.004 4088.927
+  angles -0.789 -153.67 0.421
+  scale 0.902
+ }
+ {
+  coords 2965.66 0 4103.076
+  angles -0.789 -153.67 0.421
+  scale 0.902
+ }
 }
 SCR_DestructibleBuildingEntity : "{DC1E102B809EB8C1}Prefabs/Houses/villages/village_stone_house_base_6_filled.et" {
  coords 3680.274 38 3738.249
@@ -8817,6 +8374,16 @@ StaticModelEntity : "{E3B49DDDF332366B}Prefabs/Structures/Industrial/Cranes/Gant
  angles 0 -84.851 0
  scale 0.35
 }
+$grp GenericEntity : "{E4A22C9C10769063}Prefabs/Vehicles/gaz71/BASE_gaz71.et" {
+ {
+  coords 2972.881 27.875 4070.071
+  angles 0 44.403 0
+ }
+ {
+  coords 2978.339 26.094 4047.934
+  angles 18.866 -52.757 0
+ }
+}
 $grp SCR_DestructibleBuildingEntity : "{EAFE301B4E854AF8}PrefabLibrary/CainLibrary/Structures/Industrial/GantryCrane_E_01.et" {
  {
   Flags 0 0x80000
@@ -8896,6 +8463,33 @@ SCR_DestructibleBuildingEntity : "{F1049D978C35081C}Prefabs/Structures/Industria
  coords 3215.388 37.538 3980.145
  angles 0 -90 0
 }
+$grp Tree : "{F1DB9A8115310093}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_1f.et" {
+ {
+  coords 2982.007 0 4312.22
+  angles 1.789 -14.634 2.919
+  scale 1.191
+ }
+ {
+  coords 2986.13 -0 4317.152
+  angles 1.789 -14.634 2.919
+  scale 1.191
+ }
+ {
+  coords 2972.473 0 4315.928
+  angles 1.789 -14.634 2.919
+  scale 1.191
+ }
+ {
+  coords 2972.654 0 4310.849
+  angles 1.789 -14.634 2.919
+  scale 1.191
+ }
+ {
+  coords 2977.15 -0 4314.993
+  angles 1.789 -14.634 2.919
+  scale 1.191
+ }
+}
 SCR_DestructibleBuildingEntity : "{F63A37887670DEEE}Prefabs/Houses/villages/village_stone_house_base_5_filled.et" {
  Flags 0 0x80000
  coords 3005.814 29.726 4387.303
@@ -8937,6 +8531,10 @@ SCR_DestructibleBuildingEntity : "{F63A37887670DEEE}Prefabs/Houses/villages/vill
    Flags 0 0x80000
   }
  }
+}
+GenericEntity : "{F739B7EF1DAE4134}Prefabs/Vehicles/vaz2109/armst_vaz2109_green_wreck.et" {
+ coords 3012.173 29.531 4359.259
+ angles 0 141.458 0
 }
 $grp SCR_DestructibleEntity : "{F755F729EC8D5203}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_2m.et" {
  {
