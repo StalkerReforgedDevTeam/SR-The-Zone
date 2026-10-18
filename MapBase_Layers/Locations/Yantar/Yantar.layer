@@ -531,13 +531,13 @@ $grp PolylineShapeEntity {
   coords 3025.601 29.531 4296.134
   Points {
    ShapePoint "{6AA476CA8F227BE8}" {
-    Position 19.213 -0 21.844
+    Position 19.213 0 21.844
    }
    ShapePoint "{6AA476CA82A4BCE6}" {
-    Position 18.18 -0 0.108
+    Position 18.18 0 0.108
    }
    ShapePoint "{6AA476CA82A49673}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
   }
   LineColor 0 0 0 0
@@ -548,38 +548,38 @@ $grp PolylineShapeEntity {
     {
      $grp SCR_DestructibleEntity : "{0C1D044EBE92ADBF}Prefabs/Structures/Walls/Metal/TinWall_01_rusty/TinWall_01_6m_A_rusty.et" {
       {
-       coords 18.258 -0 0.94
+       coords 18.258 0 0.94
        angles 0 -182.946 0
       }
       {
-       coords 6.315 -0 0.325
+       coords 6.315 0 0.325
        angles 0 -182.946 0
       }
      }
      $grp SCR_DestructibleEntity : "{B2ED652EFDDC43B4}Prefabs/Structures/Walls/Metal/TinWall_01_rusty/TinWall_01_6m_C_rusty.et" {
       {
-       coords 19.215 -0 21.882
+       coords 19.215 0 21.882
        angles 0 -267.279 0
       }
       {
-       coords 18.931 -0 15.909
+       coords 18.931 0 15.909
        angles 0 -267.279 0
       }
       {
-       coords 18.648 -0 9.937
+       coords 18.648 0 9.937
        angles 0 -267.279 0
       }
       {
-       coords 12.287 -0 0.632
+       coords 12.287 0 0.632
        angles 0 -182.946 0
       }
      }
      SCR_DestructibleEntity : "{B8AE0A0E4A79C2B2}Prefabs/Structures/Walls/Metal/TinWall_01_rusty/TinWall_01_6m_Pole_rusty.et" {
-      coords 0.347 -0 0.018
+      coords 0.347 0 0.018
       angles 0 -182.946 0
      }
      SCR_DestructibleEntity : "{D34F3DD5D61E2F71}Prefabs/Structures/Walls/Metal/TinWall_01_rusty/TinWall_01_3m_rusty.et" {
-      coords 18.364 -0 3.964
+      coords 18.364 0 3.964
       angles 0 -267.279 0
      }
     }
@@ -670,17 +670,17 @@ $grp SCR_DestructibleBuildingEntity : "{125BE4F6E5E2A8F5}Prefabs/Structures/Apar
 }
 $grp Tree : "{159BD386C0F6F3AD}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_pinus_sylvestris_3w.et" {
  {
-  coords 3041.903 -0 4342.198
+  coords 3041.903 0 4342.198
   angles 1.511 -164.767 0.214
   scale 0.906
  }
  {
-  coords 3052.508 -0 4338.62
+  coords 3052.508 0 4338.62
   angles 1.511 -164.767 0.214
   scale 0.906
  }
  {
-  coords 3063.467 -0 4330.007
+  coords 3063.467 0 4330.007
   angles 1.511 -164.767 0.214
   scale 0.906
  }
@@ -920,7 +920,7 @@ $grp Tree : "{1FCF4B90FC74DE73}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_b
   scale 0.997
  }
  {
-  coords 3031.812 -0 4326.489
+  coords 3031.812 0 4326.489
   angles -2.621 101.429 -0.894
   scale 0.997
  }
@@ -935,7 +935,7 @@ $grp Tree : "{1FCF4B90FC74DE73}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_b
   scale 0.997
  }
  {
-  coords 2991.178 -0 4311.333
+  coords 2991.178 0 4311.333
   angles -2.621 101.429 -0.894
   scale 0.997
  }
@@ -966,12 +966,12 @@ $grp Tree : "{20C4A23B039DFCF3}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_p
   scale 0.768
  }
  {
-  coords 2960.87 -0 4109.05
+  coords 2960.87 0 4109.05
   angles 0.972 -1.209 0.793
   scale 0.768
  }
  {
-  coords 2977.27 -0 4118.561
+  coords 2977.27 0 4118.561
   angles 0.972 -1.209 0.793
   scale 0.768
  }
@@ -986,12 +986,12 @@ $grp Tree : "{20C4A23B039DFCF3}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_p
   scale 0.873
  }
  {
-  coords 2936.658 -0 4208.93
+  coords 2936.658 0 4208.93
   angles 1.729 118.986 -0.668
   scale 0.873
  }
  {
-  coords 2929.236 -0 4209.427
+  coords 2929.236 0 4209.427
   angles 1.729 118.986 -0.668
   scale 0.873
  }
@@ -1006,7 +1006,7 @@ $grp Tree : "{20C4A23B039DFCF3}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_p
   scale 0.786
  }
  {
-  coords 2994.721 -0 4353.994
+  coords 2994.721 0 4353.994
   angles -1.969 68.282 -1.352
   scale 0.786
  }
@@ -1031,9 +1031,19 @@ $grp Tree : "{20C4A23B039DFCF3}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_p
   scale 0.786
  }
  {
-  coords 2905.757 -0 4322.528
+  coords 2905.757 0 4322.528
   angles -1.969 68.282 -1.352
   scale 0.786
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{238D17E46511B19F}Prefabs/Structures/Houses/Shed/Shed_06/Shed_06_red.et" {
+ {
+  coords 3028.287 0 4394.44
+  angles 0 -179.437 0
+ }
+ {
+  coords 3041.07 0 4394.405
+  angles 0 -179.073 0
  }
 }
 SCR_DestructibleBuildingEntity : "{24D17D223B42F404}Prefabs/Houses/villages/village_big_house_base_1.et" {
@@ -1089,6 +1099,16 @@ GenericEntity : "{314EF5F8BF036549}Prefabs/Vehicles/vaz2109/armst_vaz2109_red.et
 SCR_DestructibleBuildingEntity : "{3177788C81331648}Prefabs/Industrial/builds/bitovka_wheels2.et" {
  coords 2947.013 27.187 4077.189
  angles 0 17.512 0
+}
+$grp SCR_DestructibleBuildingEntity : "{36DF3E586EBE4E7A}Prefabs/Structures/Houses/Shed/Shed_06/Shed_06_grey.et" {
+ {
+  coords 3032.623 0 4394.443
+  angles 0 -179.495 0
+ }
+ {
+  coords 3036.812 0 4394.476
+  angles 0 -179.495 0
+ }
 }
 SCR_DestructibleBuildingEntity : "{389D6DF9941FF22D}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_01/FuelTank_01_grey.et" {
  Flags 0 0x80000
@@ -1204,7 +1224,7 @@ $grp SCR_DestructibleBuildingEntity : "{572A0A3CCDD2BA32}Prefabs/Industrial/buil
 }
 $grp Tree : "{59EDDDB5D3B5241F}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_piceaabies_3f.et" {
  {
-  coords 2974.904 -0 4111.475
+  coords 2974.904 0 4111.475
   angles -1.658 112.372 -1.996
   scale 1.138
  }
@@ -1219,12 +1239,12 @@ $grp Tree : "{59EDDDB5D3B5241F}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_p
   scale 1.158
  }
  {
-  coords 2933.815 -0 4213.257
+  coords 2933.815 0 4213.257
   angles -0.107 -64.316 1.256
   scale 1.158
  }
  {
-  coords 2938.218 -0 4214.232
+  coords 2938.218 0 4214.232
   angles -0.107 -64.316 1.256
   scale 1.158
  }
@@ -1451,6 +1471,17 @@ $grp StaticModelEntity : "{783A0981DA761AAB}Prefabs/Structures/Airport/AirfieldP
   scale 3.32
  }
 }
+$grp SCR_DestructibleBuildingEntity : "{7AF750C232C9FB90}Prefabs/Infrastructure/Bridges/Highway Bridge with Pillars.et" {
+ {
+  coords 3539.477 39.891 4590.966
+ }
+ {
+  coords 3539.407 39.862 4615.891
+ }
+ {
+  coords 3539.419 39.88 4640.846
+ }
+}
 $grp StaticModelEntity : "{7CC7516C8AB0B08F}Prefabs/Structures/Military/Antennas/Antenna_BARS_01/Dst/Antenna_BARS_01_Ruin.et" {
  {
   coords 2988.451 27.179 4030.566
@@ -1468,7 +1499,7 @@ GenericEntity : "{81AA8743455F68A5}Prefabs/Vehicles/uaz452/armst_uaz452_open_whe
  angles 0 115.61 0
 }
 StaticModelEntity : "{82CCE96E35DC6A6E}Prefabs/Structures/Military/Antennas/Antenna_BARS_01/Antenna_BARS_01_transmitter.et" {
- coords 2930.904 -0 4131.75
+ coords 2930.904 0 4131.75
  angles 0 -30.941 0
 }
 SCR_DestructibleBuildingEntity : "{838F1E7BFB3C23FA}Prefabs/Vehicles/azlk412/armst_azlk412_wreck2.et" {
@@ -2453,7 +2484,7 @@ $grp Tree : "{960EA50FD57CD7D5}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_b
   scale 1.155
  }
  {
-  coords 2940.94 -0 4218.091
+  coords 2940.94 0 4218.091
   angles 1.289 97.54 0.794
   scale 1.155
  }
@@ -2463,7 +2494,7 @@ $grp Tree : "{960EA50FD57CD7D5}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_b
   scale 1.155
  }
  {
-  coords 2943.163 -0 4208.222
+  coords 2943.163 0 4208.222
   angles 1.289 97.54 0.794
   scale 1.155
  }
@@ -2472,6 +2503,9 @@ $grp Tree : "{960EA50FD57CD7D5}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_b
   angles 1.289 97.54 0.794
   scale 1.155
  }
+}
+SCR_DestructibleBuildingEntity : "{97380F89AA02D20B}Prefabs/Structures/Infrastructure/Bus/BusShed_E_01/BusShed_E_01_blue.et" {
+ coords 3047.928 0 4317.052
 }
 StaticModelEntity : "{98AF8550D18D2507}Prefabs/Structures/Military/Antennas/Antenna_BARS_01/Antenna_BARS_01_base.et" {
  coords 2960.835 0.528 4075.02
@@ -5722,6 +5756,16 @@ GenericEntity : "{9C3486C0D8969D0A}PrefabLibrary/DefaultLibrary/Props/Industrial
  angles -75 90 0
  scale 0.74
 }
+$grp SCR_DestructibleBuildingEntity : "{9FC8D0AD2455A313}Prefabs/Infrastructure/Bridges/Wooden Bridge.et" {
+ {
+  coords 3071.701 20.602 4581.615
+  angles 0 84.252 0
+ }
+ {
+  coords 3069.998 20.67 4599.731
+  angles 0 84.252 0
+ }
+}
 $grp SCR_DestructibleBuildingEntity : "{A1438F717AE90375}Prefabs/agroprom/teplica_shcool.et" {
  {
   coords 3351.582 38 3734.223
@@ -5737,12 +5781,12 @@ StaticModelEntity : "{A1BFC68C5E0BC9D0}Prefabs/Structures/Military/Antennas/Ante
 }
 $grp Tree : "{A35E15EBC6033C07}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1.et" {
  {
-  coords 2966.955 -0 4076.061
+  coords 2966.955 0 4076.061
   angles 0.853 83.4 -1.097
   scale 1.074
  }
  {
-  coords 2949.273 -0 4065.757
+  coords 2949.273 0 4065.757
   angles 0.853 83.4 -1.097
   scale 1.074
  }
@@ -5782,7 +5826,7 @@ $grp Tree : "{A35E15EBC6033C07}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_
   scale 1.09
  }
  {
-  coords 2985.998 -0 4310.872
+  coords 2985.998 0 4310.872
   angles 0.327 -135.674 -1.907
   scale 1.09
  }
@@ -5807,12 +5851,12 @@ $grp Tree : "{A35E15EBC6033C07}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_
   scale 1.09
  }
  {
-  coords 2969.442 -0 4311.161
+  coords 2969.442 0 4311.161
   angles 0.327 -135.674 -1.907
   scale 1.09
  }
  {
-  coords 2966.596 -0 4311.143
+  coords 2966.596 0 4311.143
   angles 0.327 -135.674 -1.907
   scale 1.09
  }
@@ -5832,19 +5876,64 @@ $grp Tree : "{A35E15EBC6033C07}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_
   scale 1.09
  }
  {
-  coords 2965.258 -0 4323.574
+  coords 2965.258 0 4323.574
   angles 0.327 -135.674 -1.907
   scale 1.09
  }
  {
-  coords 2964.977 -0 4326.969
+  coords 2964.977 0 4326.969
   angles 0.327 -135.674 -1.907
   scale 1.09
  }
  {
-  coords 2964.462 -0 4322.399
+  coords 2964.462 0 4322.399
   angles 0.327 -135.674 -1.907
   scale 1.09
+ }
+ {
+  coords 2947.148 -0 4430.321
+  angles 1.812 -53.923 -0.414
+  scale 0.995
+ }
+ {
+  coords 2946.963 -0 4417.389
+  angles 1.812 -53.923 -0.414
+  scale 0.995
+ }
+ {
+  coords 2973.139 -0 4417.441
+  angles 1.812 -53.923 -0.414
+  scale 0.995
+ }
+ {
+  coords 2965.263 0 4417.533
+  angles 1.812 -53.923 -0.414
+  scale 0.995
+ }
+ {
+  coords 2972.66 -0 4431.199
+  angles 1.812 -53.923 -0.414
+  scale 0.995
+ }
+ {
+  coords 2987.813 0 4436.652
+  angles 1.812 -53.923 -0.414
+  scale 0.995
+ }
+ {
+  coords 3003.071 -0 4436.78
+  angles 1.812 -53.923 -0.414
+  scale 0.995
+ }
+ {
+  coords 2985.935 -0 4417.171
+  angles 1.812 -53.923 -0.414
+  scale 0.995
+ }
+ {
+  coords 3003.271 0 4416.932
+  angles 1.812 -53.923 -0.414
+  scale 0.995
  }
 }
 SCR_DestructibleBuildingEntity : "{A54F6416C3A6A4D7}Prefabs/Structures/Infrastructure/Power/TransformerSubstation_01/TransformerSubstation_01.et" {
@@ -5867,7 +5956,7 @@ $grp SCR_DestructibleBuildingEntity : "{A9A13246F2F9F1F6}Prefabs/Houses/villages
 }
 $grp Tree : "{AC43B039B67361F6}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_3s.et" {
  {
-  coords 2991.686 -0 4071.385
+  coords 2991.686 0 4071.385
   angles -3.185 12.371 1.199
   scale 0.935
  }
@@ -5875,6 +5964,26 @@ $grp Tree : "{AC43B039B67361F6}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_b
   coords 3004.376 0 4090.821
   angles -3.185 12.371 1.199
   scale 0.935
+ }
+ {
+  coords 2986.876 -0 4420.967
+  angles -0.212 15.25 -2.907
+  scale 1.085
+ }
+ {
+  coords 2972.044 -0 4427.861
+  angles -0.212 15.25 -2.907
+  scale 1.085
+ }
+ {
+  coords 2993.994 0 4436.527
+  angles -0.212 15.25 -2.907
+  scale 1.085
+ }
+ {
+  coords 2949.966 0 4427.91
+  angles -0.212 15.25 -2.907
+  scale 1.085
  }
 }
 SCR_DestructibleBuildingEntity : "{AF44CFF705C52B9B}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_02/FuelTank_02_grey.et" {
@@ -7686,6 +7795,38 @@ SCR_DestructibleBuildingEntity : "{BEF19A419D38409D}Prefabs/Houses/villages/vill
   }
  }
 }
+$grp Tree : "{C1F4CA4F9D788CE5}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_pinus_sylvestris_3s.et" {
+ {
+  coords 2934.227 -0 4418.095
+  angles 0.112 -57.295 -1.834
+  scale 1.053
+ }
+ {
+  coords 2953.195 -0 4379.882
+  angles 0.112 -57.295 -1.834
+  scale 1.053
+ }
+ {
+  coords 2933.829 0 4378.71
+  angles 0.112 -57.295 -1.834
+  scale 1.053
+ }
+ {
+  coords 2973.434 0 4355.367
+  angles 0.112 -57.295 -1.834
+  scale 1.053
+ }
+ {
+  coords 2995.763 0 4397.851
+  angles 0.112 -57.295 -1.834
+  scale 1.053
+ }
+ {
+  coords 2995.354 0 4378.339
+  angles 0.112 -57.295 -1.834
+  scale 1.053
+ }
+}
 GenericEntity : "{C69E1B9B00A341B1}Prefabs/Vehicles/gaz24/armst_gaz24_2.et" {
  coords 3046.855 29.531 4334.498
  angles 0 87.641 0
@@ -7711,6 +7852,10 @@ StaticModelEntity : "{CAF8666F26CEB7AD}Prefabs/Structures/BuildingParts/Entry/Co
  coords 2962.532 31.012 4317.479
  angles 0 -91.337 0
 }
+SCR_DestructibleBuildingEntity : "{CEC3DC0C3A8B7691}Prefabs/Structures/Infrastructure/Naval/Sheds/BoatShed_01/BoatShed_01_land.et" {
+ coords 2913.602 1.781 4301.513
+ angles 0 -88.736 0
+}
 $grp Tree : "{CF0A210B7AC7B329}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_2.et" {
  {
   coords 3045.612 0 4341.688
@@ -7723,7 +7868,7 @@ $grp Tree : "{CF0A210B7AC7B329}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_
   scale 1.13
  }
  {
-  coords 3037.177 -0 4342.152
+  coords 3037.177 0 4342.152
   angles -0.368 43.771 1.708
   scale 1.13
  }
@@ -7779,12 +7924,12 @@ $grp Tree : "{DA7492F3E6B63251}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_
   scale 1.017
  }
  {
-  coords 3049.994 -0 4341.612
+  coords 3049.994 0 4341.612
   angles -2.627 107.329 -0.269
   scale 1.017
  }
  {
-  coords 2921.883 -0 4216.664
+  coords 2921.883 0 4216.664
   angles -0.039 127.039 1.497
   scale 0.889
  }
@@ -7799,7 +7944,7 @@ $grp Tree : "{DA7492F3E6B63251}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_
   scale 0.889
  }
  {
-  coords 2941.171 -0 4211.627
+  coords 2941.171 0 4211.627
   angles -0.039 127.039 1.497
   scale 0.889
  }
@@ -7826,7 +7971,7 @@ $grp SCR_DestructibleBuildingEntity : "{DAC148D18C3835B9}Prefabs/Structures/Mili
 }
 $grp Tree : "{DB49D8B142D18E86}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_2s.et" {
  {
-  coords 2983.534 -0 4104.081
+  coords 2983.534 0 4104.081
   angles -0.789 -153.67 0.421
   scale 0.902
  }
@@ -7836,7 +7981,7 @@ $grp Tree : "{DB49D8B142D18E86}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_b
   scale 1.26
  }
  {
-  coords 3031.282 -0 4343.992
+  coords 3031.282 0 4343.992
   angles 1.004 -114.085 1.735
   scale 1.26
  }
@@ -7846,7 +7991,7 @@ $grp Tree : "{DB49D8B142D18E86}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_b
   scale 1.26
  }
  {
-  coords 3052.183 -0 4329.169
+  coords 3052.183 0 4329.169
   angles 1.004 -114.085 1.735
   scale 1.26
  }
@@ -7856,7 +8001,7 @@ $grp Tree : "{DB49D8B142D18E86}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_b
   scale 1.26
  }
  {
-  coords 2985.576 -0 4328.996
+  coords 2985.576 0 4328.996
   angles 1.004 -114.085 1.735
   scale 1.26
  }
@@ -7866,7 +8011,7 @@ $grp Tree : "{DB49D8B142D18E86}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_b
   scale 1.26
  }
  {
-  coords 2949.409 -0 4071.278
+  coords 2949.409 0 4071.278
   angles -0.789 -153.67 0.421
   scale 0.902
  }
@@ -8396,6 +8541,10 @@ $grp SCR_DestructibleBuildingEntity : "{EAFE301B4E854AF8}PrefabLibrary/CainLibra
   angles 0 90 0
  }
 }
+SCR_DestructibleBuildingEntity : "{EC144DD40FCC3F05}Prefabs/Structures/Houses/Shed/Shed_06/Shed_06_blue.et" {
+ coords 3045.29 0 4394.326
+ angles 0 -178.884 0
+}
 GenericEntity : "{ECC9B3FF4D1C478B}Prefabs/Props/Military/Compositions/Antenna_02_base.et" {
  coords 2960.1 31.973 4090.988
 }
@@ -8470,7 +8619,7 @@ $grp Tree : "{F1DB9A8115310093}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_b
   scale 1.191
  }
  {
-  coords 2986.13 -0 4317.152
+  coords 2986.13 0 4317.152
   angles 1.789 -14.634 2.919
   scale 1.191
  }
@@ -8485,7 +8634,7 @@ $grp Tree : "{F1DB9A8115310093}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_b
   scale 1.191
  }
  {
-  coords 2977.15 -0 4314.993
+  coords 2977.15 0 4314.993
   angles 1.789 -14.634 2.919
   scale 1.191
  }
