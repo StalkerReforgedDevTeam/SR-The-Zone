@@ -1485,7 +1485,7 @@ $grp GenericEntity : "{04104BBB4BAA8833}Prefabs/Infrastructure/Platforms/Platfor
 }
 $grp Tree : "{0572596E23DDDC10}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_pinus_sylvestris_2f.et" {
  {
-  coords 4522.073 0 4222.762
+  coords 4523.988 0.311 4221.997
   angles -4.729 -1.428 -3.19
   scale 1.235
  }
@@ -2041,7 +2041,7 @@ SCR_DestructibleBuildingEntity : "{1E1FF3AE13CDC15D}Prefabs/Structures/Walls/Con
  scale 2
 }
 SCR_DestructibleBuildingEntity : "{1E7AC996BD3B73A7}Prefabs/Structures/Military/Houses/GarageMilitary_E_01/GarageMilitary_E_01_base.et" {
- coords 4453.728 0 4161.157
+ coords 4453.667 0 4159.907
  angles 0 -178.551 0
 }
 SCR_DestructibleBuildingEntity : "{1EBBC2A6B198BD9E}Prefabs/Structures/Military/Houses/ApartmentBuilding_2I02/ApartmentBuilding_USSR_2I02_green.et" {
@@ -2135,9 +2135,19 @@ $grp Tree : "{20C4A23B039DFCF3}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_p
   scale 0.958
  }
 }
-SCR_DestructibleEntity : "{20DBA05813D0B9DE}Prefabs/Structures/Industrial/Pipelines/ProductPipeline_01/ProductPipeline_USSR_01_raise.et" {
- coords 4666.951 25.844 4283.456
- angles 0 89.696 0
+$grp SCR_DestructibleEntity : "{20DBA05813D0B9DE}Prefabs/Structures/Industrial/Pipelines/ProductPipeline_01/ProductPipeline_USSR_01_raise.et" {
+ {
+  coords 4666.951 25.844 4283.456
+  angles 0 89.696 0
+ }
+ {
+  coords 4520.199 26.584 4221.723
+  angles 0 -91.695 0
+ }
+ {
+  coords 4460.386 27 4168.598
+  angles 0 -88.87 0
+ }
 }
 $grp GenericEntity : "{22EFF6A8FEF00ECE}Prefabs/Infrastructure/Railways/Railway Bridge.et" {
  {
@@ -2198,6 +2208,15 @@ GenericEntity : "{38B9806645C36B9E}Prefabs/Vehicles/kamaz/armst_kamaz_green_wrec
 GameEntity : "{3A3F0E0AC9C63E10}Prefabs/Method/Props/Camps/Fireplace_Loiters_Burned house_03.et" {
  coords 4450.465 27 4218.129
 }
+$grp SCR_DestructibleEntity : "{3E6CA4F2F90FA2F6}Prefabs/Structures/Industrial/Pipelines/ProductPipeline_01/ProductPipeline_USSR_01_high_8m.et" {
+ {
+  coords 4462.699 27 4227.798
+ }
+ {
+  coords 4460.456 27 4172.442
+  angles 0 -90.26 0
+ }
+}
 GenericEntity : "{3E9EDDFC51BB3410}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_10ft_olive.et" {
  coords 4536.947 26.04 4221.049
 }
@@ -2207,7 +2226,7 @@ GenericEntity : "{3FB52C2FC3CD951D}Prefabs/Vehicles/mi8/armst_mi8_static.et" {
 }
 $grp SCR_DestructibleBuildingEntity : "{405D52096F6F6DA2}Prefabs/Structures/Industrial/Houses/FactoryHall_E_01/FactoryHall_USSR_01.et" {
  {
-  coords 4440.563 28.304 4127.784
+  coords 4440.502 28.304 4126.534
   angles 0 -87.265 0
   {
    Building {
@@ -7159,6 +7178,20 @@ $grp SCR_DestructibleEntity : "{5432CEEAD87D9BEB}Prefabs/Structures/Industrial/P
   coords 4667.107 25.844 4256.454
   angles 0 -90.431 0
  }
+ {
+  coords 4494.428 26.946 4227.804
+ }
+ {
+  coords 4470.55 26.946 4227.804
+ }
+ {
+  coords 4460.633 27 4203.887
+  angles 0 -89.5 0
+ }
+ {
+  coords 4460.427 27 4180.27
+  angles 0 -89.5 0
+ }
 }
 GenericEntity : "{55DAB9ADD99EFD64}Prefabs/Infrastructure/Railways/Railway Split RightTurn.et" {
  coords 4403.999 26.995 4103.182
@@ -7235,9 +7268,15 @@ $grp SCR_DestructibleBuildingEntity : "{5F6FFBA678676161}Prefabs/Structures/Indu
   angles 0 178.964 0
  }
 }
-SCR_DestructibleEntity : "{60D0FF15D5DD2CCE}Prefabs/Structures/Industrial/Pipelines/ProductPipeline_01/ProductPipeline_USSR_01_end.et" {
- coords 4666.928 25.844 4286.033
- angles 0 89.696 0
+$grp SCR_DestructibleEntity : "{60D0FF15D5DD2CCE}Prefabs/Structures/Industrial/Pipelines/ProductPipeline_01/ProductPipeline_USSR_01_end.et" {
+ {
+  coords 4666.928 25.844 4286.033
+  angles 0 89.696 0
+ }
+ {
+  coords 4520.214 26.428 4221.104
+  angles 0 -90.428 0
+ }
 }
 GenericEntity : "{620B107C6C933E4E}Prefabs/Vehicles/gaz53/armst_gaz53_box_open.et" {
  coords 4678.772 26.126 4242.472
@@ -9150,9 +9189,18 @@ GameEntity : "{92D3F8A8AE82E3E5}Prefabs/Method/Props/Camps/Fireplace_Loiters_01_
  coords 4419.376 20 3885.684
  angles 0 39.449 0
 }
-SCR_DestructibleEntity : "{98AC715C449BEAC1}Prefabs/Structures/Industrial/Pipelines/ProductPipeline_01/ProductPipeline_USSR_01_high_corner.et" {
- coords 4667.171 25.844 4252.865
- angles 0 -90.873 0
+$grp SCR_DestructibleEntity : "{98AC715C449BEAC1}Prefabs/Structures/Industrial/Pipelines/ProductPipeline_01/ProductPipeline_USSR_01_high_corner.et" {
+ {
+  coords 4667.171 25.844 4252.865
+  angles 0 -90.873 0
+ }
+ {
+  coords 4520.032 26.645 4227.86
+  angles 0 88.987 0
+ }
+ {
+  coords 4460.871 27 4227.814
+ }
 }
 SCR_DestructibleBuildingEntity : "{9CA1B20DAD71A340}Prefabs/Structures/Houses/Apartment building/97-50_Panelka/97-50_Panelka_01.et" {
  coords 4466.911 0 4104.809
