@@ -983,12 +983,19 @@ SCR_DestructibleBuildingEntity : "{405D52096F6F6DA2}Prefabs/Structures/Industria
  }
 }
 StaticModelEntity : "{40F16A79339AACC8}Prefabs/Structures/Cultural/Statues/StatueCharacter_02/StatueCharacter_02_pedestal.et" {
- coords 3412.867 -0 5375.103
+ coords 3410.368 0 5376.197
+ angles 0 2.496 0
  scale 3.5
 }
-SCR_DestructibleBuildingEntity : "{80A5B37A1472B084}Prefabs/Structures/Industrial/Garages/Garage_E_02/Garage_E_02.et" {
- coords 3412.111 0 5483.297
- angles 0 -176.595 0
+$grp SCR_DestructibleBuildingEntity : "{80A5B37A1472B084}Prefabs/Structures/Industrial/Garages/Garage_E_02/Garage_E_02.et" {
+ {
+  coords 3412.111 0 5483.297
+  angles 0 -176.595 0
+ }
+ {
+  coords 3479.093 0 5328.108
+  angles 0 93.397 0
+ }
 }
 $grp SCR_DestructibleBuildingEntity : "{A2D1DD531096D192}Prefabs/Structures/Houses/Prefabricated/ApartmentBuilding_5I01/ApartmentBuilding_5I01_base.et" {
  {
@@ -1016,8 +1023,30 @@ $grp SCR_DestructibleBuildingEntity : "{A2D1DD531096D192}Prefabs/Structures/Hous
   angles 0 -86.029 0
  }
 }
+$grp SCR_DestructibleBuildingEntity : "{A548C1C5370D0734}Prefabs/Structures/Houses/Garage/Garage_E_01/Garage_E_01.et" {
+ {
+  coords 3511.084 0 5452.937
+  angles 0 93.647 0
+ }
+ {
+  coords 3511.455 0 5457.971
+  angles 0 93.647 0
+ }
+ {
+  coords 3511.808 0 5463.013
+  angles 0 93.647 0
+ }
+ {
+  coords 3512.157 0 5467.944
+  angles 0 93.647 0
+ }
+ {
+  coords 3512.601 0 5472.783
+  angles 0 93.647 0
+ }
+}
 SCR_DestructibleBuildingEntity : "{B514DD5B90A27E78}Prefabs/Structures/Services/Government/MunicipalOffice_E_01/MunicipalOffice_E_01_school.et" {
- coords 3410.405 0 5329.569
+ coords 3409.108 0 5329.665
  angles 0 4.228 0
 }
 $grp SCR_DestructibleBuildingEntity : "{CAAF73FB98E22FE4}Prefabs/Structures/Military/Houses/ApartmentBuilding_3I01/ApartmentBuilding_USSR_3I01.et" {
@@ -1038,7 +1067,7 @@ $grp SCR_DestructibleBuildingEntity : "{CAAF73FB98E22FE4}Prefabs/Structures/Mili
   angles 0 92.965 0
  }
  {
-  coords 3357.278 0 5314.797
+  coords 3356.376 0 5314.844
   angles 0 92.965 0
  }
  {
