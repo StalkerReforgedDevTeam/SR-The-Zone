@@ -3100,71 +3100,6 @@ $grp SplineShapeEntity {
    }
   }
  }
- {
-  coords 3469.566 38 4152.798
-  Points {
-   ShapePoint "{6AA72E11E5CC2190}" {
-    Position 0 0 0
-   }
-   ShapePoint "{6AA72E11E5CDBED9}" {
-    Position 1.491 0 9.524
-   }
-   ShapePoint "{6AA72E11E4E8DFF1}" {
-    Position 1.71 0 23.428
-   }
-   ShapePoint "{6AA72E11E4A67044}" {
-    Position -8.623 0.461 26.054
-   }
-   ShapePoint "{6AA72E11E44CF5C1}" {
-    Position -16.878 0.687 21.795
-   }
-   ShapePoint "{6AA72E11E3FB12E8}" {
-    Position -27.769 0.42 14.1
-   }
-   ShapePoint "{6AA72E11E3A567D8}" {
-    Position -41.637 0.6 6.691
-   }
-   ShapePoint "{6AA72E11E345E6A0}" {
-    Position -54.231 0.899 -0.473
-   }
-   ShapePoint "{6AA72E11E2EE9DE2}" {
-    Position -71.347 1.84 -21.832
-   }
-   ShapePoint "{6AA72E11E2956947}" {
-    Position -83.835 0.62 -33.921
-   }
-   ShapePoint "{6AA72E11E23B0504}" {
-    Position -79.504 -0.857 -53.741
-   }
-   ShapePoint "{6AA72E11E1F4D2AA}" {
-    Position -57.212 -1.301 -54.303
-   }
-   ShapePoint "{6AA72E11E1AD9EDC}" {
-    Position -37.5 -0.705 -51.222
-   }
-   ShapePoint "{6AA72E11E1652706}" {
-    Position -18.948 -0.095 -43.229
-   }
-   ShapePoint "{6AA72E11E11AE1E4}" {
-    Position -8.044 0 -34.68
-   }
-   ShapePoint "{6AA72E11E0D9EFD8}" {
-    Position -2.36 -0.001 -22.232
-   }
-   ShapePoint "{6AA72E11E0994EAE}" {
-    Position -0.531 0 -9.054
-   }
-   ShapePoint "{6AA72E11E0654B83}" {
-    Position -0.208 0 -5.039
-   }
-  }
-  IsClosed 1
-  {
-   LakeGeneratorEntity : "{D0224BC8D6B29461}Prefabs/WEGenerators/Water/Lake/LG_CainLake_01.et" {
-    coords 0 0 0
-   }
-  }
- }
 }
 $grp SCR_IndestructibleEnvironmentalEntity : "{019E4E540652B141}Prefabs/Rocks/Granite/GraniteRock_02_Forest.et" {
  {
@@ -3691,8 +3626,13 @@ GenericEntity : "{28C4CBADCD6EF576}Prefabs/Vehicles/vaz2109/armst_vaz2109_red_wr
  coords 2978.851 29.531 4307.13
  angles 0 89.642 0
 }
-SCR_IndestructibleEnvironmentalEntity : "{2BBA69F7F0BCD76E}Prefabs/Rocks/Granite/GraniteRock_01_Forest.et" {
- coords 3452.639 32.63 4135.294
+$grp SCR_IndestructibleEnvironmentalEntity : "{2BBA69F7F0BCD76E}Prefabs/Rocks/Granite/GraniteRock_01_Forest.et" {
+ {
+  coords 3452.639 32.63 4135.294
+ }
+ {
+  coords 3437.956 32.57 4130.301
+ }
 }
 $grp GenericEntity : "{2BF58454BEAB913D}Prefabs/Props/Industrial/Pallets/WoodenPalletBox_01_Wood.et" {
  {
@@ -4278,11 +4218,11 @@ $grp SCR_DestructibleBuildingEntity : "{7AF750C232C9FB90}Prefabs/Infrastructure/
   coords 3539.419 39.88 4640.846
  }
  {
-  coords 3073.667 37.905 4577.588
+  coords 3074.902 37.905 4572.287
   angles 0 -3.026 0
  }
  {
-  coords 3072.326 37.82 4602.306
+  coords 3073.561 37.82 4597.005
   angles -0.174 -3.026 0
  }
 }
@@ -8872,6 +8812,76 @@ $grp Tree : "{A35E15EBC6033C07}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_
   angles 1.812 -53.923 -0.414
   scale 0.995
  }
+ {
+  coords 3012.602 0 4401.984
+  angles 1.812 -53.923 -0.414
+  scale 0.995
+ }
+ {
+  coords 2994.137 0 4400.153
+  angles 1.812 -53.923 -0.414
+  scale 0.995
+ }
+ {
+  coords 2997.323 -0 4400.651
+  angles 1.812 -53.923 -0.414
+  scale 0.995
+ }
+ {
+  coords 2954.503 0 4401.191
+  angles 1.812 -53.923 -0.414
+  scale 0.995
+ }
+ {
+  coords 2962.667 -0 4403.541
+  angles 1.812 -53.923 -0.414
+  scale 0.995
+ }
+ {
+  coords 2955.053 -0 4387.442
+  angles 1.812 -53.923 -0.414
+  scale 0.995
+ }
+ {
+  coords 2944.436 0 4379.728
+  angles 1.812 -53.923 -0.414
+  scale 0.995
+ }
+ {
+  coords 2937.999 0 4378.216
+  angles 1.812 -53.923 -0.414
+  scale 0.995
+ }
+ {
+  coords 2940.061 -0 4376.567
+  angles 1.812 -53.923 -0.414
+  scale 0.995
+ }
+ {
+  coords 2940.708 -0 4378.986
+  angles 1.812 -53.923 -0.414
+  scale 0.995
+ }
+ {
+  coords 2934.917 0.001 4379.58
+  angles 1.812 -53.923 -0.414
+  scale 0.995
+ }
+ {
+  coords 2949.38 -0 4374.523
+  angles 1.812 -53.923 -0.414
+  scale 0.995
+ }
+ {
+  coords 2951.14 0 4380.08
+  angles 1.812 -53.923 -0.414
+  scale 0.995
+ }
+ {
+  coords 2947.454 0 4379.395
+  angles 1.812 -53.923 -0.414
+  scale 0.995
+ }
 }
 SCR_DestructibleBuildingEntity : "{A54F6416C3A6A4D7}Prefabs/Structures/Infrastructure/Power/TransformerSubstation_01/TransformerSubstation_01.et" {
  coords 2953.262 0 4064.718
@@ -8947,6 +8957,10 @@ $grp Tree : "{AC43B039B67361F6}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_b
   angles -0.212 15.25 -2.907
   scale 1.085
  }
+}
+SCR_DestructibleBuildingEntity : "{ADDA5472F867C249}Prefabs/Structures/Cultural/Castles/Castle_01_Bridge.et" {
+ coords 2865.069 1.804 4381.896
+ angles 0 76.944 0
 }
 GenericEntity : "{AE300E34EA8FF40C}Prefabs/Props/Wrecks/Ural4320_wreck/Ural4320_wreck_static.et" {
  coords 3728.313 37.638 4008.375
@@ -10809,6 +10823,10 @@ SCR_DestructibleBuildingEntity : "{BEF19A419D38409D}Prefabs/Houses/villages/vill
   }
  }
 }
+SCR_DestructibleBuildingEntity : "{C05D5E2F88801D74}Prefabs/Structures/Industrial/Houses/Workshop_01/Workshop_01_Side_damaged.et" {
+ coords 2878.145 -0.009 4377.791
+ angles 0 -14.541 0
+}
 $grp Tree : "{C1F4CA4F9D788CE5}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_pinus_sylvestris_3s.et" {
  {
   coords 2934.227 0 4418.095
@@ -10973,8 +10991,14 @@ $grp GenericEntity : "{D70B514EAEF45E49}Prefabs/Vehicles/gaz53/armst_gaz53_box_o
   angles 0 -140.11 0
  }
 }
-SCR_IndestructibleEnvironmentalEntity : "{D9D20C6C33517ED5}Prefabs/Rocks/Granite/GraniteRock_03_Forest.et" {
- coords 3450.755 32.946 4139.252
+$grp SCR_IndestructibleEnvironmentalEntity : "{D9D20C6C33517ED5}Prefabs/Rocks/Granite/GraniteRock_03_Forest.et" {
+ {
+  coords 3450.755 32.946 4139.252
+ }
+ {
+  coords 3432.985 33.963 4137.767
+  angles 0 95.828 0
+ }
 }
 $grp Tree : "{DA7492F3E6B63251}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et" {
  {
@@ -11542,6 +11566,11 @@ SCR_DestructibleBuildingEntity : "{DC1E102B809EB8C1}Prefabs/Houses/villages/vill
 GenericEntity : "{DCA76EA9DD0458DB}Prefabs/Structures/Scientists/Bunker_Modul/Bunk_Mid_base.et" {
  coords 2960.022 24.756 4091.051
  angles 0 -63.138 0
+}
+SCR_DestructibleBuildingEntity : "{DD0692A5C6F205C5}Prefabs/Structures/Infrastructure/Waterworks/GravelDam_01/GravelDam_01_base.et" {
+ coords 2865.017 -1.159 4375.169
+ angles 0 -16.022 0
+ scale 1.5
 }
 SCR_DestructibleBuildingEntity : "{DD972CF3A53568A8}Prefabs/Houses/villages/Barn_spawn.et" {
  coords 4103.438 0.215 3736.155
