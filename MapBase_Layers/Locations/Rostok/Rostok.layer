@@ -359,6 +359,10 @@ $grp GenericEntity : "{04104BBB4BAA8833}Prefabs/Infrastructure/Platforms/Platfor
   angles 0 0 0
  }
 }
+GenericEntity : "{0511E95F422061BB}Prefabs/Props/Recreation/Camp/TentSmall_02/TentSmall_02_blue.et" {
+ coords 5062.881 57.096 3625.319
+ angles 0 -29.662 0
+}
 $grp StaticModelEntity : "{07F043DD6AACCD0B}Prefabs/Structures/Infrastructure/Barriers/BarGate_01/BarGate_01.et" {
  {
   coords 4886.502 0 4085.868
@@ -376,6 +380,32 @@ SCR_DestructibleBuildingEntity : "{0B05D5E03FB16B30}Prefabs/Industrial/sklades_s
  coords 4880.263 30 4209.586
  angles 0 90 0
 }
+SCR_DestructibleBuildingEntity : "{10A5F1314C15F527}Prefabs/Structures/Commerical/Rural Store.et" {
+ coords 5025.516 -0.164 3571.09
+ angles 0 -179.518 0
+ {
+  GenericEntity {
+   ID "62053EFFC67663AA"
+   {
+    GenericEntity AspirinBottle_6AAB17968278F422 {
+     ID "629839D3AEBD748C"
+    }
+    GenericEntity AspirinBottle_6AAB17968278F57E {
+     ID "629839D3B0326906"
+    }
+    GenericEntity AspirinBottle_6AAB17968278F54A {
+     ID "629839D3B032697E"
+    }
+    GenericEntity MRE_6AAB17968278F524 {
+     ID "629839D3B0326956"
+    }
+    GenericEntity MRE_6AAB17968278F5FA {
+     ID "629839D3B0326960"
+    }
+   }
+  }
+ }
+}
 $grp SCR_DestructibleBuildingEntity : "{11298B17EF8881E1}Prefabs/Structures/Houses/Village/Sheds/ShedGarage.et" {
  {
   coords 4855.398 -0.803 4110.209
@@ -389,6 +419,10 @@ $grp SCR_DestructibleBuildingEntity : "{11298B17EF8881E1}Prefabs/Structures/Hous
   coords 4926.2 -0.803 4134.764
   angles 0 -90 0
  }
+}
+SCR_DestructibleBuildingEntity : "{12A8F2ECF2C00B1F}Prefabs/Structures/Infrastructure/Naval/Houses/CottagePier_01.et" {
+ coords 5077.339 0 3542.323
+ angles 0 96.457 0
 }
 $grp SCR_DestructibleBuildingEntity : "{1350F724723AAC87}Prefabs/Structures/Industrial/Houses/Warehouse_01/Warehouse_01_V3.et" {
  {
@@ -432,6 +466,16 @@ $grp SCR_DestructibleBuildingEntity : "{1AB3F8B3F8CA860D}Prefabs/Structures/Hous
   angles 0 -91.873 0
  }
 }
+$grp GenericEntity : "{1B48219F84D1D00B}Prefabs/Props/Recreation/Camp/TentBig_02/TentBig_02_green.et" {
+ {
+  coords 5052.922 58.698 3614.615
+  angles 1.606 -89.835 2.116
+ }
+ {
+  coords 5072.861 56.853 3616.452
+  angles 1.606 -89.835 2.116
+ }
+}
 SCR_DestructibleBuildingEntity : "{1FE3B590D2A1654D}Prefabs/Structures/Infrastructure/Power/TransformerSubstation_01/TransformerSubstation_01_white.et" {
  coords 4892.916 0 4116.708
 }
@@ -453,6 +497,16 @@ SCR_DestructibleBuildingEntity : "{28270BA91AD81197}Prefabs/Structures/Fabrica/F
  coords 4849.019 -0.172 4138.02
  scale 0.407
 }
+$grp GenericEntity : "{2BF6748C6440D818}Prefabs/Props/Recreation/Camp/TentSmall_02/TentSmall_02_red.et" {
+ {
+  coords 5063.167 57.402 3621.05
+  angles 0 55.679 0
+ }
+ {
+  coords 5044.247 59.37 3605.566
+  angles 0 -91.122 0
+ }
+}
 $grp SCR_DestructibleBuildingEntity : "{2D92D7E09B3424BC}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_02/FuelTank_02_green.et" {
  {
   coords 4884.551 0.208 4144.979
@@ -466,6 +520,10 @@ $grp SCR_DestructibleBuildingEntity : "{2D92D7E09B3424BC}Prefabs/Structures/Indu
   coords 4819.718 0.208 4113.152
   scale 1.4
  }
+}
+SCR_DestructibleBuildingEntity : "{2FAC5630312AAEF9}Prefabs/Structures/Infrastructure/Naval/Houses/CottagePier_01/CottagePier_USSR_01.et" {
+ coords 5091.793 0.414 3526.091
+ angles 0 -86.56 0
 }
 SCR_DestructibleBuildingEntity : "{304613A949A1DB0F}Prefabs/Houses/house_37.et" {
  coords 4811.495 30 4178.21
@@ -523,6 +581,10 @@ $grp SCR_DestructibleBuildingEntity : "{5478F1635999CE3B}Prefabs/Structures/Agri
   coords 4845.619 0.307 4095.99
   angles 0.047 90 -0.06
  }
+}
+SCR_DestructibleBuildingEntity : "{5631CE822A8D7B1E}Prefabs/Structures/Houses/Village/Garages/Civilian Garages 3in1.et" {
+ coords 5005.619 -0 3565.932
+ angles 0 -178.652 0
 }
 $grp GenericEntity : "{570DAA310A1B799D}Prefabs/Stairs_straight.et" {
  {
@@ -591,6 +653,16 @@ $grp GenericEntity : "{6720CD0D5B7B7768}Prefabs/Props/Construction/ConcretePipe/
   coords 4864.589 30 4144.77
   angles 0 0 -90
   scale 4.906
+ }
+}
+$grp GenericEntity : "{6A346A8D0372FD3A}Prefabs/Props/Recreation/Camp/TentBig_02/TentBig_02_orange.et" {
+ {
+  coords 5072.676 57.57 3603.813
+  angles 0 -111.878 0
+ }
+ {
+  coords 5042.199 59.288 3613.198
+  angles 0 68.743 0
  }
 }
 $grp SCR_DestructibleEntity : "{6BD5C8E1D79AF064}Prefabs/Structures/Walls/Concrete/ConcreteWall_01/ConcreteWall_01_3m_white.et" {
@@ -758,6 +830,17 @@ SCR_DestructibleBuildingEntity : "{73B429B814B5F0AE}Prefabs/Industrial/Transform
   }
  }
 }
+StaticModelEntity : "{75A7C06222E6218B}Prefabs/Structures/Military/Camps/TentSmallUSSR_01/TentSmallUSSR_01.et" {
+ coords 5058.902 58.443 3609.015
+}
+GenericEntity : "{77329CA32D3179DF}Prefabs/Props/Recreation/Camp/TentBig_01/TentBig_01_base.et" {
+ coords 5052.024 57.872 3628.017
+ angles 0 -56.198 0
+}
+GenericEntity : "{82E175249B28B1ED}Prefabs/Props/Recreation/Camp/TentBig_02/TentBig_02_base.et" {
+ coords 5041.083 58.917 3622.56
+ angles 0 83.073 0
+}
 GenericEntity : "{8419C4421790DD39}Prefabs/Structures/BuildingsParts/Entry/StairsSide_School.et" {
  coords 4752.284 27.649 4189.212
  angles 0 -90.572 0
@@ -916,12 +999,37 @@ SCR_DestructibleBuildingEntity : "{9111571CACF88AFD}Prefabs/Industrial/sklades_s
 GenericEntity : "{9281271C6EF4C921}Prefabs/Stairs_end.et" {
  coords 4839.755 31.435 4135.584
 }
+SCR_DestructibleBuildingEntity : "{9283B559D1DD7A01}Prefabs/Structures/Infrastructure/Naval/Houses/CottagePier_01/CottagePier_USSR_01_green.et" {
+ coords 5092.236 0 3543.906
+ angles 0 -97.502 0
+}
 SCR_DestructibleEntity : "{92FBF89BA2599CEA}Prefabs/Structures/Industrial/Pipelines/ProductPipeline_01/ProductPipeline_01_vents.et" {
  coords 4917.157 30 4123.26
 }
 GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
  coords 4886.016 30 4083.05
  angles 0 135 0
+}
+GenericEntity : "{95544BBA5535F0C1}Prefabs/Props/Civilian/Training/Bleachers.et" {
+ coords 5032.661 0.612 3552.688
+ angles 0 0 0
+}
+$grp SCR_DestructibleBuildingEntity : "{9562159FDE627B33}Prefabs/Structures/Recreation/Houses/Cottage_E_01/Cottage_E_01.et" {
+ {
+  coords 5091.775 -0.184 3593.443
+  angles 0 -92.836 0
+ }
+ {
+  coords 5090.308 0 3575.969
+  angles 0 179.642 0
+ }
+ {
+  coords 5076.27 -0.032 3566.994
+  angles 0 5.934 0
+ }
+ {
+  coords 5042.841 -0.072 3577.341
+ }
 }
 $grp SCR_DestructibleBuildingEntity : "{9CC522BC56E6682F}Prefabs/Industrial/sklades_soviet/Brick_fence_soviets.et" {
  {
@@ -955,6 +1063,16 @@ $grp SCR_DestructibleBuildingEntity : "{9CC522BC56E6682F}Prefabs/Industrial/skla
  {
   coords 4882.518 30 4148.119
   angles 0 90 0
+ }
+}
+$grp GenericEntity : "{9E026C6D62171AF3}Prefabs/Props/Recreation/Camp/TentBig_01/TentBig_01_blue.et" {
+ {
+  coords 5053.926 58.94 3602.057
+  angles 0 -122.823 0
+ }
+ {
+  coords 5043.925 59.466 3596.393
+  angles 0 81.363 0
  }
 }
 SCR_DestructibleBuildingEntity : "{9FC8D0AD2455A313}Prefabs/Infrastructure/Bridges/Wooden Bridge.et" {
@@ -7273,6 +7391,10 @@ SCR_DestructibleBuildingEntity : "{A548C1C5370D0734}Prefabs/Structures/Houses/Ga
 SCR_DestructibleBuildingEntity : "{A76A76EBBD55CAAC}Prefabs/Structures/Military/Houses/GuardHouse_06/Guardhouse_USSR_06.et" {
  coords 4878.953 0 4124.21
 }
+SCR_DestructibleBuildingEntity : "{A809E681B08C2DA3}Prefabs/Structures/Houses/Village/Single Floor Buildings/House A Red and Green.et" {
+ coords 5002.551 0.086 3548.736
+ angles 0 -97.514 0
+}
 GenericEntity : "{AAAC572D4ED0F19C}Prefabs/Vehicles/gaz66/armst_gaz66_wreck.et" {
  coords 4781.091 25.844 4161.318
  angles 0 120 0
@@ -7350,6 +7472,18 @@ $grp SCR_DestructibleEntity : "{B602A2E5447E58C2}Prefabs/Structures/Walls/Net/Ne
   angles 0 -90 0
  }
 }
+SCR_DestructibleBuildingEntity : "{B98FAA85F278D4C4}Prefabs/Structures/Houses/Village/Single Floor Buildings/House 05.et" {
+ coords 5015.896 0.021 3538.969
+ angles 0 -90.746 0
+}
+SCR_DestructibleBuildingEntity : "{BA5E40F947773EF9}Prefabs/Structures/Houses/Military/MilitaryKitchen/Kitchen.et" {
+ coords 5047.729 0.855 3540.853
+ angles 0 88.29 0
+}
+GenericEntity : "{BACC130DDD951CA4}Prefabs/Props/Recreation/Camp/TentSmall_03/TentSmall_03_blue.et" {
+ coords 5062.72 57.675 3615.414
+ angles 0 117.022 0
+}
 SCR_DestructibleBuildingEntity : "{C604699791656656}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_01/FuelTank_01_Base.et" {
  coords 4890.73 0 4145.79
 }
@@ -7361,9 +7495,19 @@ SCR_DestructibleBuildingEntity : "{CBB9B7AF0182CDC9}Prefabs/Structures/Industria
  coords 4708.07 0 4285.894
  angles 0 -0.435 0
 }
-SCR_DestructibleBuildingEntity : "{D1A2077E004C7F64}Prefabs/Structures/Agriculture/Wooden Barn Short.et" {
- coords 4789.014 0 4143.746
- angles 0 -90 0
+GenericEntity : "{CC98E67AC15E257D}Prefabs/Props/Recreation/Camp/TentBig_01/TentBig_01_orange.et" {
+ coords 5062.822 58.4 3602.241
+ angles -1.996 90.152 -1.992
+}
+$grp SCR_DestructibleBuildingEntity : "{D1A2077E004C7F64}Prefabs/Structures/Agriculture/Wooden Barn Short.et" {
+ {
+  coords 4789.014 0 4143.746
+  angles 0 -90 0
+ }
+ {
+  coords 5062.866 -0.282 3577.995
+  angles 0 -90.213 0
+ }
 }
 GenericEntity : "{DA501E61971FAF20}Prefabs/Stairs_gap_left.et" {
  coords 4853.02 30 4135.405
@@ -7476,4 +7620,8 @@ GenericEntity Water : "{FBD32285925CFBE7}Prefabs/Editor/Plane_01/GridPlane_100x1
 SCR_DestructibleBuildingEntity : "{FF2FB44AF42F1166}Prefabs/Structures/Houses/Garage/Garage_C.et" {
  coords 4709.502 0 4250.201
  angles 0 -90.798 0
+}
+SCR_DestructibleBuildingEntity : "{FF6F5211131F41C8}Prefabs/Structures/Infrastructure/Naval/Houses/CottagePier_01_green.et" {
+ coords 5077.25 -0 3520.07
+ angles 0 60.609 0
 }
