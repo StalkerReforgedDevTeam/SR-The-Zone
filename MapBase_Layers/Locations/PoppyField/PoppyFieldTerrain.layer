@@ -936,6 +936,164 @@ $grp PolylineShapeEntity {
    }
   }
  }
+ {
+  coords 5843.305 46.422 3919.01
+  Points {
+   ShapePoint "{6AAB1793DEF7764D}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6AAB1793DEF49E1F}" {
+    Position 12.501 3.028 -9.949
+   }
+   ShapePoint "{6AAB1793DCCB57CA}" {
+    Position 3.295 2.492 -22.752
+   }
+   ShapePoint "{6AAB1793DAD94611}" {
+    Position -29.321 0.047 -17.023
+   }
+   ShapePoint "{6AAB1793D8A2522C}" {
+    Position -31.035 0.366 -10.394
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{1A61D6F828325773}Prefabs/WEGenerators/Walls/Wooden/WG_WoodenFence_01.et" {
+    Flags 0x100003 0
+    coords 0 0 0
+    m_iSeed 24623
+    {
+     $grp SCR_DestructibleEntity : "{12377CDE9AA9E376}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenFence_01_4m.et" {
+      {
+       coords 9.14 1.666 -7.274
+       angles 0 38.516 0
+      }
+      {
+       coords 5.49 3.329 -19.521
+       angles 0 -235.811 0
+      }
+     }
+     $grp SCR_DestructibleEntity : "{6BF9F725B127D808}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenFence_01_4m_D.et" {
+      {
+       coords 6.106 0.462 -4.86
+       angles 0 38.516 0
+      }
+      {
+       coords 7.708 4.001 -16.257
+       angles 0 -235.811 0
+      }
+     }
+     SCR_DestructibleEntity : "{8D66287EE8B4C914}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenFence_01_Pole.et" {
+      coords -31.102 0.373 -10.249
+      angles 0 -114.765 0
+     }
+     $grp SCR_DestructibleEntity : "{F3AC596DBEE14810}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenFence_01_8m.et" {
+      {
+       coords 0 0 0
+       angles 0 38.516 0
+      }
+      {
+       coords 12.171 2.892 -9.687
+       angles 0 -235.811 0
+      }
+      {
+       coords 3.275 2.485 -22.783
+       angles 0 -169.979 0
+      }
+      {
+       coords -4.508 0.702 -21.408
+       angles 0 -169.979 0
+      }
+      {
+       coords -12.291 -0.125 -20.032
+       angles 0 -169.979 0
+      }
+      {
+       coords -20.074 -0.255 -18.657
+       angles 0 -169.979 0
+      }
+      {
+       coords -27.857 -0.03 -17.282
+       angles 0 -114.765 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 5826.958 47.187 3941.94
+  Points {
+   ShapePoint "{6AAB1793EE93B94D}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6AAB1793EE93C564}" {
+    Position 10.371 -0.199 0.584
+   }
+   ShapePoint "{6AAB1793ECBD2922}" {
+    Position 21.391 -0.409 -10.175
+   }
+   ShapePoint "{6AAB1793EB2ED4F4}" {
+    Position 16.181 -0.77 -23.255
+   }
+   ShapePoint "{6AAB1793E9E320B0}" {
+    Position 6.708 -0.718 -22.086
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{1A61D6F828325773}Prefabs/WEGenerators/Walls/Wooden/WG_WoodenFence_01.et" {
+    Flags 0x100003 0
+    coords 0 0 0
+    m_iSeed 7399
+    {
+     SCR_DestructibleEntity : "{12377CDE9AA9E376}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenFence_01_4m.et" {
+      coords 18.489 -0.623 -17.625
+      angles 0 -247.705 0
+     }
+     $grp SCR_DestructibleEntity : "{62FAEE07088DB6C5}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenFence_01_2m.et" {
+      {
+       coords 7.929 -0.163 0.447
+       angles 0 -3.226 0
+      }
+      {
+       coords 16.994 -0.729 -21.273
+       angles 0 -247.705 0
+      }
+      {
+       coords 8.35 -0.744 -22.259
+       angles 0 -174.01 0
+      }
+     }
+     SCR_DestructibleEntity : "{8D66287EE8B4C914}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenFence_01_Pole.et" {
+      coords 6.464 -0.713 -22.061
+      angles 0 -174.01 0
+     }
+     $grp SCR_DestructibleEntity : "{F3AC596DBEE14810}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenFence_01_8m.et" {
+      {
+       coords 0 0 0
+       angles 0 -3.226 0
+      }
+      {
+       coords 9.887 -0.192 0.557
+       angles 0 43.013 0
+      }
+      {
+       coords 15.695 -0.341 -4.861
+       angles 0 43.013 0
+      }
+      {
+       coords 21.502 -0.411 -10.278
+       angles 0 -247.705 0
+      }
+      {
+       coords 16.25 -0.767 -23.087
+       angles 0 -174.01 0
+      }
+     }
+    }
+   }
+  }
+ }
 }
 $grp SplineShapeEntity {
  {
@@ -2918,7 +3076,6 @@ $grp SplineShapeEntity {
       {
        coords 25.05 -3.066 0.136
        angles 0.088 -9.031 -1.323
-       scale 1
       }
       {
        coords 38.372 -4.933 -1.458
@@ -4271,7 +4428,6 @@ $grp SplineShapeEntity {
       {
        coords 30.438 -7.319 22.441
        angles -1.906 -129.928 1.089
-       scale 1
       }
       {
        coords 45.746 -8.598 18.806
@@ -4481,7 +4637,6 @@ $grp SplineShapeEntity {
       {
        coords 18.919 -4.017 11.229
        angles 0.797 -134.081 0.139
-       scale 1
       }
       {
        coords 7.743 -3.248 13.58
@@ -4563,12 +4718,10 @@ $grp SplineShapeEntity {
       {
        coords 57.073 -6.998 11.337
        angles -0.633 140.86 -0.933
-       scale 1
       }
       {
        coords 69.122 -2.973 0.836
        angles -2.312 -11.888 0.633
-       scale 1
       }
       {
        coords 81.545 0.191 -6.507
@@ -5135,7 +5288,6 @@ $grp SplineShapeEntity {
       {
        coords 223.6 4.745 -4.791
        angles 1.221 124.336 -1.858
-       scale 1
       }
       {
        coords 240.948 2.419 5.92
@@ -5394,7 +5546,7 @@ $grp SplineShapeEntity {
      $grp Tree : "{960EA50FD57CD7D5}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_1sw.et" {
       {
        coords 238.386 -0.745 -28.845
-       angles 1.899 77.203 -0
+       angles 1.899 77.203 0
        scale 1.068
       }
       {
@@ -5486,17 +5638,17 @@ $grp SplineShapeEntity {
      $grp Tree : "{9C6CE0F73E3AED80}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_pinus_sylvestris_1f.et" {
       {
        coords 6.019 -1.66 5.689
-       angles 0.919 104.637 -0
+       angles 0.919 104.637 0
        scale 0.939
       }
       {
        coords 8.992 -5.643 23.945
-       angles -0.728 -68.227 -0
+       angles -0.728 -68.227 0
        scale 1.019
       }
       {
        coords 96.421 0.667 14.108
-       angles 1.566 -55.142 -0
+       angles 1.566 -55.142 0
        scale 0.869
       }
       {
@@ -5521,12 +5673,12 @@ $grp SplineShapeEntity {
       }
       {
        coords 213.161 2.279 -51.717
-       angles 0.713 28.225 -0
+       angles 0.713 28.225 0
        scale 0.948
       }
       {
        coords 202.435 2.655 -52.114
-       angles 1.756 -13.7 -0
+       angles 1.756 -13.7 0
        scale 0.912
       }
       {
@@ -5541,7 +5693,7 @@ $grp SplineShapeEntity {
       }
       {
        coords 144.535 2.655 -28.733
-       angles -0.332 -137.344 -0
+       angles -0.332 -137.344 0
        scale 1.172
       }
       {
@@ -6512,7 +6664,6 @@ $grp SplineShapeEntity {
       {
        coords 37.198 -5.702 6.804
        angles 1.828 76.05 -2.214
-       scale 1
       }
       {
        coords 0.11 -1.118 6.123
@@ -6556,7 +6707,6 @@ $grp SplineShapeEntity {
       {
        coords 105.097 2.269 2.467
        angles 2.56 109.669 2.656
-       scale 1
       }
       {
        coords 106.797 2.251 3.02
