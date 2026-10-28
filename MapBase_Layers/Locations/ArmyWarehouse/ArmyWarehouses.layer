@@ -1494,6 +1494,10 @@ SCR_DestructibleBuildingEntity : "{37BEB3B96136A077}Prefabs/Houses/House_Individ
 StaticModelEntity : "{3F2B57610C94E335}Prefabs/Structures/Houses/Shed/Shed_03/Dst/Shed_03_Wide_Ruin.et" {
  coords 5575.349 42.969 5522.417
 }
+GenericEntity : "{3FB52C2FC3CD951D}Prefabs/Vehicles/mi8/armst_mi8_static.et" {
+ coords 5847.466 45.731 5665.934
+ angles -11.642 59.369 0
+}
 StaticModelEntity : "{4806B3818F1CD46C}Prefabs/Structures/Houses/Shed/Shed_03/Dst/Shed_03_Ruin_base.et" {
  coords 5572.65 42.969 5521.792
 }
@@ -1511,6 +1515,10 @@ SCR_DestructibleBuildingEntity : "{4C3D7EBFFE1C669D}Prefabs/Houses/villages/vill
 SCR_DestructibleBuildingEntity : "{4D9FF123304368AB}Prefabs/Houses/besedki/kinder_besedka_low.et" {
  coords 5604.955 42.969 5406.5
  angles 0 97.006 0
+}
+SCR_DestructibleBuildingEntity : "{4F9FCEBFBECD27D2}Prefabs/Structures/Houses/Military/Barracks/Barracks_Large.et.et" {
+ coords 5894.052 -0.523 5165.325
+ angles 0 -1.296 0
 }
 SCR_DestructibleBuildingEntity : "{4FDDE496DACE1BA9}Prefabs/Houses/House_Individual_Brus/House_Individual_Brus_Modul_1_1.et" {
  coords 5618.066 0 5448.228
@@ -1565,6 +1573,10 @@ SCR_DestructibleBuildingEntity : "{6EC8D7012920EF28}Prefabs/Houses/House_Individ
 SCR_DestructibleBuildingEntity : "{71095B878B70EFAA}Prefabs/Houses/villages/village_stone_house_base_5.et" {
  coords 5523.403 42.968 5521.352
  angles 0 -98.849 0
+}
+GenericEntity : "{738D5D674AA06628}Prefabs/Vehicles/liaz2/armst_liaz677_1_wreck.et" {
+ coords 5904.743 47.176 5404.295
+ angles 4.647 -45.707 0
 }
 $grp StaticModelEntity : "{7EDF0CEE09EC7258}Prefabs/Structures/Military/Houses/GuardTower_01/GuardTower_01_Ruin.et" {
  {
@@ -1763,8 +1775,26 @@ SCR_DestructibleBuildingEntity : "{B660BEC050A9F174}Prefabs/Houses/House_Individ
  coords 5547.33 -0.032 5433.283
  angles 0 119.303 0
 }
+$grp GenericEntity : "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et" {
+ {
+  coords 5906.355 47.813 5414.286
+  angles 0 -6.315 4.502
+ }
+ {
+  coords 5910.387 47.543 5414.057
+  angles 0 29.107 4.196
+ }
+ {
+  coords 5903.064 47.869 5411.978
+  angles 0 -52.373 -2.09
+ }
+}
 StaticModelEntity : "{BE34698CFA200F28}Prefabs/Structures/Houses/Shed/Shed_01/Dst/Shed_01_Ruin.et" {
  coords 5572.906 42.969 5518.519
+}
+GenericEntity : "{BFC48B664ED362EE}Prefabs/Structures/Military/Camps/Canvas_Covers/CanvasCover_Medium_Base.et" {
+ coords 5906.198 47.95 5415.925
+ angles -3.346 75.009 3.428
 }
 SCR_DestructibleBuildingEntity : "{C368835A6F11EF41}Prefabs/Structures/Ruins/Barn_Ruin_01/Barn_Ruin_01_V1.et" {
  coords 5597.465 0 5507.304
@@ -1835,6 +1865,10 @@ $grp Tree : "{DB49D8B142D18E86}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_b
   scale 0.986
  }
 }
+GenericEntity : "{E1527A4842CA39A7}Prefabs/Vehicles/liaz2/armst_liaz677_2_wreck.et" {
+ coords 5913.662 46.82 5407.329
+ angles 2.561 0 0
+}
 SCR_DestructibleBuildingEntity : "{E50AA3C83633B05A}Prefabs/Structures/Industrial/Houses/Workshop_02/Workshop_02_ruined.et" {
  coords 5514.141 0 5503.772
  angles 0 139.673 0
@@ -1844,6 +1878,10 @@ StaticModelEntity : "{EEC1A442775E1F9C}Prefabs/Structures/Infrastructure/Naval/S
 }
 SCR_DestructibleBuildingEntity : "{EF0C2B93FAA8AF0B}Prefabs/Structures/Ruins/House_Ruin_2I01/House_Ruin_2I01_V3.et" {
  coords 5549.541 0 5541.534
+}
+GenericEntity : "{F0AE33DE2A24CE21}Prefabs/Vehicles/raf2203/armst_raf2203_1_wreck.et" {
+ coords 5901.446 48.774 5421.113
+ angles 5.725 0.169 4.965
 }
 SCR_DestructibleBuildingEntity : "{F6D0F2AC070CC033}Prefabs/agroprom/sarai_3.et" {
  coords 5535.004 42.968 5503.419
