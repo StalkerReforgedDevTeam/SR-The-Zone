@@ -9829,6 +9829,16 @@ GenericEntity Ural4320_fuel_tank_CIV_fuel_Orange_6AAA0EA434B40121 : "{380E9A5066
  coords 3427.203 39.289 5477.331
  angles 0 2.751 0
 }
+$grp SCR_DestructibleBuildingEntity : "{38A5F3E4578087AB}Prefabs/Structures/Houses/Town/House_Town_E_2I01/House_Town_E_2I01.et" {
+ {
+  coords 3534.641 0 5489.353
+  angles 0 1.365 0
+ }
+ {
+  coords 3546.766 0 5488.923
+  angles 0 1.955 0
+ }
+}
 GenericEntity : "{399875DC824B6478}Prefabs/Vehicles/gaz24/armst_gaz24_2_wreck.et" {
  coords 3381.404 40 4667.678
 }
@@ -10824,8 +10834,15 @@ Vehicle Ural1 : "{4597626AF36C0858}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320.et
 SCR_DestructibleBuildingEntity : "{45E53C8D7E30FB5F}Prefabs/Vehicles/azlk412/armst_azlk412_wreck.et" {
  coords 3374.828 40 4668.047
 }
+SCR_DestructibleBuildingEntity : "{4D6D06CAD0439114}Prefabs/Structures/Cultural/Fountains/Fountain_01.et" {
+ coords 3546.828 0 5456.219
+}
 StaticModelEntity : "{4DE187A3508D5A46}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_small_base.et" {
  coords 3418.797 46.086 5506.915
+}
+SCR_DestructibleBuildingEntity : "{54F1C704EB440885}Prefabs/Structures/Houses/Town/House_Town_E_2I02/House_Town_E_2I02.et" {
+ coords 3568.368 0 5479.045
+ angles 0 -138.041 0
 }
 SCR_DestructibleBuildingEntity : "{71F7974F325DE404}Prefabs/Vehicles/vaz2105/armst_vaz2105_1.et" {
  coords 3349.611 40 4674.281
@@ -10903,7 +10920,7 @@ $grp Tree : "{9D6B4E946D1074EA}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_p
   scale 1.181
  }
  {
-  coords 3357.051 -0 4705.725
+  coords 3357.051 0 4705.725
   angles -0.982 -96.375 1.581
   scale 1.181
  }
@@ -10918,7 +10935,7 @@ $grp Tree : "{9D6B4E946D1074EA}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_p
   scale 1.181
  }
  {
-  coords 3388.777 -0 4705.785
+  coords 3388.777 0 4705.785
   angles -0.982 -96.375 1.581
   scale 1.181
  }
@@ -10933,12 +10950,12 @@ $grp Tree : "{9D6B4E946D1074EA}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_p
   scale 1.181
  }
  {
-  coords 3388.515 -0 4675.502
+  coords 3388.515 0 4675.502
   angles -0.982 -96.375 1.581
   scale 1.181
  }
  {
-  coords 3388.539 -0 4669.737
+  coords 3388.539 0 4669.737
   angles -0.982 -96.375 1.581
   scale 1.181
  }
@@ -11184,12 +11201,12 @@ $grp Tree : "{DA7492F3E6B63251}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_
   scale 0.962
  }
  {
-  coords 3357.127 -0 4705.012
+  coords 3357.127 0 4705.012
   angles -0.615 -94.502 -1.226
   scale 0.962
  }
  {
-  coords 3352.609 -0 4704.629
+  coords 3352.609 0 4704.629
   angles -0.615 -94.502 -1.226
   scale 0.962
  }
@@ -11230,6 +11247,10 @@ $grp SCR_DestructibleBuildingEntity : "{E318E268A6F6F316}Prefabs/Structures/Hous
   coords 3347.101 0.001 5488.636
   angles 0 4.795 0
  }
+}
+SCR_DestructibleBuildingEntity : "{E7EC0E80F0645DFE}Prefabs/Structures/Houses/Town/House_Town_E_2I03/House_Town_E_2I03.et" {
+ coords 3577.835 0 5454.025
+ angles 0 -87.446 0
 }
 GameEntity : "{EE5C0DF8F62CE5E6}Prefabs/Method/Props/Camps/Fireplace_Loiters_02.et" {
  coords 3488.25 40 5359.065
