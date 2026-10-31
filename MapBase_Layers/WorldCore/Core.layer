@@ -6001,14 +6001,6 @@ $grp PolylineShapeEntity {
        angles 0 -184.248 0
       }
       {
-       coords 2.314 0.114 -91.542
-       angles 0 -184.248 0
-      }
-      {
-       coords 0.3 0.18 -91.691
-       angles 0 -184.248 0
-      }
-      {
        coords -1.715 0.241 -91.841
        angles 0 -184.248 0
       }
@@ -60812,6 +60804,50 @@ $grp SplineShapeEntity {
   IsClosed 1
   {
    LakeGeneratorEntity : "{D0224BC8D6B29461}Prefabs/WEGenerators/Water/Lake/LG_CainLake_01.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 6242.553 36.485 5444.218
+  Points {
+   ShapePoint "{6ABEB5D6F02E0576}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6ABEB5D6F02E3366}" {
+    Position 16.255 0.067 4.01
+   }
+   ShapePoint "{6ABEB5D6FF3A6699}" {
+    Position 49.868 5.786 1.82
+   }
+   ShapePoint "{6ABEB5D6FEE74649}" {
+    Position 74.006 11.541 -14.724
+   }
+   ShapePoint "{6ABEB5D6FE93C226}" {
+    Position 78.273 16.855 -45.724
+   }
+   ShapePoint "{6ABEB5D6FE456E65}" {
+    Position 26.622 8.749 -63.447
+   }
+   ShapePoint "{6ABEB5D6FE07EC69}" {
+    Position -7.957 11.093 -60.855
+   }
+   ShapePoint "{6ABEB5D6FDC07F50}" {
+    Position -22.708 8.472 -58.875
+   }
+   ShapePoint "{6ABEB5D6FD8A255D}" {
+    Position -31.754 4.722 -45.688
+   }
+   ShapePoint "{6ABEB5D6FD4E4D91}" {
+    Position -27.882 2.157 -18.002
+   }
+   ShapePoint "{6ABEB5D6FCB5F07E}" {
+    Position -3.404 0.347 0.053
+   }
+  }
+  IsClosed 1
+  {
+   LakeGeneratorEntity : "{1F2254A7C9C8AA57}Prefabs/WEGenerators/Water/Lake/LG_Lake_01.et" {
     coords 0 0 0
    }
   }
