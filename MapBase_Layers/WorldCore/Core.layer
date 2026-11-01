@@ -8535,7 +8535,7 @@ $grp SplineShapeEntity {
       }
       {
        coords 9.381 1.078 252.396
-       angles -1.69 133.697 -0
+       angles -1.69 133.697 0
        scale 0.962
       }
       {
@@ -9646,7 +9646,6 @@ $grp SplineShapeEntity {
       {
        coords 52.933 3.273 350.441
        angles -1.664 -10.712 0.713
-       scale 1
       }
       {
        coords 22.476 3.148 328.51
@@ -10971,7 +10970,6 @@ $grp SplineShapeEntity {
       {
        coords 166.399 6.786 100.544
        angles 1.409 -9.58 0.666
-       scale 1
       }
       {
        coords 168.595 8.135 111.643
@@ -11741,7 +11739,6 @@ $grp SplineShapeEntity {
       {
        coords 191.343 11.675 -9.791
        angles 0.498 7.735 -1.897
-       scale 1
       }
       {
        coords 196.612 11.835 17.388
@@ -15898,7 +15895,6 @@ $grp SplineShapeEntity {
       {
        coords 93.908 1.61 275.638
        angles -0.562 -138.751 -0.774
-       scale 1
       }
       {
        coords 88.524 1.571 267.299
@@ -16418,7 +16414,6 @@ $grp SplineShapeEntity {
       {
        coords -8.725 2.314 158.686
        angles -0.405 171.656 0.987
-       scale 1
       }
       {
        coords -6.106 2.772 158.933
@@ -18058,7 +18053,6 @@ $grp SplineShapeEntity {
       {
        coords 260.447 16.12 64.093
        angles 0.614 140.904 -2.284
-       scale 1
       }
       {
        coords 265.098 16.41 71.595
@@ -50538,5 +50532,29 @@ $grp GenericEntity : "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLar
  {
   coords 6068.625 46.312 5744.095
   angles 0 8.78 0
+ }
+}
+$grp GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01.et" {
+ {
+  coords 3427.614 40 5418.226
+  angles 0 173.27 0
+ }
+ {
+  coords 3396.936 40 5419.371
+  angles 0 -170.89 0
+ }
+}
+GenericEntity : "{9F9924B626C5FA2C}Prefabs/Compositions/Slotted/SlotRoadLarge/Checkpoint_L_USSR_01.et" {
+ coords 3359.686 40 5410.528
+ angles 0 -87.213 0
+ {
+  GenericEntity {
+   ID "5CC72E06418CFE24"
+   {
+    Turret Tripod_6T7_NSV_6AAA0EA1419640E1 {
+     ID "5CCCBEDD771835C6"
+    }
+   }
+  }
  }
 }
