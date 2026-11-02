@@ -6644,6 +6644,10 @@ $grp SCR_DestructibleBuildingEntity : "{4E68FA4CAE8833F8}Prefabs/Structures/Infr
   angles 20.473 -92.419 0
  }
 }
+GenericEntity : "{4E847FB9C036EE30}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_02_20ft_Base.et" {
+ coords 4805.026 29.46 4226.67
+ angles 0 -53.72 0
+}
 GenericEntity : "{4FB9F658712A9D61}Prefabs/Props/Furniture/Cupboard_01/Cupboard_01_E.et" {
  coords 4780.512 30 4292.497
  angles 0 179.857 0
@@ -6749,8 +6753,18 @@ $grp Tree : "{5813D69492B979A3}Prefabs/Vegetation/Bush/b_corylus_avellana_2_aut.
   angles 0 89.719 0
  }
 }
-GenericEntity : "{5B17515707F080E0}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_02_20ft_Starline.et" {
- coords 4740.016 30 4348.41
+$grp GenericEntity : "{5B17515707F080E0}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_02_20ft_Starline.et" {
+ {
+  coords 4740.016 30 4348.41
+ }
+ {
+  coords 4794.995 29.567 4234.429
+  angles 0 -54.859 0
+ }
+ {
+  coords 4799.998 29.611 4230.631
+  angles 0 -53.124 0
+ }
 }
 StaticModelEntity : "{5B66620F4D614BE1}Prefabs/Structures/Walls/Concrete/SilageWall_01/SilageWall_01_base.et" {
  coords 4870.752 -1.279 4086.535
@@ -7431,6 +7445,48 @@ $grp GenericEntity : "{937999008F178E82}Prefabs/Props/Military/Sandbags/Sandbag_
  {
   coords 4740.355 26 4243.012
   angles 0 102.155 0
+ }
+}
+$grp GenericEntity : "{939E032C3B6E837A}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_02_20ft_Chernarussian.et" {
+ {
+  coords 4804.954 31.998 4226.708
+  angles 0 -54.439 0
+ }
+ {
+  coords 4799.778 32.144 4230.611
+  angles 0 -54.439 0
+ }
+ {
+  coords 4794.753 32.1 4234.315
+  angles 0 -54.439 0
+ }
+ {
+  coords 4790.287 30 4248.258
+  angles 0 -3.434 0
+ }
+ {
+  coords 4790.441 32.533 4248.102
+  angles 0 -2.038 0
+ }
+ {
+  coords 4739.952 32.533 4354.589
+  angles 0 -1.107 0
+ }
+ {
+  coords 4739.894 32.533 4348.423
+  angles 0 -0.014 0
+ }
+ {
+  coords 4739.854 32.551 4342.172
+  angles 0 -0.014 0
+ }
+ {
+  coords 4739.922 32.538 4335.905
+  angles 0 -0.014 0
+ }
+ {
+  coords 4739.959 32.533 4329.722
+  angles 0 -0.014 0
  }
 }
 GenericEntity : "{93CAB12582D22293}Prefabs/Vegetation/Plant/c_coppice_deciduous_large_01.et" {
