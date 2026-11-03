@@ -1060,9 +1060,15 @@ SCR_DestructibleBuildingEntity : "{0E439CC26813B6EC}Prefabs/Houses/House_Individ
  coords 5780.161 0 2652.095
  angles 0 97.068 0
 }
-SCR_IndestructibleEnvironmentalEntity : "{1200EAC7C79003AF}Prefabs/Rocks/Granite/GraniteRock_03_V2.et" {
- coords 5742.019 25.038 2636.725
- angles 0 38.628 0
+$grp SCR_IndestructibleEnvironmentalEntity : "{1200EAC7C79003AF}Prefabs/Rocks/Granite/GraniteRock_03_V2.et" {
+ {
+  coords 5742.019 25.038 2636.725
+  angles 0 38.628 0
+ }
+ {
+  coords 5857.748 21.331 2549.87
+  angles -9.495 -159.997 9.055
+ }
 }
 $grp SCR_IndestructibleEnvironmentalEntity : "{1F0AA3EA77753B5D}Prefabs/Rocks/Granite/Granite_Boulder_02.et" {
  {
@@ -1099,6 +1105,18 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{1FFB6B5828D2B35F}Prefabs/Rocks/Gr
   coords 5733.826 27.794 2655.234
   angles 2.906 50.734 16.18
  }
+ {
+  coords 5871.426 23.502 2534.677
+  angles -5.637 -148.059 3.972
+ }
+ {
+  coords 5860.641 18.925 2520.069
+  angles -10.916 -137.448 2.026
+ }
+ {
+  coords 5766.084 13.938 2424.246
+  angles 5.183 6.422 -2.596
+ }
 }
 SCR_IndestructibleEnvironmentalEntity : "{221F1E889AAF89B2}Prefabs/Rocks/Granite/Granite_Cluster_01_V2.et" {
  coords 5756.003 0 2638.928
@@ -1115,6 +1133,14 @@ $grp SCR_DestructibleBuildingEntity : "{3177788C81331648}Prefabs/Industrial/buil
   coords 5813.84 32 2967.347
   angles 0 -94.331 0
  }
+}
+GenericEntity : "{3386EAA823BE462E}Prefabs/Props/Wrecks/UAZ469_wreck/UAZ469_wreck_static.et" {
+ coords 5771.727 29.741 2726.594
+ angles 0 58.577 0
+}
+GenericEntity : "{361EEFE7B91BF9E8}Prefabs/Compositions/Misc/SubCompositions/BarrelMetalGroup_01.et" {
+ coords 5757.75 27.574 2814.247
+ angles 0 0 0
 }
 GameEntity : "{3A3F0E0AC9C63E10}Prefabs/Method/Props/Camps/Fireplace_Loiters_Burned house_03.et" {
  coords 5813.369 32 2977.397
@@ -1183,6 +1209,25 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{450AAF1BC197F8C9}Prefabs/Rocks/Gr
   angles 0 0 6.491
   scale 8.5
  }
+ {
+  coords 5824.725 0.074 2546.566
+  angles 0 -51.708 0
+  scale 8.5
+ }
+ {
+  coords 5760.287 0 2477.928
+  angles 0 0 1.709
+  scale 8.5
+ }
+ {
+  coords 5855.771 -0.467 2433.925
+  angles -9.74 0.064 -4.937
+  scale 8.5
+ }
+}
+GenericEntity : "{48D88E385C227341}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Filled_01.et" {
+ coords 5752.082 28.244 2825.601
+ angles -87.765 0 0
 }
 SCR_DestructibleBuildingEntity : "{4FDDE496DACE1BA9}Prefabs/Houses/House_Individual_Brus/House_Individual_Brus_Modul_1_1.et" {
  coords 5793.253 0 2644.131
@@ -1234,6 +1279,45 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{533CDABD77C4C43E}Prefabs/Rocks/Gr
   angles 24.332 91.754 -3.634
   scale 1.4
  }
+ {
+  coords 5790.061 19.119 2831.487
+  angles 38.896 -138.077 -1.733
+  scale 1.4
+ }
+ {
+  coords 5802.518 18.718 2819.867
+  angles 38.896 -138.077 -1.733
+  scale 1.4
+ }
+ {
+  coords 5834.851 20.058 2821.29
+  angles 35.805 116.848 -13.344
+  scale 1.4
+ }
+ {
+  coords 5834.156 21.986 2852.589
+  angles 40.993 67.153 6.642
+  scale 1.4
+ }
+ {
+  coords 5820.205 20.201 2867.794
+  angles 39.026 33.762 -5.931
+  scale 1.4
+ }
+ {
+  coords 5760.835 13.877 2854.209
+  angles 22.23 -140.712 -3.264
+  scale 1.4
+ }
+ {
+  coords 5778.392 16.363 2901.827
+  angles 19.277 12.5 -6.722
+  scale 1.4
+ }
+}
+GenericEntity : "{6BDDFE9FA1D4B2F0}Prefabs/Props/Wrecks/UAZ469_wreck/UAZ469_wreck.et" {
+ coords 5757.588 29.597 2733.109
+ angles 1.147 0 0
 }
 SCR_DestructibleBuildingEntity : "{6EC8D7012920EF28}Prefabs/Houses/House_Individual_Brus/House_Individual_Brus_Modul_2.et" {
  coords 5783.722 -0.064 2627.697
@@ -1252,6 +1336,9 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{735E970ACBB1B473}Prefabs/Rocks/Gr
  {
   coords 5760.26 1.296 2642.017
  }
+}
+GenericEntity : "{82DDDA574CB4F0D9}Prefabs/Props/Industrial/BarrelFuel_01_Base.et" {
+ coords 5751.092 27.992 2823.825
 }
 $grp SCR_IndestructibleEnvironmentalEntity : "{9633134198F3AB1A}Prefabs/Rocks/Granite/GraniteRock_01.et" {
  {
@@ -1277,6 +1364,22 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{9633134198F3AB1A}Prefabs/Rocks/Gr
  }
  {
   coords 5738.312 27.087 2862.925
+ }
+ {
+  coords 5854.267 16.455 2517.234
+  angles -11.374 160.616 6.228
+ }
+ {
+  coords 5784.636 14.209 2547.417
+  angles 0 -51.708 0
+ }
+ {
+  coords 5794.649 13.664 2543.765
+  angles 0 18.634 -3.942
+ }
+ {
+  coords 5769.571 13.715 2430.859
+  angles 0 -53.901 -12.373
  }
 }
 $grp SCR_IndestructibleEnvironmentalEntity : "{A7606C7E96A39B5D}Prefabs/Rocks/Granite/Granite_Boulder_02_V2.et" {
@@ -1305,6 +1408,14 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{A7606C7E96A39B5D}Prefabs/Rocks/Gr
   coords 5754.988 0 2645.305
  }
 }
+GenericEntity : "{A9CF5E8C5D91C476}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Group_Crate_01.et" {
+ coords 5749.83 28.096 2825.829
+ angles 2.557 0 2.138
+}
+GenericEntity : "{B350840088390760}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Group_Stack_01.et" {
+ coords 5745.652 28.515 2831.614
+ angles 2.665 -36.573 4.473
+}
 $grp SCR_IndestructibleEnvironmentalEntity : "{BA73CB6DADFB194E}Prefabs/Rocks/Granite/Granite_Cluster_Large_01_V2.et" {
  {
   coords 5747.011 0 2636.948
@@ -1320,6 +1431,11 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{BA73CB6DADFB194E}Prefabs/Rocks/Gr
  }
  {
   coords 5739.368 0 2600.67
+  scale 5.3
+ }
+ {
+  coords 5813.766 -1.432 2378.594
+  angles -3.885 -53.048 -6.756
   scale 5.3
  }
 }
@@ -1462,6 +1578,18 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{D52660D5BB19E3CA}Prefabs/Rocks/Gr
  {
   coords 5750.059 25 2628.386
  }
+ {
+  coords 5797.66 10.959 2403.549
+  angles 0 -53.901 -5.24
+ }
+ {
+  coords 5796.888 10.413 2396.751
+  angles 0 -53.901 -5.24
+ }
+}
+GenericEntity : "{D93EF3E97E06D435}Prefabs/Compositions/Misc/SubCompositions/BarrelClutter_04.et" {
+ coords 5750.589 28.182 2827.903
+ angles 5.844 0 2.253
 }
 SCR_DestructibleBuildingEntity : "{DA18BC3C9738C614}Prefabs/Industrial/builds/bitovka_wheels.et" {
  coords 5808.047 32 2985.344
@@ -1656,8 +1784,14 @@ $grp Tree : "{DB49D8B142D18E86}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_b
   scale 0.883
  }
 }
-SCR_IndestructibleEnvironmentalEntity : "{DF692A1784D6B324}Prefabs/Rocks/Granite/GraniteRock_01_V2.et" {
- coords 5733.873 28.017 2647.313
+$grp SCR_IndestructibleEnvironmentalEntity : "{DF692A1784D6B324}Prefabs/Rocks/Granite/GraniteRock_01_V2.et" {
+ {
+  coords 5733.873 28.017 2647.313
+ }
+ {
+  coords 5868.774 24.296 2541.941
+  angles -14.846 161.062 -1.13
+ }
 }
 $grp Tree : "{FE0BD218E0E417A3}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_carpinus_betulus_3d.et" {
  {
@@ -1730,6 +1864,42 @@ $grp Tree : "{FE0BD218E0E417A3}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_c
   Flags 0 0x80000
   coords 5754.907 25 2652.459
   angles 0.616 -104.659 -8.465
+  scale 1.083
+ }
+ {
+  Flags 0 0x80000
+  coords 5828.64 15.656 2539.057
+  angles 0.616 -156.367 -8.465
+  scale 1.083
+ }
+ {
+  Flags 0 0x80000
+  coords 5814.71 13.559 2403.066
+  angles -11.349 -158.858 96.381
+  scale 1.083
+ }
+ {
+  Flags 0 0x80000
+  coords 5749.985 14.493 2472.053
+  angles 2.269 -104.67 -8.898
+  scale 1.083
+ }
+ {
+  Flags 0 0x80000
+  coords 5764.576 14.074 2475.216
+  angles 2.269 -104.67 -8.898
+  scale 1.083
+ }
+ {
+  Flags 0 0x80000
+  coords 5845.499 15.965 2427.993
+  angles -1.644 -105.112 2.208
+  scale 1.083
+ }
+ {
+  Flags 0 0x80000
+  coords 5860.043 16.684 2431.31
+  angles -1.644 -105.112 2.208
   scale 1.083
  }
 }
