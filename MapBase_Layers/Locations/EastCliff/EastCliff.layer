@@ -1142,9 +1142,14 @@ GenericEntity : "{361EEFE7B91BF9E8}Prefabs/Compositions/Misc/SubCompositions/Bar
  coords 5757.75 27.574 2814.247
  angles 0 0 0
 }
-GameEntity : "{3A3F0E0AC9C63E10}Prefabs/Method/Props/Camps/Fireplace_Loiters_Burned house_03.et" {
- coords 5813.369 32 2977.397
- angles 0 -157.615 0
+$grp GameEntity : "{3A3F0E0AC9C63E10}Prefabs/Method/Props/Camps/Fireplace_Loiters_Burned house_03.et" {
+ {
+  coords 5813.369 32 2977.397
+  angles 0 -157.615 0
+ }
+ {
+  coords 5805.072 30.223 2719.597
+ }
 }
 $grp Tree : "{425761285F36BF16}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_1s.et" {
  {
@@ -1418,13 +1423,23 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{A7606C7E96A39B5D}Prefabs/Rocks/Gr
   coords 5754.988 0 2645.305
  }
 }
-GenericEntity : "{A9CF5E8C5D91C476}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Group_Crate_01.et" {
- coords 5749.83 28.096 2825.829
- angles 2.557 0 2.138
+$grp GenericEntity : "{A9CF5E8C5D91C476}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Group_Crate_01.et" {
+ {
+  coords 5749.83 28.096 2825.829
+  angles 2.557 0 2.138
+ }
+ {
+  coords 5753.778 25 2608.836
+ }
 }
-GenericEntity : "{B350840088390760}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Group_Stack_01.et" {
- coords 5745.652 28.515 2831.614
- angles 2.665 -36.573 4.473
+$grp GenericEntity : "{B350840088390760}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Group_Stack_01.et" {
+ {
+  coords 5745.652 28.515 2831.614
+  angles 2.665 -36.573 4.473
+ }
+ {
+  coords 5753.062 25 2606.617
+ }
 }
 $grp SCR_IndestructibleEnvironmentalEntity : "{BA73CB6DADFB194E}Prefabs/Rocks/Granite/Granite_Cluster_Large_01_V2.et" {
  {
@@ -1802,6 +1817,10 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{DF692A1784D6B324}Prefabs/Rocks/Gr
   coords 5868.774 24.296 2541.941
   angles -14.846 161.062 -1.13
  }
+}
+GameEntity : "{EE5C0DF8F62CE5E6}Prefabs/Method/Props/Camps/Fireplace_Loiters_02.et" {
+ coords 5760.404 25 2609.393
+ angles 0 -177.89 0
 }
 $grp Tree : "{FE0BD218E0E417A3}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_carpinus_betulus_3d.et" {
  {
