@@ -51,7 +51,7 @@ GenericWorldEntity world {
    Enabled 1
    WeatherStateMachine "{145430BBF1620448}TerrainsNEW/Common/WeatherPresets/StateMachine/Actual_weather/WeatherStates.conf"
    "UTC TimeZone" -2.5
-   "Initial Day Time" 3.494
+   "Initial Day Time" 8
    "DST Offset" 2
    "Internal variant transition" 0
    "Internal subvariant 0" 0
@@ -50946,6 +50946,41 @@ $grp SplineShapeEntity {
    }
    ShapePoint "{6AC91852DA267D2C}" {
     Position -2.464 0.785 -20.69
+   }
+  }
+  IsClosed 1
+  {
+   LakeGeneratorEntity : "{D0224BC8D6B29461}Prefabs/WEGenerators/Water/Lake/LG_CainLake_01.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 5704.093 30.312 4221.748
+  Points {
+   ShapePoint "{6AC6792F9922647C}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6AC6792F992078B7}" {
+    Position 77.989 0.546 0.156
+   }
+   ShapePoint "{6AC6792F944ECAF2}" {
+    Position 118.793 6.047 36.154
+   }
+   ShapePoint "{6AC6792F95989F46}" {
+    Position 100.573 7.77 53.767
+   }
+   ShapePoint "{6AC6792F96A342E1}" {
+    Position -32.625 3.371 62.792
+   }
+   ShapePoint "{6AC6792F962783E8}" {
+    Position -90.003 2.931 54.594
+   }
+   ShapePoint "{6AC6792F967930D1}" {
+    Position -100.648 -2.26 -1.607
+   }
+   ShapePoint "{6AC6792F97D7C5E5}" {
+    Position -33.846 0.998 -1.529
    }
   }
   IsClosed 1
