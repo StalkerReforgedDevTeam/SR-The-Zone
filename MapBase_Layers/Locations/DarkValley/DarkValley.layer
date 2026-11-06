@@ -3919,6 +3919,26 @@ SCR_DestructibleBuildingEntity : "{80A5B37A1472B084}Prefabs/Structures/Industria
   }
  }
 }
+GenericEntity : "{835C000BF7ED3675}Prefabs/ZBK/KitFactory/KitBay/1Umin360Ind_GrGExt.et" {
+ coords 6712.089 30.077 2484.937
+ angles 0 0 47.402
+ {
+  GenericEntity {
+   ID "5F11062024694412"
+   coords 0 0 -0.002
+   {
+    GenericEntity {
+     ID "5DDAAE4019285AE2"
+     coords 0 0 0
+    }
+    GenericEntity {
+     ID "5DDAAE4019285AE0"
+     coords 0 0 0
+    }
+   }
+  }
+ }
+}
 GenericEntity : "{8544338BC20D09B4}Prefabs/Vehicles/ural/armst_ural_wheels.et" {
  coords 6628.911 28 2143.665
  angles 0 -15.311 0
@@ -7225,6 +7245,21 @@ $grp GenericEntity : "{EF2962FC3EFD9C17}Prefabs/Props/Industrial/CargoContainers
  {
   coords 6622.708 28 2103.978
   angles 2.955 -112.74 2.88
+ }
+}
+$grp GenericEntity : "{F205E4890E2A34BF}Prefabs/ZBK/KitFactory/KitWall/Wall2U760_r1.et" {
+ {
+  coords 6711.276 24.392 2486.75
+  angles -47.322 90.124 0.734
+ }
+ {
+  coords 6711.234 24.361 2483.181
+  angles -47.322 90.124 0.734
+ }
+ {
+  coords 6717.202 28.986 2484.894
+  angles 0.122 0.119 -42.675
+  scale 0.6
  }
 }
 SCR_DestructibleBuildingEntity : "{F885365EEA3AD315}Prefabs/Structures/Walls/Concrete/ConcreteRetainingWall_01/ConcreteRetainingWall_01_End.et" {

@@ -6592,6 +6592,73 @@ $grp PolylineShapeEntity {
    }
   }
  }
+ {
+  coords 6630.212 30 4338.474
+  Points {
+   ShapePoint "{6ACD431889747986}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6ACD431889747530}" {
+    Position -8.33 0 -0.482
+   }
+   ShapePoint "{6ACD43188487C6BB}" {
+    Position -8.824 0 32.993
+   }
+   ShapePoint "{6ACD4318868DAFCD}" {
+    Position -65.409 0.001 29.996
+   }
+   ShapePoint "{6ACD431887394636}" {
+    Position -64.347 0.001 -74.958
+   }
+   ShapePoint "{6ACD43188038416C}" {
+    Position -9.784 0 -78.223
+   }
+   ShapePoint "{6ACD4318816D950F}" {
+    Position -8.336 0 -42.702
+   }
+   ShapePoint "{6ACD4318824F1B5D}" {
+    Position 18.97 0 -39.332
+   }
+   ShapePoint "{6ACD431883D56AFE}" {
+    Position 16.798 0 1.062
+   }
+  }
+  IsClosed 1
+  {
+   LakeGeneratorEntity : "{0263A3344F9DCAAD}Prefabs/WEGenerators/Water/Lake/LG_DirtyDrainage_01.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 6609.066 30 4256.929
+  Points {
+   ShapePoint "{6ACD431BD5E6DE5D}" {
+    Position -3.488 0 -0.9
+   }
+   ShapePoint "{6ACD431BD5E6D750}" {
+    Position 24.603 0 -0.499
+   }
+   ShapePoint "{6ACD431BD7C3CE36}" {
+    Position 23.95 0 -43.312
+   }
+   ShapePoint "{6ACD431BD1F7AFF3}" {
+    Position 168.458 6.832 -44.197
+   }
+   ShapePoint "{6ACD431BD2290D09}" {
+    Position 175.062 0.308 -69.257
+   }
+   ShapePoint "{6ACD431BEDE30E65}" {
+    Position -4.813 0 -69.028
+   }
+  }
+  IsClosed 1
+  {
+   LakeGeneratorEntity : "{0263A3344F9DCAAD}Prefabs/WEGenerators/Water/Lake/LG_DirtyDrainage_01.et" {
+    coords 0 0 0
+   }
+  }
+ }
 }
 $grp SplineShapeEntity {
  {
@@ -50698,10 +50765,10 @@ $grp SplineShapeEntity {
     Position 668.677 -3.976 -540.148
    }
    ShapePoint "{6AC726855E9F64C1}" {
-    Position 852.335 -8.479 -530.263
+    Position 848.912 -8.802 -511.566
    }
    ShapePoint "{6AC726855D068A95}" {
-    Position 1008.635 -10.08 -455.448
+    Position 938.279 -9.144 -435.739
    }
    ShapePoint "{6AC726855C7BBABC}" {
     Position 1183.436 -7.774 -497.095
@@ -51119,6 +51186,18 @@ $grp SplineShapeEntity {
     coords 0 0 0
    }
   }
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{1C87C72319097FC1}Prefabs/Structures/Walls/Concrete/ConcreteRetainingWall_01/ConcreteRetainingWall_01_4m.et" {
+ {
+  coords 6619.697 2.476 4253.007
+  angles 0 0.961 0
+  scale 7.6
+ }
+ {
+  coords 6778.928 4.365 4201.292
+  angles 0 89.42 0
+  scale 7.6
  }
 }
 GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
