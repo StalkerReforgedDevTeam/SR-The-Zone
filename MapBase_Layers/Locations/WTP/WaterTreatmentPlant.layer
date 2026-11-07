@@ -1,16 +1,334 @@
+$grp SplineShapeEntity {
+ {
+  coords 6599.828 30 4258.32
+  Points {
+   ShapePoint "{6ACE7CB1028E277B}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6ACE7CB1028E4E33}" {
+    Position -35.259 0 1.882
+    Data {
+     SplinePointData SplinePointData {
+      InTangent -1.61 -0 1.878
+      OutTangent -12.006 -0 9.598
+     }
+    }
+   }
+   ShapePoint "{6ACE7CB1005395F7}" {
+    Position -38.113 0 34.51
+   }
+   ShapePoint "{6ACE7CB10EE6E64A}" {
+    Position -39.544 0 110.475
+   }
+   ShapePoint "{6ACE7CB179309EC7}" {
+    Position -35.012 -0.521 115.356
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{38FC6E018489D071}Prefabs/WEGenerators/Walls/Pipe/WG_PipeRailing_01.et" {
+    Flags 0x100003 0
+    m_iSeed 1492
+    {
+     $grp SCR_DestructibleEntity : "{15BE3A6617F91789}Prefabs/Structures/Walls/Pipe/PipeRailing_01/PipeRailing_01_6m.et" {
+      {
+       coords 0.032 0 -0.001
+       angles 0 182.192 0
+      }
+      {
+       coords -32.828 0 1.539
+       angles 0 222.688 0
+      }
+      {
+       coords -38.047 0 32.445
+       angles 0 268.003 0
+      }
+     }
+     $grp SCR_DestructibleEntity : "{3E76CAB74D4C2F0C}Prefabs/Structures/Walls/Pipe/PipeRailing_01/PipeRailing_01_3m.et" {
+      {
+       coords -5.951 0 0.228
+       angles 0 182.387 0
+      }
+      {
+       coords -8.937 0 0.352
+       angles 0 182.387 0
+      }
+      {
+       coords -17.897 0 0.728
+       angles 0 182.714 0
+      }
+      {
+       coords -26.853 0 1.176
+       angles 0 183.237 0
+      }
+      {
+       coords -37.248 0 5.589
+       angles 0 261.266 0
+      }
+      {
+       coords -37.704 0 8.542
+       angles 0 266.61 0
+      }
+      {
+       coords -37.945 0 14.514
+       angles 0 269.919 0
+      }
+      {
+       coords -37.937 0 20.492
+       angles 0 270.154 0
+      }
+      {
+       coords -37.928 0 23.48
+       angles 0 269.806 0
+      }
+      {
+       coords -37.938 0 26.468
+       angles 0 269.276 0
+      }
+      {
+       coords -38.256 0 38.429
+       angles 0 267.917 0
+      }
+      {
+       coords -38.365 0 41.415
+       angles 0 268.087 0
+      }
+      {
+       coords -38.464 0 44.402
+       angles 0 268.17 0
+      }
+      {
+       coords -38.56 0 47.388
+       angles 0 268.17 0
+      }
+      {
+       coords -38.655 0 50.374
+       angles 0 268.262 0
+      }
+      {
+       coords -38.83 0 56.35
+       angles 0 268.385 0
+      }
+      {
+       coords -38.914 0 59.337
+       angles 0 268.385 0
+      }
+      {
+       coords -38.999 0 62.323
+       angles 0 268.563 0
+      }
+      {
+       coords -39.146 0 68.3
+       angles 0 268.606 0
+      }
+      {
+       coords -39.219 0 71.286
+       angles 0 268.614 0
+      }
+      {
+       coords -39.291 0 74.274
+       angles 0 268.877 0
+      }
+      {
+       coords -39.409 0 80.25
+       angles 0 268.877 0
+      }
+      {
+       coords -39.467 0 83.238
+       angles 0 268.964 0
+      }
+      {
+       coords -39.521 0 86.225
+       angles 0 269.146 0
+      }
+      {
+       coords -39.566 0 89.213
+       angles 0 269.277 0
+      }
+      {
+       coords -39.604 0 92.201
+       angles 0 269.376 0
+      }
+      {
+       coords -39.66 0 104.158
+       angles 0 270.637 0
+      }
+      {
+       coords -39.627 0 107.146
+       angles 0 271.41 0
+      }
+      {
+       coords -38.912 0.002 116.105
+       angles 0 342.077 0
+      }
+     }
+     SCR_DestructibleEntity : "{AAD15873D7C6A4F5}Prefabs/Structures/Walls/Pipe/PipeRailing_01/PipeRailing_01_Pole.et" {
+      coords -36.061 -0.156 117.063
+      angles 0 50.597 0
+     }
+     SCR_DestructibleEntity : "{C555C1712226D272}Prefabs/Structures/Walls/Pipe/PipeRailing_01/PipeRailing_01_6m_Old.et" {
+      coords -39.556 0 110.133
+      angles 0 276.436 0
+     }
+     $grp SCR_DestructibleEntity : "{D7770DA9643FC21C}Prefabs/Structures/Walls/Pipe/PipeRailing_01/PipeRailing_01_3m_Old.et" {
+      {
+       coords -11.923 0 0.477
+       angles 0 182.387 0
+      }
+      {
+       coords -14.91 0 0.601
+       angles 0 182.442 0
+      }
+      {
+       coords -20.882 0 0.87
+       angles 0 182.719 0
+      }
+      {
+       coords -23.868 0 1.011
+       angles 0 183.162 0
+      }
+      {
+       coords -29.837 0 1.344
+       angles 0 184.106 0
+      }
+      {
+       coords -37.882 0 11.525
+       angles 0 268.8 0
+      }
+      {
+       coords -37.95 0 17.502
+       angles 0 270.255 0
+      }
+      {
+       coords -37.975 0 29.456
+       angles 0 268.617 0
+      }
+      {
+       coords -38.746 0 53.361
+       angles 0 268.385 0
+      }
+      {
+       coords -39.073 0 65.31
+       angles 0 268.606 0
+      }
+      {
+       coords -39.35 0 77.261
+       angles 0 268.877 0
+      }
+      {
+       coords -39.637 0 95.189
+       angles 0 269.644 0
+      }
+      {
+       coords -39.655 0 98.178
+       angles 0 269.827 0
+      }
+      {
+       coords -39.664 0 101.168
+       angles 0 270.089 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6783.591 60 4263.165
+  Points {
+   ShapePoint "{6ACE7CB06BE9471B}" {
+    Position 0 -0 0
+   }
+   ShapePoint "{6ACE7CB06BE9563D}" {
+    Position 0.268 -0 15.558
+   }
+   ShapePoint "{6ACE7CB052D541D0}" {
+    Position 0.144 0 64.55
+   }
+   ShapePoint "{6ACE7CB052090C29}" {
+    Position 0.265 -0 105.38
+   }
+   ShapePoint "{6ACE7CB051AEBB17}" {
+    Position -3.611 -0 107.255
+   }
+   ShapePoint "{6ACE7CB050975662}" {
+    Position -23.847 -0 107.624
+   }
+   ShapePoint "{6ACE7CB05FB10DAE}" {
+    Position -31.145 -0 106.96
+   }
+   ShapePoint "{6ACE7CB05F19BF34}" {
+    Position -36.861 -0 118.011
+   }
+   ShapePoint "{6ACE7CB05E93C81E}" {
+    Position -47.656 -0 119.008
+   }
+   ShapePoint "{6ACE7CB05E231B70}" {
+    Position -59.527 0.001 120.084
+   }
+   ShapePoint "{6ACE7CB05BF2D779}" {
+    Position -67.665 -0.098 110.705
+   }
+   ShapePoint "{6ACE7CB05B4A4FFB}" {
+    Position -67.296 -0.732 89.533
+   }
+   ShapePoint "{6ACE7CB059F3FEA2}" {
+    Position -66.671 -0 27.568
+   }
+   ShapePoint "{6ACE7CB058462DF3}" {
+    Position -67.264 -0 -5.518
+   }
+   ShapePoint "{6ACE7CB0479B55B1}" {
+    Position 0.116 0 -4.998
+   }
+  }
+  IsClosed 1
+  {
+   LakeGeneratorEntity : "{D0224BC8D6B29461}Prefabs/WEGenerators/Water/Lake/LG_CainLake_01.et" {
+    coords 0 0 0
+   }
+  }
+ }
+}
+SCR_DestructibleBuildingEntity : "{01ED40569A767666}Prefabs/Structures/Construcoes_Ruinas/Tube1.et" {
+ coords 6730.041 0 4408.372
+}
+$grp SCR_DestructibleBuildingEntity : "{11219C5E9D717E14}Prefabs/Structures/Infrastructure/Waterworks/WaterTreatmentPlant_01/WaterTreatmentPlant_01_small.et" {
+ {
+  coords 6734.196 60 4362.268
+  scale 2
+ }
+ {
+  coords 6733.901 60 4319.725
+  scale 2
+ }
+ {
+  coords 6733.747 60 4277.864
+  scale 2
+ }
+}
 $grp SCR_DestructibleBuildingEntity : "{1C87C72319097FC1}Prefabs/Structures/Walls/Concrete/ConcreteRetainingWall_01/ConcreteRetainingWall_01_4m.et" {
  {
-  coords 6710.863 30.311 4290.617
+  coords 6710.863 32.571 4290.617
   angles 0 -89.779 0
   scale 7.6
  }
  {
-  coords 6710.749 30.311 4260.888
+  coords 6710.749 32.571 4260.888
   angles 0 -89.779 0
   scale 7.6
  }
  {
   coords 6731.666 30.246 4251.57
+  angles 0 -179.858 0
+  scale 7.6
+ }
+ {
+  coords 6725.405 30.168 4517.032
+  angles 0 -179.858 0
+  scale 7.6
+ }
+ {
+  coords 6863.51 30.579 4517.902
   angles 0 -179.858 0
   scale 7.6
  }
@@ -32,14 +350,158 @@ $grp SCR_DestructibleBuildingEntity : "{1E1FF3AE13CDC15D}Prefabs/Structures/Wall
   scale 3
  }
 }
+SCR_DestructibleBuildingEntity : "{28270BA91AD81197}Prefabs/Structures/Fabrica/Factory_Pillars.et" {
+ coords 6788.861 0.001 4320.244
+ angles 0 90.904 0
+}
+$grp SCR_DestructibleBuildingEntity : "{42959A29753486F5}Prefabs/Structures/Infrastructure/Waterworks/WaterStation_01/WaterStation_01_Uncovered.et" {
+ {
+  coords 6714.851 4.499 4301.121
+  angles 0 178.74 0
+ }
+ {
+  coords 6715.161 3.823 4336.637
+ }
+}
+$grp SCR_DestructibleEntity : "{4AC75CCBE6704D87}Prefabs/Structures/Infrastructure/Piping/DieselPipe_01_curve_low_33_cnc.et" {
+ {
+  coords 6635.907 32.914 4181.565
+  angles 0 41.01 0
+  scale 5
+ }
+ {
+  coords 6669.097 32.952 4186.41
+  angles 0 -140.652 0
+  scale 5
+ }
+}
+SCR_DestructibleEntity : "{56CF791F12BB17B0}Prefabs/Structures/Infrastructure/Piping/DieselPipe_01_terminator_low.et" {
+ coords 6608.153 30.281 4266.516
+ angles 0 179.764 0
+ scale 5
+}
+$grp GenericEntity : "{6720CD0D5B7B7768}Prefabs/Props/Construction/ConcretePipe/ConcretePipe_01_Long.et" {
+ {
+  coords 6614.12 27.847 4256.043
+  angles 0 90.618 0
+  scale 5
+ }
+ {
+  coords 6596.552 28.277 4366.24
+  angles 0 90.618 0
+  scale 3
+ }
+ {
+  coords 6593.549 28.209 4366.425
+  angles 0 90.618 0
+  scale 3
+ }
+}
+SCR_DestructibleBuildingEntity : "{6DB974B626B2F948}Prefabs/Structures/Construcoes_Ruinas/Tube2.et" {
+ coords 6729.52 0 4438.876
+}
+$grp SCR_DestructibleBuildingEntity : "{728F2D7CD93D3D1D}Prefabs/Structures/Infrastructure/Waterworks/WaterReservoir_01/WaterReservoir_01.et" {
+ {
+  coords 6734.277 60 4278.66
+  scale 2
+ }
+ {
+  coords 6734.146 60 4320.148
+  scale 2
+ }
+ {
+  coords 6733.906 60 4361.66
+  scale 2
+ }
+}
+$grp SCR_DestructibleEntity : "{83E09CA546BD5D42}Prefabs/Structures/Infrastructure/Piping/DieselPipe_01_s_connector.et" {
+ {
+  coords 6608.126 33.774 4258.607
+  scale 5
+ }
+ {
+  coords 6608.135 32.471 4260.075
+  scale 5
+ }
+}
+SCR_DestructibleBuildingEntity : "{860C39850EF0755E}Prefabs/Structures/Infrastructure/Waterworks/WaterTower_02/WaterTower_USSR_02_tall.et" {
+ coords 6716.61 4.213 4318.833
+}
 SCR_DestructibleEntity : "{879865F07EA907B0}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_4m.et" {
  coords 6812.894 1.146 4236.632
  angles -89.615 0 0
  scale 10.8
 }
+$grp SCR_DestructibleBuildingEntity : "{8DF7F603987CC4A7}Prefabs/Structures/Infrastructure/Waterworks/WaterTreatmentPlant_01/WaterTreatmentPlant_01_main.et" {
+ {
+  coords 6765.956 60.215 4286.011
+  scale 2
+ }
+ {
+  coords 6768.41 60.277 4341.101
+  angles 0 179.852 0
+  scale 2
+ }
+}
+Building : "{95E971438A11AED1}Prefabs/Infrastructure/Dam/Dam_02.et" {
+ coords 6711.431 4.339 4303.919
+ angles 0 -89.422 0
+ scale 1.5
+}
 SCR_DestructibleBuildingEntity : "{A1C2F935C463393D}Prefabs/Structures/Industrial/OldOilTank2.et" {
  coords 6813.68 3.874 4224.317
  angles 0 89.471 0
+}
+$grp SCR_DestructibleEntity : "{A2C5EA360E334882}Prefabs/Structures/Infrastructure/Piping/DieselPipe_01_straight_low_1m_cnc.et" {
+ {
+  coords 6608.162 30.272 4263.284
+  scale 5
+ }
+ {
+  coords 6650.134 32.882 4183.26
+  angles 0 -106.501 0
+  scale 5
+ }
+ {
+  coords 6654.917 32.921 4184.553
+  angles 0 -101.966 0
+  scale 5
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{A6CCEBBD4B24A35F}Prefabs/Structures/Agriculture/WaterTowers/WaterTower_01/WaterTower_01.et" {
+ {
+  coords 6623.638 0 4344.144
+ }
+ {
+  coords 6624.875 -0 4288.38
+ }
+}
+$grp SCR_DestructibleEntity : "{ACB768474825B24A}Prefabs/Structures/Infrastructure/Piping/DieselPipe_01_straight_low_10m_cnc.et" {
+ {
+  coords 6608.151 32.88 4222.949
+  scale 5
+ }
+ {
+  coords 6705.983 32.95 4187.207
+  angles 0 90.611 0
+  scale 5
+ }
+}
+SCR_DestructibleBuildingEntity : "{B1F1B1BEB21102A7}Prefabs/Structures/Industrial/Houses/FactoryHall_E_01/FactoryHall_E_01.et" {
+ coords 6770.449 60.073 4376.618
+}
+$grp SCR_DestructibleBuildingEntity : "{B470FA9B52DFD172}Prefabs/Structures/Infrastructure/Waterworks/WaterStation_02/WaterStation_USSR_02_gray.et" {
+ {
+  coords 6747.17 0.12 4385.854
+ }
+ {
+  coords 6738.03 0.129 4385.936
+ }
+}
+SCR_DestructibleEntity : "{B7C5DF41ECD83C7C}Prefabs/Structures/Infrastructure/Piping/DieselPipe_01_curve_low_90_cnc.et" {
+ coords 6612.865 32.885 4186.483
+ angles 0 92.546 0
+ scale 5
 }
 $grp StaticModelEntity : "{BB64FBA6986C62F7}Prefabs/Structures/BuildingParts/Entry/ConcreteSlope_02_MediumVehicle.et" {
  {
@@ -61,6 +523,36 @@ $grp StaticModelEntity : "{BB64FBA6986C62F7}Prefabs/Structures/BuildingParts/Ent
 SCR_DestructibleBuildingEntity : "{CD96CDD578A7B613}Prefabs/Structures/Industrial/OldOilTank1.et" {
  coords 6787.723 9.668 4223.003
  angles 0 179.199 0
+}
+$grp SCR_DestructibleBuildingEntity : "{CDA3D7FDC416C3E3}Prefabs/Structures/Industrial/Houses/FactoryHallWIP_01/FactoryHallWIP_01.et" {
+ {
+  coords 6733.135 5.941 4356.533
+  angles 0 -88.43 0
+ }
+ {
+  coords 6732.573 6.018 4340.374
+  angles 0 -88.43 0
+ }
+ {
+  coords 6732.011 6.15 4323.901
+  angles 0 -88.43 0
+ }
+ {
+  coords 6731.564 6.134 4307.422
+  angles 0 -88.43 0
+ }
+ {
+  coords 6731.122 6.093 4290.947
+  angles 0 -88.43 0
+ }
+ {
+  coords 6730.56 6.225 4274.474
+  angles 0 -88.43 0
+ }
+}
+SCR_DestructibleEntity : "{F80E87795A543758}Prefabs/Structures/Infrastructure/Piping/DieselPipe_01_section_valve_cnc.et" {
+ coords 6608.115 32.88 4252.821
+ scale 5
 }
 $grp SCR_DestructibleBuildingEntity : "{F885365EEA3AD315}Prefabs/Structures/Walls/Concrete/ConcreteRetainingWall_01/ConcreteRetainingWall_01_End.et" {
  {
@@ -96,7 +588,7 @@ $grp SCR_DestructibleBuildingEntity : "{F885365EEA3AD315}Prefabs/Structures/Wall
 }
 $grp SCR_DestructibleBuildingEntity : "{FD1CE2903D41D4A7}Prefabs/Structures/Walls/Concrete/ConcreteRetainingWall_01/ConcreteRetainingWall_01_8m.et" {
  {
-  coords 6712.028 30.196 4362.008
+  coords 6712.028 32.456 4362.008
   angles 0 91.338 0
   scale 7.6
  }
@@ -289,5 +781,40 @@ $grp SCR_DestructibleBuildingEntity : "{FD1CE2903D41D4A7}Prefabs/Structures/Wall
   coords 6760.53 12.96 4190.023
   angles 0 0.032 0
   scale 4.6
+ }
+ {
+  coords 6715.043 32.54 4481.507
+  angles 0 91.338 0
+  scale 7.6
+ }
+ {
+  coords 6713.438 32.516 4420.968
+  angles 0 91.338 0
+  scale 7.6
+ }
+ {
+  coords 6771.091 30.295 4517.336
+  angles 0 179.797 0
+  scale 7.6
+ }
+ {
+  coords 6830.795 30.295 4517.55
+  angles 0 179.797 0
+  scale 7.6
+ }
+ {
+  coords 6872.013 30.74 4491.036
+  angles 0 91.338 0
+  scale 7.6
+ }
+ {
+  coords 6868.998 30.656 4371.537
+  angles 0 91.338 0
+  scale 7.6
+ }
+ {
+  coords 6870.408 30.716 4430.497
+  angles 0 91.338 0
+  scale 7.6
  }
 }
