@@ -17987,1775 +17987,919 @@ $grp SplineShapeEntity {
    ForestGeneratorEntity : "{C5E4EE4A741A0715}Prefabs/WEGenerators/Forest/FG_Forest_PineSpruce1.et" {
     Flags 0x100003 0
     coords 0 0 0
+    m_aLevels {
+     ForestGeneratorOutline Outline_small {
+      m_fDensity 200
+     }
+     ForestGeneratorOutline Outline_big {
+      m_fDensity 300
+     }
+     ForestGeneratorTopLevel TopLevel {
+      m_fDensity 200
+     }
+    }
     {
      $grp Tree : "{053196EF2505964A}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_0.et" {
       {
        coords -84.429 0.032 -103.995
-       angles -0.602 -79.159 1.913
+       angles 0.725 -117.788 -1.186
        scale 0.829
       }
       {
-       coords -21.234 0.032 -44.995
-       angles 0.854 -119.634 0.715
-       scale 0.805
+       coords -33.114 0.032 -85.022
+       angles -0.37 125.512 -1.478
+       scale 0.955
       }
-      {
-       coords -39.697 0.032 -119.156
-       angles 1.755 56.922 1.106
-       scale 1.072
-      }
-      {
-       coords -64.719 0.032 -91.404
-       angles -1.545 68.513 -0.956
-       scale 0.969
-      }
-      {
-       coords -82.235 0.032 11.009
-       angles -1.334 -60.295 -1.088
-       scale 1.164
-      }
-      {
-       coords -39.583 0.032 -52.498
-       angles 0.242 -137.026 1.693
-       scale 1.145
-      }
-     }
-     Tree : "{0572596E23DDDC10}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_pinus_sylvestris_2f.et" {
-      coords -18.305 0.032 -32.622
-      angles 1.901 -76.907 2.001
-      scale 1.145
      }
      Tree : "{1263BEF0B822A24A}Prefabs/Vegetation/Tree/t_pinus_sylvestris/t_pinus_sylvestris_stump_01.et" {
-      coords -29.396 0.032 -48.599
-      angles 0 -29.301 0
-      scale 1.008
+      coords -75.523 0.032 -19.501
+      angles 0 168.722 0
+      scale 1.047
      }
      $grp Tree : "{20C4A23B039DFCF3}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_3s.et" {
       {
-       coords -22.96 0.032 -29.626
-       angles -0.316 -40.046 1.819
-       scale 0.827
+       coords -19.84 0.032 -19.955
+       angles -1 -143.354 0.286
+       scale 0.953
       }
       {
-       coords -24.21 -0.14 -60.23
-       angles -1.37 -116.118 -0.675
-       scale 1.111
+       coords -14.754 0.032 -96.197
+       angles 1.828 -70.919 1.932
+       scale 0.951
       }
       {
-       coords -23.882 -0.355 -69.598
-       angles -1.028 18.82 1.828
-       scale 1.152
+       coords -17.572 0.032 -113.557
+       angles -0.81 -95.068 -0.594
+       scale 1.004
       }
       {
-       coords -14.774 0.032 -108.948
-       angles -1.091 -133.73 1.018
-       scale 0.983
-      }
-      {
-       coords -16.855 0.032 -103.867
-       angles -0.631 -114.723 1.271
-       scale 1.017
-      }
-      {
-       coords -75.686 0.032 -113.844
-       angles -1.234 8.657 1.594
-       scale 1.118
-      }
-      {
-       coords -83.641 0.032 -109.111
-       angles -1.236 11.602 0.677
-       scale 1.068
-      }
-      {
-       coords -91.659 0.032 -106.154
-       angles 1.954 107.384 -1.115
-       scale 1.119
-      }
-      {
-       coords -43.278 0.032 -92.518
-       angles 1.175 30.927 -1.978
-       scale 0.999
-      }
-      {
-       coords -72.667 0.032 -95.313
-       angles -1.447 99.605 1.623
-       scale 0.887
-      }
-      {
-       coords -59.057 0.032 -95.74
-       angles 1.327 -128.061 -0.99
-       scale 1.019
-      }
-      {
-       coords -32.291 0.032 -87.664
-       angles -0.936 62.404 1.505
-       scale 0.838
-      }
-      {
-       coords -30.079 0.032 -80.625
-       angles -0.347 142.508 0.195
+       coords -35.396 0.032 -116.137
+       angles 0.757 85.575 0.559
        scale 0.854
       }
       {
-       coords -35.264 0.032 -53.298
-       angles 0.592 130.774 -0.447
-       scale 1.106
+       coords -61.13 0.032 -119.695
+       angles -0.589 83.488 0.342
+       scale 1.05
       }
       {
-       coords -27.205 0.032 -43.156
-       angles 1.933 -92.112 -0.485
-       scale 0.835
+       coords -69.114 0.032 -115.063
+       angles -0.939 -131.368 0.184
+       scale 0.916
       }
       {
-       coords -50.756 0.032 -12.244
-       angles 0.38 -167.217 -0.087
-       scale 0.928
+       coords -78.328 0.032 -113.272
+       angles -0.504 57.559 1.597
+       scale 0.825
       }
       {
-       coords -54.893 0.032 -15.228
-       angles 0.114 97.617 -0.022
-       scale 0.833
+       coords -73.944 0.032 -105.878
+       angles 1.827 173.282 -0.759
+       scale 1.027
       }
       {
-       coords -64.002 0.032 -19.368
-       angles 1.608 124.699 0.855
-       scale 1.008
+       coords -48.658 0.032 -96.228
+       angles 0.695 -90.695 -0.364
+       scale 0.961
       }
       {
-       coords -65.509 0.032 -13.134
-       angles -0.574 100.055 -1.445
-       scale 0.859
+       coords -70.804 0.032 -97.109
+       angles -1.494 -112.844 0.071
+       scale 0.896
       }
       {
-       coords -56.311 0.032 2.295
-       angles 1.724 -66.096 1.085
-       scale 1.13
+       coords -52.86 0.032 -12.822
+       angles 1.327 168.623 1.119
+       scale 1.149
       }
       {
-       coords -59.339 0.032 -1.095
-       angles 1.077 144.947 1.325
-       scale 1.019
+       coords -68.099 0.032 -14.328
+       angles 1.882 -57.01 -1.533
+       scale 0.921
       }
       {
-       coords -69.578 0.032 18.4
-       angles 1.919 116.239 1.998
-       scale 0.95
+       coords -66.012 0.032 -19.012
+       angles 1.074 -162.778 -0.703
+       scale 0.97
       }
       {
-       coords -97.3 0.032 16.652
-       angles 1.867 -81.477 0.909
-       scale 1.13
+       coords -64.2 0.032 8.073
+       angles 0.822 -7.152 0.323
+       scale 1.081
       }
       {
-       coords -92.629 0.032 17.765
-       angles 1.557 -66.876 -1.294
-       scale 1.019
+       coords -92.845 0.032 12.314
+       angles -0.243 78.038 0.706
+       scale 0.959
       }
       {
-       coords -84.014 0.032 19.486
-       angles 1.912 -179.599 1.925
-       scale 0.859
-      }
-      {
-       coords -78.431 0.032 13.751
-       angles -1.63 178.193 -0.946
-       scale 0.949
-      }
-      {
-       coords -6.044 0.032 -8.677
-       angles -0.596 7.394 1.545
+       coords -75.717 0.032 12.624
+       angles -1.625 32.905 1.38
        scale 1.061
       }
       {
-       coords -15.068 0.032 -13.682
-       angles -1.01 -157.681 -0.404
-       scale 0.867
+       coords -55.106 0.032 -5.689
+       angles 0.535 90.75 0.557
+       scale 0.944
+      }
+      {
+       coords -26.967 0.032 -13.196
+       angles 0.791 -101.275 -1.703
+       scale 0.832
+      }
+      {
+       coords -20.771 0.032 -12.698
+       angles 0.79 -150.825 -1.235
+       scale 0.976
+      }
+      {
+       coords -9.915 0.032 -12.119
+       angles -0.246 -137.201 1.479
+       scale 1.132
       }
      }
      $grp Tree : "{253445DD1D8B369D}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_3f_high.et" {
       {
-       coords -91.891 0.032 -113.033
-       angles 0.788 -15.964 -0.89
-       scale 1.01
+       coords -98.736 0.032 -109.024
+       angles -0.288 152.594 1.975
+       scale 0.991
       }
       {
-       coords -63.388 0.032 -100.01
-       angles -0.66 -34.806 2.425
-       scale 0.977
+       coords -59.036 0.032 -98.582
+       angles -2.54 -60.262 -0.98
+       scale 0.967
       }
       {
-       coords -78.574 0.032 -109.181
-       angles -2.864 153.758 -2.292
-       scale 0.975
+       coords -65.211 0.032 -112.458
+       angles -1.912 -20.864 -1.254
+       scale 0.972
       }
       {
-       coords -70.246 0.032 -107.973
-       angles 1.506 13.272 0.757
-       scale 1.021
+       coords -59.339 0.032 -110.052
+       angles -1.694 -150.045 1.87
+       scale 0.993
       }
       {
-       coords -96.891 0.032 -107.987
-       angles -0.702 -159.384 -2.583
-       scale 0.973
+       coords -88.388 0.032 -115.34
+       angles -0.822 49.121 -1.139
+       scale 0.996
       }
       {
-       coords -67.412 0.032 -112.404
-       angles 2.292 167.711 -1.164
-       scale 0.961
+       coords -52.634 0.032 -103.9
+       angles -0.656 146.617 -2.743
+       scale 1.023
       }
       {
-       coords -80.661 0.032 -101.083
-       angles -1.124 -109.438 2.169
-       scale 1.066
+       coords -59.639 0.032 -7.022
+       angles 2.188 -129.049 -2.577
+       scale 1.097
       }
       {
-       coords -83.161 0.032 9.688
-       angles -1.412 -80.994 0.721
-       scale 1.028
-      }
-      {
-       coords -60.879 0.032 -11.2
-       angles -0.018 176.556 0.321
-       scale 1.08
-      }
-      {
-       coords -62.092 0.032 -6.154
-       angles 0.854 66.557 -1.943
-       scale 1.082
-      }
-      {
-       coords -68.375 0.032 -8.017
-       angles -0.158 -159.296 2.226
-      }
-      {
-       coords -38.03 0.032 -111.708
-       angles -0.471 76.599 2.066
-       scale 1.056
-      }
-      {
-       coords -24.919 0.032 -98.53
-       angles -1.793 37.717 1.211
-       scale 1.046
-      }
-      {
-       coords -10.957 0.032 -103.696
-       angles 2.297 -84.883 2.353
-       scale 0.997
-      }
-      {
-       coords -48.729 0.032 -108.513
-       angles -2.599 91.464 1.174
-       scale 0.953
-      }
-      {
-       coords -31.496 0.032 -96.469
-       angles 0.562 -11.514 1.181
-       scale 1.054
-      }
-      {
-       coords -28.995 0.032 -105.295
-       angles -2.197 30.158 0.75
-       scale 1.045
-      }
-      {
-       coords -41.308 0.032 -102.752
-       angles 1.949 -95.738 -1.42
-       scale 0.953
-      }
-      {
-       coords -36.291 0.032 -97.589
-       angles -0.116 -67.14 0.224
-       scale 1.051
-      }
-      {
-       coords -19.214 0.032 -108.237
-       angles 2.711 -68.293 2.312
-       scale 1.007
-      }
-      {
-       coords -27.681 0.032 -118.347
-       angles 0.07 -61.404 -2.712
-       scale 0.952
-      }
-      {
-       coords -9.945 0.032 -96.109
-       angles 2.691 49.341 -2.231
-       scale 1.075
-      }
-      {
-       coords -21.347 0.032 -102.974
-       angles -1.579 32.235 -1.482
-       scale 1.072
-      }
-      {
-       coords -6.611 0.032 -101.904
-       angles 0.279 11.767 0.035
-       scale 1.069
-      }
-      {
-       coords -22.475 0 -50.586
-       angles 2.247 -56.669 0.705
-       scale 0.952
-      }
-      {
-       coords -41.186 0.032 -52.386
-       angles -0.711 21.314 -0.867
-       scale 1.013
-      }
-      {
-       coords -29.245 0.03 -52.49
-       angles -0.622 -83.718 2.434
-       scale 0.971
-      }
-      {
-       coords -47.675 0.032 -58.398
-       angles 1.147 -68.337 1.403
-       scale 1.028
-      }
-     }
-     Tree : "{2EDFC252CB2EC3F1}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_3d_high.et" {
-      coords -12.703 0.032 -117.843
-      angles -3.737 -13.118 -1.996
-      scale 0.877
-     }
-     $grp Tree : "{2FE01B5E743D5205}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_pinus_sylvestris_1s.et" {
-      {
-       coords -69.576 0.032 -105.336
-       angles 1.969 -172.655 0.051
-       scale 0.81
-      }
-      {
-       coords -67.133 0.032 -105.393
-       angles -0.211 -172.337 0.277
-       scale 1.111
-      }
-      {
-       coords -22.629 -0.195 -61.648
-       angles 0.75 -65.59 -0.835
-       scale 0.871
-      }
-      {
-       coords -12.899 0.032 -80.483
-       angles -1.705 59.24 0.563
-       scale 1.095
-      }
-      {
-       coords -24.17 0.032 -117.544
-       angles -0.113 -4.483 0.608
-       scale 1.148
-      }
-      {
-       coords -29.235 0.032 -121.233
-       angles 1.552 29.213 1.252
-       scale 1.06
-      }
-      {
-       coords -56.329 0.032 -122.493
-       angles 0.011 -26.478 1.856
-       scale 0.904
-      }
-      {
-       coords -58.702 0.032 -119.935
-       angles -1.753 -82.235 0.192
-       scale 0.849
-      }
-      {
-       coords -70.34 0.032 -120.437
-       angles -0.079 89.157 0.508
-       scale 1.069
-      }
-      {
-       coords -72.35 0.032 -91.143
-       angles 1.859 -167.217 -0.747
-       scale 0.963
-      }
-      {
-       coords -63.644 0.032 -93.097
-       angles -1.84 -50.626 -0.83
-       scale 0.939
-      }
-      {
-       coords -39.67 0.032 -45.853
-       angles -1.111 -17.007 0.7
-       scale 0.831
-      }
-      {
-       coords -44.348 0.032 -12.806
-       angles -0.553 159.79 -1.374
-       scale 0.94
-      }
-      {
-       coords -57.754 0.032 -19.399
-       angles 0.143 52.384 -1.287
-       scale 1.012
-      }
-      {
-       coords -75.636 0.032 14.187
-       angles 0.944 -155.637 0.733
-       scale 0.994
-      }
-      {
-       coords -93.816 0.032 10.793
-       angles -0.134 39.937 -1.744
+       coords -66.529 0.032 -0.564
+       angles 0.834 -167.503 2.72
        scale 0.999
       }
       {
-       coords -63.118 0.032 11.255
-       angles 0.805 -158.746 1.043
-       scale 0.833
+       coords -82.784 0.032 16.757
+       angles -0.58 -133.038 2.084
+       scale 0.965
       }
       {
-       coords -36.306 0.032 -2.965
-       angles 0.466 70.447 1.497
-       scale 0.939
+       coords -30.794 0.032 -98.312
+       angles 1.843 115.36 0.083
+       scale 1.01
       }
       {
-       coords -34.687 0.032 -4.794
-       angles 0.283 56.23 -1.233
-       scale 0.856
+       coords -11.276 0.063 -116.128
+       angles -2.785 88.618 -1.971
+       scale 0.998
       }
       {
-       coords -20.689 0.032 -7.431
-       angles 1.209 -148.891 -0.849
-       scale 0.894
+       coords -25.89 0.032 -93.941
+       angles -0.398 31.927 1.537
+       scale 0.965
+      }
+      {
+       coords -40.847 0.032 -113.533
+       angles -0.105 27.181 2.168
+       scale 1.095
+      }
+      {
+       coords -49.516 0.032 -113.688
+       angles -0.729 49.264 -2.53
+       scale 0.993
+      }
+      {
+       coords -35.919 0.032 -99.151
+       angles 0.409 84.07 -0.316
+       scale 0.993
+      }
+      {
+       coords -44.674 0.032 -108.068
+       angles -1.556 49.55 2.787
+       scale 1.066
+      }
+      {
+       coords -43.004 0.032 -51.264
+       angles 0.86 -81.51 2.192
+       scale 0.965
+      }
+     }
+     $grp Tree : "{2FE01B5E743D5205}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_pinus_sylvestris_1s.et" {
+      {
+       coords -69.576 0.032 -105.335
+       angles -0.533 -129.752 1.563
+       scale 0.81
+      }
+      {
+       coords -67.133 0.032 -105.392
+       angles -1.403 -62.02 -1.333
+       scale 1.111
+      }
+      {
+       coords -18.001 -0.049 -65.279
+       angles -0.378 -89.486 0.109
+       scale 1.125
+      }
+      {
+       coords -17.866 0.032 -81.02
+       angles -1.998 1.263 -0.173
+       scale 0.805
+      }
+      {
+       coords -12.995 0.063 -118.25
+       angles -0.101 39.871 -0.935
+       scale 0.871
+      }
+      {
+       coords -24.345 0.032 -120.193
+       angles -1.321 -71.534 -1.99
+       scale 1.095
+      }
+      {
+       coords -66.496 0.032 -124.334
+       angles -1.35 -125.171 -1.113
+       scale 1.11
+      }
+      {
+       coords -38.929 0.032 -61.215
+       angles 0.136 117.513 -1.724
+       scale 1.196
+      }
+      {
+       coords -85.504 0.032 29.348
+       angles 0.879 27.533 1.493
+       scale 1.07
       }
      }
      $grp Tree : "{425761285F36BF16}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_1s.et" {
       {
-       coords -17.525 0 -54.895
-       angles -1.809 -82.004 -2.855
+       coords -6.952 0.063 -108.698
+       angles -2.554 24.72 1.317
        scale 0.75
       }
       {
-       coords -18.972 0.032 -82.858
-       angles -2.743 175.874 -2.682
+       coords -25.206 0.032 -113.731
+       angles -1.007 -136.696 2.097
        scale 1.114
       }
       {
-       coords -12.98 0.032 -83.144
-       angles -2.297 -12.041 -0.391
+       coords -60.895 0.032 -125.134
+       angles 0.072 85.487 -2.592
        scale 0.636
       }
       {
-       coords -15.027 0.032 -94.978
-       angles -0.627 31.125 -1.882
+       coords -85.225 0.032 -108.999
+       angles -2.822 124.27 -2.305
        scale 0.844
       }
       {
-       coords -45.769 0.032 -124.639
-       angles -2.793 -10.251 1.918
-       scale 0.748
+       coords -40.7 0.032 -88.293
+       angles -2.049 130.972 -1.377
+       scale 1.088
       }
       {
-       coords -49.779 0.032 -119.634
-       angles 0.048 42.76 -1.459
-       scale 0.708
+       coords -73.572 0.032 -16.086
+       angles -1.482 175.765 -0.703
+       scale 1.097
       }
       {
-       coords -57.651 0.032 -91.428
-       angles -2.244 -75.149 -2.186
-       scale 1.052
+       coords -86.835 0.032 8.816
+       angles 0.642 -105.186 -1.057
+       scale 0.981
       }
       {
-       coords -53.284 0.032 -90.927
-       angles 0.123 106.065 -0.908
-       scale 0.76
+       coords -66.238 0.032 11.079
+       angles 1.977 0.725 1.361
+       scale 1.051
       }
       {
-       coords -49.962 0.032 -93.606
-       angles 0.662 75.918 2.188
-       scale 0.773
+       coords -34.372 0.032 -4.695
+       angles 0.431 172.117 2.506
+       scale 0.651
       }
       {
-       coords -35.688 0.032 -78.812
-       angles -1.546 26.643 -1.997
-       scale 0.639
-      }
-      {
-       coords -31.848 0.032 -79.024
-       angles -2.807 -156.758 1.925
-       scale 0.747
-      }
-      {
-       coords -27.021 0.032 -23.011
-       angles 2.679 162.251 -2.155
-       scale 0.834
-      }
-      {
-       coords -76.16 0.032 -22.289
-       angles 2.384 111.624 -2.621
-       scale 0.746
-      }
-      {
-       coords -89.292 0.032 9.559
-       angles 0.738 14.689 0.695
-       scale 0.987
-      }
-      {
-       coords -96.885 0.032 11.021
-       angles -2.776 21.589 -1.764
-       scale 1.146
-      }
-      {
-       coords -98.178 0.032 29.53
-       angles 0.183 113.042 -0.501
-       scale 0.675
-      }
-      {
-       coords -99.492 0.032 18.374
-       angles 1.229 111.306 1.844
-       scale 1.035
-      }
-      {
-       coords -82.321 0.032 23.669
-       angles 1.198 -121.809 -1.471
-       scale 1.135
-      }
-      {
-       coords -61.406 0.032 6.114
-       angles -0.35 -45.672 -0.746
-       scale 0.942
-      }
-      {
-       coords -5.915 0.032 -3.999
-       angles 2.051 -170.755 -1.066
-       scale 0.733
-      }
-      {
-       coords -5.948 0.032 -1.27
-       angles -0.564 -105.659 2.661
-       scale 0.679
+       coords -4.008 0.032 -3.443
+       angles -0.152 129.665 1.986
+       scale 0.742
       }
      }
      $grp Tree : "{531BB93086610CA1}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_0.et" {
       {
-       coords -14.008 0.032 -32.672
-       angles 1.829 -91.321 -2.085
+       coords -18.104 0.032 -48.069
+       angles 0.36 -112.492 -1.883
        scale 1.053
       }
       {
-       coords -13.668 0.032 -35.303
-       angles -2.335 -120.71 0.045
-       scale 1.125
-      }
-      {
-       coords -24.885 -0.05 -55.635
-       angles 0.864 45.034 1.735
+       coords -15.389 0.032 -95.011
+       angles -2.186 20.973 1.158
        scale 1.097
       }
       {
-       coords -9.278 0.032 -94.489
-       angles 1.676 147.694 -0.483
+       coords -89.723 0.032 -112.879
+       angles 1.663 0.912 -1.727
        scale 0.972
       }
       {
-       coords -43.336 0.032 -121.066
-       angles -2.203 -132.115 -2.755
-       scale 0.889
+       coords -33.153 0.001 -75.966
+       angles -2.79 45.737 -0.167
+       scale 0.969
       }
       {
-       coords -59.845 0.032 -124.643
-       angles -1.816 -94.705 0.911
-       scale 0.871
+       coords -28.498 0.032 -15.852
+       angles 1.422 161.119 -1.885
+       scale 1.137
       }
       {
-       coords -81.244 0.032 -99.757
-       angles -0.548 -160.175 0.169
-       scale 1.045
+       coords -99.975 0.032 19.449
+       angles -0.59 61.053 0.887
+       scale 0.984
       }
       {
-       coords -72.787 0.032 -93.199
-       angles 2.984 -17.919 -2.023
-       scale 0.865
+       coords -66.993 0.032 13.614
+       angles 0.419 122.985 2.461
+       scale 0.899
       }
       {
-       coords -75.192 0.032 -102.436
-       angles 2.325 67.502 0.401
-       scale 1.084
+       coords -34.472 0.032 -6.735
+       angles 1.978 15.854 -1.363
+       scale 0.888
       }
       {
-       coords -43.949 0.032 -57.393
-       angles 2.956 74.413 1.35
-       scale 1.064
-      }
-      {
-       coords -44.764 0.032 -59.171
-       angles -1.148 -126.138 -0.734
-       scale 1.051
-      }
-      {
-       coords -26.724 0.032 -29.33
-       angles -1.401 178.412 0.082
-       scale 1.143
-      }
-      {
-       coords -77.57 0.032 -15.828
-       angles 2.162 89.673 -0.034
-       scale 0.909
-      }
-      {
-       coords -72.927 0.032 -11.257
-       angles -0.901 -11.349 -1.647
-       scale 0.983
-      }
-      {
-       coords -66.251 0.032 -10.987
-       angles -0.153 -32.257 -2.442
-       scale 0.914
-      }
-      {
-       coords -63.88 0.032 2.85
-       angles -1.802 41.486 2.857
-       scale 1.121
-      }
-      {
-       coords -94.454 0.032 27.75
-       angles 1.663 -17.513 0.761
-       scale 0.902
-      }
-      {
-       coords -6.489 0.032 -6.336
-       angles -0.816 174.051 0.731
-       scale 0.903
-      }
-      {
-       coords -13.202 0.032 -7.417
-       angles 1.459 -174.468 -2.31
-       scale 1.001
+       coords -2.592 0.032 -3.888
+       angles -2.753 -109.768 0.863
+       scale 0.825
       }
      }
      $grp Tree : "{572740984A0430C5}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_pinus_sylvestris_3f_high.et" {
       {
-       coords -54.275 0.032 -104.446
-       angles 0.805 -140.948 0.297
-       scale 1.086
+       coords -20.823 0.032 -99.574
+       angles 0.718 -59.24 0.235
+       scale 1.065
       }
       {
-       coords -61.897 0.032 -112.804
-       angles 0.622 90.981 -1.227
-       scale 1.024
+       coords -29.947 0.032 -118.991
+       angles -1.771 156.022 1.59
+       scale 0.958
       }
       {
-       coords -70.975 0.032 -101.271
-       angles 0.759 -71.325 0.701
-       scale 1.09
+       coords -27.069 0.032 -111.03
+       angles -0.642 28.752 -0.747
+       scale 0.958
       }
       {
-       coords -53.97 0.032 -111.423
-       angles -0.414 -94.441 -0.107
-       scale 1.09
+       coords -25.292 -0.013 -53.266
+       angles -0.106 -85.245 1.702
+       scale 1.095
       }
       {
-       coords -87.148 0.032 13.065
-       angles -0.986 124.204 1.112
-       scale 0.966
-      }
-      {
-       coords -76.291 0.032 -16.524
-       angles -0.543 87.531 1.579
-       scale 1.051
-      }
-      {
-       coords -82.782 0.032 -10.051
-       angles 0.912 76.94 -1.779
-       scale 0.954
-      }
-      {
-       coords -48.609 0.032 -100.596
-       angles -1.738 -57.592 -0.81
-       scale 1.05
-      }
-      {
-       coords -25.394 0.032 -85.482
-       angles -1.854 137.696 -1.119
-       scale 1.073
-      }
-      {
-       coords -24.132 0.032 -93.713
-       angles 0.625 -98.21 -1.295
-       scale 1.051
-      }
-      {
-       coords -36.019 0.032 -46.774
-       angles 0.669 157.395 -0.934
-       scale 0.997
+       coords -17.921 0.032 -45.495
+       angles -0.831 -103.406 -0.662
+       scale 0.953
       }
      }
      $grp SCR_IndestructibleEnvironmentalEntity : "{59D79F785D414D67}PrefabLibrary/DefaultLibrary/Rocks/Granite/Granite_Stone_01/Granite_ForestStone_01.et" {
       {
        coords -45.348 0.032 -103.311
-       angles -5.098 51.648 9.836
+       angles -4.824 101.901 -10.153
        scale 0.259
       }
       {
        coords -42.826 0.032 -102.816
-       angles 5.306 -42.925 4.612
+       angles 4.237 80.631 -0.673
        scale 0.539
       }
-      {
-       coords -66.591 0.032 -102.513
-       angles -3.221 -138.652 6.236
-       scale 0.68
-      }
-      {
-       coords -27.773 0.032 -97.731
-       angles 4.481 -74.105 9.388
-       scale 0.481
-      }
-      {
-       coords -35.698 0.032 -55.684
-       angles -7.664 160.273 -3.169
-       scale 0.301
-      }
      }
-     Tree : "{5CA1D12C1B27CAE2}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_stump_02.et" {
-      coords -52.442 0.032 -103.271
-      angles 2.08 123.38 -1.883
-      scale 1.044
+     $grp Tree : "{5CA1D12C1B27CAE2}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_stump_02.et" {
+      {
+       coords -17.337 0.032 -105.221
+       angles 2.084 -154.099 1.706
+       scale 0.94
+      }
+      {
+       coords -13.978 0.054 -112.492
+       angles 4.053 -127.94 -0.311
+       scale 1.038
+      }
      }
      $grp Tree : "{68C5231808D63103}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_2f.et" {
       {
-       coords -18.082 0.032 -117.225
-       angles 0.557 -101.616 -1.952
-       scale 0.884
+       coords -21.702 0.032 -112.934
+       angles -0.132 -61.899 2.709
+       scale 0.749
       }
       {
-       coords -13.945 0.032 -9.373
-       angles 0.697 91.881 -2.221
-       scale 1.134
+       coords -80.22 0.032 -110.969
+       angles 2.556 -2.373 -0.224
+       scale 0.888
       }
      }
      $grp Tree : "{7D5C8883A0DF9D96}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_1f.et" {
       {
-       coords -88.009 0.032 -106.665
-       angles -0.984 -52.736 1.653
+       coords -88.008 0.032 -106.664
+       angles -0.392 88.388 -0.379
        scale 1.045
       }
       {
-       coords -87.742 0.032 -108.813
-       angles 1.079 86.267 0.06
+       coords -87.741 0.032 -108.813
+       angles 1.721 138.871 -1.147
        scale 0.827
       }
      }
      $grp Tree : "{960EA50FD57CD7D5}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_1sw.et" {
       {
-       coords -45.003 0.032 -105.63
-       angles 0.477 74.621 0.749
+       coords -45.002 0.032 -105.63
+       angles 0.877 64.788 1.817
        scale 1.037
       }
       {
-       coords -38.942 0.032 -103.432
-       angles -0.037 27.741 0.745
+       coords -38.942 0.032 -103.431
+       angles 0.599 163.493 0.32
        scale 1.177
       }
       {
        coords -18.716 0.032 -28.337
-       angles 0.801 39.97 1.102
+       angles -0.398 145.057 -1.403
        scale 0.958
       }
       {
-       coords -19.611 -0.154 -68.788
-       angles 1.28 -98.968 -0.223
+       coords -48.086 0.032 -122.607
+       angles -0.894 40.541 -1.945
        scale 0.887
       }
       {
-       coords -7.411 0.032 -110.114
-       angles 1.723 172.029 0.193
-       scale 0.857
+       coords -74.402 0.032 -90.526
+       angles -1.553 97.298 -1.416
+       scale 0.927
       }
       {
-       coords -9.916 0.032 -113.254
-       angles -0.318 -73.578 1.43
+       coords -78.404 0.032 -99.66
+       angles -0.925 94.958 -0.101
+       scale 0.948
+      }
+      {
+       coords -24.983 0.032 -24.137
+       angles -1.638 61.701 -0.557
+       scale 1.003
+      }
+      {
+       coords -45.109 0.032 -19.828
+       angles 1.323 48.133 0.821
        scale 1.196
       }
       {
-       coords -63.388 0.032 -122.332
-       angles -1.45 -150.572 0.344
-       scale 0.801
+       coords -68.184 0.032 -6.231
+       angles 0.569 6.515 -0.538
+       scale 0.867
       }
       {
-       coords -80.279 0.032 -116.162
-       angles 0.233 -51.868 -1.229
-       scale 1.194
+       coords -97.695 0.032 24.131
+       angles 1.669 -173.622 -1.506
+       scale 1.103
       }
       {
-       coords -89.061 0.032 -111.915
-       angles -1.977 98.473 1.848
-       scale 0.848
-      }
-      {
-       coords -79.355 0.032 -97.202
-       angles 0.25 1.362 1.001
-       scale 1.094
-      }
-      {
-       coords -46.27 0.032 -58.429
-       angles 0.715 96.584 0.082
-       scale 0.848
-      }
-      {
-       coords -29.666 0.032 -40.746
-       angles 0.149 -61.207 -0.683
-       scale 1.015
-      }
-      {
-       coords -48.256 0.032 -20.086
-       angles 1.012 20.556 -0.433
-       scale 0.917
-      }
-      {
-       coords -48.316 0.032 -14.023
-       angles -1.35 -163.547 -1.948
-       scale 1.146
-      }
-      {
-       coords -78.19 0.032 -11.47
-       angles -1.965 50.209 -1.363
-       scale 0.859
-      }
-      {
-       coords -81.16 0.032 -13.262
-       angles 1.508 153.517 1.01
-       scale 1.14
-      }
-      {
-       coords -74.948 0.032 24.249
-       angles 1.92 -116.426 -1.482
-       scale 0.886
-      }
-      {
-       coords -78.951 0.032 25.779
-       angles 1.763 -37.882 -0.169
-       scale 0.949
+       coords -28.135 0.032 -10.523
+       angles -0.538 -119.919 -0.016
+       scale 1.114
       }
      }
      $grp Tree : "{9C6CE0F73E3AED80}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_pinus_sylvestris_1f.et" {
       {
        coords -68.097 0.032 -106.571
-       angles -1.294 29.159 0
+       angles -1.531 147.199 -0
        scale 1.238
       }
       {
        coords -69.128 0.032 -108.002
-       angles 1.584 -56.559 0
+       angles -0.742 55.219 0
        scale 0.744
       }
       {
-       coords -22.181 0.032 -39.858
-       angles 1.386 103.176 0
+       coords -25.194 -0.049 -55.586
+       angles 0.269 97.375 0
        scale 0.836
       }
       {
-       coords -27.125 0.032 -120.755
-       angles -0.982 9.405 0
-       scale 0.786
+       coords -93.425 0.032 -111.761
+       angles -1.779 -107.625 -0
+       scale 1.164
       }
       {
-       coords -22.054 0.032 -117.664
-       angles -1.149 102.681 0
-       scale 0.968
+       coords -92.111 0.032 10.694
+       angles 0.369 179.061 -0
+       scale 1.016
       }
       {
-       coords -36.429 0.032 -119.703
-       angles -0.776 162.636 0
-       scale 0.811
-      }
-      {
-       coords -93.74 0.032 -109.786
-       angles 0.955 -23.083 0
-       scale 0.979
-      }
-      {
-       coords -75.546 0.032 -103.594
-       angles 1.196 48.221 0
-       scale 0.833
-      }
-      {
-       coords -74.648 0.032 -14.683
-       angles -1.074 77.401 0
-       scale 1.08
-      }
-      {
-       coords -86.346 0.032 12.383
-       angles 1.269 -160.9 0
-       scale 1.169
-      }
-      {
-       coords -27.882 0.032 -4.459
-       angles 1.291 -163.24 0
-       scale 0.927
+       coords -39.573 0.032 -7.658
+       angles -1.948 -113.635 0
+       scale 1.133
       }
      }
      $grp Tree : "{9D6B4E946D1074EA}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_piceaabies_2s.et" {
       {
-       coords -24.786 -0.017 -53.479
-       angles 1.441 34.487 -0.037
-       scale 1.13
+       coords -22.63 0.032 -31.709
+       angles -1.378 102.209 0.896
+       scale 1.119
       }
       {
-       coords -20.601 0.032 -86.647
-       angles -0.932 -88.794 -1.831
-       scale 1.258
+       coords -15.106 0.036 -105.292
+       angles -0.11 -152.396 0.948
+       scale 1.251
       }
       {
-       coords -20.445 0.032 -111.913
-       angles -1.603 155.505 1.156
-       scale 1.025
+       coords -76.017 0.032 -103.159
+       angles -1.294 -120.677 0.583
+       scale 1.146
       }
       {
-       coords -86.938 0.032 -111.895
-       angles -1.314 58.877 0.667
-       scale 0.949
+       coords -74.796 0.032 -12.443
+       angles 1.683 -16.711 1.047
+       scale 1.036
       }
       {
-       coords -72.902 0.032 -105.318
-       angles -1.277 132.4 0.908
-       scale 1.032
+       coords -61.958 0.032 10.083
+       angles -0.049 -70.128 0.794
+       scale 0.927
       }
       {
-       coords -51.769 0.032 -94.528
-       angles -0.454 59.097 -0.46
-       scale 1.187
+       coords -81.559 0.032 20.372
+       angles -1.458 102.67 0.111
+       scale 1.183
       }
       {
-       coords -27.399 -0.065 -74.279
-       angles -0.125 122.974 -0.4
-       scale 1.057
-      }
-      {
-       coords -37.708 0.032 -56.688
-       angles 1.572 130.895 0.589
-       scale 0.97
-      }
-      {
-       coords -28.127 0.032 -45.897
-       angles -0.173 -114.997 0.603
-       scale 0.975
-      }
-      {
-       coords -71.056 0.032 -18.312
-       angles 0.237 42.233 1.783
-       scale 0.931
-      }
-      {
-       coords -89.335 0.032 19.666
-       angles 0.268 -155.033 -1.468
-       scale 0.947
-      }
-      {
-       coords -90.126 0.032 11.487
-       angles 0.679 -19.205 0.582
-       scale 1.188
-      }
-      {
-       coords -19.298 0.032 -13.15
-       angles -0.45 108.702 -1.795
-       scale 1.242
+       coords -14.304 0.032 -12.666
+       angles 1.371 20.677 -1.678
+       scale 1.039
       }
      }
-     $grp Tree : "{A35E15EBC6033C07}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1.et" {
-      {
-       coords -95.692 0.032 -109.755
-       angles -0.511 -129.577 0.129
-       scale 1.099
-      }
-      {
-       coords -27.235 0.032 -39.775
-       angles -0.216 78.016 -0.067
-       scale 1.176
-      }
-      {
-       coords -69.973 0.032 6.024
-       angles 0.437 -71.677 0.453
-       scale 0.995
-      }
-      {
-       coords -98.121 0.032 8.954
-       angles 1.143 -14.316 -0.868
-       scale 0.967
-      }
-      {
-       coords -98.617 0.032 7.429
-       angles 1.675 36.212 1.811
-       scale 0.863
-      }
-      {
-       coords -90.57 0.032 26.58
-       angles 1.454 -104.549 1.793
-       scale 0.754
-      }
-      {
-       coords -44.213 0.032 -3.251
-       angles -0.997 169.92 1.595
-       scale 0.856
-      }
-      {
-       coords -42.357 0.032 -5.71
-       angles -1.268 133.038 -0.328
-       scale 0.785
-      }
-      {
-       coords -20.031 0.032 -6.366
-       angles -0.415 -103.593 1.997
-       scale 0.945
-      }
-      {
-       coords -7.487 0.032 -11.689
-       angles 1.719 108.416 -1.517
-       scale 1.096
-      }
+     Tree : "{A35E15EBC6033C07}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1.et" {
+      coords -17.098 0.032 -4.172
+      angles -1.351 -96.518 -0.083
+      scale 0.901
      }
      $grp Tree : "{AC43B039B67361F6}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_3s.et" {
       {
-       coords -23.346 0 -77.118
-       angles -3.707 165.272 -3.189
-       scale 0.882
+       coords -22.005 -0.396 -70.35
+       angles 1.375 148.737 -0.784
+       scale 1.089
       }
       {
-       coords -27.198 0.032 -111.903
-       angles 1.433 164.141 -1.921
-       scale 1.176
+       coords -41.713 0.032 -58.527
+       angles -0.413 -121.655 -3.825
+       scale 0.856
       }
       {
-       coords -49.734 0.032 -117.463
-       angles -1.71 -99.22 3.816
-       scale 0.916
-      }
-      {
-       coords -66.038 0.032 12.553
-       angles 3.363 19.282 -0.074
-       scale 1.102
+       coords -40.427 0.032 -9.458
+       angles 1.906 -71.776 2.476
+       scale 1.011
       }
      }
      $grp Tree : "{B6FEA2C769DA6395}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_pinus_sylvestris_2s.et" {
       {
-       coords -19.822 0.032 -27.249
-       angles -0.664 -3.922 -0.39
-       scale 1.426
+       coords -24.904 0.025 -49.862
+       angles -0.996 124.127 -1.707
+       scale 1.44
       }
       {
-       coords -18.33 0.032 -20.246
-       angles 1.447 -137.751 -1.105
-       scale 1.067
+       coords -65.823 0.032 -96.892
+       angles 1.047 178.434 -1.123
+       scale 1.449
       }
       {
-       coords -24.289 0.032 -36.433
-       angles 0.6 -51.132 0.989
-       scale 1.021
+       coords -30.314 0.032 -89.281
+       angles 1.71 52.483 0.184
+       scale 1.215
       }
       {
-       coords -13.662 0.032 -98.465
-       angles -0.985 72.962 -1.462
-       scale 1.235
+       coords -86.487 0.032 15.879
+       angles -1.664 -152.803 1.404
+       scale 1.191
       }
       {
-       coords -67.529 0.032 -114.99
-       angles -1.479 140.399 0.337
-       scale 1.081
+       coords -96.984 0.032 13.267
+       angles 1.645 -57.977 -0.931
+       scale 1.475
       }
       {
-       coords -59.244 0.032 -116.673
-       angles 0.218 -22.039 -0.008
-       scale 1.596
+       coords -92.836 0.032 9.044
+       angles -1.177 165.822 0.513
+       scale 1.008
       }
       {
-       coords -41.483 0.032 -58.104
-       angles 0.484 -12.393 -1.046
-       scale 1.333
-      }
-      {
-       coords -28.036 0.032 -18.083
-       angles 1.483 80.115 -1.751
-       scale 1.095
-      }
-      {
-       coords -69.22 0.032 6.576
-       angles -0.978 -49.901 1.172
-       scale 1.106
-      }
-      {
-       coords -33.869 0.032 -10.922
-       angles -1.942 124.292 1.605
-       scale 1.172
-      }
-      {
-       coords -24.527 0.032 -10.518
-       angles 0.326 -20.545 0.314
-       scale 1.211
+       coords -89.157 0.032 20.206
+       angles -1.888 170.876 -0.566
+       scale 1.034
       }
      }
      $grp Tree : "{C1F4CA4F9D788CE5}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_pinus_sylvestris_3s.et" {
       {
-       coords -21.87 0.032 -42.836
-       angles -1.606 92.211 0.181
-       scale 1.032
+       coords -34.495 0.032 -49.302
+       angles 1.491 -83.202 -1.73
+       scale 1.045
       }
       {
-       coords -16.751 0.032 -97
-       angles 0.83 -97.605 -1.507
-       scale 1.047
+       coords -57.082 0.032 2.479
+       angles -0.693 -12.525 0.369
+       scale 0.97
       }
       {
-       coords -39.289 0.032 -117.152
-       angles 1.738 113.657 1.578
-       scale 1.199
-      }
-      {
-       coords -33.713 0.032 -115.94
-       angles -1.831 -104.45 1.573
-       scale 1.291
-      }
-      {
-       coords -31.479 0.032 -47.636
-       angles -0.262 87.267 0.108
-       scale 0.875
-      }
-      {
-       coords -42.041 0.032 -9.377
-       angles -1.046 7.921 -0.508
-       scale 1.349
-      }
-      {
-       coords -52.543 0.032 -5.171
-       angles -1.899 27.961 -0.354
-       scale 1.23
-      }
-      {
-       coords -19.149 0.032 -9.193
-       angles -1.87 79.961 0.149
-       scale 0.886
-      }
-      {
-       coords -28.371 0.032 -13.469
-       angles -0.403 59.998 -1.633
-       scale 1.22
+       coords -9.754 0.032 -4.183
+       angles -0.507 65.656 0.753
+       scale 1.02
       }
      }
      $grp Tree : "{CED0732AEAD82213}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_1s.et" {
       {
        coords -90.174 0.032 -110.719
-       angles 1.514 -164.306 -1.079
+       angles -1.085 -140.563 0.999
        scale 0.802
       }
       {
        coords -90.842 0.032 -108.502
-       angles 0.739 144.585 0.846
+       angles -0.671 170.996 1.445
        scale 0.893
       }
       {
-       coords -22.836 0.032 -44.806
-       angles -0.384 164.218 0.931
+       coords -24.883 -0.118 -59.512
+       angles 1.563 -97.507 0.458
        scale 0.897
       }
       {
-       coords -10.055 0.032 -90.024
-       angles -1.992 11.811 -0.783
-       scale 1.099
-      }
-      {
-       coords -15.502 0.032 -116.391
-       angles -0.286 -100.803 -0.333
-       scale 1.063
-      }
-      {
-       coords -24.902 0.032 -113.052
-       angles -0.57 129.829 -0.854
-       scale 0.966
-      }
-      {
-       coords -36.288 0.032 -118.211
-       angles 1.483 -144.892 1.462
-       scale 0.982
-      }
-      {
-       coords -70.013 0.032 -120.063
-       angles 0.347 174.578 1.961
-       scale 1.064
-      }
-      {
-       coords -66.088 0.032 -89.846
-       angles 1.528 52.044 -1.708
-       scale 0.769
-      }
-      {
-       coords -41.338 0.032 -45.914
-       angles -1.1 -171.04 -0.633
-       scale 0.935
-      }
-      {
-       coords -47.063 0.032 -14.398
-       angles 1.944 37.915 -1.782
-       scale 0.811
-      }
-      {
-       coords -47.129 0.032 0.622
-       angles -0.476 -148.496 -1.5
-       scale 0.894
-      }
-      {
-       coords -48.072 0.032 -6.369
-       angles -1.707 -118.953 0.243
-       scale 1.018
-      }
-      {
-       coords -54.548 0.032 3.481
-       angles 1.718 -53 0.421
-       scale 1.184
-      }
-      {
-       coords -10.646 0.032 -18.183
-       angles -1.537 155.637 1.832
-       scale 0.777
-      }
-      {
-       coords -27.039 0.032 -110.651
-       angles -1.47 19.227 -0.842
-       scale 0.985
+       coords -92.393 0.032 25.438
+       angles 0.81 -22.907 1.064
+       scale 1.019
       }
      }
      $grp Tree : "{CF0A210B7AC7B329}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_2.et" {
       {
-       coords -13.906 0.032 -104.055
-       angles -0.966 -18.93 0.117
-       scale 1.171
+       coords -42.084 0.032 -60.368
+       angles -0.13 129.115 1.092
+       scale 1.073
       }
       {
-       coords -98.184 0.032 -108.789
-       angles -1.816 -97.309 1.598
-       scale 0.91
+       coords -56.687 0.032 -24.485
+       angles 1.115 -73.731 1.331
+       scale 0.985
       }
       {
-       coords -43.765 0.032 -53.646
-       angles 0.214 63.514 -0.528
-       scale 0.924
+       coords -63.164 0.032 -22.399
+       angles 0.828 78.884 -0.623
+       scale 1.007
       }
       {
-       coords -38.87 0.032 -13.397
-       angles -1.578 141.585 1.047
-       scale 0.994
+       coords -67.668 0.032 6.94
+       angles 1.845 -134.488 -0.821
+       scale 0.812
       }
       {
-       coords -65.708 0.032 -18.682
-       angles -1.876 -144.683 1.972
-       scale 0.818
+       coords -20.417 0.015 -77.289
+       angles 0.789 62.877 -1.229
+       scale 1.141
       }
       {
-       coords -66.574 0.032 -5.861
-       angles -0.117 -41.464 -0.572
-       scale 1.049
+       coords -27.145 0.032 -83.721
+       angles -0.747 72.314 -1.182
+       scale 1.149
       }
       {
-       coords -63.055 0.032 -1.008
-       angles 1.056 118.03 -0.078
-       scale 0.811
-      }
-      {
-       coords -70.129 0.032 9.056
-       angles -0.917 -43.672 -1.242
-       scale 1.063
-      }
-      {
-       coords -98.589 0.032 25.526
-       angles -1.468 -33.762 0.552
-       scale 1.066
-      }
-      {
-       coords -80.068 0.032 21.11
-       angles 0.853 -145.288 1.115
-       scale 1.086
-      }
-      {
-       coords -62.291 0.032 3.78
-       angles 0.268 -45.452 0.836
-       scale 1.155
-      }
-      {
-       coords -9.694 0.032 -1.807
-       angles -0.459 37.091 0.223
-       scale 0.847
-      }
-      {
-       coords -24.22 0.032 -39.873
-       angles 0.759 -29.928 -0.99
-       scale 0.998
-      }
-      {
-       coords -24.563 -0.327 -67.064
-       angles 1.173 -114.426 -0.869
-       scale 0.959
-      }
-      {
-       coords -18.924 0.032 -92.514
-       angles -1.793 169.085 1.936
-       scale 1.008
-      }
-      {
-       coords -62.053 0.032 -97.261
-       angles 1.238 65.261 -0.202
-       scale 0.872
-      }
-      {
-       coords -34.542 0.019 -61.088
-       angles -1.193 -8.581 0.917
-       scale 1.082
-      }
-      {
-       coords -65.243 0.032 -15.173
-       angles -0.5 -2.241 -0.613
-       scale 1.083
-      }
-      {
-       coords -74.994 0.032 -10.794
-       angles -1.25 -100.978 -0.621
-       scale 0.858
-      }
-      {
-       coords -94.228 0.032 12.753
-       angles -1.838 -68.897 -0.601
-       scale 0.885
-      }
-      {
-       coords -80.741 0.032 16.018
-       angles 0.853 -66.656 1.461
-       scale 1.091
-      }
-      {
-       coords -13.38 0.032 -2.639
-       angles 0.781 -24.764 1.745
-       scale 0.832
+       coords -30.647 0.032 -45.644
+       angles -0.439 99.935 1.745
+       scale 1.022
       }
      }
-     SCR_IndestructibleEnvironmentalEntity : "{D01FE761ED605522}PrefabLibrary/DefaultLibrary/Rocks/Granite/Granite_Stone_03/Granite_ForestStone_03.et" {
-      coords -42.234 0.032 -105.134
-      angles -2.839 -164.503 -7.353
-      scale 0.409
+     $grp SCR_IndestructibleEnvironmentalEntity : "{D01FE761ED605522}PrefabLibrary/DefaultLibrary/Rocks/Granite/Granite_Stone_03/Granite_ForestStone_03.et" {
+      {
+       coords -42.233 0.032 -105.133
+       angles 8.02 144.694 3.661
+       scale 0.409
+      }
+      {
+       coords -23.796 0.032 -103.436
+       angles -11.009 -62.195 11.277
+       scale 0.627
+      }
      }
      $grp Tree : "{DA7492F3E6B63251}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et" {
       {
        coords -19.466 0.032 -24.141
-       angles 0.479 -133.224 -0.723
+       angles 0.955 -115.129 -0.08
        scale 1.131
       }
       {
-       coords -16.292 0.032 -27.798
-       angles 1.647 -55.592 1.427
+       coords -19.021 0.032 -41.761
+       angles 0.086 -163.547 0.397
        scale 0.95
       }
       {
-       coords -17.513 0.032 -40.716
-       angles -1.242 57.614 -0.316
+       coords -17.618 -0.007 -73.83
+       angles -0.409 80.829 1.387
        scale 1.098
       }
       {
-       coords -23.865 0.008 -51.33
-       angles -0.169 41.596 -1.37
+       coords -16.774 0.032 -88.811
+       angles 1.087 -42.233 0.292
        scale 0.875
       }
       {
-       coords -13.208 0.032 -79.626
-       angles 1.953 -18.853 1.406
-       scale 0.769
-      }
-      {
-       coords -20.292 -0.189 -63.605
-       angles 1.433 59.91 -1.235
+       coords -28.018 0.032 -118.735
+       angles 1.743 111.789 -0.433
        scale 0.797
       }
       {
-       coords -17.931 -0.018 -72.974
-       angles -0.409 -17.48 -0.163
+       coords -35.411 0.032 -120.221
+       angles 1.564 148.21 -0.512
        scale 0.862
       }
       {
-       coords -13.851 0.032 -100.897
-       angles 0.959 98.968 1.221
+       coords -71.889 0.032 -115.539
+       angles -0.984 114.305 -0.287
        scale 1.061
       }
       {
-       coords -12.445 0.032 -87.574
-       angles 0.243 178.456 -0.827
+       coords -79.695 0.032 -117.717
+       angles 1.909 56.098 -1.654
        scale 1.166
       }
       {
-       coords -12.968 0.032 -102.14
-       angles 0.562 62.097 1.087
-       scale 0.834
+       coords -68.878 0.032 -91.735
+       angles -0.429 -24.973 1.009
+       scale 0.783
       }
       {
-       coords -10.161 0.032 -114.883
-       angles 0.876 -53.066 0.877
-       scale 1.079
+       coords -53.074 0.032 -92.576
+       angles -1.802 -60.438 -1.45
+       scale 0.923
       }
       {
-       coords -42.918 0.032 -125.705
-       angles -1.059 4.68 -1.594
-       scale 1.027
+       coords -44.431 0.032 -87.208
+       angles -1.642 83.806 0.003
+       scale 0.966
       }
       {
-       coords -60.457 0.032 -120.207
-       angles 1.496 -68.974 0.197
-       scale 0.828
+       coords -44.396 0.032 -55.42
+       angles 0.3 -28.049 0.86
+       scale 0.976
       }
       {
-       coords -84.285 0.032 -113.758
-       angles -1.919 -179.94 -0.284
-       scale 0.942
+       coords -44.719 0.032 -60.656
+       angles -1.043 -85.245 -0.382
+       scale 1.054
       }
       {
-       coords -79.005 0.032 -115.052
-       angles 1.583 -58.625 0.286
-       scale 0.911
+       coords -37.72 0.032 -42.254
+       angles 1.414 145.233 0.581
+       scale 0.78
       }
       {
-       coords -82.441 0.032 -118.173
-       angles 0.311 81.422 -0.779
-       scale 1.157
+       coords -44.181 0.032 -12.13
+       angles 1.248 158.834 -0.686
+       scale 0.829
       }
       {
-       coords -91.816 0.032 -110.028
-       angles 0.413 -98.539 -0.633
-       scale 1.198
+       coords -56.446 0.032 -16.124
+       angles -1.457 -53.153 -0.948
+       scale 1.121
       }
       {
-       coords -84.922 0.032 -111.139
-       angles 0.655 -86.817 1.685
-       scale 0.804
+       coords -63.245 0.032 -11.982
+       angles -1.883 -57.054 1.15
+       scale 1.12
       }
       {
-       coords -59.525 0.032 -87.979
-       angles -0.831 9.438 -1.005
-       scale 0.996
+       coords -63.708 0.032 2.933
+       angles -1.355 12.184 -0.49
+       scale 1.093
       }
       {
-       coords -66.389 0.032 -94.737
-       angles -1.061 -43.793 -0.417
-       scale 0.765
+       coords -89.271 0.032 13.758
+       angles 0.436 -67.359 1.721
+       scale 1.155
       }
       {
-       coords -53.901 0.032 -87.479
-       angles -1.749 81.005 -1.139
-       scale 1.139
+       coords -95.229 0.032 13.991
+       angles -0.274 92.002 1.314
+       scale 0.751
       }
       {
-       coords -42.479 0.032 -89.748
-       angles -1.248 84.498 -1.355
-       scale 0.759
+       coords -68.021 0.032 17.27
+       angles 1.783 22.918 1.051
+       scale 1.107
       }
       {
-       coords -55.738 0.032 -93.028
-       angles 0.94 167.953 -0.771
-       scale 0.777
+       coords -74.918 0.032 16.484
+       angles -1.516 -121.886 1.584
+       scale 1.19
       }
       {
-       coords -30.222 -0.03 -73.592
-       angles 1.141 167.514 -0.036
-       scale 0.811
+       coords -61.126 0.032 2.987
+       angles 1.668 -171.787 -1.519
+       scale 0.844
       }
       {
-       coords -35.804 0.032 -80.974
-       angles 1.01 -5.109 1.362
-       scale 0.764
+       coords -22.067 0.032 -7.888
+       angles 0.914 169.019 -0.326
+       scale 1.197
       }
       {
-       coords -28.193 0.032 -78.76
-       angles 1.147 -107.878 0.795
-       scale 0.936
+       coords -1.535 0.028 -2.171
+       angles -1.353 97.847 1.984
+       scale 1.19
       }
       {
-       coords -40.396 0.032 -64.131
-       angles -1.859 -63.195 -1.132
-       scale 1.05
-      }
-      {
-       coords -42.121 0.032 -60.357
-       angles 0.616 -112.525 1.872
-       scale 1.047
-      }
-      {
-       coords -37.768 0.032 -51.422
-       angles 0.397 164.075 -1.466
-       scale 0.786
-      }
-      {
-       coords -32.185 0.032 -37.413
-       angles 1.047 91.87 1.906
-       scale 0.75
-      }
-      {
-       coords -29.166 0.032 -23.984
-       angles 1.812 65.7 0.246
-       scale 1.166
-      }
-      {
-       coords -26.808 0.032 -19.855
-       angles 0.586 -125.621 1.612
-       scale 1.154
-      }
-      {
-       coords -33.228 0.032 -17.874
-       angles 1.186 -117.953 1.859
-       scale 0.857
-      }
-      {
-       coords -61.776 0.032 -26.039
-       angles 0.855 24.929 0.356
-       scale 1.169
-      }
-      {
-       coords -54.718 0.032 -21.92
-       angles 0.399 -133.191 1.495
-       scale 0.897
-      }
-      {
-       coords -64.455 0.032 -23.557
-       angles 0.696 -25.258 0.631
-       scale 1.074
-      }
-      {
-       coords -68.589 0.032 -24.651
-       angles 1.146 156.758 0.88
-       scale 1.036
-      }
-      {
-       coords -68.654 0.032 -23.539
-       angles -0.642 -21.699 -1.41
-       scale 0.831
-      }
-      {
-       coords -65.111 0.032 5.784
-       angles 0.052 -106.032 -1.253
-       scale 1.046
-      }
-      {
-       coords -87.882 0.032 13.814
-       angles 0.918 -21.028 -0.306
-       scale 0.903
-      }
-      {
-       coords -94.42 0.032 8.634
-       angles -1.142 50.088 -0.675
-       scale 1.006
-      }
-      {
-       coords -98.734 0.032 9.115
-       angles 0.229 -122.49 -1.49
-       scale 0.808
-      }
-      {
-       coords -96.398 0.032 22.169
-       angles -0.269 -52.725 -1.721
-       scale 1.128
-      }
-      {
-       coords -94.016 0.032 19.349
-       angles 1.398 -73.38 -1.073
-       scale 0.801
-      }
-      {
-       coords -89.384 0.032 26.594
-       angles 0.446 52.582 0.016
-       scale 0.827
-      }
-      {
-       coords -76.493 0.032 19.278
-       angles 0.533 116.755 0.369
-       scale 0.94
-      }
-      {
-       coords -77.562 0.032 23.479
-       angles 0.513 32.136 -1.401
-       scale 0.977
-      }
-      {
-       coords -72.464 0.032 19.839
-       angles 1.604 158.922 -0.383
-       scale 1.052
-      }
-      {
-       coords -78.132 0.032 27.012
-       angles -0.983 175.226 1.6
-       scale 0.819
-      }
-      {
-       coords -44.386 0.032 -5.791
-       angles -0.579 165.602 0.826
-       scale 0.889
-      }
-      {
-       coords -38.412 0.032 -6.584
-       angles -0.924 -80.181 -0.182
-       scale 0.879
-      }
-      {
-       coords -10.379 0.032 -5.699
-       angles -0.872 -160.702 1.31
-       scale 0.894
-      }
-      {
-       coords -15.848 0.032 -6.066
-       angles -1.254 97.419 -0.556
-       scale 0.961
-      }
-      {
-       coords -5.139 0.032 -6.931
-       angles 1.032 -8.075 1.55
-       scale 0.801
-      }
-      {
-       coords -29.646 0.032 -5.167
-       angles -1.046 -29.598 -1.386
-       scale 1.013
-      }
-      {
-       coords -20.198 0.032 -5.841
-       angles 1.025 -47.133 -1.758
-       scale 0.929
-      }
-      {
-       coords -17.255 0.032 -4.031
-       angles 0.711 -172.425 0.743
-       scale 0.769
-      }
-      {
-       coords -11.94 0.032 -6.103
-       angles 0.895 145.332 -1.889
-       scale 1.133
+       coords -12.296 0.032 -14.897
+       angles 1.234 -170.085 1.318
+       scale 1.068
       }
      }
      $grp Tree : "{DB49D8B142D18E86}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_2s.et" {
       {
-       coords -53.592 0.032 -115.596
-       angles 2.028 22.545 -0.842
-       scale 0.899
+       coords -51.934 0.032 -93.206
+       angles 0.875 16.865 2.211
+       scale 0.807
       }
       {
-       coords -67.554 0.032 -96.307
-       angles -2.501 -167.162 2.223
-       scale 0.943
-      }
-      {
-       coords -31.212 -0.007 -58.711
-       angles 1.095 179.401 -0.703
-       scale 0.997
-      }
-      {
-       coords -32.483 -0.034 -63.726
-       angles 2.277 -0.67 -1.798
-       scale 1.104
-      }
-      {
-       coords -58.898 0.032 -17.366
-       angles -0.68 48.825 -2.005
-       scale 0.993
-      }
-      {
-       coords -72.923 0.032 -13.087
-       angles 2.302 -112.866 -1.474
-       scale 1.018
-      }
-      {
-       coords -89.548 0.032 23.875
-       angles -1.866 65.634 0.427
-       scale 1.107
-      }
-      {
-       coords -72.758 0.032 10.368
-       angles 1.755 30.861 0.336
-       scale 1.106
+       coords -33.218 -0.001 -58.587
+       angles -1.331 -177.281 0.696
+       scale 1.143
       }
      }
      $grp SCR_IndestructibleEnvironmentalEntity : "{F168A8DEE854592D}PrefabLibrary/DefaultLibrary/Rocks/Granite/Granite_BeachCluster_02/Granite_ForestCluster_02.et" {
       {
        coords -36.157 0.032 -102.936
-       angles 0 -2.802 0
+       angles 0 -80.258 0
        scale 0.925
       }
       {
        coords -40.25 0.032 -98.841
-       angles 0 70.512 0
+       angles 0 80.192 0
        scale 0.966
       }
       {
        coords -44.476 0.032 -111.006
-       angles 0 17.645 0
+       angles 0 27.17 0
        scale 0.982
       }
      }
      $grp Tree : "{F1DB9A8115310093}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_1f.et" {
       {
        coords -44.517 0.032 -104.338
-       angles 3.64 86.641 -2.766
+       angles 2.409 -69.249 -1.758
        scale 0.811
       }
       {
        coords -41.481 0.032 -103.404
-       angles -3.001 177.226 1.536
+       angles -0.355 -158.34 3.782
        scale 0.71
       }
       {
-       coords -13.964 0.032 -85.701
-       angles -0.79 -54.681 1.428
+       coords -76.403 0.032 -118.635
+       angles -1.261 146.683 -0.888
        scale 0.807
       }
       {
-       coords -9.828 0.032 -109.479
-       angles -2.913 116.008 1.848
-       scale 0.985
+       coords -67.231 0.032 -95.292
+       angles 1.521 56.636 2.956
+       scale 0.821
       }
       {
-       coords -57.622 0.032 -118.701
-       angles -2.21 40.651 -2.846
-       scale 0.951
+       coords -38.752 0.032 -47.48
+       angles -1.54 -77.577 1.076
+       scale 1.032
       }
       {
-       coords -85.577 0.032 -109.713
-       angles -3.397 -85.026 2.117
-       scale 0.947
+       coords -25.227 0.032 -41.874
+       angles 3.235 9.591 1.998
+       scale 0.803
       }
       {
-       coords -63.124 0.032 -89.791
-       angles -2.058 -135.564 -3.652
-       scale 0.992
+       coords -27.881 0.032 -18.596
+       angles 2.739 -68.249 3.419
+       scale 0.905
       }
       {
-       coords -37.52 0.032 -61.741
-       angles -3.142 -63.646 0.915
-       scale 0.915
-      }
-      {
-       coords -37.488 0.032 -48.998
-       angles 2.555 45.935 0.799
-       scale 0.92
-      }
-      {
-       coords -31.218 0.032 -40.481
-       angles -1.355 55.208 3.092
-       scale 0.94
-      }
-      {
-       coords -39.061 0.032 -43.87
-       angles 1.939 -50.044 0.934
-       scale 0.91
-      }
-      {
-       coords -76.113 0.032 -20.417
-       angles 1.394 137.322 -3.656
-       scale 1.136
-      }
-      {
-       coords -64.698 0.032 9.303
-       angles -0.367 -100.418 -0.234
-       scale 0.841
-      }
-      {
-       coords -84.387 0.032 25.827
-       angles 3.837 12.118 -1.816
-       scale 1.179
-      }
-      {
-       coords -80.324 0.032 25.632
-       angles 2.428 142.025 -1.74
-       scale 0.992
+       coords -37.313 0.032 -8.265
+       angles 1.062 26.049 0.007
+       scale 1.172
       }
      }
     }
@@ -20094,1735 +19238,913 @@ $grp SplineShapeEntity {
    ForestGeneratorEntity : "{C5E4EE4A741A0715}Prefabs/WEGenerators/Forest/FG_Forest_PineSpruce1.et" {
     Flags 0x100003 0
     coords 0 0 0
+    m_aLevels {
+     ForestGeneratorOutline Outline_small {
+      m_fDensity 200
+     }
+     ForestGeneratorOutline Outline_big {
+      m_fDensity 300
+     }
+     ForestGeneratorTopLevel TopLevel {
+      m_fDensity 200
+     }
+    }
     {
      $grp Tree : "{053196EF2505964A}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_0.et" {
       {
-       coords -0.874 0 21.173
-       angles 1.81 -118.711 0.708
+       coords 91.812 -1.156 21.169
+       angles 1.478 -50.154 1.439
        scale 0.953
       }
       {
-       coords 143.89 -1.156 -19.275
-       angles 1.681 129.994 -1.728
-       scale 1.167
+       coords 81.181 -1.156 27.215
+       angles -0.706 31.015 -1.494
+       scale 0.846
       }
       {
-       coords 204.831 2.963 -61.979
-       angles 0.174 -140.772 -1.828
-       scale 0.818
+       coords 153.021 -0.838 -39.442
+       angles 0.993 124.863 1.579
+       scale 0.811
       }
      }
      $grp Tree : "{0572596E23DDDC10}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_pinus_sylvestris_2f.et" {
       {
-       coords 16.953 -0.567 0.591
-       angles -3.356 66.733 -2.34
-       scale 1.458
+       coords 66.583 -1 21.384
+       angles -4.09 88.08 3.292
+       scale 1.053
       }
       {
-       coords 123.333 -1.156 30.075
-       angles 2.096 54.933 -2.075
-       scale 1.144
+       coords 90.138 -1.156 21.001
+       angles 4.851 -54.736 4.463
+       scale 1.226
       }
       {
-       coords 98.739 -1.156 14.596
-       angles 2.363 151.33 -2.16
-       scale 1.309
+       coords 207.42 2.997 -61.054
+       angles -0.337 134.048 2.292
+       scale 1.358
+      }
+      {
+       coords 148.08 -1.09 -32.343
+       angles 0.464 -121.853 4.033
+       scale 1.334
+      }
+      {
+       coords 51.592 -1.031 6.533
+       angles -2.261 56.988 4.13
+       scale 1.624
       }
      }
      $grp Tree : "{1FCF4B90FC74DE73}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_3f.et" {
       {
        coords 163.228 -0.151 -30.687
-       angles 1.31 -122.523 -2.162
+       angles 0.658 -110.163 -2.842
        scale 0.824
       }
       {
-       coords 160.45 -0.536 -27.437
-       angles 2.767 111.888 2.243
+       coords 160.45 -0.537 -27.437
+       angles 2.027 76.786 -0.663
        scale 1.064
       }
      }
      $grp Tree : "{20C4A23B039DFCF3}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_3s.et" {
       {
-       coords -4.276 -0.1 37.991
-       angles -1.472 -179.258 0.725
-       scale 0.851
+       coords 5.961 -0.153 4.268
+       angles 1.879 -107.713 1.7
+       scale 0.9
       }
       {
-       coords -1.63 -0.009 32.357
-       angles -1.349 179.687 -1.967
-       scale 1.114
-      }
-      {
-       coords -7.972 -0.009 35.78
-       angles 0.711 -101.989 0.113
-       scale 0.831
-      }
-      {
-       coords 2.5 -0.071 32.625
-       angles -1.619 168.744 -1.261
-       scale 0.81
-      }
-      {
-       coords 49.884 -1.031 0.325
-       angles -0.114 -137.135 1.845
-       scale 0.852
-      }
-      {
-       coords 44.335 -1.029 -2.986
-       angles -1.46 55.746 0.369
-       scale 1.134
-      }
-      {
-       coords 68.084 -1 22.947
-       angles 0.096 -108.702 -1.837
-       scale 0.885
-      }
-      {
-       coords 71.341 -1 17.635
-       angles 0.521 44.76 -0.783
-       scale 0.889
-      }
-      {
-       coords 63.055 -1 21.25
-       angles -0.388 67.964 -0.411
-       scale 0.873
-      }
-      {
-       coords 84.8 -1.156 21.356
-       angles 1.752 97.649 0.75
-       scale 1.121
-      }
-      {
-       coords 105.619 -1.156 23.835
-       angles -0.53 18.721 -1.848
-       scale 0.843
-      }
-      {
-       coords 118.481 -1.156 29.788
-       angles 0.51 -134.971 -1.655
-       scale 0.859
-      }
-      {
-       coords 110.57 -1.156 22.244
-       angles 1.84 -75.643 0.655
-       scale 0.968
-      }
-      {
-       coords 93.389 -1.156 -5.77
-       angles 0.86 162.91 1.609
-       scale 1.053
-      }
-      {
-       coords 98.312 -1.156 -5.22
-       angles -1.614 75.248 -1.124
-       scale 0.811
-      }
-      {
-       coords 102.487 -1.156 -10.865
-       angles -0.567 -151.462 -1.958
-       scale 1.078
-      }
-      {
-       coords 132.334 -1.156 -28.945
-       angles 1.557 101.154 -0.41
+       coords -5.14 -0.167 40.078
+       angles 1.761 120.095 -0.227
        scale 1.112
       }
       {
-       coords 150.376 -1.134 -26.267
-       angles -0.813 6.043 0.816
-       scale 0.855
+       coords 50.807 -1.031 0.532
+       angles -1.999 68.106 0.636
+       scale 1.048
       }
       {
-       coords 182.113 2.1 -16.262
-       angles -0.888 138.289 1.18
-       scale 0.913
+       coords 60.546 -1.031 3.988
+       angles -0.121 40.541 1.356
+       scale 0.88
       }
       {
-       coords 185.909 2.444 -25.437
-       angles -0.795 -14.195 1.664
-       scale 0.916
+       coords 74.004 -1.032 20.126
+       angles 0.34 93.189 0.18
+       scale 1.046
       }
       {
-       coords 174.128 1.381 -30.634
-       angles -0.604 -144.991 -1.121
-       scale 1.141
+       coords 121.06 -1.156 28.688
+       angles -0.952 118.315 1.921
+       scale 0.887
       }
       {
-       coords 176.253 1.744 -37.325
-       angles 0.105 87.871 1.423
-       scale 0.872
+       coords 97.21 -1.156 15.964
+       angles -1.244 -145.518 -0.055
+       scale 0.919
       }
       {
-       coords 185.869 2.403 -58.268
-       angles 1.529 -3.351 1.711
-       scale 0.904
+       coords 116.68 -1.156 -17.821
+       angles -0.36 154.516 -0.125
+       scale 0.886
       }
       {
-       coords 194.858 2.606 -65.608
-       angles 1.983 -62.415 1.838
-       scale 1.1
+       coords 130.84 -1.156 -25.612
+       angles 0.409 -113.251 0.209
+       scale 0.881
       }
       {
-       coords 207.19 2.851 -64.797
-       angles 0.394 -117.414 1.203
-       scale 1.153
+       coords 166.07 0.136 -21.507
+       angles 1.921 41.98 -0.894
+       scale 0.822
       }
       {
-       coords 207.718 3 -60.545
-       angles -1.482 -74.424 -0.724
-       scale 0.924
+       coords 181.55 2.025 -14.277
+       angles 1.976 -13.294 -1.348
+       scale 0.835
       }
       {
-       coords 212.334 2.912 -65.383
-       angles 1.389 -172.666 1.982
-       scale 1.159
+       coords 183.378 2.323 -54.323
+       angles -0.546 -51.209 -0.131
+       scale 0.829
       }
       {
-       coords 194.594 2.845 -60.064
-       angles 0.066 -116.36 0.265
-       scale 1.15
+       coords 208.125 2.769 -66.833
+       angles -0.021 22.512 0.18
+       scale 0.837
       }
       {
-       coords 201.16 2.89 -62.613
-       angles -1.882 -6.988 0.163
-       scale 0.987
+       coords 215.378 2.92 -68.048
+       angles 0.803 -129.588 1.822
+       scale 1.054
       }
       {
-       coords 190.002 2.725 -56.751
-       angles 0.464 -44.397 -0.718
-       scale 0.851
+       coords 202.57 2.861 -63.69
+       angles -1.739 109.251 -0.118
+       scale 0.817
       }
       {
-       coords 183.547 2.381 -52.153
-       angles -0.685 -137.015 1.963
-       scale 1.032
+       coords 173.159 1.338 -44.684
+       angles -0.202 31.29 0.693
+       scale 0.985
       }
       {
-       coords 148.163 -1.102 -31.108
-       angles 1.225 105.011 0.629
-       scale 1.055
+       coords 154.068 -0.787 -36.019
+       angles 1.797 27.587 0.716
+       scale 0.928
       }
       {
-       coords 158.998 -0.338 -41.196
-       angles -0.04 172.392 0.544
-       scale 0.839
+       coords 108.158 -1.156 -6.288
+       angles 1.913 147.1 -1.662
+       scale 1.016
       }
       {
-       coords 164.506 0.257 -42.729
-       angles 1.108 -23.281 -1.733
-       scale 1.169
+       coords 41.677 -1.082 5.005
+       angles 1.92 -88.19 -1.02
+       scale 0.826
       }
       {
-       coords 137.773 -1.156 -24.865
-       angles 1.889 -179.258 1.045
-       scale 0.958
+       coords 25.846 -1.032 4.286
+       angles -1.917 -139.706 0.554
+       scale 1.061
       }
       {
-       coords 125.232 -1.156 -15.823
-       angles -1.55 -31.433 -0.181
-       scale 0.911
+       coords 17.151 -0.724 4.873
+       angles -1.93 -151.88 -0.857
+       scale 0.971
       }
       {
-       coords 110.836 -1.156 -8.066
-       angles -0.744 57.548 -0.053
-       scale 1.034
-      }
-      {
-       coords 84.737 -1.156 3.902
-       angles -0.028 -96.32 1.217
-       scale 1.152
-      }
-      {
-       coords 80.555 -1.156 -0.052
-       angles 0.096 -52.516 -1.507
-       scale 0.809
-      }
-      {
-       coords 60.56 -1.031 4.505
-       angles 0.408 137.861 0.674
-       scale 0.923
-      }
-      {
-       coords 76.187 -1.156 3.49
-       angles -1.84 -77.027 -1.188
-       scale 1.069
+       coords 30.759 -1.11 4.415
+       angles 1.449 23.511 1.57
+       scale 1.167
       }
      }
      $grp Tree : "{253445DD1D8B369D}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_3f_high.et" {
       {
-       coords 73.921 -1.14 12.67
-       angles -2.81 93.453 -2.067
-       scale 0.987
+       coords 78.885 -1.156 15.544
+       angles -1.499 101.539 -0.063
+       scale 1.051
       }
       {
-       coords 79.058 -1.156 10.94
-       angles 0.324 -45.232 0.075
-       scale 1.035
+       coords 65.775 -1.013 7.459
+       angles 1.529 -145.376 -2.594
+       scale 1.072
       }
       {
-       coords 79.17 -1.156 15.738
-       angles -0.988 161.68 -0.301
-       scale 1.05
+       coords 99.823 -1.156 1.51
+       angles 2.654 17.403 -0.203
+       scale 1.023
       }
       {
-       coords 55.307 -1.031 1.13
-       angles 1.948 50.539 0.915
-       scale 1.055
-      }
-      {
-       coords 61.273 -1.066 -3.095
-       angles 2.71 -147.331 -1.159
-       scale 1.045
-      }
-      {
-       coords 84.359 -1.156 10.317
-       angles 2.552 109.054 -0.171
-       scale 1.021
-      }
-      {
-       coords 80.323 -1.156 6.091
-       angles 1.512 6.68 2.598
-       scale 1.075
-      }
-      {
-       coords 71.933 -1.14 6.387
-       angles -2.4 -76.017 0.055
-       scale 1.066
-      }
-      {
-       coords 96.702 -1.156 2.72
-       angles 1.895 177.072 -0.292
-       scale 0.967
-      }
-      {
-       coords 89.947 -1.156 22.746
-       angles -0.055 -171.886 0.388
-       scale 1.037
-      }
-      {
-       coords 107.388 -1.156 -13.936
-       angles -1.61 -0.242 -0.944
+       coords 88.361 -1.156 3.578
+       angles -0.209 60.383 -2.017
        scale 1.086
       }
       {
-       coords 106.799 -1.156 13.388
-       angles -0.351 -19.743 -2.211
-       scale 1.047
+       coords 105.383 -1.156 14.733
+       angles 1.773 91.695 1.136
+       scale 1.018
       }
       {
-       coords 93.49 -1.156 10.021
-       angles 1.283 -123.688 -0.707
-       scale 0.98
-      }
-      {
-       coords 164.74 0.206 -37.682
-       angles 0.558 86.806 -1.778
-       scale 1.017
-      }
-      {
-       coords 153.794 -0.948 -30.241
-       angles -0.202 -42.233 0.941
-       scale 1.07
-      }
-      {
-       coords 173.399 1.258 -57.182
-       angles 0.782 -80.719 0.166
+       coords 99.641 -1.156 11.371
+       angles 2.966 138.113 1.757
        scale 0.982
       }
       {
-       coords 159.903 -0.419 -33.573
-       angles 2.86 -74.49 -1.096
-       scale 1.055
+       coords 88.577 -1.156 12.905
+       angles 1.05 115.788 0.394
+       scale 1.077
       }
       {
-       coords 168.794 0.796 -51.911
-       angles -0.09 -100.693 -2.283
-       scale 0.991
+       coords 93.946 -1.156 10.026
+       angles -1.979 -65.656 -1.233
+       scale 1.097
       }
       {
-       coords 169.284 0.641 -26.657
-       angles -2.531 65.448 -2.409
-       scale 1.091
+       coords 163.73 0.06 -36.49
+       angles 2.413 46.375 -2.257
+       scale 1.083
       }
       {
-       coords 156.111 -1.052 -18.106
-       angles -1.742 -58.372 0.126
-       scale 1.033
+       coords 158.508 -0.385 -42.049
+       angles 0.717 -19.985 -0.787
+       scale 1.081
       }
       {
-       coords 156.883 -0.958 -24.306
-       angles -2.557 -68.535 -2.854
-       scale 0.997
+       coords 161.743 -0.007 -47.916
+       angles 1.533 164.547 -2.661
+       scale 1.036
       }
       {
-       coords 162.161 -0.435 -15.292
-       angles 2.67 -179.72 0.825
-       scale 0.978
+       coords 170.238 0.775 -25.522
+       angles -2.829 -156.494 2.518
+       scale 1.095
+      }
+      {
+       coords 176.267 1.535 -18.573
+       angles -2.905 147.859 -1.575
+       scale 1.074
+      }
+      {
+       coords 170.323 0.688 -16.531
+       angles 1.945 -22.149 -2.504
+       scale 1.133
+      }
+      {
+       coords 184.429 2.334 -24.287
+       angles 2.574 15.513 1.222
+       scale 1.032
       }
      }
      $grp Tree : "{2FE01B5E743D5205}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_pinus_sylvestris_1s.et" {
       {
        coords 108.354 -1.156 30.13
-       angles 1.096 30.653 -1.943
+       angles 0.905 175.874 -0.214
        scale 0.856
       }
       {
-       coords -1.151 0 13.511
-       angles 0.297 164.251 0.063
+       coords -1.151 -0.026 13.512
+       angles 1.451 -61.075 -0.315
        scale 1.196
       }
       {
-       coords 3.708 -0.023 11.885
-       angles -0.968 53.164 1.063
-       scale 0.88
-      }
-      {
-       coords 103.854 -1.156 25.235
-       angles -0.887 121.447 0.098
-       scale 0.811
-      }
-      {
-       coords 120.734 -1.156 25.834
-       angles -1.685 154.231 -1.594
+       coords 112.74 -1.156 -12.989
+       angles -0.555 153.176 1.451
        scale 0.883
       }
       {
-       coords 113.553 -1.156 16.739
-       angles 1.403 -94.321 -1.14
-       scale 0.896
-      }
-      {
-       coords 91.876 -1.156 -0.848
-       angles 1.606 -23.841 -1.691
-       scale 1.062
-      }
-      {
-       coords 100.618 -1.156 -4.296
-       angles 0.033 155.637 0.692
-       scale 1.105
-      }
-      {
-       coords 88.268 -1.156 -0.09
-       angles -1.271 -51.484 1.634
+       coords 105.655 -1.156 -6.191
+       angles 0.652 -144.42 1.02
        scale 1.129
       }
      }
+     SCR_IndestructibleEnvironmentalEntity : "{3583AB98E185C249}PrefabLibrary/DefaultLibrary/Rocks/Granite/Granite_Stone_02/Granite_ForestStone_02.et" {
+      coords 81.356 -1.156 23.766
+      angles 3.107 134.389 3.346
+      scale 0.431
+     }
      $grp Tree : "{425761285F36BF16}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_1s.et" {
       {
-       coords 164.687 0.008 -27.427
-       angles 2.245 96.716 0.132
+       coords 164.687 0.007 -27.426
+       angles 2.609 133.312 2.257
        scale 0.865
       }
       {
        coords 162.879 -0.269 -24.283
-       angles 1.516 113.207 -1.721
+       angles 1.036 148.056 1.095
        scale 1.102
       }
       {
        coords 158.634 -0.647 -29.932
-       angles 0.298 148.254 -0.537
+       angles -2.409 146.749 2.303
        scale 0.781
       }
       {
-       coords -3.815 -0.23 40.996
-       angles -2.45 -154.385 -0.909
+       coords 39.877 -1.03 -2.002
+       angles -2.535 56.603 -1.04
        scale 1.097
       }
       {
-       coords 101.736 -1.156 14.839
-       angles -1.037 151.682 1.247
+       coords 65.981 -1.079 0.806
+       angles -0.149 -46.342 2.384
        scale 1.049
-      }
-      {
-       coords 94.893 -1.156 -1.5
-       angles -0.139 131.851 0.806
-       scale 0.697
-      }
-      {
-       coords 115.417 -1.156 -16.43
-       angles -2.895 -91.87 -2.381
-       scale 1.077
-      }
-      {
-       coords 131.289 -1.156 -19.709
-       angles 1.872 -56.592 1.141
-       scale 0.932
-      }
-      {
-       coords 180.049 1.87 -12.214
-       angles 2.721 116.788 0.39
-       scale 0.899
-      }
-      {
-       coords 184.833 2.333 -14.267
-       angles -0.854 56.417 -2.869
-       scale 0.704
-      }
-      {
-       coords 185.014 2.398 -28.026
-       angles 0.639 128.687 -2.457
-       scale 1.153
-      }
-      {
-       coords 185.171 2.465 -54.244
-       angles -1.213 95.166 1.833
-       scale 0.761
-      }
-      {
-       coords 213.69 2.724 -70.827
-       angles -2.299 146.804 -0.756
-       scale 0.835
-      }
-      {
-       coords 172.296 1.16 -56.042
-       angles 1.977 167.459 0.83
-       scale 0.602
-      }
-      {
-       coords 162.491 0.041 -44.204
-       angles 2.532 15.843 2.174
-       scale 0.802
-      }
-      {
-       coords 117.973 -1.156 -18.668
-       angles 2.43 134.444 1.534
-       scale 1.004
-      }
-      {
-       coords 120.102 -1.156 -16.403
-       angles 0.889 -52.516 0.493
-       scale 0.75
-      }
-      {
-       coords 0.763 0 1.912
-       angles -2.544 -151.594 -0.441
-       scale 0.932
       }
      }
      $grp Tree : "{531BB93086610CA1}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_0.et" {
       {
-       coords -4.875 -0.23 41.437
-       angles -1.126 49.627 1.526
+       coords -1.911 0 20.818
+       angles 2.762 60.987 -0.961
        scale 1.137
       }
       {
-       coords 23.176 -0.774 -0.482
-       angles 2.922 -175.567 -1.373
+       coords 96.24 -1.156 13.979
+       angles 2.163 -46.221 1.691
        scale 0.988
       }
       {
-       coords 69.14 -1 24.803
-       angles 0.006 -85.674 -0.498
+       coords 214.829 3 -62.602
+       angles 0.124 99.99 1.042
        scale 0.982
       }
       {
-       coords 86.644 -1.156 22.801
-       angles 1.656 -46.287 1.821
+       coords 213.446 2.837 -68.554
+       angles -2.426 82.279 -1.967
        scale 0.888
       }
       {
-       coords 101.575 -1.156 26.592
-       angles 2.062 -46.375 1.831
+       coords 181.901 2.044 -59.28
+       angles 1.962 -114.096 -2.053
        scale 1.146
       }
       {
-       coords 109.706 -1.156 26.875
-       angles -0.647 -4.472 -1.601
+       coords 166.287 0.502 -47.636
+       angles 2.561 12.173 0.962
        scale 1.046
       }
       {
-       coords 115.1 -1.156 23.125
-       angles 1.39 163.591 -0.557
-       scale 1.129
-      }
-      {
-       coords 120.168 -1.156 27.589
-       angles -2.1 98.979 1.377
+       coords 91.962 -1.156 -3.551
+       angles 1.522 35.915 2.949
        scale 1.151
-      }
-      {
-       coords 133.184 -1.156 -25.758
-       angles 0.505 121.941 2.906
-       scale 1.046
-      }
-      {
-       coords 150.65 -1.156 -22.04
-       angles -0.344 94.573 0.279
-       scale 0.869
-      }
-      {
-       coords 188.21 2.61 -28.613
-       angles 1.08 -115.305 -0.211
-       scale 1.181
-      }
-      {
-       coords 217.832 3 -63.483
-       angles 2.473 154.967 0.347
-       scale 0.907
-      }
-      {
-       coords 209.012 2.772 -67.066
-       angles -0.198 -162.899 -0.727
-       scale 1.046
-      }
-      {
-       coords 208.465 2.634 -69.475
-       angles 0.287 136.784 -1.432
-       scale 1.133
-      }
-      {
-       coords 180.549 1.952 -57.558
-       angles 0.677 -10.976 1.714
-       scale 1.186
-      }
-      {
-       coords 77.423 -1.156 -4.442
-       angles 1.094 -4.57 -2.146
-       scale 0.934
-      }
-      {
-       coords 43.583 -1.052 3.047
-       angles -1.813 -4.241 -0.46
-       scale 1.11
       }
      }
      $grp Tree : "{572740984A0430C5}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_pinus_sylvestris_3f_high.et" {
       {
-       coords 65.779 -1 10.984
-       angles -0.818 -109.383 1.196
-       scale 1.032
+       coords 69.452 -1 14.573
+       angles 1.636 -140.563 1.678
+       scale 1.078
       }
       {
-       coords 98.301 -1.156 24.799
-       angles 0.294 -0.242 -1.749
-       scale 0.996
-      }
-      {
-       coords 113.368 -1.156 32.595
-       angles 1.236 -152.66 1.297
+       coords 172.604 1.209 -55.029
+       angles -1.471 95.584 -1.336
        scale 1.006
       }
+      {
+       coords 172.638 1.2 -32.483
+       angles -0.768 -59.515 -1.377
+       scale 1.065
+      }
+      {
+       coords 167.96 0.681 -42.354
+       angles -1.067 -5.471 1.363
+       scale 1.089
+      }
+      {
+       coords 162.027 -0.443 -16.02
+       angles -1.434 -47.748 0.208
+       scale 1.064
+      }
+     }
+     SCR_IndestructibleEnvironmentalEntity : "{59D79F785D414D67}PrefabLibrary/DefaultLibrary/Rocks/Granite/Granite_Stone_01/Granite_ForestStone_01.et" {
+      coords 100.667 -1.156 23.572
+      angles -8.913 15.392 -1.262
+      scale 0.589
      }
      Tree : "{5CA1D12C1B27CAE2}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_stump_02.et" {
-      coords 90.72 -1.156 7.795
-      angles 4.717 25.489 2.873
-      scale 0.702
+      coords 173.177 1.191 -25.256
+      angles -0.242 -99.781 -2.398
+      scale 0.812
      }
-     Tree : "{68C5231808D63103}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_2f.et" {
-      coords 156.513 -0.648 -35.539
-      angles -1.743 62.162 -1.667
-      scale 1.117
+     $grp Tree : "{68C5231808D63103}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_2f.et" {
+      {
+       coords 214.471 2.988 -63.606
+       angles -1.649 -88.585 1.74
+       scale 0.768
+      }
+      {
+       coords 154.795 -0.819 -32.911
+       angles 0.765 40.717 -2.756
+       scale 0.799
+      }
      }
      $grp Tree : "{960EA50FD57CD7D5}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_1sw.et" {
       {
        coords 158.594 -0.763 -26.316
-       angles -1.808 57.493 -0.259
+       angles 1.928 -79.06 -0.391
        scale 0.972
       }
       {
        coords 159.358 -0.528 -31.736
-       angles 1.603 87.377 1.673
+       angles 0.945 41.475 -1.609
        scale 0.83
       }
       {
        coords 165.329 0.058 -23.524
-       angles -0.907 -36.849 -1.162
+       angles 0.605 -148.144 -0.498
        scale 1.051
       }
       {
-       coords -3.378 0 31.662
-       angles 0.434 56.34 1.46
+       coords -2.65 0 31.711
+       angles 1.267 96.386 1.342
        scale 1.003
       }
       {
-       coords -8.848 0 23.231
-       angles -1.411 -159.274 -0.28
+       coords 5.301 -0.11 18.336
+       angles -0.451 -76.983 -1.03
        scale 1.196
       }
       {
-       coords 6.75 -0.174 11.712
-       angles -0.274 -82.796 1.633
+       coords 119.231 -1.156 34.229
+       angles -0.005 -149.539 1.057
        scale 1.108
       }
       {
-       coords 65.203 -1 19.167
-       angles 0.098 20.886 -1.897
+       coords 190.084 2.696 -18.824
+       angles 0.814 60.855 -0.756
        scale 1.146
       }
       {
-       coords 61.951 -1 27.456
-       angles -0.126 -115.931 0.26
+       coords 181.699 2.277 -43.147
+       angles -0.99 30.049 -0.588
        scale 1.178
       }
       {
-       coords 74.987 -1 26.242
-       angles 0.453 162.163 0.625
+       coords 216.515 3 -59.472
+       angles -1.837 -97.66 -0.953
        scale 0.93
       }
       {
-       coords 82.039 -1.156 21.17
-       angles 1.519 -104.879 -1.573
+       coords 211.999 2.886 -65.98
+       angles 1.03 33.301 1.621
        scale 1.175
       }
       {
-       coords 101.479 -1.156 20.743
-       angles -0.819 -152.396 -0.891
+       coords 185.812 2.498 -55.069
+       angles 1.981 -9.328 1.749
        scale 1.181
       }
       {
-       coords 125.142 -1.156 32.112
-       angles -1.583 25.313 -1.021
+       coords 145.296 -1.151 -31.128
+       angles -0.322 171.084 0.382
        scale 1.019
-      }
-      {
-       coords 121.581 -1.156 -16.094
-       angles 1.947 8.218 0.056
-       scale 0.829
-      }
-      {
-       coords 132.995 -1.156 -21.112
-       angles 1.265 -8.734 -0.129
-       scale 1.042
-      }
-      {
-       coords 134.313 -1.156 -25.717
-       angles -0.321 25.808 1.818
-       scale 1.051
-      }
-      {
-       coords 163.458 -0.222 -20.564
-       angles -0.288 -142.464 0.847
-       scale 0.92
-      }
-      {
-       coords 157.45 -0.953 -18.476
-       angles 0.467 108.713 0.222
-       scale 1.027
-      }
-      {
-       coords 181.061 1.968 -10.113
-       angles -0.744 105.758 -1.669
-       scale 0.82
-      }
-      {
-       coords 186.191 2.441 -15.343
-       angles -0.899 127.039 -1.133
-       scale 1.024
-      }
-      {
-       coords 191.975 2.798 -25.607
-       angles 1.045 -56.142 1.6
-       scale 1.057
-      }
-      {
-       coords 188.16 2.607 -29.825
-       angles 1.754 -123.182 -1.685
-       scale 0.923
-      }
-      {
-       coords 183.852 2.444 -45.626
-       angles 0.615 -45.111 1.019
-       scale 1.086
-      }
-      {
-       coords 177.7 1.864 -47.003
-       angles -0.459 -77.61 0.365
-       scale 1.112
-      }
-      {
-       coords 180.766 2.14 -51.743
-       angles -0.984 -83.641 1.56
-       scale 1.136
-      }
-      {
-       coords 164.812 0.329 -46.996
-       angles -0.588 -46.682 -0.607
-       scale 1.076
-      }
-      {
-       coords 148.575 -1.074 -34.465
-       angles -0.18 60.866 1.789
-       scale 0.893
-      }
-      {
-       coords 47.318 -1.026 -1.131
-       angles 1.122 100.858 -0.641
-       scale 0.918
-      }
-      {
-       coords 0.702 0 3.624
-       angles -1.846 159.9 1.805
-       scale 0.995
       }
      }
      $grp Tree : "{9C6CE0F73E3AED80}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_pinus_sylvestris_1f.et" {
       {
-       coords -3.038 -0.042 35.494
-       angles -0.758 66.645 0
-       scale 0.963
-      }
-      {
-       coords 2.036 -0.016 27.476
-       angles 1.549 0.78 0
-       scale 0.95
-      }
-      {
-       coords 24.354 -0.93 2.058
-       angles 0.38 -169.854 0
+       coords 116.415 -1.156 21.024
+       angles -1.107 -174.875 0
        scale 0.936
       }
       {
-       coords 62.401 -1 7.788
-       angles -0.462 75.654 0
+       coords 116.461 -1.156 -11.053
+       angles -0.452 -92.804 0
+       scale 1.068
+      }
+      {
+       coords 168.405 0.411 -16.063
+       angles -0.319 165.525 -0
        scale 0.884
       }
       {
-       coords 187.348 2.531 -12.652
-       angles 0.052 -137.652 0
-       scale 0.843
-      }
-      {
-       coords 208.765 2.973 -62.578
-       angles -1.277 16.315 0
-       scale 0.894
-      }
-      {
-       coords 176.168 1.583 -54.822
-       angles -1.853 57.427 0
-       scale 1.006
+       coords 33.825 -1.11 3.311
+       angles -0.158 35.048 0
+       scale 1.143
       }
      }
      $grp Tree : "{9D6B4E946D1074EA}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_piceaabies_2s.et" {
       {
-       coords 7.383 -0.183 6.683
-       angles -1.8 -139.97 -1.077
-       scale 1.248
+       coords 1.421 -0.005 12.817
+       angles -1.029 129.698 0.667
+       scale 1.259
       }
       {
-       coords 1.472 -0.008 16.794
-       angles -0.513 99.583 0.086
-       scale 0.949
+       coords 7.237 -0.19 8.194
+       angles 0.865 -109.295 -0.967
+       scale 1.056
       }
       {
-       coords 4.19 -0.038 10.335
-       angles 0.166 66.294 1.025
-       scale 1.041
+       coords -2.008 0 26.246
+       angles -1.005 16.183 -0.409
+       scale 1.1
       }
       {
-       coords 92.079 -1.156 18.229
-       angles 0.437 151.946 0.339
-       scale 1.076
-      }
-      {
-       coords 82.345 -1.156 18.478
-       angles 1.928 154.637 1.467
-       scale 1.053
-      }
-      {
-       coords 128.651 -1.156 -26.549
-       angles -1.317 137.894 1.395
-       scale 1.289
-      }
-      {
-       coords 145.892 -1.156 -28.156
-       angles 1.615 137.96 1.385
-       scale 1.001
-      }
-      {
-       coords 174.832 1.357 -19.61
-       angles 0.746 19.556 0.398
-       scale 1.093
-      }
-      {
-       coords 186.1 2.434 -21.467
-       angles -1.968 131.291 1.614
-       scale 1.176
-      }
-      {
-       coords 182.047 2.151 -26.987
-       angles 1.438 -96.408 1.804
-       scale 0.982
-      }
-      {
-       coords 177.88 1.864 -49.018
-       angles 1.928 -161.416 0.584
-       scale 1.171
-      }
-      {
-       coords 185.647 2.234 -63.102
-       angles -0.536 -165.086 -0.597
-       scale 1.156
-      }
-      {
-       coords 202.284 2.992 -59.41
-       angles -1.549 121.37 0.776
-       scale 1.021
-      }
-      {
-       coords 187.765 2.657 -54.1
-       angles -0.195 87.278 0.594
-       scale 1.219
-      }
-      {
-       coords 135.057 -1.156 -22.213
-       angles -0.987 -9.031 -1.256
+       coords 1.772 -0.084 6.061
+       angles -1.13 -115.338 1.235
        scale 1.054
       }
       {
-       coords 102.76 -1.156 -2.082
-       angles 1.046 -44.276 -0.034
-       scale 1.202
+       coords 110.75 -1.156 24.812
+       angles 0.328 -147.155 1.443
+       scale 0.956
       }
       {
-       coords 49.3 -1.031 6.214
-       angles -1.492 144.881 0.532
-       scale 1.152
+       coords 145.441 -1.156 -27.833
+       angles -1.709 -86.498 1.053
+       scale 1.146
       }
       {
-       coords 54.584 -1.01 6.881
-       angles -1.527 7.669 -0.73
-       scale 1.019
+       coords 189.819 2.668 -58.223
+       angles 1.979 59.064 0.855
+       scale 1.207
+      }
+      {
+       coords 104.055 -1.156 -5.381
+       angles 1.443 -105.648 -1.484
+       scale 1.031
+      }
+      {
+       coords 88.262 -1.156 -1.551
+       angles 0.639 -41.013 0.728
+       scale 1.26
       }
      }
      $grp Tree : "{A35E15EBC6033C07}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1.et" {
       {
-       coords 2.856 0 8.277
-       angles 1.081 130.104 0.952
+       coords 118.391 -1.156 29.49
+       angles -1.056 -116.601 1.509
        scale 1.142
       }
       {
-       coords 122.196 -1.156 30.059
-       angles -0.58 13.59 0.112
+       coords 132.077 -1.156 -20.086
+       angles -0.053 -15.744 -1.081
        scale 0.922
       }
       {
-       coords 123.385 -1.156 35.981
-       angles 1.257 32.125 -0.603
+       coords 134.153 -1.156 -30.901
+       angles 1.947 -126.127 -0.738
        scale 1.076
       }
-      {
-       coords 168.928 0.523 -20.516
-       angles -1.394 -12.909 -1.314
-       scale 1.008
-      }
-      {
-       coords 182.23 2.296 -51.229
-       angles -0.098 85.96 -1.062
-       scale 0.78
-      }
-      {
-       coords 201.162 2.781 -64.911
-       angles 1.859 -27.39 1.963
-       scale 1.191
-      }
-      {
-       coords 49.908 -1.001 -3.704
-       angles 1.137 116.492 0.854
-       scale 0.768
-      }
-      {
-       coords 39.246 -1.031 -2.837
-       angles -1.354 136.41 1.751
-       scale 0.782
-      }
      }
-     Tree : "{AC43B039B67361F6}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_3s.et" {
-      coords 66.163 -1.056 3.569
-      angles 0.026 -165.195 0.709
-      scale 1.085
+     $grp Tree : "{AC43B039B67361F6}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_3s.et" {
+      {
+       coords 184.733 2.327 -19.07
+       angles 3.975 -155.154 -3.156
+       scale 1.192
+      }
+      {
+       coords 178.363 1.803 -55.106
+       angles 3.517 -139.333 -1.345
+       scale 0.881
+      }
      }
      $grp Tree : "{B6FEA2C769DA6395}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_pinus_sylvestris_2s.et" {
       {
-       coords -1.923 0 20.818
-       angles 1.373 86.135 -0.952
-       scale 1.164
+       coords 114.843 -1.156 21.388
+       angles -0.252 31.719 -0.359
+       scale 1.627
       }
       {
-       coords -6.83 0 32.004
-       angles 1.233 -99.946 -0.975
-       scale 1.278
+       coords 139.752 -1.156 -24.973
+       angles -0.883 87.08 0.191
+       scale 1.576
       }
       {
-       coords -5.906 0 25.978
-       angles 0.887 10.075 -1.684
-       scale 1.295
+       coords 79.186 -1.156 1.192
+       angles -0.15 85.74 1.228
+       scale 1.551
       }
       {
-       coords 116.471 -1.156 26.797
-       angles -0.246 -84.597 -0.708
-       scale 1.129
-      }
-      {
-       coords 169.533 0.594 -19.606
-       angles 1.808 39.684 -0.274
-       scale 1.484
-      }
-      {
-       coords 178.587 1.778 -18.787
-       angles 1.453 116.964 1.993
-       scale 1.078
+       coords 71.886 -1.14 1.259
+       angles 1.928 142.058 0.206
+       scale 1.07
       }
      }
      $grp Tree : "{C1F4CA4F9D788CE5}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_pinus_sylvestris_3s.et" {
       {
-       coords 46.436 -1.039 3.745
-       angles -0.515 90.673 -0.021
-       scale 1.19
+       coords -3.188 -0.02 34.555
+       angles 1.729 -160.219 -1.394
+       scale 1.265
       }
       {
-       coords 21.411 -0.928 5.665
-       angles 1.292 -143.563 1.682
-       scale 1.091
+       coords 102.276 -1.156 22.529
+       angles 1.22 -100.891 1.216
+       scale 1.02
       }
       {
-       coords 37.8 -1.111 4.403
-       angles 0.11 24.665 -0.722
-       scale 1.114
+       coords 114.341 -1.156 30.938
+       angles -0.889 105.714 1.909
+       scale 1.165
+      }
+      {
+       coords 173.63 1.423 -38.469
+       angles -0.809 -48.638 0.776
+       scale 1.152
       }
      }
      $grp Tree : "{CED0732AEAD82213}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_1s.et" {
       {
-       coords 119.783 -1.156 36.958
-       angles -0.059 109.416 -1.294
+       coords 51.536 -1.031 1.287
+       angles -1.139 123.292 -0.605
+       scale 0.963
+      }
+      {
+       coords 73.988 -1 26.167
+       angles 1.072 -161.68 0.698
+       scale 0.95
+      }
+      {
+       coords 139.857 -1.156 -31.733
+       angles 1.635 -85.048 -0.268
        scale 1.054
       }
       {
-       coords 173.746 1.12 -12.175
-       angles 1.402 172.227 -0.745
-       scale 0.835
+       coords 65.596 -1.084 -2.25
+       angles 1.168 92.607 -1.795
+       scale 0.858
       }
       {
-       coords 152.516 -0.871 -43.881
-       angles -0.662 -70.457 0.902
-       scale 0.99
-      }
-      {
-       coords 20.15 -0.766 2.295
-       angles 1.762 -111.844 -0.609
-       scale 0.889
-      }
-      {
-       coords 146.475 -1.156 -26.076
-       angles -0.44 -160.098 -1.96
-       scale 0.83
+       coords 95.574 -1.156 5.552
+       angles 0.193 168.228 -1.179
+       scale 1.009
       }
      }
      $grp Tree : "{CF0A210B7AC7B329}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_2.et" {
       {
-       coords 5.853 -0.101 2.94
-       angles 0.769 51.264 0.679
+       coords -2.438 0 23.024
+       angles -0.81 175.6 1.029
        scale 1.073
       }
       {
-       coords -10.731 -0.021 36.553
-       angles -1.199 14.261 1.721
+       coords 23.798 -1.012 6.233
+       angles 1.283 -92.87 -0.179
        scale 0.985
       }
       {
-       coords -9.396 -0.061 38.298
-       angles -1.565 59.768 -0.21
+       coords 30.712 -1.069 1.793
+       angles -1.958 133.049 -1.902
        scale 1.007
       }
       {
-       coords 2.42 -0.299 38.554
-       angles -0.735 52.264 -0.058
+       coords 56.233 -1.025 5.53
+       angles 1.115 -39.783 0.477
        scale 0.998
       }
       {
-       coords 0.829 -0.137 36.159
-       angles -0.105 -55.12 -1.494
+       coords 64.817 -1.025 5.581
+       angles 0.383 -96.727 -0.488
        scale 1.075
       }
       {
-       coords 2.08 -0.392 41.438
-       angles 0.993 141.245 1.913
-       scale 1.156
-      }
-      {
-       coords 57.659 -1.031 2.913
-       angles 0.338 -1.802 -0.105
+       coords 176.967 1.584 -16.096
+       angles -1.405 170.249 0.036
        scale 1.003
       }
       {
-       coords 52.195 -1.031 7.659
-       angles -1.528 69.128 -1.817
+       coords 169.141 0.466 -12.985
+       angles -0.119 146.112 0.065
        scale 0.829
       }
       {
-       coords 72.649 -1 27.7
-       angles -1.107 -107.68 1.212
+       coords 188.423 2.725 -51.694
+       angles -1.058 176.907 1.538
        scale 1.017
       }
       {
-       coords 113.083 -1.156 29.019
-       angles 0.693 -67.48 1.092
+       coords 163.763 0.214 -47.041
+       angles -0.348 -104.56 -0.495
        scale 0.965
       }
       {
-       coords 95.379 -1.156 7.978
-       angles 1.901 75.511 -1.005
+       coords 44.132 -1.02 -1.595
+       angles -0.331 57.285 0.956
        scale 1.071
-      }
-      {
-       coords 109.188 -1.156 -5.768
-       angles -1.585 -46.397 0.846
-       scale 0.889
-      }
-      {
-       coords 174.12 1.183 -13.16
-       angles -0.37 -89.904 0.638
-       scale 0.857
-      }
-      {
-       coords 178.345 1.715 -14.289
-       angles -0.804 84.883 1.394
-       scale 1.047
-      }
-      {
-       coords 197.479 2.836 -62.387
-       angles 0.017 113.943 1.861
-       scale 1.028
-      }
-      {
-       coords 206.481 2.422 -71.761
-       angles 1.656 -99.539 0.308
-       scale 0.838
-      }
-      {
-       coords 135.75 -1.156 -28.192
-       angles -0.033 44.364 1.809
-       scale 0.853
-      }
-      {
-       coords 110.245 -1.156 -12.931
-       angles 0.486 161.834 1.395
-       scale 0.891
-      }
-      {
-       coords 65.82 -1.076 -0.768
-       angles -0.348 115.184 -1.612
-       scale 1.086
-      }
-      {
-       coords 40.766 -1.034 -1.118
-       angles -0.452 166.514 0.484
-       scale 0.849
-      }
-      {
-       coords 28.681 -0.961 -0.156
-       angles -1.009 75.819 -1.05
-       scale 0.899
-      }
-      {
-       coords 13.124 -0.356 -0.711
-       angles 1.736 48.473 -1.145
-       scale 1.14
-      }
-      {
-       coords 4.204 -0.039 4.273
-       angles -1.837 163.427 1.069
-       scale 1.011
-      }
-      {
-       coords 108.876 -1.156 24.647
-       angles -1.654 101.539 0.404
-       scale 0.833
-      }
-      {
-       coords 112.656 -1.156 21.93
-       angles -1.32 123.49 0.268
-       scale 0.816
-      }
-      {
-       coords 102.283 -1.156 -8.325
-       angles 1.479 -72.864 0.33
-       scale 0.885
-      }
-      {
-       coords 145.343 -1.156 -23.105
-       angles 0.535 144.167 1.801
-       scale 1.193
-      }
-      {
-       coords 159.923 -0.661 -24.735
-       angles -0.663 154.143 -0.235
-       scale 1.081
-      }
-      {
-       coords 173.456 1.393 -37.914
-       angles 1.217 -56.296 -1.995
-       scale 0.863
-      }
-      {
-       coords 178.492 1.83 -54.531
-       angles -0.483 149.737 -0.978
-       scale 0.832
-      }
-      {
-       coords 166.444 0.499 -44.769
-       angles -1.079 107.351 -1.932
-       scale 1.135
-      }
-      {
-       coords 175.053 1.547 -46.656
-       angles -0.076 157.373 -0.848
-       scale 1.08
-      }
-      {
-       coords 173.868 1.39 -49.258
-       angles -1.261 -28.159 -0.226
-       scale 1.087
       }
      }
      $grp Tree : "{DA7492F3E6B63251}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et" {
       {
-       coords 163.526 -0.138 -28.542
-       angles -0.46 46.386 -0.073
+       coords 163.526 -0.138 -28.541
+       angles -1.233 102.187 -0.755
        scale 0.841
       }
       {
-       coords -3.909 0 22.369
-       angles 1.899 28.181 -0.948
+       coords -3.909 0 22.37
+       angles -1.469 -55.549 -0.168
        scale 0.976
       }
       {
-       coords -6.362 0 17.353
-       angles 0.92 -86.52 -0.708
+       coords -6.362 0 17.354
+       angles -0.284 -146.145 0.779
        scale 1.054
       }
       {
-       coords -1.729 0 7.363
-       angles -0.059 70.754 -0.373
-       scale 0.78
-      }
-      {
-       coords -4.195 -0.148 39.356
-       angles -0.806 11.734 0.654
-       scale 0.829
-      }
-      {
-       coords -2.633 -0.02 34.05
-       angles -1.959 123.765 -1.953
+       coords 19.467 -0.858 -0.783
+       angles 1.541 176.105 -0.983
        scale 1.121
       }
       {
-       coords -9.302 -0.002 35.338
-       angles 0.931 -55.604 -1.164
+       coords 70.007 -1 16.159
+       angles -1.784 -125.501 1.966
        scale 0.954
       }
       {
-       coords 3.292 -0.041 24.617
-       angles -0.144 69.227 1.43
+       coords 61.953 -1 26.297
+       angles 0.013 -32.554 -1.47
        scale 1.04
       }
       {
-       coords -0.435 0 28.346
-       angles -1.641 -112.097 -0.822
+       coords 69.293 -1 20.792
+       angles 0.32 -21.204 -1.874
+       scale 0.791
+      }
+      {
+       coords 105.651 -1.156 25.311
+       angles -0.996 17.117 -1.864
        scale 1.063
       }
       {
-       coords 2.072 -0.017 24.636
-       angles 1.262 -36.355 -0.311
+       coords 107.776 -1.156 28.41
+       angles -0.009 113.273 1.088
        scale 1.136
       }
       {
-       coords 1.284 0 13.468
-       angles 0.49 -11.437 -0.872
+       coords 119.393 -1.156 29.028
+       angles -0.843 83.345 1.564
        scale 0.896
       }
       {
-       coords 28.091 -1.08 4.713
-       angles 1.488 127.5 0.814
+       coords 108.525 -1.156 12.445
+       angles -0.627 -23.962 1.279
        scale 0.783
       }
       {
-       coords 13.792 -0.448 1.248
-       angles 0.182 34.938 0.508
+       coords 103.477 -1.156 16.702
+       angles -1.741 -50.934 0.667
        scale 0.788
       }
       {
-       coords 24.881 -0.811 -0.827
-       angles 1.512 -179.127 1.154
+       coords 105.268 -1.156 -11.542
+       angles -0.107 -66.744 -1.642
        scale 1.148
       }
       {
-       coords 31.471 -1.011 -0.729
-       angles -1.73 -170.117 1.76
+       coords 95.023 -1.156 -1.922
+       angles 0.838 1.615 1.091
        scale 1.169
       }
       {
-       coords 40.403 -1.071 2.356
-       angles 1.039 -115.404 -1.931
+       coords 122.39 -1.156 -18.01
+       angles 1.255 -85.136 1.359
        scale 0.993
       }
       {
-       coords 32.904 -1.125 5.397
-       angles 1.895 30.433 -0.782
-       scale 1.068
-      }
-      {
-       coords 38.612 -1.059 -1.053
-       angles -1.796 35.432 -1.659
+       coords 133.965 -1.156 -25.872
+       angles 1.43 117.678 -1.489
        scale 0.793
       }
       {
-       coords 45.338 -1.055 4.685
-       angles 1.252 56.966 -0.106
+       coords 127.71 -1.156 -18.604
+       angles -0.707 83.191 0.815
        scale 0.877
       }
       {
-       coords 56.785 -1 7.77
-       angles 1.435 -20.007 -0.706
+       coords 147.498 -1.156 -17.907
+       angles -0.088 94.606 1.041
        scale 1.151
       }
       {
-       coords 42.422 -1.07 5.132
-       angles 0.792 -100.473 -1.185
-       scale 0.969
-      }
-      {
-       coords 61.545 -1 19.278
-       angles 1.898 -144.925 -1.313
+       coords 191.837 2.791 -28.985
+       angles 0.281 -120.139 1.996
        scale 1.089
       }
       {
-       coords 62.556 -1 22.438
-       angles 0.3 -43.87 -1.816
+       coords 181.257 2.162 -33.671
+       angles -0.445 59.822 0.36
        scale 0.793
       }
       {
-       coords 61.076 -1 25.66
-       angles 0.287 137.146 0.189
+       coords 189.933 2.781 -53.023
+       angles 1.933 177.457 -0.966
        scale 0.838
       }
       {
-       coords 76.244 -1.054 22.685
-       angles -1.449 85.465 -1.386
+       coords 209.97 2.921 -64.215
+       angles 0.928 111.13 0.37
        scale 0.799
       }
       {
-       coords 89.656 -1.156 20.202
-       angles 0.574 56.329 0.565
+       coords 195.484 2.864 -60.055
+       angles 1.356 -97.353 -1.737
        scale 1.007
       }
       {
-       coords 110.221 -1.156 30.882
-       angles -1.395 -100.297 0.601
+       coords 188.286 2.398 -63.782
+       angles -0.458 25.621 0.439
        scale 0.904
       }
       {
-       coords 97.432 -1.156 22.199
-       angles -0.386 -91.87 0.499
+       coords 174.632 1.442 -52.303
+       angles 1.184 -47.616 1.248
        scale 0.924
       }
       {
-       coords 114.583 -1.156 27.196
-       angles 0.714 -174.853 0.004
+       coords 164.375 0.246 -44.664
+       angles -0.203 175.446 -0.069
        scale 0.851
       }
       {
-       coords 119.864 -1.156 22.476
-       angles 1.316 -59.218 0.774
+       coords 107.082 -1.156 -11.62
+       angles 1.095 168.008 1.264
        scale 0.933
       }
       {
-       coords 113.845 -1.156 15.897
-       angles 1.269 -22.995 -0.585
+       coords 84.396 -1.156 -0.372
+       angles -0.913 129.884 -0.688
+       scale 0.998
+      }
+      {
+       coords 65.167 -1.093 -3.104
+       angles 1.611 93.584 -0.457
        scale 0.816
       }
       {
-       coords 94.421 -1.156 13.555
-       angles -0.416 -66.579 -1.076
+       coords 5.598 -0.114 6.89
+       angles 0.727 -3.626 1.405
        scale 1.133
       }
       {
-       coords 103.751 -1.156 15.698
-       angles -1.846 99.44 -1.962
-       scale 1.143
-      }
-      {
-       coords 97.87 -1.156 12.575
-       angles 0.525 -114.899 -1.489
+       coords 13.96 -0.547 4.07
+       angles -0.945 -44.683 -1.241
        scale 0.891
       }
       {
-       coords 98.326 -1.156 1.547
-       angles 1.969 -109.823 1.266
+       coords 32.943 -1.032 -0.829
+       angles -1.526 -92.53 0.642
        scale 0.78
-      }
-      {
-       coords 98.578 -1.156 -0.41
-       angles 1.699 -71.106 0.043
-       scale 0.84
-      }
-      {
-       coords 104.658 -1.156 -7.906
-       angles 0.46 152.088 -0.837
-       scale 1.074
-      }
-      {
-       coords 120.199 -1.156 -13.689
-       angles 0.595 107.197 0.36
-       scale 0.849
-      }
-      {
-       coords 123.143 -1.156 -22.166
-       angles 1.589 20.842 -0.125
-       scale 1.138
-      }
-      {
-       coords 141.423 -1.156 -22.656
-       angles -1.643 -146.903 1.524
-       scale 1.057
-      }
-      {
-       coords 144.255 -1.156 -17.927
-       angles 1.786 -172.194 0.617
-       scale 0.933
-      }
-      {
-       coords 165.562 0.024 -16.576
-       angles -1.805 151.517 0.735
-       scale 0.78
-      }
-      {
-       coords 169.036 0.503 -16.282
-       angles -1.219 20.073 -1.72
-       scale 0.759
-      }
-      {
-       coords 187.62 2.552 -16.911
-       angles 0.91 -91.761 0.428
-       scale 0.78
-      }
-      {
-       coords 188.607 2.63 -11.366
-       angles -0.238 177.27 1.931
-       scale 0.784
-      }
-      {
-       coords 178.668 1.969 -35.857
-       angles -1.958 -122.205 1.343
-       scale 0.826
-      }
-      {
-       coords 181.787 2.246 -38.41
-       angles 1.33 -28.917 -1.854
-       scale 0.802
-      }
-      {
-       coords 181.45 2.166 -32.926
-       angles -0.711 93.024 1.744
-       scale 1.06
-      }
-      {
-       coords 185.502 2.428 -56.541
-       angles -1.418 43.145 0.8
-       scale 1.029
-      }
-      {
-       coords 214.683 2.99 -63.488
-       angles -1.333 -51.824 -1.083
-       scale 0.855
-      }
-      {
-       coords 214.712 3 -61.463
-       angles 1.164 146.221 -0.002
-       scale 0.865
-      }
-      {
-       coords 212.04 3 -62.625
-       angles -0.906 36.333 1.053
-       scale 0.855
-      }
-      {
-       coords 215.614 2.719 -73.012
-       angles -0.451 159.384 -1.943
-       scale 0.855
-      }
-      {
-       coords 211.446 2.672 -70.189
-       angles 0.264 85.553 -0.272
-       scale 0.981
-      }
-      {
-       coords 188.252 2.506 -60.281
-       angles -1.662 -142.123 1.033
-       scale 1.166
-      }
-      {
-       coords 179.539 1.802 -59.956
-       angles 1.096 125.841 -0.564
-       scale 0.785
-      }
-      {
-       coords 188.655 2.65 -56.461
-       angles -0.572 -17.941 -0.007
-       scale 0.876
-      }
-      {
-       coords 168.372 0.74 -47.74
-       angles 0.537 111.921 -1.713
-       scale 1.013
-      }
-      {
-       coords 150.517 -0.993 -34.112
-       angles 0.223 -104.956 0.402
-       scale 0.97
-      }
-      {
-       coords 153.917 -0.783 -38.52
-       angles -1.913 172.996 1.292
-       scale 0.82
-      }
-      {
-       coords 156.333 -0.579 -42.017
-       angles 1.213 110.163 1.064
-       scale 0.871
-      }
-      {
-       coords 140.776 -1.156 -34.852
-       angles 0.076 37.113 -0.075
-       scale 1.07
-      }
-      {
-       coords 130.815 -1.156 -26.97
-       angles -1.033 32.059 -1.692
-       scale 1.172
-      }
-      {
-       coords 129.247 -1.156 -22.102
-       angles -0.069 80.324 -1.245
-       scale 1.058
-      }
-      {
-       coords 133.567 -1.156 -23.122
-       angles -0.55 -43.441 0.398
-       scale 0.887
-      }
-      {
-       coords 142.236 -1.156 -29.327
-       angles -0.888 -148.474 1.468
-       scale 0.988
-      }
-      {
-       coords 79.792 -1.156 -2.718
-       angles 0.081 56.878 -0.946
-       scale 0.828
-      }
-      {
-       coords 95.626 -1.156 -6.133
-       angles -1.4 143.519 0.891
-       scale 0.873
-      }
-      {
-       coords 82.229 -1.156 -1.999
-       angles -1.967 -171.106 1.139
-       scale 0.8
-      }
-      {
-       coords 85.323 -1.156 -1.559
-       angles 1.366 -120.326 0.166
-       scale 0.769
-      }
-      {
-       coords 69.186 -1.128 -3.86
-       angles 1.021 -114.031 0.857
-       scale 1.135
-      }
-      {
-       coords 62.495 -1.065 -3.064
-       angles 1.711 138.959 -0.233
-       scale 0.94
-      }
-      {
-       coords 43.109 -1.031 -0.243
-       angles 1.324 153.714 -0.899
-       scale 1.198
-      }
-      {
-       coords 58.313 -1.031 1.307
-       angles -1.447 -61.954 0.727
-       scale 0.992
-      }
-      {
-       coords 49.547 -1.006 -3.015
-       angles -1.062 150.1 -1.804
-       scale 0.757
-      }
-      {
-       coords 18.568 -0.702 2.21
-       angles -1.076 -47.858 -1.806
-       scale 1.032
-      }
-      {
-       coords 4.25 -0.04 2.634
-       angles -1.226 47.375 -1.692
-       scale 0.867
       }
      }
-     $grp Tree : "{DB49D8B142D18E86}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_2s.et" {
-      {
-       coords -2.251 0 9.971
-       angles -0.834 117.184 2.106
-       scale 0.997
-      }
-      {
-       coords 1.588 0 6.612
-       angles 1.105 -163.24 1.614
-       scale 1.026
-      }
-      {
-       coords 96.296 -1.156 -3.154
-       angles -2.332 142.321 -2.26
-       scale 0.907
-      }
-      {
-       coords 171.2 1.094 -45.783
-       angles 0.148 -38.585 -0.63
-       scale 0.986
-      }
+     Tree : "{DB49D8B142D18E86}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_2s.et" {
+      coords 68.55 -1 25.289
+      angles 0.655 -73.369 2.176
+      scale 1.028
      }
      $grp Tree : "{F1DB9A8115310093}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_1f.et" {
       {
-       coords -0.8 0 22.533
-       angles -0.575 105.747 -1.612
+       coords -6.451 -0.198 41.203
+       angles 3.998 150.55 2.49
+       scale 1.032
+      }
+      {
+       coords -3.887 -0.245 41.426
+       angles -3.001 35.729 3.004
        scale 0.803
       }
       {
-       coords -0.929 0 18.98
-       angles 2.762 172.458 2.493
+       coords -0.036 -0.102 35.896
+       angles 1.822 -105.252 -0.941
        scale 0.905
       }
       {
-       coords 11.823 -0.402 2.722
-       angles 0.417 172.392 2.172
+       coords 118.875 -1.156 31.106
+       angles 3.247 72.435 -1.533
+       scale 0.88
+      }
+      {
+       coords 93.193 -1.156 0.54
+       angles 1.821 -154.571 2.3
        scale 0.948
       }
       {
-       coords 62.215 -1.031 3.31
-       angles -3.389 33.301 -2.034
+       coords 183.221 2.197 -16.099
+       angles 1.225 -174.963 -2.366
        scale 0.975
       }
       {
-       coords 65.056 -1 24.342
-       angles 2.936 -16.414 -2.202
-       scale 0.867
-      }
-      {
-       coords 69.495 -1 21.525
-       angles 0.769 89.311 -2.552
-       scale 1.13
-      }
-      {
-       coords 81.603 -1.156 27.451
-       angles 1.737 145.321 1.499
-       scale 0.912
-      }
-      {
-       coords 110.604 -1.156 15.432
-       angles 0.861 158.318 1.26
-       scale 0.84
-      }
-      {
-       coords 115.922 -1.156 -10.512
-       angles -3.932 -17.172 2.842
-       scale 0.986
-      }
-      {
-       coords 152.948 -1.156 -21.623
-       angles 0.161 -163.965 -0.792
-       scale 1.184
-      }
-      {
-       coords 166.216 0.129 -18.973
-       angles 1.589 30.752 0.619
-       scale 1.06
-      }
-      {
-       coords 191.599 2.787 -57.645
-       angles 2.432 -143.365 0.849
-       scale 1.179
-      }
-      {
-       coords 195.898 2.851 -61.107
-       angles -2.737 -26.785 -1.313
-       scale 0.839
-      }
-      {
-       coords 213.456 3 -58.232
-       angles 2.811 -22.852 0.427
+       coords 186.113 2.466 -27.945
+       angles 3.186 96.584 -0.085
        scale 0.978
       }
       {
-       coords 211.796 3 -58.577
-       angles -1.818 14.063 -2.574
-       scale 0.931
+       coords 196.411 2.826 -62.147
+       angles -3.547 176.028 -2.897
+       scale 0.867
       }
       {
-       coords 203.437 2.612 -68.184
-       angles -2.662 -132.049 0.812
-       scale 1.109
+       coords 211.549 2.999 -62.895
+       angles -2.586 -7.526 1.216
+       scale 1.13
       }
       {
-       coords 210.145 2.855 -65.685
-       angles 2.235 -172.491 1.543
-       scale 0.816
+       coords 213.152 2.564 -72.964
+       angles 1.569 -33.048 1.903
+       scale 0.912
       }
       {
-       coords 162.863 0.116 -49.69
-       angles -2.235 130.137 2.89
-       scale 1.169
+       coords 54.558 -1.031 -1.292
+       angles -2.213 -76.643 -3.354
+       scale 0.84
       }
       {
-       coords 153.834 -0.774 -44.816
-       angles 2.228 -16.996 -2.933
-       scale 0.935
-      }
-      {
-       coords 155.927 -0.611 -43.218
-       angles -0.137 166.712 -2.004
-       scale 0.977
-      }
-      {
-       coords 135.905 -1.156 -23.761
-       angles -3.287 -154.516 -0.495
-       scale 1.029
-      }
-      {
-       coords 126.277 -1.156 -21.557
-       angles -1.107 142.409 -0.688
-       scale 1.055
-      }
-      {
-       coords 121.204 -1.156 -18.042
-       angles 2.814 148.518 0.829
-       scale 1.191
-      }
-      {
-       coords 97.311 -1.156 -9.513
-       angles -2.435 166.085 3.964
-       scale 0.988
-      }
-      {
-       coords 102.273 -1.156 -5.759
-       angles -3.897 85.894 1.769
-       scale 1.021
-      }
-      {
-       coords 59.809 -1.031 2.408
-       angles 3.309 146.002 1.284
-       scale 0.823
-      }
-      {
-       coords 25.994 -0.937 1.119
-       angles -1.633 -179.379 0.409
-       scale 1.171
-      }
-      {
-       coords 28.378 -1.037 1.657
-       angles 3.176 -142.167 1.195
-       scale 1.098
+       coords 28.739 -1.028 1.154
+       angles 1.717 -35.41 2.317
+       scale 0.95
       }
      }
     }
@@ -33588,7 +31910,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -46.765 0.973 5.961
-       angles -0.304 93.925 -0
+       angles -0.304 93.925 0
        scale 0.576
       }
       {
@@ -33598,7 +31920,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -42.533 0.45 48.419
-       angles 2.169 31.51 -0
+       angles 2.169 31.51 0
        scale 0.648
       }
       {
@@ -33789,7 +32111,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -100.976 4.271 11.345
-       angles -0 -165.371 -0.493
+       angles 0 -165.371 -0.493
        scale 1.007
       }
       {
@@ -34510,7 +32832,6 @@ $grp SplineShapeEntity {
       {
        coords -100.246 8.239 38.662
        angles 0.298 49.451 1.095
-       scale 1
       }
       {
        coords -14.273 0 4.645
@@ -34556,7 +32877,7 @@ $grp SplineShapeEntity {
      $grp Tree : "{9C6CE0F73E3AED80}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_pinus_sylvestris_1f.et" {
       {
        coords -84.326 3.188 -11.964
-       angles -1.148 -29.082 -0
+       angles -1.148 -29.082 0
        scale 0.712
       }
       {
@@ -34566,7 +32887,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -133.931 10.773 41.74
-       angles 1.913 147.1 -0
+       angles 1.913 147.1 0
        scale 1.068
       }
       {
@@ -35044,7 +33365,6 @@ $grp SplineShapeEntity {
       {
        coords -103.481 9.149 43.214
        angles 0.266 66.228 1.304
-       scale 1
       }
       {
        coords -101.78 9.157 43.767
