@@ -51,7 +51,7 @@ GenericWorldEntity world {
    Enabled 1
    WeatherStateMachine "{145430BBF1620448}TerrainsNEW/Common/WeatherPresets/StateMachine/Actual_weather/WeatherStates.conf"
    "UTC TimeZone" -2.5
-   "Initial Day Time" 8
+   "Initial Day Time" 5.671
    "DST Offset" 2
    "Internal variant transition" 0
    "Internal subvariant 0" 0
@@ -51235,6 +51235,223 @@ $grp SplineShapeEntity {
    }
   }
   IsClosed 1
+  {
+   LakeGeneratorEntity : "{0263A3344F9DCAAD}Prefabs/WEGenerators/Water/Lake/LG_DirtyDrainage_01.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 6783.897 60 4340.457
+  Points {
+   ShapePoint "{6AD09CD90E3DDE9F}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6AD09CD90E3DBCD3}" {
+    Position 31.4 0 0.056
+   }
+   ShapePoint "{6AD09CD90995F71B}" {
+    Position 31.526 0 28.039
+   }
+   ShapePoint "{6AD09CD90AA8C6E9}" {
+    Position 62.475 0 28.742
+   }
+   ShapePoint "{6AD09CD90B28EA1A}" {
+    Position 63.681 0 -77.157
+   }
+   ShapePoint "{6AD09CD904A657A7}" {
+    Position 31.673 0.113 -82.035
+    Data {
+     SplinePointData SplinePointData {
+      InTangent 102.602 1.346 -7.294
+      OutTangent -32.561 -0.433 -2.847
+     }
+    }
+   }
+   ShapePoint "{6AD09CD905FB4003}" {
+    Position -1.44 -0.866 -82.85
+   }
+  }
+  {
+   LakeGeneratorEntity : "{D0224BC8D6B29461}Prefabs/WEGenerators/Water/Lake/LG_CainLake_01.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 6845.957 58.132 4510.311
+  Points {
+   ShapePoint "{6AD09CDA4A82B38F}" {
+    Position 0 0.007 0
+   }
+   ShapePoint "{6AD09CDA4A829D9D}" {
+    Position 5.999 1.868 -5.1
+   }
+   ShapePoint "{6AD09CDA441737AF}" {
+    Position 2.572 1.868 -58.834
+   }
+   ShapePoint "{6AD09CDA452183FF}" {
+    Position -60.548 1.868 -57.836
+   }
+   ShapePoint "{6AD09CDA455EAAFD}" {
+    Position -93.252 1.867 -53.963
+   }
+   ShapePoint "{6AD09CDA46D8CA48}" {
+    Position -93.266 1.228 2.036
+   }
+   ShapePoint "{6AD09CDA40D937D7}" {
+    Position -0.02 -0.41 0.634
+   }
+  }
+  {
+   LakeGeneratorEntity : "{D0224BC8D6B29461}Prefabs/WEGenerators/Water/Lake/LG_CainLake_01.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 5867.085 39.146 4751.769
+  Points {
+   ShapePoint "{6ACA874294F98BF4}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6ACA874294F96223}" {
+    Position 8.683 0.854 -14.667
+   }
+   ShapePoint "{6ACA8742905F91E2}" {
+    Position 31.362 0.735 -8.33
+   }
+   ShapePoint "{6ACA8742915D8E9F}" {
+    Position 67.499 0.854 11.8
+   }
+   ShapePoint "{6ACA874292033765}" {
+    Position 107.484 0.854 28.132
+   }
+   ShapePoint "{6ACA8742927DAABC}" {
+    Position 125.138 0.854 31.211
+   }
+   ShapePoint "{6ACA8742ACBD7452}" {
+    Position 128.316 0.854 37.185
+   }
+   ShapePoint "{6ACA8742ACEDA903}" {
+    Position 126.359 0.853 56.707
+   }
+   ShapePoint "{6ACA8742ADFA7EB6}" {
+    Position 129.649 0.853 72.735
+   }
+   ShapePoint "{6ACA8742AD03B2BB}" {
+    Position 131.443 0.853 76.211
+   }
+   ShapePoint "{6ACA8742AD787A59}" {
+    Position 117.667 0.959 85.153
+   }
+   ShapePoint "{6ACA8742AEA860E2}" {
+    Position 113.122 0.674 85.972
+   }
+   ShapePoint "{6ACA8742AE94066D}" {
+    Position 108.255 0.854 78.745
+   }
+   ShapePoint "{6ACA8742AFA08318}" {
+    Position 88.285 -0.506 68.872
+   }
+   ShapePoint "{6ACA8742AFF34649}" {
+    Position 73.357 0.854 72.309
+   }
+   ShapePoint "{6ACA8742A898089D}" {
+    Position 61.419 0.854 69.902
+   }
+   ShapePoint "{6ACA8742A98C8710}" {
+    Position 30.036 0.854 47.168
+   }
+   ShapePoint "{6ACA8742A954234A}" {
+    Position 11.395 0.854 31.015
+   }
+   ShapePoint "{6ACA8742AB01E3CE}" {
+    Position -1.382 0.853 16.051
+   }
+   ShapePoint "{6ACA8742A49EDCCA}" {
+    Position -0.381 0.15 0.284
+   }
+  }
+  {
+   LakeGeneratorEntity : "{0263A3344F9DCAAD}Prefabs/WEGenerators/Water/Lake/LG_DirtyDrainage_01.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 5804.019 39.241 4798.759
+  Points {
+   ShapePoint "{6ACA8742B8DA5349}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6ACA8742B8DA3369}" {
+    Position 5 0.759 0
+   }
+   ShapePoint "{6ACA8742B9623FCB}" {
+    Position 26.042 0.759 12.607
+   }
+   ShapePoint "{6ACA8742BA661EB9}" {
+    Position 47.401 0.759 15.963
+   }
+   ShapePoint "{6ACA8742BB3D4C76}" {
+    Position 59.266 0.759 13.582
+   }
+   ShapePoint "{6ACA8742B49209CB}" {
+    Position 71.302 0.759 11.505
+   }
+   ShapePoint "{6ACA8742B4089B56}" {
+    Position 83.896 0.759 21.225
+   }
+   ShapePoint "{6ACA8742B5350AA7}" {
+    Position 90.111 -0.763 31.588
+   }
+   ShapePoint "{6ACA8742B6B9F48F}" {
+    Position 108.301 0.394 40.878
+   }
+   ShapePoint "{6ACA8742B78118B4}" {
+    Position 116.149 0.759 40.577
+   }
+   ShapePoint "{6ACA8742B7DA891B}" {
+    Position 122.106 0.759 43.292
+   }
+   ShapePoint "{6ACA8742B77D7440}" {
+    Position 128.274 0.759 45.153
+   }
+   ShapePoint "{6ACA8742B0BD5021}" {
+    Position 128.61 0.759 56.025
+   }
+   ShapePoint "{6ACA8742B0F2E64D}" {
+    Position 119.163 0.856 60.521
+   }
+   ShapePoint "{6ACA8742B06A3EE3}" {
+    Position 98.996 0.88 59.985
+   }
+   ShapePoint "{6ACA8742B1661190}" {
+    Position 67.11 0.759 58.837
+   }
+   ShapePoint "{6ACA8742B20F4225}" {
+    Position 51.154 0.934 62.973
+   }
+   ShapePoint "{6ACA8742B3288859}" {
+    Position 26.208 0.987 66.182
+   }
+   ShapePoint "{6ACA87424CA6B92C}" {
+    Position 10.513 1.25 68.613
+   }
+   ShapePoint "{6ACA87424C33DBFD}" {
+    Position -17.232 1.038 71.883
+   }
+   ShapePoint "{6ACA87424EA9241A}" {
+    Position -21.413 0.759 52.833
+   }
+   ShapePoint "{6ACA87424F97389A}" {
+    Position -8.927 0.759 20.027
+   }
+   ShapePoint "{6ACA87424F590091}" {
+    Position -0.758 0.181 0.554
+   }
+  }
   {
    LakeGeneratorEntity : "{0263A3344F9DCAAD}Prefabs/WEGenerators/Water/Lake/LG_DirtyDrainage_01.et" {
     coords 0 0 0
