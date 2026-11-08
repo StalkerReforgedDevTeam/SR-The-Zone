@@ -4443,7 +4443,6 @@ $grp SplineShapeEntity {
       {
        coords 19.109 0.872 -15.827
        angles -0.918 98.891 -2.352
-       scale 1
       }
       {
        coords 71.01 0.611 -16.561
@@ -5839,15 +5838,9 @@ $grp GenericEntity : "{080E381B512E1B01}Prefabs/Props/Crates/CrateWooden_02/Crat
   coords 5339.05 48 5653.123
  }
 }
-$grp SCR_DestructibleBuildingEntity : "{0886FFD947F3B42D}Prefabs/Infrastructure/Tunnels/Large Tunnel 100M.et" {
- {
-  coords 6287.333 0.721 5408.698
-  angles 0 103.871 0
- }
- {
-  coords 6498.198 0.134 4007.596
-  angles 0 34.677 0
- }
+SCR_DestructibleBuildingEntity : "{0886FFD947F3B42D}Prefabs/Infrastructure/Tunnels/Large Tunnel 100M.et" {
+ coords 6498.198 0.134 4007.596
+ angles 0 34.677 0
 }
 SCR_DestructibleBuildingEntity : "{09D982B92B22C142}Prefabs/Structures/Ruins/House_Ruin_1I01/House_Ruin_1I01_V3.et" {
  coords 5543.835 0 5523.343
@@ -5909,9 +5902,27 @@ $grp SCR_DestructibleBuildingEntity : "{0E439CC26813B6EC}Prefabs/Houses/House_In
   angles 0 -117.663 0
  }
 }
-SCR_IndestructibleEnvironmentalEntity : "{0E9A4FF62219106F}Prefabs/Rocks/Granite/GraniteCliff_03_Fucus.et" {
- coords 6276.365 33.084 5437.535
- angles 60.101 -161.181 0
+$grp SCR_IndestructibleEnvironmentalEntity : "{0E9A4FF62219106F}Prefabs/Rocks/Granite/GraniteCliff_03_Fucus.et" {
+ {
+  coords 6332.303 36.263 5428.627
+  angles 60.101 -161.181 -176.411
+ }
+ {
+  coords 6333.231 27.844 5372.07
+  angles 38.601 0 0
+ }
+ {
+  coords 6369.697 37.997 5422.86
+  angles 60.101 -161.181 -176.411
+ }
+ {
+  coords 6358.052 51.773 5441.594
+  angles 60.101 -161.181 93.826
+ }
+ {
+  coords 6358.211 25.881 5370.329
+  angles 38.304 -8.344 -39.621
+ }
 }
 GenericEntity : "{0EBBD14F014C7162}Prefabs/Props/Dst/Concrete_02.et" {
  coords 5631.703 46.662 5636.847
@@ -5986,6 +5997,9 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{1200EAC7C79003AF}Prefabs/Rocks/Gr
  {
   coords 5831.325 45.385 5677.525
   angles 6.997 118.468 -4.849
+ }
+ {
+  coords 6350.472 36.167 5420.383
  }
 }
 GenericEntity : "{134AB390FC99D319}Prefabs/Vehicles/ural/base/armst_ural.et" {
@@ -6092,6 +6106,16 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{1FFB6B5828D2B35F}Prefabs/Rocks/Gr
  {
   coords 5856.271 48.913 5689.583
   angles 15.604 -37.76 0
+ }
+ {
+  coords 6277.119 39.367 5379.985
+  angles -19.362 0 0
+ }
+ {
+  coords 6318.499 29.313 5417.862
+ }
+ {
+  coords 6347.304 28.399 5406.758
  }
 }
 GenericEntity : "{2020BA4DDAB638C8}Prefabs/Structures/BuildingParts/Eletrical/ElectricityBoxes/ElectricityBox_04.et" {
@@ -8139,9 +8163,15 @@ GenericEntity : "{B04F2A9C5356C02D}Prefabs/Compositions/Slotted/SlotFlatSmall/Sa
  coords 5921.763 60 5194.211
  angles 0 -1.986 0
 }
-SCR_IndestructibleEnvironmentalEntity : "{B06A2E966157FE64}Prefabs/Rocks/Granite/GraniteCliff_01_Fucus.et" {
- coords 6289.478 44.786 5449.053
- angles 44.618 180 -180
+$grp SCR_IndestructibleEnvironmentalEntity : "{B06A2E966157FE64}Prefabs/Rocks/Granite/GraniteCliff_01_Fucus.et" {
+ {
+  coords 6289.769 40.543 5451.788
+  angles 61.081 -170.96 -172.072
+ }
+ {
+  coords 6318.1 48.468 5362.982
+  angles 63.178 0 0
+ }
 }
 SCR_DestructibleBuildingEntity : "{B09D999506CDF092}Prefabs/Vehicles/dz-76/armst_veh_dz_76.et" {
  coords 6061.299 46.313 5699.285
@@ -8593,8 +8623,14 @@ SCR_DestructibleBuildingEntity : "{D1A2077E004C7F64}Prefabs/Structures/Agricultu
  coords 5651.743 0.153 5653.457
  angles 0 4.338 0
 }
-SCR_IndestructibleEnvironmentalEntity : "{D5CC7A5A32C640A3}Prefabs/Rocks/Granite/GraniteRock_02_V2.et" {
- coords 6030.587 46.313 5731.012
+$grp SCR_IndestructibleEnvironmentalEntity : "{D5CC7A5A32C640A3}Prefabs/Rocks/Granite/GraniteRock_02_V2.et" {
+ {
+  coords 6030.587 46.313 5731.012
+ }
+ {
+  coords 6320.384 46.781 5449.392
+  angles 14.866 0 0
+ }
 }
 $grp SCR_DestructibleBuildingEntity : "{D653C28050494894}Prefabs/Structures/Military/MilitaryConcreteCarrier1.et" {
  {
@@ -8952,6 +8988,15 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{DF692A1784D6B324}Prefabs/Rocks/Gr
  {
   coords 5824.223 47.337 5678.651
  }
+ {
+  coords 6305.698 26.916 5385.465
+ }
+ {
+  coords 6334.47 25.216 5378.106
+ }
+ {
+  coords 6356.189 26.371 5378.872
+ }
 }
 $grp GenericEntity : "{DF79D7016C5891C4}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Barricade_FIA_06.et" {
  {
@@ -9114,9 +9159,15 @@ GenericEntity : "{EFE1C2E4D9CE5A1E}Prefabs/Props/Military/Fortification/BarbedTa
  coords 5903.379 1.324 5219.409
  angles 0 97.561 0
 }
-SCR_IndestructibleEnvironmentalEntity : "{F09A0FB3D74B7C23}Prefabs/Rocks/Granite/GraniteCliff_02_Fucus.et" {
- coords 6291.714 31.894 5433.302
- angles 58.16 -126.272 0
+$grp SCR_IndestructibleEnvironmentalEntity : "{F09A0FB3D74B7C23}Prefabs/Rocks/Granite/GraniteCliff_02_Fucus.et" {
+ {
+  coords 6307.847 29.266 5426.243
+  angles 58.16 -126.272 0
+ }
+ {
+  coords 6307.577 30.948 5379.204
+  angles 64.447 0 0
+ }
 }
 GenericEntity : "{F0AE33DE2A24CE21}Prefabs/Vehicles/raf2203/armst_raf2203_1_wreck.et" {
  coords 5901.446 48.774 5421.113
@@ -9238,6 +9289,9 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{FA6727A124372434}Prefabs/Rocks/Gr
  }
  {
   coords 6094.652 48.219 5652.555
+ }
+ {
+  coords 6276.749 30.283 5394.115
  }
 }
 $grp GenericEntity : "{FC28A9BBE332565C}Prefabs/Props/Industrial/Train/wagon_box/wagon_box_plain.et" {
