@@ -1952,7 +1952,7 @@ $grp PolylineShapeEntity {
   coords 5876.201 59.326 5183.559
   Points {
    ShapePoint "{6ABCF82EEB8BC304}" {
-    Position 0 0 0
+    Position 0.908 -0.049 -0.107
    }
    ShapePoint "{6ABCF82EEB8BE157}" {
     Position -81.52 0.674 -5.749
@@ -1964,188 +1964,197 @@ $grp PolylineShapeEntity {
     Position 4.13 0.674 -37.35
    }
    ShapePoint "{6ABCF82EC26011F5}" {
-    Position 3.934 0.674 -43.367
+    Position 26.703 0.674 -35.128
    }
    ShapePoint "{6ABCF82ECF867DA3}" {
-    Position 3.245 0.674 -62.455
-   }
-   ShapePoint "{6ABCF82ECEAF30D5}" {
-    Position 2.989 0.674 -66.257
+    Position 26.379 0.674 -25.94
    }
   }
   LineColor 0 0 0 0
   {
-   WallGeneratorEntity : "{25A2E591AC54EF71}Prefabs/WEGenerators/Walls/Metal/WG_TinWall_01_rusty.et" {
+   WallGeneratorEntity : "{E00BA421CC399343}Prefabs/WEGenerators/Walls/Concrete/WG_ConcreteWall_01.et" {
     Flags 0x100003 0
-    m_iSeed 2074
+    m_iSeed 24252
+    m_aWallGroups {
+     WallLengthGroup "{50A296D592D8520F}" {
+      m_aWallPrefabs {
+       WallWeightPair "{50A296D52F9A22E0}" {
+        m_fWeight 0
+       }
+       WallWeightPair "{50A296D52FCB815B}" {
+        m_fWeight 0
+       }
+      }
+     }
+    }
     {
-     $grp SCR_DestructibleEntity : "{0C1D044EBE92ADBF}Prefabs/Structures/Walls/Metal/TinWall_01_rusty/TinWall_01_6m_A_rusty.et" {
+     $grp SCR_DestructibleEntity : "{350B1D05E8446B1C}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_6m_A.et" {
       {
-       coords 0.038 -0.006 0.003
-       angles 0 -184.034 0
+       coords 1.015 -0.056 -0.1
+       angles 0 -183.916 0
       }
       {
-       coords -11.89 0.517 -0.838
-       angles 0 -184.034 0
+       coords -4.894 0.598 -0.504
+       angles 0 -183.916 0
       }
       {
-       coords -17.855 0.562 -1.259
-       angles 0 -184.034 0
+       coords -10.803 0.536 -0.909
+       angles 0 -183.916 0
       }
       {
-       coords -23.819 0.674 -1.68
-       angles 0 -184.034 0
+       coords -22.633 0.674 -1.718
+       angles 0 -183.916 0
       }
       {
-       coords -35.747 0.561 -2.521
-       angles 0 -184.034 0
+       coords -40.385 0.558 -2.933
+       angles 0 -183.916 0
       }
       {
-       coords -71.532 0.53 -5.044
-       angles 0 -184.034 0
+       coords -64.057 0.674 -4.554
+       angles 0 -183.916 0
       }
       {
-       coords -80.52 0.674 -5.64
-       angles 0 88.523 0
+       coords -69.967 0.486 -4.958
+       angles 0 -183.916 0
       }
       {
-       coords -79.632 0.674 -41.543
-       angles 0 -2.866 0
+       coords -75.876 0.619 -5.363
+       angles 0 -183.916 0
       }
       {
-       coords -67.689 0.674 -40.945
-       angles 0 -2.866 0
+       coords -81.9 0.674 -5.667
+       angles 0 86.318 0
       }
       {
-       coords -25.886 0.674 -38.853
-       angles 0 -2.866 0
+       coords -80.376 0.674 -29.347
+       angles 0 86.318 0
       }
       {
-       coords -19.915 0.674 -38.554
-       angles 0 -2.866 0
+       coords -79.995 0.674 -35.258
+       angles 0 86.318 0
       }
       {
-       coords 3.505 0.674 -55.248
-       angles 0 -267.934 0
-      }
-     }
-     $grp SCR_DestructibleEntity : "{4CED256B088E2FF8}Prefabs/Structures/Walls/Metal/TinWall_01_rusty/TinWall_01_6m_B_rusty.et" {
-      {
-       coords -5.926 0.674 -0.418
-       angles 0 -184.034 0
+       coords -79.716 0.674 -41.282
+       angles 0 -2.685 0
       }
       {
-       coords -47.675 0.674 -3.362
-       angles 0 -184.034 0
+       coords -67.87 0.674 -40.726
+       angles 0 -2.685 0
       }
       {
-       coords -65.568 0.674 -4.624
-       angles 0 -184.034 0
+       coords -61.954 0.674 -40.449
+       angles 0 -2.685 0
       }
       {
-       coords -79.749 0.674 -35.526
-       angles 0 88.523 0
+       coords -56.037 0.674 -40.171
+       angles 0 -2.685 0
       }
       {
-       coords -43.802 0.31 -39.75
-       angles 0 -2.866 0
+       coords -32.334 0.674 -39.06
+       angles 0 -2.685 0
       }
       {
-       coords -2 0.674 -37.657
-       angles 0 -2.866 0
-      }
-     }
-     $grp SCR_DestructibleEntity : "{B2ED652EFDDC43B4}Prefabs/Structures/Walls/Metal/TinWall_01_rusty/TinWall_01_6m_C_rusty.et" {
-      {
-       coords -29.783 0.537 -2.1
-       angles 0 -184.034 0
+       coords -26.417 0.674 -38.782
+       angles 0 -2.685 0
       }
       {
-       coords -41.711 0.539 -2.941
-       angles 0 -184.034 0
+       coords -20.501 0.674 -38.505
+       angles 0 -2.685 0
       }
       {
-       coords -53.64 0.674 -3.783
-       angles 0 -184.034 0
+       coords 9.11 0.674 -36.828
+       angles 0 -5.52 0
       }
       {
-       coords -59.604 0.674 -4.203
-       angles 0 -184.034 0
+       coords 15.006 0.674 -36.258
+       angles 0 -5.52 0
       }
       {
-       coords -80.366 0.674 -11.617
-       angles 0 88.523 0
+       coords 20.902 0.674 -35.688
+       angles 0 -5.52 0
       }
       {
-       coords -80.212 0.674 -17.594
-       angles 0 88.523 0
-      }
-      {
-       coords -80.057 0.674 -23.572
-       angles 0 88.523 0
-      }
-      {
-       coords -79.903 0.674 -29.549
-       angles 0 88.523 0
-      }
-      {
-       coords -73.661 0.674 -41.244
-       angles 0 -2.866 0
-      }
-      {
-       coords -61.717 0.674 -40.646
-       angles 0 -2.866 0
-      }
-      {
-       coords -55.745 0.674 -40.348
-       angles 0 -2.866 0
-      }
-      {
-       coords -49.774 0.674 -40.049
-       angles 0 -2.866 0
-      }
-      {
-       coords -37.83 0.674 -39.451
-       angles 0 -2.866 0
-      }
-      {
-       coords -31.858 0.674 -39.152
-       angles 0 -2.866 0
-      }
-      {
-       coords -13.943 0.674 -38.255
-       angles 0 -2.866 0
-      }
-      {
-       coords -7.971 0.674 -37.956
-       angles 0 -2.866 0
-      }
-      {
-       coords 4.011 0.674 -37.318
-       angles 0 -269.276 0
-      }
-      {
-       coords 3.936 0.674 -43.297
-       angles 0 -267.934 0
-      }
-      {
-       coords 3.72 0.674 -49.272
-       angles 0 -267.934 0
+       coords 26.912 0.674 -35.216
+       angles 0 -93.286 0
       }
      }
-     SCR_DestructibleEntity : "{B8AE0A0E4A79C2B2}Prefabs/Structures/Walls/Metal/TinWall_01_rusty/TinWall_01_6m_Pole_rusty.et" {
-      coords 3.112 0.674 -64.207
-      angles 0 -266.582 0
+     $grp SCR_DestructibleEntity : "{595F29E55480E432}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_6m_B.et" {
+      {
+       coords -16.712 0.582 -1.313
+       angles 0 -183.916 0
+      }
+      {
+       coords -28.543 0.625 -2.123
+       angles 0 -183.916 0
+      }
+      {
+       coords -34.464 0.501 -2.528
+       angles 0 -183.916 0
+      }
+      {
+       coords -46.294 0.66 -3.338
+       angles 0 -183.916 0
+      }
+      {
+       coords -52.215 0.674 -3.743
+       angles 0 -183.916 0
+      }
+      {
+       coords -58.136 0.674 -4.148
+       angles 0 -183.916 0
+      }
+      {
+       coords -81.519 0.674 -11.578
+       angles 0 86.318 0
+      }
+      {
+       coords -81.138 0.674 -17.501
+       angles 0 86.318 0
+      }
+      {
+       coords -80.757 0.674 -23.424
+       angles 0 86.318 0
+      }
+      {
+       coords -73.799 0.674 -41.004
+       angles 0 -2.685 0
+      }
+      {
+       coords -50.12 0.674 -39.894
+       angles 0 -2.685 0
+      }
+      {
+       coords -44.191 0.568 -39.616
+       angles 0 -2.685 0
+      }
+      {
+       coords -38.263 0.674 -39.338
+       angles 0 -2.685 0
+      }
+      {
+       coords -14.584 0.674 -38.228
+       angles 0 -2.685 0
+      }
+      {
+       coords -8.655 0.674 -37.95
+       angles 0 -2.685 0
+      }
+      {
+       coords -2.726 0.674 -37.672
+       angles 0 -2.685 0
+      }
+      {
+       coords 3.203 0.674 -37.399
+       angles 0 -5.52 0
+      }
      }
-     $grp SCR_DestructibleEntity : "{D34F3DD5D61E2F71}Prefabs/Structures/Walls/Metal/TinWall_01_rusty/TinWall_01_3m_rusty.et" {
-      {
-       coords -77.496 0.643 -5.465
-       angles 0 -184.034 0
-      }
-      {
-       coords 3.29 0.674 -61.223
-       angles 0 -266.582 0
-      }
+     SCR_DestructibleEntity : "{95A1D31077D47BEA}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_Pole.et" {
+      coords 26.404 0.674 -26.38
+      angles 0 -93.286 0
+     }
+     SCR_DestructibleEntity : "{CAFF4B51059A0F81}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_3m.et" {
+      coords 26.631 0.674 -30.344
+      angles 0 -93.286 0
      }
     }
    }
@@ -2178,25 +2187,78 @@ $grp PolylineShapeEntity {
    ShapePoint "{6ABCF82CDD746CE8}" {
     Position -133.709 1.42 -103.678
    }
-   ShapePoint "{6ABCF82CDAE5C6A2}" {
-    Position -137.368 1.419 -112.813
-   }
-   ShapePoint "{6ABCF82CDA08A4A6}" {
-    Position -150.042 1.419 -120.549
-   }
-   ShapePoint "{6ABCF82CD924274C}" {
-    Position -163.078 -1.744 -126.171
-   }
   }
   LineColor 0 0 0 0
   {
    WallGeneratorEntity : "{25A2E591AC54EF71}Prefabs/WEGenerators/Walls/Metal/WG_TinWall_01_rusty.et" {
     Flags 0x100003 0
-    m_iSeed 19645
+    m_iSeed 20333
     {
      $grp SCR_DestructibleEntity : "{0C1D044EBE92ADBF}Prefabs/Structures/Walls/Metal/TinWall_01_rusty/TinWall_01_6m_A_rusty.et" {
       {
-       coords -5.928 1.419 -0.398
+       coords 0.038 0.029 0.003
+       angles 0 -183.837 0
+      }
+      {
+       coords -65.583 1.419 -4.399
+       angles 0 -183.837 0
+      }
+      {
+       coords -77.514 1.419 -5.199
+       angles 0 -183.837 0
+      }
+      {
+       coords -83.479 1.419 -5.599
+       angles 0 -183.837 0
+      }
+      {
+       coords -89.445 1.419 -5.999
+       angles 0 -183.837 0
+      }
+      {
+       coords -95.41 1.419 -6.399
+       angles 0 -183.837 0
+      }
+      {
+       coords -107.341 1.419 -7.199
+       angles 0 -183.837 0
+      }
+      {
+       coords -119.272 1.419 -7.999
+       angles 0 -183.837 0
+      }
+      {
+       coords -125.237 1.419 -8.399
+       angles 0 -183.837 0
+      }
+      {
+       coords -136.765 1.419 -21.115
+       angles 0 87.88 0
+      }
+      {
+       coords -136.544 1.419 -27.09
+       angles 0 87.88 0
+      }
+      {
+       coords -136.102 1.419 -39.04
+       angles 0 87.88 0
+      }
+      {
+       coords -135.88 1.419 -45.015
+       angles 0 87.88 0
+      }
+      {
+       coords -135.659 1.419 -50.99
+       angles 0 87.88 0
+      }
+      {
+       coords -134.775 1.419 -74.89
+       angles 0 87.88 0
+      }
+     }
+     $grp SCR_DestructibleEntity : "{4CED256B088E2FF8}Prefabs/Structures/Walls/Metal/TinWall_01_rusty/TinWall_01_6m_B_rusty.et" {
+      {
+       coords -11.893 1.419 -0.798
        angles 0 -183.837 0
       }
       {
@@ -2208,89 +2270,7 @@ $grp PolylineShapeEntity {
        angles 0 -183.837 0
       }
       {
-       coords -41.72 1.419 -2.798
-       angles 0 -183.837 0
-      }
-      {
-       coords -47.686 1.419 -3.198
-       angles 0 -183.837 0
-      }
-      {
-       coords -53.651 1.419 -3.598
-       angles 0 -183.837 0
-      }
-      {
-       coords -65.582 1.419 -4.398
-       angles 0 -183.837 0
-      }
-      {
-       coords -83.479 1.419 -5.599
-       angles 0 -183.837 0
-      }
-      {
-       coords -95.41 1.419 -6.399
-       angles 0 -183.837 0
-      }
-      {
-       coords -101.375 1.419 -6.799
-       angles 0 -183.837 0
-      }
-      {
-       coords -125.237 1.419 -8.399
-       angles 0 -183.837 0
-      }
-      {
-       coords -131.202 1.419 -8.799
-       angles 0 -183.837 0
-      }
-      {
-       coords -137.207 1.419 -9.164
-       angles 0 87.88 0
-      }
-      {
-       coords -136.986 1.419 -15.139
-       angles 0 87.88 0
-      }
-      {
-       coords -136.101 1.419 -39.039
-       angles 0 87.88 0
-      }
-      {
-       coords -135.88 1.419 -45.014
-       angles 0 87.88 0
-      }
-      {
-       coords -135.659 1.419 -50.989
-       angles 0 87.88 0
-      }
-      {
-       coords -134.774 1.419 -74.89
-       angles 0 87.88 0
-      }
-      {
-       coords -134.332 1.419 -86.84
-       angles 0 87.88 0
-      }
-      {
-       coords -142.615 1.419 -116.192
-       angles 0 -210.397 0
-      }
-      {
-       coords -155.711 1.419 -123.025
-       angles 0 -203.125 0
-      }
-     }
-     $grp SCR_DestructibleEntity : "{4CED256B088E2FF8}Prefabs/Structures/Walls/Metal/TinWall_01_rusty/TinWall_01_6m_B_rusty.et" {
-      {
-       coords -11.893 1.419 -0.798
-       angles 0 -183.837 0
-      }
-      {
-       coords -17.859 1.419 -1.198
-       angles 0 -183.837 0
-      }
-      {
-       coords -29.789 1.419 -1.998
+       coords -41.721 1.419 -2.798
        angles 0 -183.837 0
       }
       {
@@ -2298,15 +2278,27 @@ $grp PolylineShapeEntity {
        angles 0 -183.837 0
       }
       {
-       coords -107.34 1.419 -7.199
+       coords -71.548 1.419 -4.799
        angles 0 -183.837 0
       }
       {
-       coords -119.271 1.419 -7.999
+       coords -131.203 1.419 -8.8
        angles 0 -183.837 0
       }
       {
-       coords -136.322 1.419 -33.064
+       coords -137.207 1.419 -9.164
+       angles 0 87.88 0
+      }
+      {
+       coords -136.323 1.419 -33.065
+       angles 0 87.88 0
+      }
+      {
+       coords -135.438 1.419 -56.965
+       angles 0 87.88 0
+      }
+      {
+       coords -135.217 1.419 -62.94
        angles 0 87.88 0
       }
       {
@@ -2314,37 +2306,33 @@ $grp PolylineShapeEntity {
        angles 0 87.88 0
       }
       {
-       coords -134.553 1.419 -80.865
+       coords -134.332 1.419 -86.84
        angles 0 87.88 0
-      }
-      {
-       coords -134.111 1.419 -92.815
-       angles 0 87.88 0
-      }
-      {
-       coords -137.457 1.419 -113.166
-       angles 0 -210.397 0
-      }
-      {
-       coords -150.351 1.419 -120.736
-       angles 0 -203.125 0
       }
      }
      $grp SCR_DestructibleEntity : "{B2ED652EFDDC43B4}Prefabs/Structures/Walls/Metal/TinWall_01_rusty/TinWall_01_6m_C_rusty.et" {
       {
-       coords 0.038 0.03 0.003
+       coords -5.927 1.419 -0.398
        angles 0 -183.837 0
       }
       {
-       coords -71.548 1.419 -4.798
+       coords -17.859 1.419 -1.198
        angles 0 -183.837 0
       }
       {
-       coords -77.513 1.419 -5.198
+       coords -29.79 1.419 -1.998
        angles 0 -183.837 0
       }
       {
-       coords -89.444 1.419 -5.999
+       coords -47.686 1.419 -3.198
+       angles 0 -183.837 0
+      }
+      {
+       coords -53.652 1.419 -3.598
+       angles 0 -183.837 0
+      }
+      {
+       coords -101.375 1.419 -6.799
        angles 0 -183.837 0
       }
       {
@@ -2352,42 +2340,125 @@ $grp PolylineShapeEntity {
        angles 0 -183.837 0
       }
       {
-       coords -136.765 1.419 -21.114
+       coords -136.986 1.419 -15.139
        angles 0 87.88 0
       }
       {
-       coords -136.544 1.419 -27.089
+       coords -134.553 1.419 -80.865
        angles 0 87.88 0
       }
       {
-       coords -135.438 1.419 -56.964
+       coords -134.111 1.419 -92.816
        angles 0 87.88 0
-      }
-      {
-       coords -135.217 1.419 -62.939
-       angles 0 87.88 0
-      }
-      {
-       coords -133.766 1.419 -101.782
-       angles 0 -251.915 0
-      }
-      {
-       coords -135.622 1.419 -107.466
-       angles 0 -251.915 0
       }
      }
      SCR_DestructibleEntity : "{B8AE0A0E4A79C2B2}Prefabs/Structures/Walls/Metal/TinWall_01_rusty/TinWall_01_6m_Pole_rusty.et" {
-      coords -161.068 -0.877 -125.313
-      angles 0 -203.125 0
+      coords -133.779 1.419 -101.778
+      angles 0 87.88 0
      }
-     $grp SCR_DestructibleEntity : "{D34F3DD5D61E2F71}Prefabs/Structures/Walls/Metal/TinWall_01_rusty/TinWall_01_3m_rusty.et" {
+     SCR_DestructibleEntity : "{D34F3DD5D61E2F71}Prefabs/Structures/Walls/Metal/TinWall_01_rusty/TinWall_01_3m_rusty.et" {
+      coords -133.89 1.419 -98.791
+      angles 0 87.88 0
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 5883.399 58.862 5183.643
+  Points {
+   ShapePoint "{6AD12CC6FC81B324}" {
+    Position 0 0 0
+   }
+   ShapePoint "{6AD12CC6FC810C9A}" {
+    Position 0.235 -0.227 4.119
+   }
+   ShapePoint "{6AD12CC6F9328B55}" {
+    Position 8.927 -0.128 4.481
+   }
+   ShapePoint "{6AD12CC6E5875D83}" {
+    Position 17.841 0.454 4.967
+   }
+   ShapePoint "{6AD12CC6E36138A5}" {
+    Position 18.229 1.138 -9.981
+   }
+   ShapePoint "{6AD12CC6E1FBEF4F}" {
+    Position 18.452 1.138 -19.005
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{E00BA421CC399343}Prefabs/WEGenerators/Walls/Concrete/WG_ConcreteWall_01.et" {
+    Flags 0x100003 0
+    m_iSeed 1878
+    m_aWallGroups {
+     WallLengthGroup "{50A296D592D8520F}" {
+      m_aWallPrefabs {
+       WallWeightPair "{50A296D52F9A22E0}" {
+        m_fWeight 0
+       }
+       WallWeightPair "{50A296D52FCB815B}" {
+        m_fWeight 0
+       }
+      }
+     }
+     WallLengthGroup "{50A296D5E6CC6685}" {
+      m_aWallPrefabs {
+       WallWeightPair "{50A296D5E01B757C}" {
+        m_fWeight 0.1
+       }
+      }
+     }
+    }
+    {
+     $grp SCR_DestructibleEntity : "{350B1D05E8446B1C}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_6m_A.et" {
       {
-       coords -133.89 1.419 -98.79
-       angles 0 87.88 0
+       coords 0.06 -0.205 2.89
+       angles 0 -10.173 0
       }
       {
-       coords -147.772 1.419 -119.217
-       angles 0 -210.397 0
+       coords 8.761 -0.135 4.465
+       angles 0 -3.169 0
+      }
+      {
+       coords 17.669 0.441 5.066
+       angles 0 87.867 0
+      }
+     }
+     $grp SCR_DestructibleEntity : "{595F29E55480E432}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_6m_B.et" {
+      {
+       coords 17.889 0.612 -0.847
+       angles 0 87.867 0
+      }
+      {
+       coords 18.219 1.138 -9.684
+       angles 0 88.572 0
+      }
+     }
+     SCR_DestructibleEntity : "{95A1D31077D47BEA}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_Pole.et" {
+      coords 18.44 1.138 -18.543
+      angles 0 88.572 0
+     }
+     $grp SCR_DestructibleEntity : "{CAFF4B51059A0F81}PrefabLibrary/DefaultLibrary/Walls/Concrete/ConcreteWall_01_3m.et" {
+      {
+       coords -0.006 0.011 -0.108
+       angles 0 -86.73 0
+      }
+      {
+       coords 5.89 -0.217 3.936
+       angles 0 -10.173 0
+      }
+      {
+       coords 14.659 0.205 4.791
+       angles 0 -3.169 0
+      }
+      {
+       coords 18.109 1.067 -6.771
+       angles 0 87.867 0
+      }
+      {
+       coords 18.323 1.138 -13.835
+       angles 0 88.572 0
       }
      }
     }
@@ -43668,6 +43739,18 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{B06A2E966157FE64}Prefabs/Rocks/Gr
   coords 6272.946 39.312 5458.269
   angles 61.081 -170.96 117.599
  }
+}
+SCR_DestructibleBuildingEntity : "{C4592FC281766885}Prefabs/Structures/Culture/Castle/Castle wall 20.et" {
+ components {
+  RigidBody "{610F5840AA3BE565}" {
+   Enabled 0
+  }
+  Hierarchy "{610F5840AA3BE559}" {
+   AutoTransform 0
+  }
+ }
+ coords 5794.338 5.041 5130.492
+ angles -3.226 89.483 -3.01
 }
 $grp Tree : "{CF0A210B7AC7B329}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_2.et" {
  {

@@ -6677,16 +6677,6 @@ $grp SCR_DestructibleBuildingEntity : "{3299E6F34CE40185}Prefabs/Structures/Agri
   angles 0 5.525 0
  }
 }
-$grp GenericEntity : "{32DE30B02A04B844}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Corner_BarbedWire_USSR_01.et" {
- {
-  coords 5899.305 59.104 5187.114
-  angles 0 84.264 0
- }
- {
-  coords 5900.453 59.291 5184.102
-  angles 0 170.182 0
- }
-}
 GenericEntity : "{342E852E9A1847EA}Prefabs/Props/Industrial/Repair/VehicleGarbage_01_pile_medium.et" {
  coords 5880.973 48 5498.997
 }
@@ -6715,6 +6705,10 @@ $grp SCR_DestructibleBuildingEntity : "{37BEB3B96136A077}Prefabs/Houses/House_In
   coords 5543.648 0.245 5218.81
   angles 0 -27.155 0
  }
+}
+StaticModelEntity : "{3804C353262903F2}Prefabs/Structures/Walls/Brick/BrickWall_02/BrickWall_02_Gate_orange.et" {
+ coords 5883.46 0.229 5183.612
+ angles 0 177.296 0
 }
 GenericEntity : "{386560726FEB327F}Prefabs/Structures/Military/Camps/Canvas_Covers/CanvasCover_Large_Base.et" {
  coords 5879.492 48 5496.123
@@ -8509,6 +8503,71 @@ $grp SCR_DestructibleBuildingEntity : "{C4592FC281766885}Prefabs/Structures/Cult
   }
   coords 5869.633 -4.596 5140.082
   angles 0 -92.869 0
+ }
+ {
+  components {
+   RigidBody "{610F5840AA3BE565}" {
+    Enabled 0
+   }
+   Hierarchy "{610F5840AA3BE559}" {
+    AutoTransform 0
+   }
+  }
+  Flags 0 0x80000
+  coords 5765.738 45.027 5134.965
+  angles -0.156 -93.983 -2.24
+ }
+ {
+  components {
+   RigidBody "{610F5840AA3BE565}" {
+    Enabled 0
+   }
+   Hierarchy "{610F5840AA3BE559}" {
+    AutoTransform 0
+   }
+  }
+  Flags 0 0x80000
+  coords 5781.985 45.541 5119.377
+  angles 2.245 -1.308 -0.051
+ }
+ {
+  components {
+   RigidBody "{610F5840AA3BE565}" {
+    Enabled 0
+   }
+   Hierarchy "{610F5840AA3BE559}" {
+    AutoTransform 0
+   }
+  }
+  Flags 0 0x80000
+  coords 5767.21 45.249 5128.289
+  angles 0.266 83.209 2.23
+ }
+ {
+  components {
+   RigidBody "{610F5840AA3BE565}" {
+    Enabled 0
+   }
+   Hierarchy "{610F5840AA3BE559}" {
+    AutoTransform 0
+   }
+  }
+  Flags 0 0x80000
+  coords 5764.595 45.053 5153.334
+  angles -0.092 -92.341 -2.244
+ }
+ {
+  components {
+   RigidBody "{610F5840AA3BE565}" {
+    Enabled 0
+   }
+   Hierarchy "{610F5840AA3BE559}" {
+    AutoTransform 0
+   }
+  }
+  Flags 0 0x80000
+  coords 5778.35 45.365 5119.28
+  angles 2.245 -1.308 -0.051
  }
 }
 $grp StaticModelEntity : "{C46702822629C334}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/CzechHedgehog_01_rusty_CompositionDestruction.et" {
