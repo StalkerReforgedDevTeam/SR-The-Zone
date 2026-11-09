@@ -27,11 +27,29 @@ SCR_DestructibleBuildingEntity : "{184042D4EAE59FF5}Prefabs/Structures/Houses/Vi
  coords 5292.144 0.132 6501.759
  angles 0 -180 0
 }
+GenericEntity : "{1AC1F28A21804631}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Wall_Sign_USSR_01.et" {
+ coords 5361.787 80.438 6476.528
+ angles 0 -46.229 0
+}
 SCR_DestructibleBuildingEntity : "{1EB7F56F2D294872}Prefabs/Structures/Infrastructure/Naval/Sheds/BoatShed_01/BoatShed_01_weathered.et" {
  coords 5340.561 -0.461 6477.006
 }
 GenericEntity : "{2388B1191C18B4F7}Prefabs/Props/Dst/Fireplace.et" {
  coords 5332.397 80.437 6495.173
+}
+$grp GenericEntity : "{2887E99075B9C929}Prefabs/Trash/musor_plane/Litter_01_long.et" {
+ {
+  coords 5370.438 80.534 6473.76
+  angles 0 -27.68 0
+ }
+ {
+  coords 5369.925 80.534 6475.108
+  angles 0 0 0
+ }
+}
+GenericEntity : "{2AF06FFF3A7AC6D7}Prefabs/Props/Civilian/Trash/TrashContainer_Blue.et" {
+ coords 5360.613 -0.042 6471.506
+ angles 0 45.191 0
 }
 SCR_DestructibleBuildingEntity : "{2E7E6AB7CDDF9FC9}Prefabs/Structures/Infrastructure/Rail/Other/RailwayTunnelPortal/RailwayTunnelPortal_NoTerrain.et" {
  coords 5375.61 -0.224 6523.349
@@ -43,6 +61,15 @@ SCR_DestructibleBuildingEntity : "{2E7E6AB7CDDF9FC9}Prefabs/Structures/Infrastru
    coords 0 2.75 12.5
   }
  }
+}
+GenericEntity : "{3244854FF3798E1C}Prefabs/Props/SHELTER/ARMST_ACTION_SHELTER.et" {
+ coords 5367.729 80.454 6472.585
+ angles 0 -135.829 0
+ scale 1.425
+}
+GenericEntity : "{32DE30B02A04B844}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Corner_BarbedWire_USSR_01.et" {
+ coords 5367.804 80.437 6480.114
+ angles 0 49.965 0
 }
 $grp SCR_JunctionPowerPole : "{423EDC5895441FD2}Prefabs/Structures/Infrastructure/Power/Powerlines/PowerLine_EHV_01/PowerLine_EHV_01_junction.et" {
  {
@@ -57,6 +84,17 @@ $grp SCR_JunctionPowerPole : "{423EDC5895441FD2}Prefabs/Structures/Infrastructur
   coords 5284.392 0 6541.931
   angles 0 -90 0
  }
+}
+GenericEntity : "{4430B9A494F2C7F0}Prefabs/LOOT_BOX/base/garbarages/Loot_garbarages_trash.et" {
+ coords 5370.596 80.438 6482.883
+}
+SCR_DestructibleBuildingEntity : "{4F501ADD2C28BFC3}Prefabs/Structures/Military/Bunkers/ShelterMilitary_E_01/ShelterMilitary_E_01_base.et" {
+ coords 5368.21 0 6474.557
+ angles 0 -45.301 0
+}
+GameEntity : "{5EC10C92B8C82E69}Prefabs/Method/Props/Camps/Fireplace_Loiters_03.et" {
+ coords 5365.273 80.438 6487.496
+ angles 0 151.523 0
 }
 GenericEntity : "{6847B4411BBEEBDE}Prefabs/Structures/Infrastructure/Rail/Old/platform.et" {
  coords 5266.454 84.533 6598.841
@@ -85,6 +123,9 @@ $grp StaticModelEntity : "{7022F1A36DC9510C}Prefabs/Structures/BuildingParts/Ent
  {
   coords 5242.664 87.333 6555.805
  }
+}
+GenericEntity : "{76C7564FF4C92FE5}Prefabs/LOOT_BOX/base/garbarages/Loot_garbarages_trash_2.et" {
+ coords 5361.301 80.438 6477.876
 }
 GenericEntity : "{7A4BF71C3D8BD2BB}Prefabs/Props/Industrial/Train/loco_chme3/loco_chme3_old.et" {
  coords 5281.276 84.347 6605.575
@@ -126,6 +167,14 @@ $grp GenericEntity : "{7E47033728884167}Prefabs/Structures/Debris/ConcreteDebris
   scale 3.8
  }
 }
+GenericEntity : "{7F59A8D992FBF5CA}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_base.et" {
+ coords 5373.394 80.534 6474.8
+ angles 0 135.58 0
+}
+GenericEntity : "{811C18BEC8B8B245}Prefabs/Props/Commercial/CabinetCardFile_01/CabinetCardFile_01_green.et" {
+ coords 5371.972 80.534 6473.042
+ angles 0 -45.955 0
+}
 SCR_DestructibleBuildingEntity : "{907785E055892393}Prefabs/Structures/Industrial/Cranes/CoalLoader_01/CoalLoader_01_bridge_metal_base.et" {
  coords 3511.42 -14.172 6659.34
  angles 0 -75 0
@@ -140,8 +189,16 @@ GenericEntity : "{96F5A0F00A454775}Prefabs/Props/Industrial/CrawlerCraneWreck_01
  coords 5176.386 101.566 6458.412
 }
 GenericEntity : "{96FEC29379CC13FE}Prefabs/Props/Industrial/Train/wagon_box/wagon_box_base.et" {
- coords 5373.673 81.05 6523.292
+ coords 5368.824 81.05 6523.292
  angles 0 -90 0
+}
+$grp GenericEntity : "{985C3871D40C7F7C}Prefabs/Trash/musor_plane/Litter_01_small.et" {
+ {
+  coords 5370.125 80.534 6475.986
+ }
+ {
+  coords 5369.087 80.534 6474.359
+ }
 }
 $grp SCR_DestructibleEntity : "{9AF7F0D12654FE0A}Prefabs/Structures/walls/Brick/Brickwall02 Civilian.et" {
  {
@@ -413,8 +470,22 @@ $grp GenericEntity : "{A8D8015D0E2B600A}Prefabs/Props/Garbage/Generic/Junk_01/Ju
   angles 0 -113.935 0
  }
 }
+$grp GenericEntity : "{A924939DC9CB318C}Prefabs/Props/Commercial/CabinetCardFile_01/CabinetCardFile_01_grey.et" {
+ {
+  coords 5371.625 80.534 6472.698
+  angles 0 -45.332 0
+ }
+ {
+  coords 5372.314 80.534 6473.394
+  angles 0 -46.179 0
+ }
+}
 GenericEntity : "{A9CF5E8C5D91C476}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Group_Crate_01.et" {
  coords 5323.143 80.438 6484.144
+}
+GenericEntity : "{AB20D9AAA9D85122}Prefabs/Props/Airport/RunwayLightPortable_01_red.et" {
+ coords 5367.047 83.736 6476.173
+ angles -89.664 -153.685 108.756
 }
 $grp GenericEntity : "{B1E7AF8CE0E6828D}Prefabs/Scientists/Bunker_Modul_Small/science_tower_destr.et" {
  Scorcher {
@@ -473,14 +544,35 @@ GenericEntity : "{B224FD858D9E28C3}Prefabs/Structures/Infrastructure/Rail/Old/ra
  coords 5299.729 83.75 6537.104
  angles 0 -15 0
 }
+GenericEntity : "{B51CE80A9EEF7E00}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Barricade_USSR_01.et" {
+ coords 5362.847 80.438 6474.977
+ angles 0 -48.31 0
+}
 SCR_DestructibleBuildingEntity : "{B5B9FC266B939D0E}Prefabs/Structures/Industrial/Cranes/GantryCrane_01/GantryCrane_01_base.et" {
  coords 5281.386 0 6583.591
  angles 0 180 0
  scale 1.26
 }
+GenericEntity : "{BE384DC07D8C8250}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Desk_USSR_03.et" {
+ coords 5370.568 80.534 6471.819
+ angles 0 -45.695 0
+}
 SCR_DestructibleBuildingEntity : "{CD370ECB385DE67A}Prefabs/Structures/Houses/Farm/FarmHouse_E_1L01/FarmHouse_E_1L01.et" {
  coords 5245.806 0.337 6499.084
  angles 0 -180 0
+}
+GenericEntity : "{CF92D5CE4EC7F917}Prefabs/Props/Military/Radios/RadioStation_RF10/RadioStation_RF10.et" {
+ coords 5371.013 81.436 6472.159
+ angles 0 -45.525 0
+}
+$grp GenericEntity : "{D19D5E8950BC4DD1}Prefabs/Props/Furniture/ChairOffice_01.et" {
+ {
+  coords 5369.957 80.534 6472.303
+  angles 0 16.579 0
+ }
+ {
+  coords 5371.026 80.534 6477.39
+ }
 }
 $grp SCR_DestructibleBuildingEntity : "{DA18BC3C9738C614}Prefabs/Industrial/builds/bitovka_wheels.et" {
  {
@@ -510,6 +602,15 @@ $grp GenericEntity : "{EF380F97E155CAB5}Prefabs/Structures/Infrastructure/Rail/O
  {
   coords 5281.148 83.75 6582.004
  }
+}
+GenericEntity : "{F7CFDAC4BDDB42F3}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Desk_FIA_01_Logistics.et" {
+ coords 5371.195 80.534 6478.039
+ angles 0 -137.434 0
+}
+GenericEntity : "{F8AFAB93F4FC5A7D}Prefabs/destructible/door_hard/door_hard_1.et" {
+ coords 5365.846 79.966 6475.163
+ angles 0 -44.551 0
+ scale 0.779
 }
 $grp GenericEntity : "{FA4A4DA883B827FC}Prefabs/Structures/Infrastructure/Rail/New/Terrain/rails_25_new_T.et" {
  {

@@ -89660,6 +89660,10 @@ $grp SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Hous
   angles 0 -85.261 0
  }
  {
+  editor EntityEditorProps "{6AD36AEC7B79AEEC}" {
+   Visible 1
+   Color 1 0 0 1
+  }
   coords 3521.072 0 5363.708
   angles 0 -86.15 0
  }
@@ -91989,10 +91993,17 @@ $grp SCR_DestructibleBuildingEntity : "{A2D1DD531096D192}Prefabs/Structures/Hous
   angles 0 -85.92 0
  }
  {
+  editor EntityEditorProps "{6AD36AEC612E82CB}" {
+   Visible 1
+   Color 1 0 0 1
+  }
   coords 3560.363 0 5361.819
   angles 0 -85.92 0
  }
  {
+  editor EntityEditorProps "{6AD36AEA64888C5A}" {
+   Color 1 0 0 1
+  }
   coords 3604.189 0 5357.966
   angles 0 -85.92 0
  }
@@ -92763,6 +92774,14 @@ $grp GameEntity : "{EE5C0DF8F62CE5E6}Prefabs/Method/Props/Camps/Fireplace_Loiter
  {
   coords 3488.25 40 5359.065
   angles 0 -35.489 0
+  {
+   GenericEntity {
+    ID "6730699F3D239949"
+    editor EntityEditorProps "{6AD36AEA18ECE00F}" {
+     Color 1 0 0 1
+    }
+   }
+  }
  }
  {
   coords 3401.046 40 5369.325
@@ -92784,7 +92803,7 @@ $grp SCR_DestructibleBuildingEntity : "{EE6B95EB59D4CFFF}Prefabs/Structures/Indu
  }
 }
 Tree : "{F0B4F9601CEF4BE3}Prefabs/Vegetation/Tree/t_alnus_glutinosa/t_alnus_glutinosa_3s.et" {
- coords 6673.683 -0 2507.215
+ coords 6673.683 0 2507.215
 }
 $grp StaticModelEntity : "{F2415A706EED436C}Prefabs/Structures/Infrastructure/Pavements/AsphaltPavement_01/AsphaltPavement_01_Narrow_4m_B.et" {
  {
