@@ -1178,8 +1178,8 @@ SCR_DestructibleBuildingEntity : "{00D9E37F8064CE03}Prefabs/Structures/City/TP.e
 }
 SCR_DestructibleBuildingEntity : "{07814673B75CDCFB}Prefabs/Structures/Industrial/Houses/BoilerHouse_E_02/BoilerHouse_E_02.et" {
  Flags 0 0x80000
- coords 6704.452 30 2372.801
- angles 0 -88.8 0
+ coords 6674.101 30 2445.44
+ angles 0 -178.475 0
  {
   Building {
    ID "61469AE06C58A37F"
@@ -1589,7 +1589,7 @@ SCR_DestructibleBuildingEntity : "{07814673B75CDCFB}Prefabs/Structures/Industria
   SCR_DestructibleBuildingEntity {
    ID "6162C1AAD1CB4504"
    Flags 0 0x80000
-   coords -4.001 0 10.5
+   coords -4.001 0 10.501
    {
     EnvironmentProbeEntity {
      ID "5E9ABB7EA8E9C5F5"
@@ -2112,6 +2112,16 @@ $grp SCR_DestructibleBuildingEntity : "{1AB3F8B3F8CA860D}Prefabs/Structures/Hous
 }
 GameEntity : "{1B1B80B11EA3FBA0}Prefabs/Method/Props/Camps/Fireplace_Loiters_03_temp.et" {
  coords 6604.251 28 2145.563
+}
+$grp GenericEntity : "{1BB0633770BD058D}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_UCH.et" {
+ {
+  coords 6671.111 30.217 2522.141
+  angles 0 -0.23 0
+ }
+ {
+  coords 6670.944 30.228 2511.889
+  angles 0 -0.012 0
+ }
 }
 $grp SCR_DestructibleBuildingEntity : "{1C87C72319097FC1}Prefabs/Structures/Walls/Concrete/ConcreteRetainingWall_01/ConcreteRetainingWall_01_4m.et" {
  {
@@ -3622,7 +3632,7 @@ $grp GenericEntity : "{7E3F6F5A6BAEC717}Prefabs/Props/Industrial/CargoContainers
 }
 SCR_DestructibleBuildingEntity : "{80A5B37A1472B084}Prefabs/Structures/Industrial/Garages/Garage_E_02/Garage_E_02.et" {
  Flags 0 0x80000
- coords 6704.66 30 2443.739
+ coords 6701.77 30 2423.477
  angles 0 -88.547 0
  {
   Building {
@@ -3976,6 +3986,16 @@ $grp SCR_DestructibleBuildingEntity : "{93710009B66143C7}Prefabs/Structures/Comm
 GenericEntity : "{939E032C3B6E837A}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_02_20ft_Chernarussian.et" {
  coords 6508.065 30.656 2430.717
  angles 11.802 76.877 0
+}
+$grp StaticModelEntity : "{94021BCA593A8CFF}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Wide.et" {
+ {
+  coords 6667.76 30.077 2508.843
+  angles 0 179.378 0
+ }
+ {
+  coords 6669.371 30.073 2508.86
+  angles 0 179.378 0
+ }
 }
 SCR_DestructibleBuildingEntity : "{9402B7A68307F489}Prefabs/Structures/Industrial/Cranes/GantryCrane_03/GantryCrane_03.et" {
  coords 6616.527 -1.368 2097.986
@@ -6817,6 +6837,16 @@ $grp GenericEntity : "{BCE56C835FE15478}PrefabLibrary/DefaultLibrary/Props/Indus
   angles 2.556 -112.76 2.879
  }
 }
+$grp GenericEntity : "{BE81F551BAB5FEE5}Prefabs/Structures/BuildingParts/Doors/Door_Frame_Bunker.et" {
+ {
+  coords 6670.421 30.101 2522.121
+  angles 0 -0.23 0
+ }
+ {
+  coords 6670.251 30.106 2511.87
+  angles 0 -0.012 0
+ }
+}
 $grp GenericEntity : "{C1868B74D5A0C96E}Prefabs/Props/Military/CargoContainers/CargoContainer_01_20ft_USSR_ammo.et" {
  {
   coords 6557.866 30 2405.377
@@ -7051,7 +7081,7 @@ SCR_DestructibleBuildingEntity : "{CFF7F6F7042AFFEF}Prefabs/Structures/Industria
 }
 SCR_DestructibleBuildingEntity : "{D7E10C4817AACA2D}Prefabs/Structures/Fabrica/Fabrica_Full.et" {
  Flags 0 0x80000
- coords 6653.046 30 2407.776
+ coords 6636.598 30 2437.886
  angles 0 90.812 0
  {
   SCR_DestructibleBuildingEntity {
@@ -7075,6 +7105,11 @@ SCR_DestructibleBuildingEntity : "{D7E10C4817AACA2D}Prefabs/Structures/Fabrica/F
    coords 0 0 0
   }
  }
+}
+SCR_DestructibleBuildingEntity : "{D7FFDD37FB788DD1}Prefabs/Structures/Undeground/Collector/Collector_Post.et" {
+ coords 6668.802 -0.131 2517.11
+ angles 0 -89.092 0
+ scale 0.825
 }
 $grp GenericEntity : "{DB403F1A9E7B0B4F}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_40ft_red.et" {
  {
