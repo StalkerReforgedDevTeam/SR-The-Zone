@@ -84,7 +84,7 @@ $grp GenericEntity : "{5065DCC9B9245271}Prefabs/ZBK/Props/RoadBlock/RoadBlockEnd
  }
 }
 SCR_DestructibleBuildingEntity : "{590ED35366E3B6CB}Prefabs/Structures/Industrial/Guindaste_Velho.et" {
- coords 5189.085 -0.43 6480.849
+ coords 5190.89 -46.861 6529.448
  angles 0 92.127 0
 }
 SCR_DestructibleBuildingEntity : "{59F45612D29F6DDA}Prefabs/Structures/Industrial/Barris_Tampado1.et" {
@@ -114,7 +114,7 @@ SCR_DestructibleBuildingEntity : "{68323FD8F0B2AFB3}Prefabs/Structures/Diversos/
  coords 5279.565 -0.001 6432.998
 }
 GenericEntity : "{6A17492BABB61EB6}PrefabLibrary/MineTunnel/MineTunnel_01.et" {
- coords 5305.541 80.443 6469.856
+ coords 5305.613 80.443 6469.854
  angles 0 92.037 0
 }
 GenericEntity : "{6A233DC44850C7DF}Prefabs/Structures/BuildingParts/Graffiti/MonolithStencil1.et" {
@@ -145,8 +145,8 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
    Enabled 0
   }
  }
- coords 5375.61 -0.224 6523.349
- angles -4.854 90 0
+ coords 5367.643 0.305 6523.349
+ angles -7.62 90 0
  scale 0.83
 }
 GenericEntity : "{B496AC9BEE590838}Prefabs/Compositions/Misc/SubCompositions/Utility/Shelves_GeneralStorage_01.et" {
@@ -164,6 +164,11 @@ GenericEntity : "{C93D17434595397D}Prefabs/ZBK/Props/Pipe/Pipe8m_Bridge.et" {
 }
 GenericEntity : "{C97B6550A4C363E1}Prefabs/ZBK/Props/RoadBlock/RoadBlockEnd1m.et" {
  coords 5374.006 85 6444.576
+}
+GenericEntity : "{CE11D374B3974BD2}PrefabLibrary/Corridor/Corridor_Big_Collapsed_01.et" {
+ coords 6626.966 14.868 5658.494
+ angles 0 -94.028 0
+ scale 5.4
 }
 SCR_DestructibleBuildingEntity : "{D03C2E0B62BE759F}Prefabs/Structures/Industrial/Barris_Tampado3.et" {
  coords 5287.75 0 6431.723
@@ -205,6 +210,10 @@ GenericEntity : "{E7B9D08AA65270BE}Prefabs/Vehicles/gaz66/armst_gaz66_box.et" {
 GenericEntity : "{EB06BAAC4A3209ED}Prefabs/Props/Dst/BoxPile_02.et" {
  coords 5290.183 84.411 6435.035
 }
+GenericEntity : "{F971B612CD2CA718}Prefabs/Vehicles/mi8/armst_mi6_wreck.et" {
+ coords 5205.136 90.608 6527.114
+ angles 28.01 89.221 -27.912
+}
 $grp SCR_DestructibleBuildingEntity : "{FB616EA1B3915D91}Prefabs/Structures/Diversos/Placa_Danger.et" {
  {
   coords 5412.589 0 6676.697
@@ -245,5 +254,81 @@ $grp SCR_DestructibleBuildingEntity : "{FD1CE2903D41D4A7}Prefabs/Structures/Wall
   coords 5422.037 72.305 6694.416
   angles 3.537 -44.891 1.196
   scale 3.9
+ }
+ {
+  coords 5239.868 80.973 6520.818
+  angles 0 0 0
+ }
+ {
+  coords 5247.669 80.973 6520.818
+  angles 0 0 0
+ }
+ {
+  coords 5263.329 80.973 6520.818
+  angles 0 0 0
+ }
+ {
+  coords 5255.52 80.973 6520.818
+  angles 0 0 0
+ }
+ {
+  coords 5271.063 80.973 6520.818
+  angles 0 0 0
+ }
+ {
+  coords 5278.995 80.973 6520.818
+  angles 0 0 0
+ }
+ {
+  coords 5281.167 80.973 6520.818
+  angles 0 0 0
+ }
+ {
+  coords 5239.868 80.973 6525.844
+  angles 0 0 0
+ }
+ {
+  coords 5247.836 80.973 6525.844
+  angles 0 0 0
+ }
+ {
+  coords 5255.771 80.973 6525.844
+  angles 0 0 0
+ }
+ {
+  coords 5263.721 80.973 6525.844
+  angles 0 0 0
+ }
+ {
+  coords 5268.269 80.973 6525.844
+  angles 0 0 0
+ }
+ {
+  coords 5231.97 80.373 6527.083
+  angles 0 0 0
+ }
+ {
+  coords 5224.051 80.373 6527.083
+  angles 0 0 0
+ }
+ {
+  coords 5216.507 80.373 6527.083
+  angles 0 0 0
+ }
+ {
+  coords 5213.281 80.373 6523.865
+  angles 0 90.322 0
+ }
+ {
+  coords 5232.145 80.397 6519.471
+  angles 0 0 0
+ }
+ {
+  coords 5224.435 80.397 6519.471
+  angles 0 0 0
+ }
+ {
+  coords 5216.428 80.397 6519.471
+  angles 0 0 0
  }
 }
