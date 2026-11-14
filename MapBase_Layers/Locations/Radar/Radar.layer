@@ -1,12 +1,3 @@
-GenericEntity {
- components {
-  MeshObject "{6A7146294A0694DD}" {
-   Object "{F1577E21C32AA9FA}Models/Factory/ConcreteFactory/ConcreteFactory.xob"
-  }
- }
- coords 5192.539 83.375 6490.711
- angles 0 -90 0
-}
 GenericEntity : "{03234616CDFE554E}Prefabs/Structures/Infrastructure/Rail/Old/rails_curve_L25_10.et" {
  coords 5281.886 83.75 6577.456
  angles 0 171.852 0
@@ -55,12 +46,6 @@ SCR_DestructibleBuildingEntity : "{2E7E6AB7CDDF9FC9}Prefabs/Structures/Infrastru
  coords 5375.61 -0.224 6523.349
  angles -4.854 90 0
  scale 0.83
- {
-  GameEnvironmentProbeEntity {
-   ID "60612D6A3F1959BB"
-   coords 0 2.75 12.5
-  }
- }
 }
 GenericEntity : "{3244854FF3798E1C}Prefabs/Props/SHELTER/ARMST_ACTION_SHELTER.et" {
  coords 5367.729 80.454 6472.585
@@ -590,7 +575,7 @@ $grp SCR_DestructibleBuildingEntity : "{DA18BC3C9738C614}Prefabs/Industrial/buil
  }
 }
 GenericEntity : "{E39B0BE1F92E92B1}Prefabs/Props/Industrial/Train/loco_chme3/loco_chme3_red.et" {
- coords 5228.819 81.052 6523.431
+ coords 5226.707 80.983 6523.431
  angles 0 90 0
 }
 $grp GenericEntity : "{EF380F97E155CAB5}Prefabs/Structures/Infrastructure/Rail/Old/railsN_25.et" {
@@ -679,11 +664,6 @@ $grp SCR_DestructibleBuildingEntity : "{FF4D386515F942C0}Prefabs/Structures/Infr
  {
   coords 5266.376 81.119 6520.609
   angles 0 -90 0
-  scale 0.466
- }
- {
-  coords 5274.725 79.95 6520.57
-  angles 45 -90 0
   scale 0.466
  }
  {
